@@ -1,4 +1,4 @@
-# Two Sides of the Same Coin (ICAIF 2025) — Dual Narrative Analysis (DNA)
+# Two Sides of the Same Coin: How LLMs Reveal Dual Narratives in Annual Reports
 
 This repository is a **reproducibility-oriented codebase scaffold** for the ICAIF’25 paper:
 
