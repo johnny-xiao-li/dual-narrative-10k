@@ -82,7 +82,7 @@ python scripts/backtest.py --config configs/default.yaml
 ├── outputs/
 │   ├── scores/            # JSON outputs + aggregated tables
 │   └── plots/             # figures generated from analysis
-├── presentation/          # Oral presentation .pptx
+├── slides/          # Oral presentation .pptx
 └── notebooks/             # optional exploration
 ```
 
