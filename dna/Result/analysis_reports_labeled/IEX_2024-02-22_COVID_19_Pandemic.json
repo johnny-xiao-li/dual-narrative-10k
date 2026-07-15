@@ -1,0 +1,106 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "IEX’s 2024 Form 10-K situates pandemic risk within a broader catalogue of operational and macro-economic threats. The company no longer frames COVID-19 as an acute crisis, but it still recognises lingering and future public-health-driven disruptions—chiefly to raw-material availability, global demand patterns and supply-chain continuity. The language is largely forward-looking and contingency-oriented (“may”, “could”), signalling that management views pandemic effects as a potential recurring shock rather than a continuously material hit in 2023. One key sentence, however, explicitly acknowledges that COVID-19 previously caused supply-chain stress, confirming the company has first-hand experience of impact. Because the filing date (February 2024) falls roughly four years after the WHO declared COVID-19 a pandemic (March 2020), the Time Decay Principle caps the severity to a mid-band level: risks are persistent but no longer peak. Overall, the disclosures merit moderate concern—stronger than generic boilerplate because they tie public-health events to specific operational levers (supply chain, consumer behaviour, labour, pricing), yet weaker than an immediate, quantified loss statement. Accordingly, individual snippet scores fall in the 2-6 range, reflecting a medium-term, still-relevant but not crisis-level threat profile.",
+        "evidence_list": [
+            {
+                "snippet": "The availability of and prices for raw materials, parts and components may be subject to curtailment or change due to, among other things, ... public health concerns, changes in exchange rates and prevailing price levels.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links supply-chain availability and input prices to ‘public health concerns,’ establishing a clear operational vulnerability.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers both availability and cost dimensions, broadening the potential impact scope.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses ‘may’ framing, signalling uncertainty rather than an existing impairment.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Employs ‘materially adversely affect’ language, indicating potential severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Moderate (3/10) because it flags a material supply-chain and cost risk tied to public-health events, but is generic and conditional."
+            },
+            {
+                "snippet": "Additionally, public health threats may negatively impact the global economy by causing changes in consumer behavior, market downturns, restrictions on business and individual activities and increased volatility.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects public-health threats to macro-economic deterioration, highlighting demand-side risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists multiple concrete consequences (consumer behaviour shifts, activity restrictions), showing breadth of impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional ‘may’, reflecting forward-looking uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Scores 3/10: articulates several wide-ranging pandemic effects but remains unquantified and hypothetical."
+            },
+            {
+                "snippet": "Any widespread public health threats could have a significant impact on the Company’s supply chain, such as the Company experienced during the global outbreak of the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly references the company’s own experience during the COVID-19 pandemic, converting risk from hypothetical to historically demonstrated.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Targets the critical supply-chain channel, a core operational dependency.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses the qualifier ‘significant impact,’ signalling high potential severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Highest evidence weight (6/10) because it affirms a past, significant COVID-related supply-chain disruption and warns of repeatability."
+            },
+            {
+                "snippet": "• geopolitical events, including natural disasters, catastrophic weather events, climate change, public health conditions, including epidemics, pandemics and other outbreaks (such as the global outbreak of the COVID-19 pandemic), political instability or other geopolitical events, including civil or political unrest, terrorism, insurrection or war.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘epidemics, pandemics and other outbreaks (such as the global outbreak of the COVID-19 pandemic)’ among material geopolitical risks.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Placement within a catalogue of serious geopolitical hazards signals materiality.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generic enumeration without detailing mechanisms or impacts.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Low score (1/10) as it merely name-checks pandemics within a broad risk list with no specific impact discussion."
+            }
+        ],
+        "calculated_score": 13,
+        "average_severity": 3.25
+    }
+]

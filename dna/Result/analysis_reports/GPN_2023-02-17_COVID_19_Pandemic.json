@@ -1,0 +1,193 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "GPN’s 2023-02-17 filing presents COVID-19 as both an historical shock and a continuing, multifaceted risk.  Several passages acknowledge that the pandemic has already produced measurable harm—slowing economic activity in the company’s markets and weakening merchant viability—while warning that further disruptions remain plausible via new variants, persistent macro-economic after-effects, continuing supply-chain bottlenecks, labour-cost pressures and tighter capital markets.  The disclosures are largely qualitative; no dollar amounts are attached, but management repeatedly uses strong language such as “materially adversely affected” and notes specific operational domains at risk (merchant credit, M&A pipeline, supply-chain for hardware, financing access).  Because the filing date is less than three years after the WHO declaration (March 2020), the Time Decay Principle allows high but not automatic maximum scores: evidence describing concrete, already-realised impacts earns upper-mid scores (7-8), while generic or merely potential statements rank lower (2-5).  Overall, the pandemic remains a significant and active risk factor for GPN, with limited mitigation noted beyond general monitoring; hence the aggregate risk profile is elevated but not catastrophic.",
+        "evidence_list": [
+            {
+                "snippet": "Our systems and operations or those of our third-party providers could be exposed to damage or interruption from, among other things, fire, climate-related events, including extreme weather events, natural disasters, pandemics, power loss, telecommunications failure, terrorist acts, war, unauthorized entry, malicious attack, human error, and computer viruses or other defects.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics as a threat vector to critical systems and operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic, bundled with many unrelated hazards, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mentions pandemics only in a broad laundry list with no company-specific impact; minimal aggravation yields a low score."
+            },
+            {
+                "snippet": "There is also a risk that third-party suppliers of hardware and infrastructure required to support our employee productivity or our suppliers could be affected by supply chain disruptions, such as manufacturing and shipping delays.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights supply-chain disruptions that can hinder operations—a commonly observed pandemic consequence.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Directly addresses supply-chain vulnerability; no explicit COVID link or quantified impact, so score is moderate-low."
+            },
+            {
+                "snippet": "An extended supply chain disruption could also affect the delivery of our services.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects supply-chain disruption to service delivery risk.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows operational consequence of prolonged disruption, but still hypothetical and unquantified."
+            },
+            {
+                "snippet": "Additionally, the COVID-19 pandemic, as well as macroeconomic conditions such as rising inflation and higher costs for labor and supplies, have negatively affected or may continue to affect the financial viability and operations of certain merchants.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that COVID-19 has already caused negative effects (‘have negatively affected’) on merchant viability.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Warns of ongoing and future impact (‘may continue to affect’).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Provides concrete acknowledgement of realised and continuing harm to core customers; high recent-event relevance earns a strong score."
+            },
+            {
+                "snippet": "Our ability to acquire other businesses or technologies, make strategic investments or integrate acquired businesses effectively may also be impaired by the effects of the COVID-19 pandemic, adverse financial conditions, trade tensions and increased global scrutiny of foreign investments.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic effects to impairment of strategic growth activities (M&A, investments).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Risk phrased as ‘may’—forward-looking and unquantified.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Highlights a specific corporate function (acquisitions) at risk; medium-high severity without numeric detail."
+            },
+            {
+                "snippet": "In addition, our business, growth, financial condition or results of operations could be materially adversely affected by outbreaks of illnesses, pandemics like COVID-19 or other political and economic instability or changes in a country’s or region’s economic conditions, changes in laws or regulations or in the interpretation of existing laws or regulations, whether caused by a change in government or otherwise, increased difficulty of conducting business in a country or region due to actual or potential political or military conflict or action by the United States or foreign governments that may restrict our ability to transact business in a foreign country or with certain foreign individuals or entities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses strong phrase ‘materially adversely affected’ to describe potential COVID-19 impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Contingent (‘could’), broadens to many other geopolitical risks, lowering specificity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Strong wording but hypothetical and diluted by other risk categories results in a mid-range score."
+            },
+            {
+                "snippet": "Although the immediate effects of the COVID-19 pandemic have been assessed, the long-term effects of the COVID-19 pandemic on our business, results of operations, financial condition and cash flows will depend on future developments, which are highly uncertain and are difficult to predict at this time.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges inability to predict long-term pandemic consequences across multiple financial dimensions.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicitly notes high uncertainty, which accentuates, rather than mitigates, risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Emphasises uncertainty around lingering impacts, sustaining a significant but unquantified risk level."
+            },
+            {
+                "snippet": "Such developments include, but are not limited to, the effectiveness of preventative measures implemented to help limit the spread of the virus, including vaccine administration rates and efficacy, emergence of new virus variants and new waves of infection and the direction or extent of future restrictive actions that may be imposed by governments or public health authorities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete variables (vaccines, variants, restrictions) that influence future business risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Still framed as contingent factors with no direct company metric attached.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides specificity about risk drivers but remains conditional; earns a modest score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic caused an economic slowdown in the U.S. and other markets in which we operate.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges a realised, company-wide adverse economic impact due to the pandemic.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Statement is broad and qualitative, lacking financial quantification.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Directly links pandemic to broad economic harm across operating regions; strong but unquantified evidence."
+            },
+            {
+                "snippet": "It may also continue to affect financial markets and corporate credit markets which could adversely affect our access to financing or the terms of any such financing.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies ongoing pandemic impact on capital market access and financing costs.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Conditional language (‘may’, ‘could’) signals uncertainty.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Highlights a specific financial vulnerability (funding) with forward-looking risk; moderate-high seriousness."
+            },
+            {
+                "snippet": "Moreover, the global macroeconomic effects of the pandemic may persist for an indefinite period, even after the pandemic has subsided.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Signals that pandemic fallout could be prolonged and indefinite, extending risk horizon.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "No concrete metrics or mitigation mentioned.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Stresses longevity of pandemic-driven macro risks; solid aggravation but still qualitative."
+            }
+        ],
+        "calculated_score": 54,
+        "average_severity": 4.909090909090909
+    }
+]

@@ -1,0 +1,141 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Johnson & Johnson’s 2024-02-16 Form 10-K positions the COVID-19 pandemic as an example of a broader category of “global health crises.”  The filing acknowledges that COVID-19 already caused tangible harm—lower sales and reduced customer demand—while emphasizing that future outbreaks could again disrupt manufacturing, supply-chain, marketing and clinical-trial activities.  The language blends backward-looking impact (an actual hit to revenues) with forward-looking uncertainty (possible further disruptions requiring changes to business practices).  Mitigating disclosures (business-continuity plans) are noted but explicitly caveated as potentially insufficient.  Because the core event (pandemic declared March 2020) is now roughly four years old, the Time-Decay Principle places the evidence in the “medium-term” bucket: scores should generally fall in the 4-6 range for the strongest snippets, with generic or heavily mitigated statements scoring lower.  Overall, the document presents a moderate, still-salient risk: the company experienced real impacts, sees continuing exposure in key operational areas, but also has mitigation strategies that temper—rather than eliminate—the threat.",
+        "evidence_list": [
+            {
+                "snippet": "Global health crises, pandemics, epidemics, or other outbreaks could adversely disrupt or impact certain aspects of the Company’s business, results of operations and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly identifies pandemics as a threat that can disrupt business and financial condition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong adverse wording ('adversely disrupt or impact').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Statement is broad and generic, not COVID-19-specific.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Provides a clear but generic warning; no event-specific detail keeps score low-moderate."
+            },
+            {
+                "snippet": "We are subject to risks associated with global health crises, epidemics, pandemics and other outbreaks (such incident(s), a health crisis or health crises).",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Affirms the company is presently exposed ('subject to risks') to pandemics.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic framing with no impact detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Acknowledges exposure but offers no specifics; minimal incremental risk information."
+            },
+            {
+                "snippet": "For example, the COVID-19 pandemic adversely impacted certain aspects of the Company’s business, results of operations and financial condition, including lower sales and reduced customer demand and usage of certain of our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct reference to COVID-19 as the causal event.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States an actual, realized adverse impact on business and financial condition.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specific operational effects cited (lower sales, reduced demand).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Time-decay adjustment for a four-year-old impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Most concrete linkage to COVID-19 with clear past damage; moderated to 5 by medium-term timing."
+            },
+            {
+                "snippet": "The spread of any health crises may cause the Company to modify its business practices, and take further actions as may be required by government authorities or as the Company determines are in the best interests of our patients, customers, employees and business partners under such circumstances.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights operational disruptions (business-practice modifications, government-mandated actions).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Use of conditional 'may' indicates uncertainty and forward-looking nature.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Signals potential future disruptions but is speculative and therefore scores low."
+            },
+            {
+                "snippet": "While the Company has robust business continuity plans in place across our global supply chain network designed to help mitigate the impact of health crises, these efforts may not completely prevent our business from being adversely affected in the event of a health crisis.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges residual risk despite mitigation ('may not completely prevent').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presence of continuity plans is a mitigating factor.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Contains both mitigation and residual exposure; net effect is a small positive risk score."
+            },
+            {
+                "snippet": "Health crises could adversely impact the Company’s operations, including, among other things, our manufacturing operations, supply chain, third-party suppliers, sales and marketing, and clinical trial operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple critical operational areas that could be hit.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses conditional language 'could', indicating potential not certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Specifies breadth of potential disruption, but still hypothetical; yields modest score."
+            },
+            {
+                "snippet": "Any of these factors could adversely affect the Company’s business, financial results, and global economic conditions generally.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects operational disruptions to broader financial harm.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Adds little new detail beyond prior sentences; minimal incremental risk weight."
+            }
+        ],
+        "calculated_score": 13,
+        "average_severity": 1.8571428571428572
+    }
+]

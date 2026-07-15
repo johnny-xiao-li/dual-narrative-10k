@@ -1,0 +1,142 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The 2022 Form 10-K portrays COVID-19 as both an historical and continuing threat to Applied Materials (AMAT).  Management discloses that the pandemic has already produced tangible, adverse effects—most notably supply-chain bottlenecks, shipment delays, higher logistics costs, workforce constraints and an erosion of global demand—and that these pressures are likely to persist because of recurring lockdowns, new variants and macro-economic feedback loops.  The language is largely qualitative and un-quantified, yet it is explicit about past harm (\"have adversely impacted\") and forward-looking exposure (\"may continue to adversely impact\").  Because the filing date (Dec-2022) is well within three years of the pandemic’s onset, the Time-Decay Principle allows elevated severity scores.  Overall, the risk profile is high: multiple direct operational hits have already occurred, the duration is open-ended, and no decisive mitigating controls are cited beyond generic flexibility initiatives.  Consequently, evidence sentences generally fall in the 6-8 point range, reflecting a material, recent and ongoing enterprise-wide threat.",
+        "evidence_list": [
+            {
+                "snippet": "The continued effects of the COVID-19 pandemic and global measures taken in response have adversely impacted, and may continue to adversely impact, Applied’s operations and financial results.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms that COVID-19 has already harmed operations and financial results (realised impact).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicitly warns of ongoing future harm ('may continue').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Event is recent (0-3 yrs), so no time-decay reduction.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Directly links past and future adverse effects to COVID-19, warranting a high severity score of 7."
+            },
+            {
+                "snippet": "Moreover, lockdowns that may from time to time be imposed in various geographic regions in response to periodic spikes in COVID-19 cases and related travel and logistics restrictions may result in additional supply chain and transportation disruptions, production delays, capacity limitations and cost increases.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details a causal mechanism (lockdowns) tied specifically to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Enumerates multiple operational impacts: supply-chain disruption, delays, capacity limits, cost inflation.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking conditional language ('may result') adds uncertainty but still reflects risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Lists several concrete operational threats arising from pandemic-related lockdowns; moderate-high score of 6."
+            },
+            {
+                "snippet": "Travel and logistics restrictions, lockdowns, vaccine requirements and other measures from time to time implemented by foreign and domestic authorities have resulted in, and may continue to result in, supply chain and transportation disruptions, production delays and capacity limitations at Applied and some of its customers, suppliers and partners, as well as reduced workforce availability or productivity at Applied and customer sites, and additional data, information and cyber security risks associated with an extensive workforce working remotely.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that impacts 'have resulted'—evidence of realised harm.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers a wide spectrum of effects: supply chain, production, workforce and cybersecurity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes risk continuation ('may continue'), extending time horizon.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Broad, already-occurring disruptions across multiple domains justify a high score of 7."
+            },
+            {
+                "snippet": "In addition, the pandemic and measures taken in response thereto have had, and may continue to have, a significant adverse impact on the global economic activity and could also result in a reduced demand for our products, delayed deliveries or installation, cancelled orders or increase in logistics and operating costs, and materially and adversely affect Applied’s business, financial condition and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges significant macro-economic harm already realised ('have had').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists direct company-level consequences (reduced demand, cancellations, higher costs).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong materiality language ('materially and adversely affect').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Combines macro and micro impacts with strong materiality wording, leading to a 7-point score."
+            },
+            {
+                "snippet": "We have also experienced, and may continue to experience, shipment delays due to transportation interruptions or capacity constraints.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms actual experience of shipment delays (realised impact).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Addresses critical supply-chain/fulfilment function.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Signals ongoing exposure ('may continue').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Narrower in scope but still an actual, recurring logistical problem; moderate score of 5."
+            },
+            {
+                "snippet": "There is continued uncertainty regarding the duration, scope and severity of the pandemic, particularly with the emergence of new variants of COVID-19 and periodic spikes in COVID-19 cases in various geographic regions, and the impacts on our business and the global economy from the effects of the pandemic and response measures.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights ongoing uncertainty and potential escalation via new variants.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects uncertainty to both company-specific and macro-economic impacts.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Emphasises indeterminate future risk rather than realised loss, yielding a moderate score of 4."
+            }
+        ],
+        "calculated_score": 36,
+        "average_severity": 6.0
+    }
+]

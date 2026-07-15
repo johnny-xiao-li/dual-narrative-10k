@@ -1,0 +1,40 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Netflix’s 2024 Form 10-K contains only a brief, generic reference to pandemics. Management groups “public health issues such as pandemics or epidemics” with other disaster scenarios that could interrupt its computer systems. No sentence quantifies COVID-19’s historical effects, and there is no discussion of supply-chain constraints, production shutdowns, remote-work transitions, or lasting shifts in consumer demand. The language is purely forward-looking, framed with the conditional “may,” which signals potential rather than present exposure. Nearly four years have passed since the WHO declared COVID-19 a pandemic, so the Time Decay Principle tempers the severity from “recent” to “medium-term.” Nonetheless, dependable IT infrastructure is mission-critical for a streaming service; any pandemic-driven outage could still materially harm operations. Accordingly, the overall evidentiary weight is moderate—acknowledging a continuing but unquantified risk—and individual snippet scores fall in the 4-6 range.",
+        "evidence_list": [
+            {
+                "snippet": "These systems may be subject to damage or interruption from, among other things, earthquakes, adverse weather conditions, other natural disasters, public health issues such as pandemics or epidemics, terrorist attacks, rogue employees, power loss, telecommunications failures, cybersecurity risks and incidents, and other interruptions beyond our control.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics/epidemics as a hazard that can disrupt critical computer systems.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects the hazard to potential operational outages ('damage or interruption'), indicating material operational exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional language ('may be subject'), signalling a possible rather than currently realized impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Pandemics are mentioned within a broad catch-all list, reducing event-specific focus.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "The sentence directly acknowledges pandemics as a source of operational disruption, an aggravating factor, but does so in a generic, forward-looking way and without quantification, resulting in a mid-level score of 5 consistent with a medium-term risk."
+            }
+        ],
+        "calculated_score": 5,
+        "average_severity": 5.0
+    }
+]

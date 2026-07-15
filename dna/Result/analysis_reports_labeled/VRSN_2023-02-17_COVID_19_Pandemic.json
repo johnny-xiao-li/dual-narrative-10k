@@ -1,0 +1,76 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "VeriSign’s 2023 Form 10-K references COVID-19 primarily as a continuing macro-economic and operational headwind rather than a company-specific crisis.  Management frames the pandemic in two ways: (i) a still-unfolding external shock that is feeding inflation, supply-chain disruption and broad economic uncertainty that could “materially” harm results, and (ii) a catalyst that temporarily boosted demand for domain-name registrations in 2020-21, a lift that is now fading.  In addition, the shift to a hybrid-workforce model is cited as a new control risk that can weaken cybersecurity vigilance.  None of the statements quantify dollar impacts, but they make clear that pandemic-linked conditions are ongoing and could adversely affect revenue, operations and risk posture.  Because the filing date (Feb-2023) falls less than three years after the WHO declared COVID-19 a pandemic, the Time-Decay Principle allows for relatively high scores; however, the disclosures are mostly qualitative and partially offset by acknowledgment of past demand tailwinds, so final per-snippet scores land in the mid-to-upper range rather than at the maximum.",
+        "evidence_list": [
+            {
+                "snippet": "Our business is, and could continue to be, adversely affected by the deterioration in national or global economic conditions, including high inflation rates, increasing interest rates, disruption in the supply chain, and currency fluctuations, resulting from the continuing economic effects of the COVID-19 pandemic, war and civil unrest, and other political and economic developments.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly attributes multiple macro risks (inflation, supply-chain disruption, currency swings) to the continuing economic effects of COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States that these factors have already, and could continue to, ‘adversely’ affect the business—direct forward-looking impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong materiality language (‘adversely affected’) indicating potential severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Directly links ongoing pandemic effects to material macro and supply-chain threats; qualitative but comprehensive, warranting a high-moderate score of 6."
+            },
+            {
+                "snippet": "As discussed in prior periods, we believe that the effects of the COVID-19 pandemic initially led to an increase in the demand for domain names, particularly as businesses and entrepreneurs sought to establish or expand their presence online in the beginning of the pandemic. This increased demand appears to have subsided in 2022.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to a measurable change in consumer behavior (surge in domain-name demand).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates that the positive impact has now waned, implying a potential downward shift in revenue momentum.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges an initial benefit, which partially mitigates risk perception.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows pandemic-driven demand volatility—initial upside now reversing—yielding a modest risk score after accounting for the earlier benefit."
+            },
+            {
+                "snippet": "In addition, we must ensure that our employees stay focused on cybersecurity threats especially in our hybrid work environment, or our ability to effectively manage cybersecurity risks could be impacted.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights operational vulnerability tied to a hybrid (largely pandemic-driven) work model.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not explicitly mention COVID-19, making the link indirect.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "References remote/hybrid work risk implicitly related to the pandemic; indirect linkage keeps the score low."
+            }
+        ],
+        "calculated_score": 10,
+        "average_severity": 3.3333333333333335
+    }
+]

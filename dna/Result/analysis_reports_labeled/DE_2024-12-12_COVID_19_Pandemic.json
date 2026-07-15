@@ -1,0 +1,106 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated December 2024, discusses the COVID-19 pandemic primarily as one element of a broader set of disruptive “unexpected events,” while also detailing concrete supply-chain, logistics and cost impacts that occurred during fiscal years 2021-2022—the height of the pandemic.  Because the pandemic began in March 2020, it falls into the 4-to-5-year \"medium-term\" window at the time of this filing.  The document provides historical evidence that COVID-related disruptions have already raised costs, delayed production, and strained logistics, yet frames the threat as ongoing (“could in the future adversely affect”).  Language is mostly qualitative and bundled with other hazards, signaling a moderate (not extreme) but still material operational risk.  Applying the Time Decay Principle, individual snippet scores are capped in the middle range (≈2-5), reflecting that the event is no longer brand-new but remains clearly relevant and only partially mitigated.",
+        "evidence_list": [
+            {
+                "snippet": "The occurrence of one or more unexpected events, including war, acts of terrorism, epidemics and pandemics (such as the COVID pandemic), civil unrest, fires, tornadoes, tsunamis, hurricanes, earthquakes, floods, and other forms of severe weather in the United States or in other countries in which we operate, or in which our suppliers are located, have adversely affected and could in the future adversely affect our operations and financial performance.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names the COVID pandemic, directly linking it to company risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States the event has already 'adversely affected' operations (past realized impact).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Adds a forward-looking warning ('could in the future adversely affect').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Risk is diluted by inclusion in an extended, generic list of hazards.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct reference to COVID with acknowledged past and future impacts earns a strong but time-decay-constrained score of 5."
+            },
+            {
+                "snippet": "Such events have caused and could cause complete or partial closure of one or more of our manufacturing facilities or distribution centers, temporary or long-term disruptions in the supply of component products from some local and international suppliers, and disruption and delay in the transport of products to dealers, end-users, and distribution centers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes specific operational harms—facility closures and supply-chain disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges both historical occurrence ('have caused') and future possibility ('could cause').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Connection to COVID is indirect, relying on the previous sentence’s reference to pandemics.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Concrete disruption details raise the score, but indirect linkage to COVID keeps it at a moderate 3."
+            },
+            {
+                "snippet": "We have experienced changes in the availability and prices of raw materials, components, whole goods, and freight over the past several years, especially in fiscal years 2021 and 2022.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes real supply-chain and cost impacts already experienced.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights pandemic-era years (2021-2022), implying a temporal link to COVID disruptions.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Does not explicitly attribute changes to the pandemic.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Past-tense impact in key pandemic years is relevant but unquantified and implicit, yielding a score of 2."
+            },
+            {
+                "snippet": "Global logistics network challenges resulted in delays, shortages of key manufacturing components, increased order backlogs, increased transportation costs, and production inefficiencies from a higher number of partially completed machines in inventory, which increased our overall production and overhead costs.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates several concrete, realized logistics and cost impacts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States that these impacts have already increased production and overhead costs.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No explicit mention of COVID; pandemic linkage is presumed.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specific cost and efficiency impacts are significant, but lack of direct COVID reference tempers the score to 3."
+            }
+        ],
+        "calculated_score": 13,
+        "average_severity": 3.25
+    }
+]

@@ -1,0 +1,238 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The 10-K excerpts show that CTAS treats the COVID-19 pandemic as both an already-realized shock and a continuing source of uncertainty.  The company cites concrete, historical consequences (loss of normal operations, slower customer payments, extra inventory and reserves taken, adverse impacts on consolidated results) while simultaneously warning that future outcomes remain unknowable and highly dependent on external factors outside management’s control (government mandates, pace of economic recovery, supplier stability, etc.).  Disclosures cover multiple vectors—demand contraction, supply-chain and labor flow restrictions, working-capital pressure, and the need for operational pivots such as PPE inventory builds.  Language is largely qualitative (no dollar figures) but clearly connects the pandemic to material impacts on sales, costs and cash flows, indicating an elevated but not catastrophic risk.  Because the filing date (July 2022) is only ~2 years after the WHO declaration (March 2020), the Time Decay Principle permits high severity scores (upper-mid to high single digits).  Statements that describe direct, realized impacts earn higher scores; broad, generic or partially mitigated statements are tempered downward, while sentences that highlight favourable offsets (vaccine roll-out, restriction easing) receive deductions.  Overall, CTAS’s pandemic risk profile is assessed as significant and ongoing, though gradually moderating as mitigation efforts take effect.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic has created widespread disruption in the global economy and has had, and could continue to have, an adverse impact on our consolidated results of operations and financial performance, as well as on the results of operations and financial performance of many of the customers and suppliers in industries that we serve and operate.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States pandemic already HAD an adverse impact on CTAS results (realised impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Adds forward-looking clause 'could continue to have' (ongoing risk).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Extends impact to customers and suppliers, signalling ecosystem vulnerability.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Directly links COVID-19 to realised and continuing adverse effects on CTAS and its value chain; high but unquantified impact warrants a 7."
+            },
+            {
+                "snippet": "Since fiscal 2020, the existence of the COVID-19 pandemic, the fear associated with the COVID-19 pandemic and the reactions of governments around the world in response to the COVID-19 pandemic to regulate the flow of labor and products and impede the business of our customers, impacted our ability to conduct normal business operations, which had an adverse effect on our business.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies time-anchored, realised impact ('impacted our ability to conduct normal business operations').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details mechanisms (labor and product flow restrictions) showing supply-chain and workforce strain.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Concludes with 'adverse effect on our business' signalling materiality.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Gives concrete operational disruption already experienced; strong but still qualitative, so scored 6."
+            },
+            {
+                "snippet": "Many of Cintas' customers were also impacted by the COVID-19 pandemic, and we saw an impact on some customer's ability to pay timely.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies downstream credit/cash-flow risk from customers’ delayed payments.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links cause directly to COVID-19, demonstrating realised financial stress.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highlights an observable liquidity knock-on effect; meaningful but narrower in scope, so 5."
+            },
+            {
+                "snippet": "Negative global economic factors, including global health pandemics such as the COVID-19 pandemic, may adversely affect our financial performance.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges potential adverse financial impact from pandemics.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Phrase is generic and forward-looking ('may'), reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "A generic, possibility-based warning; minimal incremental information, so only 1."
+            },
+            {
+                "snippet": "We are unable to predict the extent to which global health pandemics such as the COVID-19 pandemic and related impacts will continue to adversely impact our business operations, financial performance, consolidated results of operations, consolidated financial position and the achievement of our strategic objectives.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits ongoing, uncertain adverse impacts across multiple financial dimensions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights unpredictability, increasing risk perception.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows breadth and unpredictability of risk without quantification; moderate severity at 5."
+            },
+            {
+                "snippet": "Furthermore, the ultimate impact of global health pandemics such as the COVID-19 pandemic on our consolidated results of operations and financial performance depends on many factors that are not within our control, including, but not limited to: the impact of global health pandemics on global and regional economies, including the impact of governmental, business and individuals’ actions taken in response to such pandemics; the availability of federal, state or local pandemic relief programs; general economic uncertainty in key financial markets and financial market volatility; global economic conditions and levels of economic growth; and the pace of recovery when the global health pandemic subsides.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple external dependencies that heighten uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers macro-economic and policy factors outside company control (aggravating).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Still conditional and unquantified, somewhat abstract.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Lists uncontrollable variables that could worsen outcomes; informative but speculative, so 3."
+            },
+            {
+                "snippet": "These and other factors, including the potential negative impact of global health pandemics such as COVID-19 affecting our suppliers and our access to products could adversely affect our consolidated results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies supplier disruption and product access issues tied to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links to adverse effect on results.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Flags supply-chain risk but remains hypothetical; moderate relevance, score 3."
+            },
+            {
+                "snippet": "While there was minimal disruption to our supply chain, Cintas did increase inventory, primarily personal protective equipment and facility services inventory, in response to the customer needs and demand associated with the safety and cleanliness requirements of COVID-19.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows operational mitigation (inventory build) directly due to COVID-19 demand shifts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions 'minimal disruption', a mitigating factor.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Describes a risk response plus a partial mitigation; net low severity, score 1."
+            },
+            {
+                "snippet": "The impact of the on-going COVID-19 pandemic is fluid and continues to evolve, and therefore, we cannot predict the extent to which our business, consolidated results of operations, consolidated financial condition or liquidity will ultimately be impacted.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States continuing evolution and unpredictability of pandemic impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers multiple financial dimensions (results, condition, liquidity).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights uncertainty across key metrics; moderate weight, score 3."
+            },
+            {
+                "snippet": "The on-going roll out of the COVID-19 vaccines and gradual lifting of COVID-19 restrictions had a positive impact on our business during fiscal 2022.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes positive impact, signalling partial risk mitigation.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": -2
+                },
+                "reasoning_summary": "Represents a mitigating development that reduces overall risk; negative score applied."
+            },
+            {
+                "snippet": "Unexpected events, including fires or explosions at facilities, severe weather conditions and natural disasters such as hurricanes and tornadoes (including those caused by climate change), war or terrorist activities, unplanned outages, global health pandemics such as COVID-19, supply disruptions, failure of equipment or systems or changes in laws and/or regulations impacting our businesses, could adversely affect our consolidated results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Pandemic included among multiple catastrophic events; shows it is part of risk register.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Very generic and grouped with other hazards, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Generic boiler-plate list; adds negligible incremental insight, net score 0."
+            },
+            {
+                "snippet": "The disruption of operations from catastrophic or extraordinary events including global health pandemics such as the COVID-19 coronavirus; the amount and timing of repurchases of our common stock, if any; changes in federal and state tax and labor laws; and the reactions of competitors in terms of price and service.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites pandemic as potential cause of operational disruption.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Embedded within a long, catch-all risk sentence (boiler-plate).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Another boiler-plate reference with no detail; neutralised to 0."
+            }
+        ],
+        "calculated_score": 32,
+        "average_severity": 2.6666666666666665
+    }
+]

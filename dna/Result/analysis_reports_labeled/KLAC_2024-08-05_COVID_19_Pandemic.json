@@ -1,0 +1,100 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "KLAC’s 2024-08-05 Form 10-K still devotes discrete language to the COVID-19 pandemic even though the public-health emergency began more than four years ago. The company continues to frame COVID-19 as a live “health crisis” that can “significantly disrupt” global supply chains, cancel orders, delay deliveries, erode customer relationships and harm operations. These references are forward-looking contingency statements rather than disclosures of current quantified losses, but they are specific enough to list concrete channels of impact (manufacturing interruptions, supply-chain delays, order cancellations, remote-work vulnerabilities). Because the filing date falls inside the 4-to-10-year “medium-term” window after the World Health Organization declared the pandemic (11-Mar-2020), the Time-Decay Principle dictates mid-range severity scoring: the pandemic remains relevant but is no longer an immediate shock. The company offers no major mitigating actions beyond general business-continuity language; therefore, residual risk persists, but at a moderated level. Overall, KLAC’s statements warrant moderate scores (≈4-6) for the two explicit pandemic sentences, and a very low score (≈1) for the remote-work sentence that only implicitly ties back to COVID-19.",
+        "evidence_list": [
+            {
+                "snippet": "Natural disasters, such as earthquakes, health crises such as the COVID-19 pandemic, acts of terrorism or war or other catastrophic events, and the lack of insurance thereof, could significantly disrupt our operations, including affecting the global supply chain, for lengthy periods of time;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names the COVID-19 pandemic as a health crisis risk factor.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links pandemic to significant operational disruption and supply-chain impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong wording ('could significantly disrupt').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Presented in a generic list with other catastrophes, diluting pandemic specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term Time-Decay adjustment (event >4 yrs old).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Moderate score because the sentence squarely links COVID-19 to major supply-chain and operational risks, but is forward-looking and somewhat generic, and the pandemic is now a medium-term event."
+            },
+            {
+                "snippet": "Disruption of our manufacturing facilities or other operations or those of our suppliers, or in the operations of our customers, due to climate change, earthquake, flood, other natural catastrophic events, public health crises such as the COVID-19 pandemic or terrorism could result in cancellation of orders, delays in deliveries or other business activities, or loss of customers and could seriously harm our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 pandemic explicitly as a potential disruptive public-health crisis.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Enumerates specific adverse outcomes (order cancellations, delivery delays, loss of customers).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Includes strong impact language ('could seriously harm our business').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Bundled with multiple other hazards, reducing pandemic-specific emphasis.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term Time-Decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Scores at the top of the medium band because it details concrete business harms tied to COVID-19, though tempered for generic grouping and time decay."
+            },
+            {
+                "snippet": "Remote and hybrid working arrangements at our company (and at many third-party providers) also increase cybersecurity risks due to the challenges associated with managing remote computing assets and security vulnerabilities that are present in many non-corporate and home networks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights persistent remote/hybrid work model—a key pandemic-driven structural change.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links the change to a specific operational risk (heightened cybersecurity exposures).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Does not explicitly mention COVID-19, making the pandemic connection implicit.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term Time-Decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Very low weight because the sentence captures a pandemic-spawned remote-work risk but omits any direct reference to COVID-19 and offers no quantified impact."
+            }
+        ],
+        "calculated_score": 12,
+        "average_severity": 4.0
+    }
+]

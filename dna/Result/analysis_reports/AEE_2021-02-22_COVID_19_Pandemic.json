@@ -1,0 +1,337 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Ameren’s 2021 filing contains extensive, contemporaneous discussion of COVID-19 impacts covering realised 2020 effects and forward-looking exposures. The company reports concrete, already-incurred hits to sales volumes, cash collections and receivables, while also warning of continuing pressure on operations, liquidity and capital-market access. Many passages quantify past damage (e.g., $133 million group-wide past-due receivables) or cite specific operational metrics (commercial-industrial load declines), signalling a direct, material impact that is still unfolding. Others outline prospective vulnerabilities such as prolonged market disruption, labour illness, supply-chain delays and cyber-security issues created by remote work. The language is largely specific and anchored in actual experience rather than generic boilerplate, and nearly every risk dimension—revenues, liquidity, credit ratings, supply chain, workforce and technology—is touched. Under the Time Decay Principle, the pandemic sits firmly in the 0-3-year “recent event” window (Filing Date 2021-02-22, event start 2020-03-11), so high scores (up to 10) are permissible. Nevertheless, I moderate individual snippet scores where wording is conditional (“could”, “may”) or where mitigating factors (rate decoupling, offsets from residential load, cost-recovery riders) are cited. Quantified, realised impacts earn the highest scores; broad, speculative statements are scored lower. This calibrated approach reflects the event’s immediacy while weighting the quality and specificity of each disclosure.",
+        "evidence_list": [
+            {
+                "snippet": "Our results of operations, financial position, and liquidity have been and are expected to continue to be adversely affected by the international public health emergency associated with the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States adverse impact already realised ('have been')",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Projects continued future impact ('expected to continue')",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers multiple critical areas (operations, position, liquidity) indicating breadth of risk",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct statement of realised and continuing adverse effects across key financial dimensions merits a high score."
+            },
+            {
+                "snippet": "In 2020, we experienced a net decrease in our sales volumes, an increase in our accounts receivable balances that were past due or that were a part of a deferred payment arrangement, and a decline in our cash collections from customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes concrete, past impacts (sales, receivables, cash)",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Multiple metrics show operational & liquidity stress",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Time-stamped to 2020, proving immediacy",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specific 2020 operating and cash-flow hits deliver strong, recent evidence."
+            },
+            {
+                "snippet": "The continued effect of the COVID-19 pandemic on our results of operations, financial position, and liquidity in subsequent periods will depend on its severity and longevity, future regulatory or legislative actions with respect thereto, and the resulting impact on business, economic, and capital market conditions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forward-looking uncertainty ties pandemic to multiple financial areas",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights dependency on external factors (regulation, markets)",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks quantification and uses conditional language",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Sets out broad future risk drivers but in a conditional, unquantified way, yielding a moderate score."
+            },
+            {
+                "snippet": "As a result of the COVID-19 pandemic, measures have been taken by local, state, and federal governments, such as travel bans, quarantines, and shelter-in place orders.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies external governmental restrictions directly linked to pandemic",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Notes operational constraints but without company-specific impact; score stays low."
+            },
+            {
+                "snippet": "As a result of the COVID-19 pandemic, economic activity has been disrupted in the service territories of Ameren Missouri and Ameren Illinois.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites disruption in core geographic markets",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses concrete term 'disrupted' signalling severity",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly ties pandemic to economic disruption in key service areas, warranting a solid score."
+            },
+            {
+                "snippet": "It has also caused disruptions in the capital markets, which could adversely affect our ability to access these markets on reasonable terms and when needed.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to capital-market access risk",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Conditional 'could', indicating uncertainty",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights liquidity threat but tempered by conditional wording."
+            },
+            {
+                "snippet": "Disruptions to the capital markets as a result of the COVID-19 pandemic could negatively affect our ability to maintain and to expand our businesses.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential constraint on business growth and maintenance",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Speculative 'could' lessens immediacy",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Business-expansion risk noted, but speculative language keeps score modest."
+            },
+            {
+                "snippet": "In addition, our credit ratings may be impacted by the economic conditions of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Raises prospect of credit-rating deterioration",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uncertain 'may' and no magnitude stated",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mentions possible rating risk without detail, earning a low score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic could lead to events beyond our control, such as further depressed economic conditions or extreme volatility in the debt, equity, or credit markets, and might create uncertainty that could increase our cost of capital or impair or eliminate our ability to access the debt, equity, or credit markets, including our ability to draw on bank credit facilities or issue commercial paper.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details severe potential consequences for cost of capital and liquidity access",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses conditional 'could/might', reducing certainty",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Comprehensive liquidity/cost-of-capital threat, but hypothetical, yielding mid-level score."
+            },
+            {
+                "snippet": "As a result of the COVID-19 pandemic, we experienced and expect to continue to experience changes to our sales volumes.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges realised and ongoing sales-volume volatility",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No figures provided",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Confirms historic and future revenue impact, albeit without quantification."
+            },
+            {
+                "snippet": "In 2020, compared to 2019, Ameren Missouri experienced a reduction in commercial and industrial electric sales volumes, partially offset by increased electric sales volumes to higher margin residential customers, excluding the estimated effects of weather and customer energy-efficiency programs.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides specific operating impact by customer class",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes partial mitigation via residential demand",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Specific but partially mitigated sales shift produces a modest score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic will continue to affect Ameren Missouri’s total electric sales volumes and sales volumes by customer class beyond 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forecasts continued demand impact",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Forward-looking demand risk noted without quantification."
+            },
+            {
+                "snippet": "Our customers’ payment for our services has been adversely affected by the COVID-19 pandemic, resulting in a decrease to our cash flow from operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct link to cash-flow degradation",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Explicit cash-flow effect elevates the risk score."
+            },
+            {
+                "snippet": "As of December 31, 2020, accounts receivable balances that were 30 days or greater past due or that were a part of a deferred payment arrangement represented 29%, 22%, and 35%, or $133 million, $40 million, and $93 million, of Ameren’s, Ameren Missouri’s, and Ameren Illinois’ customer trade receivables before allowance for doubtful accounts, respectively.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides quantified financial exposure ($266 million total past-due)",
+                            "points": 4
+                        },
+                        {
+                            "reason": "High delinquency percentages signal severity",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Hard numbers on overdue receivables showcase material liquidity risk, justifying a high score."
+            },
+            {
+                "snippet": "While Ameren Missouri is seeking recovery of certain COVID-19 pandemic related costs incurred, net of savings, and forgone customer late revenues, it could be unsuccessful in obtaining regulatory approval to recover them, which may adversely affect Ameren and Ameren Missouri’s results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential earnings hit from unrecovered pandemic costs",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Company pursuing mitigation (regulatory recovery)",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Uses 'could', indicating uncertainty",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Regulatory recovery uncertainty presents moderate risk after mitigation."
+            },
+            {
+                "snippet": "In addition, suppliers and contractors may not perform as provided under their contracts. This could cause delays in construction projects, or the performance of necessary maintenance to our electric and natural gas infrastructure, which could lead to failures of equipment that can result in unanticipated liabilities or unplanned outages.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags supply-chain and maintenance disruption risk linked to pandemic context",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Consequences include liabilities and outages",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Speculative wording 'may/could'",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Supply-chain disruption noted but framed conditionally, keeping score low."
+            },
+            {
+                "snippet": "Our operations could be adversely affected if a large portion of our employees contracted COVID-19 or became quarantined at the same time.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights workforce continuity threat to operations",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Clear operational risk from employee illness warrants a moderate score."
+            },
+            {
+                "snippet": "In addition, remote working arrangements increase our data security risks, including loss of data related to sensitive customer, employee, financial, and operating system information, through insider or outsider actions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies cyber-security exposure tied to pandemic-driven remote work",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Adds a niche but concrete risk path; limited severity keeps score modest."
+            },
+            {
+                "snippet": "Ameren cannot predict the extent or duration of the COVID-19 pandemic or its effects on the global, national, or local economy, the capital markets, or its customers, suppliers, business continuity plans, results of operations, financial position, liquidity, planned rate base growth, or sales volumes.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pervasive uncertainty across many business metrics",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic disclaimer language",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Broad uncertainty statement adds little specificity, so score is minimal."
+            }
+        ],
+        "calculated_score": 60,
+        "average_severity": 3.1578947368421053
+    }
+]

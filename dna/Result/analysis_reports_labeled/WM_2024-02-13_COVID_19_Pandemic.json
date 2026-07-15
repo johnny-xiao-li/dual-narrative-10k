@@ -1,0 +1,96 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "WM’s 2024 Form 10-K contains only limited, largely generic language connecting the COVID-19 pandemic to corporate risk.  The filing acknowledges that past pandemic-driven shutdowns demonstrate the potential for “large-scale disruption” that could materially harm operations, liquidity and results; however, it frames this primarily as a forward-looking contingency rather than describing current, quantified impact.  Elsewhere, the company notes real adverse effects from labour shortages and supply-chain constraints and highlights technology vulnerabilities created by widespread remote-work practices—all phenomena that originally spiked during the pandemic—but it stops short of explicitly attributing them to COVID-19.  Because the pandemic began less than four years before the filing date, the Time-Decay Principle allows moderate-to-high scores, yet the broad, unquantified and mostly hypothetical nature of the references tempers severity.  Overall, the disclosure signals an ongoing, but not acute, risk posture: the pandemic remains a potential catalyst for disruption, but the narrative lacks specificity, dollar figures or detailed mitigation plans, warranting mid-range evidence scores rather than the highest tier.",
+        "evidence_list": [
+            {
+                "snippet": "Large-scale disruption of social and commercial activity and financial markets, such as has occurred in the past due to pandemic conditions, may have a material adverse impact on our business, financial condition, results of operations and cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct reference to pandemic conditions as precedent for disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States the potential for a \"material adverse impact\" across multiple financial and operational dimensions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking and conditional language ('may')—no current quantified loss.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No numerical magnitude or timing specified, reducing precision.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event is recent (within 0-3 years), increasing relevance per Time-Decay Principle.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Directly ties pandemic history to possible material harm, but uses generic, unquantified, forward-looking wording; recent timing keeps the overall score at a moderately high 6."
+            },
+            {
+                "snippet": "Employee work-from-home arrangements also increase various technology risks, including potential exposure to cyber incidents, loss of data, fraud, internal control challenges and other disruptions as a consequence of more employees accessing Company systems and information remotely in the course of their ordinary work.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies large-scale remote-work shift, a hallmark pandemic response, as an ongoing risk driver.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists multiple concrete operational vulnerabilities triggered by remote work.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No explicit mention of the pandemic as the cause, making the link indirect.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Focuses on IT/operational risk with no financial quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Highlights pandemic-related remote-work exposures but lacks explicit COVID-19 linkage and financial materiality, resulting in a low score of 1."
+            },
+            {
+                "snippet": "Market disruption, including labor shortages and supply chain constraints, and macroeconomic pressures, including inflation, have adversely impacted our business and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms actual adverse impact from labour shortages and supply-chain constraints—common pandemic fallout.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses concrete wording ('have adversely impacted'), indicating realized rather than hypothetical effect.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not connect these disruptions directly to the pandemic.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Generic macroeconomic framing; no dollar figures or time horizon.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Acknowledges real impacts aligned with COVID-19-era challenges but omits any explicit pandemic reference, yielding a modest score of 2."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 3.0
+    }
+]

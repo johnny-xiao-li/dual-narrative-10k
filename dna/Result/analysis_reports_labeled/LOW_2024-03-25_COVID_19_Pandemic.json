@@ -1,0 +1,104 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "LOW’s 2024 Form 10-K still acknowledges the COVID-19 pandemic as a material but now-maturing risk driver.  The company frames the pandemic mostly in retrospective language (“placed strains”, “were further exacerbated”), yet also makes clear that ripple-effects—ongoing supply-chain volatility, labour imbalances, port congestion, a larger remote-work attack surface and general macro-economic uncertainty—remain embedded in its risk profile.  No quantified dollar impact is provided, and some statements are folded into broader ‘public-health crises’ catch-alls, signalling a shift from acute crisis management toward longer-term, moderate vigilance.  Applying the Time Decay Principle (event ≈ 4 years old), evidence can earn at most a mid-range severity: direct, specific COVID references merit scores near the upper end of the 4-6 band, while generic pandemic language or indirect remote-work consequences receive lower mid-range values.  No significant mitigating actions are cited in the same sentences, so deductions are minimal.  Overall risk is assessed as moderate but persistent rather than severe or negligible.",
+        "evidence_list": [
+            {
+                "snippet": "For example, impacts related to the COVID-19 pandemic placed strains on the domestic and international supply chain, which negatively affected the flow and availability of our products in the past due to difficulties in timely obtaining products from the manufacturers and suppliers of our products.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly attributes supply-chain strain to the COVID-19 pandemic (direct causal link).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Describes a concrete operational impact: reduced product flow and availability.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct, specific, and operationally material reference to COVID-19; within 4-year window, so capped at a strong mid-range 6."
+            },
+            {
+                "snippet": "In recent years, U.S. ports have been impacted by capacity constraints, port congestion and delays, periodic labor disputes, security issues, weather-related events, and natural disasters, which were further exacerbated by the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 to exacerbation of port congestion and other logistics bottlenecks.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights continuing supply-chain vulnerability (‘in recent years’) rather than a one-off past event.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows ongoing logistics risk aggravated by COVID-19; somewhat less direct than prior snippet, yielding a 5."
+            },
+            {
+                "snippet": "The increased levels of remote access to our information systems and the continued use of remote work infrastructure has further increased the possible attack surfaces, and we are exposed to increased risk to the security of our information systems or the information systems of third-party vendors and the confidentiality, integrity, and availability of our data.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies persistent remote-work environment (a pandemic-driven change) as a driver of cybersecurity risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies the nature of the risk—expanded attack surface affecting data confidentiality, integrity and availability.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Indirect but clear link to a lasting pandemic shift (remote work) that heightens cyber risk; moderate severity score of 4."
+            },
+            {
+                "snippet": "Many macroeconomic factors may adversely affect our financial performance... including the outbreak of pandemics, fluctuations in fuel and energy costs, inflation or deflation of commodity prices, natural disasters, geopolitical or armed conflicts, and acts of both domestic and international terrorism.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘outbreak of pandemics’ as a macroeconomic risk factor that could hurt financial performance.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Framed generically with no COVID-specific impact metrics, diluting immediacy.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic acknowledgement of pandemic risk without specifics; earns a lower mid-range score of 3."
+            },
+            {
+                "snippet": "Catastrophic events, extreme weather conditions, public health crises, and global economic and political conditions may adversely affect our global supply chain.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes ‘public health crises’—an umbrella term that encompasses pandemics—as a threat to the supply chain.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement is broadly worded and forward-looking with no direct COVID citation or quantified effect.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "High-level, non-specific mention of pandemic-type risk to supply chain; moderate-low score of 3."
+            }
+        ],
+        "calculated_score": 21,
+        "average_severity": 4.2
+    }
+]

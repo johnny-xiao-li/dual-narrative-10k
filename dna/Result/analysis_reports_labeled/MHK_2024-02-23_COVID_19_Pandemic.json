@@ -1,0 +1,80 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The company’s 2024 Form 10-K contains only sparse, largely boiler-plate references to pandemic risk.  COVID-19 is acknowledged as one of several external factors that can raise raw-material and labor costs, and the term “pandemics” appears in a multi-hazard catalogue of potential disruptions that could inflict facility damage or broader operational losses.  All disclosures are forward-looking and qualitative; there is no discussion of actual COVID-19 impacts since 2020, no quantified dollar figures, and no detail on mitigation strategies such as remote-work protocols or supply-chain reengineering.  Because the filing date is almost four years after the WHO declaration (placing the event at the front edge of the Medium-Term window under the Time Decay Principle), even strong language can merit only a moderate score ceiling.  Overall, the document signals that pandemic exposure remains a background concern rather than a currently material threat, warranting mid-single-digit severity at most for the individual snippets.",
+        "evidence_list": [
+            {
+                "snippet": "The supply and prices of raw materials, labor, energy and fuel-related costs, including those related to oil and natural gas, are subject to market conditions and are impacted by many factors beyond the Company’s control, including geopolitical conflict (such as the ongoing conflict in the Middle East and Russian military actions in Ukraine), pandemics (such as the COVID-19 pandemic), labor shortages, weather conditions, natural disasters, governmental programs, regulations and trade and tariff policies, inflation and increased demand, among other factors.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites pandemics, including COVID-19, as a driver of cost volatility for critical inputs (raw materials, labor, energy).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links the pandemic to supply-chain and cost risks that directly affect operations and margins.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement is generic, bundled with many other factors and provides no quantification or mitigation detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Moderate aggravation from naming COVID-19 as a cost driver is tempered by the broad, unquantified nature of the disclosure, yielding a mid-range score of 4 in line with Medium-Term time decay."
+            },
+            {
+                "snippet": "The Company’s business operations could suffer significant losses from climate change, natural disasters, catastrophes, fire, pandemics or other unexpected events.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that pandemics can cause 'significant losses' to operations, indicating severity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong impact language ('significant losses'), elevating perceived risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generalized, lumped with other hazards and lacking event-specific data or controls.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Strong wording boosts the score, but the generic, catch-all framing and absence of specifics keep it at a modest 3."
+            },
+            {
+                "snippet": "These facilities could be materially damaged by natural disasters, such as floods, tornados, hurricanes and earthquakes, or by fire, pandemics or other unexpected events.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemics can lead to 'material' facility damage, implying operational disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects the risk directly to the company’s physical assets, an aggravating factor.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic multi-hazard list, with no pandemic-specific probability, impact quantification, or mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Mentions material facility damage from pandemics, but the broad context and lack of detail limit the severity to 3."
+            }
+        ],
+        "calculated_score": 10,
+        "average_severity": 3.3333333333333335
+    }
+]

@@ -1,0 +1,134 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "DuPont’s 2024 Form 10-K continues to acknowledge COVID-19 as an ongoing, but now largely potential, enterprise-wide risk.  The filing links pandemics to supply-chain breakdowns, labour shortages, manufacturing slow-downs, liquidity stress and future profit volatility.  All statements are forward-looking («could», «may be», «unable to predict») and unquantified, showing that COVID-19 has shifted from an immediate crisis to a medium-term contingency managed through broader business-continuity planning.  The company explicitly says it does not expect COVID-19 to have a “significant” future impact, which is a material mitigating disclosure.  Applying the Time Decay Principle (≈4 years since the WHO declaration), evidence can still warrant moderate scores (4-6) when language signals serious operational or financial exposure, but mitigation and lack of quantification temper the severity.  Overall, the pandemic is framed as a persistent yet diminishing threat embedded within a wider catalogue of disruption risks rather than a stand-alone, acute hazard.",
+        "evidence_list": [
+            {
+                "snippet": "Supply chain and operational disruptions, including those as a result of pandemics and climate change, and volatility in energy and raw material costs, could significantly increase costs and expenses, adversely impact the Company’s sales and earnings and impact access to sources of liquidity.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemics to supply-chain and operational disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists multiple financial consequences (higher costs, lower sales/earnings, liquidity pressure).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong qualifier “could significantly”.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct, multi-faceted impact description justifies a high-moderate score (6) within the 4-10-year window."
+            },
+            {
+                "snippet": "Supply chain disruptions, plant and/or power outages, labor shortages and/or strikes, geo-political activity, weather events and natural disasters, including hurricanes or flooding that impact coastal regions, and global health risks or pandemics could seriously harm the Company’s operations as well as the operations of the Company’s customers and suppliers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes pandemics among events that ‘could seriously harm’ operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Language ‘seriously harm’ indicates elevated severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Extends risk to customers and suppliers, widening exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Pandemics mentioned within a long list, somewhat diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Strong wording and broad exposure yield a score of 5, tempered for generic listing."
+            },
+            {
+                "snippet": "DuPont’s manufacturing operations may be adversely affected by impacts of pandemics including government actions and other responsive measures, quarantines and health and availability of essential onsite personnel.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Targets a critical function (manufacturing operations).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies concrete mechanisms (government measures, quarantines, labour health).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional wording ‘may be adversely affected’.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Operational specificity supports a moderate score of 5."
+            },
+            {
+                "snippet": "DuPont is unable to predict the extent of pandemic related impacts on its business, results of operations, access to sources of liquidity and financial condition which depends on highly uncertain and unpredictable future developments.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits uncertainty regarding pandemic impact, signalling potential volatility.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights exposure across multiple financial dimensions (operations, liquidity, condition).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Adds marginal risk insight but largely emphasises unpredictability; therefore a low-moderate score."
+            },
+            {
+                "snippet": "The global economy has been impacted in recent years by supply chain disruptions and inflationary cost pressures as well as the military conflict between Russia and Ukraine and the COVID-19 pandemic.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemic as a past driver of macroeconomic disruption.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Only indirect reference to company-specific risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Historical, macro-level statement with limited company focus warrants a low score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic is not expected to have a significant impact on the Company's businesses globally in the foreseeable future.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly downplays future impact, serving as a mitigating statement.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": -2
+                },
+                "reasoning_summary": "Company mitigation reduces overall perceived risk; negative score reflects the offsetting effect."
+            }
+        ],
+        "calculated_score": 18,
+        "average_severity": 3.0
+    }
+]

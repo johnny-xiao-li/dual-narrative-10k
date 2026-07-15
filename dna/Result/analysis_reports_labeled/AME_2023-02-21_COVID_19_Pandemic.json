@@ -1,0 +1,364 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "AME’s Form 10-K, filed in February 2023, presents COVID-19 as an ongoing, multi-faceted threat that is still very much alive within the 0-to-3-year “recent” window dictated by the Time-Decay Principle.  Management explicitly links the pandemic to material and potentially material impacts on operations, supply chains, labor availability, cybersecurity, customer demand, liquidity and acquisition capacity.  The disclosure blends statements of fact (e.g., 2022 China lockdowns that limited access to customer sites and constrained supply chains) with forward-looking contingencies (e.g., the possibility of future lockdowns or workforce outages).  Although most impacts are described qualitatively rather than with precise dollar figures, they encompass core value drivers—manufacturing uptime, sales demand, collections, and M&A strategy—indicating broad enterprise risk.  Mitigating language (e.g., facilities remain open, ongoing safety protocols) tempers, but does not neutralize, the severity because restrictions, customer pressure and labor/cyber vulnerabilities are acknowledged as persisting.  Given the filing date is only about three years after the WHO pandemic declaration, high—but not maximum—snippet scores (generally 6-9) are justified, reflecting direct, still-evolving risks without detailed quantified losses.",
+        "evidence_list": [
+            {
+                "snippet": "The coronavirus global pandemic could have a material adverse effect on our ability to operate, results of operations, financial condition, liquidity and ability to consummate future acquisitions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly references the coronavirus pandemic as the causal factor.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong language 'material adverse effect' across multiple financial dimensions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Enumerates several business pillars affected (operations, liquidity, acquisitions) showing breadth of risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is framed with the conditional 'could', indicating potential rather than realized impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Broad, material pandemic risk is asserted but remains largely prospective, yielding a solid mid-high score of 6."
+            },
+            {
+                "snippet": "We continue to address the impact of the COVID-19 pandemic.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing (present-tense) impact, confirming persistence of risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Implied mitigation effort ('continue to address') reduces perceived severity.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Sentence confirms current impact but adds no detail and emphasizes mitigation, so score is low at 1."
+            },
+            {
+                "snippet": "The outbreak of COVID-19, and any other significant outbreak of epidemic, pandemic or contagious disease, could have a negative effect on our ability to operate, results of operations, financial condition, liquidity and ability to consummate future acquisitions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 (and similar outbreaks) to broad operational and financial harm.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple value drivers (operations, liquidity, acquisitions).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional 'could' signals potential rather than realized damage.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Generic but comprehensive risk disclosure earns a moderate 4."
+            },
+            {
+                "snippet": "In addition, the outbreak of COVID-19 has resulted in a widespread health crisis that is adversely affecting the economies and financial markets of many countries and the end markets for many of our products, which could result in an economic downturn that may negatively affect demand for our products.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes current adverse macro-economic impacts already 'affecting' markets.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects those macro effects directly to reduced demand for AME’s products.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Future-looking 'could result' adds uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Current adverse conditions plus potential demand shock justify a score of 6."
+            },
+            {
+                "snippet": "The extent to which COVID-19 will impact our business, results of operations and financial condition is highly uncertain and will depend on future developments.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits high uncertainty, emphasizing unpredictability of risk trajectory.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks specifics or quantification; mostly cautionary.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Pure statement of uncertainty without detail merits a neutral score of 0."
+            },
+            {
+                "snippet": "Our global manufacturing facilities remain open with a focus on safety protocols, though a range of external factors related to the pandemic that are not within our control have restricted our ability to keep our manufacturing facilities fully operational.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies actual operational restrictions due to pandemic factors (current impact).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Mentions mitigation (facilities remain open with safety protocols).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Highlights lack of control over external pandemic factors, increasing uncertainty.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Concrete operational constraints balanced by mitigation steps yield a score of 4."
+            },
+            {
+                "snippet": "Moreover, the COVID-19 pandemic may adversely affect the financial condition of our customers and suppliers in the future or their ability to purchase Company products, may delay customers’ purchasing decisions, result in a shift to lower-priced products or away from discretionary products, and may result in longer payment terms or inability to collect customer payments.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple downstream financial impacts (customer solvency, demand shift, collections risk).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers both sales volume and cash-flow timing (longer payment terms).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Future-oriented 'may' language indicates potential rather than already realized impacts.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Rich enumeration of possible pandemic-driven demand and credit shocks earns a 5."
+            },
+            {
+                "snippet": "In compliance with stay-at-home orders issued in connection with the COVID-19 pandemic, a significant subset of our employees have transitioned to working from home.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes concrete operational change (remote work) driven by pandemic mandates.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates significant workforce portion affected, suggesting scale of disruption.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific workforce relocation linked to government orders yields a 5."
+            },
+            {
+                "snippet": "As a result, more of our employees are working from locations where our cybersecurity program may be less effective and IT security may be less robust.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-driven remote work to weakened cybersecurity defenses.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses conditional 'may be' indicating possibility not certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights new cyber exposure but conditional phrasing moderates risk to 3."
+            },
+            {
+                "snippet": "This change may create increased vulnerability to cybersecurity incidents, including breaches of information systems security, which could result in a disruption of our operations, customer dissatisfaction, damage to our reputation and a loss of customers or revenues.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explains direct negative consequences (operational disruption, revenue loss) from pandemic-induced cyber risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specific adverse outcomes (reputation, customer loss) elevate severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Probabilistic wording 'may'/'could' slightly tempers certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Detailed chain from pandemic change to potential losses warrants a 5."
+            },
+            {
+                "snippet": "If significant portions of our workforce are unable to work effectively, including because of illness, quarantines or absenteeism; government actions; facility closures; work slowdowns or stoppages; limited supplies or resources; or other circumstances related to COVID-19, our operations will be further impacted.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple COVID-specific labor and resource disruptions.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States direct consequence 'our operations will be further impacted' (high severity).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional 'if' denotes potential not certain.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Wide-ranging potential operational hits justify a 6 despite conditional framing."
+            },
+            {
+                "snippet": "The continued spread of COVID-19 may also affect our ability to hire, develop and retain our talented and diverse workforce, and our ability in short periods to fully maintain and support our corporate culture.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to strategic HR risks (talent retention, culture).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Focuses on qualitative, longer-term organizational impacts.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses 'may' signalling uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Important but softer talent-culture risk results in a modest 3."
+            },
+            {
+                "snippet": "A scarcity of resources or other hardships caused by the COVID-19 pandemic may result in increased nationalism, protectionism and political tensions which may cause governments and/or other entities to take actions that may have significant negative impact on the Company, its suppliers, and its customers to conduct business in the future.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags geopolitical and policy risks amplified by the pandemic (nationalism, protectionism).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes 'significant negative impact' on operations across supply chain and customer base.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Contingent 'may', reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Exposure to macro-political fallout gives a 4 score."
+            },
+            {
+                "snippet": "The duration and intensity of the impact of the COVID-19 pandemic and the resulting disruption to our operations is uncertain but could have a material impact on our operations, cash flows, financial condition and ability to consummate future acquisitions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states potential 'material impact' across operations, cash flow and M&A.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights uncertainty regarding duration and intensity, elevating risk profile.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Future-oriented 'could' maintains conditionality.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Material but still prospective impact yields a balanced 4."
+            },
+            {
+                "snippet": "There still remains uncertainty concerning the COVID-19 pandemic, its effect on labor, government mandated lockdowns and other restrictive measures, and the pandemic's ultimate duration.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reinforces ongoing uncertainty around multiple operational levers (labor, lockdowns).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks any quantification or direct consequence.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Pure uncertainty acknowledgement nets a zero."
+            },
+            {
+                "snippet": "Lockdowns in China during 2022 limited our ability to access customer sites, operate certain facilities, and placed additional constraints on our supply chain.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies realized, country-specific lockdown impact in 2022 (current and concrete).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Covers multiple operational dimensions: customer site access, facility operation, supply chain.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Recent factual disruptions in a key geography warrant a high score of 8."
+            },
+            {
+                "snippet": "Depending on the course of the pandemic, additional lockdowns in China or elsewhere could impact our operations and results of operations.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of future lockdown scenarios affecting operations in multiple regions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional 'could' plus lack of quantification reduces certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Potential for future lockdown impact yields a low-moderate score of 2."
+            }
+        ],
+        "calculated_score": 66,
+        "average_severity": 3.8823529411764706
+    }
+]

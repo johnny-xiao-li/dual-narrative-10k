@@ -1,0 +1,144 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "All pandemic-related language appears under a broad risk factor that also lists natural disasters, wars, and other disruptions.  The company does not explicitly mention COVID-19 by name, but the references to “widespread public health crises,” “workforce shortages,” and “employees working remotely” are clearly intended to capture lingering COVID-19 effects.  The disclosures are entirely forward-looking (“could,” “may,” “unable to predict”) and remain unquantified; they do not cite actual 2021-23 impacts on revenue, supply chain, or labour costs.  Because the filing date (August 2023) is within three years of the pandemic’s onset, the Time-Decay Principle still allows moderately elevated scores, yet the absence of concrete metrics keeps severity in the mid-range.  Overall, the company treats COVID-19 as an external, continuing contingency that could disrupt customer demand, employee availability, third-party service delivery, and on-site installations.  No meaningful mitigations (e.g., pandemic response plans, diversified supply chains) are offered.  Taken together, the risk is assessed as medium: material enough to monitor but presented in generic terms without evidence of present damage.",
+        "evidence_list": [
+            {
+                "snippet": "Natural disasters, public health crises, wars, acts of terrorism, other armed conflict, and workforce shortages could adversely affect our results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists 'public health crises' and 'workforce shortages' as factors that can hurt results, directly invoking pandemic-type risks.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Use of the conditional word 'could' signals a generic, potential risk rather than an existing impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Identifies pandemic risk but in very general, conditional language; therefore receives a low-medium score of 3."
+            },
+            {
+                "snippet": "The occurrence of, or threat of, natural disasters, widespread public health crises, political unrest, war, acts of terrorism, other armed conflicts involving the United States or foreign countries, or general workforce shortages can result in significant economic disruptions and uncertainties and could adversely affect our business, results of operation, and financial condition.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects 'widespread public health crises' to 'significant economic disruptions and uncertainties'—a clear statement of potential magnitude.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States that such disruptions could adversely affect business, results, and financial condition, expanding the scope of harm.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Still framed as a possibility ('can', 'could'), indicating no confirmed impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Provides a broader description of how a pandemic could create major economic disruption, earning a medium score of 5."
+            },
+            {
+                "snippet": "The conditions caused by such events may affect the rate of spending by our customers and their ability to pay for our products and services, delay prospective customers’ purchasing decisions, interfere with our employees’ ability to support our business function, disrupt the ability of third-party providers we rely upon to deliver services, adversely impact our ability to provide on-site services or installations to our customers, or reduce the number of transactions we process, all of which could adversely affect our results of operation and financial position.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies multiple operational channels of impact (customer spending, payment ability).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes delays in purchasing decisions, signalling demand shock.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights workforce effect—employees’ ability to support operations.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Acknowledges disruption of third-party providers, indicating supply-chain style risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Mentions inability to provide on-site services/installations, tying to remote-work or travel limitations.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "References reduction in transaction volume, aligning with pandemic-driven demand changes.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Overall adverse effect on financial position stated.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Use of 'may' indicates uncertainty, slightly moderating severity.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Enumerates concrete pathways by which a pandemic could hurt operations, but remains hypothetical; yields a solid medium score of 6."
+            },
+            {
+                "snippet": "We are unable to accurately predict the impact of such events on our business due to a number of uncertainties, including the duration, severity, geographic reach and governmental responses to such events, the impact on our customers’ and vendors' operations, and our ability to provide products and services, including the impact of our employees working remotely.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights unpredictability of duration, severity, and government responses—amplifying risk perception.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly references remote-work impact on service delivery.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Acknowledges dependency on customers and vendors whose operations may be affected.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Absence of mitigation strategies leaves risk unbuffered.",
+                            "points": 0
+                        },
+                        {
+                            "reason": "Still generic to 'such events' rather than COVID-specific, reducing precision.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Stresses uncertainty and remote-work challenges but remains broad and unquantified, resulting in a modest score of 3."
+            },
+            {
+                "snippet": "If we are not able to respond to and manage the impact of such events effectively, our business will be harmed.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of definite harm if response to pandemic-type events fails.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional 'if' maintains hypothetical framing.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Statement underscores potential severity but offers no detail, so receives a low score of 1."
+            }
+        ],
+        "calculated_score": 18,
+        "average_severity": 3.6
+    }
+]

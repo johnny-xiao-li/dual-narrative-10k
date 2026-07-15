@@ -1,0 +1,132 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Sempra’s 2023 Form 10-K links the COVID-19 pandemic primarily to prospective risks rather than already-incurred losses.  Management states that the pandemic has not materially hurt 2022 operating results, yet immediately lists several ways it has already strained supply chains and customer collections and may continue to do so.  The disclosure is forward-looking, qualitative, and only partially company-specific: it cites tangible stressors—supply-chain disruption, capital-market volatility, liquidity exposure, slower capital spending, and rising uncollectible accounts at the California utilities—without quantifying dollar amounts.  Because the filing date (28 Feb 2023) is within three years of the event onset (11 Mar 2020), the Time-Decay Principle allows relatively high severity scores.  Nevertheless, severity is tempered by management’s explicit statement that COVID-19 has \"not had a material impact\" to date and by on-going mitigation (customer-protection measures, active monitoring).  Overall, the pandemic represents a medium-to-high forward risk (mostly potential, with early signs of impact on cash-collections), warranting snippet scores in the 4-7 range, with a single mitigating snippet scored lower.",
+        "evidence_list": [
+            {
+                "snippet": "Our businesses face risks related to the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly acknowledges pandemic as a business risk.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic but direct recognition of COVID-19 as a corporate risk; no detail or impact level, so a modest score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has materially impacted communities, supply chains, economies and markets around the world since March 2020.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to broad supply-chain and economic disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong qualifier 'materially impacted'.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights global material impacts, including supply chains, but impact on company is implied rather than specific."
+            },
+            {
+                "snippet": "To date, the COVID-19 pandemic has not had a material impact on our results of operations.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States no material impact to date, a mitigating factor.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Recency of event still warrants some attention to ongoing risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Directly mitigates severity by asserting no material impact so far; net score constrained to 0."
+            },
+            {
+                "snippet": "Disruption in supply chains and the capital markets, which has affected and could further affect liquidity, strategic initiatives and prospects, including in some cases a slowdown of planned capital spending",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific operational impacts: supply-chain and capital-market disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links to liquidity and slowdown of capital spending—direct financial implications.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Concrete description of how COVID-19 already affects liquidity and cap-ex with potential to worsen; moderately high score."
+            },
+            {
+                "snippet": "Customer-protection measures implemented by SDG&E and SoCalGas ... have collectively resulted in a reduction in payments from SDG&E and SoCalGas’ customers and an increase in uncollectible accounts that could become material and may not be fully recoverable",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies company-specific actions and their direct cash-flow impact (reduced payments).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights potential materiality and non-recoverability of uncollectible accounts.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Most severe evidence: specifies rising uncollectible accounts at utilities and possibility of material loss; high score within allowed range."
+            },
+            {
+                "snippet": "Precautionary, preemptive and responsive actions taken by our current and prospective counterparties, customers and partners, as well as regulators and other governing bodies that affect our businesses, which have affected and could further affect our operations, results, liquidity and ability to pursue capital projects and strategic initiatives",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects external stakeholders' pandemic responses to operational and financial impacts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses forward-looking language 'could further affect', indicating continuing risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Broad but company-relevant statement of ongoing operational and liquidity risks tied to counterparties and regulators; moderate score."
+            },
+            {
+                "snippet": "Any of these impacts could have a material adverse effect on our results of operations, financial condition, cash flows and/or prospects.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit warning of potentially material adverse effect across financial metrics.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Strong but generic statement of severity; no specifics, so mid-level score."
+            }
+        ],
+        "calculated_score": 29,
+        "average_severity": 4.142857142857143
+    }
+]

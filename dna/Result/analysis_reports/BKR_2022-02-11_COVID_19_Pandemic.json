@@ -1,0 +1,201 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Baker Hughes’ 2021 Form 10-K makes clear that COVID-19 is both an already-realized and an ongoing threat across multiple dimensions—financial performance, commodity demand, supply-chain reliability, workforce availability, and contractual stability.  The company explicitly states that the pandemic has already had a “materially and adversely” impact on results and could “continue” to do so for an “indeterminate” period, demonstrating an existing, not merely hypothetical, exposure.  It also details concrete transmission channels: oil-demand volatility, market price instability, labour quarantines, vaccine-mandate disruptions, supply-chain shortages (e.g., chips), and the possibility of force-majeure contract terminations.  These disclosures are recent (within two years of the pandemic’s declaration) and use strong, specific language rather than boiler-plate caveats, so under the Time Decay Principle they warrant high severity scores.  While no dollar figures are provided, the breadth of operational touch-points and repeated references to “material adverse effect” elevate the risk.  The overall posture is that of a company still deeply exposed to pandemic-related uncertainties despite some market recovery; hence the aggregate risk level is assessed as high-to-severe in the current timeframe.",
+        "evidence_list": [
+            {
+                "snippet": "Our business could be adversely affected by the widespread outbreak of a disease or virus.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges potential adverse effect from pandemics in general.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic statement of vulnerability; no COVID mention or quantified impact, so low but non-zero score."
+            },
+            {
+                "snippet": "The current global spread of the COVID-19 virus has and may continue to materially and adversely affect our results of operations, cash flows, and financial condition for an indeterminate amount of time.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct attribution of impact to COVID-19 (‘has… materially and adversely affect’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Strong language (‘materially’, ‘indeterminate amount of time’) conveys severity and duration.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Event is recent (within 0–3 yrs), so no time-decay discount.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, current, and severe impact yields a high score of 8."
+            },
+            {
+                "snippet": "The markets have experienced volatility in oil demand due to the economic impacts of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to commodity-demand volatility—a key revenue driver.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes realised market effects, though unquantified.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows specific channel (oil demand volatility) but lacks financial quantification, giving a mid-range score."
+            },
+            {
+                "snippet": "If demand for our products and services declines, the utilization of our assets and the prices we are able to charge our customers for our products and services could decline.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States operational/price risk tied to demand, an indirect COVID vector in context.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Conditional and generic; minimal incremental COVID information, so very low score."
+            },
+            {
+                "snippet": "The continued spread of COVID-19 or a similar pandemic could result in further instability in the markets and decreases in commodity prices resulting in further adverse impacts on our results of operations, cash flows, and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit forward-looking risk tied to pandemic continuation.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details multiple financial statement impacts (results, cash flows, financial condition).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recent timeframe permits higher weighting.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear articulation of potential future harm across financial metrics yields elevated score of 6."
+            },
+            {
+                "snippet": "In addition, the continued spread of the COVID-19 virus, or similar pandemics, and the continuation of the measures to try to contain the virus or similar viruses, such as vaccine mandates, travel bans and restrictions, quarantines, shelter in place orders, and shutdowns, may further impact our workforce and operations, the operations of our customers, and those of our vendors and suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates specific containment measures causing operational disruption (supply chain, workforce).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers impact on company, customers, and suppliers—broad scope.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking but likely in near term; recent event window.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Detailed pathways (mandates, travel bans, quarantines) across stakeholders justify high score of 8."
+            },
+            {
+                "snippet": "Also, if a significant number of our employees were to contract the virus or be quarantined, we may not be able to complete key or critical tasks, not limited to, but including key financial, reporting, and operational controls.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights workforce health risk leading to potential control failures.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies critical tasks and controls, indicating seriousness.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Focus on labour shortages and internal-control disruption is significant but narrower than revenue effects; mid-level score."
+            },
+            {
+                "snippet": "There is considerable uncertainty regarding such measures and potential future measures which may result in labor disruptions, employee attrition, and could negatively impact our ability to attract and retain qualified employees, all of which could have a material adverse effect on our results of operations, cash flows, and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises uncertainty and labour-force risks linked to containment measures.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses ‘material adverse effect’ across core financial areas.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Labour-force uncertainty plus ‘material’ language merits a moderate score of 5."
+            },
+            {
+                "snippet": "Our contracts with customers generally may be terminated by the customer for convenience, default, or extended force majeure (which could include inability to perform due to COVID-19).",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to force-majeure risk and revenue loss via contract termination.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies legal/contractual mechanism, increasing concreteness.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Identifies a concrete contractual exposure path; mid-level severity."
+            },
+            {
+                "snippet": "As we reflect on the macro environment in 2021, the global economy continued to recover from the impact of the COVID-19 global pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges lingering pandemic impact despite recovery.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Provides context but minimal risk detail; low score."
+            },
+            {
+                "snippet": "The effects from variant strains of the COVID-19 virus continued to impact operations in the form of global chip shortages, supply chain challenges, and inflationary pressures in multiple parts of the world.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites specific operational disruptions (chip shortages, supply chain, inflation) from COVID variants.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Indicates continuing impact in present tense.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Concrete, present-day operational impacts across supply chain justify above-average score."
+            }
+        ],
+        "calculated_score": 53,
+        "average_severity": 4.818181818181818
+    }
+]

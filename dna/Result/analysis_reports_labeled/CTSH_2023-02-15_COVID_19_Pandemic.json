@@ -1,0 +1,256 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "All of the pandemic-related disclosures appear in the Risk Factors section and openly acknowledge that COVID-19 has already disrupted Cognizant’s core operating engine—client demand, global delivery, and workforce stability—and that similar outbreaks remain a looming threat.  The company cites concrete historical effects (e.g., delivery interruptions in India, client-facility closures, employee attrition pressures) and ties them to potential future recurrences.  Although the language is still couched in the forward-looking, contingency style typical of SEC filings, the narrative repeatedly uses strong qualifiers such as “material adverse impact,” “impacted our ability to deliver,” and “significantly impacted.”  Because the Form 10-K is dated February 2023—less than three years after the WHO declared COVID-19 a pandemic—the Time Decay Principle permits scores in the upper range.  The evidence is mainly qualitative (no dollar figures are given), so the highest possible scores are tempered slightly, but the direct, recent, multi-faceted nature of the risk justifies high severity ratings across the extracted sentences.",
+        "evidence_list": [
+            {
+                "snippet": "Pandemics, epidemics or other outbreaks of disease have had and may in the future have a material adverse impact upon our business, liquidity, results of operations and financial condition.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states that past and future disease outbreaks cause 'material adverse' impacts.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers multiple financial dimensions (business, liquidity, results, condition).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic wording, no specific operational detail or quantification.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event is recent (within 3 years).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Strong acknowledgement of material adverse impact, but generic phrasing and no specifics limit the score to 6."
+            },
+            {
+                "snippet": "The COVID-19 pandemic had, and any future pandemic, epidemic or other outbreak of disease may have, widespread, rapidly evolving, and unpredictable impacts on global society, economies, financial markets and business practices by, among other things, causing significant loss of life, curtailing congregation of people and disrupting communications and travel.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes broad disruptive effects to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists concrete mechanisms of disruption (loss of life, travel, communications).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights unpredictability and rapid evolution, increasing perceived risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Still largely qualitative, no company-specific numbers.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Enumerates several severe impact channels, but absence of CTSH-specific data caps the score at 6."
+            },
+            {
+                "snippet": "Reduced client demand for services – The vast majority of our business is with clients in the United States, the United Kingdom and other countries in Europe, all regions that were significantly impacted by the COVID-19 pandemic and could be impacted by other future pandemics, epidemics or other outbreaks of disease.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 directly to reduced client demand, a core revenue driver.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Identifies geographic concentration, amplifying exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking clause extends the threat to future outbreaks.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specific operational channel (client demand) and geographic concentration elevate risk to 7."
+            },
+            {
+                "snippet": "Delivery challenges – Due to the closures of many of our clients' facilities, including as a result of various orders from national, state or local governments, we faced challenges in delivering services to our clients and satisfying contractually agreed upon service levels during the COVID-19 pandemic and could face such closures in future pandemics, epidemics or other outbreaks of disease.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete operational failures (unable to meet service levels).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Indicates the issue actually occurred ('we faced challenges').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes possibility of recurrence, extending risk horizon.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Past occurrence plus potential recurrence of critical delivery failures justifies a high score of 8."
+            },
+            {
+                "snippet": "The COVID-19 pandemic, particularly in India, but also in the Philippines and other countries where we have near-shore or offshore delivery operations for clients, as well as our in-country offices and offices of clients where our employees may normally work, impacted our ability to deliver services to clients.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States direct past impact on service delivery in key offshore hubs.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Names specific geographies, underscoring concentration risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Refers to core capability (global delivery model).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Specific geography and admission of delivery impairment push the score to 8."
+            },
+            {
+                "snippet": "A similar future pandemic, epidemic or other outbreak of disease, or a future security incident during such circumstances, could materially impair our ability to deliver services to clients.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Projects material impairment of service delivery.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Contingent language ('could') reduces immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking and conditional nature tempers the otherwise significant risk to 5."
+            },
+            {
+                "snippet": "The significant challenges presented by a pandemic, such as the potentially life-threatening health risks to employees and their loved ones and the unavailability of various services our employees may rely upon, such as childcare, were and may in future pandemics, epidemics or other outbreaks of disease be a cause of employee morale concerns and may adversely impact employee productivity.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details employee health and productivity risks, key operational factor.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges both past and future impact on morale/productivity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantitative measure of scale.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Identifies a real but less financially quantified workforce risk, yielding a score of 4."
+            },
+            {
+                "snippet": "Addressing these employee morale and productivity concerns as well as other significant challenges presented by such events, including various business continuity measures demands significant management time and attention.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights diversion of senior management resources—a strategic risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses 'significant' to describe management burden.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Indirect financial linkage; less immediate than revenue/delivery impacts.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Management distraction is noted but less direct, resulting in a lower score of 2."
+            },
+            {
+                "snippet": "The ultimate extent to which any future pandemics, epidemics or other outbreaks of disease impact our business, liquidity, results of operations and financial condition will depend on future developments, which are highly uncertain and cannot be predicted with confidence, including the severity of the disease to which the pandemic, epidemic or other outbreak relates; delivery, adoption and effectiveness of vaccines or other treatments for the disease, including any variants; the duration and extent of the event and waves of infection; travel restrictions and social distancing; the duration and extent of business closures and business disruptions; and the effectiveness of actions taken to contain, treat and prevent the disease.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges broad range of uncertain but severe impact drivers.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasizes uncertainty, signalling difficulty in mitigation.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly conditional and forward-looking.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Primarily a statement of uncertainty; provides context but limited incremental severity, score 2."
+            },
+            {
+                "snippet": "If we or our clients experience prolonged shutdowns or other business disruptions, our business, liquidity, results of operations, financial condition and the trading price of our common stock may be materially adversely affected, and our ability to access the capital markets may be limited.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-driven shutdowns to capital market access and stock price—material financial stakes.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong wording 'materially adversely affected'.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Scenario-based ('if'), not reported as existing impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Severe potential consequences but purely hypothetical, leading to a moderate score of 3."
+            },
+            {
+                "snippet": "Further, any future pandemic, epidemic or other outbreak of disease, and the volatile regional and global economic conditions stemming from such an event, could precipitate or aggravate the other risk factors that we identify in this report, any of which could have a material adverse impact to our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates cascading effect, amplifying overall risk profile.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Speaks in conditional terms ('could'), reducing certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Broad, conditional amplification statement with limited specificity keeps the score low at 1."
+            }
+        ],
+        "calculated_score": 52,
+        "average_severity": 4.7272727272727275
+    }
+]

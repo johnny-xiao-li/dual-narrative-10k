@@ -1,0 +1,95 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "PTC’s 2022-11-15 filing discusses COVID-19 primarily as a catalyst for a structural shift toward remote work among its global customer base and as a source of tangible revenue disruption to its own professional-services operations. The disclosure blends backward-looking evidence of actual harm (lower FY’21 services revenue) with forward-looking uncertainty about whether remote-work patterns will persist and whether PTC’s product mix can fully address that demand. The language is event-specific (explicitly naming the pandemic), recent (within three years), and acknowledges both operational and competitive exposures, yet it stops short of quantifying dollar amounts or citing supply-chain or labor-shortage impacts. Under the Time Decay Principle, COVID-19 remains a “recent” event, so high—but not maximum—severity scores are warranted. Overall, the risk is material and continuing, but partially mitigated by PTC’s existing SaaS/remote-work capabilities and its ongoing platform transition, yielding moderate-to-high risk scores for the extracted evidence.",
+        "evidence_list": [
+            {
+                "snippet": "For example, the COVID-19 pandemic caused companies worldwide to close their offices and their employees to have to work remotely from their homes, and there remains uncertainty about the extent to which employees will return to the office in the long term.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references the COVID-19 pandemic, directly linking it to operational disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes concrete impact (office closures and mandatory remote work).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights ongoing uncertainty, extending the risk into the future.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Strong, recent, event-specific statement of operational disruption with continuing uncertainty; no mitigating factors mentioned."
+            },
+            {
+                "snippet": "This has focused companies on the need for solutions that empower and support remote work by employees.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates a pervasive market shift toward remote-work solutions attributable to the pandemic effects.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Shows demand-side pressure caused by pandemic-driven remote work but is indirect and contains no explicit company vulnerability or quantified impact."
+            },
+            {
+                "snippet": "We believe customers and potential customers will increasingly seek software solutions that support remote work by employees.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forward-looking statement that rising remote-work demand could affect future sales if unmet.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Defines a prospective risk/opportunity tied to remote-work trends without detailing magnitude or probability."
+            },
+            {
+                "snippet": "Although many of our solutions support remote work, others are less efficient at doing so.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits product gap that could weaken competitive position in remote-work market.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions partial mitigation (many solutions already support remote work).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Acknowledges internal capability shortfall, raising competitive risk, but tempers it with existing strengths, leading to a moderate score."
+            },
+            {
+                "snippet": "Professional services revenue in the first half of FY’21 was negatively impacted by services delivery challenges associated with the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly ties revenue decline to COVID-19-related service-delivery challenges.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Represents realized (historical) financial impact, though unquantified.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Provides concrete evidence of past financial harm linked to the pandemic, elevating the severity despite lack of numerical detail."
+            }
+        ],
+        "calculated_score": 18,
+        "average_severity": 3.6
+    }
+]

@@ -1,0 +1,116 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Oracle’s 2023 filing still treats COVID-19 as an active, enterprise-wide risk driver.  The company explicitly states that the pandemic has already affected how Oracle, its customers, partners, and suppliers operate and that a resurgence could further harm results.  The disclosures are forward-looking but anchored in the fact that impacts have already been felt, indicating an ongoing threat rather than a purely hypothetical one.  The language is broad—there is no dollar quantification—yet it ties the pandemic to concrete operational areas: business continuity, government restrictions, remote-work policies, workforce health, and knock-on macro-economic uncertainty.  Given that the filing date is June 2023 (just over three years after the WHO declaration) the Time Decay Principle allows higher severity scores (7–10) where the statements are direct and impact-focused, while more generic or mitigating clauses warrant moderate or low scores.  Overall, Oracle’s pandemic risk discussion is specific to the event, acknowledges past impacts, warns of future operational harm, but lacks precision in magnitude; therefore, individual sentence scores range from 1 to 7, reflecting varying gravity within a still-recent event horizon.",
+        "evidence_list": [
+            {
+                "snippet": "If we or our customers are unable to operate our respective businesses as a result of the COVID-19 pandemic (or any resurgence of the pandemic), our future results of operations could be harmed.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links inability to operate directly to COVID-19 and explicitly states future operational harm.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Forward-looking but plausible and recent (≤3.5 years).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct causal connection between pandemic resurgence and operational harm merits a high-moderate score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic and efforts to control its spread have affected, and any spread or resurgence of COVID-19 variants may in the future affect, how we and our customers, partners and suppliers operate our businesses.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges both past and potential future impacts across the full value chain (company, customers, partners, suppliers).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses definitive language ('have affected') signalling realized risk.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "States realized effects and broad stakeholder exposure—highest severity among the excerpts."
+            },
+            {
+                "snippet": "Our operations have been and may in the future be negatively affected by a range of external factors related to the COVID-19 pandemic that are not within our control, including preventative measures and other related governmental measures.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights uncontrollable external factors and negative operational effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions government measures, indicating regulatory disruption.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows external, government-driven risk but less direct than prior sentences, yielding a mid-range score."
+            },
+            {
+                "snippet": "In addition, the long-term impact of the COVID-19 pandemic on the broader global economy and related impacts on our business and our customers’ business operations remains uncertain and cannot be predicted.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing macroeconomic uncertainty tied to pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasises unpredictability, which slightly mitigates specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic uncertainty statement provides weak, background-level risk evidence."
+            },
+            {
+                "snippet": "Additional impacts and risks that we are not currently aware of may arise, and the COVID-19 pandemic may also heighten other risks described in this Risk Factors section.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes compounding effect—pandemic can amplify other risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly speculative with no specifics.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Speculative layering of risks keeps the score at background level."
+            },
+            {
+                "snippet": "A transition away from our hybrid work model to on-site work requirements could result in employee dissatisfaction and attrition, and could also lead to increased employee burnout or negatively impact employee productivity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies labor force and productivity risks stemming from pandemic-era work model changes.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Does not mention COVID explicitly and impact is indirect.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Remote-work transition risk is pandemic-related but indirect and unquantified, yielding a low-moderate score."
+            }
+        ],
+        "calculated_score": 22,
+        "average_severity": 3.6666666666666665
+    }
+]

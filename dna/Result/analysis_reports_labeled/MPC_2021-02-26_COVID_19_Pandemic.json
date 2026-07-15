@@ -1,0 +1,138 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "MPC’s 2021 filing repeatedly frames COVID-19 as an acute, ongoing threat that has already produced material, quantifiable damage to its core refining and distribution operations and that may continue to erode demand, margins, utilization rates and counter-party reliability.  The language is concrete and largely backward-looking—“resulted,” “have been adversely impacted”—showing the risk is not speculative but realized.  It also projects forward-looking uncertainty around future outbreaks, oil-price volatility, and credit stress on suppliers and customers.  Although no exact dollar figure is given, the company expressly labels the impact “material and adverse,” satisfying a high-severity threshold.  Because the filing date (26-Feb-2021) is less than one year after the WHO pandemic declaration (11-Mar-2020), the Time Decay Principle permits high scoring (7-10) where appropriate.  Overall, MPC is disclosing a severe, continuing pandemic risk with direct operational and financial consequences and only limited mitigating language, warranting strong but not maximal snippet scores.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic resulted in a significant decrease in demand for the petroleum products that we manufacture, sell, transport and store, which has had, and may continue to have, a material and adverse effect on our business and on general economic, financial and business conditions.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic directly to an already realized, ‘significant decrease in demand’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly states impact is ‘material and adverse’, signalling severity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes continuation of impact into the future (‘may continue to have’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Strong, direct language describing realised and ongoing material harm justifies a near-top score of 8."
+            },
+            {
+                "snippet": "Travel restrictions, business and school closures, increased remote work, stay-at-home orders and other actions taken by individuals, governments and the private sector to stem the spread of the virus have significantly reduced global economic activity, significantly reduced demand for the petroleum products that we manufacture, sell, transport and store, and contributed to increased market and oil price volatility.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates specific pandemic measures (closures, remote work) evidencing broad operational disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Ties these measures to ‘significantly reduced demand’ for core products.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights heightened market and price volatility, expanding financial impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specific causal chain from pandemic restrictions to reduced demand and volatility yields a high score of 7."
+            },
+            {
+                "snippet": "Our refinery utilization and operating margins and other aspects of our business have been adversely impacted by these developments.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms direct negative effect on key performance metrics (utilization, margins).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses past-tense ‘have been’, evidencing realized harm.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement is broad with no quantification.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct but unquantified impact on utilization and margins supports a solid severity score of 6."
+            },
+            {
+                "snippet": "Resurgences in COVID-19 infections could result in the imposition of new stay-at-home orders or other restrictions to slow the spread of the virus, which could further weaken demand for the petroleum products we manufacture, sell, transport and store, and could contribute to increased market and oil price volatility.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly discusses plausible future scenario (‘Resurgences’) showing continuing exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details potential for further demand destruction and volatility.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional language (‘could’) signals uncertainty, slightly mitigating severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Forward-looking conditional risk without quantification earns a moderate score of 3."
+            },
+            {
+                "snippet": "The ultimate extent to which COVID-19 will continue to negatively affect us and our customers, suppliers and other counterparties will depend largely on the length and severity of the pandemic; actions taken by individuals, governments and the private sector to stem the spread of the virus; general economic conditions; and the availability and widespread distribution and use of safe and effective vaccines, all of which cannot be predicted with certainty.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges broad uncertainty across supply chain, customers, counterparties.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasises unpredictability, which dilutes immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic uncertainty statement provides minimal incremental risk detail, so score is kept low at 1."
+            },
+            {
+                "snippet": "Such conditions could also result in an increased risk that our customers and other counterparties may be unable to fully fulfill their obligations in a timely manner, or at all.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-induced conditions to heightened counter-party default risk, touching supply-chain finance.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Use of ‘may be unable’ introduces uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Introduces specific counter-party risk but with conditional wording; nets a modest severity score of 2."
+            }
+        ],
+        "calculated_score": 27,
+        "average_severity": 4.5
+    }
+]

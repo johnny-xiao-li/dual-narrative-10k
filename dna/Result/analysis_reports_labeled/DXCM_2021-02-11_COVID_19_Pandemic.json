@@ -1,0 +1,304 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Dexcom’s 2021 Form-10-K discloses wide-ranging, still-unfolding risks tied to the COVID-19 pandemic. Because the filing date (11 Feb 2021) is less than a year after the WHO declaration (11 Mar 2020), Time-Decay is minimal and evidence merits high severity scores. The company links the pandemic to nearly every operational layer: supply-chain interruptions, factory access limits, higher component costs, labour shortages, remote-work and sales-force constraints, clinical-trial delays, loss of customer insurance, pricing pressure, and volatility in capital markets. Most statements are forward-looking but framed as “material adverse impact,” indicating management sees a clear, significant threat rather than a remote possibility. No hard dollar figures are given, but multiple passages cite concrete mechanisms (e.g., shelter-in-place orders blocking plant access, global shortages already affecting next-gen product manufacture). Dexcom does note mitigation actions (virtual sales, hospital use, employee safety measures), yet repeatedly concedes uncertainty over the “ultimate impact.” Balancing the breadth of specific operational vulnerabilities against the absence of quantified loss, the overall pandemic risk profile is assessed as high-to-severe in the 8–9 range under the Time Decay Principle.",
+        "evidence_list": [
+            {
+                "snippet": "The outbreak of the SARS-CoV-2 virus and the COVID-19 disease that it causes, or similar public health crises, could have a material adverse impact on our business, financial condition and results of operations, including our manufacturing, commercial operations and sales.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties COVID-19 to ‘material adverse impact’.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Enumerates multiple corporate functions at risk (manufacturing, commercial ops, sales).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Timing is current; no mitigating language.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Clear, comprehensive statement of severe current risk across core operations; high score justified."
+            },
+            {
+                "snippet": "The global COVID-19 pandemic may result in increased costs for manufacturing and outsourced services while also causing additional pressure to reduce the prices for our products if a recession or depression occurs and people are unable to afford our products.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to both cost inflation and demand erosion (pricing pressure).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes concrete financial mechanisms (higher costs, lower prices).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking but framed as likely (‘may result’); no offsetting mitigations.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specific dual-sided financial impacts (cost up, price down) raise severity, though not quantified."
+            },
+            {
+                "snippet": "Disruptions relating to the COVID-19 pandemic, including current shelter-in-place orders in the U.S. and other countries, could prevent employees, suppliers, distributors, and others from accessing manufacturing facilities and from transporting our products or the components required to manufacture our products.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete operational choke-points (facility access, logistics).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Cites globally enacted government restrictions already in force.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Potential for complete prevention of production/distribution stated.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Shows direct production & logistics vulnerability due to pandemic restrictions—high operational risk."
+            },
+            {
+                "snippet": "Further, worldwide supply chain disruption relating to the COVID-19 pandemic has resulted in product shortages that has and may continue to impact our ability to manufacture our devices.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits impact is already occurring (‘has resulted in product shortages’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Targets core capability—device manufacturing.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Future impact likely to persist (‘may continue’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Evidence of present-tense manufacturing disruption elevates the severity despite lack of dollar quantification."
+            },
+            {
+                "snippet": "Although we have shifted our sales and marketing activity to be conducted virtually and remotely, restrictions in connection with the COVID-19 outbreak may have a substantial impact on our customers and sales cycles and have impacted and/or interrupted our sales and marketing activity.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights sales-force disruption and lengthened sales cycles.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges mitigation (virtual shift).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "States impact already occurring (‘have impacted’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Risk tempered by mitigation, but evidence of real sales disruption yields a moderate score."
+            },
+            {
+                "snippet": "Current shelter-in-place orders limit or prohibit our sales force from having in-person interactions with healthcare providers and people with diabetes, which may result in decreased sales of our products.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct link between public-health orders and potential revenue decline.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies frontline commercial activity (in-person detail) constrained.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific causal chain from lockdowns to sales drop; mid-level severity."
+            },
+            {
+                "snippet": "We have experienced some supply chain disruption due to the global restrictions resulting from the COVID-19 pandemic in the manufacture of our next-generation CGM product.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States occurrence of disruption affecting future product line.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Relates to strategic next-gen product, amplifying impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Confirmed supply-chain hit to strategic pipeline—high but less than company-wide impact."
+            },
+            {
+                "snippet": "Furthermore, the COVID-19 pandemic and associated shelter-in-place orders have and may continue to limit or restrict our ability to initiate, conduct or continue our clinical trials.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly threatens R&D pipeline and regulatory timelines.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates current and future constraints (‘have and may continue’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clinical-trial delays jeopardize future growth; notable but narrower than full-scale ops."
+            },
+            {
+                "snippet": "If either we or any third-parties in the supply chain for components, materials or services used in the production of our devices are adversely impacted by the disruptions caused by, or restrictions resulting from, the COVID-19 pandemic, our supply chain may be disrupted, which may impact and/or limit our ability to manufacture and distribute our devices.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Comprehensive supply-chain dependency risk spelled out.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers both manufacturing and distribution impacts.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Strong supply-chain exposure statement; generic wording keeps score mid-high."
+            },
+            {
+                "snippet": "Additionally, as a result of COVID-19, some customers have and others may lose access to their private health insurance plan if they lose their job, and an impact to job status may extend for a prolonged period of time, beyond possible coverage periods through COBRA, or where the cost to maintain coverage may not be affordable to our customer.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links macroeconomic job losses to decreased insurance coverage and demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies prolonged effect beyond typical coverage extensions.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Demand-side risk through insurance loss is clear but indirect; moderate severity."
+            },
+            {
+                "snippet": "If a number of our essential employees become ill, incapacitated or are otherwise unable to continue working during the current or any future epidemic, our operations may be adversely impacted.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights labour shortage risk tied to infection.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers critical ‘essential’ workforce; no mitigation offered.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Operational continuity threat via employee illness—material but unquantified."
+            },
+            {
+                "snippet": "Reduction in our manufacturing and shipping capabilities may have a material economic effect on our business and the results of our operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Asserts ‘material economic effect’ tied to capability reduction (context: COVID-19).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Refers to both manufacturing and logistics.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Strong language but generalized; placed in pandemic context, warrants mid-level score."
+            },
+            {
+                "snippet": "We have experienced and may experience constrained supply or curtailed customer demand, including due to loss of coverage to our products, that could materially adversely impact our business, results of operations and overall financial performance in future periods.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits both supply and demand pressures already occurring.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses ‘materially adversely impact’ phrasing.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Acknowledges realized constraints; lack of detail keeps score moderate."
+            },
+            {
+                "snippet": "The trading prices for our common stock and other medical device companies have been highly volatile as a result of the COVID-19 pandemic, which may reduce our ability to access capital on favorable terms or at all.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to capital-market risk and financing capacity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Potential impact on future liquidity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Financial-market volatility threatens funding; important but secondary to core ops."
+            },
+            {
+                "snippet": "As of the filing date of this Form 10-K, the extent to which COVID-19 may impact our financial condition or results of operations or guidance is uncertain.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing uncertainty, implying potential downside.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic cautionary language reduces severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Pure uncertainty boilerplate provides little incremental risk detail; score neutralised."
+            }
+        ],
+        "calculated_score": 75,
+        "average_severity": 5.0
+    }
+]

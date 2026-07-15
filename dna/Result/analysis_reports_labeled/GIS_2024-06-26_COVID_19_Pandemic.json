@@ -1,0 +1,66 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "General Mills’ 2024 filing presents pandemics—implicitly including COVID-19—as an ongoing, forward-looking threat rather than a presently quantified loss. References to “pandemics” appear only in two risk-factor sentences, each nesting the word among many other external shocks (weather, war, cyber-attack, etc.). The language is purely conditional (“could,” “may”) and no financial figures, historical impacts, or COVID-specific lessons are cited. Nonetheless, the company acknowledges that a pandemic can (1) trigger commodity-price volatility that squeezes margins and (2) disrupt manufacturing and distribution, hampering the ability to sell products. Because the filing date is a little over four years after the World Health Organization declared COVID-19 a pandemic, the Time Decay Principle places the evidence in the ‘medium-term’ window, capping valid severity in the mid-range. The generic wording and lack of quantification temper the score, while the acknowledgement of material operational and profitability risks keeps it from being trivial. Overall, the pandemic risk disclosure is moderate but not acute.",
+        "evidence_list": [
+            {
+                "snippet": "The principal raw materials that we use are commodities that experience price volatility caused by external conditions such as weather, climate change, product scarcity, limited sources of supply, commodity market fluctuations, currency fluctuations, trade tariffs, pandemics, war (including international sanctions imposed on Russia for its invasion of Ukraine), and changes in governmental agricultural and energy policies and regulations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names ‘pandemics’ as a driver of commodity-price volatility, linking the event to a core cost risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Addresses raw materials that are fundamental to operations, indirectly signalling margin pressure and profitability risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Lists pandemics alongside many other hazards, reducing specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Uses conditional, forward-looking language (‘experience’, ‘caused by’) with no evidence of realized impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Moderate evidence: clearly ties pandemics to cost volatility, but generic phrasing and lack of actual COVID-19 data keep the score at 3."
+            },
+            {
+                "snippet": "Damage or disruption to raw material supplies or our manufacturing or distribution capabilities due to weather, climate change, natural disaster, fire, terrorism, cyber-attack, pandemics, war, governmental restrictions or mandates, labor shortages, strikes, import/export restrictions, or other factors could impair our ability to manufacture or sell our products.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links ‘pandemics’ directly to potential supply-chain damage or disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States a material consequence: the company’s ability to manufacture or sell products could be impaired.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Pandemic is embedded in a long list of threats, diluting focus.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Presented as a hypothetical (‘could’), signalling potential rather than realized impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Stronger than the first snippet: it connects pandemics to core operational impairment, earning a mid-range 5 after adjusting for generic wording and hypothetical framing."
+            }
+        ],
+        "calculated_score": 8,
+        "average_severity": 4.0
+    }
+]

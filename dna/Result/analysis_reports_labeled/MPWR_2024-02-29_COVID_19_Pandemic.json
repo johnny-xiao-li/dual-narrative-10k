@@ -1,0 +1,66 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The 2024 MPWR 10-K contains only passing references to the COVID-19 pandemic and related phenomena. The company classifies pandemics alongside other broad disruptions such as earthquakes or labor strikes, framing them as potential—rather than currently quantifiable—threats that could disrupt operations or supply chains. No specific financial figures, supply-chain delays, or labour impacts tied to COVID-19 are disclosed. Instead, the disclosure is largely generic and prospective, with a single sentence flagging that “epidemics and pandemics” could materially harm results, and another noting that remote-work arrangements (a pandemic-driven shift) heighten cybersecurity exposure. Because COVID-19’s initial shock is now four years old, the Time Decay Principle caps any individual evidence score in the moderate range (4-6). Given the absence of concrete, ongoing impacts, the evidence collectively signals a moderate-to-low residual risk profile, driven more by general preparedness concerns than by immediate pandemic-related distress.",
+        "evidence_list": [
+            {
+                "snippet": "Such concentration increases the risk that earthquakes or other natural disasters, labor strikes, epidemics and pandemics, and/or health advisories could disrupt our operations and have a material adverse impact on our business and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘epidemics and pandemics’ as a risk factor tied to potential operational disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes possibility of a ‘material adverse impact’ on business and results, signalling severity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Framed as a generic, forward-looking contingency with no COVID-specific data or quantification.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Grouped with multiple other hazards, diluting pandemic specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "The sentence squarely acknowledges pandemic risk and links it to potential material harm, but the language is generic and unquantified, yielding a moderate score of 4 under time-decay rules."
+            },
+            {
+                "snippet": "Remote working arrangements, the Russia-Ukraine conflict, the Middle East conflict, and AI-powered cybersecurity threats have also heightened our potential exposure to cyberattacks, which could put the sensitive data we store on our internal systems at risk.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites ‘Remote working arrangements’—a widespread pandemic-era shift—as an aggravating factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links the shift to a concrete operational vulnerability: heightened exposure to cyber-attacks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not explicitly attribute remote work to COVID-19 and contains no financial quantification.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "The risk is prospective and bundled with other unrelated geopolitical factors, reducing pandemic focus.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "While remote work is widely understood as a pandemic-related trend, the sentence does not mention COVID-19 directly and offers no impact magnitude, resulting in a low-moderate score of 2."
+            }
+        ],
+        "calculated_score": 6,
+        "average_severity": 3.0
+    }
+]

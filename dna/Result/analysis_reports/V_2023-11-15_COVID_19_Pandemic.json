@@ -1,0 +1,131 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Visa’s 2023-11-15 filing continues to tie the COVID-19 pandemic to both realized and prospective business risks. Although more than three years have passed since the World Health Organization first declared the pandemic, Visa still describes concrete, ongoing impacts—e.g., negative effects on operations, suppliers, cross-border travel, and heightened cyber-fraud exposure driven by remote-work patterns. The disclosures mainly reference broad operational and regulatory consequences (interchange-fee caps, lingering travel uncertainty) rather than quantified dollar figures, but they use definitive language such as “have negatively impacted” and “we continue to see,” indicating that the threat is not merely hypothetical. Because the pandemic event window (2020-03-11 onward) is less than four years before the filing date, the Time Decay Principle allows relatively elevated scores; however, the absence of hard financial metrics and the inclusion of mitigating context (e.g., formal end of the health emergency) temper the severity. Overall, COVID-19 remains a material, recently experienced risk for Visa, but the company frames it in mainly qualitative terms and alongside other macro threats, warranting moderate-to-high evidence scores rather than the maximum levels.",
+        "evidence_list": [
+            {
+                "snippet": "In addition, outbreaks of illnesses, pandemics like COVID-19, or other local or global health issues, political uncertainties, international hostilities, armed conflicts, wars, civil unrest, climate-related events, including the increasing frequency of extreme weather events, impacts to the power grid, and natural disasters have to varying degrees negatively impacted our operations, clients, third-party suppliers, activities, and cross-border travel and spend.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links pandemics like COVID-19 to negative impacts already experienced.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies multiple business areas affected (operations, suppliers, travel, spend).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses past-tense 'have ... negatively impacted', confirming realized effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact is bundled with many other unrelated risks, diluting COVID-19 specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Provides a direct, multi-faceted description of actual COVID-related harm, but shares context with other risks, yielding a strong yet non-max score of 7."
+            },
+            {
+                "snippet": "Although the World Health Organization and the federal government declared an end to COVID-19 as a global and national health emergency, respectively, risks related to COVID-19 have adversely affected and may continue to adversely affect our business, results of operations, cash flows and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges adverse effects that have already occurred.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly states the risk may continue in the future.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers broad financial areas (business, results, cash flows, condition).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Mentions official end of emergency, a partial mitigating signal.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Balances recognition of past and future COVID impact with mitigating context, producing a mid-range severity score."
+            },
+            {
+                "snippet": "The ongoing effects of the COVID-19 pandemic remain difficult to predict due to numerous uncertainties, including the resumption of international travel, and the indirect impact of the pandemic on global economic activity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights persistent uncertainty and ongoing nature of COVID-19 effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies specific driver (international travel) tied to Visa’s revenue model.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Emphasizes unpredictability without detailing concrete impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Lacks quantification and is relatively generic.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Presents a forward-looking, but abstract, statement of uncertainty, earning a modest score."
+            },
+            {
+                "snippet": "In addition, a number of countries took steps during the pandemic to temporarily cap interchange or other fees on electronic payments as part of their COVID-19 economic relief measures.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to specific regulatory action (fee caps) that can reduce revenue.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Demonstrates actual implementation across multiple countries.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Caps described as temporary with no quantified impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows concrete pandemic-driven regulation but lacks magnitude or permanence, resulting in a moderate score."
+            },
+            {
+                "snippet": "Given the increase in online banking, ecommerce and other online activity, as well as more employees working remotely as a result of the COVID-19 pandemic, we continue to see increased cyber and payment fraud activity, as cybercriminals attempt DDoS related attacks, phishing and social engineering scams and other disruptive actions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes remote-work shift from COVID-19 to higher cyber-fraud risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States the impact is ongoing ('we continue to see').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Provides concrete examples of threats (DDoS, phishing, social engineering).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Links pandemic-induced work patterns to a live, specific threat vector, justifying a relatively high severity score."
+            }
+        ],
+        "calculated_score": 25,
+        "average_severity": 5.0
+    }
+]

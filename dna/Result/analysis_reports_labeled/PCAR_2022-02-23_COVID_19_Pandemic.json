@@ -1,0 +1,186 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "PACCAR’s 2022 Form 10-K repeatedly links the COVID-19 pandemic to both realized and prospective risks across operations, supply chain, workforce, demand and financing activities. The company discloses that the pandemic is already “having an adverse effect” on revenues, has tempered truck deliveries in 2021-2020, and that continuing semiconductor shortages and changing consumer behaviour may further harm results. These statements are largely qualitative and un-quantified but they are contemporaneous (within the 0-3-year ‘recent’ window) and describe direct, material impacts as well as forward-looking uncertainties. No substantive mitigations or offsets are provided in the cited language. Accordingly, individual sentence scores cluster in the low-to-mid range (1-6) rather than the maximum, reflecting the combination of clear, ongoing exposure with limited numerical precision. The Time Decay Principle allows higher scores because the pandemic remains current, yet the absence of hard dollar figures or probability estimates keeps most sentences below 7.",
+        "evidence_list": [
+            {
+                "snippet": "Unexpected events, including natural disasters, extreme weather events, or global pandemics, may increase the Company’s cost of doing business or disrupt the Company’s or its suppliers’ operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists global pandemics as a factor that can raise costs or disrupt operations.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic but direct acknowledgement that pandemics can harm costs and operations; no current impact or quantification, hence low score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic and various governmental responses to contain the outbreak continue to impact global economic activity and the Company’s business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States ongoing ('continue to') impact from COVID-19 on both macro economy and company business.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Present-tense framing indicates current, not merely potential, effect.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct, presently occurring impact is disclosed, but without magnitude; scores mid-range."
+            },
+            {
+                "snippet": "The economic disruptions from the pandemic are having an adverse effect on the Company’s revenues and operating results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic disruptions to adverse financial metrics (revenues and operating results).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses present tense ('are having') indicating effects already realized.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clear statement of realized financial harm elevates severity, though lack of numbers caps score at 5."
+            },
+            {
+                "snippet": "The Company’s workforce at a given location could be affected by a localized outbreak of COVID-19, necessitating facility slowdowns or shutdowns.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential workforce infection risk leading to operational shutdowns.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional language ('could') signals possibility rather than certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Operational disruption risk is outlined but remains prospective, so score is modest."
+            },
+            {
+                "snippet": "As a result of pandemic-related economic disruptions, if one or more of the Company’s suppliers could not produce needed parts or deliver at sufficient volumes to support the Company’s production plans or aftermarket requirements, revenues and operating results could be adversely affected.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights supply-chain vulnerability tied to pandemic, connecting to financial impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies adverse effect on revenues and operating results.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional wording ('could') tempers immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Supply-chain risk is clearly stated but contingent, keeping severity low-to-moderate."
+            },
+            {
+                "snippet": "The full extent and duration of the adverse effect on the Company’s business is uncertain and depends on the duration of the pandemic and the extent global and local economies are impacted by the effects of the pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises uncertainty and potentially prolonged adverse effects.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Adds uncertainty but no specifics; minimal incremental risk evidence."
+            },
+            {
+                "snippet": "Changes to consumer behavior and labor markets as a result of COVID-19, as well as other pandemic related economic factors such as business failures, lower housing and construction starts, lower automobile sales, disruptions in financial markets or disruptions to the global supply chain, in particular the undersupply of semiconductor chips, could have further adverse effects on the Company’s truck and parts revenues and operating results and may result in lower new truck financing volume, higher finance portfolio past dues, credit losses and used truck losses.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple channels of potential harm (demand shifts, supply chain, financing).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Specifically references semiconductor undersupply, a concrete supply-chain constraint.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Use of 'could' and 'may' signals contingent nature.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Comprehensive list of significant potential impacts across revenue and credit elevates score despite conditional phrasing."
+            },
+            {
+                "snippet": "Other unforeseen impacts of the COVID-19 pandemic could also impact the Company’s business and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges additional undefined risks from pandemic.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Highly generic catch-all statement adds little incremental detail; minimal score."
+            },
+            {
+                "snippet": "Factors for which the Company is unable to specifically quantify the impact include market demand, fuel prices, freight tonnage, economic conditions and COVID-19 related factors affecting the Company’s results of operations.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits inability to quantify COVID-19 related impacts, highlighting ongoing uncertainty.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Shows persistent, unquantified exposure; moderate evidentiary weight."
+            },
+            {
+                "snippet": "In both 2021 and 2020, Truck segment income before taxes and pretax return on revenues reflect the tempering of truck unit deliveries due to the COVID-19 pandemic.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms historical negative impact on deliveries attributable to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers two consecutive years, indicating sustained effect.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Demonstrates tangible, multi-year operational impact, raising severity to mid-level."
+            }
+        ],
+        "calculated_score": 28,
+        "average_severity": 2.8
+    }
+]

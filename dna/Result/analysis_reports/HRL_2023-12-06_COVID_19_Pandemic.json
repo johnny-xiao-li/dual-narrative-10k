@@ -1,0 +1,90 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated December 6 2023, addresses pandemic-related threats primarily through a short cluster of sentences that explicitly cite COVID-19 and remote-work-driven vulnerabilities.  The company frames the pandemic as an ongoing, forward-looking operational risk rather than a currently quantifiable loss: language such as “if … developed” and “may negatively impact” signals contingency rather than historical damage.  Nevertheless, the text enumerates broad areas of exposure—global demand, supply chain, co-manufacturers, labour availability, and financial results—indicating management still considers pandemic shocks material almost four years after WHO’s declaration.  Mitigation is acknowledged (contingency plans), but the firm tempers this with a disclaimer that “no assurance” can be given that such plans will work, leaving residual risk.  Under the Time Decay principle, COVID-19 falls on the edge of the 0-3-year “recent” band (≈3.75 years), so moderately elevated scores are appropriate; the lack of quantification and the presence of mitigation dilute severity, keeping individual snippet scores mostly in the 4-6 range rather than the upper 8-10 tier.",
+        "evidence_list": [
+            {
+                "snippet": "Additionally, if a highly pathogenic human disease outbreak developed, such as COVID-19, it may negatively impact the global economy, demand for Company products, the supply chain, the Company's co-manufacturers, and/or the Company’s workforce availability including leadership, and the Company’s financial results could suffer.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit reference to COVID-19 links risk directly to the event under analysis.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Enumerates multiple critical impact vectors (economy, demand, supply chain, co-manufacturers, workforce, financial results).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses conditional wording ('if', 'may') signalling potential rather than realised losses.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No quantification of magnitude or probability provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Direct, multi-faceted risk disclosure earns positive points, but lack of quantification and conditional language keep the score moderate."
+            },
+            {
+                "snippet": "The Company has developed contingency plans to address infectious disease scenarios and the potential impact on its operations, and will continue to update these plans as necessary.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges existence of infectious-disease risk (implicit pandemic link).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Describes specific mitigating action (contingency plans).",
+                            "points": -3
+                        }
+                    ],
+                    "final_snippet_score": -2
+                },
+                "reasoning_summary": "Statement is primarily mitigating, so net effect reduces assessed severity."
+            },
+            {
+                "snippet": "There can be no assurance given, however, that these plans will be effective in eliminating the negative effects of any such diseases on the Company’s operating results.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits residual risk and potential ineffectiveness of mitigation efforts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Continues to use generic, forward-looking phrasing without quantification.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Restores some severity by stressing uncertainty of contingency plans, but still lacks quantification."
+            },
+            {
+                "snippet": "Remote work arrangements may bring additional information technology and data security risks.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights a pandemic-related structural shift (remote work) creating a new risk vector (IT & data security).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic 'may' language; no explicit link to COVID-19 or size of impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Recognises a secondary pandemic-driven risk (remote work), but generic wording and lack of detail yield a low score."
+            }
+        ],
+        "calculated_score": 4,
+        "average_severity": 1.0
+    }
+]

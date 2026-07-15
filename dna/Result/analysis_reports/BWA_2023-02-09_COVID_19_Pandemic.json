@@ -1,0 +1,161 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "BorgWarner’s 2023 Form 10-K ties COVID-19 to both realized and continuing operational, supply-chain, and financial stresses.  The filing is made less than three years after the WHO declared the pandemic, so time-decay allows relatively high severity scores.  The language is mostly concrete: management cites 2022 lockdowns in China, actual factory and distribution delays, component shortages (especially semiconductors), and explicit loss-of-sales impacts.  It also flags forward-looking threats—lower customer demand, further ‘material negative impact,’ and asset-impairment risk—showing the risk is both present and prospective.  No quantitative dollar amounts are given, and a few sentences emphasize uncertainty, which slightly tempers severity.  Overall, the COVID-19 pandemic represents a still-elevated (mid-to-high) risk exposure for BorgWarner, warranting snippet scores that cluster in the 5–7 range, with occasional downward adjustments for conditional or mitigating language.",
+        "evidence_list": [
+            {
+                "snippet": "In 2022, COVID-19 outbreaks in certain regions caused intermittent COVID-19-related disruptions in our supply chain and local manufacturing operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States a direct, realized impact ('caused disruptions').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies recent timeframe (2022), heightening immediacy.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights critical operational areas (supply chain and manufacturing).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct 2022 supply-chain and factory disruptions show a concrete, recent impact, justifying a moderately high score of 6."
+            },
+            {
+                "snippet": "As a result, we experienced, and may continue to experience, delays in the production and distribution of our products and the loss of sales.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits historical impact already experienced.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links to tangible financial harm (loss of sales).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Projects continuation into the future, extending risk window.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Use of 'may' adds uncertainty, slightly mitigating.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Combines realised delays and sales losses with ongoing risk; uncertainty language trims the score to 5."
+            },
+            {
+                "snippet": "For a significant portion of the second quarter of 2022, China imposed lockdowns in many cities due to an increase in COVID-19 cases in the region, which contributed to a decline in industry production in China during the quarter.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Gives concrete period and geography (Q2-22, China lockdowns).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects event to broader industry production decline.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Recency within three-year window.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specific, recent lockdown-driven production decline signals significant exposure, warranting a score of 6."
+            },
+            {
+                "snippet": "During 2021, and to a lesser extent in 2022, trailing impacts of the shutdowns and production declines related, in part, to COVID-19 created supply constraints of certain components, particularly semiconductor chips.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemic as partial cause of component shortages.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers two consecutive years, showing persistence.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights critical commodity (semiconductor chips) affecting entire industry.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Multi-year chip shortages tied to COVID-19 are critical and ongoing; severity merits 7."
+            },
+            {
+                "snippet": "These supply constraints have had and are expected to continue to have significant impacts on global industry production levels.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges both historical and future significant impacts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Escalates from company-specific to global industry scope.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Broad, continuing industry-level impact is material but lacks company-specific figures, landing at 5."
+            },
+            {
+                "snippet": "If the global economic effects caused by COVID-19 continue or increase, overall customer demand may decrease, which could further adversely affect our business, results of operations, and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to potential demand drop and broad financial harm.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking conditional phrasing ('may') reduces certainty.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Covers multiple financial dimensions (business, operations, condition).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Potential—but unquantified and conditional—demand shock is notable yet speculative, scoring 3."
+            },
+            {
+                "snippet": "An extended period of global supply chain and economic disruption as a result of COVID-19 would have a further material negative impact on our business, results of operations, access to sources of liquidity and financial condition, although the full extent and duration are uncertain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses strong phrase 'material negative impact' across several financial areas.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights prolonged supply-chain and liquidity risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uncertainty caveat slightly mitigates.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Stresses potentially material, wide-ranging harm but remains hypothetical, yielding a score of 4."
+            }
+        ],
+        "calculated_score": 36,
+        "average_severity": 5.142857142857143
+    }
+]

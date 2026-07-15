@@ -1,0 +1,98 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing places COVID-19 within a broader category of “public health crises” but still provides several direct references to how the 2020-2022 pandemic affected Western Digital (WDC).  The company discloses concrete, historical consequences—temporary plant shutdowns, under-absorbed overhead, higher logistics costs, and falling product demand—showing that the pandemic was not merely hypothetical.  At the same time, management frames many statements in the conditional tense (e.g., “may in the future negatively impact”), signalling that the residual exposure is now viewed as an ongoing, forward-looking risk rather than an acute emergency.  Because the filing date (Aug-2024) is roughly four years after the World Health Organization declared COVID-19 a pandemic (Mar-2020), the Time-Decay Principle limits maximum severity to the “medium-term” band (4-10 years), suggesting individual snippet scores should fall in the moderate 4-6 range unless materially mitigated.  Where the language is generic or heavily caveated, scores are further discounted.  Conversely, where the company lists specific operational impacts attributable to COVID-19, the evidence receives the higher end of the medium-term band.  No snippet is scored above 6, and mitigating statements (e.g., uncertainty or future tense) reduce scores accordingly.",
+        "evidence_list": [
+            {
+                "snippet": "The impacts we experienced in connection with the COVID-19 pandemic included temporary closures of certain manufacturing facilities; under-absorbed overhead; increased logistics, component and other costs; decreased demand for our products; and manufacturing challenges.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links impacts explicitly to COVID-19 (‘in connection with the COVID-19 pandemic’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists multiple concrete operational and financial effects (closures, cost increases, demand drop).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Impacts are historical (not prospective), so no mitigation for uncertainty is needed but Time-Decay caps severity.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct, multi-faceted impacts attributable to COVID-19 warrant the top of the medium-term band (6/10)."
+            },
+            {
+                "snippet": "Public health crises have in the past negatively impacted, and may in the future negatively impact, our workforce and operations, as well as those of our strategic partners, customers, suppliers and logistics providers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges past negative impact, implicitly referring to COVID-19 era.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Extends risk to partners, suppliers and logistics, broadening scope.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Use of conditional ‘may in the future’ adds uncertainty / mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Broad statement of past and potential future impact scores mid-range after a penalty for conditional language."
+            },
+            {
+                "snippet": "The effects of public health crises are uncertain and difficult to predict, but may also include disruptions to our supply chain, our operations or those of our strategic partners, customers or suppliers; deterioration of worldwide credit markets, which may limit our ability or increase our cost to obtain external financing and result in a higher rate of losses on our accounts receivable; volatility in financial markets, which may be extreme and could harm our ability to access the financial markets on acceptable terms or at all; increased data security and technology risks related to increased remote work; and reduced productivity or other disruptions of our operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates several specific operational and financial risk channels tied to public health crises.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights breadth of potential impacts (supply chain, credit, cybersecurity, productivity).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Prefaces with ‘uncertain and difficult to predict,’ signalling mitigation through uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Detailed but forward-looking list of potential impacts balances +5 aggravation with −1 uncertainty, yielding 4."
+            },
+            {
+                "snippet": "Our suppliers have in the past been, and may in the future be, unable or unwilling to meet our requirements, including as a result of events outside of their control such as trade restrictions (including tariffs, quotas and embargoes), geopolitical conflicts, terrorism, public health crises or natural disasters.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects supply-chain disruption risk to public health crises (COVID-19 context).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States both historical and future vulnerability, indicating persistence.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Public health crises listed among many other external events—dilutes specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic, ‘among other factors’ wording weakens linkage, so the snippet receives a low-moderate score of 2."
+            }
+        ],
+        "calculated_score": 16,
+        "average_severity": 4.0
+    }
+]

@@ -1,0 +1,218 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Charter’s 2022 Form 10-K acknowledges COVID-19 as a live, multi-faceted threat whose effects have already materialised and may intensify.  The disclosure blends backward-looking evidence (actual supply-chain interruptions, altered customer usage patterns, labour-force constraints and reduced service transactions) with forward-looking contingencies (unknown duration, vaccine uptake, further government restrictions).  Language such as “has caused economic disruption,” “significantly impacted,” and “materially affect our financial condition” indicates present, tangible exposure, even though no precise dollar amounts are supplied.  The company also details specific operational pinch-points—vendors, port congestion, employee health, on-site repairs—showing that the risk penetrates day-to-day operations rather than remaining abstract.  Mitigating language centres on uncertainty and the inability to forecast ultimate outcomes, but no concrete counter-measures are offered, so mitigation is weak.  Because the filing date (January 2022) falls within three years of the pandemic’s onset, the Time Decay Principle allows high but not maximum severity scores; evidence justifies scores mostly in the 4-7 range, with direct, realised impacts scoring higher and purely speculative or heavily caveated statements scoring lower.",
+        "evidence_list": [
+            {
+                "snippet": "The ongoing COVID-19 pandemic could materially affect our financial condition and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links COVID-19 to the company’s financial condition and results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong materiality language ('materially affect').",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear, high-impact statement tying the pandemic to material financial harm with no mitigation."
+            },
+            {
+                "snippet": "The ongoing COVID-19 pandemic has increased economic and demand uncertainty.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies current increase in economic and demand uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Direct causal reference to COVID-19.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows present uncertainty but lacks detail or quantified impact, giving a moderate score."
+            },
+            {
+                "snippet": "The current pandemic and continued spread of COVID-19 has caused economic disruption.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges realised impact ('has caused').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "References broad 'economic disruption', an aggravating factor.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Confirms actual disruption, boosting severity despite lack of numbers."
+            },
+            {
+                "snippet": "At this time, we cannot predict the duration of any business disruption and the ultimate impact of COVID-19 on our business, including the depth and duration of the economic impact to household formation and growth, our residential and business customers’ ability to pay for our products and services and the long-term impact on our business, including from consumer behavior, after the pandemic is over.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple potential impact channels (household formation, customer payment ability, long-term consumer behaviour).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Expresses inability to predict—mitigating via uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Wide range of risks cited, but heavy emphasis on unpredictability tempers the score."
+            },
+            {
+                "snippet": "In addition, there is uncertainty regarding the impact of government emergency declarations, the ability of our suppliers and vendors to provide products and services to us, the pace of new housing construction, the pace of households moving residences, changes in business spend in our local and national ad sales business, the effects to our employees’ health and safety and resulting reorientation of our work activities, and the risk of limitations on the deployment and maintenance of our services (including by limiting our customer support and on-site service repairs and installations).",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates several operational exposure points (suppliers, ad spend, employee health, service deployment).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Frames them as uncertainties rather than realised impacts.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Multiple risk vectors outlined, but framed hypothetically, yielding a moderate score."
+            },
+            {
+                "snippet": "The degree to which COVID-19 impacts our results will depend on future developments, which are highly uncertain and cannot be predicted, including, but not limited to, the duration and spread of the outbreak, its severity, the actions to contain the virus or treat its impact, the distribution and acceptance of vaccines and how quickly and to what extent normal economic and operating conditions can resume.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges dependency on external pandemic developments.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Strong emphasis on uncertainty and mitigating factors (vaccine distribution).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": -1
+                },
+                "reasoning_summary": "Primarily a disclaimer of uncertainty, so the net risk signal is minimal and negative."
+            },
+            {
+                "snippet": "Our third-party service providers, suppliers and licensors have been disrupted by worker absenteeism, quarantines, restrictions on employees’ ability to work, office and factory closures, disruptions to ports and other shipping infrastructure, border closures, or other travel or health-related restrictions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms actual, current disruptions among suppliers.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Details multiple specific disruption drivers (ports, border closures, absenteeism).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Concrete, realised supply-chain impacts across several dimensions justify a high score."
+            },
+            {
+                "snippet": "Furthermore, an extended duration of the COVID-19 pandemic could result in significant disruptions in our supply chain.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of 'significant disruptions' to supply chain, a critical function.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Potential—not yet realised—impact keeps the score modest."
+            },
+            {
+                "snippet": "For example, quarantines, shelter-in-place and similar government orders, travel restrictions and health impacts of the COVID-19 pandemic, could impact the availability or productivity of personnel at third-party supply manufacturers, distributors, freight carriers and other necessary components of our supply chain.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Gives concrete mechanisms by which supply-chain personnel availability may be reduced.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Contingent language ('could impact') lowers certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Specific but hypothetical example; limited weight assigned."
+            },
+            {
+                "snippet": "The COVID-19 pandemic significantly impacted how our customers use our products and services, how they interact with us, and how our employees provide services to our customers.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that impacts are already 'significant' and multi-pronged (customers and employees).",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Strong wording on realised operational shifts earns a solid score."
+            },
+            {
+                "snippet": "Customer activity levels remain below normal which contributed to lower operating expense from reduced service transactions and lower bad debt in 2021 along with lower growth in customer relationships.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides operational metrics (lower service transactions, bad debt, customer growth) directly tied to pandemic-related behaviour changes.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Demonstrates concrete, measurable business effects; medium-high severity."
+            },
+            {
+                "snippet": "We cannot predict when trends return to pre-COVID-19 levels as the economy returns to normal activities.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits ongoing uncertainty with no timeline for recovery.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Emphasises inability to forecast, a mitigating note.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Pure uncertainty statement nets out to neutral in the scoring framework."
+            }
+        ],
+        "calculated_score": 36,
+        "average_severity": 3.0
+    }
+]

@@ -1,0 +1,103 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "AZO’s 2024-10-28 filing still ties multiple business vulnerabilities to the COVID-19 pandemic even though the initial outbreak occurred roughly 4½ years earlier (March 2020).  The document cites the pandemic as an aggravating factor for logistics congestion, acknowledges quantified pandemic-related expenses, and references a temporary suspension of share repurchases.  The company also groups “public health crises” with other disruptive events that could curtail store hours, hinder distribution networks, and dampen consumer demand.  These statements are largely forward-looking (supply-chain and operational warnings) but also contain backward-looking evidence of actual financial impact (millions in emergency time-off costs and capital-allocation changes).  Because the event now sits just beyond the 0-3-year “recent” window, the Time Decay Principle constrains individual snippet scores to the moderate 4-6 band for the strongest evidence and lower scores for generic or largely historical mentions.  Overall, COVID-19 remains a material—but no longer acute—risk driver for AZO, chiefly through lingering supply-chain fragility, labor cost pressures and macroeconomic uncertainty.",
+        "evidence_list": [
+            {
+                "snippet": "For example, in recent years, ports, rails and domestic long-hauls in the U.S. and elsewhere have been negatively impacted by capacity constraints, congestion and delays, periodic labor disputes, security issues, weather-related events, and natural disasters, which were further exacerbated by the COVID-19 pandemic and other factors beyond our control.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete logistics channels (ports, rails, long-haul) suffering negative impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly links worsening of those disruptions to the COVID-19 pandemic.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Directly names COVID-19 as an exacerbating factor for specific supply-chain disruptions, warranting the maximum moderate score of 6 under the 4-10-year time-decay bracket."
+            },
+            {
+                "snippet": "Business interruptions including war or acts of terrorism, political or civil unrest, unusual or severe weather conditions such as hurricanes, tornadoes, windstorms, fires, earthquakes and floods, public health crises and other disasters or the threat of any of them, may negatively impact the hours and operations of our stores, distribution centers, store support centers or sourcing offices; may negatively impact our supply chain and distribution network; and may impede our ability to source quality merchandise domestically and outside of the U.S. on favorable terms.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies ‘public health crises’ as a threat category alongside other major disruptions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies a wide range of operational impacts (store hours, distribution network, sourcing).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Sentence is forward-looking and describes broad operational harm from pandemics, but lacks COVID-19-specific or quantified data, yielding a solid yet mid-range risk score."
+            },
+            {
+                "snippet": "Continued distress in global credit markets, business failures, civil unrest, inflation, rising interest rates, foreign exchange rate fluctuations, significant geo-political conflicts, proposed or additional tariffs, continued volatility in energy prices, the impact of a public health crisis or pandemic (such as the COVID-19 pandemic), constraints on the global supply chain and other factors continue to affect the global economy.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions ‘public health crisis or pandemic (such as the COVID-19 pandemic)’ as an ongoing macroeconomic headwind.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects pandemic to ‘constraints on the global supply chain’, indicating continued exposure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Provides a generic, macro-level linkage between COVID-19 and supply-chain stress; informative but less granular, so the score is lower."
+            },
+            {
+                "snippet": "The 52 weeks ended August 28, 2021 and August 29, 2020 were negatively impacted by pandemic related expenses, including Emergency Time-Off of approximately $43.0 million (pre-tax) and $83.9 million (pre-tax), respectively.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that results were ‘negatively impacted’ by pandemic-related expenses.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Provides specific, quantified dollar amounts for the financial impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Refers to past fiscal years, indicating some temporal distancing from current risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Historical but quantified evidence of material impact; time decay and historical nature temper the score to 4."
+            },
+            {
+                "snippet": "During the third quarter of fiscal 2020, the Company temporarily suspended share repurchases under the share repurchase program in response to the COVID-19 pandemic which was restarted beginning in the first quarter of fiscal 2021.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Demonstrates a capital-allocation action (share-repurchase suspension) triggered by COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes the suspension was temporary and already lifted, indicating mitigation/closure of the issue.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Shows pandemic influence on financial policy but issue is resolved, yielding a minimal residual risk score."
+            }
+        ],
+        "calculated_score": 18,
+        "average_severity": 3.6
+    }
+]

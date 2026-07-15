@@ -1,0 +1,136 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "RMD’s 2023 filing explicitly acknowledges that the COVID-19 pandemic remains a material and active threat to the company’s operations even three years after the World Health Organization declared the outbreak a global pandemic.  The disclosure language communicates both realized impacts (e.g., backlog-driven product modifications) and forward-looking uncertainty tied to renewed outbreaks, supply-chain constraints and possible re-imposition of lockdowns.  Although the company provides some evidence of mitigation—such as launching ‘Card-to-Cloud’ (C2C) devices to alleviate pandemic-related shortages—the bulk of the statements highlight continuing vulnerability across financial, operational and demand dimensions.  Because the filing date (11 Aug 2023) falls within roughly 3.5 years of the pandemic’s onset, the Time Decay Principle allows for elevated scores; however, most sentences are qualitative and lack hard quantification, tempering maximum severity.  Overall, COVID-19 is framed as an ongoing, multi-faceted risk rather than a fully historical issue, warranting moderate-to-high—but not maximal—risk scores for the extracted evidence.",
+        "evidence_list": [
+            {
+                "snippet": "Our business, financial condition and results of operations could continue to be harmed by the effects of outbreaks of COVID-19 or similar public health crises.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links potential harm to COVID-19 outbreaks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers multiple critical areas (business, financial condition, results of operations).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights that harm could ‘continue’, indicating ongoing exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Language is generic / conditional (‘could’), reducing certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Directly ties continuing harm to COVID-19 across several performance metrics, but lacks specifics, resulting in a mid-high score of 5."
+            },
+            {
+                "snippet": "We are subject to risks associated with public health threats, including outbreaks associated with COVID-19 and its variants, which have had and may continue to have an adverse impact on certain aspects of our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits that COVID-19 ‘have had’ adverse impacts—evidence of realized harm.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States risk may ‘continue’, signalling forward-looking concern.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifically references variants, enhancing immediacy of threat.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Qualifies impact to ‘certain aspects’, limiting scope.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Classifies COVID-19 within broader ‘public health threats’, emphasizing category of risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Combines past impact with ongoing threat and explicit variant mention, justifying a score of 6 despite some narrowing language."
+            },
+            {
+                "snippet": "While most countries have removed or reduced the restrictions initially implemented in response to COVID-19, the extent to which the COVID-19 pandemic or another public health crisis impact our business, results of operations, and financial condition will depend on future developments which are highly uncertain and are difficult to predict.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes potential impact on business, operations and financial condition.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights high uncertainty regarding future developments—an aggravating factor.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Acknowledges removal of restrictions, a mitigating signal.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Direct mention of COVID-19 maintains relevance.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Emphasises uncertainty but couples it with mitigation (restrictions eased); yields a modest risk score of 2."
+            },
+            {
+                "snippet": "These developments include, but are not limited to, future resurgences of the virus and its variants, actions taken to contain the virus or address its impact, the timing, distribution, and efficacy of vaccines and other treatments, and the imposition of government lockdowns, quarantine and physical distancing requirements.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists concrete disruptive scenarios (resurgences, lockdowns, etc.) linked to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantitative detail or certainty, reducing weight.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Provides granular risk drivers but remains hypothetical and unquantified, leading to a low score of 1."
+            },
+            {
+                "snippet": "We introduced C2C models to address the growing backlog of patients waiting for therapy with our devices during and after the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows direct operational change (new product variant) due to pandemic-induced backlog.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Demonstrates tangible evidence of pandemic’s impact on demand fulfillment.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presence of a mitigation strategy (launching C2C models) partially offsets risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Reveals concrete pandemic impact prompting product redesign; mitigation keeps the risk moderate at 4."
+            }
+        ],
+        "calculated_score": 18,
+        "average_severity": 3.6
+    }
+]

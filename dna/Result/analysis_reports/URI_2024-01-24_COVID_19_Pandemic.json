@@ -1,0 +1,137 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "United Rentals Inc. (URI) continues to reference COVID-19 primarily as a medium-term, background risk.  The filing (dated January 24 2024) notes that the pandemic’s most severe operational impact was in 2020, with demand recovering during 2021; nevertheless, management still cites public-health crises—specifically “such as COVID-19”—among the unforeseen events that have hurt results in the past and could do so again.  The risk language is largely generic and bundled with other macro threats, but one sentence specifies a range of possible adverse outcomes (weaker demand, labor shortages, higher costs, delayed payments, funding constraints), showing that COVID-19 remains in the company’s risk register.  Mitigating disclosures are equally prominent: URI highlights a detailed response plan, ongoing monitoring, and the fact that activity has already rebounded.  Under the Time-Decay Principle, a pandemic that peaked four years ago moves from the “recent” to the “medium-term” bucket; therefore, individual snippet scores are capped in the mid-range (4-6).  Overall, the document signals a manageable, diminishing—but not eliminated—risk, warranting moderate severity scores for the strongest evidence and lower or zero scores where mitigation dominates.",
+        "evidence_list": [
+            {
+                "snippet": "Challenging economic conditions and the occurrence of unforeseen or catastrophic events, including public health crises and epidemics, have in the past adversely impacted, and may in the future adversely impact, us, our customers or our suppliers and in turn adversely affect our business, revenues and operating results.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly includes public-health crises/epidemics, the category that covers COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges both historical and potential future adverse impacts on business, revenue and operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Language is broad and unquantified (generic risk boiler-plate).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic but direct linkage to pandemic risk with stated past and future impacts yields a moderate score of 3."
+            },
+            {
+                "snippet": "• public health crises and epidemics (or concerns over the possibility of such a health crisis or epidemic), such as COVID-19;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit mention of COVID-19 as an example threat.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Appears within a long enumerated list without detailing consequences.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Direct citation of COVID-19 but no impact detail results in a modest risk score of 2."
+            },
+            {
+                "snippet": "These factors have in the past, and could in the future, among other things, cause weakness in our end-markets and impact customer demand for equipment rentals, reduce the availability and productivity of our employees, increase our costs, result in delayed payments from our customers and uncollectible accounts, impact previously announced strategic plans or impact our ability to access funds from financial institutions and capital markets on terms favorable to us, or at all.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple operational and financial impacts tied to the previously listed pandemic risk factors.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies both historical occurrence and future possibility.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Still framed generically, without COVID-specific quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Rich description of potential adverse effects linked to COVID-19 category, tempered by generic wording, scores 3."
+            },
+            {
+                "snippet": "We also continue to monitor any developments relating to the coronavirus (“COVID-19”).",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows ongoing attention to COVID-19, indicating residual risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Simple statement of ongoing monitoring adds slight weight to overall risk, score 1."
+            },
+            {
+                "snippet": "The health and safety of our employees and customers has been, and remains, our top priority, and we also implemented a detailed COVID-19 response plan, which we believe helped mitigate the impact of COVID-19 on our results.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms COVID-19 had an impact requiring action.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights implementation of a response plan that mitigated effects (strong mitigation).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Mitigation fully offsets risk acknowledgement, resulting in a neutral score."
+            },
+            {
+                "snippet": "The COVID-19 impact on our business was most pronounced in 2020, and activity across our end-markets began to recover in 2021.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States historical severity of impact during 2020.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Emphasizes recovery starting 2021, indicating reduced current risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Historical impact offset by recovery language; time-decay brings score to 0."
+            },
+            {
+                "snippet": "We continue to assess the economic environment in which we operate and any developments relating to COVID-19, and take appropriate actions to address the economic and other challenges we face.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows ongoing assessment acknowledging potential continuing challenges.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Mentions proactive actions, a mitigating factor.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Balanced by mitigation, the net risk contribution for this sentence is neutral."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 1.2857142857142858
+    }
+]

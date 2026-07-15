@@ -1,0 +1,105 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is treated in WBD’s 2024 Form 10-K as a lingering, but diminishing, enterprise-wide risk. Management frames the pandemic mostly in medium-term, forward-looking terms: while lockdown-driven disruptions have largely subsided, advertising budgets, box-office demand and other revenue lines are still vulnerable to renewed outbreaks or to permanent behavioural shifts that the pandemic accelerated. The filing cites both historical, realised impacts (lost advertising sales, postponed live events, reduced theatre attendance) and potential future impacts (slower theatrical rebound, advertising pull-backs if another pandemic emerges). Language is largely qualitative and couched in contingency words (“could,” “may”), with no precise dollar amounts, supply-chain statistics or labour-force metrics. Given the four-year gap between the WHO pandemic declaration (March 2020) and the filing date (Feb 2024), the Time Decay Principle places the event in the medium-term window: residual effects remain material but are no longer acute. Consequently, individual evidence snippets earn moderate scores; none exceed 6 because impacts are either historic or hypothetical, not quantified, and tempered by acknowledgements that many COVID-related restrictions have “largely lifted.” Overall, the risk is real but receding, warranting a portfolio of medium-level severity scores across the extracted sentences.",
+        "evidence_list": [
+            {
+                "snippet": "Natural and other disasters, pandemics, acts of terrorism, political uncertainty or hostilities could also lead to a reduction in domestic and international advertising expenditures, which could also have an adverse effect on our advertising revenues.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics as a risk driver.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects the risk to a core revenue stream (advertising).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional language ('could'), signalling potential rather than realised impact.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Generic reference (not COVID-19 specific).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event now in medium-term window, reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic, forward-looking statement that links pandemics to advertising risk but lacks COVID-specific or quantified detail; medium-term timing further tempers severity."
+            },
+            {
+                "snippet": "While restrictions on theatergoing from the COVID-19 pandemic have largely lifted, in some markets, box office performance and movie theater attendance may be slower to rebound to pre-pandemic levels due to, among other things, consumer preferences for consuming movies at home, a vast library of which is available to them through one or more streaming subscriptions, and shorter theatrical release windows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly references COVID-19 and residual market effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies specific operational area at risk (box-office revenues).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights ongoing, forward-looking concern about slow recovery.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No financial quantification provided.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "States that restrictions have 'largely lifted', signalling partial mitigation.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term time decay reduces urgency.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "COVID-specific and ties to revenue recovery, but unquantified and partly mitigated; medium-term timing yields a moderate score."
+            },
+            {
+                "snippet": "For example, the COVID-19 pandemic had numerous effects on our business including a decrease in advertising revenues, a postponement of significant live events, and reduced movie theater attendance.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifically cites COVID-19 as the causal factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists multiple concrete impacts across different revenue lines.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes realised, historical effects, demonstrating materiality.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No numerical or dollar quantification of the impact.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term time decay (4 years post-event).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Most detailed sentence: identifies several actual COVID-induced losses, across key business areas, but lack of quantification and time decay keep the score at the higher end of moderate."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 3.0
+    }
+]

@@ -1,0 +1,184 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is discussed in TXN’s 2023-02-03 Form 10-K as both an already-felt and an ongoing, uncertain threat. The company states that the pandemic has directly impacted its own operations as well as those of suppliers, customers and distributors, resulting in constrained supply and volatile demand. These are described as material and potentially continuing effects, showing that the risk is not merely hypothetical. Although no specific dollar amounts are provided, the language is event-specific, recent (<3 years since WHO declaration), and acknowledges concrete operational disruptions. The risk narrative is therefore moderately high: real impacts are acknowledged, future impacts are expected, and uncertainty surrounding variants, government actions and macro-economics amplifies the threat. Mitigating language is limited to monitoring and caution, so residual risk remains significant. Applying the Time Decay Principle for a recent event allows scores up to 10; given the qualitative—but unquantified—nature of the disclosures, the strongest sentences merit high-mid scores (7-8), while more generic or indirect references to epidemics score low (1-2).",
+        "evidence_list": [
+            {
+                "snippet": "The effects of the COVID-19 pandemic could adversely affect our business, results of operations and financial condition.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies COVID-19 explicitly as a risk factor.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States potential for adverse impact on multiple financial dimensions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional language ('could'), indicating uncertainty rather than current damage.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Event-specific but forward-looking and unquantified; moderate severity."
+            },
+            {
+                "snippet": "The coronavirus (COVID-19) pandemic and related measures to curtail its spread have impacted, and may continue to impact, our operations across markets in which TI operates and those of our suppliers, customers and distributors.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that the pandemic has already caused operational impacts (realized risk).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Projects that impacts may persist into the future.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights breadth of impact across company, suppliers, customers and distributors.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, recent, wide-ranging operational impacts justify a high score."
+            },
+            {
+                "snippet": "The extent to which the COVID-19 pandemic will continue to affect our business, results of operations and financial condition is difficult to predict and depends on numerous evolving factors including the duration and scope of the pandemic; government, social, business and other actions that have been and will be taken in response to the pandemic; appearance of new variants of COVID-19; the availability, adoption and efficacy of vaccines and treatments; and the effect of the pandemic on short- and long-term general economic conditions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing, uncertain future impacts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists multiple evolving external factors that heighten unpredictability.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lack of quantification or specific financial metrics.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Captures complexity and uncertainty, but no hard numbers, producing a solid mid-high score."
+            },
+            {
+                "snippet": "We have experienced, and continue to experience, short- or long-term constrained supply or volatility in customer demand, which could materially and adversely affect our business and financial results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits current and ongoing supply constraints and demand volatility (real impact).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong wording 'materially and adversely affect'.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not explicitly repeat COVID-19 in this sentence, making the causal link contextual rather than explicit.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Demonstrates tangible operational strain but lacks explicit event reference; moderate score."
+            },
+            {
+                "snippet": "The coronavirus (COVID-19) pandemic and its effects are impacting and will likely continue to impact market conditions and business operations across industries worldwide, including at TI.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms current impact on market conditions and operations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Signals expectation of continued future impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasizes global, cross-industry breadth.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct statement of ongoing, broad impacts yields a high-mid score."
+            },
+            {
+                "snippet": "Therefore, we remain cautious about how the economy might behave for the next few years and continue to monitor potential impact on our operations.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows forward-looking concern tied to pandemic context (implicit).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions active monitoring, a mitigating action.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic caution with mitigation; minimal incremental risk information."
+            },
+            {
+                "snippet": "We are exposed to political, social and economic conditions (including inflation), security risks, acts of war, terrorism or other hostile acts, health conditions and epidemics, labor conditions, climate change risks and possible disruptions in transportation, communications and information technology networks of the various countries in which we operate.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists 'epidemics' as a potential risk factor.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic, boiler-plate reference to epidemics; very low relevance."
+            },
+            {
+                "snippet": "We have manufacturing, data and design facilities and other operations in locations subject to natural occurrences such as severe weather, geological events or epidemics that could disrupt operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes that epidemics could disrupt key facilities.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic contingency statement; minimal score."
+            },
+            {
+                "snippet": "Our access to needed goods and services may be adversely affected by potential disputes with suppliers or disruptions in our own or suppliers’ operations as a result of, for example: quality excursions; uncertainty regarding the stability of global credit and financial markets; domestic or international political, social, economic and other conditions; natural events or epidemics in the locations in which our suppliers operate; or limited or delayed access to and high costs of key materials, natural resources, services and utilities.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects epidemics to supply-chain disruptions affecting access to goods and services.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Mentions epidemic-related supply-chain risk but in a broad, non-specific list; low score."
+            }
+        ],
+        "calculated_score": 35,
+        "average_severity": 3.888888888888889
+    }
+]

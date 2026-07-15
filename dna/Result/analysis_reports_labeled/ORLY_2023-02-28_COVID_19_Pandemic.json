@@ -1,0 +1,112 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is presented throughout ORLY’s 2023 Form 10-K as both an historic shock and an ongoing, forward-looking risk.  The company describes a concrete, already-realised demand hit—U.S. vehicle miles driven fell 13.2 % in 2020 because of pandemic restrictions—and embeds the pandemic in multiple risk factors covering consumer demand, supply-chain resilience, distribution-centre continuity and third-party performance.  Most of the language is prospective (“could include,” “may result in”) and bundled with other macro threats, signalling that management now views COVID-19 as part of a broader risk set rather than a singular, existential crisis.  Nevertheless, because the filing date (Feb-2023) is less than three years after the WHO declaration, the Time Decay Principle still categorises the pandemic as ‘recent’; therefore, elevated scores are justified where the text shows specific operational channels or quantified impacts.  The strongest evidence is the 13.2 % decline in miles driven, which directly ties pandemic behaviour to core revenue drivers.  Other statements are more generic, citing a “prolonged public health crisis” alongside weather or labour strikes, which dilutes severity but still represents material exposure given ongoing variants, supply bottlenecks and labour tightness.  Overall, the risk remains meaningful but is shifting from acute to managed, warranting moderate-to-high snippet scores depending on specificity and quantification.",
+        "evidence_list": [
+            {
+                "snippet": "The economic health of our customers is affected by many factors, including, among others, general business conditions, interest rates, inflation, consumer debt levels, the availability of consumer credit, currency exchange rates, taxation, fuel prices, unemployment levels, a prolonged public health crisis or pandemic and other matters that influence consumer confidence and spending.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘a prolonged public health crisis or pandemic’ as a factor influencing customer economic health.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects that factor to consumer confidence and spending, a direct demand driver.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Frames the item as an ongoing, not yet resolved condition (‘prolonged’), indicating persistence of risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Generic yet clear acknowledgement that an extended pandemic can erode consumer demand; no quantification, so risk is moderate."
+            },
+            {
+                "snippet": "If third parties, on whom we rely for merchandise, are unable to overcome difficulties resulting from the deterioration in economic conditions, the cause of which could include a prolonged public health crisis or pandemic, and provide us with the merchandise we need, or if counterparties to our credit facilities do not perform their obligations, our business, results of operations, financial condition and cash flows could be adversely affected.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to third-party failures that jeopardise merchandise availability.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States broad financial consequences (‘business, results of operations, financial condition and cash flows could be adversely affected’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highlights supply-chain dependency risk triggered by pandemic-driven economic stress; specific impact channel but unquantified."
+            },
+            {
+                "snippet": "We could also be negatively impacted when our suppliers or our supply chain experiences work stoppages; labor strikes; a prolonged public health crisis or pandemic; shipping and transportation disruptions or increased costs; currency fluctuations or inflation; or other interruptions to, or difficulties in, the manufacture or supply of the products we purchase.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites pandemic as a causal factor within supply-chain disruption list.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates multiple operational disruptions, underscoring breadth of potential impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Generic listing but clearly ties pandemic to supply-chain breakdowns; no mitigation or figures supplied."
+            },
+            {
+                "snippet": "Business interruptions, including from a prolonged public health crisis or pandemic, weather-related events, terrorist activities, war, political or civil unrest, or other disasters, or the threat of them, may result in a disruption of operations or the closure of one or more of our DCs or other facilities, or may adversely affect our ability to deliver inventory to our stores on a nightly basis.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names pandemic as a direct source of business interruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies concrete operational consequences (DC closures, inventory delivery failures).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Provides clear operational risk pathway—distribution-centre closure and delivery failures—linked to pandemic; still prospective and unquantified."
+            },
+            {
+                "snippet": "According to the U.S. Department of Transportation, the number of total miles driven in the U.S. decreased 13.2% in 2020, as a result of responses to the coronavirus pandemic, including work from home arrangements and reduced travel.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes a key demand metric (miles driven) decline to the coronavirus pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Provides a precise, quantified impact (13.2% decrease).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links to a primary revenue driver for the automotive aftermarket, underscoring materiality.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Most compelling evidence: quantified, material impact on a core demand indicator attributable to COVID-19; supports high severity within recent-event window."
+            }
+        ],
+        "calculated_score": 26,
+        "average_severity": 5.2
+    }
+]

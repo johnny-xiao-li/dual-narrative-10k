@@ -1,0 +1,102 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CHD’s 2024 Form 10-K makes repeated, explicit references to the COVID-19 pandemic as a driver of both historical damage and continuing uncertainty.  Management discloses concrete operational consequences that have already materialised – e.g., supply-chain strain and demand volatility – and warns that these effects \"could continue\" despite the official end of the public-health emergency.  The wording is mostly qualitative (no dollar figures) but it is specific: it cites disruptions to raw-material availability, labour shortages, transportation bottlenecks and swings in consumer purchasing patterns as pandemic-linked hazards.  The company also layers pandemic risk together with other macro shocks (inflation, wars), showing it is embedded in CHD’s overall risk landscape.  Because the filing date (15 Feb 2024) is almost four years after the WHO declaration (11 Mar 2020), Time-Decay downgrades the severity from “acute” to “medium-term.”  Accordingly, snippet scores are capped in the mid-range (≈4-6).",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic and related impacts has had, and could continue to have, an adverse effect on our business, financial condition, results of operations and cash flows.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits a material adverse impact already realised (historic, direct).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States the impact \"could continue,\" establishing forward-looking risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Time-decay moderation (event ~4 yrs old).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct language links COVID-19 to material past and future harm; moderate time-decay yields a 5/10 severity."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has affected and could continue to negatively affect our business by causing or contributing to, among other things, significant disruptions in business operations and in the ability of significant third-party vendors, manufacturing and other business or commercial partners, including customers, to meet their obligations to us; significant decrease or volatility in sales of or demand for our primary products due to the transition from a pandemic to endemic state; worldwide, regional and local adverse economic and financial market conditions; adverse impacts on the supply chain, including manufacturing by us or our third-party partners, due to raw material, packaging or other supply shortages, labor shortages or reduced availability of commercial transport and port operational disruptions; and sustained labor shortages or increased turnover rates.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple concrete operational disruptions (supply chain, labour, demand).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly frames risks as ongoing (“could continue”).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Time-decay adjustment for 4-year-old event.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Rich detail on specific pandemic-driven threats earns a strong base score, tempered to 4 by time-decay."
+            },
+            {
+                "snippet": "Further, in recent years, we have experienced continuing strain on our supply chain network and its ability to meet demands, including from disruptions from the COVID-19 pandemic, ongoing conflicts in Ukraine and the Middle East, and other factors.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that COVID-19 has already caused supply-chain strain (realised impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Labels the strain as “continuing,” indicating persistence.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Risk is shared with other events, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows tangible, ongoing supply-chain harm but blended with other factors, so the moderated score is 3."
+            },
+            {
+                "snippet": "Although the World Health Organization and the federal government have declared an end to COVID-19 as a global and national health emergency, respectively, risks related to COVID-19 have adversely affected and may continue to adversely affect our business, results of operations, cash flows and financial condition.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges past adverse effects and potential future ones.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions official end of emergency, which is mitigating.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Forward-looking clause ('may continue') maintains relevance.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Balances a real continuing risk with mitigating context of emergency’s official end, netting a moderate 3."
+            }
+        ],
+        "calculated_score": 15,
+        "average_severity": 3.75
+    }
+]

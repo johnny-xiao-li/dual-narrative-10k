@@ -1,0 +1,138 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CBRE’s 2022 Form 10-K reveals that management still sees COVID-19 as a material, live risk only three years after the WHO declared a pandemic.  The filing links the virus to an historic collapse in commercial real-estate activity, describes structural shifts in space utilisation (a proxy for the remote-work pivot and evolved tenant demand), and warns of continuing uncertainty that makes forecasting difficult.  All of these comments are forward-looking rather than purely retrospective, so the risk remains present rather than merely historical.  The company also acknowledges margin pressure and the need for contingency cost cutting, but pairs these acknowledgements with mitigating factors such as variable compensation and active expense management, which temper – though do not eliminate – severity.  Because the disclosure occurs within three years of the event, the Time-Decay Principle allows for relatively high scores (up to 10); however, mitigating language and the absence of precise, quantified losses mean most sentences fall in the moderate-to-high range rather than the maximum.  Overall, COVID-19 continues to represent a strategic and operational threat to CBRE, particularly through lasting changes in space demand and the volatility of capital markets, albeit partly offset by management’s flexible cost structure.",
+        "evidence_list": [
+            {
+                "snippet": "For example, during the onset of the Covid-19 pandemic, commercial real estate markets globally were severely impacted by a sharp decline in economic activity due to the spread of Covid-19, which put downward pressure on certain parts of our business, and has likely engendered structural changes to the utilization of many types of commercial real estate, which will have ongoing repercussions for our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties severe global impact directly to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Describes ‘severely impacted’ markets and ‘sharp decline’—strong qualitative severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights long-term ‘structural changes’ with ‘ongoing repercussions’, signalling persistent risk.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Direct, recent, and forward-looking statement of major, lasting COVID-19 impacts warrants a very high score of 9."
+            },
+            {
+                "snippet": "When you read our financial statements and the information included in this Annual Report, you should consider that we have experienced, and continue to experience, several material trends and uncertainties (particularly those caused or exacerbated by Covid-19) that have affected our financial condition and results of operations that make it challenging to predict our future performance based on our historical results.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits ongoing (‘continue to experience’) COVID-19-related trends and uncertainties.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States direct effect on financial condition and results, elevating materiality.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights forecasting difficulty, adding an element of uncertainty risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Sentence identifies continuing COVID-driven uncertainty and material financial impact—high but not maximum severity."
+            },
+            {
+                "snippet": "As a result, the negative effects on our operating margins during difficult market conditions, such as the environment that prevailed in the early months of the Covid-19 pandemic, are partially mitigated by the inherent variability of our compensation cost structure.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 environment to negative operating-margin impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions partial mitigation through variable compensation, reducing net severity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Refers to ‘early months’, signalling past peak though still relevant within 3-year window.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Shows pandemic hurt margins but also details built-in mitigation, yielding a modest net risk score."
+            },
+            {
+                "snippet": "In addition, when negative economic conditions have been particularly severe, like during the Covid-19 pandemic, we have moved decisively to lower operating expenses to improve financial performance.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges severity of COVID-era conditions.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Describes decisive cost-cutting response, a strong mitigating action.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Primarily illustrates mitigation (cost reductions) rather than new risk, so score is low."
+            },
+            {
+                "snippet": "Adverse economic conditions, political or regulatory uncertainty and significant public health events can result in declines in real estate sale and leasing volumes and the value of commercial real estate.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects ‘significant public health events’—implicitly including pandemics—to core revenue declines.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic phrasing without naming COVID-19 lowers specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Forward-looking ‘can result’ language maintains relevance.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic but still relevant pandemic-class risk, giving a small net score."
+            },
+            {
+                "snippet": "Our performance is significantly related to general economic, political and regulatory conditions and, accordingly, our business, operations and financial condition could be materially adversely affected by economic slowdowns, liquidity constraints, significant rises in interest rates, significant public health events, fiscal or political uncertainty and possible subsequent downturns in commercial real estate asset values, property sales and leasing activities in the geographies or industry sectors that we or our clients serve.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies that ‘significant public health events’ could materially harm business.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Very broad catch-all wording, not COVID-specific.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic reference to public-health events as a material threat warrants minimal but non-zero score."
+            }
+        ],
+        "calculated_score": 22,
+        "average_severity": 3.6666666666666665
+    }
+]

@@ -1,0 +1,294 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "IVZ’s 2021-02-19 Form 10-K links the COVID-19 pandemic to both realized and continuing risks across financial performance, operations and infrastructure.  Management discloses that AUM and revenues already “declined significantly” in early 2020 and remain vulnerable to renewed market shocks, demonstrating a direct, contemporaneous impact.  The filing also details multiple operational exposures: large-scale remote-work arrangements for employees and key service providers, possible Internet or supply-chain failures, labour-force illness, and heightened cyber-security threat vectors.  These statements are company-specific, forward-looking and largely unquantified, but they clearly describe material pathways through which the pandemic could further erode earnings, liquidity and business continuity.  Because the filing date is less than one year after the WHO declared COVID-19 a pandemic, the Time-Decay Principle allows high severity scores (up to 10).  Sentences that confirm actual negative outcomes (e.g., AUM declines) receive the highest scores, while purely contingent or partially mitigated statements earn moderate scores.  Mitigating language (successful remote working to date, absence of widespread employee illness) appropriately reduces some individual scores but does not eliminate the overall high-risk assessment given the immediacy and breadth of the threats.",
+        "evidence_list": [
+            {
+                "snippet": "As a result of the global market reactions to the COVID-19 pandemic, our assets under management (AUM) and revenues have been negatively impacted and we face various potential operational challenges due to the pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes negative impact on AUM and revenues to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Confirms impact has already occurred (present not hypothetical).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Adds breadth by mentioning operational challenges in addition to financial impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Sentence links pandemic to realised financial harm and outlines further operational exposure—strong, recent, company-specific impact."
+            },
+            {
+                "snippet": "As a result of the global market reactions to the COVID-19 pandemic, our assets under management (AUM) and revenues declined significantly during the early phases of the pandemic as governments enacted social containment measures and central banks and governments sought to enact economic relief measures.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States AUM and revenues ‘declined significantly’—explicit magnitude qualifier.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Describes past realised impact directly tied to pandemic.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Quantified language (‘declined significantly’) about realised losses earns a high score within recent timeframe."
+            },
+            {
+                "snippet": "While many global markets have improved materially since the early stages of the pandemic, further negative market reactions may occur as a result of failures to limit infections or deaths to the COVID-19 virus, delays in developing and/or delivering effective treatments for the virus, and reduced support or positive impact of central banks and government economic relief measures.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies multiple specific triggers for renewed negative market reactions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking risk that could affect revenues and AUM.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Potential future market volatility linked to pandemic earns solid but not peak score because impact is prospective."
+            },
+            {
+                "snippet": "Additional negative market reactions could further negatively impact our AUM and revenues.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Expressly ties potential market reactions to further AUM and revenue harm.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Effect is hypothetical (conditional ‘could’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specifies financial metric at risk but remains conditional, so mid-range severity."
+            },
+            {
+                "snippet": "The volatility in the global markets has also adversely affected the liquidity of certain managed investment products in which client and company assets are invested.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States realised adverse effect on product liquidity.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Impacts both client and company assets—broad exposure.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Actual liquidity stress broadens operational and reputational risk; earns moderately high score."
+            },
+            {
+                "snippet": "Our efforts to mitigate the impact of the COVID-19 pandemic have required, and will continue to require, a significant investment of time and resources across our business.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that mitigation consumes significant resources—cost pressure.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges ongoing nature (‘will continue’), indicating persistent risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highlights resource drain; risk moderate because framed around mitigation rather than direct loss."
+            },
+            {
+                "snippet": "In response to mandated precautions where applicable and to ensure the safety of our employees, the significant majority of our employees are working remotely at this time.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes large-scale remote work shift indicating operational change.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Implies compliance with health precautions—a partial mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Remote work itself is not harmful but signals altered operating environment; low net risk due to implicit mitigation."
+            },
+            {
+                "snippet": "While our teams have been successful in working remotely, operational challenges may arise in the future.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges possibility of future operational challenges.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes current success, which tempers concern.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Potential but un-quantified future issues balanced by present success—low-moderate score."
+            },
+            {
+                "snippet": "Many of the key service providers we rely on have also transitioned to working remotely.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Extends remote-work dependency to critical third parties, increasing exposure.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Indicates reliance on external parties facing same operational pressures—moderate aggravation."
+            },
+            {
+                "snippet": "If we or they were to experience material disruptions in the ability for our or their employees to work remotely (e.g., disruption in Internet-based communications systems or networks or the availability of essential goods and services), our ability to operate our business in the ordinary course could be materially adversely disrupted.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific disruption scenarios (Internet, goods/services).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States consequence could be ‘materially adversely’ disruptive to operations.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Concrete operational threat with severe potential impact pushes score into higher range."
+            },
+            {
+                "snippet": "To date our own employees and, we believe, the employees of our key service providers, have not experienced any material degree of illness due to the COVID-19 virus.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides evidence of limited workforce illness, a mitigating factor.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Sentence reduces perceived risk; minimal positive points due to mitigation."
+            },
+            {
+                "snippet": "If our or their workforces, or key components thereof, were to experience significant illness levels, our ability to operate our business could be materially adversely disrupted.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights risk of workforce illness disrupting operations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong adverse impact language (‘materially adversely’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Potential severe labour disruption tied to pandemic earns high-moderate score."
+            },
+            {
+                "snippet": "Further if our cyber security diligence and efforts to offset the increased risks associated with greater reliance on mobile, collaborative and remote technologies during the COVID-19 pandemic, as well as the increased frequency and sophistication of external threat actors are not effective or successful, we may be at increased risk for data privacy or other cyber security incidents.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-driven remote tech reliance to heightened cyber-security risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies high-impact outcome (data privacy incidents).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Combines pandemic cause, sophisticated threat environment and high-impact outcome—strong evidence."
+            },
+            {
+                "snippet": "Any such material adverse disruptions to our business operations or loss of information could have a material adverse impact on our results of operation or financial condition.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states financial condition may suffer from disruptions.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "‘Could’ indicates conditional nature.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Connects operational disruptions to financial harm; moderately severe."
+            },
+            {
+                "snippet": "The extent to which our business, results of operations, AUM and financial results are further affected by the COVID‐19 pandemic will largely depend on future developments, which cannot be accurately predicted and are uncertain, including the duration and severity of the pandemic, length of time it will take for the financial markets and economy to recover and for our employees to safely return to the workplace, along with potentially more permanent impacts on how we operate and serve our clients.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple uncertain variables affecting future impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers broad range of financial and operational metrics.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Broad, uncertain scope of potential impact across metrics warrants high-moderate score."
+            },
+            {
+                "snippet": "In addition, many of the risk factors described below may be heightened by the effects of the COVID‐19 pandemic and related economic conditions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemic exacerbates other risk factors, expanding risk universe.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Amplification of multiple risks is aggravating but general, so mid-level score."
+            }
+        ],
+        "calculated_score": 80,
+        "average_severity": 5.0
+    }
+]

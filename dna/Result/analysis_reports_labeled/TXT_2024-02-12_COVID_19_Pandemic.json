@@ -1,0 +1,98 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "TXT’s 2024 Form 10-K reflects that the company still faces lingering operational and financial pressures that originated with the March 2020 COVID-19 outbreak, but the language has clearly shifted from crisis-mode to ongoing-challenge framing.  The filing does not report quantified pandemic losses; instead, it threads pandemic-related risks through broader descriptions of supply-chain shortages, labour tightness and macro-economic uncertainty.  The single explicit reference to “public health crises, pandemics” is bundled with other force-majeure threats, signalling that management now views COVID-19 as one of several disruptive hazards rather than the defining risk.  Nevertheless, the company concedes that in 2023 it was “still managing” pandemic-era shortages, confirming that impacts persist almost four years after the World Health Organization declared COVID-19 a pandemic.  Because the event sits just beyond the 3-year “recent” window (filing date February 2024 versus event start March 2020), the Time Decay Principle caps individual sentence severity in the mid-range.  Overall, the disclosures indicate a moderate, continuing but no longer acute risk, meriting mid-scale scores (4-6 at most) for the strongest evidence and lower scores (1-3) where the link is indirect or mitigated.",
+        "evidence_list": [
+            {
+                "snippet": "Natural disasters, including hurricanes, fires, tornados, floods and other forms of severe weather, the intensity and frequency of which are being exacerbated by climate change, along with other impacts of climate change, such as rising sea waters, as well as other events outside of our control including public health crises, pandemics, power outages and industrial accidents, have in the past and could in the future disrupt our operations and adversely affect our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites 'public health crises, pandemics' as a disruptor.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States potential to 'disrupt our operations and adversely affect our business' (material operational risk).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Framed as generic, forward-looking possibility without quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly names pandemics and links them to operational disruption, but the statement is broad and unquantified, so the medium-term cap keeps the score at 4/10."
+            },
+            {
+                "snippet": "During 2023, we continued to manage through the impacts of ongoing global supply chain shortages/delays and labor shortages to deliver products to our customers.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges continuing ('ongoing') supply-chain and labour impacts in 2023, implying lingering pandemic effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Use of 'continued to manage through' signals active mitigation is in place.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Does not explicitly reference COVID-19 or quantify magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Shows present-day impact but lacks explicit pandemic mention and notes mitigation, so evidence strength is low (1/10) under time-decay moderation."
+            },
+            {
+                "snippet": "Due to the nature of our work under government contracts, we sometimes experience unforeseen technological or schedule difficulties and cost overruns due to inflation, labor shortages, supply chain challenges and/or other factors.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies labor shortages and supply-chain challenges that are typical pandemic knock-ons, raising execution risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Phrase 'sometimes experience' suggests the issue is intermittent, not constant.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No explicit pandemic reference or quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Indirect link to pandemic and tempered language yield a neutral net score (0/10)."
+            },
+            {
+                "snippet": "If current macroeconomic pressures, including from inflation and labor and supply chain challenges, continue or if global macroeconomic conditions deteriorate and remain at depressed levels for extended periods, our business, results of operations and financial condition could be materially adversely affected.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects macro pressures (labor & supply-chain) to material adverse effect risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Purely conditional, forward-looking and lacks pandemic specificity.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Mentions supply-chain and labor issues but with no pandemic tie and only hypothetical impact, so the snippet scores 0/10."
+            }
+        ],
+        "calculated_score": 5,
+        "average_severity": 1.25
+    }
+]

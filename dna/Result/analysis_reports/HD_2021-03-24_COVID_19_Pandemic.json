@@ -1,0 +1,252 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Home Depot’s March 24 2021 Form 10-K frames COVID-19 as a clear, ongoing, and multi-dimensional threat.  Because the filing date is only one year after the WHO declared the pandemic, time-decay is minimal and high severity scores (7-10) are warranted when the company: (i) links COVID-19 directly to actual, material financial impacts (e.g., $2 billion of added costs, 86 % channel-shift to e-commerce); (ii) details concrete operational disruptions such as supply-chain bottlenecks, labour shortages, cyber-exposure from remote work, and potential store closures; and (iii) highlights forward-looking uncertainty around consumer‐demand reversion and future waves.  Lower-but-still-elevated scores (4-7) apply where language is more contingent or generic, or where partial mitigants (e.g., liquidity measures, omni-channel investments) are mentioned.  No snippet falls below moderate seriousness because virtually every statement ties directly to the company’s core cost structure, revenue drivers, or risk controls within the recent (0-3 year) window.",
+        "evidence_list": [
+            {
+                "snippet": "The continuing impacts of the COVID-19 pandemic are highly unpredictable, volatile, and uncertain, and could adversely affect our business operations, demand for our products and services, our costs of doing business, availability of labor, access to inventory, supply chain operations, our ability to predict future performance, our exposure to litigation, and our financial performance, among other things.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly attributes multiple critical risk dimensions (operations, demand, labour, supply chain, litigation) to COVID-19.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Uses strong negative modifiers (“highly unpredictable, volatile, and uncertain”, “adversely affect”).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Timeframe is current (within one year of event).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Direct, multi-faceted risk attribution to a very recent event merits a near-maximum score."
+            },
+            {
+                "snippet": "As the pandemic begins to subside, customers may shift their spending away from home improvement and back to other areas, which may have an adverse impact on our sales.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies a potential reversal in consumer demand directly tied to pandemic trajectory.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Specifies financial consequence (adverse impact on sales).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty rather than current loss.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Meaningful but still hypothetical demand risk—moderately high severity."
+            },
+            {
+                "snippet": "Our actions that we have taken in response to the pandemic have resulted in significant incremental costs, and we expect that we will continue to incur additional costs due to the pandemic going forward, which in turn will have an adverse impact on our results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits realised (‘have resulted’) and future (‘will continue’) cost increases.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Links costs to adverse impact on results of operations.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Current and future cost burden directly connected to pandemic justifies high score."
+            },
+            {
+                "snippet": "In addition, as more business activities have shifted online due to COVID-19 restrictions, and as many of our store support associates are working remotely, we face an increased risk due to the potential failure of internal or external information technology infrastructure as well as increased cybersecurity threats and attempts to breach our security networks.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific operational change (remote work) and a new cyber-risk vector caused by the pandemic.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Uses ‘increased risk’ language signalling heightened threat level.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Identifies a concrete, pandemic-driven cyber exposure—moderate-high risk."
+            },
+            {
+                "snippet": "Circumstances related to the COVID-19 pandemic have significantly impacted the global supply chain, with restrictions and limitations on business activities and impacts of the COVID-19 pandemic causing labor shortages, capacity constraints, disruptions and delays.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that supply-chain impact is already ‘significant’.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Enumerates specific disruptions (labour shortages, capacity constraints, delays).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Current, multi-pronged supply-chain disruption yields high risk score."
+            },
+            {
+                "snippet": "These factors have resulted in higher out-of-stock inventory positions in certain products as well as delays in delivering those products to our distribution and fulfillment centers, stores or customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms tangible operational impacts already realised (out-of-stocks and delivery delays).",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Direct link to customer service and potential lost sales.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Demonstrated inventory shortfalls push the score into high range."
+            },
+            {
+                "snippet": "We have experienced, and may continue to experience, labor shortages at and temporary closures of some of our distribution and fulfillment centers, and any such labor shortages or closures, whether temporary or sustained, may adversely impact the flow or availability of products to our stores and customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges both realised (‘have experienced’) and prospective labour shortages/closures.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Explains direct adverse effect on product flow to customers.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Labour shortage impacts distribution—a core operational threat—high severity."
+            },
+            {
+                "snippet": "Collectively, the enhanced pay and benefits implemented in fiscal 2020 resulted in additional expense of approximately $2.0 billion in fiscal 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides quantified, material financial impact directly stemming from pandemic-related measures.",
+                            "points": 8
+                        },
+                        {
+                            "reason": "Past cost already absorbed, not speculative.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Specific $2 billion cost makes this one of the most severe evidentiary items."
+            },
+            {
+                "snippet": "Online sales, which consist of sales generated online through our websites for products picked up in our stores or delivered to customer locations, represented 14.4% of net sales and grew by approximately 86% during fiscal 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantified shift in sales channel (86 % growth) reflecting pandemic-driven consumer behaviour change.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Shift creates both opportunities and operational strain; absence of explicit negative framing warrants partial mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Channel migration is material but not exclusively negative; moderate score assigned."
+            },
+            {
+                "snippet": "The duration and degree of governmental, business or other actions in response to the pandemic, including but not limited to quarantine or shut-down measures and other governmental orders; restrictions on our operations up to and including complete or partial closure of our stores, facilities, and distribution and fulfillment centers;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Foresees severe operational constraints (partial/complete closures).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Contingent on external government action, indicating uncertainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Potential forced closures present substantial but yet-unrealised risk—moderate-high score."
+            },
+            {
+                "snippet": "The health of, and effect of the pandemic on, our associates and our ability to maintain staffing needs to effectively operate our business, including the impact of and uncertainty related to vaccination efforts;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights human-capital risk and uncertainty over vaccinations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Effect is conditional (‘ability to maintain staffing’), not yet quantified.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Labour availability risk is meaningful but largely prospective—mid-level score."
+            },
+            {
+                "snippet": "Impacts – financial, operational or otherwise – on our supply chain, including manufacturers or suppliers of our products and logistics or transportation providers, and on our service providers or subcontractors;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly broadens risk to entire supply ecosystem.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "No quantification or confirmed impact provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic catch-all supply-chain caveat yields a lower, yet still positive, score."
+            },
+            {
+                "snippet": "the potential effects on our internal control environment and data security as a result of changes to a remote work environment;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies governance and cybersecurity risks linked to pandemic-induced remote work.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Remote-work control weaknesses are material but not quantified—moderate score."
+            },
+            {
+                "snippet": "Any of these circumstances could impair our ability to meet customer demand for products and result in lost sales, increased supply chain costs, or damage to our reputation.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Summarises potential financial and reputational damage, directly tied to prior pandemic-related disruptions.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Concluding statement captures aggregate downside; moderate severity."
+            }
+        ],
+        "calculated_score": 86,
+        "average_severity": 6.142857142857143
+    }
+]

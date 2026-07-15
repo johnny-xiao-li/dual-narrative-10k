@@ -1,0 +1,144 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "NIKE’s 2023-07-20 10-K makes it clear that COVID-19 remains a live, material risk only a little more than three years after the World Health Organization declared the pandemic.  The filing repeatedly links the pandemic to concrete, experienced disruptions—factory shutdowns, labor shortages, elevated freight costs, inventory imbalances, store closures and depressed consumer spending—while also warning that these conditions could recur.  The language is mostly qualitative but it is unequivocal that the pandemic has already hurt revenues, margins and supply-chain performance and could do so again.  Because the disclosure describes both realised damage (\"have been adversely affected\") and forward-looking uncertainty (\"may continue to impact\"), the risk is assessed as high.  Under the Time Decay Principle, an event 3.3 years old still falls near the “recent” bucket, so individual snippet scores can be high (up to ~8-9) when the statement cites a direct, material impact; generic boiler-plate earns far less.  No meaningful mitigating language (e.g., insurance coverage, diversified sourcing, pandemic playbooks) is offered in these sentences, so positive risk points are seldom offset.",
+        "evidence_list": [
+            {
+                "snippet": "In addition, supply chain issues caused by factors including the COVID-19 pandemic and geopolitical conflicts have impacted and may continue to impact the availability, pricing and timing for obtaining commodities and raw materials.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly attributes supply-chain problems to COVID-19 (direct causal link).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States that impacts have already occurred (\"have impacted\") – realised loss.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Warns of continuing future impact (\"may continue to impact\") – forward-looking risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Covers critical operational areas (availability, pricing, timing of raw materials).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct reference to COVID-19 with demonstrated and prospective supply-chain damage justifies a high recent-event score of 7."
+            },
+            {
+                "snippet": "Our financial condition and results of operations have been, and could in the future be, adversely affected by a pandemic, epidemic or other public health emergency.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges past adverse effect on financial condition and results (realised impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers future adverse potential (‘could in the future be’) – forward-looking.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "References pandemic risk broadly, implicitly including COVID-19 but less specific.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantitative detail or specificity, reducing severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Strong wording on financial harm but generic phrasing and lack of specifics temper the score to 4."
+            },
+            {
+                "snippet": "Pandemics, including the COVID-19 pandemic, and other public health emergencies, and preventative measures taken to contain or mitigate such crises have caused, and may in the future cause, business slowdown or shutdown in affected areas and significant disruption in the financial markets, both globally and in the United States.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies COVID-19 and cites actual past business slowdowns and shutdowns.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights broad geographic scope (global and U.S. financial markets).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Emphasises possible future recurrence.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Still qualitative, without numbers.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Sentence portrays wide-ranging operational/market disruption but remains qualitative, yielding a mid-range score of 4."
+            },
+            {
+                "snippet": "These events have led to and could again lead to adverse impacts to our global supply chain, factory cancellation costs, store closures, and a decline in retail traffic and discretionary spending by consumers and, in turn, materially impact our business, sales, financial condition and results of operations as well as cause a volatile effective tax rate driven by changes in the mix of earnings across our jurisdictions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple concrete impacts already experienced (supply-chain, factory costs, store closures, sales declines).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong materiality language ('materially impact our business').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions potential future recurrence ('could again lead').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Covers financial statement volatility (tax rate) – breadth of impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Comprehensive enumeration of realised and potential material harms earns a near-maximum recent-event score of 8."
+            },
+            {
+                "snippet": "Disruption to our distribution centers, contract manufacturers, finished goods factories and other vendors, through the effects of facility closures, increased operating costs, reductions in operating hours, labor shortages, and real time changes in operating procedures, such as additional cleaning and disinfection procedures, which have had, and could in the future again have, a significant impact on our planned inventory production and distribution, including higher inventory levels or inventory shortages in various markets;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific operational disruptions (distribution centers, factories, labor shortages).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States that these disruptions have already occurred and affected inventory (realised impact).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights future risk (‘could in the future again have’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No mitigating language; severity retained.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specific, realised supply-chain disruptions with future risk produce a high severity score of 7."
+            }
+        ],
+        "calculated_score": 30,
+        "average_severity": 6.0
+    }
+]

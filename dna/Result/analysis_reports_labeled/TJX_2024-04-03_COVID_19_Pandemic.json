@@ -1,0 +1,108 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "TJX’s 2024 Form 10-K still devotes multiple, concrete sentences to the operational and financial fallout of the COVID-19 pandemic.  The filing confirms that COVID-19 produced direct, realized impacts—inventory imbalances, temporary store closures, supply-chain delays, labour furloughs—and remains embedded in risk scenarios for sourcing, consumer demand, and large-scale business disruptions.  Most statements are not merely boiler-plate; they tie the pandemic to identifiable operating metrics (inventory allocation, customer transactions, eventual store closures) and to potential future cost pressures.  However, because the filing date (April 2024) is just over four years after the WHO declaration in March 2020, the Time-Decay Principle reclassifies COVID-19 from an acute event to a medium-term event: the company has resumed normal operations, and language increasingly mixes COVID-19 with broader categories such as ‘pandemics or epidemics.’  Consequently, individual snippet scores must be capped within a moderate band (4-6) even when the disclosure sounds severe.  Overall, TJX still faces a non-trivial, but no longer crisis-level, pandemic risk that warrants moderate severity scoring.",
+        "evidence_list": [
+            {
+                "snippet": "For example, our ability to allocate, deliver, and maintain our preferred mix and level of inventory has been impacted in recent years by temporary store closures, inflationary pressures, global supply chain disruptions, and other challenges, as a result of events, including the global COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to concrete operational impacts (‘ability to allocate, deliver, and maintain … inventory’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses past-tense ‘has been impacted,’ confirming realised—not hypothetical—effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Places the impact in ‘recent years,’ satisfying recency within medium-term window.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct, realised supply-chain and inventory disruption attributed to COVID-19 merits the top of the medium-term range (6/10)."
+            },
+            {
+                "snippet": "– pandemics and epidemics (such as the COVID-19 pandemic) affecting sourcing, including manufacturing, buying or delivery;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists COVID-19 as a continuing threat to multiple supply-chain stages (manufacturing, buying, delivery).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking phrasing (‘affecting’) signals an ongoing potential risk, not merely historical.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Identifies specific functional areas vulnerable to future pandemic shocks; moderate severity within time-decay limits."
+            },
+            {
+                "snippet": "Volatility or uncertainty in regulation or policy, ... pandemics or epidemics (such as the COVID-19 pandemic); supply chain disruptions ... may have significant effects on consumer confidence and spending that can in turn, affect our financial results and impact the retail industry generally.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to macro-level consumer-demand risk and financial results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Casts the risk as conditional (‘may have’) rather than confirmed, reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Broader, conditional language lowers immediacy, so score is modest but still material."
+            },
+            {
+                "snippet": "Natural or other disasters, such as ... public health issues, such as pandemics and epidemics (such as the COVID-19 pandemic) ... could disrupt our operations in a number of ways, including ... or we could temporarily close stores or distribution centers in the affected areas or in areas served by affected distribution centers for a short or extended period of time (as with closures of our stores and other facilities at various times due to the COVID-19 pandemic).",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific operational disruptions (store/DC closures) already experienced due to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses historical example (‘as with closures ... due to the COVID-19 pandemic’), confirming past materiality.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Combines historical evidence and forward risk of renewed closures; strong but capped at 5 for medium-term."
+            },
+            {
+                "snippet": "These expectations may vary ... and may evolve rapidly or be impacted by external factors, as was the case during the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemic-driven shifts in consumer behaviour expectations, hinting at demand risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement is illustrative rather than predictive; no quantification or direct financial tie.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic illustrative reference to pandemic impact on consumer expectations yields a low but non-zero score."
+            }
+        ],
+        "calculated_score": 18,
+        "average_severity": 3.6
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "LNT’s 2023 Form 10-K acknowledges the COVID-19 pandemic primarily as a continuing external pressure that amplifies existing operational vulnerabilities rather than as a discrete, one-off shock.  The filing places COVID-19 in the context of global supply-chain bottlenecks, labour tightness and macro-economic inflation, all of which can raise costs, delay projects and threaten fuel availability.  The language is forward-looking—phrases such as “has experienced, and is expected to continue to experience” and “continue to create uncertainty” show management believes pandemic-related disruptions are still active three years after the World Health Organization declaration.  However, the disclosures remain high-level: there is no quantified revenue, margin or capex impact, and pandemic risk is often bundled with other hazards (weather, geopolitical issues, etc.).  Under the Time Decay Principle, COVID-19 falls within the 0-3-year “recent” window, so statements can score in the upper range, but their generic nature and lack of financial specificity temper severity.  Overall, COVID-19 is presented as a moderate-to-high, persistent risk driver—material enough to merit vigilance and contingency planning, yet not evidenced by hard numbers or singularly catastrophic language.",
+        "evidence_list": [
+            {
+                "snippet": "The global supply chain has experienced, and is expected to continue to experience, disruptions due to a multitude of factors, such as geopolitical issues, supplier manufacturing constraints, labor issues, transportation issues, resource availability, long lead times, tariffs, tighter credit markets, inflation, the COVID-19 pandemic and weather.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifically cites the COVID-19 pandemic as a cause of global supply-chain disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes the disruption as ongoing and forward-looking (\"has experienced, and is expected to continue\").",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Implies operational and cost consequences across the enterprise (critical materials delays).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "High recent-event relevance and explicit linkage to continuing supply-chain disruption justify a strong (7/10) score despite lack of quantified impact."
+            },
+            {
+                "snippet": "The impact of supply chain disruptions, COVID-19 and other factors continue to create uncertainty in near-term economic conditions, including whether inflation will continue and at what rate.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 directly as a driver of macro-economic uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Frames the risk as continuing in the near term, indicating persistence.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Sentence acknowledges ongoing pandemic influence but remains broad and unquantified, warranting a moderate 3/10."
+            },
+            {
+                "snippet": "Storms and other natural disasters, including events such as floods, tornadoes, windstorms like the 2020 derecho in Iowa, blizzards, ice storms, extreme hot temperatures, extreme cold temperatures, fires, solar flares or pandemics may adversely impact our ability to generate, purchase or distribute electric energy and gas or obtain fuel or other critical supplies.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemics to potential disruption of core utility functions (generation, purchase, distribution).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is expressed conditionally with \"may,\" reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic, lump-sum treatment of pandemics with other disasters and conditional phrasing reduce the score to 1/10."
+            },
+            {
+                "snippet": "Our counterparties to these contracts may not fulfill their obligations to provide natural gas or coal to us due to financial or operational problems caused by natural disasters, severe weather, economic conditions, labor shortages, employee strikes, transportation issues, pandemics, physical attacks or cyber attacks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights pandemics as a cause of counterparty failure affecting critical fuel supply.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk stated as a possibility (\"may not fulfill\"), without magnitude or timeframe.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Direct linkage between pandemics and fuel-supply default is clear but unquantified, earning a moderate 3/10."
+            }
+        ],
+        "calculated_score": 14,
+        "average_severity": 3.5
+    }
+]

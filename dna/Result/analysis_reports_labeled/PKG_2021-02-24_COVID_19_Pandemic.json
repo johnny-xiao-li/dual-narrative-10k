@@ -1,0 +1,202 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "PKG’s 2021 Form 10-K depicts COVID-19 as an event with both realized and still-emerging consequences.  Within one year of the WHO declaration, the company had already absorbed measurable damage—30 % sales erosion in its Paper segment, an extended mill idling, and sharply lower demand for uncoated freesheet.  These are direct, recent and quantified impacts, so the Time Decay Principle permits relatively high severity scores.  Simultaneously, the narrative stresses forward-looking uncertainties: potential workforce shortages, supply-chain interruptions, government restrictions, and demand volatility in both core segments.  While PKG highlights several mitigants (essential-business status, no material plant shutdowns, workforce availability), these statements only temper rather than eliminate the underlying exposure.  Overall, the risk profile is assessed as moderate-to-high: manifested losses in one segment, latent threat in the other, and no clear visibility on vaccine-driven recovery.  The evidence therefore spans a spectrum—from high-impact, quantified losses (scores near 7-8) to purely mitigating language (zero or negative scores)—all calibrated for minimal time-decay because the pandemic remains within the 0-3-year “recent event” window.",
+        "evidence_list": [
+            {
+                "snippet": "However, the impact of the further spread of the virus and the measures to control the spread of the virus are uncertain and may materially restrict or hinder our ability to operate our facilities due to measures we may need to take to assure the health and safety of our employees, lack of available workforce, disruptions in the supply of key materials and services or restrictions due to governmental actions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Expresses forward-looking uncertainty tied to the pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights potential material restriction/hindrance of facility operations (direct operational risk).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists multiple specific vectors (employee health, workforce, supply chain, government actions).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "A detailed, multi-channel operational risk statement with no offsetting mitigation yields a high severity score of 7."
+            },
+            {
+                "snippet": "We have experienced significantly lower demand for our uncoated freesheet paper products, due to economic conditions, office closings and school shutdowns associated with the COVID-19 pandemic, which harmed the performance of our Paper segment.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms an actual, realized impact (‘experienced significantly lower demand’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Causally links impact to pandemic-specific factors (office and school closures).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States that segment performance was harmed, indicating materiality.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, realized harm to a business segment makes this one of the strongest risk indicators (score 8)."
+            },
+            {
+                "snippet": "Our Jackson, Alabama mill was idled for the majority of the second and third quarters of 2020 and began to produce containerboard for the Packaging segment on a trial basis during the fourth quarter.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes an actual operational shutdown (mill idled).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies duration (‘majority of…two quarters’) adding quantitative context.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Notes partial mitigation via trial containerboard production.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Idling a mill is significant, but trial conversion tempers the risk, yielding a mid-range score of 4."
+            },
+            {
+                "snippet": "While we have not experienced lower demand for our containerboard and corrugated packaging products to date, the effect of the pandemic on economic conditions affecting our business and future demand is uncertain.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States absence of current demand decline (mitigating).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Acknowledges uncertainty about future demand due to pandemic.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mitigation largely offsets risk acknowledgement, leaving a low net score of 1."
+            },
+            {
+                "snippet": "If our operations are hindered or restricted, we may not be able to serve our customers, which could have a material adverse effect on our business, financial condition and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies potential inability to serve customers leading to material adverse effect.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Risk is conditional and forward-looking, not yet realized.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Materiality language boosts the score, but it remains hypothetical, so the rating settles at 4."
+            },
+            {
+                "snippet": "The pandemic resulting from the COVID-19 outbreak, and measures to control the outbreak, are having a negative impact on domestic economic activity, which could adversely affect demand for our products and our business, financial condition and results of operations .",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States an ongoing negative macroeconomic impact (‘are having’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links macro impact to potential adverse effect on product demand and financials.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Current macro headwinds with clear linkage to company outcomes warrant a moderate score of 5."
+            },
+            {
+                "snippet": "We cannot assure you as to the timing and effectiveness of vaccination efforts on the control of spread of the virus.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights uncontrollable uncertainty surrounding vaccine efficacy/timing.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Adds uncertainty but lacks direct operational or financial detail, so the score is low (2)."
+            },
+            {
+                "snippet": "Sales were 30% lower than last year, as demand for our paper products has continued to be negatively affected by the COVID-19 pandemic due to office and school closures.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies a significant financial impact (30 % sales decline).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Directly attributes decline to pandemic-related closures.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "A large, quantified loss directly tied to COVID-19 earns a high score of 7."
+            },
+            {
+                "snippet": "PCA did not experience significant disruptions in its operations as a result of the pandemic and has maintained adequate availability of its workforce and supply of raw materials and services to continue to serve its customers.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Affirms absence of significant operational disruptions (mitigating).",
+                            "points": -3
+                        },
+                        {
+                            "reason": "Indicates stable workforce and supply chains (additional mitigation).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": -4
+                },
+                "reasoning_summary": "Purely mitigating language produces a negative risk score (-4), reflecting reduced severity."
+            },
+            {
+                "snippet": "Due to the importance of our products to the continued distribution of food, beverage and other necessities, our operating facilities have been permitted to remain in operation and we have not experienced material disruptions in operations to date.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Essential-business status allows continued operations (mitigation).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Explicitly states no material disruptions to date (further mitigation).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": -4
+                },
+                "reasoning_summary": "The statement undercuts perceived risk, leading to a negative score of –4."
+            }
+        ],
+        "calculated_score": 30,
+        "average_severity": 3.0
+    }
+]

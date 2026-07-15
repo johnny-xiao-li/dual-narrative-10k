@@ -1,0 +1,146 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "PEG’s 2024 filing still treats COVID-19 as a live, medium-term enterprise risk.  Although the initial outbreak occurred nearly four years ago, management links the pandemic to both realized and continuing exposures: (i) operational disruption (labour shortages, service delays, remote-work continuity); (ii) regulatory interventions (state-mandated shut-off moratoria) that impaired cash collection; and (iii) lingering balance-sheet stress through elevated accounts-receivable and potential bad-debt write-offs.  The language is moderately specific—identifying concrete consequences such as ‘elevated aged accounts-receivable’—yet largely un-quantified and couched in conditional ‘could’ phrasing for forward-looking elements.  Applying the Time Decay Principle, COVID-19 now sits in the 4-to-10-year window, so maximum snippet severity is capped at a mid-range level.  Evidence that reflects actual, historical financial impact (e.g., collections shortfall) is scored toward the upper end of this medium band (5–6), while broad, hypothetical references to pandemics receive lower mid-range scores (3-4).  No mitigating controls strong enough to materially offset the risk are disclosed, so deductions are minimal.",
+        "evidence_list": [
+            {
+                "snippet": "We may be adversely affected by asset and equipment failures, accidents, critical operating technology or business system failures, natural disasters, severe weather events, acts of war or terrorism or other acts of violence, sabotage, physical attacks or security breaches, cyberattacks, or other incidents, including pandemics such as the coronavirus pandemic, that impact our ability to provide safe and reliable service to our customers and remain competitive and could result in substantial financial losses.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites ‘pandemics such as the coronavirus pandemic’ as part of the threat set.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies operational disruption (‘impact our ability to provide safe and reliable service’) and potential ‘substantial financial losses’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is forward-looking and grouped with other generic hazards, reducing specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct reference to COVID-19 and disclosure of possible major financial loss earn positive weight, but the generic, hypothetical framing keeps the score to a moderate 4."
+            },
+            {
+                "snippet": "We are also exposed to the risk of pandemics, such as the coronavirus pandemic, which could result in service disruptions and delays or otherwise impair our ability to timely provide service to our customers or complete our investment projects.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly names coronavirus pandemic as a risk source.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details specific operational impacts (service disruptions, project delays).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presented as a conditional (‘could’) scenario with no evidence of realised impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides concrete operational pathways but remains prospective; accordingly the snippet scores a mid-range 4."
+            },
+            {
+                "snippet": "In response to the coronavirus pandemic, New Jersey and the BPU implemented a number of expanded customer protection measures, such as an extended moratorium on shut-offs of residential service for non-payment, and more extensive processes to be taken prior to any shut-off of service.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit causal link: actions taken ‘in response to the coronavirus pandemic’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Cites specific regulatory measures (shut-off moratorium) that directly affect revenue collection processes.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes historical, realised actions rather than mere possibility, increasing severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Because it records actual pandemic-driven regulatory intervention with clear business implications, this evidence reaches the upper medium-term bound of 6."
+            },
+            {
+                "snippet": "These actions negatively affected customer payment patterns, leading to an elevated aged accounts receivable balance.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States a concrete financial impact (higher aged receivables) already experienced.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Provides direct linkage to preceding pandemic-related measures, demonstrating realised consequence.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks explicit monetary quantification and does not re-state ‘pandemic’, diluting directness.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Realised balance-sheet impact is significant, but absence of numeric scale and indirect pandemic reference moderate the score to 4."
+            },
+            {
+                "snippet": "Our ability to manage our accounts receivable balance, and obtain recovery in rates for our carrying costs and any associated bad debts could have a material impact on our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights ongoing financial exposure (bad debts, carrying costs) stemming from elevated receivables tied to pandemic measures.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong materiality language (‘material impact on our business’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Only indirectly connected to COVID-19 context and framed as contingent.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Although financially important, linkage to the pandemic is indirect and conditional, yielding a lower medium score of 2."
+            },
+            {
+                "snippet": "These events could result in increased political, economic, financial and insurance market instability, a lack of available insurance and volatility in power and fuel markets, which could materially adversely affect our business and results of operations, including our ability to access capital on terms and conditions acceptable to us.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Foresees broad macro-financial consequences (‘materially adversely affect’, capital access).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "‘These events’ tie back to prior list that explicitly included pandemics, but reference is indirect and hypothetical.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generic; no realised impact or pandemic-specific detail.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Because the pandemic link is indirect and the effect broadly hypothetical, the snippet merits only a minimal score of 1."
+            }
+        ],
+        "calculated_score": 21,
+        "average_severity": 3.5
+    }
+]

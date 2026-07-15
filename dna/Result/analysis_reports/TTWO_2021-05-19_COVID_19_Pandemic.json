@@ -1,0 +1,220 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Take-Two’s 2021 filing repeatedly links the still-unfolding COVID-19 pandemic to multiple, potentially material threats across its value chain. The text mixes realised effects (remote-work shift, business-practice changes, heightened online demand) with forward-looking uncertainties (supply-chain interruptions, labour availability, sports-league schedules, discretionary-spending erosion, IT-security exposure).  Because the filing date (May 2021) is well within three years of the pandemic’s onset, the Time Decay Principle allows high severity scores where disclosures are specific and operational.  The company emphasises that impacts could be “material,” lists concrete pressure points (product development delays, server-capacity constraints, counterparties’ closures), and concedes that mitigation plans may fail.  Mitigating notes—such as temporary demand boosts and work-from-home effectiveness—temper but do not eliminate risk.  Overall, the pandemic is portrayed as a current, pervasive, and only partially controllable risk, warranting generally high but not maximum scores (mostly 4-9) across the extracted evidence.",
+        "evidence_list": [
+            {
+                "snippet": "Our results of operations may be materially adversely impacted by the coronavirus pandemic (COVID-19).",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly ties COVID-19 to possible impact on company results.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong materiality language ('materially adversely').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional phrasing ('may') reduces certainty.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event is recent (0-3 yrs).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Explicit, material linkage gives high weight; slight reduction for speculative wording."
+            },
+            {
+                "snippet": "The global spread of COVID-19 has created significant uncertainty, resulting in volatility and economic disruption.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemic has already caused macro-level disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights uncertainty and volatility—aggravating factors.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic rather than company-specific.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Recency boosts relevance.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Describes realised macro impact; generic scope keeps score moderate-high."
+            },
+            {
+                "snippet": "The extent to which COVID-19 has an impact on our business, operations, or financial results will depend on numerous evolving factors that we may not be able to accurately predict, including the duration and scope of the pandemic; governmental, business, and individuals’ actions that have been and continue to be taken in response to the pandemic; economic activity and related actions taken in response to the pandemic; the effect on consumer demand for our products and the discretionary spending patterns of our customers, including the ability of our customers to pay for our products; our ability to develop, market, and sell our products, including as a result of travel restrictions and people working from home; the impact on the operations of our counterparties, including the physical retail, digital download online platforms, and cloud streaming services we rely on for the distribution of our products, the suppliers who manufacture our physical products, and other third parties with which we partner (e.g. to market or ship our products); any closures of our, our customers', and counterparties' offices and facilities; additional volatility in exchange rates; the impact of potential inflation; and the impact of reductions in interest rates by the Federal Reserve and other central banks, including on our short-term investment portfolio.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple concrete operational risk vectors (demand, supply chain, remote work, counterparties).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Emphasises unpredictability and evolving nature, widening scope.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Refers to potential material financial impacts (consumer ability to pay, FX, inflation).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking language ('will depend') softens certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Broad, specific enumeration of pandemic risk channels drives a high score despite forward-looking framing."
+            },
+            {
+                "snippet": "Further, “shelter-in-place,” quarantine, or other such initiatives by governmental entities could also disrupt our operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies government lockdowns as a direct operational threat.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses conditional 'could', lowering immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific mechanism (lockdowns) noted; conditional wording moderates severity."
+            },
+            {
+                "snippet": "In such situations, if employees or third-party developers who cannot optimally perform their responsibilities from home are not able to or are unwilling to report to work, we may experience material interruptions in product development and delays in bringing products to market.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights labour shortage/remote work risk to core product pipeline.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States potential 'material interruptions' and 'delays'—strong severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Contingent phrasing ('may experience').",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct tie to development delays gives weight; uncertainty tempers score."
+            },
+            {
+                "snippet": "The spread of COVID-19 has caused us to modify our business practices (including employee travel, employee work locations, and cancellation of physical participation in meetings, events and conferences), and we may take further actions as may be required by government authorities or that we determine are in the best interests of our employees, customers and business partners.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes concrete, already-implemented operational changes due to pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges possibility of further disruptive measures.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantified impact presented.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Realised adjustments and prospect of more change create moderate risk evidence."
+            },
+            {
+                "snippet": "Further, key personnel could contract COVID-19, hindering their availability and productivity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights direct health risk to workforce and consequent productivity loss.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses 'could', reducing certainty.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Potentially affects critical talent—amplifies severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific human-capital threat adds weight, but conditional language moderates."
+            },
+            {
+                "snippet": "Additionally, sports organizations' operations and seasons have and may be altered based on the response to COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic responses to disruption in a key content feeder (sports leagues).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses both past ('have') and future ('may') tense indicating realised and ongoing risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Niche but relevant demand-side risk; moderate severity."
+            },
+            {
+                "snippet": "While we have developed and continue to develop plans to help mitigate the negative impact of the pandemic on our business, these efforts may not be effective, and a protracted economic downturn may limit the effectiveness of our mitigation efforts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits mitigation plans may fail; highlights possibility of prolonged downturn.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Presence of mitigation strategies reduces net risk.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Acknowledges residual risk after mitigation, but emphasis on efforts lowers overall severity."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has affected and may continue to affect our business operations, including our employees, customers, partners, and communities, and there is substantial uncertainty in the nature and degree of its continued effects over time.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States both realised and ongoing broad operational impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasises 'substantial uncertainty' about future effects.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Company-wide breadth and uncertainty justify a solid mid-high score."
+            }
+        ],
+        "calculated_score": 44,
+        "average_severity": 4.4
+    }
+]

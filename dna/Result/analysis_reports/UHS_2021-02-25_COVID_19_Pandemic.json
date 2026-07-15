@@ -1,0 +1,115 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "UHS’s 2021 filing treats COVID-19 as an ongoing, multi-faceted threat that is already depressing volumes and driving costs while also creating significant forward-looking uncertainty.  The company discloses concrete, realized impacts – fewer ER visits, cancelled elective procedures, lower behavioral-health patient days – that directly erode revenue.  It also flags structural cost pressure, namely clinician shortages that are forcing wage inflation, and explicitly references strain on “vendors and supply-chain partners.”  Management warns these headwinds are both current and prospective, repeatedly using phrases such as “has adversely impacted and is likely to further adversely impact” and “will likely continue to have an adverse impact.”  Although the narrative notes eventual vaccine benefits, that is couched in uncertainty and does not materially offset the risk language.  Because the pandemic is well within the 0-3-year “recent-event” window and the text ties the outbreak to material financial effects that are already occurring and expected to persist, individual sentence scores cluster in the 7-9 range.  Only minor downward adjustments are made for generic uncertainty language; there are no robust mitigants (e.g., quantified offsets or definitive recovery timelines).  The resulting micro-scores therefore reflect high-severity evidence consistent with the Time Decay Principle for a very recent, still-unfolding global event.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic has adversely impacted and is likely to further adversely impact us, our employees, our patients, our vendors and supply chain partners, and financial institutions, which could continue to have a material adverse effect on our business, results of operations and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit statement of both current and future adverse impact (“has adversely impacted and is likely to further adversely impact”).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links the pandemic to a potential ‘material adverse effect’ on business, operations and financial condition.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "References breadth of stakeholders effected, including ‘vendors and supply chain partners,’ signalling systemic exposure.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Directly ties COVID-19 to existing and future material harm across operations, finance and supply chain, warranting a high severity score."
+            },
+            {
+                "snippet": "These dynamics have manifested themselves in our hospitals in, among other ways, reduced emergency room visits, elective/scheduled procedures and acute and behavioral health patient days.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete, already-experienced volume declines in multiple service lines (ER, elective surgery, behavioral health).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Evidence of realized financial impact rather than hypothetical risk.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Gives specific metrics of demand destruction, confirming immediate revenue pressure; scored high but slightly lower than broad ‘material adverse’ language."
+            },
+            {
+                "snippet": "While such measures are expected to assist in responding to the recent outbreak, self-quarantines, shelter-in-place orders, and suspension of voluntary procedures and surgeries have had, and will likely continue to have, an adverse impact on the operations and financial position of health care provider systems due to increased costs (including labor costs which have been pressured during the COVID-19 pandemic due to a shortage of clinicians and increased wage rates due to increased demand for those services), actual reduction and potential reduction in overall patient volume, and shifts in payor mix.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple financial stress channels: labor-cost inflation, volume declines, payor-mix deterioration.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights clinician shortage and wage pressure— a specific operational risk amplified by the pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States both historical and forward-looking adverse impact (‘have had, and will likely continue to have’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Minor mitigation: acknowledges measures expected to assist in responding.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Comprehensively catalogs cost and revenue threats, including labor shortages, giving it a near-max score despite a brief nod to mitigation."
+            },
+            {
+                "snippet": "The extent to which the COVID-19 pandemic and measures taken in response thereto impact our business, results of operations and financial condition will depend on numerous factors and future developments, most of which are beyond our control or ability to predict.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges material uncertainty over magnitude and duration of impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasises lack of control, heightening perceived risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Purely generic; no quantified effect or concrete mechanism.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Adds context of uncontrollable uncertainty but lacks specificity, so receives a modest score."
+            },
+            {
+                "snippet": "Even after the COVID-19 pandemic has subsided, we may continue to experience materially adverse impacts on our financial condition and our results of operations as a result of its macroeconomic impact, including any recession that has occurred or may occur in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of persistent, ‘materially adverse’ financial effects extending beyond the immediate health crisis.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects pandemic to broader macroeconomic and recessionary forces.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Signals long-tail financial damage; future-oriented but still significant, producing a mid-high score."
+            }
+        ],
+        "calculated_score": 30,
+        "average_severity": 6.0
+    }
+]

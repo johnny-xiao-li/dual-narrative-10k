@@ -1,0 +1,174 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Viatris’ 2023 Form-10-K frames COVID-19 as a still-unfolding, enterprise-wide threat that has already produced tangible impacts and could further disrupt the company’s operating model.  Although the filing is three years removed from the WHO’s pandemic declaration, management continues to cite specific operational strains—sourcing active pharmaceutical ingredients, freight cost inflation, plant-level shutdown risk, regulatory review delays, and erratic product demand—showing that the risk is not merely historical but ongoing.  Language such as “have had and could continue to have a material adverse effect” confirms that adverse consequences have already been felt and may intensify.  The disclosure remains largely qualitative, with no quantified dollar figures, but it is highly specific about affected business functions (manufacturing, supply chain, receivables, workforce, dividend capacity) and is framed in terms of potential materiality.  Under the Time Decay Principle, a pandemic that began in 2020 is still within the 0-3-year “recent event” window at the February 2023 filing date, allowing elevated severity scores.  Overall, the risk is assessed as high but unquantified, warranting snippet scores that cluster in the upper mid-range (3-8), reflecting both the breadth of exposure and the conditional, forward-looking tone.",
+        "evidence_list": [
+            {
+                "snippet": "Public health outbreaks, epidemics and pandemics, including the COVID-19 pandemic, have had and could continue to have a material adverse effect on our business, financial condition, results of operations, cash flows and/or stock price and may impact our ability to pay dividends.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to past and future impacts (\"have had and could continue\").",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong language: \"material adverse effect\" across multiple financial dimensions.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Flags potential impairment of dividend payments, extending risk to shareholders.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "High-severity wording, acknowledgment of both realized and future impacts, and reference to dividends justify a top-tier score of 8."
+            },
+            {
+                "snippet": "Both the outbreak, and continued spread of COVID-19 and actions to slow its spread have created and continue to create significant uncertainty, economic volatility and disruption, supply chain disruption, and increased unemployment, which have impacted and may continue to impact our business operations and workforce.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete disruptions (supply chain, workforce, economic volatility).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States impacts are ongoing (\"continue to create\").",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions direct effect on operations already experienced.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Enumerates specific operational stresses already occurring, warranting a strong but slightly lower score than the lead sentence."
+            },
+            {
+                "snippet": "COVID-19 and related responsive measures have also made, and may continue to make, it difficult for us, our partners or suppliers to source and manufacture products in, and to export our products from, certain affected areas.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights sourcing, manufacturing and export difficulties—core operational risks.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Extends risk to partners and suppliers, broadening exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Future-looking \"may continue\" adds uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specifies critical supply-chain choke points, but conditional language tempers severity, yielding a mid-range score."
+            },
+            {
+                "snippet": "In addition, we have faced, and may continue to face, delays or difficulty sourcing certain products or raw materials, including APIs.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms experienced delays in sourcing raw materials and APIs—direct operational impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Projects continuation of the problem into the future.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Use of \"may\" reflects some uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Admits actual supply problems but with moderate phrasing; score lands at 3."
+            },
+            {
+                "snippet": "In addition, we have experienced and may continue to experience increased shipping and freight costs, as well as delays in shipping.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes realized cost inflation in logistics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates persistence of the issue.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional wording \"may continue\" lowers certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Addresses tangible cost pressure but is unquantified and conditional, producing a moderate score."
+            },
+            {
+                "snippet": "The continuing impact of the COVID-19 pandemic could lead to our customers or suppliers having liquidity problems that could negatively impact our ability to collect cash on our receivables and/or negatively impact our ability to get inventory and materials.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces counter-party liquidity risk affecting cash collection and inventory.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links pandemic effects to working-capital strain.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Speculative \"could\" language reduces immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights secondary financial exposures but remains hypothetical; modest severity score."
+            },
+            {
+                "snippet": "If there is an increase in reported illnesses or quarantining at any of our or our partners’ facilities, including critical manufacturing sites, it is possible that such facilities may need to close for an extended period of time.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies risk of facility shutdowns disrupting production.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Contingent ('if' / 'may') framing reduces certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Closure of critical sites is a severe scenario but purely conditional, yielding a low-mid score of 2."
+            },
+            {
+                "snippet": "The extent to which the COVID-19 pandemic or other public health outbreaks will continue to impact us depends on numerous evolving factors and future developments that we are not currently able to predict and may also exacerbate other risks discussed in these risk factors, any of which could have a material adverse effect on us, our business, financial condition, results of operations, cash flows, ability to pay dividends and/or stock price.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges potential for material adverse effect across financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasises uncertainty and inability to predict impacts.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Broadly warns of material harm but dominated by cautionary uncertainty language; lowest severity among selected snippets."
+            }
+        ],
+        "calculated_score": 32,
+        "average_severity": 4.0
+    }
+]

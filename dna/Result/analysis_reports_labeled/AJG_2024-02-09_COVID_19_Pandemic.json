@@ -1,0 +1,106 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "AJG’s Form 10-K still devotes explicit discussion to pandemic-related risk even though almost four years have elapsed since the World Health Organization declared COVID-19 a global pandemic.  The filing combines (a) backward-looking evidence showing the company’s tangible financial and operational hits during 2020-2022—e.g., reduced claims volumes and lower consulting revenues—with (b) forward-looking language that these impacts could recur if another wave or new pandemic emerges, and (c) structural changes such as a large-scale, permanent shift to hybrid/remote work that continues to create cybersecurity, culture and retention challenges.  None of the disclosures quantify current-year dollar impacts, but they are more than boiler-plate: they tie the pandemic to specific business lines (risk-management claims, benefit-consulting revenues) and operational processes (remote workforce, business-disruption planning).  Applying the Time Decay Principle, the COVID-19 event now sits in the early “medium-term” band (year 4), so individual snippets merit moderate scores (4-6).  Sentences documenting actual historical harm and ongoing structural change receive the higher end of that range; broader generic references or risk lists fall at the low end.  The overall picture is that COVID-19 remains a material, though no longer acute, enterprise-wide risk for AJG, primarily through lingering operational adjustments and the possibility of demand softening or new outbreaks.",
+        "evidence_list": [
+            {
+                "snippet": "Such disruptions could be caused by various factors, such as cybersecurity incidents (for example, as disclosed in previous filings, we experienced a ransomware attack in 2020), security breaches, human error, capacity constraints, hardware failures or defects, natural disasters, climate and weather events, pandemics, fires, power outages, telecommunication failures, break-ins, sabotage, intentional acts of vandalism, acts of terrorism, civil disruption, political violence and unrest, or war.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics as a potential cause of business disruption, signalling recognition of the risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Frames the consequence as material disruption to operations and client relationships (aggravating).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic catch-all list with no pandemic-specific metrics or current-year impacts (mitigating).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides a broad, forward-looking risk reference to pandemics causing disruption, but is generic and unquantified, so it earns a moderate 4."
+            },
+            {
+                "snippet": "Epidemics and pandemics that reduce in-person business activity have a greater negative impact because they result in a reduction in the number of claims processed, as experienced during the years 2020, 2021, and the beginning of 2022.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemics directly to a specific operational metric (claims processed).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States that the negative impact actually occurred in 2020–2022, showing realized harm.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights heightened vulnerability of a core business line (risk-management).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Time-decay moderation for a now-historic impact (event ~4 yrs old).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Describes concrete, historical operational damage from the pandemic and flags ongoing exposure, justifying the top-end medium score of 6."
+            },
+            {
+                "snippet": "For instance, we experienced a decline in such revenue during the economic downturn triggered by the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes a revenue decline to the COVID-19 pandemic (material financial impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies the affected segment (benefit-consulting revenues), indicating scope.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact is retrospective (2020 downturn) rather than current, so partially time-decayed.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Links COVID-19 to an actual revenue drop in a business line; although historical, it remains relevant, earning a 6."
+            },
+            {
+                "snippet": "The substantial increase in remote work among our employees subjects us to certain challenges and risks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies an enduring structural change (remote work) that originated with the pandemic, creating ongoing operational risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Does not quantify impacts or explicitly restate pandemic cause, making it somewhat generic.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Forward-looking acknowledgment that challenges persist (aggravating).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows a lasting pandemic-driven shift (remote work) with associated risks but lacks detail, so it sits at a mid-level score of 4."
+            }
+        ],
+        "calculated_score": 20,
+        "average_severity": 5.0
+    }
+]

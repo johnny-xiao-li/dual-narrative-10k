@@ -1,0 +1,77 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CDW’s 2024 Form 10-K continues to acknowledge the COVID-19 pandemic as a meaningful—but now moderating—enterprise-wide threat. References to the pandemic appear in the Macroeconomic & Industry, Supply-Chain, and Logistics risk sections. The language is predominantly forward-looking (“could”) and clusters COVID-19 with other disruptive forces, signalling that management now views it as one of several potential shock factors rather than a singular crisis. Nonetheless, the filing records a concrete historical impact—surges in delivery-service demand experienced “during the COVID-19 pandemic”—confirming that the virus has had real operational consequences. Given that the pandemic’s official onset is nearly four years old, the Time Decay Principle caps severity in the mid-range. Overall evidence supports a moderate residual risk level: the company recognises continuing vulnerabilities in supply-chain reliability, shipping capacity and macro-economic demand, but provides no quantified losses or highly specific contingencies. Accordingly, snippet scores fall in the 4-6 band, reflecting medium-term but still relevant pandemic exposure.",
+        "evidence_list": [
+            {
+                "snippet": "Political events, trade and other international disputes, war, terrorism, natural disasters, public health issues, including pandemics such as COVID-19, industrial accidents and other business interruptions can harm or disrupt international commerce and the global economy, and could have a material adverse effect on the Company and its customers, suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references ‘pandemics such as COVID-19’, tying risk to the specific event.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong impact wording (‘could have a material adverse effect’) covering a wide stakeholder set.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "COVID-19 is grouped with many other risks, reducing specificity and urgency.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly names COVID-19 and forecasts material harm, but the statement is generic and hypothetical, yielding a moderate score of 4."
+            },
+            {
+                "snippet": "Manufacturing interruptions or delays, including as a result of the financial instability or bankruptcy of manufacturers, significant labor disputes such as strikes, natural disasters (which may increase in number or severity as a result of climate change), political or social unrest, armed conflict, pandemics (such as the COVID-19 pandemic) or other public health crises, or other adverse occurrences affecting any of our suppliers’ facilities, could disrupt our supply chain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names pandemics, specifically COVID-19, as a causal factor.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links the pandemic to supply-chain disruption—a core operational dependency.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presented as one of many hypothetical causes, making it less targeted.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights supply-chain vulnerability to COVID-19 but framed as a general possibility among several factors, warranting a score of 4."
+            },
+            {
+                "snippet": "Additionally, strikes, inclement weather, natural disasters or other service interruptions by such shippers or periods of increased demand on delivery services, such as those we have experienced during the COVID-19 pandemic, could materially adversely affect our ability to deliver or receive products on a timely basis.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges an actual historical impact (‘periods of increased demand … during the COVID-19 pandemic’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States potential for material adverse effects on critical logistics (delivery/receipt of products).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional ‘could’, signalling uncertainty about future recurrence.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Combines concrete past experience with forward-looking risk to logistics, producing the highest—but still time-decayed—score of 5."
+            }
+        ],
+        "calculated_score": 13,
+        "average_severity": 4.333333333333333
+    }
+]

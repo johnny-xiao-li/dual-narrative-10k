@@ -1,0 +1,371 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Skyworks Solutions (SWKS) portrays COVID-19 as an immediate, multi-faceted and still-evolving threat.  The company moves beyond boilerplate phrasing and cites concrete, already-experienced impacts – supply-chain interruptions, higher input costs, factory shutdowns, labour attrition, transportation bottlenecks and demand volatility.  While some sentences are forward-looking, many describe current or historical disruptions, confirming that the risk is not merely hypothetical.  No material quantitative dollar figure is disclosed, but the narrative repeatedly links the pandemic to reduced profitability, manufacturing inefficiencies and potential inability to meet customer demand.  Mitigations (inventory builds, employee-protection measures) are acknowledged yet framed as cost-increasing or only partially effective.  Because the filing date (23-Nov-2022) is less than three years after the event’s onset (11-Mar-2020), the Time Decay Principle allows high severity scores; most excerpts merit 6-9 points, reflecting directness, specificity and recency, with modest downward adjustments where the company emphasises limited impact or mitigation.",
+        "evidence_list": [
+            {
+                "snippet": "The effects of the global COVID-19 pandemic continue to adversely affect our business operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit statement that pandemic effects are ongoing and adverse.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Present-tense wording ('continue') signals current impact, not just potential.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct, current and negative impact statement with no mitigation yields a high score of 7."
+            },
+            {
+                "snippet": "The global COVID-19 pandemic—including the public health crisis, the measures taken by governments, businesses, and individuals in an effort to limit COVID-19’s spread, and the resulting global supply chain challenges—has adversely affected, and continues to adversely affect, our business operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to company operations in both past and present tense.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies supply-chain challenges as a driver of the impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Recency within 3-year window enhances severity (Time Decay).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Detailed causal chain and acknowledgement of continuing harm justify an 8."
+            },
+            {
+                "snippet": "We have experienced, and may continue to experience, disruptions to our supply chain and increased costs in connection with the sourcing of materials, components, equipment, assembly and test services, engineering support, shipping and logistics services, and other services, caused in part by the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes concrete operational disruptions already realised.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights cost inflation across multiple inputs, signalling financial hit.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking clause ('may continue') shows persistence of risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Multi-dimensioned, realised impacts and continuing risk warrant a near-maximum score."
+            },
+            {
+                "snippet": "To the extent we are unable to pass these costs on to our customers, we experience reduced profitability.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-driven cost increases to reduced profitability—a financial metric.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional language suggests partial mitigation possibility.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows direct profit pressure but includes a partial offset; net score 6."
+            },
+            {
+                "snippet": "Given that our customers and suppliers are facing similar supply chain challenges, we expect continued difficulty in forecasting demand and supply needs for the foreseeable future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies forecasting uncertainty as an operational risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Expectation of persistence amplifies concern.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking but specific operational challenge yields a moderate score."
+            },
+            {
+                "snippet": "As a result of these uncertainties, we have increased, and may continue to increase, our inventory levels and purchase commitments.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows tangible response (higher inventory) that can strain cash and increase risk of obsolescence.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Action is also a mitigation to supply shortages, tempering net risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Reflects both risk and mitigating action; score aligns to mid-range."
+            },
+            {
+                "snippet": "We have recently experienced, and expect to continue experiencing, reduced demand for certain of our products as a result of certain customers’ difficulty obtaining materials, components, and services due to disruptions in such customers’ supply chains.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies reduced demand already felt—revenue impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Attributes to pandemic-driven supply chain issues at customers.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Demand erosion plus ongoing expectation drive high severity."
+            },
+            {
+                "snippet": "While the government-mandated shutdowns in various regions of China during fiscal 2022 did not directly impact any of our manufacturing facilities, the shutdowns did result in limited supply constraints within our supply chain, as well as significant supply constraints for certain of our customers, which resulted in short-term reductions in such customers’ demand for our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites concrete event (China shutdowns) causing supply constraints and demand drop.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Acknowledges mitigation (no direct facility impact), reducing severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Event-driven impact balanced by partial insulation yields a 7."
+            },
+            {
+                "snippet": "We may continue to experience large fluctuations in demand for certain of our products, which could be exacerbated by global supply chain challenges or by a continued or deepening global economic downturn or recession.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights volatility risk tied to pandemic-related macro factors.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional wording signals potential rather than realised impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Prospective nature and lack of quantification temper the score."
+            },
+            {
+                "snippet": "In the event that our manufacturing operations in Mexicali, Mexico, become subject to significant restrictions or are suspended again, as they were for two weeks in April 2020 pursuant to a government order, ... we may again experience reductions in production levels, which would limit our ability to meet customer demand and impact our operating results.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "References prior shutdown and risk of recurrence—evidence of vulnerability.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies operational and financial consequences (production, operating results).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Historical precedent plus clear potential impact justify a 7."
+            },
+            {
+                "snippet": "Over the course of the pandemic, we have implemented certain measures at our facilities worldwide in an effort to protect our employees’ health and well-being, some of which have reduced the overall efficiency of our operations and increased manufacturing costs.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates concrete cost increases and efficiency losses already incurred.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Presence of safety measures is a mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Realised negative impact slightly offset by mitigation yields 6."
+            },
+            {
+                "snippet": "Many of our non-manufacturing employees transitioned to working from home on a mandatory or voluntarily basis for a prolonged period of time, and our return-to-office plans have in some cases led to employee attrition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes workforce disruption and attrition tied to pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Pertains to human-capital risk which can affect productivity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific labour impact, but not quantified, results in mid-level score."
+            },
+            {
+                "snippet": "We expect that pandemic-related changes in workforce patterns may result in additional attrition, difficulty in hiring, and reduced productivity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forward-looking statement of multiple HR risks.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Speculative nature lowers certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Potential but unproven impacts warrant a moderate score."
+            },
+            {
+                "snippet": "We have experienced, and likely will continue to experience, disruptions to global transportation networks, limiting or delaying our ability, and/or increasing our cost, to send or receive products and materials at one or more of our facilities, including as a result of trade restrictions, border closures, disruptions in the operations of third-party carriers, or carriers’ decisions to prioritize other customers’ orders over ours.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies transport disruptions and cost increases already occurring.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States expectation of continued impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Current and ongoing logistics risk with financial implication scores 8."
+            },
+            {
+                "snippet": "We may experience negative impacts to our business operations if one or more of these major customers were to significantly decrease its orders for our products due to disruptions to its business operations or other pandemic-related issues.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects customer concentration risk to pandemic effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional (may) makes impact prospective.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Potential downstream demand risk gives a modest score."
+            },
+            {
+                "snippet": "These effects, alone or taken together, could have a material adverse effect on our business, results of operations, customer and supplier relations, employee relations, cash flows, and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Declares potential for material adverse effect across multiple dimensions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Broad, generic summarisation without specifics.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic aggregation statement scores low despite severity wording."
+            },
+            {
+                "snippet": "The resumption of normal business operations after any such interruptions may be delayed or constrained by lingering effects of the pandemic on our customers, suppliers, and other third-party service providers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights risk of protracted recovery post-pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Future-oriented and not yet realised.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Potential lingering constraints merit a mid-range score."
+            },
+            {
+                "snippet": "The degree to which the pandemic continues to impact us will depend on future developments that are highly uncertain and cannot be predicted, including, but not limited to, the duration and spread of the pandemic, its severity, the actions to contain COVID-19 or treat its impact, and how quickly and to what extent normal economic and operating conditions resume.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges high uncertainty about future impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Purely cautionary statement with no specific impact scores low."
+            },
+            {
+                "snippet": "Even after the pandemic has subsided as a public health matter, we may experience material adverse impacts to our business as a result of its adverse impact on the global economy.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of lasting economic damage influencing company.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional ('may') and future-oriented.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Post-pandemic macro risk is notable but speculative."
+            },
+            {
+                "snippet": "The COVID-19 pandemic and the resulting economic downturn are affecting business conditions in our industry.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States current, industry-wide adverse effect.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Short statement of present impact without detail earns 4."
+            },
+            {
+                "snippet": "Like many companies in the semiconductor industry, we are experiencing various supply constraints due to the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms ongoing supply constraints attributable to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Lacks quantification or financial magnitude.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Current operational strain with limited detail scores 5."
+            }
+        ],
+        "calculated_score": 100,
+        "average_severity": 5.333333333333333
+    }
+]

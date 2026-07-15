@@ -1,0 +1,99 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "L3Harris’s 2023 Form 10-K continues to highlight the COVID-19 pandemic as both a historic and an ongoing enterprise-wide risk.  Although the filing date is nearly three years after the World Health Organization declared COVID-19 a pandemic, the company still reports material effects within the most recent reporting periods, satisfying the Time Decay principle for a high-severity, recent-event assessment (0-3 years).  The narrative discloses: (1) specific, quantified financial damage (a $748 million goodwill impairment and a $20 million revenue decline) directly attributed to pandemic-driven downturns in commercial aviation; (2) persistent supply-chain vulnerabilities and labor mobility challenges explicitly listing “pandemics” among disrupting forces; and (3) broad operational consequences—cost escalation, revenue delays, and potential facility shutdowns—were such disruptions to recur.  These references span past actual impacts and forward-looking risk language, indicating that COVID-19 remains both a realized and a potential threat.  The statements are largely unmitigated, with limited discussion of counter-measures, so the overall risk profile remains elevated.  Accordingly, evidence tied to quantified financial losses scores in the upper range (8-9/10), while generic but still relevant risk statements land in the low-to-mid range (2-4/10), consistent with the recency of the pandemic but tempered when disclosures are purely hypothetical or boiler-plate.",
+        "evidence_list": [
+            {
+                "snippet": "Our supply chain could also be disrupted by external events, such as natural disasters (including those as a result of climate change) or other significant disruptions (including extreme weather conditions, epidemics, pandemics, acts of terrorism, cyber-attacks and labor disputes), governmental actions and legislative or regulatory changes, including product certification or stewardship requirements, sourcing restrictions, product authenticity and climate change or GHG emission standards, or availability constraints from increased demand from customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics as a possible cause of supply-chain disruption, linking the event to operational risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Statement is forward-looking and generic with no quantification or evidence of current impact, reducing severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Mentions pandemics among key supply-chain disruptors but in a broad, boiler-plate manner; moderate recent-event relevance yields a score of 3."
+            },
+            {
+                "snippet": "Our worldwide operations and operations of our suppliers and customers could be subject to natural disasters (including those as a result of climate change) or other significant disruptions, including hurricanes, typhoons, tsunamis, floods, earthquakes, fires, water shortages, other extreme weather conditions, epidemics, pandemics, acts of terrorism, power shortages and blackouts, telecommunications failures, cyber-attacks and other natural and man-made disasters or disruptions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemics as a threat to company-wide operations across global footprint.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highly generalized disclosure, bundled with many unrelated hazards, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic enumeration of risks reduces weight, but explicit pandemic reference still warrants a low-moderate score of 2."
+            },
+            {
+                "snippet": "In the event of such a natural disaster or other disruption, we could experience disruptions or interruptions to our operations or the operations of our suppliers, subcontractors, distributors, resellers or customers, including inability of employees to work; destruction of facilities; and/or loss of life, all of which could materially increase our costs and expenses, delay or decrease orders and revenue from our customers and have a material adverse effect on the continuity of our business and our business, financial condition, results of operations, cash flows and equity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete potential consequences (cost increases, revenue delays, material adverse effect) once a disruption such as a pandemic occurs.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Although still hypothetical, the sentence spells out severe operational and financial consequences, justifying a mid-range score of 4."
+            },
+            {
+                "snippet": "Impairment of goodwill and other assets for fiscal 2020 included $748 million of non-cash charges for impairment of goodwill and other assets associated with the COVID-related downturn in the commercial aviation market and its impact on customer operations, a $14 million non-cash charge for impairment of goodwill recorded in connection with the then-potential divestiture of the VSE disposal group and a $5 million non-cash charge for impairment of goodwill recorded in connection with the divestiture of our Applied Kilovolts business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes significant financial damage to COVID-19 (‘COVID-related downturn’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Quantifies the impact at $748 million, indicating materiality.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Represents an actual, realized impairment rather than a hypothetical risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Large, quantified impairment directly tied to COVID-19 yields a very high severity score of 9."
+            },
+            {
+                "snippet": "Fiscal 2021 Compared With Fiscal 2020: The increase in segment revenue in fiscal 2021 compared with the fiscal 2020 was primarily due to $223 million of higher revenue in ISR, driven by aircraft missionization on a NATO program, $53 million of higher revenue in Maritime, reflecting a ramp on key platforms and $29 million higher revenue in Electro Optical reflecting higher product deliveries, partially offset by $16 million of lower revenue from fuzing and ordnance systems and other related programs and $20 million of lower revenue in Commercial Aviation reflecting COVID-related impacts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 to a measurable revenue decline ($20 million).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Provides specific dollar figure, enhancing credibility and materiality.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Moderately sized but quantified revenue hit attributed to COVID-19 supports a mid-level score of 5."
+            }
+        ],
+        "calculated_score": 23,
+        "average_severity": 4.6
+    }
+]

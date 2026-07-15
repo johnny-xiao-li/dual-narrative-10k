@@ -1,0 +1,154 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "JKHY’s 2021-08-25 Form 10-K presents COVID-19 as a still-unfolding, enterprise-wide threat whose ultimate magnitude remains unpredictable.  Because the filing date falls only ~17 months after the WHO pandemic declaration, the Time Decay Principle allows high scores (0-3 years window).  The risk discussion is concentrated in both Item 1A and MD&A.  In Item 1A the language is forward-looking yet explicit: management warns that COVID-19 can disrupt customer spending, employee availability, third-party service delivery, on-site installations, transaction volumes, and overall liquidity, any of which could “adversely affect” results.  Specific operational vectors—remote-work dependence, labour-market tightening, and travel curtailment—are acknowledged.  MD&A provides real-time evidence: the company twice shifted to company-wide remote work (including a Delta-variant response), noted limited installation delays, and quantified revenue offsets tied to lower travel, all signalling concrete impacts already materializing.  Simultaneously, management cites mitigation (task force, remote-installation processes, strong tech infrastructure) and stresses that, to date, disruptions have been “limited.”  The net risk profile is therefore high but partially tempered by demonstrated resilience and contingency planning.  Considering the recency of the pandemic, the explicit linkage to multiple business drivers, and the presence of credible mitigations, individual sentence scores cluster in the 1-6 range, with no single excerpt reaching the absolute maximum of 10.",
+        "evidence_list": [
+            {
+                "snippet": "A widespread public health crisis could adversely affect our results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies a broad public-health crisis as a threat to operating results.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses adverse-impact wording (‘could adversely affect’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic but direct acknowledgment that a pandemic can harm results; no mitigating language present."
+            },
+            {
+                "snippet": "The widespread outbreak of a communicable illness or disease, such as the ongoing COVID-19 outbreak, or other public health crises, including government mandates in response to such events, can result in significant economic disruptions and uncertainties and could adversely affect our business, results of operation and financial condition.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites the ‘ongoing COVID-19 outbreak’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights ‘significant economic disruptions and uncertainties’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links impact to business, operations and financial condition.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct, recent, multi-dimensional impact statement warrants a high score within the 0-3 year window."
+            },
+            {
+                "snippet": "The conditions caused by such events may affect the rate of spending by our customers and their ability to pay for our products and services, delay prospective customers’ purchasing decisions, interfere with our employees’ ability to support our business function, disrupt the ability of third-party providers we rely upon to deliver services, adversely impact our ability to provide on-site services or installations to our customers, or reduce the number of transactions we process, all of which could adversely affect our results of operation and financial position.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple concrete operational impact channels (customer demand, labour, vendors, installations, transaction volume).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Ties those channels directly to adverse effects on results and financial position.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Rich detail on how the pandemic can hit revenue drivers elevates the score, though impacts are still prospective."
+            },
+            {
+                "snippet": "We are unable to accurately predict the impact of such events on our business due to a number of uncertainties, including the duration, severity, geographic reach and governmental responses to such events, the impact on our customers’ and vendors' operations, and our ability to provide products and services, including the impact of our employees working remotely.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges high uncertainty and inability to forecast impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists specific sensitive areas (customers, vendors, remote work).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Emphasises unpredictability and exposure points, giving it a moderate risk weight."
+            },
+            {
+                "snippet": "If we are not able to respond to and manage the impact of such events effectively, our business will be harmed.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States direct harm if response measures fail, underscoring vulnerability.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Brief but strong conditional statement of potential harm; no offsetting mitigation mentioned."
+            },
+            {
+                "snippet": "We are facing an increasingly competitive market for hiring and retaining skilled employees, which is exacerbated by the effects of the COVID-19 pandemic and increased acceptance of hiring remote working employees by our competitors and other companies.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to labour-market tightening, a clear operational risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Highlights pandemic-driven labour shortages, a specific, ongoing risk factor."
+            },
+            {
+                "snippet": "On August 3, 2021, we reimplemented our company-wide recommendation for remote work and are encouraging a cautious approach to business travel based on the spread of the Delta variant and increased infection rates.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Demonstrates current operational disruption caused by the Delta variant.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Shows a mitigation strategy (remote-work policy).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Evidence of real-time pandemic impact but partially offset by proactive mitigation."
+            },
+            {
+                "snippet": "However, we are unable to accurately predict the future impact of COVID-19 due to a number of uncertainties, including further government actions; the duration, severity and recurrence of the outbreak, including the onset of variants of the virus; the speed and effectiveness of vaccine and treatment developments; the speed of economic recovery; the potential impact to our customers, vendors, and employees; and how the potential impact might affect future customer services, processing and installation-related revenue, and processes and efficiencies within the Company directly or indirectly impacting financial results.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly underscores a wide range of uncertain, high-impact factors (variants, vaccines, government actions).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links those uncertainties to multiple revenue streams and efficiency metrics.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Comprehensive uncertainty statement affecting future revenues supports a high risk score."
+            }
+        ],
+        "calculated_score": 27,
+        "average_severity": 3.375
+    }
+]

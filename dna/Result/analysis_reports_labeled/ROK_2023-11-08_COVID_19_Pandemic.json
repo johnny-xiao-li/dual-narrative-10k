@@ -1,0 +1,102 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "ROK’s 2023 filing still treats COVID-19 as a salient enterprise-level hazard, but the language shows the risk is evolving from an acute crisis toward a structural, supply-chain and operational uncertainty.  All references are forward-looking or contemporaneous (i.e., the pandemic continues to “stress” manufacturing output and has “challenged” the Sensia joint venture).  However, the disclosures remain largely qualitative—there are no hard numbers or scenario ranges—and the pandemic is frequently bundled with other hazards such as climate events or geopolitical conflict, suggesting a generalized risk posture rather than a focused, quantified exposure.  Because the Form 10-K is dated November 2023—about 3 years and 8 months after the WHO declaration—the Time-Decay Principle pushes individual sentence scores into the upper-mid band (roughly 3-6 points).  Overall, the pandemic is portrayed as a persistent, material but now partially normalized risk that ROK must continue to monitor, especially in supply-chain continuity and segment-level performance (e.g., Sensia).",
+        "evidence_list": [
+            {
+                "snippet": "We face the potential harms of natural disasters, including those as a result of climate change, pandemics, acts of war, terrorism, international conflicts, or other disruptions to our operations, the duration and severity of which are highly uncertain and difficult to predict.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics as a potential harm to operations, acknowledging relevance of event.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights uncertainty about duration and severity, signalling ongoing exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic, catch-all wording alongside multiple unrelated risks dilutes specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly names pandemics and admits uncertain severity, but generic framing tempers the weight, yielding a mid-level score of 4."
+            },
+            {
+                "snippet": "Natural disasters (including but not limited to those as a result of climate change), pandemics, acts or threats of war or terrorism, international conflicts, power outages, fires, explosions, equipment failures, sabotage, political instability, and the actions taken by governments could cause damage to or disrupt our business operations, our suppliers or our customers, and could create economic instability.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemics to potential disruption of operations, suppliers, customers—direct operational and supply-chain risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Adds possible economic instability, signalling macro-financial exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses conditional 'could' and aggregates many hazards, reducing pandemic-specific emphasis.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "States clear operational and economic threats but remains hypothetical and blended with other risks, so the score is a moderate 3."
+            },
+            {
+                "snippet": "The supply chain has been stressed by increased demand, along with pandemic-related and other global events that have put additional pressures on manufacturing output.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges actual, present supply-chain stress tied to pandemic-related events—evidence of realized impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies additional pressures on manufacturing output, indicating operational consequences.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions 'other global events', slightly diffusing attribution.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Describes concrete, ongoing supply-chain strain linked to the pandemic, warranting a higher score of 5 despite some dilution."
+            },
+            {
+                "snippet": "Since formation in October 2019, our Sensia joint venture operations have been challenged by the global pandemic, geopolitical activities, volatility in commodity prices, and supply chain dynamics.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that the global pandemic has directly challenged a specific business unit’s operations—evidence of realized impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Provides segment-level specificity (Sensia), increasing materiality and precision.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Pandemic is listed among multiple factors, diluting exclusivity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct operational challenge to Sensia attributed to the pandemic adds weight, but bundled factors keep the score at 4."
+            }
+        ],
+        "calculated_score": 16,
+        "average_severity": 4.0
+    }
+]

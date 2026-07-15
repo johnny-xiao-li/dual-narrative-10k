@@ -1,0 +1,98 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "LVS’s 2024-02-07 filing shows that the COVID-19 pandemic moved from an acute shock (2020-2021) to a still-material but fading operational and financial risk.  Multiple passages describe direct, realized impacts: multi-year shutdowns of inbound travel that sharply reduced gaming and hospitality activity in Macao and Singapore, and a three-year suspension of the parent-company dividend.  These statements are largely historical, not hypothetical, but they confirm the pandemic materially constrained cash flows through at least early-2023—well within the 4-year window covered by the Time Decay Principle.  Because the company also notes that border restrictions were lifted in late-2022/early-2023 and dividend payments have resumed, some of the severity has already been mitigated.  No sentences provide hard dollar figures, but the narrative links COVID-19 to specific operational metrics (visitation, travel, dividend policy).  Taken together, the evidence supports a medium-level residual risk: the pandemic’s peak impact is past, yet its after-effects on demand recovery and corporate liquidity were still significant during the period under review.  Accordingly, snippet scores cluster in the 4-6 range, reflecting meaningful but moderating risk consistent with the nearly-four-year age of the event.",
+        "evidence_list": [
+            {
+                "snippet": "From 2020 through the beginning of 2023, our operations in Macao were negatively impacted by the reduction in travel and tourism related to the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct causal link between COVID-19 and negative operational impact in a core market.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies a concrete multi-year timeframe (2020-early-2023), showing prolonged effect within 4-year window.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantified financial magnitude is provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Explicitly ties pandemic to prolonged operational harm in Macao; moderately severe but unquantified, so scored at 4."
+            },
+            {
+                "snippet": "From 2020 through early 2022, our operations in Singapore were negatively impacted by the reduction in travel and tourism related to the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States direct adverse impact on Singapore operations caused by COVID-19 travel collapse.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers a recent historical period (2020-2022) within medium-term window.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Lacks numerical detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Mirrors Macao sentence for Singapore; concrete, recent, but unquantified, yielding a mid-range score of 4."
+            },
+            {
+                "snippet": "For example, due to the impact of the COVID-19 pandemic, we suspended our quarterly dividend program between April 2020 and July 2023, resuming dividend payments in August 2023, and SCL suspended its dividend payments beginning in February 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to a multi-year suspension of shareholder dividends, a clear financial consequence.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Specifies exact suspension period, demonstrating duration and materiality.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Partial mitigation noted (dividends resumed).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No dollar amount disclosed.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows a tangible, extended capital-allocation impact from COVID-19; mitigation trims but does not erase severity, netting a 5."
+            },
+            {
+                "snippet": "Changes in discretionary consumer spending or corporate spending on conventions and business travel could be driven by many factors, such as: perceived or actual general economic conditions; fear of exposure to a widespread health epidemic; any weaknesses in the job or housing market; credit market disruptions; high energy, fuel and food costs; the increased cost of travel; the potential for bank failures; perceived or actual disposable consumer income and wealth; fears of recession and changes in consumer confidence in the economy; or fear of war, political instability, civil unrest or future acts of terrorism.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly includes ‘fear of exposure to a widespread health epidemic’ as a driver of reduced demand.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement is generic and bundled with many other factors, diluting specificity to COVID-19.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mentions epidemic fear as a potential demand shock but in a broad, generic list; minimal incremental risk evidence, so scored at 1."
+            }
+        ],
+        "calculated_score": 14,
+        "average_severity": 3.5
+    }
+]

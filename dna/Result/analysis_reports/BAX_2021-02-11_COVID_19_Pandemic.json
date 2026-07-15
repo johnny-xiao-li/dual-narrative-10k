@@ -1,0 +1,564 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Baxter International’s 2021-02-11 10-K provides an extensive, highly specific discussion of COVID-19’s effects across virtually every facet of the enterprise—demand volatility, elective-procedure deferrals, raw-material shortages, supplier shutdowns, workforce availability, remote-work cyber-risk, liquidity pressures and macroeconomic uncertainty.  Many statements are backward-looking, documenting concrete impacts already felt during the second, third and fourth quarters of 2020, while simultaneously projecting continued and potentially worsening disruptions.  Language such as “material adverse effect,” “negatively impacted demand,” and explicit references to increased expenses and supply constraints confirm that the risk is not merely hypothetical; it is active and financially significant.  Because the filing date is less than one year after the WHO declaration (March 2020), the Time Decay Principle allows high severity scores.  The evidence is largely un-mitigated—there are few offsetting statements about successful controls—so most snippets receive high micro-scores (7-9).  More generic or forward-looking uncertainty sentences receive moderate scores (4-6).  Overall, the disclosure depicts a pervasive, ongoing, high-severity risk environment driven by the COVID-19 pandemic.",
+        "evidence_list": [
+            {
+                "snippet": "The effects of the COVID-19 pandemic have had, and we expect will continue to have, a material adverse effect on our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits realized impact ('have had') directly tied to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong, quantified language ('material adverse effect').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Projects continuation of harm ('will continue').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Direct, already-realized and ongoing ‘material adverse’ wording warrants near-maximum severity."
+            },
+            {
+                "snippet": "The nature and extent of future impacts are uncertain and unpredictable.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights inability to forecast, increasing risk uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking but non-specific; generic phrasing.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Sentence stresses unpredictability but offers no specifics; moderate risk signal."
+            },
+            {
+                "snippet": "Our global operations expose us to risks associated with public health crises, including epidemics and pandemics, such as the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects company’s worldwide footprint to pandemic exposure.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Statement is broad and generic.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Generic linkage of global operations to pandemic risk merits modest score."
+            },
+            {
+                "snippet": "COVID-19 has had, and we expect will continue to have, an adverse impact on our operations, supply chains and distribution systems and has increased and will continue to increase our expenses, including the impact associated with preventive and precautionary measures that we, other businesses and governments are taking.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies multiple operational areas already hit (operations, supply chain, expenses).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Projects ongoing adverse effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions cost increases tied to preventive measures.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Multi-dimensional, realized and future impacts across core functions produce high severity."
+            },
+            {
+                "snippet": "These measures have led to unprecedented restrictions on, disruptions in, and other related impacts on businesses and personal activities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Recognises widespread disruptions tied to COVID-19 measures.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong adjective 'unprecedented'.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights scale of disruption but lacks company-specific data; moderate score."
+            },
+            {
+                "snippet": "In addition to travel restrictions put in place in early 2020, governments have closed borders, imposed prolonged quarantines and may continue those measures or implement other restrictions and requirements in light of the continuing spread of the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific governmental actions impacting operations (border closures, quarantines).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges potential for continuation/aggravation.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Concrete external constraints with forward-looking dimension yield solid risk score."
+            },
+            {
+                "snippet": "We expect that these evolving restrictions and requirements, as well as the corresponding need to adapt to new methods of conducting business remotely, will continue to have an adverse effect on our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects remote-work adaptation to adverse business effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Projects continuing impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights evolving nature of restrictions.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Forward-looking, specific operational disruption (remote work) raises severity."
+            },
+            {
+                "snippet": "We have experienced, and expect to continue to experience, significant and unpredictable reductions or increases in demand for certain of our products as healthcare customers re-prioritize the treatment of patients.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Records actual volatile demand swings.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Labels changes 'significant and unpredictable'.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Ties cause to COVID-19 healthcare reprioritization.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Demonstrated demand volatility directly tied to pandemic drives high risk score."
+            },
+            {
+                "snippet": "Some of our products are particularly sensitive to reductions in elective medical procedures, and, as hospital systems prioritize treatment of COVID-19 patients and otherwise comply with government guidelines, many of those procedures have been suspended or postponed in our principal markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies dependency on elective procedures and widespread suspension.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Directly links to COVID-19 prioritization.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Impacts principal markets.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Sentence pinpoints product-specific vulnerability and broad market effect—high severity."
+            },
+            {
+                "snippet": "In the second, third and fourth quarters of 2020, this resulted in lower levels of general hospital admissions and elective surgery volumes in those markets, which negatively impacted the demand for certain of our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Gives concrete historical timeframe and outcome (Q2-Q4 2020).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links lower admissions directly to reduced product demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Shows measurable negative impact already realised.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Dated, realized impact with operational metrics earns very high score."
+            },
+            {
+                "snippet": "It is not possible to predict the timing of a broad resumption of elective medical procedures.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights uncertainty of recovery timeline.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Implication of prolonged revenue risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Adds uncertainty but lacks quantified impact; moderate severity."
+            },
+            {
+                "snippet": "If patients and hospital systems continue to de-prioritize, delay or cancel these procedures, our business, financial condition and results of operations would continue to be negatively affected.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies direct financial statement impact if trend persists.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Conditional but plausible continuation.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Strong linkage to financial outcomes produces high but not maximum score."
+            },
+            {
+                "snippet": "A significant number of our suppliers, manufacturers, distributors and vendors have been adversely affected by the COVID-19 pandemic, including with respect to the ability of their employees to get to their places of work and maintain the continuity of their on-site operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details supply-side labor disruptions already occurring.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers broad supplier ecosystem.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Past and ongoing impact ('have been adversely affected').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Comprehensive supplier disruption evidence warrants high severity."
+            },
+            {
+                "snippet": "These impacts could impair our ability to move our products through distribution channels to end customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links supplier disruption to distribution bottlenecks.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses conditional language ('could'), reducing certainty.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specifies potential distribution impairment; conditional wording keeps score moderate-high."
+            },
+            {
+                "snippet": "Any delay or shortage in the supply of components or materials or other operational or logistical challenges may result in our inability to satisfy consumer demand for our products in a timely manner or at all, which could harm our reputation, future sales and profitability.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes supply shortages leading to unmet demand and financial harm.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights reputational damage.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional language ('may result'),",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear supply-chain threat with financial implications justifies solid score."
+            },
+            {
+                "snippet": "For example, we have experienced and expect to continue to experience supply constraints for amino acid raw materials used in our parenteral nutrition products, as such materials are also being used to produce COVID-19 vaccines.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Concrete example of actual constraint.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects shortage to vaccine manufacturing competition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Projects ongoing issue.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Specific, realized shortage tied to global vaccine race yields high severity."
+            },
+            {
+                "snippet": "We could experience a loss of sales and profitability due to delayed payments, reduced demand or insolvency of healthcare professionals, hospitals and other customers, and suppliers and vendors facing liquidity or other financial issues.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple financial stress channels (payments, insolvency).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights impact on revenues and profit.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Financial-stress channel risks produce moderate-high score."
+            },
+            {
+                "snippet": "These liquidity or other financial issues could be exacerbated if prolonged high levels of unemployment or loss of insurance coverage impact patients’ ability to access treatments that use our products and services.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects macroeconomic unemployment to product access.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Suggests amplification of financial risks.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Macro-link adds risk but still speculative; mid-range score."
+            },
+            {
+                "snippet": "COVID-19 could adversely impact our ability to retain key employees and the continued service and availability of skilled personnel necessary to run our operations, including members of our management, as well as the ability of our suppliers, manufacturers, distributors and vendors to retain their key employees.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Addresses talent retention across own and supplier workforce.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Direct adverse operational impact potential.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Talent risk across value chain gives moderate-high severity."
+            },
+            {
+                "snippet": "To the extent our management or other personnel are impacted in significant numbers by COVID-19 and are not available to perform their professional duties, we could experience delays in, or the suspension of, our manufacturing operations, research and development activities and other functions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Outlines direct operational shutdown scenario.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links to critical functions like manufacturing and R&D.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Potential for suspended core functions drives high score despite conditionality."
+            },
+            {
+                "snippet": "We face increased operational challenges as we continue to take measures to support and protect employee health and safety, including through office closures and work from home policies.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights operational challenges from health/safety measures.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions specific responses (office closures, WFH).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Operational hurdles acknowledged but not quantified; mid-level risk."
+            },
+            {
+                "snippet": "For example, remote working arrangements heighten our risks associated with information technology systems and networks, including cyber-attacks, computer viruses, malicious software, security breaches, and telecommunication failures, both for systems and networks we control directly and for those that employees and third-party developers rely on to work remotely.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details cyber-risk escalation due to remote work.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists multiple specific IT threats.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specific cyber vulnerabilities linked to pandemic-driven WFH justify solid score."
+            },
+            {
+                "snippet": "Any failure to prevent or mitigate security breaches or cyber risks or detect, or respond adequately to, a security breach or cyber risk, or any other disruptions to our information technology systems and networks (as a result of remote working arrangements or otherwise), can have adverse effects on our business and cause reputational and financial harm.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects IT failures to reputational and financial harm.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Ties disruption possibility to remote work.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear downside consequences tied to pandemic-related IT changes score moderately high."
+            },
+            {
+                "snippet": "These risks are particularly heightened due to COVID-19 as cybercriminals attempt to profit from the disruptions caused by the uncertain environment.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States risk intensity has increased because of COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights active threat actor behaviour.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Explicitly elevated cyber threat levels during pandemic yield high score."
+            },
+            {
+                "snippet": "COVID-19 and related impacts have affected and may further affect the global economy and capital markets worldwide, which, among other consequences, may restrict our access to capital, increase financing costs, adversely affect our liquidity, the perceptions of our creditworthiness, and our ability to complete acquisitions, and increase volatility in foreign currency exchange rates.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to multiple financing and liquidity risks.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers broad macroeconomic impact (capital markets, FX).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States both realised and potential future effects.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Comprehensive financial-market exposure due to COVID-19 merits high severity."
+            },
+            {
+                "snippet": "The extent of the impact from the pandemic depends on future developments that cannot be predicted at this time, such as the severity and duration of the pandemic (including of related resurgences and future mutations or outbreaks of related strains of the virus); the extent and effectiveness of containment efforts, including the effectiveness and acceptance of any vaccines for COVID-19; and the direct and indirect impact of the pandemic on our employees, customers, counterparties, service providers and regulators, as well as other market participants.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges multiple unpredictable variables (variants, vaccines).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasises uncertainty, amplifying risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Multi-factor uncertainty yields mid-level score."
+            },
+            {
+                "snippet": "Any of these and other impacts of the pandemic could have a material adverse effect on our business, financial condition and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Summarises potential for 'material adverse effect'.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers full financial statement impact.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Material adverse language across business and financials drives high score."
+            },
+            {
+                "snippet": "Finally, to the extent COVID-19 adversely affects our operations and global economic conditions more generally, many of the other risks described in this “Risk Factors” section may be heightened.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes pandemic as risk multiplier for other factors.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights broader systemic amplification.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Risk amplification concept provides solid but not top severity."
+            },
+            {
+                "snippet": "Loss or damage to, or closure of, a manufacturing facility or storage site due to a natural disaster, such as we experienced as a result of Hurricane Maria, a pandemic, such as COVID-19, or otherwise could adversely affect our ability to manufacture sufficient quantities of key products or deliver products to meet customer demand or contractual requirements, which may result in a loss of revenue and other adverse business consequences (including those identified in the paragraphs above).",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Ties pandemic to potential facility closures and revenue loss.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Provides historical analogue (Hurricane Maria) indicating seriousness.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Facility-closure scenario linked to pandemic earns moderate-high score."
+            },
+            {
+                "snippet": "Further, a greater number of our employees are working remotely in response to the COVID-19 pandemic and related government actions, which (among other things) could expose us to greater risks related to cybersecurity and our information technology systems.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows operational shift (remote work) already in place.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies elevated cyber/IT risks.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Ongoing remote-work exposure with specific risk area yields solid score."
+            }
+        ],
+        "calculated_score": 100,
+        "average_severity": 6.433333333333334
+    }
+]

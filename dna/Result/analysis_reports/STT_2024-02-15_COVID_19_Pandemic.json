@@ -1,0 +1,65 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing contains only high-level, precautionary language regarding the COVID-19 pandemic.  References to a \"pandemic\" are bundled with other extreme but unspecified events, signalling that management now views COVID-19 primarily as a generic, forward-looking threat rather than a currently-material issue.  No sentence discloses dollar impacts, supply-chain problems, or explicit operational disruptions; instead, the company warns that a pandemic could create losses or heighten operational risk.  One workforce-related sentence hints at lasting changes in employee expectations for hybrid work—an indirect legacy of the pandemic—but still lacks specificity.  Because the disclosure is generic, unquantified and occurs nearly four years after the World Health Organization declared COVID-19 a pandemic, the overall severity is assessed as moderate under the Time Decay Principle, warranting mid-range micro-scores (≈3-4) rather than the high scores (7-10) typical of acute, quantified impacts.",
+        "evidence_list": [
+            {
+                "snippet": "We may incur losses or face negative impacts on our business and operations as a result of unforeseen events including terrorist attacks, natural disasters, climate change, pandemics, global conflicts, an abrupt banking crisis and other geopolitical events which may have a negative impact on our business and operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names \"pandemics\" as a source of potential losses/negative impacts.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Risk framed generically alongside many other events, diluting pandemic-specific focus.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly flags pandemics as a risk to business operations but does so only in a broad, boiler-plate list, yielding a moderate severity score of 4."
+            },
+            {
+                "snippet": "Unforeseen external events, including natural disasters, terrorist attacks, pandemics, global conflicts, or other geopolitical events (including the ongoing war in Ukraine and the Israel-Hamas war) may result in stress on the operating environment and increase operational risk.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemics to increased operational risk and environmental stress.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Presented as one item in an omnibus list with no detail or quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows a causal connection between a pandemic and operational risk but remains high-level and unquantified, so the severity is scored at 3."
+            },
+            {
+                "snippet": "These adverse impacts may be exacerbated by increased costs and expenses driven by the competitive labor market in several jurisdictions in which we operate, particularly with regard to the ability to meet compensation and hybrid working expectations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights enduring labor-market pressures and hybrid work expectations—key pandemic after-effects.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Does not explicitly mention COVID-19 or pandemics, making the link indirect.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Captures a pandemic-driven shift (hybrid work) but without naming COVID-19, so it receives a modest score of 3."
+            }
+        ],
+        "calculated_score": 10,
+        "average_severity": 3.3333333333333335
+    }
+]

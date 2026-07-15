@@ -1,0 +1,149 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Amazon’s 2022 Form 10-K squarely acknowledges COVID-19 as a still-unfolding, multi-dimensional threat.  Two years after the WHO declaration, management cites both realised 2021 impacts and an inability to forecast the pandemic’s ultimate duration or economic recovery trajectory.  The filing moves beyond boiler-plate: it links the pandemic to concrete operational pain-points—global supply-chain bottlenecks, labour shortages, rising payroll and carrier costs, and volatile consumer demand—and concedes these pressures will persist into at least Q1 2022.  No quantified dollar amounts are supplied, nor are robust mitigating actions described, so the language remains qualitative; nevertheless, it clearly frames COVID-19 as a present and material head-wind rather than a theoretical future risk.  Under the Time-Decay Principle the event is recent (≤ 3 years) so high-severity scores are warranted where Amazon describes direct, ongoing or future effects; more generic “public-health-crisis” references receive lower scores.  This rationale underpins the micro-scores below.",
+        "evidence_list": [
+            {
+                "snippet": "In addition to the effects of the COVID-19 pandemic and resulting global disruptions on our business and operations discussed in Item 7 of Part II, “Management’s Discussion and Analysis of Financial Condition and Results of Operations,” and in the risk factors below, the global economic climate and additional or unforeseen circumstances, developments, or events may give rise to or amplify many of the risks discussed below.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references 'effects of the COVID-19 pandemic' on business and operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges resulting global disruptions and potential to amplify other risks.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Statement is qualitative and generic with no detail or quantification.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly names COVID-19 as a disruptive factor that could magnify existing risks but provides no specifics; recent event status yields a moderate score of 4."
+            },
+            {
+                "snippet": "As reflected in the discussion below, ongoing direct and indirect impacts of the COVID-19 pandemic and actions taken in response to them had varying effects on our 2021 results of operations, although some effects, including customer demand, are mitigating or becoming more difficult to isolate or quantify.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States 'ongoing direct and indirect impacts of the COVID-19 pandemic'.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Confirms those impacts already affected 2021 operating results (realised impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes some mitigation/attenuation of effects.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Evidence of actual, recent financial impact drives a high score; partial mitigation acknowledgement tempers it to 6."
+            },
+            {
+                "snippet": "Moreover, it is not possible to determine the duration and scope of the pandemic, the scale and rate of economic recovery from the pandemic, any ongoing effects on consumer demand and spending patterns, supply chain disruptions, and labor availability and costs, or the impact of other indirect factors that may be attributable to the pandemic, and the extent to which these or other currently unanticipated consequences of the pandemic are reasonably likely to materially affect our results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights uncertainty around pandemic duration and scope.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Enumerates multiple operational risk channels: demand, supply chain, labour costs.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong materiality language ('materially affect our results').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Comprehensive list of potentially material unknowns tied directly to the pandemic yields a high severity score of 7."
+            },
+            {
+                "snippet": "We expect these factors and their effects on our operations to continue into Q1 2022.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forward-looking statement that pandemic-related factors will persist.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies near-term continuation, signalling ongoing exposure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Confirms continued near-term impact but without detail; earns a modest score of 3."
+            },
+            {
+                "snippet": "For example, productivity across our fulfillment network currently is being affected by global supply chain constraints and constrained labor markets, which increase payroll costs and make it difficult to hire, train, and deploy a sufficient number of people to operate our fulfillment network as efficiently as we would like.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits current operational impact (productivity hit).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies global supply-chain constraints and labour shortages—well-known COVID-19 effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links to increased payroll costs and efficiency losses (financial/operational aggravation).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows tangible ongoing operational strain consistent with pandemic fallout; no mitigation offered, resulting in a score of 5."
+            },
+            {
+                "snippet": "Demand for our products and services can fluctuate significantly for many reasons, including as a result of seasonality, promotions, product launches, or unforeseeable events, such as in response to natural or human-caused disasters (including public health crises) or extreme weather (including as a result of climate change), or geopolitical events.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists 'public health crises' as a potential driver of volatile demand.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic enumeration among several other factors dilutes specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic, non-COVID-specific reference to public-health crises gives minimal incremental insight; scored at 1."
+            },
+            {
+                "snippet": "In addition, our ability to receive inbound inventory efficiently and ship completed orders to customers also may be negatively affected by natural or human-caused disasters (including public health crises) or extreme weather (including as a result of climate change), geopolitical events and security issues, labor or trade disputes, and similar events.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes potential negative impact on logistics from 'public health crises'.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Phrase is conditional and bundled with many unrelated hazards.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Possible pandemic-related logistics risk is acknowledged but only in a broad hypothetical list, so severity is low at 1."
+            }
+        ],
+        "calculated_score": 27,
+        "average_severity": 3.857142857142857
+    }
+]

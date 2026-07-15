@@ -1,0 +1,56 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Palantir’s 2024 Form 10-K only references COVID-19 in a limited, forward-looking way.  The company no longer describes direct, quantified financial damage; instead it frames the pandemic as (i) one of many possible disruptions that could interrupt operations and (ii) the catalyst for a lasting shift to hybrid work for which Palantir has little operating history.  Both disclosures are generic and precautionary, indicating that COVID-19 is now treated as a residual, medium-term risk rather than an acute threat.  In line with the Time Decay Principle (event ≈ 4 years old), the statements warrant moderate scores: they acknowledge potential exposure—operational interruptions and workforce challenges—but provide no fresh, specific impact data or new mitigation detail.  Overall pandemic risk for Palantir appears manageable and diminishing, but still material enough to merit mention.",
+        "evidence_list": [
+            {
+                "snippet": "Though some of our current employees have continued to work remotely following the COVID-19 pandemic, we have a limited history of operating with a hybrid workforce.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links an enduring operational change (remote/hybrid work) directly to the COVID-19 pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Admits limited experience with the new model, signalling vulnerability.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Time Decay – pandemic is now ~4 years old, so risk currency is moderate.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Sentence ties pandemic to ongoing workforce-management risk but is qualitative and medium-aged, yielding a moderate score of 4."
+            },
+            {
+                "snippet": "Our business operations are subject to interruption by natural disasters, earthquakes, flooding, fire, power shortages, pandemics (such as the COVID-19 pandemic), terrorism, such as Hamas’ attack against Israel, political unrest, cyberattacks including as may be exacerbated by the ongoing Russia-Ukraine conflict, geopolitical tensions including those related to the invasion of Ukraine, the effects of climate change such as drought, wildfires, increased storm severity, and sea level rise, telecommunications failure, vandalism, and other events beyond our control.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics, including COVID-19, as a source of operational interruption.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "COVID-19 is bundled with many other generic risks, diluting specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Time Decay – pandemic event is in medium-term window (4-10 years).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides a direct but generic statement that COVID-19 could disrupt operations; generic context and time decay temper the score to 4."
+            }
+        ],
+        "calculated_score": 8,
+        "average_severity": 4.0
+    }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is no longer a brand-new shock for STX, yet the filing still links the pandemic to both realized and prospective operational threats.  The text contains (i) a backward-looking quantified cost ($7 million lockdown charge in FY-23) showing that COVID-related factory stoppages have already hit gross margin, and (ii) several forward-looking statements that pandemics can disrupt supply chains, logistics, labour mobility and demand.  These disclosures are generally qualitative and embedded in broader ‘public-health-issues’ risk language, but they nevertheless acknowledge that pandemics have ‘materially impacted’ component availability and could do so again.  Because the WHO declared COVID-19 a pandemic in March 2020—roughly 4-½ years before the 2 Aug 2024 filing date—the Time Decay Principle places the event in the medium-term window (4-10 years), capping reasonably supportable snippet scores in the mid-range.  The company’s language is moderately specific (naming supply chain delays, freight costs, travel restrictions and factory lockdowns) without offering large, quantified, ongoing financial impacts.  Overall, the risk evidence is assessed as material but managed, warranting mid-level severity scores (4-6) for the extracted sentences.",
+        "evidence_list": [
+            {
+                "snippet": "The effect of geopolitical uncertainties, war, terrorism, natural disasters, public health issues and other circumstances, on national and/or international commerce and on the global economy, could materially and adversely affect our results of operations and financial condition.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly includes 'public health issues' as a category that could materially and adversely affect results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong impact language ('materially and adversely affect').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Very generic; does not single out COVID-19 or provide specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Generic but still acknowledges pandemic-type events as potentially material; medium-term timing keeps score at 4."
+            },
+            {
+                "snippet": "Many of these direct and indirect component suppliers are geographically concentrated, making our supply chain more vulnerable to regional disruptions such as severe weather, local or global health issues or pandemics, acts of terrorism, war and an unpredictable geopolitical climate, which have materially impacted, and may in the future impact the production, availability and transportation of many components.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly cites 'pandemics' as a risk driver for supply-chain vulnerability.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States that such events 'have materially impacted' production and logistics—evidence of historical impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking language ('may in the future impact') extends the risk horizon.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantitative impact or COVID-specific detail provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows both historical materiality and future exposure of supply chains to pandemics; moderate specificity merits a 5."
+            },
+            {
+                "snippet": "Should major public health issues, including pandemics, arise, we could be negatively affected by stringent employee travel restrictions, additional limitations or cost increases in freight and other logistical services, governmental actions limiting the movement of products or employees between regions, increases in or changes to data collection and reporting obligations, delays in production ramps of new products, and disruptions in our operations and those of some of our key direct and indirect suppliers and customers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemics explicitly and links them to multiple concrete operational disruptions (travel, freight, production delays).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates specific channels of impact across labour, logistics and suppliers, increasing clarity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Purely conditional wording ('should ... arise') and no quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides detailed pathways of impact but remains hypothetical; balanced to a score of 4."
+            },
+            {
+                "snippet": "For fiscal year 2024, gross margin increased compared to the prior fiscal year primarily driven by favorable pricing actions undertaken by the Company and product mix, a $90 million reduction in factory underutilization charges which included the decrease in depreciation expense due to the extension of useful lives of certain manufacturing equipment, a decrease of $47 million in accelerated depreciation expense for certain capital equipment, a decrease of $21 million in order cancellation fees and $7 million pandemic-related lockdown charges in one of our factories in fiscal year 2023 that did not recur in fiscal year 2024, partially offset by lower exabytes shipped.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions a specific, quantified COVID-related cost ($7 million lockdown charges).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Demonstrates actual historical financial impact from the pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes that the charges did not recur, implying mitigation and declining relevance.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct, quantified past impact but small in size and already lapsed; net medium severity of 4."
+            }
+        ],
+        "calculated_score": 17,
+        "average_severity": 4.25
+    }
+]

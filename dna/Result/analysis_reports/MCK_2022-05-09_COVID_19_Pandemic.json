@@ -1,0 +1,120 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "MCK’s 2022 filing describes COVID-19 as an ongoing, material enterprise-wide risk that is still within the recent-event window (<3 years).  The company links the pandemic to direct disruptions in product availability, manufacturing, transportation, and forecasting precision, and even notes already-observed shortages of COVID-19 tests.  Several disclosures acknowledge concrete operational consequences such as inventory allocation, delivery delays, and volatility in future economic trends.  Although some statements are couched in broader multi-factor lists, the overall narrative is specific, forward-looking, and identifies real impacts that have already manifested.  No quantification is provided, and only limited mitigating actions (e.g., monitoring supply chains) are mentioned, so the risk evidence remains significant but not maximal.  Applying the Time Decay Principle, individual snippet scores can reach high single digits because the pandemic is current; however, scores are tempered when language is generic or bundled with other risks, or when partial mitigation is evident.  The final micro-scores therefore range from 4 to 7, reflecting varying degrees of severity and specificity across the extracted sentences.",
+        "evidence_list": [
+            {
+                "snippet": "For example, the COVID-19 pandemic has disrupted the global economy and exacerbated uncertainties inherent in estimates, judgments and assumptions used in our forecasts and impairment assessments.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly attributes global economic disruption to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights heightened uncertainty in critical financial forecasts and impairment testing.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Directly links the pandemic to broad economic disruption and forecasting uncertainty; no mitigation cited, yielding a high (but not maximum) risk score of 6."
+            },
+            {
+                "snippet": "Our supply arrangements might be interrupted or adversely affected by a variety of causes over which we have no control, such as export controls or trade sanctions, labor disputes, unavailability of key manufacturing sites, inability to procure raw materials, quality control concerns, ethical sourcing issues, supplier’s financial distress, natural disasters, civil unrest or acts of war, the impact of epidemics or pandemics, such as COVID-19, and other general supply constraints.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies possible supply-chain interruptions caused by pandemics including COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "COVID-19 is embedded in a long generic list, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Mentions pandemic-driven supply risk but as one item among many generic factors, so severity is moderated to 3."
+            },
+            {
+                "snippet": "The COVID-19 pandemic adversely affects the availability of some products, resulting in product allocation and delivery delays.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States an existing adverse impact ('adversely affects the availability').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies concrete consequences: allocation measures and delivery delays.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Clear, current operational harm with specific outcomes earns a high severity score of 7."
+            },
+            {
+                "snippet": "As another example, the COVID-19 pandemic affects product manufacturing, supply, and transport availability and cost in unpredictable ways that depend on highly uncertain future developments.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to multiple supply-chain dimensions (manufacturing, supply, transport).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasizes unpredictability and uncertainty, aggravating future risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions cost impact in addition to availability.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Multifaceted, forward-looking supply-chain and cost risks tied to COVID-19 justify a strong score of 6."
+            },
+            {
+                "snippet": "In our Medical-Surgical Solutions segment, we have observed certain supply chain disruptions for COVID-19 tests, which poses a potential risk for supply availability to meet the future demand.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports already 'observed' disruptions—a concrete current impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Flags ongoing risk of not meeting future demand.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Segment-level evidence of observed disruptions and future risk yields a mid-high score of 5."
+            },
+            {
+                "snippet": "Due to several rapidly changing variables related to the COVID-19 pandemic, estimations of future economic trends and the timing of when COVID-19 may no longer significantly impact our ability to forecast future financial performance remain challenging.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights difficulty in forecasting because of pandemic variability—strategic planning risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Focus is on uncertainty rather than quantified loss, limiting severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Emphasizes forecasting challenges without quantification; uncertainty risk scores a moderate 4."
+            }
+        ],
+        "calculated_score": 31,
+        "average_severity": 5.166666666666667
+    }
+]

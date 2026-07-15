@@ -1,0 +1,208 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CI’s 2022-02-24 Form 10-K frames COVID-19 as a present, multi-dimensional and potentially material threat that has already disrupted its operations and could continue to erode earnings, cash-flows and liquidity.  The disclosures are largely contemporaneous (within two years of the WHO declaration) and describe both realised impacts (higher testing and treatment costs, deferral-of-care distortions, labour and supply-chain friction, remote-work cyber-risk) and forward-looking uncertainties (variant emergence, regulatory mandates, vaccination efficacy).  Language is concrete—using terms such as “material adverse effect,” “has adversely affected,” and enumerating specific operational pinch-points—yet generally un-quantified.  The company also acknowledges limits to its forecasting ability (“cannot estimate the full impact”) and highlights that many drivers are outside management’s control, reinforcing residual risk.  Mitigating references (e.g., vaccine promotion, supply-chain optimisation) temper but do not eliminate exposure.  Given the recency (0-3 yrs), breadth, and demonstrated financial effects, the individual snippet severities cluster in the upper-mid range (6–9), consistent with the Time-Decay Principle.",
+        "evidence_list": [
+            {
+                "snippet": "The scale, scope and duration of the ongoing COVID-19 pandemic continues to be unknown and the overall impact on our business, operating results, cash flows or financial condition has been and may continue to be material.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States impact is already material (‘has been’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights ongoing uncertainty about scale, scope and duration.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers multiple financial dimensions (business, results, cash-flows, condition).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Directly acknowledges material past and future impact across financial metrics; strong recent-event wording warrants high score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has adversely affected, and is continuing to affect, global economies, financial markets and the overall environment for our business, and the extent to which it may impact our future results of operations and overall financial performance remains uncertain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms realised and ongoing adverse effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links macroeconomic stress to company’s performance outlook.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Expresses uncertainty about magnitude.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Identifies current harm and uncertainty but lacks specific financial magnitude; moderate-high severity."
+            },
+            {
+                "snippet": "While vaccination rates continue to rise, the COVID-19 pandemic, including vaccination efficacy, the implementation of and reaction to vaccination and testing mandates and the occurrence of new variants (including the delta and omicron variants), could continue to effect such economies and financial markets as well as the health and availability of our workforce.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags emerging variant and mandate risks extending impact horizon.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects to workforce health/availability (operational risk).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes ongoing macroeconomic pressure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Mentions rising vaccination rates (mitigant).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking risk across labour and markets with minor mitigation; yields mid-level score."
+            },
+            {
+                "snippet": "As a result, we may experience new disruptions to our business operations and our business could be adversely affected further, directly or indirectly, by the ongoing pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly anticipates future operational disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses ‘adversely affected further’ indicating compounding risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specifies operational disruption without quantification; moderate severity."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has in some instances, and may continue to, heighten the potential adverse effects on our business, operating results, cash flows or financial condition as described below or in other risk factors within this section of the Form 10-K including, but not limited to, the likelihood of and impact from: ",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to heightened adverse effects across core financial areas.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Introduces extensive specific risk list (detailed granularity).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Sets stage for detailed sub-risks, demonstrating breadth; medium score."
+            },
+            {
+                "snippet": "• significant disruptions in service within our operations or among our key suppliers or other third parties, including delivery delays and other supply chain impacts and decreased worker productivity, increased worker attrition and operational and sales disruptions, including as a result of remote working arrangements, increased medical, emergency or other leave, quarantines, government actions or restrictions, including as it relates to vaccination mandates;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates concrete operational and supply-chain disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Touches on labour shortages/productivity loss due to remote work and mandates.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details third-party/vendor risk amplification.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Highly specific operational, labour and supply-chain impacts drive elevated score."
+            },
+            {
+                "snippet": "Additionally, if we do not respond appropriately to the pandemic, or if our clients or customers do not perceive our response to be adequate, we could suffer damage to our reputation, which could adversely affect our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces reputational risk tied to pandemic response.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links reputation damage to adverse business effects.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Reputational angle is notable but less direct financially; lower score."
+            },
+            {
+                "snippet": "Given these uncertainties, we cannot estimate the full impact COVID-19 will have on our business, operating results, cash flows or financial condition, but the adverse impact could be material.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits inability to quantify impact, signalling forecasting risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasises potential material adverse impact.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highlights measurement uncertainty plus potential materiality; mid-level severity."
+            },
+            {
+                "snippet": "For the year ended December 31, 2021 compared to 2020, the net unfavorable impacts reflect increased direct costs of COVID-19 testing, treatment and vaccines as well as the significant deferral of care by our customers in 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Discloses realised year-over-year financial impacts (cost increases, utilisation shifts).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies cost categories (testing, treatment, vaccines).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Quantifies nature (though not dollars) of actual negative cost impacts; significant evidence."
+            },
+            {
+                "snippet": "We believe that such financial results may continue to be impacted by, among other things, higher medical costs to treat those affected by the virus, vaccine-related costs, test reimbursement costs, lower risk adjustment revenue due to disrupted care impeding appropriate documentation of customer risk profiles in our Medicare Advantage plans, the pace at which costs return as well as the severity of costs for those who had previously deferred care, the potential for future deferral of care, lower customer volumes due to a disrupted employment market, or volatility in the economic markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple forward-looking financial pressure points (cost and revenue).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects pandemic effects to specific product lines (Medicare Advantage).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights continuing uncertainty (‘may continue’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Comprehensive outline of future cost and revenue pressures yields strong score."
+            }
+        ],
+        "calculated_score": 55,
+        "average_severity": 5.5
+    }
+]

@@ -1,0 +1,252 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "EG’s 2022-02-28 filing links the COVID-19 pandemic to a broad spectrum of risks that are both already impacting the company and expected to remain material over the next several years.  The disclosure is dominated by direct, contemporaneous effects (e.g., adverse operating results, claim reserves, premium reductions) and forward-looking uncertainties around legislative actions, capital markets volatility, credit stress and operational continuity.  The language goes well beyond generic boiler-plate: it cites concrete mechanisms—loss-reserve volatility, premium give-backs, remote-work cyber-exposures—and repeatedly labels the potential impact as “material.”  Because the pandemic began in March 2020, less than three years before the filing date, Time Decay is minimal and high severity scores are permissible.  However, most statements remain qualitative and some include mitigating elements (existing reserves, remote-work implementation).  Accordingly, individual snippet scores cluster in the 4-8 range rather than the absolute maximum of 10.  Overall, the pandemic constitutes an elevated, multi-dimensional, continuing risk for EG with limited decay and high strategic relevance.",
+        "evidence_list": [
+            {
+                "snippet": "Prolonged and severe disruptions in the overall public and private debt and equity markets, such as occurred during 2008, or temporary disruption as occurred in early 2020 related to the COVID-19 pandemic, could result in significant realized and unrealized losses in our investment portfolio.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly connects COVID-19 market disruption to potential investment losses.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses the term 'significant' to denote materiality.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking conditional wording ('could result') makes impact less certain.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event is recent (≤3 yrs), so limited time decay.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct linkage to pandemic-driven market stress and material portfolio losses, but unquantified and conditional, yields a mid-high risk score of 5."
+            },
+            {
+                "snippet": "The continuing COVID-19 pandemic has adversely affected, and may materially and adversely affect, our results of operations, financial position and liquidity in the future.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges realized adverse impacts to date.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Projects further 'material' adverse effects across multiple financial dimensions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No numerical quantification provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Sentence combines current harm with a material forward-looking warning, but lacks figures, producing a strong score of 6."
+            },
+            {
+                "snippet": "The ongoing COVID-19 pandemic, including the related impact on the U.S. and global economies, has adversely affected our results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States a concrete, already-experienced negative impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links impact to both U.S. and global macroeconomic conditions, broadening scope.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No detail on magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct admission of operational harm, but qualitative only, yields a moderate score of 4."
+            },
+            {
+                "snippet": "We expect the pandemic and its impact on our business to continue and potentially even worsen, but we cannot predict the magnitude or duration of its continued impact, particularly given the great uncertainties associated with COVID-19, including regarding the reopening of the U.S. and global economies and the recovery from its economic and other effects.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit expectation of continuing or worsening impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights high uncertainty around duration and magnitude.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Lacks any quantitative sizing.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Statement stresses persistence and uncertainty but stays qualitative; risk score set at 3."
+            },
+            {
+                "snippet": "Given the great uncertainties associated with COVID-19 and its impact and the limited information upon which our current assumptions and assessments have been made, our preliminary reserves and the underlying estimated level of claim losses and costs arising from COVID-19 may materially change.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns reserves may be insufficient due to pandemic uncertainties.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses 'materially change' to flag high financial sensitivity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasizes data limitations, increasing volatility.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Highlights potential reserve volatility with material downside; earns a strong score of 6."
+            },
+            {
+                "snippet": "Legislative and regulatory initiatives taken or which may be taken in response to COVID-19 may adversely affect us.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces regulatory and legislative risk tied to the pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty ('may adversely affect').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Identifies a real but less defined regulatory threat; moderate score of 3."
+            },
+            {
+                "snippet": "Reduced economic activity relating to the COVID-19 pandemic is likely to decrease demand for our insurance products and services and negatively impact our premium volumes (and, in certain cases, may result in return of premiums due to a decrease in exposures).",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forecasts direct revenue impact through lower premiums and possible refunds.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses 'likely' indicating high probability.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Predicts tangible top-line pressure linked to pandemic slowdown; strong score of 6."
+            },
+            {
+                "snippet": "Further disruptions in global financial markets due to the continuing impact of COVID-19 could cause us to incur additional unrealized and/or realized investment losses, including credit impairments in our fixed maturity portfolio.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to specific financial-market losses and credit impairments.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions both realized and unrealized effects, widening exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional language ('could cause') reduces certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific but still conditional investment-loss scenario earns a score of 4."
+            },
+            {
+                "snippet": "As credit risk is generally a function of the economy, we face greater credit risk from our policyholders, independent agents and brokers in connection with the payment and remittance of premiums as a result of the economic conditions caused by COVID-19.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details heightened counterparty credit risk tied to pandemic conditions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies multiple affected counterparties, broadening scope.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantitative sizing of exposure.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights increased default risk without numbers; moderate severity of 3."
+            },
+            {
+                "snippet": "Our operations could be disrupted if key members of our senior management or a significant percentage of our workforce or the workforce of our agents, brokers, suppliers or other third party service providers are unable to continue to work because of illness, government directives or otherwise.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies operational continuity risk from workforce illness/directives.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers extended ecosystem (agents, suppliers), increasing reach.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Hypothetical ('could be disrupted'), not yet realized.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Potential but not yet realized operational disruption leads to a score of 3."
+            },
+            {
+                "snippet": "In response to the COVID-19 pandemic, we have implemented remote working policies which have resulted in disruptions to our business routines, heightened risk to cybersecurity attacks and data security incidents and a greater dependency on internet and telecommunication access and capabilities.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports actual business routine disruptions already experienced.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Adds new cybersecurity and infrastructure vulnerabilities.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Remote-work action partially mitigates health risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Sentence describes realized operational & cyber impacts, offset slightly by mitigation; results in score 5."
+            }
+        ],
+        "calculated_score": 48,
+        "average_severity": 4.363636363636363
+    }
+]

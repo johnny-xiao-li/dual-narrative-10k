@@ -1,0 +1,120 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "HPE’s 2023-12-22 filing shows the company still views the COVID-19 pandemic as a live, though now less acute, enterprise-wide risk.  The text acknowledges that the pandemic has already produced real, negative consequences for HPE’s operations, workforce, partners, customers, suppliers and capital-market access, and that lingering effects—such as inflationary cost pressures versus pre-COVID levels—continue to influence margins.  The disclosure is largely qualitative: it cites prior disruptions and future uncertainties but offers no quantified dollar impacts.  Nearly four years after the WHO declaration, the pandemic moves from an immediate crisis to an enduring external threat that could re-intensify; under the Time Decay Principle this places the evidence in the “medium-term” band (4–10 years), warranting moderate severity scores.  Overall, the company frames COVID-19 as both a historical impact (supply chain shocks, market volatility) and an ongoing potential disruptor, emphasizing that outcomes depend on future developments beyond management control.  The language is company-specific but not highly granular, so individual snippet scores cluster in the 3–6 range, reflecting meaningful yet unquantified risk that has partially aged but remains material.",
+        "evidence_list": [
+            {
+                "snippet": "Our worldwide operations and supply chain could be disrupted by natural or human-induced disasters including, but not limited to, earthquakes; tsunamis; floods; hurricanes, cyclones or typhoons; fires; other extreme weather conditions; power or water shortages; telecommunications failures; materials scarcity and price volatility; terrorist acts, civil unrest, conflicts or wars; and health epidemics or pandemics.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemics/epidemics to disruption of worldwide operations and supply chain.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Statement is broad and bundled with many other disaster types, reducing COVID-specific focus.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Purely forward-looking and lacks any quantification of impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic but direct acknowledgement that a pandemic can disrupt global operations and supply chains; limited specificity or quantification keeps the score low."
+            },
+            {
+                "snippet": "Public health crises, such as the COVID-19 pandemic, and the measures taken in response to such events have in the past negatively impacted, and may again in the future negatively impact, our operations and workforce, as well as those of our partners, customers and suppliers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 explicitly and cites both past and potential future negative impacts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists multiple operational dimensions affected (operations, workforce, partners, customers, suppliers).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No dollar quantification or timing detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Strong, specific linkage to COVID-19 with evidence of historical harm and multi-stakeholder impact, but unquantified; results in a solid mid-range score."
+            },
+            {
+                "snippet": "Additionally, concerns over the economic impact of such events have, from time to time, caused increased volatility in financial and other capital markets, adversely impacting our stock price, our ability to access the capital markets, and our ability to fund liquidity needs, and may do so again in the future.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-related concerns to concrete financial risks (stock price, capital-market access, liquidity).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges that these effects have already occurred (“have, from time to time, caused”).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Lacks quantitative magnitude or timelines.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights past and prospective capital-market volatility tied to pandemic fears; clear but qualitative, yielding a moderate score."
+            },
+            {
+                "snippet": "The negative impacts of any such events on business operations and demand for our offerings will depend on future developments and actions taken in response to such events, which may be outside our control, highly uncertain, and cannot be predicted at this time.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasizes uncertainty and lack of control over future pandemic developments.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generic phrasing without specific impacts or COVID mention (relies on prior context).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Provides context on uncertainty but offers no direct COVID-specific or quantified risk detail, resulting in a negligible score."
+            },
+            {
+                "snippet": "Furthermore, inflationary pressures persist, keeping not only material and logistics costs, but also labor costs, somewhat elevated compared to pre-COVID-19 pandemic levels.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly compares current cost environment to pre-COVID baseline, indicating ongoing financial impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple cost categories (materials, logistics, labor).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantification of the incremental cost or margin effect.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows enduring cost inflation traceable to the pandemic era; specific categories mentioned but still qualitative, meriting a moderate score."
+            }
+        ],
+        "calculated_score": 11,
+        "average_severity": 2.2
+    }
+]

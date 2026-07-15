@@ -1,0 +1,211 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "MTD’s 2021 filing repeatedly links the recent COVID-19 pandemic to both realized and prospective damage across its operations.  Management discloses direct, already-incurred impacts on 2020 sales and customer demand, while simultaneously warning that the virus is still evolving and may further disrupt supply chains, workforce availability, production sites, and receivable collections.  Language such as “has negatively affected,” “will likely continue,” and “could be material” reflects a mixture of current losses and forward-looking uncertainty.  The statements are specific— citing reduced global customer demand, potential employee quarantines, stay-at-home orders, and possible supply-chain interruptions—rather than boiler-plate.  Because the 10-K was filed less than one year after WHO’s pandemic declaration, the Time Decay Principle places these disclosures in the 0-3-year window, allowing high severity scores.  Overall, the risk profile is elevated (typical snippet scores 7–9) with only limited mitigating language (e.g., adequate inventories, remote-work adaptations) that slightly tempers but does not neutralise the threat.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic has negatively affected, and will likely continue to negatively affect, various aspects of our business, including our workforce and supply chain, and make it more difficult and expensive to meet our obligations to our customers, and has resulted in, and will likely continue to result in, reduced demand from our customers as their businesses may also be negatively affected.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits realised harm ('has negatively affected').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Projects ongoing future harm ('will likely continue').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Targets critical domains—workforce and supply chain—showing operational breadth.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links to reduced customer demand and revenue pressure.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Direct, ongoing, multi-faceted impact on core operations and demand merits a very high score of 9 in a recent-event window."
+            },
+            {
+                "snippet": "As a result of pandemic outbreaks, including COVID-19, businesses can be shut down; supply chains can be interrupted, slowed, or rendered inoperable; and individuals can become ill, quarantined, or otherwise unable to work and/or travel due to health reasons or governmental restrictions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates severe possible disruptions: shutdowns, supply-chain failures, labour unavailability.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicit causal link to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking but framed as plausible/high-probability ('can be'),",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Details multiple critical disruption vectors tied to the pandemic, justifying an 8."
+            },
+            {
+                "snippet": "During the year ended December 31, 2020, COVID-19 had a negative impact on our business, primarily related to reduced global customer demand.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms historical, quantified period of impact ('year ended 2020').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies the mechanism—reduced global customer demand.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Provides concrete evidence of past financial damage; strong but slightly less severe than broader multi-factor risks."
+            },
+            {
+                "snippet": "While it is extremely difficult to estimate the extent and duration of any COVID-19 implications, the effects on our business, results of operations, and financial condition could be material.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses the term 'material' signalling potentially large magnitude.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers comprehensive impact areas (business, operations, financial condition).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges high uncertainty, expanding risk horizon.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Event is recent (0-3 years), amplifying severity under Time Decay.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Materiality wording and breadth of possible impact drive an 8 despite lack of quantification."
+            },
+            {
+                "snippet": "Our operations could be negatively affected further if our employees who are currently not subject to stay-at-home or work restriction orders are quarantined or become ill as a result of exposure to COVID-19, or if they become subject to governmental COVID-19 curfews or stay-at-home orders.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights potential future workforce disruptions (quarantine/illness).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges escalation risk ('negatively affected further').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional 'could', slightly reducing certainty.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Within recent timeframe so decay is minimal.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Workforce risk is important but conditional language and absence of quantitative data moderate the score."
+            },
+            {
+                "snippet": "The pandemic has caused many governments to implement stay-at-home orders, quarantines, and significant restrictions on travel.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete government actions that hinder operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates global scale ('many governments').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Implications for logistics and mobility.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides factual context of restrictive measures; relevant but less directly tied to specific company metrics."
+            },
+            {
+                "snippet": "Net sales in 2020 were negatively impacted by the COVID-19 pandemic, which reduced global customer demand as further described below.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States actual decline in net sales linked to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies causal pathway (reduced global customer demand).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recent fiscal-year data raises relevance.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Quantified directional impact on sales earns a solid 7."
+            },
+            {
+                "snippet": "Net sales in local currencies may be adversely affected in future quarters by the COVID-19 pandemic related to unfavorable economic conditions and reduced customer demand.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forecasts short-term revenue downside ('future quarters').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly ties to economic slowdown and customer demand reduction.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional 'may' introduces some uncertainty.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event still recent, maintaining relevance.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Forward-looking risk to sales is real but toned down by conditional language."
+            },
+            {
+                "snippet": "Our supply chain is currently continuing with minimal interruption, and we generally maintain adequate product inventory levels and safety stock for certain components.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights mitigation—supply chain largely unaffected so far.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Notes proactive inventory safety stock.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Purely mitigating; reduces perceived risk, so final score is floored at 0."
+            }
+        ],
+        "calculated_score": 51,
+        "average_severity": 5.666666666666667
+    }
+]

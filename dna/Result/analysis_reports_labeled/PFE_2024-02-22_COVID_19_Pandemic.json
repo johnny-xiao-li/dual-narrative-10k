@@ -1,0 +1,164 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Pfizer’s 2024 Form 10-K frames the COVID-19 pandemic as an ongoing, multi-faceted threat that has already produced tangible financial harm (e.g., 2023 inventory write-offs) and could continue to disrupt operations, supply chains, third-party collaborations and product demand.  The filing mixes backward-looking evidence of realized impacts—revenue declines, excess inventory and supply-chain shocks—with forward-looking disclaimers that such effects ‘may’ continue.  Although the pandemic’s initial outbreak is now four years old, Pfizer emphasizes that pandemic-driven uncertainties (e.g., endemic transition, variant evolution, labour market shifts) remain highly relevant to its risk profile.  Applying the Time Decay Principle, these disclosures warrant mid-range severity scores (4-6): the event is slightly beyond the 0-3-year “recent” window, yet the company still reports live impairments and detailed operational vulnerabilities, raising the risk above a merely historic concern but below a near-crisis maximum.",
+        "evidence_list": [
+            {
+                "snippet": "Pandemics, such as the COVID-19 pandemic, have impacted and may in the future impact our business, operations and financial condition and results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to broad adverse impacts already incurred (‘have impacted’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Signals continuing exposure (‘may in the future impact’), highlighting persistence of risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Time Decay moderation: statement is general and four years post-event.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly acknowledges realised and future enterprise-wide impacts, but in generic terms; moderate severity within 4-6 range."
+            },
+            {
+                "snippet": "Related risks and challenges for our business include, among others: uncertainty regarding the severity and duration of a pandemic; impacts to business operations; decreased demand for certain of our products; increased costs of doing business; manufacturing disruptions and delays; supply chain disruptions and shortages, including challenges related to reliance on third-party suppliers resulting in reduced availability of materials or components used in the development, manufacturing, distribution or administration of our products;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates several concrete operational and financial risk channels (demand drop, cost increases, supply shortages).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies supply-chain and manufacturing disruptions, directly aligned with analysis focus.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking and unquantified, tempering severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Detailed list of pandemic-driven threats lifts score, but absence of hard numbers keeps it within mid-range."
+            },
+            {
+                "snippet": "the risk that as the market for COVID-19 products becomes more endemic and seasonal, demand for any of our COVID-19 products has and may continue to be reduced or not meet expectations, or may no longer exist, which has and may continue to lead to reduced revenues, excess inventory on-hand and/or in the channel which, for Paxlovid and Comirnaty, has resulted in significant inventory write-offs in 2023 and could continue to result in inventory write-offs or other unanticipated charges;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites concrete realised financial harm (2023 inventory write-offs) tied to pandemic evolution.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Warns of continuing revenue erosion and future write-offs, indicating ongoing severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Time-decay moderation: still within 4-year window but not fresh crisis.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Includes specific, recent financial impacts and forecasts more, justifying upper-mid score capped by time-decay rule."
+            },
+            {
+                "snippet": "We could encounter difficulties, delays or inefficiencies in our supply chain, product manufacturing and distribution networks ... the impact to our facilities due to health pandemics or natural or man-made disasters, including as a result of climate change, product liability or unanticipated costs.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemics to potential supply-chain and manufacturing disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions cost consequences (‘unanticipated costs’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic/contingent wording (‘could’), reduces immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Captures operational exposure but remains hypothetical and broad, yielding a lower mid-range score."
+            },
+            {
+                "snippet": "Failure by one or more of the third-party collaborators, service providers and others ... as well as natural or man-made disasters or pandemics; or any disruption in the relationships between us and these parties have or could delay or prevent the development, approval, manufacturing or commercialization of our products and product candidates,",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights dependence on third parties and how pandemics can derail R&D and manufacturing timelines.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses both past tense (‘have’) and conditional (‘could’), hinting some impacts already felt.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantitative magnitude disclosed.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows critical-path vulnerability but stays qualitative, so risk is moderate."
+            },
+            {
+                "snippet": "The increased adoption during the COVID-19 pandemic further exposed consumers to fake prescription treatments via the internet as access to traditional brick and mortar pharmacies or authorized full-service internet pharmacies that offer authentic treatments may have been hindered.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes a pandemic-driven rise in counterfeit risk, affecting patient safety and company reputation.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "References actual behavioural change (‘increased adoption’), indicating realised effect.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Focused on reputational rather than direct financial impact, slightly lowering severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Realised counterfeit surge tied to pandemic, but mostly reputational; yields moderate score."
+            },
+            {
+                "snippet": "We operate on a global scale and could be affected by ... public health outbreaks, epidemics, pandemics, natural disasters or disruptions related to climate change.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics among global macro-risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Extremely broad catch-all statement; highly generic.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic inclusion of pandemics in a long risk list—low incremental insight, hence minimal score."
+            }
+        ],
+        "calculated_score": 24,
+        "average_severity": 3.4285714285714284
+    }
+]

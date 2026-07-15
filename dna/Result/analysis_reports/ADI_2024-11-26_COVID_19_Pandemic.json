@@ -1,0 +1,85 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "ADI’s 2024 Form 10-K still flags the COVID-19 pandemic as a meaningful—though now medium-term—threat.  The filing does not cite any fresh, quantified losses; instead, management presents the pandemic in a forward-looking, contingency frame, grouping it with other catastrophic events.  Nonetheless, the language ties COVID-19 (and broader public-health emergencies) directly to core value-drivers: manufacturing continuity, supply-chain availability, and revenue predictability.  Because the pandemic’s official onset was in March 2020 and the filing date is November 2024 (~4¾ years later), Time-Decay shifts the evidence out of the “recent” band and into the 4-10 year window, capping potential severity at a moderate level.  The disclosures remain risk-elevating—mentioning global supply-chain constraints, possible factory shutdowns, and inventory disruptions—but they are entirely qualitative and embedded in long, catch-all sentences.  Taking these factors together, the overall risk signal is specific enough to matter (COVID-19 is named) yet lacks fresh, quantified impact, yielding a moderate aggregate risk posture in line with a medium-term event.",
+        "evidence_list": [
+            {
+                "snippet": "As a result of our international operations, our business, financial condition and results of operations could be negatively impacted by, among others, natural disasters, public health emergencies, such as the COVID-19 pandemic, or other catastrophic events;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names the COVID-19 pandemic, directly linking it to corporate risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States that core metrics (‘business, financial condition and results of operations’) could be ‘negatively impacted’, signalling materiality.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists the pandemic alongside many other broad threats, diluting specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No quantified impact or timeline is provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct reference to COVID-19 and potential material harm earns a strong base score; lack of quantification and generic list context temper it to a moderate 5."
+            },
+            {
+                "snippet": "Limited or delayed access to these items, including as a result of, global trade issues, supply chain constraints, difficulties obtaining import or export licenses, natural disasters, public health emergencies or changes in or new laws or regulations, could adversely affect our results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects ‘public health emergencies’ to supply-chain interruptions—an operationally critical aggravating factor.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Signals potential adverse effect on ‘results of operations’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not mention COVID-19 by name, reducing directness.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Purely qualitative; no magnitude or timeframe stated.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Highlights pandemic-type disruptions to the supply chain but without COVID-specific wording or quantification, yielding a lower medium-term score of 2."
+            },
+            {
+                "snippet": "A prolonged disruption at, or inability to utilize, one or more of our or our third parties’ manufacturing facilities, loss of raw materials or damage to our or our third parties’ manufacturing equipment for any reason, including due to natural or man-made disasters, civil unrest or other events outside of our control, such as widespread outbreaks of illness, or the failure to maintain our labor force at one or more of these facilities, may disrupt our operations, delay production, shipments and revenue and result in us being unable to timely satisfy customer demand.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies ‘widespread outbreaks of illness’ (pandemic scenario) as a trigger for factory shutdowns.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies concrete operational consequences—disrupted operations, delayed production and lost revenue.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No explicit reference to COVID-19 and no numerical estimates.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Links pandemic-scale illness to severe operational impacts, but generic wording and no quant data keep the medium-term score at 4."
+            }
+        ],
+        "calculated_score": 11,
+        "average_severity": 3.6666666666666665
+    }
+]

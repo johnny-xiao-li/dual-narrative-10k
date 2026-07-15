@@ -1,0 +1,131 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Northrop Grumman’s 2024 filing acknowledges that the COVID-19 pandemic, while officially declared over by the WHO in May 2023, still reverberates through the macro-economic and operational landscape. The company frames the threat primarily as an external, forward-looking risk that can amplify labour shortages, supply-chain bottlenecks, cost inflation and schedule delays. Several sentences tie pandemic conditions to actual slowdowns and cost pressures experienced during the past few years, signalling that residual impacts remain within the 0-3-year “recent” window. However, management simultaneously downplays the current severity, noting that direct COVID-19 effects were “limited” in 2023 and are not expected to be significant going forward. The disclosure language is largely qualitative, lacks quantified dollar figures and is cushioned by mitigation statements, so the overall severity is moderate rather than acute. Applying the Time Decay Principle, evidence tied to pandemic risks (now almost four years old and tapering) should score in the mid-range, with modest downward adjustments where the company cites mitigation or diminishing impact.",
+        "evidence_list": [
+            {
+                "snippet": "We face various risks related to health epidemics, pandemics and similar outbreaks, which may have material adverse effects on our business, financial position, results of operations and/or cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly identifies pandemics as a risk category for the company.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong materiality language ('material adverse effects') covering multiple financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Event sits within recent-event window (<4 years), allowing an additional weighting under Time Decay.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear, high-level risk statement with materiality language earns a solid mid-high score, tempered only by lack of specifics."
+            },
+            {
+                "snippet": "The global health environment has contributed to business slowdowns or shutdowns, labor shortages, supply chain challenges, changes in government spending and requirements, regulatory challenges, inflationary pressures and market volatility.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-related health environment to multiple realised operational disruptions (supply chain, labor, shutdowns).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates a broad set of impact vectors, showing depth of exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantification or dollar impact provided.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Recency permits moderate uplift under Time Decay.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Sentence describes actual experienced disruptions across several domains, justifying a moderate-high risk score."
+            },
+            {
+                "snippet": "If a health epidemic, pandemic or similar outbreak were to occur or worsen, we likely would experience broad and varied impacts, including potentially to our workforce and supply chain, with inflationary pressures and increased costs (which may or may not be fully recoverable or insured), schedule and/or production delays, market volatility and other financial impacts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific operational and financial consequences (workforce, supply chain, costs, delays).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges possibility of unrecoverable costs, heightening financial exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional phrasing ('If ... were to occur or worsen') makes it forward-looking and less certain.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Falls inside recent time window, justifying time-decay uplift.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Forward-looking but comprehensive list of potential harms earns a moderate score after deducting for conditional language."
+            },
+            {
+                "snippet": "Some of these challenges were due, in part, to the global health emergency caused by COVID-19, which the World Health organization declared ended in May 2023.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes challenges to COVID-19, establishing causality.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes the WHO declaration that the emergency has ended, signalling mitigation and decline of risk.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Only partial attribution ('in part') dampens severity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Still within recent window, slight time-decay relevance.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Causation acknowledged but simultaneously neutralised by statement that the emergency is over, resulting in a minimal net score."
+            },
+            {
+                "snippet": "Direct impacts of COVID-19 on our business during 2023 were limited, and we are not currently expecting significant direct impacts on our business going forward.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly downplays COVID-19 impact in 2023 and prospectively.",
+                            "points": -3
+                        },
+                        {
+                            "reason": "Still references the pandemic as part of the risk discussion.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Recency means any remaining risk would normally be weighted, but statement negates it.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Sentence serves as a strong mitigating statement, effectively neutralising risk and resulting in a zero score."
+            }
+        ],
+        "calculated_score": 16,
+        "average_severity": 3.2
+    }
+]

@@ -1,0 +1,104 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "MRK’s 2023 Form 10-K repeatedly links the COVID-19 pandemic to concrete, already-experienced disruptions in sales, operations, and finances, while simultaneously warning that the magnitude and duration of future impacts remain unpredictable.  The company acknowledges realised harm (e.g., sales declines and operational setbacks) and describes lingering exposure, especially for physician-administered products whose utilisation can fall if outbreaks persist.  Language is mostly qualitative (no dollar figures for the adverse effects) but uses strong terms such as “adverse impact” and “negatively impacted,” signalling materiality.  Some mitigating context is offered—health systems have “largely adapted”—yet MRK still cites supply-chain volatility and revenue sensitivity as ongoing threats.  Given the filing date (February 2023) is less than three years after the WHO declared COVID-19 a pandemic, the Time Decay Principle allows high risk-severity scores (7–10) for direct impact statements, with modest downward adjustments where explicit mitigation is noted or discussion is more speculative.  Overall, the disclosures reflect a high-to-moderate residual risk profile for MRK tied to COVID-19.",
+        "evidence_list": [
+            {
+                "snippet": "COVID-19-related disruptions have had an adverse impact on the Company’s business, operations and financial performance.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Declares direct, realised negative impact ('have had an adverse impact').",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Covers multiple corporate dimensions (business, operations, financial performance).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Recent-event, multi-faceted harm is acknowledged with no mitigating language, justifying a high score of 8."
+            },
+            {
+                "snippet": "The Company is unable to predict the full extent to which the COVID-19 pandemic or any future pandemic, epidemic or similar public health threat will adversely impact its business, operations, financial performance, results of operations, and financial condition.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States uncertainty around future adverse impacts—forward-looking risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Enumerates several critical areas potentially affected (business, operations, financials, etc.).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Highlights broad, unpredictable downside; less severe than proven impact, so moderate score of 6."
+            },
+            {
+                "snippet": "The Company’s business and financial results have been negatively impacted by COVID-19-related disruptions since the start of the pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies sustained negative effect ('since the start of the pandemic').",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Applies directly to business and financial results—core performance metrics.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Confirms prolonged realised harm to key metrics, earning a high score of 7."
+            },
+            {
+                "snippet": "Merck believes that global health systems and patients have largely adapted to the impacts of COVID-19, however, a substantial portion of Merck’s Pharmaceutical segment revenue is comprised of physician-administered products which could be adversely affected by the pandemic if it continues.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies specific vulnerability (physician-administered products) and potential revenue impact.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Includes mitigating statement about adaptation of health systems and patients.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Risk is tied to a concrete revenue segment but tempered by noted adaptations, yielding a score of 4."
+            },
+            {
+                "snippet": "The degree to which COVID-19-related disruptions impact the Company’s results in 2023 will depend on future developments, beyond the Company’s knowledge or control, including governmental and third-party actions taken to contain or prevent the spread and treatment of the virus and mitigate its public health and economic effects.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites uncontrollable external factors that could alter 2023 results—ongoing uncertainty.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links to both public-health measures and economic consequences, broadening potential exposure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking uncertainty across multiple external factors supports a moderate score of 5."
+            }
+        ],
+        "calculated_score": 30,
+        "average_severity": 6.0
+    }
+]

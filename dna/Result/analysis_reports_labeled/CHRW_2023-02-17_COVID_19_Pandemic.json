@@ -1,0 +1,150 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CHRW’s Form 10-K links the COVID-19 pandemic to both realised and prospective risks that could materially affect performance. Management notes that the pandemic has already disrupted global supply chains, dampened demand in certain industries, created volatile pricing, and constrained carrier capacity—demonstrating direct operational impact. At the same time, the filing stresses that future effects remain \"highly uncertain,\" pointing to the possibility of new variants and shifting government responses that could influence 2023 results. The narrative therefore blends backward-looking evidence of concrete harm with forward-looking contingency language. Specific operational channels—supply-chain disruption, labour and equipment shortages, travel restrictions, and shifts in freight rates—are identified, although no precise dollar figures are offered. Some mitigating language appears (e.g., “continuously monitoring,” improving air-freight capacity), which partially offsets severity. Applying the Time Decay Principle, the pandemic falls within the recent (0-3 year) window relative to the 17 Feb 2023 filing date, permitting higher risk scores; however, the lack of quantification and the presence of mitigation mean most snippets merit moderate-to-high rather than maximum scores.",
+        "evidence_list": [
+            {
+                "snippet": "A disruption or failure of our systems or operations in the event of a major earthquake, weather event, cyber-attack, heightened security measures, actual or threatened terrorist attack, strike, civil unrest, pandemic, or other catastrophic event could cause delays in providing services or performing other critical functions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly identifies a pandemic as a scenario that could disrupt operations and service delivery.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists pandemic generically among many other catastrophes, which dilutes specificity to COVID-19.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Uses conditional language ('could cause'), indicating a potential rather than realised impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic, forward-looking mention of ‘pandemic’ signals some risk but lacks COVID-specific or quantified detail, yielding a low severity score of 1."
+            },
+            {
+                "snippet": "In addition, the company is continuously monitoring the ongoing impact of the COVID-19 pandemic, which has already caused a significant disruption to global financial markets and supply chains and has resulted in numerous travel restrictions and the shutdown of certain businesses across the globe since its inception.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing impact, indicating the risk is current and not hypothetical.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States that COVID-19 has ‘already caused significant disruption’ to global markets and supply chains—direct realised impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Cites specific manifestations: travel restrictions and business shutdowns worldwide.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions monitoring as an active mitigation effort.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Directly ties COVID-19 to significant, already-realised global disruptions while noting only limited mitigation, warranting a high score of 7."
+            },
+            {
+                "snippet": "Since the beginning of the pandemic we have experienced periods of significant changes including volatility in demand, declines in certain industries and regions, volatile pricing, and negative impacts to carrier capacity.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Company confirms it ‘has experienced’ multiple operational disruptions because of the pandemic—realised, company-specific impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Details concrete effects (demand volatility, industry declines, pricing swings, carrier-capacity constraints).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses the qualifier ‘significant,’ emphasising severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Provides specific, realised operational impacts attributable to COVID-19, earning a high severity score of 8."
+            },
+            {
+                "snippet": "The extent to which the ongoing COVID-19 pandemic impacts our operating results will depend on future developments, which remain highly uncertain and cannot be predicted, including new information that may emerge concerning the severity of outbreaks, the emergence of new COVID-19 variants, and the effectiveness of local, state, federal, and international actions that are being taken to contain and treat COVID-19.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights uncertainty surrounding future COVID-19 impacts on operating results—forward-looking risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Enumerates specific aggravating factors (new variants, outbreak severity, governmental actions).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes unpredictability, reinforcing the risk horizon.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Absence of quantified impact and conditional language temper severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Describes several plausible future aggravators but remains speculative and unquantified, resulting in a moderate score of 4."
+            },
+            {
+                "snippet": "There continues to be uncertainty around the duration of the COVID-19 pandemic and its broader impact on the economy, and therefore, the effects it will have on our operations and financial results remain uncertain for 2023.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing uncertainty of pandemic duration and economic impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Directly links potential effects to company operations and financial results in the near-term (2023).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Places the uncertainty in a defined calendar window, underscoring immediacy.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highlights near-term uncertainty affecting 2023 results; specific to timing but still unquantified, producing a moderate-high score of 5."
+            },
+            {
+                "snippet": "Air freight capacity continues to improve and drive rates lower in many trade lanes due to increased belly capacity as commercial flights become more frequent after being significantly reduced during the COVID-19 pandemic.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Recalls that COVID-19 had ‘significantly reduced’ commercial flights, directly impacting freight capacity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes that capacity is now improving and rates are falling, signalling mitigation of prior risk.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mentions a past COVID-related constraint but emphasises recovery, so residual risk is low; score set at 1."
+            }
+        ],
+        "calculated_score": 26,
+        "average_severity": 4.333333333333333
+    }
+]

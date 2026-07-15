@@ -1,0 +1,80 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "ServiceNow’s 2023 Form 10-K embeds COVID-19 primarily within broad, forward-looking risk boiler-plate.  The company acknowledges that (i) governmental rules related to COVID-19 add compliance complexity, (ii) pandemics can interrupt operations, and (iii) macro-economic conditions can deteriorate because of health crises.  All references are qualitative and unquantified; none cite specific revenue impacts, supply-chain metrics, or workforce statistics.  Nevertheless, because the filing date (31 Jan 2023) sits less than three years after the WHO’s pandemic declaration, the Time Decay Principle still allows a meaningful score.  Overall, the disclosures portray COVID-19 as an ongoing but generic threat rather than a presently material hit, yielding a moderate residual risk profile—significant enough to warrant attention (scores in the 4-6 range), but well below a red-flag, quantified impact scenario.",
+        "evidence_list": [
+            {
+                "snippet": "• compliance with multiple, conflicting and changing governmental laws and regulations, including with respect to employment, tax, competition, COVID-19 and ESG matters;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights the existence of “multiple, conflicting and changing” regulations—an aggravating compliance burden.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly links the regulatory complexity to COVID-19, tying the risk to the analysed event.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement is broad and generic with no quantified impact or timing detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "The sentence flags direct COVID-19-driven regulatory complexity (+5) but is generic and unquantified (-1), resulting in a moderate risk score of 4."
+            },
+            {
+                "snippet": "Our business operations are subject to interruption by natural disasters, flooding, fire, extreme heat, power shortages, pandemics such as COVID-19, terrorism, political unrest, telecommunications failure, vandalism, cyberattacks, geopolitical instability, war, the effects of climate change and other events beyond our control.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemics such as COVID-19 can directly interrupt core business operations—clear operational exposure.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Reference is timely (pandemic still within 3-year recent window).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Bundled with a long list of other hazards, making it a generic, non-specific disclosure.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct operational disruption language (+6) is tempered by generic listing (-1), yielding a snippet score of 5."
+            },
+            {
+                "snippet": "In addition, from time to time, the U.S. and other key international economies have been impacted and may continue to be impacted by geopolitical and economic instability, high levels of credit defaults, international trade disputes, changes in demand for various goods and services, high levels of persistent unemployment, wage and income stagnation, restricted credit, poor liquidity, reduced corporate profitability, volatility in credit, equity and foreign exchange markets, inflation, bankruptcies, international trade agreements, export controls, economic and trade sanctions, health crisis such as the COVID-19 pandemic and overall economic uncertainty.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to ongoing macro-economic instability that can affect demand for the company’s services.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses phrase \"may continue to be impacted,\" denoting an ongoing, forward-looking exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Very broad catch-all list without quantification or company-specific detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Macro-economic linkage (+5) offset by generic, non-specific framing (-1) produces a moderate score of 4."
+            }
+        ],
+        "calculated_score": 13,
+        "average_severity": 4.333333333333333
+    }
+]

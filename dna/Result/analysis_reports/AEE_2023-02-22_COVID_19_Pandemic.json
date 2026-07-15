@@ -1,0 +1,144 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Ameren’s 2023 filing shows that management still considers COVID-19 an active, material driver of both realised and prospective risk.  Three distinct impact channels are disclosed.  First, the company documents an observable, pandemic-driven demand shift: residential volumes are up while commercial-industrial volumes are down, raising concerns about long-term revenue recovery under existing rate-caps.  Second, the text flags COVID-related supply-chain and labour shortages that could disrupt generation projects, drive cost inflation and create reliability problems.  Third, pandemic-induced operating changes—especially large-scale remote work—are cited as new vectors for cyber-security and data-loss events.  All references are recent (2020-2023) and tied to the company’s core utility operations, but most are qualitative with limited quantification and, in several cases, are framed as potential rather than currently realised impacts.  Applying the Time Decay Principle (event ≤ 3 years old) these statements can score in the upper range, yet the absence of dollar figures or precise probability estimates moderates the overall severity.  Consequently, the extracted sentences cluster in the 1-6 range, indicating non-trivial but not catastrophic pandemic risk for Ameren at this stage.",
+        "evidence_list": [
+            {
+                "snippet": "Also, d ue to a change in customer behavior and certain business practices resulting from the COVID-19 pandemic, there has been a shift in sales volumes by customer class at Ameren Missouri, which began in 2020, resulting in an increase in residential sales, and a decrease in commercial and industrial sales.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly attributes impact to COVID-19 (‘resulting from the COVID-19 pandemic’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes a concrete, operational effect: measurable shift in customer class sales mix.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes that the change has persisted since 2020, indicating ongoing exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Impact is partially offset (one class up, another down), reducing net severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct, time-bound link to COVID and clear operational impact, but partly self-offsetting; high-medium severity."
+            },
+            {
+                "snippet": "disruptions to the global supply chain as a result of shortages for labor, materials, or equipment, international trade relations, delivery delays, economic pressures, including increased interest rates and inflation, and the impact of COVID-19, among other things;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly connects COVID-19 to supply-chain disruptions—an aggravating operational risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple critical inputs (labour, materials, equipment) amplifying breadth of exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Expressed generically as a potential risk without quantification or evidence of occurrence.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Supplies a broad but unquantified forward-looking risk from COVID-linked supply-chain stress; moderate severity."
+            },
+            {
+                "snippet": "the occurrence of catastrophic events such as fires, explosions, acts of sabotage, which have increased in frequency and severity within the utility industry, acts of terrorism, civil unrest, pandemic health events, including the COVID-19 pandemic, or other similar events;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions COVID-19 among catastrophic event scenarios, acknowledging pandemic risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic ‘catch-all’ wording; no specificity or company-level data.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Reference is broad and generic; provides minimal incremental insight, hence a low score."
+            },
+            {
+                "snippet": "Due to a change in customer behavior and certain business practices resulting from the COVID-19 pandemic, there has been a shift in sales volumes by customer class from pre-pandemic levels at both Ameren Missouri and Ameren Illinois, which began in 2020, with an increase in residential sales, and a decrease in commercial and industrial sales.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct causal linkage between COVID-19 and altered demand across two subsidiaries.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details the bidirectional impact (residential ↑, C&I ↓) implying revenue-mix risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights ongoing nature since 2020, reinforcing persistence.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Offsetting effects partly mitigate net revenue risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear, multi-entity evidence of pandemic-driven demand shift; significant but partially balanced impact."
+            },
+            {
+                "snippet": "Further effects of the COVID-19 pandemic, or a similar health crisis, on our results of operations, financial position, and liquidity in subsequent periods will depend on its severity and longevity, future regulatory or legislative actions with respect thereto, and the resulting impact on business, economic, and capital market conditions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that COVID-19 could influence financial, operational and liquidity metrics in future.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges multiple external dependency variables (severity, regulation, markets).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Purely speculative with no quantified exposure.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Articulates broad financial uncertainty tied to pandemic evolution; generic, hence moderate-low score."
+            },
+            {
+                "snippet": "Remote working arrangements could increase our data security risks, including loss of data related to sensitive customer, employee, financial, and operating system information, through insider or outsider actions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies operational risk (cyber/data loss) linked to pandemic-era remote work trend.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies sensitive data categories at risk, showing concrete impact domains.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Does not explicitly tie remote work to COVID-19; inference required.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Highlights remote-work vulnerability but lacks explicit COVID reference; minimal incremental weight."
+            }
+        ],
+        "calculated_score": 21,
+        "average_severity": 3.5
+    }
+]

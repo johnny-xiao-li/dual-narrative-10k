@@ -1,0 +1,78 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "FICO’s 2024-11-06 filing continues to flag the COVID-19 era as a material, albeit no longer acute, enterprise risk. All references are framed in forward-looking, precautionary terms—e.g., potential drops in customer spending, elongated sales cycles, or operational outages—rather than citing a quantified, historical hit from the 2020-2022 period. Four to five years have elapsed since the World Health Organization declared COVID-19 a pandemic, so the Time Decay Principle moderates any severity scores. Nevertheless, management still links large-scale health epidemics to revenue, cash-flow and IT-continuity threats, and explicitly pairs “pandemics” with supply-chain and labor-availability disruptions. The language is specific enough to show continuing vigilance (e.g., enumerating delayed purchasing decisions and payment defaults) but remains unquantified and largely hypothetical. Accordingly, individual snippet scores cluster in the mid-range (1-5), reflecting credible but generic, medium-term risk awareness rather than acute, quantified damage.",
+        "evidence_list": [
+            {
+                "snippet": "Our revenues, results of operations and overall financial performance may be negatively impacted by health epidemics or other disease outbreaks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Expressly links epidemics/pandemics to core financial metrics (revenues, results of operations, overall financial performance).",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct statement that health epidemics can harm revenue and earnings warrants a moderate score (4) under the 4-year-old event window, with no mitigating detail provided."
+            },
+            {
+                "snippet": "Health epidemics or disease outbreaks could impact the rate of spending on our solutions and could adversely affect our customers’ ability or willingness to purchase our products and services, cause prospective customers to change product selections or term commitments, delay or cancel their purchasing decisions, extend sales cycles, and potentially increase payment defaults, all of which could adversely affect our future revenues, results of operations and overall financial performance.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links epidemics to multiple concrete operational consequences (spending cuts, delayed decisions, payment defaults).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly ties those consequences to future revenue and profit impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Provides granular pathways from a pandemic to financial harm (sales cycle, payment risk), justifying a higher mid-range score of 5."
+            },
+            {
+                "snippet": "These interruptions can include software or hardware malfunctions, communication failures, outages or other failures of third-party environments or service providers, or be due to defective updates, fires, floods, earthquakes, pandemics, war, terrorist acts or civil unrest, power losses, equipment failures, supply chain disruptions, computer viruses, denial-of-service or other cybersecurity attacks, employee or insider malfeasance, human error and other events beyond our control.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists pandemics among causes of service interruption, acknowledging operational risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pairs pandemics with ‘supply chain disruptions,’ showing awareness of compounded impacts.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic catalogue of disaster triggers includes pandemics; less direct than prior snippets, so a lower score of 3 is appropriate."
+            },
+            {
+                "snippet": "natural disasters and pandemics, including individual countries’ reactions to them;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemics as international operational risk factor, but in a brief, catch-all bullet.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Minimal, list-style reference gives only weak evidence and thus earns a low score (1)."
+            }
+        ],
+        "calculated_score": 13,
+        "average_severity": 3.25
+    }
+]

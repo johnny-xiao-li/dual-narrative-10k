@@ -1,0 +1,98 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The COVID-19 pandemic is referenced in Merck’s 2023 Form 10-K primarily in two contexts: (a) realised financial consequences already embedded in 2023 results—namely lower virology revenue because demand for the COVID-19 antiviral Lagevrio has fallen—and (b) forward-looking risk that sales of the product will decline further in 2024 as the pandemic wanes. Outside of this product-specific discussion, the filing also acknowledges broader biological-threat exposure through a generic reference to pandemics in the animal-health business and in a company-wide disaster scenario clause. None of the passages point to ongoing, systemic supply-chain breakdowns, labour shortages or fundamental shifts in operating models; instead, they frame pandemic impacts as tapering. Because the filing date (26 Feb 2024) is almost four years after the WHO pandemic declaration, the Time Decay Principle classifies COVID-19 as a medium-term event, capping severity scores in the mid-range. Overall, the disclosures depict a manageable but still relevant risk—material to a single drug franchise and to livestock demand—rather than a pervasive threat to the enterprise.",
+        "evidence_list": [
+            {
+                "snippet": "The sales increase was primarily due to growth in oncology, vaccines, hospital acute care and animal health, partially offset by declines in virology (driven by lower sales of COVID-19 medication Lagevrio ) and diabetes.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links a revenue headwind to COVID-19, establishing a direct realised impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates the impact is large enough to offset growth in several other segments, implying materiality.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No numeric magnitude is provided and the effect is already balanced by other growth, moderating severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows a concrete, company-level financial impact from COVID-19, but without quantification and partly offset, giving a moderate risk weight."
+            },
+            {
+                "snippet": "Given that the Company has fulfilled government purchase and supply commitments for Lagevrio , as well as the waning impacts of the COVID-19 pandemic, the Company expects sales of Lagevrio will decline in 2024.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forward-looking statement forecasts a pandemic-driven sales decline, signalling continuing risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Provides timing (2024) and causal linkage (waning pandemic), enhancing specificity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is confined to one product line rather than the whole company, lowering overall severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Predicts imminent revenue erosion tied to diminishing pandemic needs; specific and time-bound but limited in scope, hence a mid-level score."
+            },
+            {
+                "snippet": "Other risks specific to animal health include epidemics and pandemics affecting livestock, government procurement and pricing practices, weather and global agribusiness economic events.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names pandemics as a risk factor that could hurt a business segment.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights possible operational and demand disruption in the livestock market.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic wording with no data or probability, so impact is uncertain and partly mitigated.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Calls out pandemic exposure for animal health but only in generic terms, yielding a modest severity assessment."
+            },
+            {
+                "snippet": "In addition, there may be changes to the Company’s business if there is instability, disruption or destruction in a significant geographic region, regardless of cause, including war, terrorism, riot, civil insurrection or social unrest; and natural or man-made disasters, including famine, flood, fire, earthquake, storm or disease.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists ‘disease’ among potential disruptive events, implicitly covering pandemics.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic, catch-all language with no direct linkage to financial metrics or probabilities.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Provides only a vague acknowledgement that disease could disrupt operations, so it contributes minimal incremental risk information."
+            }
+        ],
+        "calculated_score": 11,
+        "average_severity": 2.75
+    }
+]

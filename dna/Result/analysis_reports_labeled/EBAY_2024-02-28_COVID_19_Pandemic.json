@@ -1,0 +1,84 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Across its 2024 Form 10-K, eBay still frames the COVID-19 pandemic principally as a potential, forward-looking head-wind rather than an immediate, quantified impairment.  References to “a pandemic” or “pandemics” appear inside longer catalogues of macro-economic threats that could weaken discretionary demand or disrupt international operations and user engagement.  The company links a pandemic to reduced customer spending and lower site traffic—factors that would directly hit GMV and fee revenues—yet gives no numerical ranges or examples from the 2020-2023 period.  Four years have elapsed since the WHO declaration (March 2020), so under the Time Decay Principle the pandemic is now a medium-term (4-year-old) risk: still relevant, but partly normalized.  Because disclosures are high-level, conditional (“may”, “could”), and embedded among many other risks, the evidence merits moderate severity scores (4-6).  No snippet reaches the threshold for a high (7-10) score, but the continued acknowledgement of pandemic-driven demand and operational impacts prevents scores from dropping to very low levels.",
+        "evidence_list": [
+            {
+                "snippet": "Our buyers may in the future have less capacity for discretionary purchases and may reduce their purchases from our sellers as a result of various factors, including job losses, inflation (such as recent inflationary pressure), higher taxes, reduced access to credit, changes in federal economic policy, public health issues such as a pandemic, recent global economic uncertainty, lower consumer confidence and demand for discretionary goods, and geopolitical events such as recent international trade disputes and the ongoing wars in Ukraine and in Israel and Gaza, including the related disruptions to international shipping in the Red Sea.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly flags 'public health issues such as a pandemic' as a driver that can lower discretionary spending and purchases on the platform.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links the pandemic to a core revenue engine (buyer purchases from sellers), indicating direct business exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Language is conditional ('may'), signalling uncertainty and thus lowering severity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Pandemic risk is bundled with many other macro factors, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Mentions a pandemic as a factor that could directly depress buyer spending, but does so in generic, forward-looking terms; net medium-level risk yields a score of 5."
+            },
+            {
+                "snippet": "Our users may spend less time on our websites and our applications for mobile devices as a result of a variety of diversions and other factors, including: geopolitical events, such as war (including the ongoing wars in Ukraine and Israel and Gaza, including the related disruptions to international shipping in the Red Sea), the threat of war, social or political unrest, or terrorist activity; natural disasters; the physical effects of climate change (such as drought, flooding, wildfires, increased storm severity and sea level rise); and potential increases in the cost of energy due to climate change; power shortages or outages; major public health issues, including pandemics; less discretionary consumer spending; social networking or other entertainment websites or mobile applications; significant local, national or global events capturing the attention of a large part of the population; and seasonal fluctuations due to a variety of factors.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies 'major public health issues, including pandemics' as a cause of reduced user engagement, a key operating metric.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects pandemic risk to time-on-site and transaction volume, signalling operational impact beyond revenues.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly conditional, nested in a long illustrative list, reducing precision.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows that pandemics can diminish traffic and transactions, but the disclosure is generic and lumped with many other diversions, warranting a moderate score of 4."
+            },
+            {
+                "snippet": "• geopolitical events, including natural disasters, public health issues (including pandemics), acts of war (such as the ongoing wars in Ukraine and in Israel and Gaza), and terrorism;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit inclusion of 'public health issues (including pandemics)' among geopolitical risks affecting international operations and cross-border trade.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "International segment generates ~50% of revenue, so pandemic disruption here is material.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Bullet fragment with no detail or quantified effect, limiting severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Provides clear but terse acknowledgement that pandemics are a threat to global operations; limited elaboration keeps the score at 3, below the other snippets."
+            }
+        ],
+        "calculated_score": 12,
+        "average_severity": 4.0
+    }
+]

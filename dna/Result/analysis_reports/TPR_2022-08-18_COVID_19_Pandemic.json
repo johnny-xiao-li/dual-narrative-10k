@@ -1,0 +1,220 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "TPR’s 2022-08-18 10-K paints COVID-19 as an ongoing, multi-dimensional threat that is already eroding earnings and could further impair the company.  The filing contains both backward-looking evidence (store shutdowns, manufacturing stoppages, $178.5 million of extra freight in FY-22) and forward-looking language (may continue to cause material adverse impacts).  The disclosures are highly specific: they detail regional demand shocks in Greater China, factory lockdowns in Vietnam, logistics bottlenecks, labour tightness, remote-work cyber-risk, and the shift to costly air-freight.  Because the pandemic window (March 2020–present) is well within the 0-3-year “recent event” band, the Time Decay Principle allows high severity scores.  Where impacts are quantified or shown to have already hit the P&L, the evidence scores trend toward the upper range (8-10).  Generic or balanced statements that mention mitigating factors (e.g., ‘vast majority of stores reopened’) earn lower scores.  Overall, the risk profile is high: COVID-19 has moved from a potential threat to a realised, measurable drag on profitability, supply chain stability and labour availability, with future volatility still flagged as likely.",
+        "evidence_list": [
+            {
+                "snippet": "Due to these logistical challenges, during fiscal 2022, the Company recognized within Cost of sales $178.5 million of incremental freight costs compared to fiscal 2021, in order to maintain product flow to meet consumer demand.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly quantifies a very large financial hit ($178.5 million).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Links cost directly to COVID-related logistics disruptions (‘Due to these logistical challenges’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Impact occurred in fiscal 2022: recent and already realised.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 10
+                },
+                "reasoning_summary": "A recent, direct, and fully quantified cost increase makes this a maximum-severity disclosure."
+            },
+            {
+                "snippet": "Covid-19 has also resulted in ongoing supply chain challenges, such as logistic constraints, the closure of certain third-party manufacturers and increased freight cost.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple concrete disruptions (logistics constraints, factory closures, freight cost).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses the term ‘ongoing’, signalling present and future exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No numerical sizing of impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific but unquantified supply-chain problems yield a moderate risk score."
+            },
+            {
+                "snippet": "The Covid-19 pandemic and resulting adverse economic conditions may continue to have a material adverse impact on our business, financial condition, results of operations and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States potential ‘material adverse impact’ across multiple financial dimensions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking verb ‘may continue’ acknowledges persistence of risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic—no examples or data.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Strong wording but generic and unquantified, so risk is noted yet less granular."
+            },
+            {
+                "snippet": "These requirements resulted in temporary closures of the majority of the Company's directly operated stores globally for some period of time to help reduce the spread of Covid-19 during fiscal 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows majority of global stores closed—major operational disruption.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Event occurred inside the recent window (fiscal 2020).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Demonstrates large-scale historical impact, but no financial quantification."
+            },
+            {
+                "snippet": "Throughout fiscal years 2021 and 2022, the vast majority of the Company’s stores were opened and have continued to operate. However, some store locations have experienced temporary re-closures or operated under tighter restrictions in compliance with local government regulations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits continuing re-closures/restrictions driven by COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mitigating clause that ‘vast majority’ are open.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Ongoing but limited scope due to majority reopening; mitigated language lowers severity."
+            },
+            {
+                "snippet": "The Company’s performance in fiscal 2022 was adversely impacted as a result of infections due to variants of Covid-19 in certain regions, most notably in Greater China, which resulted in disruption in business performance including a decline in demand in the region.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms direct hit to FY-22 performance from COVID variants.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies geography (Greater China) and nature of impact (demand decline).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks numerical magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clearly ties demand loss to COVID variants; regional focus but no dollar figure."
+            },
+            {
+                "snippet": "This disruption to our supply chain has resulted and may continue to result in inventory not being available in a timely manner and/or during the appropriate season, and freight and other logistics costs, including increased carrier rates for ocean and air shipments, as the supply chain disruptions have caused us to increase our use of air freight with greater frequency than in the past, all of which could have a material adverse impact on our financial results.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple operational consequences: inventory delays and higher freight.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes structural change (greater use of air freight) escalating costs.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicit ‘material adverse impact’ language.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Ongoing future risk signalled (‘may continue’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Comprehensive operational and financial threat description with strong wording but no hard numbers."
+            },
+            {
+                "snippet": "During the first quarter of fiscal 2022, certain of the Company’s third-party manufacturers, primarily located in Vietnam, experienced ongoing and longer-than-expected government mandated restrictions, which resulted in a significant decrease in production capacity for these third-party manufacturers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specific factory lockdowns linked to COVID regulations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Recent timing (Q1 FY-22).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantified loss or cost.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Recent manufacturing capacity hit is specific and serious, though unquantified."
+            },
+            {
+                "snippet": "Historically, competition for talent in these positions has been intense and turnover is generally high, both of which have been exacerbated by the ongoing Covid-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to exacerbated labour shortages.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses ‘ongoing’, indicating current exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No financial or operational magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Acknowledges pandemic-driven labour risk but lacks depth or dollar impact."
+            },
+            {
+                "snippet": "Continued remote working due to the Covid-19 pandemic has increased our dependence on digital technology during this period.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies operational shift (remote work) creating tech reliance risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates the condition is continuing ‘during this period’.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No clear financial severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Highlights a secondary operational exposure; comparatively low severity and no quantified effect."
+            }
+        ],
+        "calculated_score": 45,
+        "average_severity": 4.5
+    }
+]

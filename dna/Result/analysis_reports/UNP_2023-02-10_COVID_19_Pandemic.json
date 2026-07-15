@@ -1,0 +1,153 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "UNP’s 2023 Form 10-K explicitly positions the COVID-19 pandemic as a recent, material and multifaceted threat.  The filing shows that management has already experienced adverse effects (“have been adversely affected”) and anticipates further impacts, framing the risk as both currently realized and forward-looking.  The text ties COVID-related disruption to core operating variables for a railroad—global freight demand, supply-chain fluidity, workforce availability, and cross-border traffic—thereby establishing a direct line to revenue, liquidity and service reliability.  While the company provides no hard dollar figures or quantified volume shortfalls, it cites concrete mechanisms (e.g., travel restrictions, facility closures, credit-worthiness of customers, labor shortages) that can amplify other risk factors.  The language is predominantly cautionary (“could materially adversely affect”) yet anchored by a retrospective acknowledgement of damage witnessed during “peaks of the COVID pandemic.”  Under the Time Decay Principle, COVID-19 remains well within the 0-3-year “recent” window (March 2020 → Feb 2023), so higher severity scores are warranted.  Nonetheless, absent precise financial metrics and given the conditional wording, individual sentence scores generally fall into the 6-8 range rather than a maximum 10.",
+        "evidence_list": [
+            {
+                "snippet": "Our Business, Financial Condition, and Results of Operations have been Adversely Affected, and in the Future, Could be Materially Adversely Affected by Pandemics or Other Public Health Crises – Pandemics, epidemics, and other outbreaks of disease can have significant and widespread impacts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States past impact ('have been Adversely Affected').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Predicts future material adverse effect ('Could be Materially Adversely Affected').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Defines scope as 'significant and widespread impacts'.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Directly links pandemic to both historical and prospective material harm, but without quantification, yielding a high-but-not-max score of 7."
+            },
+            {
+                "snippet": "As we saw during the peaks of the COVID pandemic, outbreaks of disease can cause a global slowdown of economic activity (including the decrease in demand for a broad variety of goods), disruptions in global supply chains, and significant volatility and disruption of financial markets, resulting further in adverse effects on workforces, customers, and regional and local economies.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites real-world observation ('As we saw during the peaks').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates multiple concrete impacts: demand drop, supply-chain disruption, market volatility.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links impacts to key stakeholders (workforces, customers, economies).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Still generic—no dollar figures or volumes.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Rich description of actual mechanisms but absence of quantified loss moderates final score to 6."
+            },
+            {
+                "snippet": "The impact of pandemics or public health crises on our results of operations and financial condition may depend on numerous evolving factors, including, but not limited to: governmental, business, and individuals’ actions that have been and continue to be taken in response to a global pandemic or other public health crises (including restrictions on travel and transport, workforce pressures, social distancing, and shelter-in-place orders); the effect of a pandemic or other public health crises on economic activity and actions taken in response; the effect on our customers and their demand for our services; the effect of a pandemic or other public health crises on the credit-worthiness of our customers; national or global supply chain challenges or disruption; facility closures; commodity cost volatility; general macroeconomic uncertainty in key global markets and financial market volatility; global economic conditions and levels of economic growth; and the pace of recovery as the pandemic subsides as well as response to a potential reoccurrence.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists a broad array of operational and financial transmission channels (travel bans, workforce pressures, supply-chain disruption, demand shifts).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicitly ties those channels to results of operations and financial condition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional language ('may depend') softens certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Comprehensive catalog of risk drivers but written as contingencies; results in a moderate score of 5."
+            },
+            {
+                "snippet": "Further, a pandemic or other public health crises, and the volatile regional and global economic conditions stemming from such an event, could also precipitate and aggravate the other risk factors that we identify, which could materially adversely affect our business, financial condition, results of operations (including revenues and profitability), and/or stock price.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights compounding effect on other risk factors, extending severity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple financial metrics (business, results, stock price).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Use of 'could' and absence of specifics reduce immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows amplifying nature of pandemics on overall risk profile but retains speculative tone; score 4."
+            },
+            {
+                "snippet": "Additionally, a pandemic or other public health crises also may affect our operating and financial results in a manner that is not presently known to us or that we currently do not consider to present significant risks to our operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges unknown, potentially hidden risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uncertainty without detail or magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Adds uncertainty but is highly generic, earning a low incremental score of 1."
+            },
+            {
+                "snippet": "Changes in demographics, training requirements, and pandemic illnesses or restrictions could negatively affect the availability of qualified personnel for us, our customers, and throughout the supply chain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic illnesses/restrictions to labor shortages, a key operational metric for railroads.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional phrasing ('could') and lack of quantified magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Identifies a specific operational vulnerability (labor) but phrased conditionally; net score 2."
+            },
+            {
+                "snippet": "Any one or more of the following could cause a significant and sustained interruption of trade with Mexico, Canada, or countries in Southeast Asia: ... (g) public health crises, including the outbreak of pandemic or contagious disease, such as the coronavirus and its variant strains (COVID).",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags pandemic as a trigger for cross-border trade interruption, relevant for a railroad with international flows.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Buried within a larger list and purely prospective ('could cause').",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Acknowledges COVID as a potential disruptor of international revenue streams, but minimal detail yields a score of 1."
+            }
+        ],
+        "calculated_score": 26,
+        "average_severity": 3.7142857142857144
+    }
+]

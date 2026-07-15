@@ -1,0 +1,81 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing acknowledges COVID-19 primarily as a macro-economic and operational headwind rather than an acute, immediate crisis.  Language such as “global pandemics such as the COVID-19 pandemic” places the disease in a basket of ongoing uncertainties that can lengthen sales cycles, dampen demand, and trigger government-imposed restrictions.  The references are forward-looking, describing potential and continuing adverse effects rather than reporting historical losses.  They do, however, identify concrete exposure channels—reduced IT spending, higher default rates among channel partners, and slower customer purchasing—that link the pandemic directly to Arista’s revenue drivers.  Because the event occurred roughly four years before the 2024 filing, the Time Decay Principle dictates a mid-range severity ceiling; the pandemic is no longer “recent,” but the risk is still live and explicitly connected to future performance.  Overall, the disclosures merit a moderate risk assessment: they are specific enough to be decision-useful but unquantified and tempered by time, leading to snippet scores clustered in the 4-6 range.",
+        "evidence_list": [
+            {
+                "snippet": "Weak domestic or global economic conditions and continuing economic uncertainty, fear or anticipation of such conditions, a recession, international trade disputes, global pandemics such as the COVID-19 pandemic, or a reduction in information technology and network infrastructure spending or a deterioration of the financial performance, condition or prospects of our customers even if economic conditions improve, could adversely affect our business, financial condition, results of operations and prospects in a number of ways, including longer sales cycles, reduced demand or lower prices for our products and services, higher default rates among our channel partners, reduced unit sales and lower or no growth.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 pandemic to the company’s core financial metrics (‘business, financial condition, results of operations and prospects’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details multiple concrete impact channels (longer sales cycles, reduced demand, pricing pressure, defaults).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking but unquantified; no dollar figures or probability weighting.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Time Decay adjustment for a four-year-old event (medium-term).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides a clear causal chain between COVID-19 and several operational/financial pressures, but absence of quantification and medium-term timing keep the score at a solid, not extreme, 4."
+            },
+            {
+                "snippet": "• disruptions caused by pandemics, such as the COVID-19 pandemic, and the government restrictions in response to the pandemic;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 directly and references associated governmental restrictions, signalling operational disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Framed as a continuing risk factor (‘disruptions caused by pandemics’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Bullet-point statement is generic and lacks detail or quantification.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Time Decay adjustment (event ~4 years old).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Direct mention of COVID-19 and government restrictions raises the risk, but generic wording and the medium-term age of the event temper severity."
+            },
+            {
+                "snippet": "• earthquakes, fire, power outages, floods, health epidemics and other catastrophic events could harm our business;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes ‘health epidemics,’ implicitly covering pandemics like COVID-19.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generic catch-all statement with no explicit COVID-19 reference or impact pathway.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "The sentence is too generic and lacks an explicit COVID-19 link; after offsets, it carries negligible evidentiary weight, resulting in a score of 0."
+            }
+        ],
+        "calculated_score": 7,
+        "average_severity": 2.3333333333333335
+    }
+]

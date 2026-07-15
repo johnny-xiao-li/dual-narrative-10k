@@ -1,0 +1,263 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "TFX’s 2021-02-25 filing provides extensive, highly specific discussion of COVID-19 as a present, material risk.  The company states that the pandemic has already reduced revenues across elective-procedure product lines, caused manufacturing inefficiencies and absenteeism at its 35 global plants, lengthened lead-times, and may force capacity re-allocation under the U.S. Defense Production Act.  It also details continuing exposure to supplier and logistics disruption, customer liquidity stress, capital-market volatility and broad macro-economic weakness.  Although some respiratory and vascular-access products have enjoyed demand spikes, management emphasises that these benefits are temporary and unpredictable.  Overall, the language is recent (within 12 months of the event trigger), direct, and frequently framed in terms such as “material adverse,” “continue to result,” and “cannot accurately predict,” underscoring both realised and forward-looking severity.  Applying the Time Decay Principle (0-3 years = high potential scores) and netting modest mitigating notes (temporary demand uplift, limited supply-chain impact to date), the extracted sentences warrant scores ranging from 1 to 8, clustering toward the higher end because most describe concrete, ongoing financial and operational harm.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic has significantly impacted economic activity and markets around the world and has negatively impacted our operations, financial performance and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to negative impacts on operations, financial performance and cash flows.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes harm as already realised ('has significantly impacted').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers multiple business dimensions (operations, finance, cash).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, past-tense statement of broad, material harm yields a high score of 8."
+            },
+            {
+                "snippet": "It has resulted, and we expect it will continue to result, in lower revenues in certain of our product categories, including our interventional urology, surgical, interventional, anesthesia and OEM product categories, in which we sell products largely utilized in elective procedures, which have been significantly reduced or suspended due to the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to lower revenues in multiple named categories.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States both realised and continuing future impact ('will continue to result').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies causal mechanism (reduced elective procedures).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Enumerates affected segments, adding specificity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Specific revenue declines across several product lines with forward-looking continuation merits a score of 8."
+            },
+            {
+                "snippet": "It has resulted in higher revenues in our respiratory and vascular access product categories; however, we are unable to predict how long this increased demand will last or how significant it will be.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges positive revenue impact (mitigating).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Admits uncertainty over duration and magnitude, maintaining risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Direct causal link to pandemic.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Net effect is low-level risk because uplift offsets but uncertainty keeps some risk, yielding score 1."
+            },
+            {
+                "snippet": "It has caused and may continue to cause disruptions in the manufacture of our products… the COVID-19 pandemic… may interfere with our ability, or that of our employees or suppliers, to perform… and create a risk to our ability to manufacture our products in a timely manner, or at all.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights manufacturing disruptions already occurring.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Projects possibility of future inability to manufacture at all.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Includes supplier and employee constraints.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Actual and potential future manufacturing disruption across value chain scores a solid 6."
+            },
+            {
+                "snippet": "We have experienced and expect to continue to experience inefficiencies in our manufacturing operations due to government-mandated and self-imposed restrictions placed on facilities in certain locations primarily in North America and Asia.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms realised manufacturing inefficiencies.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States expectation of continuation.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies geographic breadth (North America and Asia).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Ongoing, multi-region production inefficiencies justify a mid-high score of 5."
+            },
+            {
+                "snippet": "Additionally, we have experienced and continue to experience a higher than normal level of absenteeism across our global manufacturing sites.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports workforce absenteeism already occurring.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States ongoing nature ('continue to experience').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Labour shortfalls are concrete but moderately severe, giving a score of 3."
+            },
+            {
+                "snippet": "In an effort to increase the wider availability of needed medical device products, we may elect to, or the government may require us to, allocate manufacturing capacity… in a way that adversely affects our regular operations and financial results, results in differential treatment of customers and/or adversely affects our customer relationships and reputation.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Potential forced capacity allocation underscores regulatory risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights adverse effects on operations, finance and reputation.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Potential government intervention with multi-faceted downside rates a 4."
+            },
+            {
+                "snippet": "The COVID-19 pandemic… could disrupt our suppliers or our suppliers’ suppliers and/or the distribution of our products… These disruptions… could increase manufacturing or distribution costs or cause delays in delivering, or an inability to deliver, products to our customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies multi-tier supplier and distribution disruption risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details cost increases and delivery delays up to inability to deliver.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking conditional language maintains uncertainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Comprehensive supply-chain disruption scenario earns score 5."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has increased volatility and pricing in the capital markets… We might not be able to continue to access preferred sources of liquidity when we would like, and our borrowing costs could increase.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Ties pandemic to capital-market volatility and liquidity risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Specifies possible higher borrowing costs.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Financial-market risk is noted but less direct than operational issues, so score is 3."
+            },
+            {
+                "snippet": "These and other impacts of the COVID-19 pandemic… could have the effect of heightening many of the other risks described herein… such impact could be material.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses strong materiality language ('material').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States pandemic magnifies multiple existing risks.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Broad magnification of risks with material qualifier justifies score 3."
+            },
+            {
+                "snippet": "For the year ended December 31, 2020, each of our segments were negatively impacted by the COVID-19 pandemic due to the reduction in elective procedures and, to a lesser extent, as a result of government-mandated and self-imposed shut-downs in several countries.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms actual adverse impact across all segments.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Cites specific drivers (elective-procedure decline, shutdowns).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Company-wide realised impact across all segments rates a 5."
+            },
+            {
+                "snippet": "To date, we have not experienced significant disruptions in the global supply chain for our products that are in high demand, but, in some cases, delivery times have lengthened, resulting in backorders for some of our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges lengthened delivery times and backorders (supply-chain strain).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States limited severity to date, mitigating.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Minor supply-chain issues with explicit mitigation yields low score 1."
+            },
+            {
+                "snippet": "Overall, we believe that the COVID-19 pandemic will continue to negatively affect our revenues and operations, at least over the near-term.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forward-looking assertion of continued negative effect.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers both revenues and operations.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Concise statement of ongoing adverse outlook results in score 3."
+            }
+        ],
+        "calculated_score": 55,
+        "average_severity": 4.230769230769231
+    }
+]

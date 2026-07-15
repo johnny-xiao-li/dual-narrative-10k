@@ -1,0 +1,326 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is treated in the 2022 Netflix Form 10-K as an active, still-evolving threat that already has concrete, negative consequences for the company and could further erode performance.  The filing lists direct, realized effects—business disruption, higher production costs, and delayed content releases—as well as second-order impacts such as weakened consumer demand and partner instability.  It also stresses continued uncertainty, noting that future outcomes hinge on factors outside management’s control.  The disclosures are company-specific (production pauses, margin distortion, content-cash timing) rather than boiler-plate and they admit both historical damage and ongoing exposure.  Because the filing date (January 2022) is less than two years after the WHO pandemic declaration, the Time Decay Principle allows high severity scores (7-10) when evidence shows current, material harm; moderate scores (4-6) for broad but unquantified or partially mitigated risks; and lower scores (0-3) where statements are largely cautionary or cite offsetting measures.  This framework drives the micro-scores below.",
+        "evidence_list": [
+            {
+                "snippet": "The ongoing coronavirus (COVID-19) pandemic and the various responses to it has disrupted our business, increased our costs, led to delays in content releases and may continue to impact our business and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States direct, already-occurred disruption to business operations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicitly notes increased costs—a concrete financial impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions delays in content releases, signalling revenue-timing risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Adds forward-looking clause 'may continue', extending risk horizon.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "High, recent, multi-faceted impacts with no mitigating language warrant a 9/10."
+            },
+            {
+                "snippet": "The ongoing coronavirus (COVID-19) pandemic and the various responses to it have created significant volatility, uncertainty and economic disruption.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to broad economic disruption that can indirectly hurt Netflix.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses intensifier 'significant', heightening perceived severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Statement is sweeping and serious but not company-specific or quantified, producing a mid-level 4."
+            },
+            {
+                "snippet": "The full extent to which the ongoing COVID-19 pandemic and the various responses to it impacts our business, operations and financial results will depend on numerous evolving factors that we may not be able to accurately predict, including: the duration and scope of the pandemic; governmental, business and individuals’ actions that have been and continue to be taken in response to the pandemic; the effect on our members and consumer demand for and ability to pay for our services; disruptions or restrictions on our employees’ ability to work and travel; and any stoppages, disruptions or increased costs associated with our development, production, post-production, marketing and distribution of original programming.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple specific operational risk channels (consumer demand, workforce, production, marketing).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Admits management cannot predict impact, underscoring uncertainty.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Covers both current and forward-looking elements, widening exposure.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Comprehensive but still qualitative; breadth of risk justifies 6."
+            },
+            {
+                "snippet": "Such production pauses have in the past, and may in the future, cause us to delay content releases and temporarily to have less new content available on our service in subsequent quarters.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites historical occurrence ('have in the past'), confirming realized impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Identifies specific operational harm—delayed releases and reduced fresh content.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Flags recurrence risk ('may in the future').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows tangible effect but not financial magnitude; moderate severity 4."
+            },
+            {
+                "snippet": "While most of our productions have resumed, certain of our productions continue to experience disruption, as do the productions of our third-party content suppliers.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing disruption in both internal and third-party productions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Partial mitigation noted ('most ... have resumed').",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Residual risk offset by recovery language yields a low score of 1."
+            },
+            {
+                "snippet": "Other partners have similarly had their operations disrupted, including those partners that we use for our operations as well as development, production and post-production of content.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights supply-chain/partner disruptions that can cascade to Netflix.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies critical functions affected (development, production, post-production).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Partner-centric operational risk, unmitigated, merits 3."
+            },
+            {
+                "snippet": "Production disruptions can result in additional costs to production, including additional pay to cast and crew.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links disruptions directly to cost overruns.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Gives concrete example (extra pay), adding credibility.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specific cost pressure without quantification results in a 3."
+            },
+            {
+                "snippet": "Also, Covid-related delays and production protocols and requirements, including use of PPE and testing, add to costs of production.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly attributes incremental costs to COVID-specific protocols.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details PPE and testing, underscoring unavoidable expense.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Another cost driver; technical detail keeps score moderate at 3."
+            },
+            {
+                "snippet": "It is not clear what the potential effects any such alterations or modifications may have on our business, including the effects on our members, suppliers or vendors, or on our financial results.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises uncertainty around future operational changes.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Identifies multiple stakeholder impacts (members, suppliers, vendors).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic uncertainty without present impact—score 2."
+            },
+            {
+                "snippet": "In addition to the potential direct impacts to our business, the global economy may continue to be impacted as a result of the actions taken in response to COVID-19.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags macroeconomic headwinds that can indirectly affect Netflix.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes possibility of continued impact, extending risk timeline.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Broader, indirect risk; unquantified but notable—score 3."
+            },
+            {
+                "snippet": "To the extent that such a weakened global economy impacts consumers’ ability or willingness to pay for our service or vendors’ ability to provide services to us, especially those related to our content productions, we could see our business and results of operations negatively impacted.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects macro weakness to subscription revenue risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Adds vendor delivery risk, widening exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forecasts direct negative impact on results.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Clear pathway to revenue and supply disruption; warrants 4."
+            },
+            {
+                "snippet": "We also take on risks associated with production, such as completion and key talent risk, which risks have been heightened during Covid-19.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies heightened completion and talent risks tied to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Direct linkage between pandemic and core production risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Company-specific operational risk, but still qualitative—score 4."
+            },
+            {
+                "snippet": "The increase in operating margin is due primarily to content amortization growing at a slower rate as compared to the 19% increase in revenues in part as a result of delays in content releases due to the COVID-19 pandemic.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows COVID-related release delays influencing financial metrics.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "References a quantified 19% revenue increase, giving context.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Net effect is margin increase (counter-impact).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Mixed impact (delay but margin boost) tempers severity to 2."
+            },
+            {
+                "snippet": "The full extent of the impact of the COVID-19 pandemic on our business, operations and financial results will depend on numerous evolving factors that we may not be able to accurately predict.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights unpredictable, ongoing risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Covers multiple domains (business, operations, financial).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Broad uncertainty statement without specifics gives a 2."
+            },
+            {
+                "snippet": "Production disruptions and new health and safety protocols and requirements can result in additional costs including additional pay to cast and crew and use of PPE and testing.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies specific cost categories stemming from COVID protocols.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists tangible examples (PPE, testing, extra pay).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Concrete cost pressure—moderate score of 3."
+            },
+            {
+                "snippet": "The increase in payments for content assets was primarily driven by delays in productions resulting from the pandemic that impacted the prior year, which resulted in the timing of certain production payments being shifted into the current year.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows cash-flow timing impact directly attributed to the pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Demonstrates knock-on effect into current financial period.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Pandemic-driven cash strain, but not quantified fully—score 3."
+            }
+        ],
+        "calculated_score": 56,
+        "average_severity": 3.5
+    }
+]

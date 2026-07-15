@@ -1,0 +1,90 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "American Water (AWK) still frames the COVID-19 pandemic primarily as a forward-looking, rather than a presently crippling, threat.  In its 2024 Form 10-K the company groups “pandemics and epidemics” with other natural or catastrophic events that could disrupt operations, curtail water supply, or drive unexpected capital spending.  The filing offers no quantified impacts, but it does acknowledge COVID-related cost deferrals that have required specific recovery in recent rate cases—a tacit admission that the pandemic has already imposed measurable financial pressure.  Management also flags supply-chain interruptions and labour shortages that could delay major capital projects—conditions strongly associated with the pandemic era—even though they are not explicitly tied to COVID-19 in the text.  Overall, the disclosures are broad and cautionary, lacking granular data or scenario analysis.  Given that the pandemic is within the 0-4-year “recent event” window but the language is largely generic and partially mitigated by approved cost recovery, the aggregate risk evidence merits only a moderate score.",
+        "evidence_list": [
+            {
+                "snippet": "Service interruptions due to severe weather, climate variability patterns and natural or other events are possible across all our businesses. These include, among other things, storms, freezing conditions, high wind conditions, hurricanes, tornadoes, earthquakes, landslides, drought, wildfires, coastal and intercoastal floods or high water conditions, including those in or near designated flood plains, pandemics and epidemics, severe electrical storms, sinkholes, solar flares and chemical spills or other contamination causing temporary unavailability of our source water supplies.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists 'pandemics and epidemics' as events that can cause service interruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects those events to operational disruption (temporary unavailability of water supplies).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic, catch-all phrasing; no COVID-specific data or quantified impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Mentions pandemics as a direct threat to operations, but the generic wording and lack of quantification temper the severity."
+            },
+            {
+                "snippet": "Even with adequate financial resources to make required capital expenditures, we face the additional risk that we will not complete our major capital projects on time, as a result of supply chain interruptions, construction delays, permitting delays, labor shortages or other disruptions, environmental restrictions, legal and regulatory challenges, or other obstacles.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights supply-chain interruptions and labour shortages—common pandemic side-effects—that can hinder capital projects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking and generic, with no direct reference to COVID-19 or pandemics.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Shows pandemic-related vulnerabilities (supply chain, labour) but lacks an explicit pandemic linkage, so the score is low."
+            },
+            {
+                "snippet": "The general rate case order includes recovery of the Virginia subsidiary’s COVID-19 deferral balance.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifically cites a COVID-19 deferral balance—evidence of past financial impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States that recovery has been approved, indicating risk mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Concrete acknowledgment of COVID-related costs, but the approval of recovery reduces residual risk."
+            },
+            {
+                "snippet": "The general rate case order also includes recovery of the Pennsylvania subsidiary’s COVID-19 deferral balance.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Second explicit reference to recovering COVID-19 cost deferrals, reinforcing financial exposure.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Again notes successful cost recovery, which mitigates ongoing risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Confirms pandemic-related financial impact but shows it is being offset through rate mechanisms, keeping severity moderate."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 2.25
+    }
+]

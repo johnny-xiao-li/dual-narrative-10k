@@ -1,0 +1,213 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CF’s 2021 Form 10-K links the COVID-19 pandemic to a broad spectrum of operational and financial threats.  Because the filing date (24 Feb 2021) falls only eleven months after the World Health Organization declared COVID-19 a pandemic (11 Mar 2020), Time-Decay allows elevated risk scores.  The disclosure blends (a) concrete, already-experienced impacts – e.g., reduced industrial nitrogen demand, disrupted food supply chains and transportation bottlenecks – with (b) forward-looking contingencies such as large-scale workforce illness, supply-chain failures, heightened feed-stock price volatility and customer default.  Language is mostly specific (naming labour shortages, logistics choke-points, energy-demand shocks and corn / ethanol linkages) and repeatedly flags “material adverse effect,” signalling management’s acknowledgement of severity.  Mitigation is mentioned (critical-infrastructure status, no 2020 earnings hit yet), but these caveats are outweighed by the breadth and depth of potential impacts described.  Overall, the risk profile is high and current, justifying snippet scores in the 6-9 range under the Time-Decay Principle.",
+        "evidence_list": [
+            {
+                "snippet": "The outbreak and pandemic of the coronavirus disease 2019 (COVID-19) could have a material and adverse effect on our business, financial condition, results of operations or cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Labels impact as 'material and adverse' across multiple financial dimensions.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Event is recent (within 1 year of filing).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional wording ('could') shows uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Strong materiality language and recency drive a high-moderate score, tempered slightly because impact is still prospective."
+            },
+            {
+                "snippet": "These measures have impacted and may further impact all or portions of our workforce and operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges existing impact on labour and operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights possibility of continued or worsening impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct reference to present and future workforce disruption justifies a solid risk score."
+            },
+            {
+                "snippet": "If significant portions of our workforce are unable to work effectively, including because of illness, quarantines, government actions, facility closures or other restrictions, we may be unable to meet customer demand or perform fully under our contracts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies labour shortage mechanism (illness, quarantine) and contractual failure.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Potential to impair revenue fulfilment (‘unable to meet customer demand’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Concrete description of how COVID-19 can halt production and breach contracts elevates severity."
+            },
+            {
+                "snippet": "Global demand for nitrogen for industrial use has been negatively affected by the pandemic, and we expect this to continue as long as economic activity remains low due to the impacts of the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits realised demand decline ('has been negatively affected').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Projects ongoing weakness (‘expect this to continue’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Effect limited to industrial end-market, not total business.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Already-realised demand loss with outlook for persistence drives material mid-high risk."
+            },
+            {
+                "snippet": "Restrictions on or disruptions of transportation, port closures or increased border controls or closures, or other impacts on domestic and global supply chains or distribution channels, could increase our costs, limit our ability to meet customer demand or otherwise have a material adverse effect on our business, financial condition, results of operations or cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple logistics choke-points (transport, ports, borders).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links to cost inflation and revenue constraint.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses 'material adverse effect' formulation.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Comprehensive supply-chain risk with explicit materiality earns a high score."
+            },
+            {
+                "snippet": "Reduced demand for nitrogen feedstocks has reduced and could further reduce the cost of nitrogen production outside of North America, increasing global nitrogen supply and reducing the market prices of our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows specific pricing pressure mechanism affecting revenue (oversupply, price decline).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States effect is already occurring ('has reduced').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Evidence of margin compression via global oversupply grants a strong risk weight."
+            },
+            {
+                "snippet": "Lower crude oil prices, and a reduced demand for gasoline resulting from actions to slow the spread of COVID-19, have reduced ethanol production and therefore negatively impacted the demand for corn, which is a significant factor driving customer demand for our nitrogen fertilizers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Maps pandemic to downstream agricultural demand chain (oil → ethanol → corn → fertilizer).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States impact already observed ('have reduced', 'negatively impacted').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows cascading demand risk through commodity chain, boosting severity."
+            },
+            {
+                "snippet": "The pandemic has also disrupted traditional food supply chains, which may have a material impact on livestock and food demand, including the demand for corn.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies broader agricultural supply-chain disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links to demand for key customer crop (corn).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highlights indirect but important demand risk for CF’s end-users."
+            },
+            {
+                "snippet": "Each of these consequences could have a material adverse effect on our business, financial condition, results of operations or cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Summative statement of potential materiality across financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Generic wrap-up sentence (less specific).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Restates materiality but adds no new specificity, so receives a modest score."
+            },
+            {
+                "snippet": "While the COVID-19 pandemic did not have a material adverse effect on our reported results for the year ended December 31, 2020, we are unable to predict the ultimate impact it may have on our business, financial condition, results of operations or cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges uncertainty about future impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States no material effect yet, a mitigating factor.",
+                            "points": -3
+                        }
+                    ],
+                    "final_snippet_score": -1
+                },
+                "reasoning_summary": "Expresses uncertainty but notes no impact to-date, so it mildly mitigates overall risk."
+            },
+            {
+                "snippet": "Persistent weakness in economic activity caused by a deterioration of global market and economic conditions could materially adversely affect our business, financial condition, results of operations or cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects macroeconomic recession to company performance with 'materially adversely affect'.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional and generalized statement.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Macro-level risk reference is relevant but generic, resulting in a lower score."
+            }
+        ],
+        "calculated_score": 47,
+        "average_severity": 4.2727272727272725
+    }
+]

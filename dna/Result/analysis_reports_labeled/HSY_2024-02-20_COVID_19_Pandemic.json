@@ -1,0 +1,98 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing discusses COVID-19 primarily as an ongoing external hazard that could disrupt Hershey’s supply chain, manufacturing footprint and consumer demand rather than as a currently quantifiable loss.  All references are forward-looking (“could result”, “may impact”), indicating potential rather than already-incurred damage.  Although the company explicitly names the coronavirus pandemic and links it to operational and financial exposures (factory interruptions, revenue declines), the language remains broad and bundled with other disruptive forces such as natural disasters and inflation.  Mitigating language (“we believe we take adequate precautions”) tempers the severity, signalling management believes the risk is manageable.  Applying the Time Decay Principle, the pandemic is now four years old, placing it in the medium-term window (4-10 years); therefore snippet scores must be moderate.  Collectively, the evidence shows a material but not acute risk: COVID-19 is still treated as a meaningful threat to operations and profitability, yet without fresh, quantified impacts, so overall severity sits in the mid-range.",
+        "evidence_list": [
+            {
+                "snippet": "Disruption to our global manufacturing operations or our supply chain could result from, among other factors, the following: • Natural disasters; • Pandemics, epidemics or other outbreak of disease (such as the coronavirus disease 2019 (“COVID-19”) global pandemic); • Climate change and severity of extreme weather; • Fires or explosions; • Terrorism or other acts of violence; • Labor strikes or other labor activities; • Unavailability of raw or packaging materials; • Third party service provider disruptions, such as cyber breaches or system failures; • Operational and/or financial instability of key suppliers, and other vendors or service providers; and • Suboptimal production planning which could impact our ability to cost-effectively meet product demand.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics/COVID-19 as a cause of supply-chain and manufacturing disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects the pandemic to core operational areas (manufacturing capacity, supply chain).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Expressed as a conditional ('could result'), making the impact speculative rather than current.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly names COVID-19 and ties it to critical operations, but the risk is framed as possible not actual, yielding a mid-level score of 4."
+            },
+            {
+                "snippet": "We believe that we take adequate precautions to mitigate the impact of possible disruptions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges existence of disruptive events (including pandemic context) but emphasises mitigation.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Explicitly asserts adequacy of precautions, which reduces perceived severity.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "The sentence focuses on mitigation and therefore substantially lowers risk severity, resulting in a near-minimal score."
+            },
+            {
+                "snippet": "If we are unable, or find that it is not financially feasible, to effectively plan for, mitigate or manage operational stability and business resiliency risks, particularly within our international markets and snacks portfolio, due to the potential impacts of such disruptive events on our manufacturing operations or supply chain, our financial condition and results of operations could be negatively impacted if such events were to occur.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States a direct negative financial consequence if disruption (pandemic included) cannot be mitigated.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights vulnerability of international markets and snacks portfolio, adding specificity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional and contingent language ('if we are unable', 'could be'), lowering certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides clear linkage between pandemic-type disruption and financial harm but remains hypothetical, yielding a moderate score of 4."
+            },
+            {
+                "snippet": "Volatility in food and energy costs, sustained global recessions, broad political instability, rising unemployment, pandemic, or other outbreak of disease (such as COVID-19), climate change, weather, natural and other disasters and declines in personal spending could adversely impact our revenues, profitability and financial condition.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly references pandemic/COVID-19 as a factor.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links the event to key financial metrics—revenues, profitability, financial condition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Grouped with many other macro risks and framed as 'could', making it broad and speculative.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Explicitly ties COVID-19 to adverse financial outcomes, but generic, multi-factor framing tempers severity, resulting in a score of 4."
+            }
+        ],
+        "calculated_score": 13,
+        "average_severity": 3.25
+    }
+]

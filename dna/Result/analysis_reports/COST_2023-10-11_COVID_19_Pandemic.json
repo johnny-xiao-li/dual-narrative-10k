@@ -1,0 +1,86 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Costco’s 2023-10-11 filing acknowledges COVID-19 as an ongoing, but now medium-term, enterprise-wide risk.  Management no longer describes the pandemic as an acute disruption; instead, it is framed as a forward-looking uncertainty that can still influence supply-chain reliability, labour availability, consumer demand, litigation exposure and overall financial performance.  The narrative is qualitative and does not quantify impacts, yet it does single out specific operating vectors (inventory in-stock positions, cost of doing business, access to inventory, etc.), showing that management still perceives material exposure even 3½ years after the World Health Organization declared the pandemic.  Because the disclosure is current (within four years) but not accompanied by hard numbers or evidence of realised losses, the Time Decay Principle places the risk in the “medium-term” bucket, capping appropriate snippet scores in the 4-6 range.  Overall, the language is specific enough to demonstrate continuing vigilance, but its conditional phrasing (“could affect”, “uncertain”, “may result”) and absence of quantified impacts moderate the severity assessment.",
+        "evidence_list": [
+            {
+                "snippet": "Disruptions due to fires, tornadoes, hurricanes, earthquakes, pandemics or other extreme weather conditions or catastrophic events, labor issues or other shipping problems may result in delays in the production and delivery of merchandise to our warehouses, which could adversely affect sales and the satisfaction of our members.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics among disruptive events affecting supply-chain and sales.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects disruption to concrete business outcomes (delays, adverse effect on sales and customer satisfaction).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic catch-all sentence bundles pandemics with many unrelated hazards, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Mentions pandemic-driven supply-chain risk and sales impact, but wording is generic and unquantified, yielding a moderate score of 4."
+            },
+            {
+                "snippet": "Pandemics and other health crises, including COVID-19, could affect our business, financial condition and results of operations in many respects.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly references COVID-19 by name as a risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States broad areas of potential impact (business, financial condition, results).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct COVID-19 reference and company-wide impact statement merit a score of 5 within medium-term limits."
+            },
+            {
+                "snippet": "The emergence, severity, magnitude and duration of global or regional health crises are uncertain and difficult to predict.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights unpredictability of health crises, reinforcing forward-looking risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks direct link to company operations or COVID-19 specifics.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Abstract uncertainty statement with no explicit operational linkage scores a low 1."
+            },
+            {
+                "snippet": "A pandemic, such as COVID-19, could affect certain business operations, demand for our products and services, in-stock positions, costs of doing business, availability of labor, access to inventory, supply chain operations, our ability to predict future performance, exposure to litigation, and our financial performance, among other things.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple concrete operational vectors (labour, supply chain, demand, litigation) affected by COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicitly cites COVID-19 as illustrative pandemic.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Provides the most detailed mapping of COVID-related operational risks, earning the maximum medium-term score of 6."
+            }
+        ],
+        "calculated_score": 16,
+        "average_severity": 4.0
+    }
+]

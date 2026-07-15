@@ -1,0 +1,272 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Nike’s 2021-07-20 Form 10-K openly acknowledges that COVID-19 has already harmed—and may continue to harm—the company across every major risk vector the prompt highlights.  The filing repeatedly states that fiscal-year results were directly hit by store closures, supply-chain bottlenecks, higher logistics costs and changing consumer demand, and it lays out a granular catalogue of forward-looking threats: labour shortages at factories and distribution centres, remote-work cyber-risks, incremental health-protocol costs, retailer bankruptcies, and potential inventory overhang.  The language is largely specific (naming container shortages, U.S. port congestion, increased freight costs, etc.) and often retrospective, confirming realised impacts, which raises severity.  Because the filing date is less than 18 months after the WHO declaration (March 2020), the Time Decay Principle allows high scores (7-10) for direct, current impacts; moderate scores (4-6) for general or highly uncertain statements; and small deductions where the wording is purely precautionary or unquantified.  Overall, the risk profile is high: Nike concedes both material past damage and meaningful exposure going forward, especially in supply-chain resilience, consumer demand shifts and operational continuity under remote-work models.",
+        "evidence_list": [
+            {
+                "snippet": "Our financial condition and results of operations have been, and could in the future be, adversely affected by the coronavirus pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states past adverse impact on financial condition and results.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Projects continuing future risk (‘could in the future’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantitative detail provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct admission of realised and prospective harm but generic and unquantified, warranting a solid mid-high score of 5."
+            },
+            {
+                "snippet": "To date, this pandemic and preventative measures taken to contain or mitigate the pandemic have caused, and may in the future cause, business slowdown or shutdown in affected areas and significant disruption in the financial markets, both globally and in the United States.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes concrete business slowdowns/shutdowns already experienced.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights continuing worldwide exposure, including U.S. market disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks numeric impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Confirms global operational and market disruption with forward-looking caution; specific but not quantified, yielding a 5."
+            },
+            {
+                "snippet": "These events have led to and could again lead to a decline in discretionary spending by consumers, and in turn materially impact, our business, sales, financial condition and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to consumer demand drop and material business impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers both realised and potential future effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No numbers or dollar amounts.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific causal chain from COVID-19 to lower sales, but qualitative only, producing a 5."
+            },
+            {
+                "snippet": "We cannot predict whether, and to what degree, our sales, operations and financial results could in the future be affected by the pandemic and preventative measures.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges uncertainty and lack of control over future impacts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Contains no concrete impact or magnitude.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Purely precautionary language without specifics; net score reduced to 0."
+            },
+            {
+                "snippet": "Risks presented by the COVID-19 pandemic include, but are not limited to: • Reduced consumer demand for our products if consumers seek to reduce or delay discretionary spending in response to the impacts of COVID-19, including as a result of a rise in unemployment rates and diminished consumer confidence;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete demand risk tied to unemployment and confidence.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Forward-looking conditional framing.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Demand-side risk spelled out but hypothetical and unquantified, giving a moderate score of 4."
+            },
+            {
+                "snippet": "• Disruption to our distribution centers and our third-party manufacturing partners and other vendors, including through the effects of facility closures, reductions in operating hours, labor shortages, and real time changes in operating procedures, including for additional cleaning and disinfection procedures;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple supply-chain disruption mechanisms (closures, labour shortages).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Directly tied to COVID-19 list; shows operational depth.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Highly specific operational-supply-chain vulnerabilities, no mitigations, warrants a high 7."
+            },
+            {
+                "snippet": "• Operational risk, including but not limited to cybersecurity risks, as a result of continued workforce remote work arrangements, and restrictions on employee travel;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links remote-work model to operational and cyber risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Describes ongoing (‘continued’) condition.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Identifies a remote-work risk vector; moderately severe at 5."
+            },
+            {
+                "snippet": "• Impacts to our distribution and logistics providers' ability to operate or increases in their operating costs. These supply chain effects have had an adverse effect on our ability to meet consumer demand, including digital demand, and have in the past resulted in and could in the future result in an increase in our costs of production and distribution, including increased freight and logistics costs and other expenses;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States direct past adverse effects on meeting demand.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies cost inflation in freight and logistics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No figures provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Combines realised demand shortfalls with cost escalation; strong but unquantified, scoring 6."
+            },
+            {
+                "snippet": "Throughout fiscal 2021, the COVID-19 pandemic impacted our business results and operations globally.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms full-year, worldwide impact already realised.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Scope covers both ‘business results’ and ‘operations’.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Year-long, global adverse impact statement; concise but powerful, score 6."
+            },
+            {
+                "snippet": "Additionally, disruption in the global supply chain due to container shortages, transportation delays and U.S. port congestion interrupted the flow of our inventory.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites concrete supply-chain choke points (container shortages, port congestion).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Describes direct operational interruption.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Highly specific supply-chain breakdown already interrupting inventory flow; earns a 7."
+            },
+            {
+                "snippet": "There remains risk that COVID-19 could have material adverse impacts on our future revenue growth as well as our overall profitability and may lead to higher than normal inventory levels in various markets, adverse impacts on the global supply chain, revised payment terms with certain of our wholesale customers, higher sales-related reserves, factory cancellation costs and a volatile effective tax rate driven by changes in the mix of earnings across our jurisdictions.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple material financial and operational risks (revenue, profits, inventory, supply chain, tax).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Explicitly labels impacts ‘material adverse’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking without numerical estimates.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Broad, material future-risk statement with many dimensions; strong but qualitative, scoring 6."
+            },
+            {
+                "snippet": "In addition, the increased use of employee-owned devices for communications as well as work-from-home arrangements, such as those implemented in response to the COVID-19 pandemic, present additional operational risks to our Information Technology Systems, including, but not limited to, increased risks of cyber-attacks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-driven remote work to heightened cyber risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies vulnerability of IT systems.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete operational-cyber exposure due to remote work yields a mid-level 5."
+            },
+            {
+                "snippet": "The ongoing financial uncertainty surrounding COVID-19, particularly for retailers, could also have an effect on our sales, our ability to collect on receivables and our financial condition.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights credit-collection risk tied to retailer distress.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Frames as potential rather than actual impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Identifies receivables risk but remains conditional; earns a moderate 4."
+            }
+        ],
+        "calculated_score": 65,
+        "average_severity": 5.0
+    }
+]

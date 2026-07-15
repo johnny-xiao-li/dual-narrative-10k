@@ -1,0 +1,212 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Ford’s 2021 Form 10-K (filed February 4 2022) portrays COVID-19 as both a realised and ongoing strategic threat.  Management states that the pandemic has already caused plant idlings, dealer-traffic collapses, auction shutdowns, remote-work transitions and volatility in capital markets—evidence of direct impacts rather than hypothetical possibilities.  Equally, the filing describes forward-looking exposures: renewed lockdowns, emergent variants, credit defaults in Ford Credit’s book, permanent demand shifts and supply-chain fragility (e.g., semiconductor shortages).  The language is company-specific (e.g., “we idled our manufacturing operations,” “our cash flow deteriorates when plants are suspended”).  Because the filing date is within two years of the WHO declaration (March 11 2020), Time-Decay is minimal and high scores (7-10) are warranted where impacts are concrete, quantified or designated “material” or “substantial.”  Statements that are broader, conditional or partly mitigated still receive moderate scores but remain above zero given the recency and relevance of the pandemic.  No evidence predates the event, so no adjustment is made under the Pre-Event rule.",
+        "evidence_list": [
+            {
+                "snippet": "Ford and Ford Credit’s financial condition and results of operations have been and may continue to be adversely affected by public health issues, including epidemics or pandemics such as COVID-19.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to adverse effects on financial condition and results that have already occurred (past tense ‘have been’) and may persist.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Company-specific (Ford and Ford Credit identified).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct acknowledgment of realised and continuing financial harm merits a high score of 7."
+            },
+            {
+                "snippet": "The impact of COVID-19, including changes in consumer behavior, pandemic fears and market downturns, and restrictions on business and individual activities, has periodically created significant volatility in the global economy.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple transmission channels (consumer behaviour, market downturns, restrictions) showing breadth of risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States the impact ‘has…created significant volatility’—already realised.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Identifies several concrete mechanisms and confirms realised global volatility; moderate-high severity assigned."
+            },
+            {
+                "snippet": "For example, in 2020, consistent with the actions taken by governmental authorities, we idled our manufacturing operations in regions around the world before ultimately resuming our manufacturing operations taking a phased approach and after introducing new safety protocols at our plants.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes an actual, global shutdown of Ford manufacturing operations attributable to COVID-19.",
+                            "points": 7
+                        },
+                        {
+                            "reason": "Implies costly operational disruption (idling plants).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Partial mitigation (phased resumption) tempers severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Concrete historical suspension of worldwide production is a severe realised impact; resumption slightly offsets, net score 8."
+            },
+            {
+                "snippet": "Further, if new strains or variants of COVID-19 develop or sufficient amounts of vaccines or treatments are not available, not widely administered for a significant period of time, or otherwise prove ineffective, the impact of COVID-19 on the global economy, and, in turn, our financial condition, liquidity, and results of operations could be material.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies scenario of new variants and vaccine issues—forward-looking but plausible aggravator.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong wording: ‘impact … could be material’ on financial condition, liquidity, results.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Materiality language and concrete triggers (variants, vaccine availability) justify a high forward-looking risk score."
+            },
+            {
+                "snippet": "Economic uncertainty and higher unemployment may result in higher defaults in Ford Credit’s consumer portfolio, and prolonged unemployment may have a negative impact on both new and used vehicle demand.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-induced macro factors to credit losses and demand erosion.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Potential (not yet realised) nature reduces immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Identifies specific financial pathway but stated as ‘may’; moderate score of 3 reflects conditional risk."
+            },
+            {
+                "snippet": "The global economic slowdown and stay-at-home orders enacted across the United States disrupted auction activity in many locations, which adversely impacted and caused delays in realizing the resale value for off-lease and repossessed vehicles.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Concrete, realised disruption to auction activity and cash-flow timing.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Explicit link to stay-at-home orders (pandemic measure).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specific operational financial impact (delayed resale proceeds) tied to COVID restrictions earns a 7."
+            },
+            {
+                "snippet": "Accordingly, any significant future disruption to our production schedule, regionally or globally, whether as a result of our own or a supplier’s suspension of operations, could have a substantial adverse effect on our financial condition, liquidity, and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of ‘substantial adverse effect’ on key financial metrics if disruptions recur.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Highlights supply-chain dependency—forward-looking but severe.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Explicit ‘substantial adverse effect’ language on finances drives high severity, producing a score of 7."
+            },
+            {
+                "snippet": "The remote work arrangements that we implemented in 2020 remain in place in most locations.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates persistent operational shift (remote work) attributable to pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Implies adaptation rather than harm (potentially mitigating).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Remote work is a structural change but framed as managed; minimal risk impact scored at 1."
+            },
+            {
+                "snippet": "Despite the successful restart of our manufacturing operations in 2020, we continue to experience intermittent COVID-19-related disruptions in our supply chain.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Ongoing, current disruptions to supply chain highlighted.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Acknowledges partial mitigation (restart successful), lowering severity slightly.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Present, recurring supply-chain problems are material but partly offset by prior restart; moderate score 4."
+            },
+            {
+                "snippet": "Moreover, new restrictions could have an adverse effect on production, supply chains, distribution, and demand for vehicles.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies multiple operational levers (production, supply chain, distribution, demand) susceptible to renewed restrictions.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Broad prospective impact across value chain; forward-looking earns a moderate score."
+            },
+            {
+                "snippet": "Although auction values have increased significantly, future or additional restrictions could have a similar adverse impact on Ford Credit.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States possibility of future restrictions harming Ford Credit again.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicit mitigating note (‘auction values have increased significantly’).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Risk is conditional and explicitly tempered by improved auction values; minimal net score of 1."
+            }
+        ],
+        "calculated_score": 55,
+        "average_severity": 5.0
+    }
+]

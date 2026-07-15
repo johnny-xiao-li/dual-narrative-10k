@@ -1,0 +1,65 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is acknowledged in the filing as a still-evolving, recent (≤ 3 years) external threat that has already touched Duke Energy’s operations yet remains largely a prospective, scenario-driven risk.  Management states that impacts to-date have been \"immaterial,\" but then lists a concrete set of potential future pressure points that map directly to the pandemic-related vectors requested in the prompt: labour shortages, equipment delays, fuel procurement difficulties, and delays in regulatory proceedings.  These statements are forward-looking, qualitative and largely un-quantified, signalling uncertainty rather than booked losses, but they nonetheless recognise enterprise-wide exposure.  The company tempers the threat with mitigating language—e.g., cost-containment actions that yielded roughly $200 million of O&M savings—and a self-declared record of successfully navigating supply-chain challenges.  Taken together, the disclosure reflects a moderate recent-event risk: it is specific enough to identify operational choke points, yet it downplays severity and pairs each risk with at least one mitigation.  Under the Time Decay Principle, a 2020-era pandemic discussed in a 2022 filing is “recent,” allowing high theoretical scores, but the self-labelled immateriality and mitigation efforts justify mid-range severity for individual snippets rather than the maximum.",
+        "evidence_list": [
+            {
+                "snippet": "The Duke Energy Registrants’ operations have been and may be affected by COVID-19 in ways listed below and in ways the registrants cannot predict at this time.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to operational impact (‘have been and may be affected’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Provides a clear but generic acknowledgement of pandemic impact; no details or quantification, hence a low-moderate score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has immaterially impacted and could impact the Duke Energy Registrants' business strategy, results of operations, financial position and cash flows in the future as a result of delays in rate cases or other legal proceedings, an inability to obtain labor or equipment necessary for the construction of large capital projects, an inability to procure satisfactory levels of fuels or other necessary equipment for the continued production of electricity and delivery of natural gas, and the health and availability of our critical personnel and their ability to perform business functions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists specific operational choke points (rate-case delays, labour shortages, equipment/fuel procurement).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects those choke points to broad financial categories (strategy, results of operations, cash flows).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Classifies current impact as ‘immaterial,’ signalling mitigation or low present severity.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Rich, specific risk description merits high base points, but self-declared ‘immaterial’ impact tempers severity, yielding a mid-level score."
+            },
+            {
+                "snippet": "In 2021, we maintained approximately $200 million of O&M savings identified during the earliest days of the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies a pandemic-related financial figure ($200 million).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Represents a cost-saving mitigation rather than a risk driver.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Although the sentence is pandemic-related and quantified, it describes mitigation (savings), not risk, so its net contribution to risk evidence is neutral."
+            }
+        ],
+        "calculated_score": 5,
+        "average_severity": 1.6666666666666667
+    }
+]

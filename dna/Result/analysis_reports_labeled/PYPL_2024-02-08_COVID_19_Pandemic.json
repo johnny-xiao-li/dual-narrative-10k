@@ -1,0 +1,40 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "PayPal’s 2024 Form 10-K contains only a single, high-level reference to pandemics. The company folds “public health crises (including pandemics)” into a long list of possible causes of business interruption for its own and third-party systems. The language is forward-looking and generic, offering no COVID-19-specific data, no quantified impacts, and no discussion of supply-chain, labour, remote-work, or demand-shift issues. Although the sentence concedes that PayPal and its partners \"have experienced\" interruptions in the past, it does not tie those incidents directly to the COVID-19 pandemic. Given the filing date (February 2024) the pandemic is now four years old, placing it in the medium-term window under the Time Decay Principle. The evidence therefore merits only a moderate severity score: it acknowledges an ongoing potential threat but provides minimal detail and no fresh, material disclosure.",
+        "evidence_list": [
+            {
+                "snippet": "Our systems and operations and those of our service providers and partners have experienced from time to time, and may experience in the future, business interruptions or degradation of service because of distributed denial-of-service and other cyberattacks, insider threats, hardware and software defects or malfunctions, human error, earthquakes, hurricanes, floods, fires, and other natural disasters, public health crises (including pandemics), power losses, disruptions in telecommunications services, fraud, military or political conflicts, terrorist attacks, computer viruses or other malware, or other events.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists \"public health crises (including pandemics)\" as a cause of potential business interruption.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Acknowledges that PayPal and partners \"have experienced\" interruptions in the past, implying some historical impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemic risk is buried in a broad laundry list, reducing specificity and emphasis.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No COVID-19 mention, no quantified or detailed impact discussion.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "The snippet earns a 4/10: it recognizes pandemic-related risk and notes past interruptions, but the disclosure is generic, unquantified, and four years removed from the pandemic’s onset, warranting a moderate score under the Time Decay Principle."
+            }
+        ],
+        "calculated_score": 4,
+        "average_severity": 4.0
+    }
+]

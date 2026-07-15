@@ -1,0 +1,84 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated February 16 2024, reflects on the COVID-19 pandemic only in passing but still acknowledges that pandemic-driven disruptions remain a live consideration nearly four years after the World Health Organization declared COVID-19 a global pandemic.  All references are generic—using the plural term “pandemics” rather than naming COVID-19—and they are embedded in broader lists of disruptive forces such as geopolitics, weather, and labor issues.  The company frames the risk as both historical (the global supply chain \"has experienced\" disruption) and prospective (disruptions are \"expected to continue\"), indicating management believes pandemic-related volatility has not fully abated.  No quantified dollar impacts, loss estimates, or detailed mitigation plans are provided, signalling an un-measured but still material exposure.  Applying the Time Decay Principle, a 2020 event assessed in early 2024 falls at the edge of the 0-3 versus 4-10-year bands.  Given this borderline timing and the absence of concrete financial metrics, the evidence warrants moderate—not high—severity scores (4-6 range).  The pandemic is portrayed as a contributing factor to supply-chain instability, possible operational outages, and counter-party default rather than as an isolated, overriding threat, which further tempers the overall risk rating.",
+        "evidence_list": [
+            {
+                "snippet": "The global supply chain has experienced, and is expected to continue to experience, disruptions due to a multitude of factors, such as geopolitical issues, supplier manufacturing constraints, labor issues, transportation issues, resource availability, long lead times, tariffs, tighter credit markets, inflation, pandemics and weather.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that disruptions have already been experienced (demonstrates realized impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Projects that disruptions will continue (forward-looking materiality).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly lists ‘pandemics’ as a causal factor, tying risk to the COVID-19 context.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemics are one item in a long list, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Provides both historical and expected future impact on supply chain, directly attributing part of the risk to pandemics, but generic wording lowers precision; moderate severity score of 6."
+            },
+            {
+                "snippet": "Storms and other natural disasters, including events such as floods, tornadoes, windstorms like the 2020 derecho in Iowa, blizzards, ice storms, extreme hot temperatures, extreme cold temperatures, fires, wildfires, solar flares or pandemics may adversely impact our ability to generate, purchase or distribute electric energy and gas or obtain fuel or other critical supplies.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemics as a threat that can directly hamper core utility functions (generation, purchase, distribution).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details specific operational consequences (inability to obtain fuel or critical supplies).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemics bundled with many unrelated catastrophes, reducing event-specific focus.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights operational vulnerability tied to pandemics but remains hypothetical and highly generalized; yields a lower moderate score of 3."
+            },
+            {
+                "snippet": "Our counterparties to these contracts may not fulfill their obligations to provide natural gas, coal, financial settlements or collateral to us due to financial or operational problems caused by natural disasters, severe weather, economic conditions, labor shortages, employee strikes, transportation issues, pandemics, physical attacks or cyber attacks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemics to potential counterparty default, exposing the company to supply and credit risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies tangible consequences (failure to supply fuel or collateral).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemic is one of many listed drivers, lessening direct attribution.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Demonstrates an unquantified but concrete exposure to pandemic-driven counterparty risk; mixture of factors and lack of metrics place the sentence in the mid-range at 4."
+            }
+        ],
+        "calculated_score": 13,
+        "average_severity": 4.333333333333333
+    }
+]

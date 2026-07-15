@@ -1,0 +1,218 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "EPAM’s 2020 Form 10-K links the COVID-19 pandemic to both realized and continuing risks that cut across financial results, operations and labor deployment.  Multiple passages confirm that the pandemic has already ‘adversely affected’ revenue, contract execution and collections, while also projecting further material harm.  The disclosure is recent (event began March 2020; filing Feb 2021) so time-decay is minimal, allowing high severity scores.  Language is specific: it cites customer facility closures, travel/visa blocks, remote-work cybersecurity gaps, revenue loss, bad-debt increases, and incremental cost burdens.  Although management notes some mitigating factors—robust remote-delivery capabilities and the belief that certain travel bans will not be materially adverse—these mitigations do not fully offset the broad, multi-factor threat profile.  Accordingly, most snippets earn scores in the 5-8 range, reflecting direct, current impacts plus credible forward-looking uncertainty, tempered where explicit mitigation is asserted.",
+        "evidence_list": [
+            {
+                "snippet": "Our results of operations have been adversely affected and could in the future be materially adversely affected by the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits current adverse impact already realized.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Forecasts future 'materially' adverse effects.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct acknowledgement of present and potential material harm warrants a high score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has created significant volatility in the price of our common stock, uncertainty in customer demand for our services, and widespread economic disruption.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates concrete impacts: stock volatility.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies demand uncertainty for services.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "References broad economic disruption.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Lists multiple specific impacts, each aggravating, reaching a strong risk signal."
+            },
+            {
+                "snippet": "The extent to which the coronavirus pandemic will further impact our business, operations and financial results will depend on numerous factors that are frequently changing or unknown, and that we may not be able to accurately predict, including: the duration and scope of the pandemic; governmental, business and individuals’ responses or planned responses to the pandemic, including availability and administration rates of vaccines; the impact of the pandemic on economic activity and any interventions or government relief or stimulus intended to mitigate decreased economic activity; the effect on our customers and customer demand for our products, services, and solutions; our ability to sell and provide our products, services, and solutions, including as a result of travel restrictions, personnel working from home or with diminished technology and communication abilities, and social distancing; the ability of our customers to pay timely, if at all, for our services and solutions with or without discounts requested by our customers; bankruptcy or other insolvency procedures among our customers; and closures of our and our customers’ offices and facilities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights unpredictability and broad scope of risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists multiple operational and financial stress points (travel bans, WFH limits, customer insolvency).",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Comprehensive but largely conditional; strong breadth offsets generic framing."
+            },
+            {
+                "snippet": "The closure of our customers’ facilities, restrictions that prevent our customers from accessing those facilities or their own customers, and broad disruptions in our customers’ markets and customer base, has disrupted, and could continue to disrupt the demand for our products, services, and solutions and result in, among other things, termination of customer contracts, delays or interruptions in the performance of contracts, losses of revenues, and an increase in bad debt expense.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports actual disruption already occurring.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details explicit financial consequences (contract terminations, revenue loss, bad debt).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Projects continuation of these negative effects.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Specific, realized and ongoing revenue-jeopardizing impacts justify near-maximum score."
+            },
+            {
+                "snippet": "Travel and immigration restrictions may delay or prevent our personnel from accessing worksites, and work-from-home or remote working arrangements could reduce profitability or increase information security, cyber security and connectivity vulnerabilities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies travel/visa limits hampering labor deployment.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links remote work to profit erosion and security risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking conditional phrasing reduces immediacy.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear operational threats with some uncertainty yield a solid mid-high score."
+            },
+            {
+                "snippet": "In addition, when COVID-19-related restrictions on businesses and consumers are eased, our ability to deliver services to our customers could be affected by any outbreak of illness among employees returning to our facilities or to our customers’ facilities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Points to risk of resurgence affecting service delivery.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Tied directly to employee health and operational continuity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific but narrower scenario; moderate risk acknowledgment."
+            },
+            {
+                "snippet": "Moreover, there may be additional costs that we will have to incur in connection with further changes to, or a return to, normal operating conditions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions pandemic-driven incremental costs.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Adds cost risk but without magnitude or detail, so relatively low score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic continued to cause substantial global public health and economic challenges during the fourth quarter of 2020 and our employees, communities and business operations, as well as the global economy and financial markets all continue to be affected.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms ongoing impact into reporting period.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple stakeholder groups and macro environment.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "States multi-dimensional, current influence—moderate severity."
+            },
+            {
+                "snippet": "Reduced demand from our customers and their customers, persistent financial distress in our customer base, and the continued volatility in macroeconomic conditions has and could continue to adversely impact revenues and decrease the collectability of our trade receivables.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic conditions to revenue decline.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights cash-collection risk (bad debt).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Combination of realized and future impacts.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Quantifies cash-flow dimension of pandemic risk; sizeable but not extreme."
+            },
+            {
+                "snippet": "Depending on the duration of the COVID-19 pandemic and the timing and speed of economic recovery, reduced revenue growth relative to prior years could extend beyond the fourth quarter of 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies potential prolonged revenue drag.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Forward-looking revenue concern; clear but singular, hence modest score."
+            },
+            {
+                "snippet": "Many of the countries where our personnel regularly conduct business have extended or expanded restrictions on travel and immigration from other countries, including a suspension of most immigration and non-immigration visas issued by the United States.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions concrete governmental constraints affecting labor mobility.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specific operational obstacle but effect on financials implied rather than detailed."
+            },
+            {
+                "snippet": "We therefore do not expect that COVID-19 related restrictions on group gatherings and non-essential businesses will have a material adverse effect on our ability to operate our business or productively deliver services to our customers, nor on our financial reporting systems, internal control over financial reporting, or disclosure controls and procedures.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Affirmative mitigation claim reduces perceived severity.",
+                            "points": -3
+                        }
+                    ],
+                    "final_snippet_score": -3
+                },
+                "reasoning_summary": "Explicitly downplays impact, acting as a mitigating counterweight."
+            }
+        ],
+        "calculated_score": 54,
+        "average_severity": 4.5
+    }
+]

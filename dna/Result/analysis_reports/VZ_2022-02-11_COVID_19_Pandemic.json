@@ -1,0 +1,217 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Verizon’s 2022-02-11 Form 10-K links COVID-19 to both realized and prospective risks across revenue, cost structure, supply‐chain continuity, workforce deployment and customer demand.  Management discloses that 2020 results were already hit by lower revenue, higher costs and reduced EPS, demonstrating a direct historical impact that remains relevant because the pandemic is still less than three years old.  Forward-looking language stresses that the crisis could “materially adversely affect” operations by altering how customers pay, how employees work, and how suppliers deliver, while also compounding ordinary-course risks such as financing and regulatory exposure.  Several passages highlight continuing uncertainty from new variants and the unknown duration of the crisis, providing only limited mitigation (“no material impact from the new variants thus far”).  Verizon also flags pandemic-driven global supply-chain disruption that could delay equipment and network builds.  Given the recency (0-3 years) and the mix of realized financial harm plus ongoing, potentially compounding threats, the overall risk profile is elevated; most evidence snippets warrant high scores (7-8) with modest downward adjustments where the company cites uncertainty or current immateriality.  Time-decay therefore does not materially reduce severity, but minor mitigation language prevents a blanket maximum score.",
+        "evidence_list": [
+            {
+                "snippet": "Public health crises, including the COVID-19 pandemic, could materially adversely affect our business, financial condition and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites COVID-19 as a potential cause of material adverse effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong wording ('materially adversely affect').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Event is recent (0-3 yrs); time-decay allows higher weighting.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct statement of potentially severe impact warrants a high score, tempered slightly because impact is still framed as potential."
+            },
+            {
+                "snippet": "We are subject to risks related to public health crises, such as the COVID-19 pandemic, which had an adverse effect on our operating results in 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to actual adverse operating results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Historical impact within the last two years (recency).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows realized negative impact, but without quantified magnitude, yielding a solid mid-high score."
+            },
+            {
+                "snippet": "As a result, our business, financial condition and results of operations could be materially adversely affected by a crisis, like the COVID-19 pandemic, that significantly impacts the way customers use and are able to pay for our products and services, the way our employees are able to provide services to our customers, and the ways that our partners and suppliers are able to provide products and services to us.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple operational channels (customers, employees, suppliers) subject to disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Employs strong material-adverse-effect language.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicit COVID-19 linkage.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Comprehensive description of how the pandemic can hurt core operations justifies a high score."
+            },
+            {
+                "snippet": "For example, public and private sector policies and initiatives to reduce the transmission of COVID-19 and initiatives Verizon took in response to the health crisis to promote the health and safety of our employees and provide critical infrastructure and connectivity to our customers, along with the related 14 global slowdown in economic activity, resulted in decreased revenues, increased costs and lower earnings per share during 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies direct causal link from COVID-19 policies to financial metrics.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Lists multiple adverse effects (decreased revenues, increased costs, lower EPS).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Impacts occurred within the recent 0-3 year window.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Concrete, multi-metric hit in 2020 represents severe, realized damage, driving one of the highest scores."
+            },
+            {
+                "snippet": "In addition, such a crisis could significantly increase the probability or consequences of the risks our business faces in ordinary circumstances, such as risks associated with our supplier and vendor relationships, risks of an economic slowdown, regulatory risks, and the costs and availability of financing.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights compounding effect on multiple existing risk categories.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses 'significantly increase' wording to stress magnitude.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows amplification of other risks, but less direct than financial-impact sentences, yielding a moderate score."
+            },
+            {
+                "snippet": "Because the severity, magnitude and duration of the COVID-19 pandemic and its economic consequences are uncertain and rapidly changing, the impact on our business, financial condition and results of operations in 2022 and beyond remains uncertain and difficult to predict.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing uncertainty about forward impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Event still recent; uncertainty itself signals continuing risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Explicitly states inability to predict, which slightly mitigates specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Emphasizes uncertainty rather than concrete harm, so score is low but non-zero."
+            },
+            {
+                "snippet": "In addition, the ultimate impact of the COVID-19 pandemic on our business, financial condition and results of operations depends on many factors, including those discussed above, that are not within our control.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States dependence on external, uncontrollable factors, pointing to exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Lacks specificity or quantified impact (mitigating).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Generic uncertainty without detail provides negligible incremental risk evidence."
+            },
+            {
+                "snippet": "These suppliers or vendors could fail to provide equipment or service on a timely basis, or fail to meet our performance expectations, for a number of reasons, including, for example, disruption to the global supply chain as a result of geopolitical factors, the COVID-19 pandemic, natural disasters or the potential impacts of global climate change.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 to supply-chain disruption that could delay equipment/services.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights operational consequence (failure to meet performance expectations).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific supply-chain angle elevates risk but absence of quantified impact keeps score moderate."
+            },
+            {
+                "snippet": "The impacts from the COVID-19 pandemic on our operations were significant during 2020, which affects the comparability of the results from 2021 to 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemic had 'significant' operational impacts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Refers to 2020 period—recent historical impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Acknowledges significant, recent disruption; lack of financial detail keeps score in mid-high range."
+            },
+            {
+                "snippet": "The COVID-19 pandemic continues to be dynamic, and near-term challenges across the economy remain, including the recent surge of new virus variants across the U.S.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Signals ongoing, evolving threat and new variants.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "References broader economic challenges, widening scope.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights continuing volatility but without concrete impact, leading to a modest score."
+            },
+            {
+                "snippet": "While we have not experienced a material impact on our business from these new variants thus far, we cannot predict with certainty the ultimate impact they may have on our results of operations in the future, and will continue to monitor their daily evolution.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges monitoring and uncertainty about future impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "States no material impact so far, which mitigates severity.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Explicit mitigation ('no material impact') offsets the generic uncertainty, resulting in a neutral score."
+            }
+        ],
+        "calculated_score": 42,
+        "average_severity": 3.8181818181818183
+    }
+]

@@ -1,0 +1,197 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "VRSK’s 2021 Form 10-K provides a relatively data-rich, near-term view of how the COVID-19 pandemic has affected—and could continue to affect—the company.  The disclosure spans two dimensions.  First, it confirms that COVID-19 is already producing measurable, adverse revenue impacts: a clearly quantified 11 % decline in the company’s most transaction-oriented solutions and evidence of demand weakness at key insurance and energy customers.  Second, it sets out multiple mitigating factors: 85 % of revenue is insulated by long-term subscriptions, digital delivery allows a rapid shift to remote work, and management reports no liquidity stress or covenant breaches.  Overall, the risk is recent (≤ 1 year at the filing date) and partially realised but also meaningfully cushioned.  Applying the Time-Decay principle (recent event ⇒ high potential scores) and netting the aggravating and mitigating disclosures, the portfolio of sentences yields a spectrum of micro-scores that cluster in the mid-to-high range for quantified impact statements (7-9) and low-to-moderate range (0-3) for generic or strongly mitigated statements.  The aggregate narrative points to a moderate-to-high risk level that management is actively monitoring but has not fully neutralised.",
+        "evidence_list": [
+            {
+                "snippet": "In addition to the effects of the COVID-19 pandemic and resulting global disruptions on our business and operations discussed in Item 7 of Part II, \"Management's Discussion Analysis of Financial Condition and Results of Operations,\" and in the risk factors below, additional or unforeseen effects from the COVID-19 pandemic and the global economic climate may give rise to or amplify many of the risks discussed below.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to the company’s existing and future risk portfolio (‘may give rise to or amplify many of the risks’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Language is forward-looking and conditional (‘may’), indicating uncertainty rather than realised impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic but direct acknowledgement that COVID-19 could magnify multiple risks; no quantification or current impact, so score is low (1)."
+            },
+            {
+                "snippet": "Since January 2020, an outbreak of the 2019 novel coronavirus (\"COVID-19\") has evolved into a worldwide pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Positions the timing and global scope of the pandemic, establishing relevance and recency.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Statement establishes context only; no company-specific impact, so minimal score."
+            },
+            {
+                "snippet": "We have modified our operations in line with our business continuity plans due to COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates operational disruption necessitating changes.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Simultaneously signals existence of a continuity plan (mitigation).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Operational impact fully offset by preparedness—risk neutral (score 0)."
+            },
+            {
+                "snippet": "While our facilities generally remain open, we are making extensive use of the work-from-home model at this moment.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights large-scale shift to remote work, evidencing workforce disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presents as successfully implemented without indicating problems (mitigation).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Remote-work transition acknowledged but framed as controlled; net neutral score."
+            },
+            {
+                "snippet": "We have not identified any material impact stemming from COVID-19 on approximately 85% of our revenues at this point, as much of these revenues are subscription in nature and subject to long-term contracts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies a large protected revenue base, acting as a strong mitigating factor.",
+                            "points": -4
+                        },
+                        {
+                            "reason": "Still ties statement to COVID-19 impact analysis (shows monitoring).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": -3
+                },
+                "reasoning_summary": "Dominant content is mitigating; overall risk contribution negative (-3) indicating cushioning against pandemic effects."
+            },
+            {
+                "snippet": "Of the remaining 15%, we have identified specific solutions and services, largely transactional in nature, that are being impacted by COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Isolates a discrete revenue segment affected by COVID-19 (direct impact).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Flags a clear affected revenue slice but without numbers; moderate score."
+            },
+            {
+                "snippet": "The portion of our revenue that is attributable to these solutions has been negatively impacted by COVID-19, and declined approximately 11% for the year ended December 31, 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes revenue decline to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Provides hard quantification (11% decline).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses negative impact language (‘declined’, ‘negatively impacted’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Recent, quantified, material revenue loss = high severity (score 8)."
+            },
+            {
+                "snippet": "The primary causal factors are lower auto and travel insurance activity, the inability to enter commercial buildings to perform engineering analyses, decreased capital expenditure in the energy sector, and reduced levels of advertising by financial institutions and marketers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple demand-side and operational channels through which COVID-19 hits revenue.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Shows breadth across industries (insurance, energy, advertising) increasing systemic risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Lists concrete mechanisms of impact across sectors; moderate-high risk evidence (score 5)."
+            },
+            {
+                "snippet": "Although we have experienced a decline in revenue attributable to these specific solutions during the last two weeks of March 2020 and through the period ended December 31, 2020, currently we do not anticipate lasting impacts of a material nature to our long-term growth profile.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges realised revenue decline (aggravating).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States expectation of no lasting material impact (strong mitigation).",
+                            "points": -3
+                        }
+                    ],
+                    "final_snippet_score": -1
+                },
+                "reasoning_summary": "Risk noted but heavily down-played; net negative score reflects mitigation outweighing impact."
+            },
+            {
+                "snippet": "Based on the most recent results available, direct premium growth and net premium growth slowed down significantly in 2020 due to the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemic-driven downturn in a key customer metric (insurance premiums).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong wording ‘slowed down significantly’.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows indirect but material demand risk via customers; moderate score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic had a major impact on global economic growth, commodity flows and prices in 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States broad macroeconomic disruption attributable to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Use of phrase ‘major impact’ signals severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Broad macro risk statement—adds context but not company-specific quantification; modest score."
+            }
+        ],
+        "calculated_score": 21,
+        "average_severity": 1.9090909090909092
+    }
+]

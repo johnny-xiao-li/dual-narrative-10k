@@ -1,0 +1,122 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is discussed as both a realized and continuing threat.  KEYS explicitly states that the pandemic \"has had\" supply-chain impacts and still \"could\" materially affect operations, revenue, and financial condition.  The narrative highlights concrete operational channels of risk—component procurement, manufacturing delays, delivery slow-downs, and workforce/site interruptions driven by evolving variants and governmental health orders.  However, no dollar figures are provided and the language remains largely qualitative.  Because the filing date (15 Dec 2023) is less than four years after the World Health Organization declared the pandemic (11 Mar 2020), the Time-Decay principle permits relatively high scores, yet a small downward adjustment is warranted as the event creeps toward the medium-term window.  Overall, the risk evidence is recent, direct, and multi-faceted, meriting upper-moderate severity across the extracted sentences.",
+        "evidence_list": [
+            {
+                "snippet": "Global health crises, such as the COVID-19 pandemic, have had an impact on our supply chain and could have a material impact on our global operations, our customers and our vendors, which could adversely impact our business results and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 explicitly, linking it to the company.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States an impact has already occurred (\"have had\"), showing realized risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forecasts future, potentially \"material\" impacts on global operations and financial condition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions supply-chain disruption, a core pandemic channel.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Event is ~3.75 years old, slight time-decay reduction.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Directly ties COVID-19 to past and possible material impacts on supply chain and finances; recent enough for a high-moderate score after minor time-decay."
+            },
+            {
+                "snippet": "For example, the continued evolution of COVID-19 and its variants, as well as periodic spikes in infection rates, local outbreaks on our sites or supplier, customer or vendor sites, in spite of safety measures or vaccinations, could cause disruptions to our operations or those of our suppliers, customers or vendors.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit reference to evolving COVID-19 variants and infection spikes.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details multiple disruption points (company sites, suppliers, customers, vendors).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights that current safety measures may be insufficient, increasing risk severity.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking conditional language ('could cause') without quantification.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Time-decay adjustment as event approaches 4-year mark.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows concrete operational exposure to ongoing COVID-19 variants; strong immediacy but no financial figures yields a solid moderate score."
+            },
+            {
+                "snippet": "Pandemic conditions could lead to global supply chain challenges, which could adversely impact our ability to procure certain components and could impact our ability to manufacture products and cause delays in delivery of our solutions to our customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic directly to global supply-chain challenges and component procurement.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes knock-on effects: manufacturing disruption and delivery delays.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional ('could') and unquantified, tempering severity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Time-decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Identifies key operational choke-points but in general terms; after reductions the evidence supports a lower-moderate score."
+            },
+            {
+                "snippet": "As new variants of viruses appear, especially variants that are more easily spread, cause more serious outcomes, or are resistant to existing vaccines, new health orders and safety protocols could further impact our on-site operations and our ability to manufacture, ship or deliver products and solutions to customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights risk of vaccine-resistant variants elevating uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies operational levers—manufacturing, shipping, delivery—that may be hit.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking conditional language, no quantification.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Time-decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Shows plausible escalation pathway via new variants but remains speculative; modest score after deductions."
+            }
+        ],
+        "calculated_score": 15,
+        "average_severity": 3.75
+    }
+]

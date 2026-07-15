@@ -1,0 +1,62 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated December 18 2024, discusses the COVID-19 pandemic in a section on broad macro–economic risks.  Because the first wave of the pandemic began in March 2020, the reference event is now roughly four years old—squarely in the Time-Decay “medium-term” window (4-10 years), which caps individual evidence scores at a moderate level (≈4-6).  The disclosure provides a single, explicit sentence acknowledging that the pandemic has already produced negative macro-economic effects and may continue to generate volatility going forward.  However, the company neither quantifies the specific financial hit nor details operational counter-measures (e.g., remote-work policies, supply-chain redesign, labour management).  Additional language elsewhere in the filing refers to “pandemics or other public health crises” only generically, positioning them alongside other possible disruptions such as armed conflict or severe weather; these statements are purely contingent and do not confirm an existing impact.  Overall, the pandemic is framed as an external, ongoing threat rather than an acute, company-specific crisis.  Given the elapsed time since the initial outbreak, the absence of quantified loss data, and the largely generic tone of the risk language, the overall evidentiary weight is moderate and fully consistent with a medium-term Time-Decay ceiling.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic and related preventative and mitigation measures implemented by governments around the world and the conflicts in Europe and the Middle East have negatively impacted the global economy and created significant volatility and disruption of financial markets, and may continue to do so in future periods.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names the COVID-19 pandemic explicitly and links it to negative economic impacts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes concrete consequences—‘significant volatility and disruption of financial markets’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking clause (‘may continue to do so in future periods’) signals ongoing risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No company-specific figures or quantified losses are provided, reducing severity clarity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Directly ties COVID-19 to material macro-economic disruption and flags future exposure, but lacks company-specific quantification; medium-term Time-Decay caps the score at a moderate 6."
+            },
+            {
+                "snippet": "In addition, our facilities, supply chains, distribution systems and products may be impacted by natural or man-made disruptions, including armed conflict, demand surges, damaging weather or other acts of nature (including weather or other acts of nature caused by climate change), pandemics or other public health crises.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘pandemics or other public health crises’ as a potential disruption source.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights critical operational areas that could be affected (facilities, supply chains, distribution systems, products).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Purely precautionary; does not state that such impacts have occurred or provide data.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic, forward-looking mention of pandemic-related disruptions without evidence of actual impact merits a lower, but still positive, risk score of 3."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 4.5
+    }
+]

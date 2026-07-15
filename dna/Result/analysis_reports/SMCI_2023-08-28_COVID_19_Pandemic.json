@@ -1,0 +1,140 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "SMCI’s 2023-08-28 Form 10-K frames COVID-19 as an ongoing, multi-dimensional risk that still influences demand, component availability, costs and financial predictability more than three years after the World Health Organization declared the pandemic.  The company repeatedly cites the “lingering effects” of COVID-19 alongside other macro shocks, indicating that the pandemic is no longer an acute crisis but a persistent operational head-wind.  Specific forward-looking disclosures note (a) possible deferral of customer spending, (b) continuing volatility and shortage of semiconductors and other key parts, (c) sustained elevation of logistics and labor costs, and (d) the need for extraordinary inventory-buffering actions.  These statements are largely qualitative and unquantified but they tie directly to core value drivers—revenue growth, gross margin and supply-chain continuity—so they remain material.  Because the filing date is only about 3½ years after the pandemic’s onset, the Time Decay Principle allows moderate-to-high severity scores (roughly 4-6) for the stronger evidence; however, the risk is discussed together with other global events and some mitigation steps (e.g., pre-buying inventory), which tempers the overall severity.  Accordingly, the extracted snippets receive mid-range scores that reflect a live, but now better-understood and partially managed, risk profile.",
+        "evidence_list": [
+            {
+                "snippet": "If economic conditions, including inflation, increased interest rates, economic output and currency exchange rates, in these markets and other key potential markets for our Total IT Solutions remain uncertain or further deteriorate, including as a result of the downturn in the global economy, the Russia-Ukraine conflict and related sanctions and trade restrictions, the effects of the COVID-19 pandemic or other reasons, customers may delay or reduce their spending.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links COVID-19 to potential reduction in customer spending (demand risk).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses forward-looking language ('may delay or reduce'), indicating continuing exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "COVID-19 is listed among several factors, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "The sentence ties the pandemic to a possible decline in revenue, a core metric, but shares the spotlight with other macro factors, yielding a solid yet not extreme risk score."
+            },
+            {
+                "snippet": "The market for key components became, and continues to be, more volatile during the global economic downturn, the COVID-19 pandemic and lingering effects thereof, and recent events in eastern Europe.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that COVID-19 has made the component market more volatile—a direct supply-chain impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Phrase 'continues to be' signals an ongoing condition, not merely historical.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions other events alongside COVID-19, slightly softening attribution.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Explicit, forward-looking linkage between COVID-19 and supply-chain volatility justifies a moderate-high score, tempered by the reference to other events."
+            },
+            {
+                "snippet": "The COVID-19 pandemic, other macroeconomic factors exacerbated by the COVID-19 pandemic, lingering effects from the COVID-19 pandemic, and other factors, have in the past resulted in, and may in future result in additional shortages of key semiconductors.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to both historical and potential future semiconductor shortages—critical to operations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies key component (semiconductors) integral to product delivery, heightening materiality.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Explicitly projects future risk ('may in future result'), showing persistence.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Because it links COVID-19 to shortages of a mission-critical input and flags ongoing exposure, this snippet earns the highest score among the evidence."
+            },
+            {
+                "snippet": "In the past, we have taken certain actions including our increased purchase of certain critical materials and components as a part of our response planning for various uncertainties and risks, such as those related to the COVID-19 pandemic and lingering effects therefrom.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges COVID-19-related risk requiring proactive supply-chain action.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes a concrete mitigation step (increased pre-purchasing of materials).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Indicates the risk’s effects are still ‘lingering’.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Although it affirms the risk’s existence, the spotlight is on mitigation, so the net severity is low."
+            },
+            {
+                "snippet": "We expect these higher costs to continue for the duration of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Projects ongoing elevated costs directly tied to the pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses definitive forward-looking language ('expect ... to continue'), underscoring persistence.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantitative magnitude provided, reducing precision.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Clear, forward-looking cost pressure tied to COVID-19 but unquantified, warranting a mid-level score."
+            },
+            {
+                "snippet": "The global business landscape encountered widespread disruption as a consequence of the COVID-19 pandemic, which commenced in early 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges broad, systemic disruption caused by COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights global scope, implying multi-regional exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Framed historically, so immediacy is less pronounced.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Captures the pandemic’s sweeping impact but is retrospective and generic, resulting in a moderate score."
+            }
+        ],
+        "calculated_score": 22,
+        "average_severity": 3.6666666666666665
+    }
+]

@@ -1,0 +1,180 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "State Street’s 2022 filing devotes a discrete, multi-sentence passage to the ongoing effects of COVID-19.  The language states that the pandemic is not a historical footnote but a *continuing* source of “significant risks and uncertainties,” explicitly naming potential damage to revenue, capital, liquidity ratios, staffing, cybersecurity, transaction-processing capacity and client service levels.  The risk is framed as forward-looking and conditional— management stresses that the ultimate scale of impact “cannot be predicted.”  Nevertheless, the text lists concrete transmission channels (remote-work dependence, labor shortages, return-to-office challenges, supply-chain disruptions, volatility in equity and fixed-income markets) that clearly map to the requested themes (supply chain, labour, remote work, demand shifts).  Because the 10-K was filed only two years after the World Health Organization declared COVID-19 a pandemic, the Time-Decay principle permits high severity scores.  Mitigating factors are minimal—there is no quantification of losses or disclosure of offsets—so the overall risk tone remains acute and recent.  Accordingly, individual sentences that deliver specific mechanisms or business-line exposures are scored in the upper half of the 0-10 scale, with minor deductions where the text is general, caveated or un-quantified.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic continues to create significant risks and uncertainties for our business.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to the company’s risk profile (‘significant risks and uncertainties’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses present-tense verb ‘continues,’ confirming current, ongoing exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No numerical sizing or business-line detail provided.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct statement of material, current pandemic risk; lack of quantification keeps score at 7."
+            },
+            {
+                "snippet": "The extent to which the COVID-19 pandemic continues to impact our business, results of operations, and financial condition, as well as our regulatory capital and liquidity ratios and other regulatory requirements in the United States and internationally, will depend on future developments, which are highly uncertain and cannot be predicted, including the scope and duration of the pandemic, the effectiveness of our work from home arrangements and staffing levels in operational facilities, challenges associated with our return to office plans such as maintaining a safe office environment and integrating and engaging at-home and  in-office staff, the impact of market participants on which we rely, actions taken by governmental authorities and other third parties in response to the pandemic and the impact of equity market valuations and extended sales and implementation cycles for some clients on our service and management fee revenue.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to multiple core metrics (business, operations, capital, liquidity, regulatory ratios).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Details specific operational channels: work-from-home, staffing, return-to-office, client implementation delays.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges high uncertainty, signalling forward-looking rather than realised impact.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "References revenue sensitivity (service and management fees).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Broad, granular mapping of pandemic pathways into financial results merits a high score despite uncertainty caveat."
+            },
+            {
+                "snippet": "While global economic pressures related to the COVID-19 pandemic have moderated, the pandemic continues to create economic uncertainty which may lead to negative future impacts to the global economy, cause fluctuations in equity market valuations, decrease liquidity in fixed income markets, or create volatility and disruption in financial markets.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to macro-level economic uncertainty and specific market mechanisms (valuations, liquidity, volatility).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Potential for ‘negative future impacts’ highlights forward-looking threat.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Moderation language slightly tempers severity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Covers several asset classes relevant to the firm’s revenue streams.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Enumerates concrete market-impact vectors; moderation clause keeps score mid-high."
+            },
+            {
+                "snippet": "Any such impacts may lead to renewed outsized demands on our transaction processing capabilities in our asset servicing business and volatility in our foreign exchange and asset management businesses.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Ties pandemic-driven market stress to operational strain in core business lines (transaction processing).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights business-specific revenue volatility (FX, asset management).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Statement is conditional (‘may’) and lacks quantification.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct channel from pandemic impact to business-line stress earns solid score."
+            },
+            {
+                "snippet": "In addition, our and other market participants’ reliance upon work from home capabilities in light of the pandemic, and the potential inability to maintain critical staff in our operational facilities, including facilities in the United States, the United Kingdom, Germany, China, India and Poland, present risks associated with our and local infrastructure, increasingly restrictive local regulations, illness, quarantine, the sustainability of a work from home environment and increased risk of cybersecurity attacks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Addresses remote-work dependence, a key pandemic labour issue.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies staffing shortages across multiple geographies.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Adds secondary risk (cybersecurity) enhancing severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No financial magnitude provided.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Multi-country staffing and cyber vulnerabilities tied to COVID-driven remote work justify elevated risk score."
+            },
+            {
+                "snippet": "Any material or extended disruption of our ability to deliver services or meet our responsibilities in the settlement of securities or other market activities is likely to result in operating losses, loss of revenue or penalties under our service contracts which may have a material adverse impact on our results of operation and financial condition.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States potential for ‘operating losses’ and ‘material adverse impact’ on financial condition.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights contractual penalty exposure—evidence of tangible downside.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not directly reference COVID-19, reducing relevance.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Strong loss language, but indirect linkage to pandemic yields a modest score."
+            },
+            {
+                "snippet": "New pressures on the global economy are also arising from ongoing disruptions to global supply chains and material shifts in employment trends and may drive negative impacts on our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly flags supply-chain disruptions and employment shifts—key pandemic themes.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects these macro pressures to potential business harm.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not explicitly cite COVID-19 as the root cause.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific mention of supply-chain and labour shocks relevant to pandemic, albeit without direct attribution."
+            }
+        ],
+        "calculated_score": 43,
+        "average_severity": 6.142857142857143
+    }
+]

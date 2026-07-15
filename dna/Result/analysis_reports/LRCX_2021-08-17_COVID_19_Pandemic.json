@@ -1,0 +1,173 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Lam Research’s 2021 Form 10-K ties the COVID-19 pandemic to multiple, already-realised disruptions across the company’s value chain and warns of continuing, potentially “material” impacts.  Because the filing date (August 2021) falls well within three years of the World Health Organization’s pandemic declaration (March 2020), the Time Decay Principle permits high severity ratings.  The disclosure is not merely hypothetical: management states that COVID-related restrictions have *already* delayed shipments, raised costs, reduced revenue and profitability, and constrained cash generation, while simultaneously threatening supply-chain continuity, labour availability, facility uptime, and customer demand.  Although the narrative contains some forward-looking language (“could further,” “may continue”), the dominant tone is that of an ongoing, direct impact with few concrete mitigations beyond generic references to business-continuity plans and alternative sourcing.  The statements are mostly qualitative, lacking hard dollar figures, but the breadth and immediacy of effects—combined with use of strong qualifiers such as “material adverse effect”—support elevated risk scores (generally in the 5-8 range) under the recent-event window.",
+        "evidence_list": [
+            {
+                "snippet": "Many of the following risk factors have been, and could be further, exacerbated by the COVID-19 pandemic and any worsening of the global business and economic environment as a result.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to amplification of multiple corporate risk factors.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Language is broad and unquantified, lowering precision of impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Provides a generic but direct link between COVID-19 and heightened risk; lack of specifics tempers the score."
+            },
+            {
+                "snippet": "For example, the COVID-19 outbreak has impacted and could further impact our ability to meet the demand for our products due to production, sourcing, logistics and other challenges resulting from quarantines, shelter in place or “stay at home” orders, facility closures, workforce challenges, and travel and logistics restrictions in connection with the outbreak.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that COVID-19 has *already* impaired the company’s ability to meet demand (current impact).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Lists specific operational choke-points (production, sourcing, logistics, workforce).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Adds forward-looking risk ('could further impact').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No numeric magnitude cited.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct, detailed operational effects yield a high-moderate score despite lack of quantification."
+            },
+            {
+                "snippet": "The COVID-19 outbreak and efforts by national, state and local governments worldwide to control its spread have resulted in widespread measures aimed at containing the disease such as quarantines, travel bans, shutdowns, and shelter in place or “stay at home” orders, which collectively have significantly restricted the movement of people and goods and the ability of businesses to operate.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes government actions and their macro-level restriction on business operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses the word 'significantly', signalling severity.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Statement is broad to all businesses, not solely LRCX-specific.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Captures the external context of restrictions; relevance is indirect, so score is modest."
+            },
+            {
+                "snippet": "These restrictions and measures, incidents of confirmed or suspected infections within our workforce or those of our suppliers or other business partners, and our efforts to act in the best interests of our employees, customers, and suppliers, have affected and are affecting our business and operations by, among other things, causing facility closures, production delays and capacity limitations; disrupting production by our supply chain; disrupting the transport of goods from our supply chain to us and from us to our customers; requiring modifications to our business processes; requiring the implementation of business continuity plans; requiring the development and qualification of alternative sources of supply; requiring the implementation of social distancing measures that require changes to existing manufacturing processes; disrupting business travel; disrupting our ability to staff our on-site manufacturing and research and development facilities; delaying capital expansion projects; and necessitating teleworking by a large proportion of our workforce.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates a comprehensive list of direct operational disruptions already occurring.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses present-progressive tense ('have affected and are affecting'), indicating ongoing impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers both internal operations and external supply chain, widening exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No financial metrics provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Extensive, current operational harm pushes the score high despite qualitative nature."
+            },
+            {
+                "snippet": "These impacts have caused and are expected to continue to cause delays in product shipments and product development, increases in costs, and decreases in revenue, profitability and cash from operations, which have caused and are expected to cause an adverse effect on our results of operations that may be material.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 effects to core financial metrics (revenue, profitability, cash).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong qualifier 'material', signalling potentially severe magnitude.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Projects continuing future impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Still qualitative/no dollar figures.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Highlights material financial harm—elevated risk even without numeric detail."
+            },
+            {
+                "snippet": "The potential duration and impact of the outbreak on the global economy and on our business are difficult to predict and cannot be estimated with any degree of certainty, but the outbreak has resulted in significant disruption of global financial markets, increases in levels of unemployment, and economic uncertainty, which has adversely impacted our business and may continue to do so, and may lead to significant negative impacts on customer spending, demand for our products, the ability of our customers to pay, our financial condition and the financial condition of our suppliers, and our access to external sources of financing to fund our operations and capital expenditures.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges actual adverse impacts and possibility of further significant negatives.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists multiple downstream financial threats (customer spending, financing, etc.).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasises uncertainty of duration and magnitude, slightly diluting precision.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Captures broad financial-market and demand-side risks; uncertainty moderates the score."
+            },
+            {
+                "snippet": "For example, the COVID-19 outbreak has impacted and could further impact our manufacturing operations, supply chain, and customer support due to production, sourcing, logistics and other challenges resulting from quarantines, stay at home orders, facility closures, workforce challenges, and travel and logistics restrictions in connection with the outbreak.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links pandemic to manufacturing and supply-chain disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies concrete obstacles (production, sourcing, logistics).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Includes forward-looking language ('could further impact').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantitative or materiality language provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Reinforces operational vulnerability, but absence of materiality language keeps score moderate."
+            }
+        ],
+        "calculated_score": 30,
+        "average_severity": 4.285714285714286
+    }
+]

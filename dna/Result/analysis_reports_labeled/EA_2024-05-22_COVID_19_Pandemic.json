@@ -1,0 +1,96 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "EA’s 2024 Form 10-K only references pandemic exposure in a broad, catch-all ‘catastrophic events’ paragraph rather than in a stand-alone COVID-19 discussion. The company frames pandemics as one of several disruptive forces that *could* impair IT infrastructure, shut public venues, endanger employee health, and depress consumer demand, but it provides no quantitative data or disclosure of actual pandemic-related impacts. Four years have elapsed since COVID-19’s onset, placing the disclosure in the medium-term window under the Time Decay Principle; consequently, maximum severity must be tempered. The language is forward-looking and highly generalized, yet it still acknowledges the possibility of material harm to revenue, operations, brand and workforce, and briefly ties hybrid-work cyber-risks to increased remote access. Because the disclosure lacks specificity, is bundled with other hazards, and describes only potential—not realized—effects, the overall evidence supports a moderate residual risk level, with individual snippet scores capped in the 4-5 range.",
+        "evidence_list": [
+            {
+                "snippet": "Catastrophic events, including natural disasters, cyber-incidents, power disruptions, pandemics, acts of terrorism or other events have caused, and in the future could cause, outages, disruptions and/or degradations of our infrastructure (including our or our partners’ information technology and network systems), a failure in our ability to conduct normal business operations, or the closure of public spaces in which players engage with our games and services all of which could materially impact our reputation and brand, financial condition and operating results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘pandemics’ as a risk driver.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details multiple operational consequences (outages, closure of public spaces, inability to conduct normal operations).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States potential for material impact on reputation, brand, financial condition and results.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional/forward-looking wording (‘could’), indicating uncertainty rather than current damage.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Bundled with other hazards, reducing pandemic-specific precision.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "The sentence directly links pandemics to potentially material business disruptions but is forward-looking and generic; medium-term timing caps the score at a moderate 5."
+            },
+            {
+                "snippet": "The health and safety of our employees, players, third-party organizations with whom we partner, or regulatory agencies on which we rely could be also affected, any of which may prevent us from executing against our business strategies and/or cause a decrease in consumer demand for our products and services.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights human-health impact that can impair strategy execution and reduce demand—common pandemic effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects workforce/partner health to operational disruption and revenue risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Purely potential (‘could’) and lacks explicit pandemic mention.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Generic applicability to other hazards lowers pandemic specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Captures health-driven operational and demand risk, but absence of direct pandemic wording and highly generic framing reduce severity to 1."
+            },
+            {
+                "snippet": "Remote access to our networks and systems, and the networks and systems of our partners is substantial. While we and our partners have taken steps to secure our networks and systems, these networks and systems may be more vulnerable to a successful cyber-attack or information security incident in a hybrid working model.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies hybrid/remote work model as creating heightened vulnerability—an indirect, lasting effect of the pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges increased risk of cyber-attacks and incidents stemming from remote access.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Mentions existing mitigation efforts (‘taken steps to secure’).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Does not explicitly attribute hybrid work to COVID-19, and impact remains hypothetical.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Shows enduring pandemic-related remote-work exposure but with mitigations and no direct COVID reference, resulting in a low score of 1."
+            }
+        ],
+        "calculated_score": 7,
+        "average_severity": 2.3333333333333335
+    }
+]

@@ -1,0 +1,76 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Company J’s 2023 filing contains only a narrow—but still material—set of pandemic-related disclosures.  Direct references to “COVID-19” are absent, yet the risk language clearly traces back to pandemic-driven operating changes, namely the sustained shift to remote work.  Management flags that ongoing remote arrangements create potential labor-supply constraints, additional training/supervision costs, cultural-cohesion issues and regulatory-compliance gaps.  These statements are forward-looking (\"continued success is dependent\", \"must adopt new techniques\"), unquantified, and framed as conditional risks rather than as already-incurred losses, so they are moderately specific but not severe.  Because the pandemic is within the 0-3-year “recent event” window, scores can be as high as 10, yet the generic, non-financial wording warrants mid-range values (4-6).  No significant mitigating language—other than a brief note that the company will “adopt new techniques”—is provided.  Overall, the filing signals an enduring, moderate operational exposure to pandemic-born remote-work realities rather than a critical, quantified financial threat.",
+        "evidence_list": [
+            {
+                "snippet": "Our continued success is dependent upon our ability to hire, retain, and utilize qualified personnel while managing the risks associated with sustained remote working arrangements.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights dependence on critical labor supply (hiring, retention, utilization).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly cites ‘sustained remote working arrangements,’ a direct, ongoing pandemic-related condition.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "The sentence links core workforce performance to long-term remote-work risk without offering mitigation, meriting a solid mid-level score of 6 within the recent-event window."
+            },
+            {
+                "snippet": "As many of our employees work remotely, we must adopt new techniques and tools to effectively train and integrate new hires and preserve our culture.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms that remote work is widespread (“many of our employees”), signalling scale of risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies operational challenges (training, integration, culture) stemming from remote model.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions adoption of new techniques and tools, a partial mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Acknowledges broad remote-work exposure and related process gaps, but partial mitigation note tempers severity, yielding a score of 4."
+            },
+            {
+                "snippet": "Failure to effectively train our employees could create challenges for us in maintaining high levels of employee awareness of, and compliance with, our internal procedures and external regulatory compliance requirements, in addition to increasing our recruiting, training and supervisory costs, while failure to preserve our culture for any reason could harm our future success, including our ability to retain and recruit personnel, innovate and operate effectively and execute on our business strategy.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple operational and regulatory risks if remote-related training efforts fall short.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "References direct financial impact via higher costs (recruiting, training, supervision).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights strategic consequences (harm to future success, innovation, execution).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Enumerates concrete cost and performance dangers tied to inadequate remote-work training, with no offsetting mitigants, justifying a score of 6."
+            }
+        ],
+        "calculated_score": 16,
+        "average_severity": 5.333333333333333
+    }
+]

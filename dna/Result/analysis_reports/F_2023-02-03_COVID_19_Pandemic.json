@@ -1,0 +1,214 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Ford’s 2023-02-03 Form 10-K devotes extensive, specific discussion to the continuing consequences of the COVID-19 pandemic across virtually every layer of its business.  The company confirms that it already “idled” plants world-wide in 2020, absorbed cash-flow deterioration when production stopped, and still experiences “intermittent” shutdowns and cost spikes tied to renewed outbreaks (e.g., China lockdowns).  Management also warns that any fresh surge could again halt manufacturing, erode margins, strain liquidity, and undermine Ford Credit through lower loan originations and higher default rates.  The filing further cites pandemic-driven volatility in capital markets that raised funding costs and points to persistent labour shortages, supplier failures, and semiconductor constraints that elevate expenses and constrain output.  All of these references are recent (within three years of the March 2020 WHO declaration) and outline both realised impacts (plant closures, higher costs, reduced wholesales) and forward-looking exposures (potential future shutdowns, credit losses).  The language is company-specific, details operational and financial channels, and contains very limited mitigating language.  Given the Time Decay Principle, the pandemic remains a ‘recent’ event, so individual snippets can justifiably receive high—but not automatically maximum—severity scores depending on whether they describe an actual, quantified hit (higher) or a contingent, generic risk (lower).",
+        "evidence_list": [
+            {
+                "snippet": "Operational Risks Ford and Ford Credit’s financial condition and results of operations have been and may continue to be adversely affected by public health issues, including epidemics or pandemics such as COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to adverse effects on financial condition and results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States impact is both historical (\"have been\") and forward-looking (\"may continue\"), signalling persistence.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct acknowledgement of past and continuing adverse impacts, but no quantification, so mid-level severity."
+            },
+            {
+                "snippet": "The impact of COVID-19, including changes in consumer behavior, pandemic fears and market downturns, and restrictions on business and individual activities, has periodically created significant volatility in the global economy.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple pandemic-driven channels (consumer behaviour, restrictions) that affect demand.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes ‘significant volatility’ already created—indicates realised macro risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows realised macro volatility but remains high-level and unquantified."
+            },
+            {
+                "snippet": "For example, in 2020, consistent with the actions taken by governmental authorities, we idled our manufacturing operations in regions around the world before ultimately resuming our manufacturing operations taking a phased approach and after introducing new safety protocols at our plants.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites concrete historical action—world-wide plant idling due to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Global scope (‘regions around the world’) underscores materiality.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Implies operational complexity (phased restart, new protocols) evidencing disruption.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specific, company-level shutdown demonstrates severe realised operational impact; high score."
+            },
+            {
+                "snippet": "A future suspension of our manufacturing operations could have a significant adverse effect on our financial condition and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forecasts serious financial harm from renewed shutdowns; highlights vulnerability.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Purely forward-looking without detail, so lower but notable severity."
+            },
+            {
+                "snippet": "Moreover, outbreaks in certain regions continue to cause intermittent disruptions in our supply chain and local manufacturing operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States ongoing (‘continue’) supply-chain and manufacturing disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies geographical selectivity (‘certain regions’), showing operational breadth.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Describes current disruptions but without financial quantification—moderate risk level."
+            },
+            {
+                "snippet": "For example, in China, outbreaks of COVID-19 have led the government to impose lockdowns and other restrictions, which have adversely affected our and our supply chain’s production operations, our wholesales, and consumer demand for our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Country-specific example of lockdowns causing adverse effects on production.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists multiple financial/operational hits—wholesales and consumer demand.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Detailed, multi-faceted harm in a key market elevates severity."
+            },
+            {
+                "snippet": "The predominant share of Ford Credit’s business consists of financing Ford and Lincoln vehicles, and the duration or resurgence of public health issues such as COVID-19 may negatively impact the level of originations at Ford Credit.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights potential volume decline in financing arm due to pandemic conditions.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Identifies a specific business-line exposure but is conditional; moderate score."
+            },
+            {
+                "snippet": "The volatility created by COVID-19 adversely affected Ford and Ford Credit’s access to the debt and securitization markets and its cost of funding, and any volatility in the capital markets as a result of a public health issue or for any other reason could have an adverse impact on Ford and Ford Credit’s access to those markets and its cost of funding.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to impaired capital-market access—financial risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions higher cost of funding—a direct monetary impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows realised and potential financing strain, raising overall severity."
+            },
+            {
+                "snippet": "Our Ford Blue, Ford Model e, and Ford Pro operations generally do not realize revenue while our manufacturing operations are suspended, but we continue to incur operating and non-operating expenses, resulting in a deterioration of our cash flow.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States zero revenue during shutdown yet continued expenses—explicit cash flow hit.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights deterioration of cash flow, a critical financial metric.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Quantifies mechanics of revenue loss and cost overhang—high severity."
+            },
+            {
+                "snippet": "We also continue to face supplier disruptions due to labor shortages and other production issues, in addition to the continuing semiconductor shortage.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes ongoing supplier disruptions linked to labor shortages—a pandemic follow-on effect.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Adds context of sustained semiconductor shortage, compounding risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows persistent operational headwinds; moderate severity."
+            },
+            {
+                "snippet": "Our inconsistent production schedule has been disruptive to our suppliers’ operations, which, in turn, has led to higher costs and production shortfalls.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly ties pandemic-induced scheduling issues to supplier disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Quantifies impact as ‘higher costs and production shortfalls’.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specifies tangible cost and volume consequences—elevated but not extreme score."
+            },
+            {
+                "snippet": "Moreover, economic uncertainty and higher unemployment arising from widespread public health issues or otherwise may result in higher defaults in Ford Credit’s consumer portfolio, and prolonged unemployment may have a negative impact on both new and used vehicle demand.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Predicts higher credit defaults tied to pandemic-related unemployment.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Adds second-order effect on vehicle demand.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights macro-driven financial exposure, but still conditional; moderate severity."
+            }
+        ],
+        "calculated_score": 57,
+        "average_severity": 4.75
+    }
+]

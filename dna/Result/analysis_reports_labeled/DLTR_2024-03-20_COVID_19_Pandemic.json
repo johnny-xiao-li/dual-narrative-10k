@@ -1,0 +1,68 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "DLTR’s 2024 Form 10-K still attributes parts of its supply-chain vulnerability and macro-demand uncertainty to the COVID-19 pandemic and to the possibility of future epidemics. The filing describes having already \"experienced\" pandemic–related port closures as well as lingering shocks in freight and labor markets; these are presented as factual, historical impacts rather than hypothetical ones. At the same time, any forward-looking discussion is high-level and unquantified, couched among many other external hazards. Four years have elapsed since the WHO pandemic declaration, so the Time-Decay Principle places the evidence in the medium-term band, warranting only moderate severity scores. Overall, the company acknowledges that pandemic disruptions have materially affected shipping and could continue to do so, but it offers no fresh numerical estimates or detailed mitigation strategies, signalling an ongoing—but now less acute—risk profile.",
+        "evidence_list": [
+            {
+                "snippet": "We have experienced disruptions in the global supply chain, including issues with shipping capacity, port congestion and pandemic-related port closings and ship diversions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that disruptions were actually experienced, indicating a realized impact rather than a mere possibility.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects the impact directly to critical operations (global supply chain and shipping).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct, already-felt pandemic disruptions to the supply chain justify the upper end of the medium-term range (6/10)."
+            },
+            {
+                "snippet": "Other factors that could result in or exacerbate adverse economic conditions include inflation, higher unemployment, consumer debt levels, trade disputes, as well as adverse climate or weather conditions, worsening or new epidemics, terrorism, or international tensions, including armed conflict and economic sanctions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘worsening or new epidemics’ among macroeconomic dangers, linking health crises to consumer demand risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Framed as a broad, generic possibility with no company-specific data or actions.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic, forward-looking mention of epidemics provides only weak, unquantified evidence, so the score is kept low at 2/10."
+            },
+            {
+                "snippet": "• duties, tariffs or other restrictions on trade, including Section 301 tariffs; • raw material shortages, work stoppages, government restrictions, strikes and political unrest, including any impact on vendors or shipping arising from epidemics;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links epidemics to potential vendor and shipping impacts, highlighting a supply-side risk channel.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Presented as a conditional (‘may include’), unquantified risk within a longer list of factors.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Mentions epidemic-driven vendor/shipping risks but only as one of many hypothetical factors, warranting a modest 2/10."
+            }
+        ],
+        "calculated_score": 10,
+        "average_severity": 3.3333333333333335
+    }
+]

@@ -1,0 +1,128 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "RMD’s 2024 Form 10-K makes several, mostly forward-looking disclosures that link the company’s performance to risks arising from the COVID-19 pandemic and future public-health crises.  All references occur within the Risk Factors section, signalling that management sees pandemics primarily as an external threat that can disrupt operations rather than as a currently quantifiable hit to financial results.  The wording is largely generic (“could be harmed”) and focuses on potential future impacts—government lockdowns, supply-chain and FDA delays—rather than citing concrete dollar figures or named COVID-19-driven losses.  One sentence does acknowledge that past crises “have had” adverse effects, confirming that the company has already experienced some degree of disruption, but it stops short of quantifying magnitude.  Because the pandemic’s onset dates back a little more than four years, the Time Decay Principle caps the severity in the middle range.  Accordingly, the evidence warrants moderate scores (4-5) where past impact is mentioned, and lower scores (2-3) where the text is purely cautionary.  No snippet reaches high severity because none quantify financial damage, describe material supply-chain stoppages, or reveal remote-work cost overruns.  Overall, pandemic risk remains relevant but is framed as an uncertain, manageable threat rather than a current, material impairment.",
+        "evidence_list": [
+            {
+                "snippet": "Our business, financial condition and results of operations could be harmed by the effects of pandemics, epidemics, or other public health crises.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states that pandemics can harm multiple facets of the company (business, financial condition, results).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Language is conditional (“could be”) and generic, reducing immediacy.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term (∼4 yrs) per Time Decay Principle allows moderate score ceiling.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly links pandemics to potential harm but in generic, forward-looking terms; moderate severity yields a score of 4."
+            },
+            {
+                "snippet": "We are subject to risks associated with public health crises, which have had and may have an adverse impact on certain aspects of our business in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that prior public-health crises have already caused adverse impacts (“have had”).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Also warns of future adverse impacts, extending the risk horizon.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not quantify or specify the impacts, slightly mitigating severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Mentions both realized and prospective harm without quantification, producing a solid medium-level risk score of 5."
+            },
+            {
+                "snippet": "The extent to which public health crises impact our business, results of operations, and financial condition will depend on future developments which are highly uncertain and are difficult to predict.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Recognises possible broad impact on business, results and condition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasises uncertainty and unpredictability, signalling lack of current materiality.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Highlights uncertainty more than concrete risk; low-moderate severity leads to a score of 2."
+            },
+            {
+                "snippet": "These developments include, but are not limited to, actions taken to contain outbreaks or address their impact, the timing, distribution, and efficacy of treatments, and the imposition of government lockdowns, quarantine and physical distancing requirements.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists specific mechanisms (lockdowns, quarantines) that can disrupt operations—a detailed risk pathway.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Still framed hypothetically without evidence of current damage.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Provides specific pandemic-related disruption channels but remains hypothetical; yields a score of 2."
+            },
+            {
+                "snippet": "• the impact of public health epidemics/pandemics on the global economy;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly calls out pandemics as a risk factor affecting the global economy, implying indirect exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Bullet format with no elaboration or quantified exposure lowers severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "A terse bullet simply flags pandemic risk without detail, warranting a minimal score of 1."
+            },
+            {
+                "snippet": "Disruptions at the FDA and other government agencies caused by funding shortages or global health concerns could hinder their ability to hire, retain or deploy key leadership and other personnel, or otherwise prevent new or modified products from being developed, cleared or approved or commercialized in a timely manner or at all, which could negatively impact our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects global health concerns (e.g., COVID-19) to regulatory delays affecting product development and commercialization.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes potential operational blockage (‘prevent new or modified products’), an aggravating factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional ‘could’, indicating uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Links pandemic-related agency disruptions to tangible product-pipeline delays; conditional phrasing tempers but still yields a moderate score of 4."
+            }
+        ],
+        "calculated_score": 18,
+        "average_severity": 3.0
+    }
+]

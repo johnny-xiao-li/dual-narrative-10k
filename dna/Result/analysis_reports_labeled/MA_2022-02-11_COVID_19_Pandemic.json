@@ -1,0 +1,162 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Mastercard’s 2021 Form 10-K, filed in February 2022, provides a layered discussion of COVID-19.  The company acknowledges that the pandemic has ALREADY produced material, adverse effects on its business, operations and financial condition, while also stressing that the magnitude and duration of future impacts remain highly uncertain.  The disclosures identify concrete operational changes—remote/hybrid work, curtailed travel—and link them to knock-on threats such as heightened cyber-security risk.  They also reference broad economic headwinds, potential recessions, and continued volatility tied to new virus variants and vaccination progress.  The language is largely qualitative but explicitly uses terms such as “adversely impacted,” “materially adverse,” and “significant rise,” signalling a high-severity, ongoing risk.  Because the filing date falls less than two years after the WHO’s pandemic declaration, the Time Decay Principle allows elevated scores (up to 10).  Nonetheless, the absence of quantified dollar amounts and the mention of mitigating actions (business practice modifications, monitoring) temper the risk scoring.  Overall, the pandemic is framed as a recent, direct and continuing threat with multiple vectors—financial, operational, workforce and cyber—warranting moderately high but not maximal severity scores across the extracted evidence.",
+        "evidence_list": [
+            {
+                "snippet": "The global COVID-19 pandemic and measures taken in response have adversely impacted our business, results of operations and financial condition, and may continue to do so depending on future developments, which are uncertain.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that COVID-19 has ALREADY adversely impacted business, results and financial condition (realised direct impact).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Adds forward-looking warning that impacts may continue, highlighting ongoing uncertainty.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct, company-specific acknowledgement of realised and continuing material harm merits a high score of 7."
+            },
+            {
+                "snippet": "The global COVID-19 pandemic continues to have negative effects on the global economy.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies ongoing macro-economic deterioration attributable to the pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Statement is generic and not tied to specific Mastercard metrics.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Provides context of economy-wide risk but is not company-specific; moderate relevance yields a score of 2."
+            },
+            {
+                "snippet": "The pandemic has affected business activity, adversely impacting consumers, our customers, suppliers and business partners, as well as our workforce.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags adverse effects across multiple stakeholders in Mastercard’s value chain (consumers, customers, suppliers, workforce).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes impacts as having already occurred (realised operational disruption).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Multi-stakeholder impact description elevates severity to 5."
+            },
+            {
+                "snippet": "The pandemic has caused us to modify our business practices (including employee travel, employee work locations, and working in remote or hybrid environments).",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies concrete operational disruptions—travel limits and remote/hybrid work.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates the company is actively adapting (mitigating action).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Shows direct operational impact but also mitigation; net effect is a low-to-moderate risk score of 1."
+            },
+            {
+                "snippet": "The full extent to which the COVID-19 pandemic, and measures taken in response, further impacts our business, results of operations and financial condition will depend on future developments, which are uncertain, including, but not limited to, the duration of the pandemic and its impact on the global economy, including how quickly and to what extent we can continue to progress toward more consistent economic and operating conditions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights material uncertainty and potential future impacts on business and finance.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly conditional and non-quantified, diluting immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Forward-looking uncertainty without specifics yields a modest score of 1."
+            },
+            {
+                "snippet": "Even after the COVID-19 pandemic has subsided, we may continue to experience materially adverse impacts to our business and our result of operations as a result of its global economic impact, including any recession that has occurred or may occur in the future.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of long-term, ‘materially adverse’ effects persisting post-pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects risk to potential broader recession, enlarging scope.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Contingent wording (‘may’) reduces certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Long-tail material risk with some uncertainty results in a score of 3."
+            },
+            {
+                "snippet": "Moreover, as a result of the global COVID-19 pandemic, a significant portion of our workforce is working in either a remote or hybrid environment.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies substantial labour-model shift to remote/hybrid work, an operational risk factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement is descriptive without explicit negative outcome.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Highlights workforce change but lacks explicit adverse impact, so risk score is 1."
+            },
+            {
+                "snippet": "The advent of the global COVID-19 pandemic has resulted in a significant rise in these types of threats due to a significant portion of our workforce working from home in a mostly remote environment.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-driven remote work to a ‘significant rise’ in cyber threats—specific operational risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong quantifier ‘significant rise,’ intensifying severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Explicit causal link between pandemic conditions and increased cyber-security risk warrants a score of 5."
+            }
+        ],
+        "calculated_score": 25,
+        "average_severity": 3.125
+    }
+]

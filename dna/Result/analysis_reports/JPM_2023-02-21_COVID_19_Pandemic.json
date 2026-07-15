@@ -1,0 +1,107 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated February 21, 2023, shows that JPMorgan Chase still treats the COVID-19 pandemic as an important, live risk driver across multiple dimensions—capital, market volatility, operational continuity, workforce availability and cyber-security.  Most references are prospective and qualitative (\"could\", \"can\"), signalling that management views pandemic-related disruptions as an ongoing but uncertain threat rather than a fully quantified, current loss.  One passage, however, cites a concrete, already-experienced consequence: emergency monetary-policy responses to COVID-19 swelled deposits and leverage exposure, raising JPM’s GSIB surcharge.  Because the pandemic is within the 0-3-year “recent” window, scores can be high, but the Time Decay principle still requires us to adjust for generic wording and lack of hard dollar figures in most sentences.  Overall, evidence spans direct historical impact (capital surcharge) and forward-looking vulnerabilities (policy responses, market moves, labour shortages, remote-work cyber risk).  These nuances drive the individual micro-scores below.",
+        "evidence_list": [
+            {
+                "snippet": "Actions that governments take or fail to take in response to the effects of health emergencies, the spread of infectious diseases, epidemics or pandemics, as well as the effectiveness of any actions taken",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites pandemics/epidemics as a government-policy risk driver.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Language is conditional and generic (‘actions that governments take or fail to take’).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "The snippet directly links pandemics to potential macro-policy shocks but is broad and speculative, warranting a modest score of 3."
+            },
+            {
+                "snippet": "JPMorgan Chase’s results of operations can be negatively affected by adverse changes in any of the following: … the economic effects of an outbreak or escalation of hostilities, terrorism or other geopolitical instabilities, cyber attacks, climate change, natural disasters, severe weather conditions, health emergencies, the spread of infectious diseases, epidemics or pandemics or other extraordinary events beyond JPMorgan Chase’s control …",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemics and related health emergencies can directly harm results of operations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Grouped with many other hazards; impact not quantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Clearly positions pandemics as a profit risk, but generic wording and lack of specifics temper the score to 4."
+            },
+            {
+                "snippet": "JPMorgan Chase’s businesses could be materially and adversely affected by … the possibility that significant portions of JPMorgan Chase’s workforce are unable to work effectively, including because of illness, quarantines, shelter-in-place arrangements, government actions or other restrictions in connection with health emergencies, the spread of infectious diseases, epidemics or pandemics …",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights operational disruption if employees are ill or quarantined during a pandemic.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies multiple concrete mechanisms (illness, quarantines, shelter-in-place).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses ‘could’ language, signalling possibility not certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "More detailed than generic clauses and points to core operational risk; earns a moderate-high score of 5."
+            },
+            {
+                "snippet": "The risk of a security breach due to a cyber attack could increase in the future due to factors such as … the increased use of remote access and third-party video conferencing solutions to facilitate work-from-home arrangements for employees.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links remote work—a pandemic-driven shift—to elevated cyber-security risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking and qualitative; pandemic itself not named explicitly here.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Shows secondary pandemic effect (remote work) on cyber risk but is indirect and unquantified, yielding a low-moderate score of 2."
+            },
+            {
+                "snippet": "Actions taken by the Federal Reserve or the U.S. government in response to the economic effects of systemic events, such as the actions taken in response to the COVID-19 pandemic which led to an expansion of the Federal Reserve balance sheet, growth in deposits held by JPMorgan Chase and other U.S. financial institutions and, consequently, an increase in leverage exposure and the GSIB surcharge",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes a measurable balance-sheet consequence (deposit surge, leverage exposure) to COVID-19 response actions.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Connects that consequence to a specific regulatory capital impact (higher GSIB surcharge).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes an already-realised effect, not mere possibility.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "This is the clearest, most concrete evidence of a realised COVID-19 impact on capital requirements, justifying a high score of 9."
+            }
+        ],
+        "calculated_score": 23,
+        "average_severity": 4.6
+    }
+]

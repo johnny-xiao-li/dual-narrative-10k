@@ -1,0 +1,269 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing was made less than one year after the WHO’s March-2020 declaration, so all COVID-19 statements fall in the 0-3-year ‘recent-event’ window where high severity scores are appropriate.  CRL repeatedly characterises COVID-19 as both an existing and a continuing threat: it acknowledges concrete disruptions already experienced (facility closures, supply-chain interruptions, donor suspensions, strong demand spikes for certain models, liquidity precautions, etc.) and warns of further, unpredictable impacts.  The language is detailed and operationally specific (e.g., interruptions of large-animal exports from China, suspension of blood donations, delays of client studies) and links directly to potential material adverse effects on revenue, margins, liquidity and strategic contracts.  Mitigating measures (business-continuity teams, inventory builds, remote-work protocols) are disclosed, but are explicitly described as possibly insufficient.  Overall, the risk level is high because the company cites both realised and prospective impacts across multiple core functions—supply chain, workforce, customer demand, capital access—without any quantified ceiling on potential loss.  Under the Time Decay Principle, recent timing allows individual snippets to score as high as 9–10 when the language is direct, specific and material; snippets that are broader or include mitigating caveats score slightly lower.",
+        "evidence_list": [
+            {
+                "snippet": "This pandemic has and continues to result in, and any future epidemic or pandemic crises may potentially result in, direct and indirect adverse effects on our industry and customers, which in turn has (with respect to COVID-19) and may (with respect to future epidemics or crises) impact our business, results of operations and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that COVID-19 already IS impacting (‘has and continues’) business results – direct linkage.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers both direct and indirect effects on industry and customers, broadening severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly references material areas: ‘business, results of operations and financial condition’.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct present-tense impact across core financial metrics warrants a high score of 8."
+            },
+            {
+                "snippet": "Effects of the current pandemic have included, or may in the future include, among others: • deterioration of worldwide, regional or national economic conditions and activity, which adversely affects global demand for our products and services;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists a specific realised/possible effect (economic deterioration) tied to global demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links effect directly to company’s products and services demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking modal ‘may’ slightly reduces certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific demand-destruction risk is important but partly conditional, yielding a mid-high score."
+            },
+            {
+                "snippet": "• temporary and/or partial closures of our facilities or the facilities of our customers (including academic institutions, government laboratories and private foundations) and third-party service providers;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete operational disruption: facility closures.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Includes both company and customer sites, widening exposure.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Facility closure is a direct operational hit but not yet quantified; scored at 6."
+            },
+            {
+                "snippet": "• interruption of the operations of global supply chains and those of our suppliers;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct mention of global supply-chain interruption.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Single-issue but critical supply-chain risk merits 4."
+            },
+            {
+                "snippet": "• disruptions to our business from, or additional costs related to, new regulations, directives or practices implemented in response to the pandemic, such as travel restrictions, shelter in place/stay in place/work from home orders, increased inspection regimes, hygiene measures (such as quarantining and physical distancing) or increased implementation of remote working arrangements;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple compliance-cost drivers and operational disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly notes ‘additional costs’, i.e., financial impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Broad list of cost-creating mandates drives score to 5."
+            },
+            {
+                "snippet": "• reduced cash flows and financial condition, including potential liquidity constraints;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights liquidity risk—a severe financial impact area.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Liquidity threat is acute but stated generically, scoring 4."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has caused us to modify our business practices, including but not limited to health management of employees, customers and suppliers, management of production inventory, supply chain risk management, compensation practices and capital expenditure planning.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms actual operational changes already undertaken.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple critical domains (inventory, supply chain, cap-ex).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Implicit mitigation effort reduces net risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows realised disruption but also mitigation, giving a balanced score of 4."
+            },
+            {
+                "snippet": "Such measures and others may not be sufficient to mitigate all the risks posed by COVID-19, and our ability to perform critical functions could be materially adversely affected.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits mitigation may fail and warns of material adverse effect on critical functions.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Potential insufficiency of controls heightens severity to 5."
+            },
+            {
+                "snippet": "Although disruption and effects from the COVID-19 pandemic may be temporary, ... the duration of any business disruption and the related financial impact to us cannot be reasonably estimated at this time but could materially affect our business, results of operations and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States inability to estimate impact, increasing uncertainty.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges potential material effect on core financial areas.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions possibility that effects may be temporary (mitigation).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Unquantified but possibly material impact under uncertainty scores 4."
+            },
+            {
+                "snippet": "First, the surge of research relating to COVID-19 has increased short term demand. Second, China supplies a significant portion of certain critical large research models, which have been subject to geographic export restrictions applicable to many animal species since the beginning of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific supply-demand distortions (demand spike + export restrictions).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Identifies geographic dependency on China, elevating supply risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Concrete, location-specific supply disruption justifies a 6."
+            },
+            {
+                "snippet": "As a result of the COVID-19 pandemic and the impact of measures intended to reduce the spread of COVID-19, we temporarily suspended blood donations at one of our Research Products facilities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports an actual operational shutdown (blood donations suspended).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Localised to one facility, limiting breadth.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Realised but localised disruption gains a moderate score of 3."
+            },
+            {
+                "snippet": "The impact of measures intended to reduce the spread of COVID-19 caused us to temporarily suspend blood donations, which have since resumed, at our Research Products facilities, further limiting our ability to respond to changes in demand.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows resumed operations (mitigation).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Still notes limitation in responding to demand – ongoing risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Risk is partly resolved; net score remains low at 1."
+            },
+            {
+                "snippet": "As described herein, the COVID-19 pandemic has already, and will continue to, materially disrupt our operations, though the full extent of such impact remains uncertain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states material disruption already occurring.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Acknowledges continuing uncertainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Material ongoing disruption with uncertainty scores 6."
+            },
+            {
+                "snippet": "Such disruptions could include significant delays in the shipments of our products, reduce our capacity to provide services, adversely impact unique manufacturing capabilities, result in our customers’ inability to pay for our products or services and, ultimately, result in the loss of revenue and clients.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple severe operational and financial consequences.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Potential, not yet stated as realised.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Comprehensive but conditional consequences earn a 3."
+            },
+            {
+                "snippet": "Our Research Models business was meaningfully impacted by the COVID-19 pandemic during fiscal year 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Asserts meaningful realised impact in a core segment.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Confirms actual segment-level impact; strong severity at 5."
+            }
+        ],
+        "calculated_score": 69,
+        "average_severity": 4.6
+    }
+]

@@ -1,0 +1,128 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "INTU’s 2024-09-04 filing presents COVID-19 primarily as an ongoing, broad-based operational and macro-economic risk rather than an acute, quantified shock.  References to “pandemics and endemics” and “public health emergencies” recur across multiple risk factor categories—third-party disruption, cyber-security, hybrid-work vulnerabilities, and capital-market volatility—showing that management still views pandemic after-effects as materially relevant four years after the WHO declaration.  However, the language is largely generic, grouped with other crises (war, climate events, etc.), and contains no specific dollar impacts or probability estimates.  Consequently, the evidence supports a medium-level risk assessment: the pandemic continues to influence supply-chain resilience, remote-work security posture, and investor sentiment, but the tone is precautionary rather than crisis-driven.  Under the Time Decay Principle (event 4-plus years old), snippet scores are capped in the mid-range, reflecting persistent yet less immediate severity.",
+        "evidence_list": [
+            {
+                "snippet": "Additionally, the business operations of our third-party partners and the third-party partners who support them have been and could continue to be disrupted, including as a result of uncertain macroeconomic conditions and global health crises, such as pandemics and endemics.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly attributes past and potential future disruption to pandemic-scale health crises.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights supply-chain/third-party dependency, showing a tangible operational channel of risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States both historical impact ('have been') and forward-looking concern ('could continue'), sustaining relevance.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantitative magnitude or probability disclosed; wording remains general.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Directly links continuing third-party disruptions to pandemics, but without quantification, yielding a mid-range severity score of 5."
+            },
+            {
+                "snippet": "Our business operations, information technology and communications systems are vulnerable to damage or interruption from natural disasters, effects of climate change, human error, malicious attacks, fire, power loss, telecommunications failures, computer viruses and malware, computer denial of service attacks, terrorist attacks, public health emergencies and other events beyond our control.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes 'public health emergencies', explicitly covering pandemic scenarios.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Frames risk as potential direct interruption of core IT and operational capability—critical impact channel.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemic is one item in a broad list, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specifies pandemic as an event that could interrupt key systems, but generic listing keeps the score at 4."
+            },
+            {
+                "snippet": "Geopolitical events, including natural disasters or severe weather events (including those caused or exacerbated by climate change), acts of war and terrorism (including the conflict in the Middle East) and any related military, political or economic responses, and public health emergencies, including divergent governmental responses thereto affecting the jurisdictions in which we operate or maintain a workforce or facilities;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions 'public health emergencies' with cross-border governmental response issues, pointing to compliance and operational complexity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Applies to international operations, signalling multi-jurisdictional exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Embedded within a long enumerated list, lowering clarity and focus on pandemic risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Acknowledges pandemic-related regulatory divergence abroad but in a broad context, warranting a moderate score of 3."
+            },
+            {
+                "snippet": "In addition, our hybrid workplace model, where our workforce spends a portion of their time working remotely, increases the potential attack surfaces and introduces operational complexity that exacerbates our security-related risks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies remote/hybrid work (a pandemic-driven structural change) as a current risk driver.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects this change to heightened cyber-security and operational complexity impacts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not explicitly reference the pandemic, making the link indirect.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Remote-work vulnerabilities trace back to pandemic conditions but lack explicit wording, so the score is kept at 3."
+            },
+            {
+                "snippet": "Moreover, inflationary pressures, pandemics and endemics, and significant armed conflicts, acts of war and terrorism have caused, and in the future may cause, increased volatility in the global financial markets and, in turn, our stock price.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names pandemics/endemics as a continuing driver of market volatility.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links the health crisis to a clear financial consequence—stock-price volatility.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Grouped with several other macro risks without detailing specific exposure or magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Connects pandemics to market and valuation risk but in a generalized way, earning a score of 3."
+            }
+        ],
+        "calculated_score": 18,
+        "average_severity": 3.6
+    }
+]

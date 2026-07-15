@@ -1,0 +1,196 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The 2021-02-24 Form 10-K shows that American Water Works (AWK) views COVID-19 as a live, multi-faceted enterprise risk.  The pandemic is treated as both an existing impact (documented cost increases, revenue shortfalls, liquidity actions and regulatory deferrals already booked for FY-2020) and a forward-looking exposure (uncertain customer demand, regulatory delays, capital-market access and supply-chain continuity).  The language is highly specific: the company identifies concrete financial consequences—higher uncollectible accounts, extra borrowing costs, incremental O&M, foregone late-fee revenue, and $30 million of pandemic-related regulatory assets—and it articulates contingent threats such as PUC moratoria, inability to obtain rate approvals, and potential service disruptions.  These statements tie directly to enterprise-level drivers (cash flow, capital recovery, liquidity and cost of capital) and reference real operational levers (vendor supply, workforce safety, customer disconnect bans).  Because the filing date is less than one year after the WHO declaration (March 2020), the Time-Decay principle permits high severity scores.  Mitigating language (e.g., ‘has not experienced, and does not anticipate, any material negative impacts’ on supply chain) moderates some evidence, but overall the disclosures portray a materially elevated, near-term risk landscape; thus most snippets merit scores of 6-9, with the few quantified, realized impacts at the high end.",
+        "evidence_list": [
+            {
+                "snippet": "The current COVID-19 pandemic may limit or curtail significantly or entirely the ability of PUCs to approve or authorize applications and other requests we may make with respect to our Regulated Businesses, including without limitation any or all types of approvals described above, as PUCs and their staffs seek to reduce, delay or streamline proceedings and other activities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to potential regulatory delays that threaten business approvals.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers broad scope (‘significantly or entirely’) indicating severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking and conditional (use of 'may'), slightly reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clear articulation of a pandemic-driven risk to regulatory approvals; moderately high impact but still prospective, yielding a score of 5."
+            },
+            {
+                "snippet": "PUCs and other governmental authorities have taken, and may continue to take, emergency or other actions in light of the COVID-19 pandemic that may impact us, including prohibiting the termination of service for non-payment during the current COVID-19 pandemic and extending or delaying procedural schedules in our regulatory proceedings.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes concrete actions already taken (disconnect moratoria, schedule delays).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Specifies direct financial exposure (inability to terminate non-paying customers).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Some mitigation implied by temporary nature of measures.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Actual regulatory actions and their financial implications elevate the score to 6."
+            },
+            {
+                "snippet": "For example, during 2020, the Company experienced a decrease in net customer demand related mainly to industrial and commercial customers, which the Company believes to be attributable to the impacts of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports realized, not merely potential, demand decline in 2020.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Identifies specific customer segments (industrial and commercial) showing granularity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Quantified historical impact on demand makes this strong evidence; no mitigations mentioned, so score is 7."
+            },
+            {
+                "snippet": "Any decrease in demand resulting from difficult economic conditions or the current COVID-19 pandemic affecting these customers could adversely affect our financial condition and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links pandemic-driven economic downturn to financial condition.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional phrasing (‘could’) signals uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic forward-looking risk with no quantification; therefore lower score of 2."
+            },
+            {
+                "snippet": "To date, the Company has experienced COVID-19 financial impacts, including an increase in uncollectible accounts expense, additional debt costs, and certain incremental operation and maintenance (\"O&M\") expenses.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States actual, multi-dimensional financial impacts already incurred.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Lists specific cost categories, enhancing precision.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No dollar amounts given, limiting quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Realized cost impacts with specificity merit a high score of 7."
+            },
+            {
+                "snippet": "The Company has also experienced decreased revenues as a result of the suspension of late fees and foregone reconnect fees.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms realized revenue loss caused by pandemic-influenced policy changes.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Absence of magnitude data slightly tempers severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Actual revenue impact but unquantified, resulting in a mid-range score of 4."
+            },
+            {
+                "snippet": "American Water continues to work with its vendors to prevent disruptions in its supply chain, and, at this time, has not experienced, and does not anticipate, any material negative impacts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Addresses supply-chain risk explicitly, acknowledging ongoing monitoring.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Strong mitigating statement of ‘no material negative impacts’ and positive outlook.",
+                            "points": -3
+                        }
+                    ],
+                    "final_snippet_score": -1
+                },
+                "reasoning_summary": "Predominantly mitigating language outweighs the risk mention, yielding a negative score that will net against other evidence."
+            },
+            {
+                "snippet": "The Company has also been monitoring the impacts of the pandemic on its access to the capital markets, and to the extent such access is adversely affected, American Water may need to consider alternative sources of funding for its operations and for working capital, any of which could increase its cost of capital.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential liquidity and cost-of-capital risk tied to market conditions.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Prospective (‘may need’) without current impairment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Capital-market exposure is important but still hypothetical; moderate score of 3."
+            },
+            {
+                "snippet": "Consistent with these regulatory orders, the Company has recorded $30 million in regulatory assets and $4 million of regulatory liabilities for the financial impacts related to the COVID-19 pandemic on the Consolidated Balance Sheets as of December 31, 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides quantified, balance-sheet level impact ($30 m asset, $4 m liability).",
+                            "points": 7
+                        },
+                        {
+                            "reason": "Reflects management action to defer and recover costs, a slight mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Concrete dollar figures of pandemic impact drive a high score of 6 despite partial mitigation via deferral."
+            },
+            {
+                "snippet": "The extent to which COVID-19 may further impact American Water, including without limitation, its liquidity, financial condition, and results of operations, will depend on future developments, which presently cannot be predicted.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges broad uncertainty across key financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Wholly generic and non-quantified; high uncertainty diminishes precision.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Highly generic statement of uncertainty receives a low score of 1."
+            }
+        ],
+        "calculated_score": 40,
+        "average_severity": 4.0
+    }
+]

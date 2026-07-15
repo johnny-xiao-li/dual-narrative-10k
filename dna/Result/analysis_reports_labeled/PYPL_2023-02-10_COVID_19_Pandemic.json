@@ -1,0 +1,58 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "PayPal’s 2023 Form 10-K acknowledges COVID-19 primarily as an external, continuing threat rather than a discrete shock with already-quantified consequences. The company frames the pandemic in two ways: (1) as a potential trigger of operational outages—grouped with other catastrophes such as natural disasters—and (2) as a macro-economic wildcard that can suppress consumer spending and merchant solvency. These discussions are largely qualitative and bundled with numerous other uncertainties, showing management views the pandemic as an enduring but diffuse risk rather than a dominant, isolated driver. Because the filing date (Feb-2023) is within three years of the WHO declaration (Mar-2020), the Time Decay Principle permits elevated scores; however, the generic language and absence of quantified impact or specific mitigation limit severity. Overall, COVID-19 appears as a material but moderately articulated risk, warranting mid-range evidence scores.",
+        "evidence_list": [
+            {
+                "snippet": "Our systems and operations and those of our service providers and partners have experienced from time to time, and may experience in the future, business interruptions or degradation of service because of distributed denial-of-service and other cyberattacks, insider threats, hardware and software defects or malfunctions, human error, earthquakes, hurricanes, floods, fires, and other natural disasters, public health crises (including pandemics), power losses, disruptions in telecommunications services, fraud, military or political conflicts, terrorist attacks, computer viruses or other malware, or other events.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists public health crises, including pandemics, as a cause of business interruptions, directly linking COVID-19–type events to operational risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Notes the company \"has experienced from time to time\" such interruptions, implying some historical impact and not purely hypothetical.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is presented in a long catch-all list without detail or quantification, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Moderate severity: the sentence ties pandemics to actual and future operational interruptions, but the broad, generic listing and lack of metrics cap the score."
+            },
+            {
+                "snippet": "The broader implications of the macroeconomic environment, including uncertainty around the duration and severity of the coronavirus pandemic (“COVID-19”), the Russia and Ukraine conflict, supply chain shortages, a recession globally or in markets in which we operate, higher inflation rates, higher interest rates, and other related global economic conditions, remain unknown.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly references uncertainty surrounding the duration and severity of COVID-19, linking it to macro-economic risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Positions the pandemic alongside other major global disruptions, signalling continued relevance to strategic outlook.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Provides no specific financial impact or operational metric; purely qualitative.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Lower-mid score: acknowledges ongoing COVID-19 uncertainty at the macro level, but the discussion is high-level and unquantified."
+            }
+        ],
+        "calculated_score": 8,
+        "average_severity": 4.0
+    }
+]

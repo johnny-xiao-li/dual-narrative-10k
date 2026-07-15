@@ -1,0 +1,206 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "LKQ’s 2021-02-26 Form 10-K presents COVID-19 as an immediate and continuing threat that is already depressing revenue, straining liquidity levers, and reshaping operational practices.  The language is explicitly current-impact (“have been adversely affected”) and forward-looking (“will likely continue”), meaning the danger is neither hypothetical nor remote.  The filing details multiple risk vectors: steep demand erosion from fewer miles driven, supply-chain fragility that could leave inventories short, labour disruptions ranging from furloughs to illness-driven shortages, cost inflation tied to health-care claims, cyber-exposure from remote work, and potential breaches of credit-facility covenants that could trigger default.  Although management notes some mitigating actions—cost controls, government aid, continued operations—these are framed as uncertain and are outweighed by the breadth and depth of the threats.  Given the filing date is within one year of the WHO pandemic declaration, Time-Decay allows high severity scores (7-10).  Sentences that merely acknowledge generic uncertainty receive lower scores; those that connect COVID-19 to concrete financial, operational or credit impacts earn higher scores.  No evidence predates the event, so no snippet is zero-scored.",
+        "evidence_list": [
+            {
+                "snippet": "Our operating results and financial condition have been and will likely continue to be adversely affected by the COVID-19 pandemic and could be adversely affected by other public health emergencies.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that impacts are already occurring ('have been') and will persist ('will likely continue').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Ties the impact directly to core financial metrics: operating results and financial condition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly identifies the COVID-19 pandemic as the cause.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct, present-tense impact on key financial metrics makes this a high-severity disclosure."
+            },
+            {
+                "snippet": "These measures have resulted in a significant reduction in miles driven.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies operational driver of demand (‘significant reduction in miles driven’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links the reduction to COVID-related government measures.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows a concrete operational metric affected, but does not itself describe financial magnitude."
+            },
+            {
+                "snippet": "As a result, we have experienced and expect to continue to experience unpredictable reductions in demand for our products.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms realised demand decline ('have experienced').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forecasts ongoing impact ('expect to continue').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights unpredictability, increasing risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Describes both current and future demand shocks with an element of uncertainty—strong aggravator."
+            },
+            {
+                "snippet": "In order to reduce costs in an attempt to offset reductions in revenue, we have implemented various cost reductions to align with the lower level of economic activity, including employee layoffs and furloughs.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates revenue losses severe enough to trigger layoffs/furloughs (labour disruption).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Shows management mitigation through cost cuts.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Labour cuts signal seriousness but the cost-reduction action partially offsets risk, yielding a modest net score."
+            },
+            {
+                "snippet": "Due to the self-insured nature of our health insurance program, we may be subject to substantial increases in healthcare costs in the event that a significant number of our employees become ill and require medical treatment due to COVID-19 infections.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential ‘substantial’ cost escalation.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is amplified by self-insured structure (no external cap).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Tied directly to employee illness from COVID-19.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights a concrete, potentially large cash outflow driver linked to pandemic health impacts."
+            },
+            {
+                "snippet": "We have also implemented remote work arrangements for many of our employees, which may expose us to an increased risk of cyber-attack or other cyber-security threats.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces new cyber-security vulnerability due to pandemic-driven remote work.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies increased risk, though not quantified.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Adds a secondary but specific operational risk stemming from pandemic-forced workplace changes."
+            },
+            {
+                "snippet": "The COVID-19 pandemic is adversely affecting our business partners, including our suppliers and customers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Broad external impact across supply and demand sides.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Effect is already occurring (‘is adversely affecting’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Signals ecosystem-wide stress, elevating overall business risk."
+            },
+            {
+                "snippet": "Depending on the extent of the adverse effects, we may not be able to source sufficient inventory to provide products to our customers even at reduced-demand levels, and the ability of our customers to continue operating or to pay us for our products may be disrupted.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit supply-chain disruption risk (inventory shortages).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Adds counter-party credit/default risk on customer side.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Describes dual-sided supply and receivables threat—material but contingent."
+            },
+            {
+                "snippet": "Depending on the length and severity of the adverse effects on our business of the COVID-19 pandemic, we may not satisfy one or more of the financial or other covenants in our credit facility.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Raises prospect of covenant breach and default scenario.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links breach likelihood to pandemic duration/severity, showing dependency.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Credit-facility covenant risk conveys high financial stakes but is conditional on prolonged impact."
+            },
+            {
+                "snippet": "Thus, the ultimate impact on our business, financial results and financial condition cannot reasonably be estimated at this time.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges material uncertainty and inability to quantify risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lack of clarity itself is a risk aggravator.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights breadth of uncertainty; absence of quantification tempers severity."
+            }
+        ],
+        "calculated_score": 44,
+        "average_severity": 4.4
+    }
+]

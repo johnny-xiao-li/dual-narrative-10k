@@ -1,0 +1,86 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The 2024-02-29 filing places the discussion roughly four years after the World Health Organization declared COVID-19 a pandemic, so the event now sits at the front edge of the Time-Decay “medium-term” band (4-10 years). In this 10-K, Steel Dynamics (STLD) no longer reports acute, quantified COVID impacts, but it still highlights pandemics as a material, recurring threat capable of disrupting demand, supply chains, labour availability and overall financial performance. The language remains largely forward-looking (\"may adversely affect\") and is grouped with other macro hazards, signalling management sees the pandemic primarily as an ongoing contingency rather than an immediate crisis. Nevertheless, the text explicitly links government pandemic responses to historical impacts on product demand, supply chains, workforce and inflation—affirming lived experience from 2020-2022. Because the statements are broad, un-quantified and partly historic, the residual severity is moderate: significant enough to remain in the Risk Factors section, but tempered by elapsed time and lack of fresh, specific damage. Under the Time Decay Principle, snippet scores therefore fall in the 4-6 range for direct, descriptive sentences and lower (≈2-3) for generic list references.",
+        "evidence_list": [
+            {
+                "snippet": "Global or domestic actions or conditions, including political actions, trade policies or restrictions, proposed or actual changes in tax laws, such as those introduced, proposed or actual regulation, including those related to the environment, interest rates, terrorism, acts of war or hostility, natural disasters, or pandemics, epidemics, widespread illness or other health issues, could result in changing economic conditions in the United States and globally, disruptions to or slowdowns in our business, our supply chain, or our global or domestic industry, or those of our customers or suppliers upon whom we are dependent.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics/epidemics as a risk driver for broad economic disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies concrete operational channels — ‘disruptions to or slowdowns in our business, our supply chain’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Wording is conditional and grouped with many other risks, signalling generic treatment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Mentions pandemic-driven supply-chain and business disruption but in a broad, catch-all sentence; medium-term event → moderate-low score of 3."
+            },
+            {
+                "snippet": "Pandemics, epidemics, widespread illness or other health issues may adversely affect our business, results of operations, financial condition, cash flows, liquidity, and stock price.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct statement that pandemics can negatively affect multiple core financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong adverse wording (‘may adversely affect’) covering six different performance areas.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clear, concentrated articulation of pandemic impact across financial metrics warrants a solid mid-range score."
+            },
+            {
+                "snippet": "Government actions globally, including United States federal and state governmental actions, related to pandemics, epidemics, widespread illness or other health issues have historically impacted demand for our products, our supply chain, our employees, the economy generally, inflation and high interest rates, and any similar future actions may result in similar or additional impacts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges concrete historical impacts on demand, supply chain and workforce.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights prospect of future comparable or greater impacts (forward-looking).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Cites both historical and prospective pandemic-driven impacts on demand, supply chain and employees—specific enough for a 5 under medium-term rules."
+            },
+            {
+                "snippet": "(3) pandemics, epidemics, widespread illness or other health issues;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Inclusion in enumerated list confirms pandemic remains a discrete risk factor considered in forward-looking statements.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No detail or impact pathway provided; purely generic list entry.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Bare mention without context; after offsets, the snippet carries negligible evidentiary weight, yielding a score of 0."
+            }
+        ],
+        "calculated_score": 13,
+        "average_severity": 3.25
+    }
+]

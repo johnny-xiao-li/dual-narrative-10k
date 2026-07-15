@@ -1,0 +1,70 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing references pandemics only in broad, forward-looking risk factors, framing them as one of several possible external shocks that could disrupt supply chains or overall operations. There is no discussion of the actual COVID-19 experience, no quantified impact, and no detail on mitigation (e.g., remote-work roll-outs or specific cost figures). The language is therefore generic and preventive rather than a description of realized damage. Because the COVID-19 pandemic began roughly 4½ years before the 21 Nov 2024 filing date, the Time Decay Principle places any such evidence in the medium-term window, capping severity at a moderate level. Overall, the document shows that APD still acknowledges pandemics as a potential threat to contractual performance and operational continuity, but does not elevate it to a critical or acute risk. Consequently, individual snippets merit only moderate scores (3–4), and the aggregate pandemic-related risk signal in this filing is limited.",
+        "evidence_list": [
+            {
+                "snippet": "A disruption in the supply of energy, components, or raw materials, whether due to market conditions, legislative or regulatory actions, natural disasters, public health crises and pandemics, or other disruption, could prevent us from meeting our contractual commitments and harm our business and financial results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics as a driver of supply-chain disruption, directly tying the hazard to core inputs (energy, components, raw materials).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects the disruption to an inability to meet contractual commitments, indicating concrete operational risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States potential harm to business and financial results, signalling materiality.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses conditional, generic wording ('could'), indicating the risk is hypothetical rather than realized.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term time decay (≈4½ years post-onset) lowers severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "The sentence explicitly links pandemics to supply-chain failure and financial harm, but does so in generic, hypothetical language and falls into the medium-term window, yielding a moderate score of 4."
+            },
+            {
+                "snippet": "Our operations could be impacted by catastrophic events outside our control, including severe weather conditions such as hurricanes, floods, earthquakes, storms, epidemics, pandemics, acts of war, and terrorism.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names pandemics (and epidemics) among catastrophic events, affirming relevance to operational continuity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights operational impact ('could be impacted'), showing possible disruption of normal activities.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic catch-all list with no detail or quantification, diluting specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term time decay reduces weight.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "This sentence recognizes pandemics as a potential operational shock but does so in broad, boiler-plate language; after accounting for time decay, it merits a score of 3."
+            }
+        ],
+        "calculated_score": 7,
+        "average_severity": 3.5
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated February 22 2024, contains only one substantive reference to the COVID-19 pandemic.  The company frames the virus as a demand-side risk: pandemic-era reductions in travel can depress gasoline consumption, which then squeezes ethanol margins; lower ethanol production would shrink U.S. corn acreage and thereby dampen nitrogen-fertilizer demand.  This is a forward-looking, indirect linkage rather than a disclosure of current operational disruption (e.g., supply chain, labour or remote-work costs).  No dollar amounts or concrete probability estimates are supplied, but the narrative does map out a clear causal chain from pandemic travel patterns to CF’s end-market volumes.  Because the pandemic onset (March 2020) is roughly four years in the past, the Time Decay Principle calls for mid-range severity scores.  Overall, the risk is specific enough to merit attention yet is only moderately material given its indirect nature and lack of quantification.",
+        "evidence_list": [
+            {
+                "snippet": "Lower gasoline prices and fewer aggregate miles, driven by increased automobile fuel efficiency, the continued expansion of electric vehicle use or the impact of decreased travel, such as the decreased travel experienced during the coronavirus disease 2019 (COVID-19) pandemic, may put pressure on ethanol prices that could result in reduced profitability and lower production for the ethanol industry.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references the COVID-19 pandemic as a causal factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes a concrete causal chain (decreased travel → lower gasoline demand → pressure on ethanol prices → lower ethanol production).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Spells out potential financial/operational impact (reduced profitability and production in a key downstream market).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear, specific linkage between pandemic-driven travel reductions and downstream market stress; indirect but material to fertilizer demand.  Falls in the upper mid-range (6) per Time Decay constraints."
+            },
+            {
+                "snippet": "This could have an adverse effect on corn-based ethanol production, planted corn acreage and fertilizer demand.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies direct adverse consequences for fertilizer demand—the company’s core market.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Follows immediately from prior COVID-related sentence, maintaining contextual link, though COVID is not repeated explicitly.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Statement is forward-looking and unquantified, limiting severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows downstream impact on fertilizer demand but is generic and only indirectly tied to COVID, warranting a moderate score of 4."
+            }
+        ],
+        "calculated_score": 10,
+        "average_severity": 5.0
+    }
+]

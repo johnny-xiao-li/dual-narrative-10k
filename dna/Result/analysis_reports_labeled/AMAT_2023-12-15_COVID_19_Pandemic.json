@@ -1,0 +1,88 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "AMAT’s 2023 Form 10-K discusses pandemic-related exposures only in broad, forward-looking risk language. The filing groups “regional or global health epidemics” with other force-majeure events that could disrupt supply chains, manufacturing schedules, logistics and workforce mobility across the company’s globally-distributed operations. No sentence attributes recent financial swings or quantified losses directly to COVID-19; instead the pandemic is framed as one of several possible future shocks. Because the COVID-19 outbreak began in March 2020 and the filing date is December 2023 (≈3.8 years later), the Time-Decay Principle places the event in the early edge of the medium-term band (4-10 years), capping scores at moderate levels. Consequently, the extracted evidence warrants mid-range severity scores (4-6): the statements acknowledge concrete operational vulnerabilities—supply interruptions, cost escalation, order cancellations—but remain generic, un-quantified and largely conditional. They therefore signal a meaningful yet un-measured risk that is already partly decayed in immediacy.",
+        "evidence_list": [
+            {
+                "snippet": "political instability, natural disasters, regional or global health epidemics, social unrest, terrorism, acts of war or other geopolitical turmoil, or cybersecurity incidents in locations where we have operations, suppliers or sales, or that may influence the value chain of the industries we serve;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists 'regional or global health epidemics' as a risk factor affecting operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links the risk to the company’s global footprint and supply/value chain exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Language is generic and bundled with many other risks, diluting pandemic specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Forward-looking statement without quantified impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Scores a 5/10 because it plainly identifies global health epidemics as an operational risk within the company’s worldwide network, but remains generic and un-quantified."
+            },
+            {
+                "snippet": "natural disasters, the impacts of climate change, or other events beyond our control (such as earthquakes, utility interruptions, tsunamis, hurricanes, typhoons, floods, storms or extreme weather conditions, fires, regional economic downturns, regional or global health epidemics, geopolitical turmoil, increased trade restrictions between the U.S. and China and other countries, social unrest, political instability, terrorism, or acts of war) in locations where we or our customers or suppliers have manufacturing, research, engineering or other operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists 'regional or global health epidemics' among events that can directly affect manufacturing, research and engineering sites.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects the event to specific operational consequences—disruptions at company, customer and supplier facilities.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Phrase is part of an extended catch-all list and does not cite COVID-19 or quantified damage.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Forward-looking possibility rather than current impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Earns a 4/10: it ties epidemics to potential site-level disruptions, but the broad, boiler-plate framing and lack of specific COVID-19 data temper its severity."
+            },
+            {
+                "snippet": "We may experience supply chain disruptions, significant interruptions of our manufacturing operations, delays in our ability to deliver or install products or services, increased costs, customer order cancellations or reduced demand for our products as a result of:",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates concrete operational and financial impacts (disruptions, delays, cost increases, cancellations, demand reduction).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Sets up a causal link to the subsequent list that includes global health epidemics.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Still hypothetical and not quantified; pandemic is implied rather than named in this lead-in clause.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Scores 5/10 because it specifies multiple material impacts that could stem from events such as health epidemics, but remains forward-looking and un-quantified."
+            }
+        ],
+        "calculated_score": 14,
+        "average_severity": 4.666666666666667
+    }
+]

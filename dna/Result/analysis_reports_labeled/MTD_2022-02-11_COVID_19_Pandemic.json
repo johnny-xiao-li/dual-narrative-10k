@@ -1,0 +1,204 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated February 11 2022, discusses the COVID-19 pandemic in a recent-event window (<3 years), so the Time Decay Principle permits high severity scores.  MTD expressly states that COVID-19 has already harmed its workforce, supply chain, sales volumes and overall financial condition, and that these pressures are likely to persist and could become “material.”  The language is largely specific—detailing supply-chain shortages, transportation cost inflation, labor shortages, customer payment risk, lockdown-driven manufacturing interruptions, and Omicron-related volatility—rather than boiler-plate.  Although a few mitigating references (e.g., meeting most delivery commitments) appear, they are minor compared with the breadth and immediacy of the risks described.  No hard dollar figures are provided, so the evidence is un-quantified but still points to a clear, continuing and multifaceted threat.  Accordingly, the individual snippet scores cluster in the 4-8 range, reflecting significant but not maximum severity for a very recent, still-evolving event.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic has adversely affected, and will likely continue to adversely affect, various aspects of our business, such as our workforce and supply chain, and make it more difficult and expensive to meet our obligations to our customers, and has adversely affected the global economy, which in turn can adversely affect our global business, results of operations, and financial condition.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States present and future adverse impact (‘has adversely affected’ and ‘will likely continue’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Identifies concrete areas hit (workforce, supply chain, cost to serve customers).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links to overall results of operations and financial condition.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, current and forward-looking statement with multiple operational and financial impact vectors merits a high score of 8."
+            },
+            {
+                "snippet": "COVID-19 has interfered and may continue to interfere with general commercial activity related to our supply chain and customer base.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties pandemic to disruption of supply chain and customer activity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes the risk is ongoing (‘may continue’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific disruption areas are named but without depth or quantification, yielding a moderate risk score of 5."
+            },
+            {
+                "snippet": "As the COVID-19 pandemic continues, we may experience volatility in our results, including reduced global sales volume from lower customer demand.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights earnings volatility tied directly to the ongoing pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies reduced sales volume due to lower demand.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking conditional language (‘may experience’) acknowledges uncertainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Identifies concrete financial exposure (sales decline) but remains unquantified; scored at 5."
+            },
+            {
+                "snippet": "Future impacts to the Company's business as a result of COVID-19 and its variants could also include disruptions to the Company's manufacturing operations caused by lockdowns, facility closures, reductions in operating hours, staggered shifts and other social distancing efforts, and labor shortages.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists several specific operational disruptions (lockdowns, closures, reduced hours).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly calls out labor shortages as an added risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Acknowledges these are potential future impacts, underscoring ongoing threat.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Detailed operational risk inventory without financial quantification results in a solid risk score of 5."
+            },
+            {
+                "snippet": "The emergence of the Omicron variant of COVID-19 in late 2021 has presented particular challenges to the global economy given its high level of transmissibility, which can cause many people to be affected at the same time or over a short period of time, leading to potential disruptions to our business and supply chain.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "References a very recent, specific variant (Omicron) and its unique challenges.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects variant to potential business and supply-chain disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights simultaneous workforce impact (‘many people … at the same time’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Recency plus concrete disruption mechanisms raise the score to 7."
+            },
+            {
+                "snippet": "Our supply chain is currently facing wide-ranging global challenges, although we have been able to meet delivery requirements of our customers with some interruption.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits present-tense, wide-ranging supply-chain challenges.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses ‘currently’, indicating active impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Partial mitigation noted (still meeting deliveries, ‘some interruption’).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Current disruption noted but tempered by partial mitigation, yielding a risk score of 3."
+            },
+            {
+                "snippet": "Global inflation also significantly increased during 2021 related to the COVID-19 economic recovery and associated disruptions in global demand, logistics, and labor markets.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 recovery to significant rise in global inflation.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies affected arenas (demand, logistics, labor).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Tie-in to inflation broadens financial exposure; moderate severity warrants a 5."
+            },
+            {
+                "snippet": "While it is difficult to estimate the extent and duration of any COVID-19 implications, the effects on our business, results of operations, and financial condition could be material.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States possible material impact on business and financial condition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasizes uncertainty around duration and extent—signals unresolved risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges lack of precise estimate (slight mitigation).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Materiality language boosts severity, but uncertainty and no specifics temper it to a 3."
+            },
+            {
+                "snippet": "We continue to closely monitor risks associated with our supply chain, including the availability of certain components, material shortages, supplier delays, potential transportation delays, and higher transportation and material costs, which could significantly adversely affect sales and/or profitability in future quarters.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple supply-chain stressors linked to COVID-19 context.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Warns of significant adverse effect on sales/profitability in near term.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "‘Monitor’ indicates some mitigation effort.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Detailed future financial threat, partially offset by monitoring efforts, results in a 5."
+            }
+        ],
+        "calculated_score": 46,
+        "average_severity": 5.111111111111111
+    }
+]

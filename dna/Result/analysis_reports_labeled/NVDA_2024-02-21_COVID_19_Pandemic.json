@@ -1,0 +1,102 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is referenced in the 2024 Form 10-K only as one of multiple continuing risk drivers rather than as an active, quantified impact.  The company frames the pandemic mostly in forward-looking, conditional language (\"may\", \"could\") that groups it with other disruptive forces such as natural disasters or geopolitical events.  Nevertheless, the text ties pandemic-related factors—government lockdowns, health-related supply constraints and generalized epidemics—to concrete operational exposures: demand-supply mismatches, extended lead-times and global business disruptions.  Because the filing date (Feb-2024) is roughly four years after the WHO declaration (Mar-2020), the Time-Decay Principle dictates a moderate weighting.  The risk is still pertinent (remote work, labour shortages, etc. are not detailed, but supply-chain and operational threats are), yet the narrative is generic and lacks financial quantification.  Overall, the evidence supports a medium-level residual risk posture: significant enough to watch, but no longer acute.",
+        "evidence_list": [
+            {
+                "snippet": "sudden or sustained government lockdowns or actions to control case spread of global or local health issues;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references lockdowns linked to health (pandemic) conditions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Placed within a list of factors that can create supply-demand mismatches, directly tying to revenue risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Hypothetical wording (‘could’) and bullet style make the statement generic rather than describing current impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "The snippet links pandemic-driven lockdowns to concrete financial exposure (supply/demand imbalance) but remains forward-looking and generic, yielding a moderate score of 4."
+            },
+            {
+                "snippet": "These include domestic and international economic and political conditions in countries in which we and our suppliers and manufacturers do business, government lockdowns to control case spread of global or local health issues, differing legal standards with respect to protection of IP and employment practices, different domestic and international business and cultural practices, disruptions to capital markets, counter-inflation policies, currency fluctuations, natural disasters, acts of war or other military actions, terrorism, public health issues and other catastrophic events.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions ‘government lockdowns to control case spread’ – direct pandemic reference.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Ties pandemic-related lockdowns to potential ‘material adverse effect on our business, financial condition and results of operations’ in the preceding sentence (context).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Bundled with many other generic risks; uses non-specific, conditional framing.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Although embedded in a wide risk list, the sentence clearly identifies pandemic lockdowns as a factor that could materially hurt the company, warranting a score of 4."
+            },
+            {
+                "snippet": "Extended lead times may occur if we experience other supply constraints caused by natural disasters, pandemics or other events.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links pandemics to supply-chain delays (‘extended lead times’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies operational mechanism (lead-time extension) affecting ability to deliver products.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses conditional ‘may’, reflecting hypothetical rather than current impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "The sentence identifies a clear operational vulnerability but is unquantified and hypothetical, resulting in a score of 3."
+            },
+            {
+                "snippet": "Our worldwide operations could be disrupted by natural disasters and extreme weather conditions, power or water shortages, telecommunications failures, supplier disruptions, terrorist attacks, acts of violence, political and/or civil unrest, acts of war or other military actions, epidemics or pandemics, abrupt regulatory deterioration, and other natural or man-made disasters and catastrophic events.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly mentions ‘epidemics or pandemics’ as disruption sources.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights potential disruption to ‘worldwide operations,’ indicating broad scope of impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Employs conditional ‘could’ and generic grouping with many other hazards.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Pandemics are identified as globally disruptive, but lack of specificity keeps the score at a moderate 4."
+            }
+        ],
+        "calculated_score": 15,
+        "average_severity": 3.75
+    }
+]

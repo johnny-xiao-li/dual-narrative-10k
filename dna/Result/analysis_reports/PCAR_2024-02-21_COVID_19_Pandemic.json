@@ -1,0 +1,56 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "PACCAR’s 2024 Form 10-K only references the COVID-19 pandemic in the generic, forward-looking portions of its risk factor discussion. Four years have elapsed since the WHO declared COVID-19 a pandemic, so under the Time Decay Principle the event falls in the early \"medium-term\" window (4 years). The document frames pandemics as a potential future disruptor rather than describing any current, quantifiable impact. Language is broad (“may increase costs,” “may be adversely affected”) and bundled with other contingencies such as extreme weather or geopolitical conflicts. No specific financial metrics, supply-chain loss figures, or remote-work commentary are supplied. Consequently, the risk evidence is moderate at most: the company acknowledges that another pandemic-level event could hurt production, supply chains and costs, but provides no data suggesting an ongoing material drag today. Scores therefore land in the 3-4 range—enough to reflect acknowledged exposure, but tempered by generic wording, lack of quantification, and time decay since the height of COVID-19 impacts.",
+        "evidence_list": [
+            {
+                "snippet": "Unexpected events, including natural disasters, extreme weather events, or pandemics, may increase the Company’s cost of doing business or disrupt the Company’s or its suppliers’ operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics as a risk category, creating a direct conceptual link to COVID-19–type events.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes meaningful potential impacts (higher costs, operational disruption across the company and its suppliers).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking and conditional wording ('may') weakens immediacy and certainty of impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "The sentence directly ties pandemics to cost and operational disruption, but is still generic and speculative; four years of time decay caps the score at a moderate 4."
+            },
+            {
+                "snippet": "The Company may be adversely affected by political instabilities, fuel shortages or interruptions in utility or transportation systems, natural calamities, recessions or slower economic growth, inflation, epidemics and pandemics (such as COVID-19), wars, geopolitical tensions and conflicts (such as conflicts in Ukraine and Israel), terrorism and labor strikes.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifically cites 'pandemics (such as COVID-19),' establishing an explicit link to the analyzed event.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates potential adverse effect on the company—an aggravating factor, albeit broad.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Pandemic risk is embedded in a long, catch-all list; lack of detail dilutes specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "While COVID-19 is called out by name, it is one item in a sweeping list of contingencies with no quantified impact; thus, the score is a modest 3, consistent with medium-term time decay."
+            }
+        ],
+        "calculated_score": 7,
+        "average_severity": 3.5
+    }
+]

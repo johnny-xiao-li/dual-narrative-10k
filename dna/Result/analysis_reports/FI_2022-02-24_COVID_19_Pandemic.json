@@ -1,0 +1,244 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "FI’s 2022 Form 10-K squarely acknowledges COVID-19 as an ongoing, near-term threat across virtually every facet of operations.  Most of management’s language is present-tense or forward-looking (“has had and may continue”, “will depend on”), confirming that impacts are not merely hypothetical—they are already being felt and could intensify.  Concrete operating headwinds are cited: lower transaction volumes, elevated charge-backs, client bankruptcies, supply-chain interruptions for POS devices and chips, workforce outbreaks, cyber-crime spikes, and stringent on-site safety protocols that may erode productivity.  At the same time, the filing admits material uncertainty about duration, vaccination success, and possible recessions, signalling that the downside tail is still wide open.  Mitigations are limited to generic statements (e.g., business-practice adjustments, partial volume recovery) and do not materially offset the noted exposures.  Because the pandemic is less than three years old at filing date, the Time Decay Principle allows high severities; however, scores are moderated when management notes partial recovery or unspecified outcomes.  Overall, the disclosure set indicates a high but not maximum risk posture, clustering most evidence in the 6 – 9 range.",
+        "evidence_list": [
+            {
+                "snippet": "The ongoing COVID-19 pandemic has had, and may continue to have, adverse impacts on our business and may amplify many of our other known risks.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemic is both current and continuing ('has had, and may continue to have').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong negative wording ('adverse impacts', 'amplify many of our other known risks').",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct acknowledgement of past and future adverse impacts with amplifying effect yields a high severity score."
+            },
+            {
+                "snippet": "These measures have, among other matters, negatively impacted consumer and business spending and, as a result, our operating performance, primarily within our merchant acquiring and payment-related businesses, which earn transaction-based fees.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links government COVID measures to specific financial harm in core revenue stream (merchant acquiring).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Impact is historical and verified ('have ... negatively impacted').",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Documented hit to a primary fee business is recent, specific and material, warranting an 8."
+            },
+            {
+                "snippet": "The pandemic has negatively impacted and may continue to negatively impact, transaction volumes, create economic uncertainty and financial market volatility, reduce economic activity, increase unemployment and cause a decline in consumer and business confidence, and could in the future further negatively impact the demand for our products and services, including merchant acquiring and payment processing.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple channels of impact (volumes, uncertainty, reduced demand).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers both actual and forward-looking harm.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No concrete mitigation or quantification provided.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Broad spectrum of realised and potential damages produces a solid but non-maximal risk score."
+            },
+            {
+                "snippet": "Disruption to our supply chain and third-party delivery service providers, including if: the factories that manufacture our point-of-sale devices, payment cards or computer chips for payment cards, or paper stock are temporarily closed or experience workforce shortages; shipping services are interrupted or delayed; there are increased lead times, shortages or higher costs for certain materials and components; or there are workforce shortages at our or third-party customer support, software development or technology hosting facilities;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags supply-chain breakdowns affecting critical hardware and support operations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Lists concrete mechanisms (factory closure, chip shortages, workforce shortages).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specific supply-chain vulnerabilities elevate risk, but absence of actual loss keeps score at 6."
+            },
+            {
+                "snippet": "Sustained increases in consumer chargebacks associated with processed transactions that merchant clients have submitted but have not fulfilled as an unprecedented number of merchants have been required to suspend or terminate their operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies direct financial exposure via chargebacks tied to merchant shutdowns.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Uses severe language ('unprecedented number of merchants').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Chargeback exposure is a clear financial risk but not quantified, landing at 6."
+            },
+            {
+                "snippet": "Government orders or other restrictions that limit or prohibit us from providing client-facing services from regular service locations, the failure of our business continuity plans, or supply chain issues that prevent us from meeting client service levels, any of which may increase the risk of failing to meet client contractual obligations that could cause loss of revenue, contractual penalties or potential legal disputes;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic restrictions to potential revenue loss, penalties and litigation.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights dependence on business continuity plans (uncertain effectiveness).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Risk is concrete but still conditional; moderate severity of 5."
+            },
+            {
+                "snippet": "Clients may require additional time to pay us or fail to pay us at all, which could significantly increase the amount of accounts receivable and require us to record additional allowances for doubtful accounts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies working-capital strain and credit losses tied to pandemic-driven client distress.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Financial impact is plausible but framed as conditional; hence a mid-level score."
+            },
+            {
+                "snippet": "The possibility of one or more clusters of COVID-19 cases occurring at our data, call, production or operations centers, affecting our employees or affecting the systems or employees of our clients or other third parties on which we depend.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights operational outage risk from workplace infections.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Operational hazard noted but still hypothetical; lower score."
+            },
+            {
+                "snippet": "Such measures may impact our productivity or effectiveness, and there is no certainty that such measures will be sufficient to mitigate the risks posed by the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits mitigation efforts could fail and harm productivity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Implicitly weakens mitigation narrative.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Acknowledged limits of mitigation increase residual risk but remain unquantified."
+            },
+            {
+                "snippet": "We expect that unauthorized parties will continue to attempt to gain access to our systems or facilities, and those of our clients, partners and vendors, through various means and with increasing sophistication, particularly as cybercriminals attempt to profit from the disruption caused by the COVID-19 pandemic given increased online banking, e-commerce and other online activity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic conditions to elevated cybersecurity threat.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "New cyber-attack vector attributed to pandemic adds notable, but indirect, risk."
+            },
+            {
+                "snippet": "We experienced a significant decrease in payments volume and transactions beginning in late March 2020 that negatively impacted our merchant acquiring and payment-related businesses as well as modest declines in other businesses.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Past quantified-in-kind harm ('significant decrease').",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Focuses on core revenue streams.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Historical volume drop in key segment pushes severity high."
+            },
+            {
+                "snippet": "While this current business trend is positive, the extent of the adverse impact of the pandemic on our business, results of operations, liquidity and financial condition will depend on, among other matters, the duration and intensity of the pandemic; the level of success of global vaccination efforts; governmental and private sector responses to the pandemic and the impact of such responses on us; and the impact of the pandemic on our employees, clients, vendors, supply chain, operations and sales, all of which are uncertain, difficult to predict and may remain prevalent for a significant period of time even after the pandemic subsides, including due to a continued or prolonged recession in the U.S. or other major economies.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights broad, prolonged uncertainty affecting multiple dimensions (operations, liquidity).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Acknowledges dependency on external factors beyond firm control.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Comprehensive but speculative uncertainty merits mid-high risk score."
+            },
+            {
+                "snippet": "In 2021, we began observing increasing shortages and delays in the global supply chain for components and inputs necessary to our businesses, such as semiconductors, paper and plastic, and may experience difficulty procuring those components and inputs in the future on a timely basis or at historical prices.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports current supply shortages affecting essential materials.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Forward-looking warning of cost/timing issues.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Present-tense supply chain stress adds significant operational risk, scoring 7."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has also caused us to modify our business practices, including restricting travel, limiting non-essential visitors to our facilities, disinfecting facilities, providing onsite testing and personal protective equipment to employees, establishing a variety of safety protocols at facilities, and requiring U.S. employees to be fully vaccinated unless they have an approved medical, religious, or state exemption.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows concrete operational adjustments indicating disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Represents a mitigation effort (vaccination, protocols).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Primarily a mitigation disclosure with modest disruption impact; low net score."
+            }
+        ],
+        "calculated_score": 75,
+        "average_severity": 5.357142857142857
+    }
+]

@@ -1,0 +1,234 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "FSLR’s 2021 10-K squarely links the still-unfolding COVID-19 pandemic (a 0-3-year ‘recent’ event) to multiple vectors of enterprise risk.  Disclosures move beyond generic caution to enumerate concrete channels—tightening capital markets, delayed customer procurement, forced plant shutdowns, upstream supply interruptions, permitting slow-downs, R&D setbacks, remote-work cyber-exposure, workforce health liabilities, and potential cascading impacts if restrictions persist.  While management notes that actual impacts had been limited up to filing date, it also records real costs (manufacturing charges) and openly concedes that many of these risks could “materially and adversely” affect results.  Overall, statements are largely forward-looking but specific, and the breadth of operational domains cited elevates severity.  Given the recency of the pandemic, the Time Decay Principle permits high scores; however, the presence of some mitigating language (e.g., “limited effect so far”) tempers individual snippet scores to the 6-9 range rather than a maximum 10.",
+        "evidence_list": [
+            {
+                "snippet": "The extent to which the COVID-19 pandemic could impact us is highly uncertain and will depend largely on the severity and duration of the pandemic, measures taken to contain the spread of the virus, and policies implemented by governmental authorities to ease restrictions in a phased manner.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct reference to COVID-19 as a potential impact driver.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights dependence on external containment measures and duration, signalling forward-looking uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks any quantified impact or current losses; purely conditional.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific pandemic linkage earns points, but generic uncertainty and no quantified impact keep severity moderate."
+            },
+            {
+                "snippet": "Although as of the date of this filing, we have not been materially impacted by the COVID-19 pandemic, the pandemic could materially impact our business, financial condition, and results of operations in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States possibility of material impact on business, finance, and operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicit acknowledgement of no current material hit is a mitigating factor.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Strong materiality language offset by explicit statement of no current impact, yielding a low residual risk score."
+            },
+            {
+                "snippet": "the continued economic disruption caused by the COVID-19 pandemic may result in a long-term tightening of the supply of capital in global financial markets (including, in the United States, a reduction in total tax equity availability), which could make it difficult for purchasers of our modules or our development projects to secure the debt or equity capital necessary to finance a PV solar power system, thereby delaying or reducing demand for our modules or these projects;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to capital-market tightening and customer financing constraints.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies downstream effect—reduced demand for modules/projects—clear operational impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking and conditional; no present losses.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Detailed causal chain from COVID to lower demand elevates risk, moderated because impact is still prospective."
+            },
+            {
+                "snippet": "purchasers of PV modules may delay module procurement in response to the COVID-19 pandemic, which may result in additional pressure on global demand and average selling prices for modules, and may exacerbate structural imbalances between global PV module supply and demand;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly ties pandemic to customer delays and pricing pressure.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions exacerbation of existing supply-demand imbalance, signalling potentially large financial effect.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific mechanism (delayed procurement leading to price erosion) yields moderate-high severity."
+            },
+            {
+                "snippet": "we may at any time be ordered by governmental authorities, or we may determine, based on our understanding of the recommendations or orders of governmental authorities, that we have to curtail or cease business operations or activities, including manufacturing;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies risk of forced shutdowns linked to COVID-related governmental orders.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Impact would directly halt manufacturing—core revenue driver.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Shutdown of core operations is a high-severity threat, justifying upper-tier score."
+            },
+            {
+                "snippet": "the failure of our suppliers or vendors to supply materials or equipment, or the failure of our vendors to install, repair, or replace our specialized equipment, due to the COVID-19 pandemic, related containment measures, or limitations on logistics providers’ ability to operate, may idle, slowdown, shutdown, or otherwise cause us to adjust our manufacturing capacity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit supply-chain disruption scenario tied to pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Potential consequence includes idling or shutting manufacturing lines—significant operational impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Sentence mentions they have already incurred charges, implying some current impact (not within snippet, but context).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Supplier failures threatening plant capacity score high, aided by hint of existing costs."
+            },
+            {
+                "snippet": "the COVID-19 pandemic and related containment measures may result in us incurring delays in obtaining, or failing to obtain, the approvals or rights that are required for our development projects to proceed, such as permitting, interconnection, or land usage approvals or rights, and the COVID-19 pandemic and related containment measures may delay or prevent the performance by third parties of activities related to the development of these projects, such as interconnection, engineering, procurement, construction, and other activities;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple project-development bottlenecks linked to pandemic restrictions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers both regulatory (permits) and third-party execution risks—broad scope.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Comprehensive listing of project delays signals moderate severity."
+            },
+            {
+                "snippet": "The COVID-19 pandemic and related containment measures, including the unavailability of our personnel and third-party partners who are engaged in R&D activities, may inhibit our R&D efforts or our ability to timely advance or commercialize these efforts;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Pandemic tied to R&D interruption, affecting future product pipeline.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies personnel unavailability—labor shortage angle.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Threat to innovation is notable but less immediate than production risks, giving a mid-range score."
+            },
+            {
+                "snippet": "In response to the COVID-19 pandemic, the vast majority of our associates who are capable of performing their function remotely are telecommuting (i.e., working from home).",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States operational shift to remote work driven by pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Implies potential productivity and oversight challenges.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Remote-work disclosure flags a change but without explicit adverse impact, so risk score is low."
+            },
+            {
+                "snippet": "Any increase in the frequency or scope of cyber-attacks during the COVID-19 pandemic may exacerbate the aforementioned cybersecurity risks.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic context to heightened cyber-threat landscape.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Exacerbation of existing cybersecurity risk adds operational danger.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Cyber-risk amplification is specific and potentially disruptive, warranting a moderate score."
+            },
+            {
+                "snippet": "In addition, while we have, among other things, established enhanced cleaning procedures at our facilities and protocols for responding when our associates are infected, we cannot assure these will be sufficient to mitigate the risks faced by our work force or the liability we may face as a result of any outbreaks of COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges possible workforce health liabilities despite mitigation efforts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions inability to assure sufficiency of measures—residual risk remains.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presence of mitigation is a slight offset.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Workforce health risk is clear but partly offset by cited mitigation, producing a modest score."
+            },
+            {
+                "snippet": "If the severity and duration of the COVID-19 pandemic does not abate and related containment measures are not lifted, are eased more slowly than anticipated, or are reinstituted, many of the other risks described herein may have a significant impact on our business, financial condition, and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Summarizes potential for ‘significant impact’ if pandemic persists.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Ties pandemic trajectory to broad financial and operational outcomes.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Catch-all warning of significant impact merits mid-level score due to broad but unspecific nature."
+            }
+        ],
+        "calculated_score": 56,
+        "average_severity": 4.666666666666667
+    }
+]

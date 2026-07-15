@@ -1,0 +1,246 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "STX’s 2021-08-06 Form 10-K embeds a dense, multi-layered discussion of COVID-19.  The company discloses that the pandemic has already produced tangible, material harm—higher logistics costs, supply-chain bottlenecks, demand volatility and operational disruptions—while emphasising that these effects remain ongoing and difficult to forecast.  Narrative language repeatedly uses present-tense (“has impacted”, “continue to incur”) and forward-looking qualifiers (“may adversely impact”, “unable to predict”), signalling both realised losses and future uncertainty.  Numerous granular risk vectors are enumerated: factory shutdowns, component shortages, labour unavailability, elevated expenses, customer payment delays, remote-work cyber-exposure and broad macro-economic deterioration.  No quantified dollar figures are given, but the breadth and immediacy of the impacts, coupled with management’s admission that they could be “material and adverse”, warrant high severity scores.  Because the filing date (August 2021) falls well inside three years of the 11 March 2020 pandemic declaration, the Time Decay Principle allows elevated scores (up to 10).  Mitigating language is minimal; the company offers no concrete offsets besides monitoring and cost-control efforts.  Overall, the risk evidence is recent, specific and already partially realised, justifying strong but sub-maximal snippet scores in the 3-9 range.",
+        "evidence_list": [
+            {
+                "snippet": "The ongoing COVID-19 pandemic has impacted our business, operating results and financial condition, as well as the operations and financial performance of many of the customers and suppliers in industries that we serve.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit statement that COVID-19 has already impacted the company’s own business metrics.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers multiple dimensions (operations, financial condition, customers and suppliers) indicating breadth of impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses ongoing tense (“ongoing ... has impacted”) showing continuing exposure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct, multi-faceted and already realised impact yields a high recent-event score of 7."
+            },
+            {
+                "snippet": "We are unable to predict the extent to which the pandemic and related effects will adversely impact our business operations, financial performance, results of operations, financial position and the achievement of our strategic objectives.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights significant uncertainty around future adverse impacts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Enumerates several fundamental corporate metrics at risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Primarily forward-looking uncertainty without quantified magnitude merits a moderate score."
+            },
+            {
+                "snippet": "The occurrence of a pandemic disease, such as the recent COVID-19 pandemic, has impacted and may adversely impact our operations (including, without limitation, logistical and other operational costs) and the operations of some of our customers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States both realised and potential adverse impacts on operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies logistical and cost dimensions.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Combination of realised effect and specific cost-related risks drives the score to 5."
+            },
+            {
+                "snippet": "We have experienced and continue to experience disruptions in our supply chain due to the impact of the COVID-19 pandemic, which has also impacted and may adversely impact our operations (including, without limitation, logistical and other operational costs) and the operations of some of our key direct and indirect suppliers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits current, ongoing supply-chain disruptions attributable to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links disruptions to higher logistical and operational costs.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Real-time supply-chain disruption plus cost escalation support a score of 5."
+            },
+            {
+                "snippet": "disruptions to or restrictions on our ability to ensure the continuous manufacture and supply of our products and services, including insufficiency of our existing inventory levels and temporary or permanent closures or reductions in operational capacity of our facilities or the facilities of our direct or indirect suppliers or customers, and any supply chain disruptions;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific manufacturing and supply interruptions directly tied to the pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions both own facilities and supplier/customer sites, widening impact scope.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Potential for permanent closures increases severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Granular manufacturing-shutdown risk yields a mid-high score of 5."
+            },
+            {
+                "snippet": "temporary shortages of skilled employees available to staff manufacturing facilities due to stay at home orders and travel restrictions within as well as into and out of countries;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies labour shortages impacting production capacity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links shortages directly to pandemic-related restrictions.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specific labour risk but described as ‘temporary’; moderate score."
+            },
+            {
+                "snippet": "increases in operational expenses and other costs related to requirements implemented to mitigate the impact of the pandemic;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit cost escalation attributable to pandemic mitigation measures.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers broad ‘operational expenses’, signalling financial drag.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Cost-increase disclosure without quantified amount merits score of 3."
+            },
+            {
+                "snippet": "reductions in short- and long-term demand for our products, or other disruptions in technology buying patterns;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly addresses demand contraction across multiple horizons.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links to broader changes in customer purchasing behaviour.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Demand-side risk is critical to revenue; earns score 4."
+            },
+            {
+                "snippet": "adverse effects on economies and financial markets globally or in various markets throughout the world, potentially leading to a prolonged economic downturn or reductions in business and consumer spending, which may result in decreased net revenue, gross margins, or earnings and/or in increased expenses and difficulty in managing inventory levels;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to macro-economic downturn and direct financial metrics (revenue, margins, earnings).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights inventory management difficulties, a concrete operational risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Macro-economic drag combined with explicit financial metric impact justifies score 4."
+            },
+            {
+                "snippet": "workforce disruptions due to illness, quarantines, governmental actions, other restrictions, and/or the social distancing measures we have taken to mitigate the impact of COVID-19 in an effort to protect the health and well-being of our employees, customers, suppliers and of the communities in which we operate;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes operational disruptions tied to workforce health and safety measures.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Shows ongoing necessity of mitigation actions, indicating persistent risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Labour-availability and mitigation burden are important but less financially quantified, scoring 3."
+            },
+            {
+                "snippet": "We continued to incur certain supply chain and demand disruptions during the fiscal year 2021, as well as higher logistics and operational costs and softer or higher demand across certain markets due to the COVID-19 pandemic, which we expect to continue into our fiscal year 2022.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms realised disruptions and cost increases in FY 2021.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Projects continuation into the next fiscal year, extending risk horizon.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Mentions both supply and demand-side volatility, broadening risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Recent, quantified-by-period impacts plus future expectation push score to 6."
+            },
+            {
+                "snippet": "Although we are unable to predict the impact of COVID-19 on our business, results of operations, liquidity or capital resources at this time, we expect we will be negatively affected if the pandemic and related public and private health measures result in substantial manufacturing or supply chain problems, substantial reductions in demand due to disruptions in the operations of our customers or partners, disruptions in local and global economies, volatility in the global financial markets, sustained reductions or volatility in overall demand trends, restrictions on the export or shipment of our products, or other ramifications from the COVID-19 pandemic.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Articulates multiple substantial risk channels (manufacturing, demand, logistics, financial markets).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Admits expectation of negative effects despite uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers liquidity and capital resources, indicating potential balance-sheet strain.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Rich enumeration of possible severe scenarios, balanced by uncertainty, yields a score of 5."
+            }
+        ],
+        "calculated_score": 53,
+        "average_severity": 4.416666666666667
+    }
+]

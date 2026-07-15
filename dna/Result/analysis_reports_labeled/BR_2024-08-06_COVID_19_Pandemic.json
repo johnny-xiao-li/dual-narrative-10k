@@ -1,0 +1,110 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "BR’s 2024 filing references the COVID-19 pandemic only in broad, illustrative lists of potential disruptions.  The company acknowledges that global health crises, including COVID-19, \"have had and may have\" a material impact by depressing securities-market activity, but it provides no quantification, no discussion of actual supply-chain or labour effects, and no detailed mitigation plans beyond its general business-continuity and disaster-recovery frameworks.  Most language is forward-looking or conditional (“could”, “may”), indicating potential exposure rather than current impairment.  Because the pandemic began more than four years before the filing date, the Time-Decay Principle caps severity in the mid-range.  Overall, the risk evidence is moderate: it confirms continuing sensitivity to pandemic-driven market slowdowns yet remains generic and un-quantified.  Consequently, no snippet warrants a score above 6, and several receive only minimal points for merely naming the risk.",
+        "evidence_list": [
+            {
+                "snippet": "Global economic and political conditions, including global health crises and geopolitical instability, broad trends in business and finance that are beyond our control have had and may have a material impact on our business operations and those of our clients and contribute to reduced levels of activity in the securities markets, which could adversely impact our business and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names \"global health crises\" and links them to BR and client operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States both past ('have had') and prospective ('may have') ‘material’ impacts, signalling severity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects pandemic-driven market contraction to revenue-critical securities-market activity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Medium-term Time-Decay adjustment (event >4 years old).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct tie between COVID-19-type crises and material business impact merits high points, but time-decay limits the score to 6."
+            },
+            {
+                "snippet": "These factors may include: • social and health conditions, including widespread outbreak of an illness or pandemic such as the Covid-19 pandemic;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifically cites \"pandemic such as the Covid-19 pandemic\" as a risk factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presents the item only as a generic possibility without impact detail.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term Time-Decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Generic bullet mention plus time-decay neutralises most risk weight, yielding a negligible net score."
+            },
+            {
+                "snippet": "Our operations are dependent on our ability to protect our infrastructure against damage from catastrophe, natural disaster, or severe weather, as well as events resulting from unauthorized security breach, power loss, telecommunications failure, terrorist attack, pandemic, or other events that could have a significant disruptive effect on our operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists \"pandemic\" among events that could cause significant disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights direct operational disruption if such an event occurs.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generic; no financial magnitude or COVID-specific detail.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term Time-Decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Acknowledges operational vulnerability to pandemics but remains boiler-plate; after decay, only minimal risk credit remains."
+            },
+            {
+                "snippet": "• power or telecommunications failure, fire, flood, pandemic or any other natural disaster or catastrophe.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions pandemic as a potential cause of system failure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Purely illustrative list with no context or impact explanation.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term Time-Decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": -1
+                },
+                "reasoning_summary": "A bare checklist reference; after subtracting for generic wording and time decay, the net contribution is effectively nil."
+            }
+        ],
+        "calculated_score": 6,
+        "average_severity": 1.5
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Bank of America’s 2022-02-22 filing shows that COVID-19 remains a front-line, multi-year risk across all of the bank’s major value drivers: revenue, expenses, credit quality, liquidity, capital and operational resilience.  The narrative repeatedly affirms that the pandemic has already produced measurable damage (e.g., higher allowances, elevated operating costs) and explicitly warns that these effects may recur or intensify through supply-chain fragility, labour shortages, remote-work vulnerabilities, inflation pressure and demand shifts.  The statements are therefore both backward-looking (actual adverse impact) and forward-looking (continued uncertainty).  Given that the filing date is within two years of the formal WHO pandemic declaration, the Time-Decay Principle allows high severity scores.  Language is specific – naming direct channels (deposit flight, lower trading revenue, uncollectible merchant charges) – rather than boiler-plate, signalling a meaningful, actively-monitored risk posture rather than generic disclosure.  There are few material mitigating factors offered beyond generic business-continuity references; consequently, most snippets warrant upper-mid to high scores (7-9/10), reflecting near-term, pervasive risk with quantifiable consequences.",
+        "evidence_list": [
+            {
+                "snippet": "The impacts of the pandemic have adversely affected, and may continue to adversely affect us, and the pandemic’s duration and future impacts remain uncertain.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits realised adverse impact ('have adversely affected').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Flags ongoing exposure ('may continue to adversely affect').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights uncertainty about duration – forward-looking risk driver.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Provides clear acknowledgement of both realised and continuing pandemic risk, but without granular channels, so mid-high severity."
+            },
+            {
+                "snippet": "In recent months, the U.S. and other regions of the world have experienced supply chain disruptions and labor shortages, and the global economy and supply chains remain vulnerable.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites concrete macro effects directly linked to COVID-19 (supply-chain disruption, labour shortages).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States recency ('recent months') and continuing vulnerability.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact channel is external but clearly tied to operational/earnings risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Links pandemic to two headline risks (supply chains, labour) that can materially hit operations; recent timing boosts score."
+            },
+            {
+                "snippet": "The economic impact of the pandemic may continue to adversely affect certain of our businesses and our results of operations, including decreased demand for and use of our products and services; lower fees, including asset management fees; lower sales and trading revenue due to decreased market liquidity resulting from heightened volatility; higher levels of uncollectible reversed charges in our merchant services business; increased noninterest expense, including operational losses; and increased credit losses due to a deterioration in the financial condition of our consumer and commercial borrowers, which could result in their inability to fulfill contractual obligations, may vary by region, sector or industry and could be exacerbated by the expiration of government assistance.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple specific profit-and-loss channels (fees, trading revenue, credit losses, expenses).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Highlights deteriorating borrower conditions and government-support cliff.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking conditionality ('may continue') but framed with plausible triggers.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Highly detailed mapping of pandemic to revenue, expense and credit metrics justifies near-top score."
+            },
+            {
+                "snippet": "Pandemic developments and certain responses have also resulted in inflationary pressure and ultimately may contribute to the development of a prolonged, disruptive period of high inflation in the U.S. and globally.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to macro-level inflation risk that can erode margins and capital.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Warns of potentially 'prolonged, disruptive' period – severity amplification.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Less direct to bank-specific metrics than other snippets.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Introduces important but more diffuse inflation channel; still material but less bank-specific, hence moderate score."
+            },
+            {
+                "snippet": "If we become unable to operate our businesses from remote locations including, for example, because of an internal or external failure of our information technology infrastructure, we experience increased rates of employee illness or unavailability, or governmental restrictions are placed on our employees or operations, our business continuity plans could be adversely affected and result in disruption to our businesses.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links remote-work reliance to operational disruption risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Details multiple triggers (IT failure, illness, government restriction).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions existence of continuity plans (mitigant).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Focuses on remote-work operational fragility with some mitigation, giving a solid mid-level score."
+            },
+            {
+                "snippet": "Additionally, we continue to rely on third parties who could experience business interruptions as a result of the pandemic, which could increase our risks and adversely impact our businesses.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights third-party dependency – classic supply-chain/outsourcing vulnerability.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Points to ongoing reliance ('continue to rely'), signalling current exposure.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Captures supply-chain/third-party dimension; specific but less quantified, mid-range severity."
+            }
+        ],
+        "calculated_score": 35,
+        "average_severity": 5.833333333333333
+    }
+]

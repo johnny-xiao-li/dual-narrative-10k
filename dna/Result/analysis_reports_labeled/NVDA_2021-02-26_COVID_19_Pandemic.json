@@ -1,0 +1,354 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "NVIDIA’s Form 10-K, filed roughly one year after the WHO declared COVID-19 a pandemic, contains extensive, still-fresh disclosures that tie the pandemic to multiple operational, financial and strategic risks.  The company explicitly states that COVID-19 ‘continues to impact our business,’ employing strong material-adverse language while at the same time detailing concrete transmission channels: (i) supply-chain bottlenecks and component shortages, (ii) forecasting difficulties caused by abrupt demand shifts (both surges and suppressions), (iii) labour-force disruptions and long-term remote-work dependence, and (iv) macro-level liquidity and capital-market stresses.  Although the filing also notes a few short-term positives (e.g., higher gaming and data-centre demand), those are framed as potentially unsustainable and capacity-constraining, underscoring volatility rather than mitigation.  Because the pandemic is still well within the 0-3-year “recent event” window, the Time Decay Principle permits high severity scores.  Taken together, the language is predominantly forward-looking but supported by evidence of current, direct impacts; no quantified dollar figures are given, yet specificity around supply-chain choke-points, geographic exposure and workforce measures elevates overall risk.  Therefore, most individual sentences merit upper-mid to high scores (5-8), reflecting significant but not yet catastrophic exposure.",
+        "evidence_list": [
+            {
+                "snippet": "Additionally, consumer behavior during the COVID-19 pandemic, such as increased demand for our Gaming, Data Center and mobile workstation and laptop products and suppressed corporate demand for desktop workstations, has made it more difficult for us to estimate future demand, and these challenges may be more pronounced in the future if and when the effects of the pandemic subside.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to simultaneous positive and negative demand shocks that complicate forecasting.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasises difficulty in estimating future demand—an operational risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly flags that volatility could intensify when pandemic conditions change (forward-looking risk).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Presence of pandemic-driven upside (stronger demand) partially mitigates overall severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Captures direct, pandemic-caused demand volatility and forecasting risk, balanced by mention of temporary upside, resulting in a mid-level score of 5."
+            },
+            {
+                "snippet": "Our worldwide operations could be disrupted by earthquakes, telecommunications failures, power or water shortages, outages at cloud service providers, tsunamis, floods, hurricanes, typhoons, fires, extreme weather conditions, cyber-attacks, terrorist attacks, medical epidemics or pandemics (including, but not limited to, COVID-19) and other natural or man-made disasters, catastrophic events or climate change.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics, including COVID-19, as a potential disruptor of worldwide operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Presented among many generic catastrophes, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic catch-all language acknowledges COVID-19 but with little detail, producing a low-moderate score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic continues to impact our business and could materially adversely affect our financial condition and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Affirms current, ongoing impact (‘continues to impact’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong material-adverse phrasing regarding financial condition and results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Applies to core financial metrics, broadening severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct, forceful statement of continuing and potentially material harm yields a high score of 7."
+            },
+            {
+                "snippet": "COVID-19 has spread worldwide, resulting in government authorities implementing numerous measures to try to contain the disease, such as travel bans and restrictions, quarantines, shelter-in-place orders and shutdowns.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes extensive governmental containment measures that underpin operational disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Background context not specific to NVIDIA reduces immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Provides essential context but is generic; therefore the score is kept low."
+            },
+            {
+                "snippet": "These measures have impacted, and may further impact, our workforce and operations, the operations of our customers and our partners, and those of our respective vendors and suppliers (including our subcontractors and third-party contract manufacturers).",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that containment measures have already affected NVIDIA’s own workforce and operations (actual impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Extends impact to customers, partners, vendors, and suppliers, highlighting systemic risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Anticipates further impact, adding forward-looking severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Describes both realised and potential future disruptions across the entire value chain, warranting a high score."
+            },
+            {
+                "snippet": "Our critical business operations, including our headquarters, most of our finished goods inventory and many of our key suppliers are located in regions which have been impacted by COVID-19.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights geographical concentration of assets and suppliers in COVID-19-affected regions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies inclusion of headquarters and finished goods inventory—core operational exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates current impact, not just potential.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Pinpoints concrete, location-based exposure of vital operations, resulting in a high severity score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has increased economic and demand uncertainty.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies macroeconomic uncertainty attributable to the pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Unspecified magnitude and no direct operational linkage reduce depth.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Acknowledges uncertainty but with minimal detail, giving a modest score."
+            },
+            {
+                "snippet": "Additionally, stronger demand globally has limited the availability of capacity and components in our supply chain, particularly in Gaming, which could cause us to order an excess amount if demand changes, pay higher prices, or limit our ability to obtain supply at necessary levels or at all.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-driven demand shifts to tangible supply-chain constraints.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details downstream risks: over-ordering, higher input costs, or inability to secure supply.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies Gaming segment exposure, adding granularity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Explains concrete supply-chain and cost risks arising from pandemic-related demand spikes, justifying a high score."
+            },
+            {
+                "snippet": "As the COVID-19 pandemic continues, the timing and overall demand from customers and the availability of supply chain, logistical services and component supply may have a material net negative impact on our business and financial results.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Ties ongoing pandemic to both demand volatility and supply-chain/logistics constraints.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses ‘material net negative impact’ language, signalling significant severity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers both operational and financial consequences.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Comprehensive statement of potentially material harm across demand and supply earns a high score."
+            },
+            {
+                "snippet": "Each of these countries and locations has been affected by the pandemic and has taken measures to try to contain it, including restrictions on manufacturing facilities, commerce, travel, on our support operations or workforce, or on our customers, partners, vendors and suppliers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Calls out specific containment measures affecting manufacturing, commerce and travel where NVIDIA operates.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "References impact on multiple stakeholders (workforce, customers, vendors).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Geographically focused description of containment measures and stakeholder impact yields a solid mid-range score."
+            },
+            {
+                "snippet": "Such measures, as well as restrictions or disruptions of transportation, such as reduced availability or increased cost of air transport, port closures and increased border controls or closures, could limit our capacity to meet customer demand and have a material adverse effect on our financial condition and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies transportation and logistics disruptions linked to containment measures.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Warns of a ‘material adverse effect’ on financial condition and results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional wording (‘could’) slightly tempers certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Well-defined logistics risk with strong adverse-effect language earns a mid-high score."
+            },
+            {
+                "snippet": "The spread of COVID-19 has caused us to modify our business practices (including employee travel, mandatory work-from-home policies and cancellation of physical participation in meetings, events and conferences), and we may take further actions as required by government authorities and regulations or that we determine are in the best interests of our employees, customers, partners and suppliers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms actual operational changes (remote work, travel limits).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Signals possibility of additional future measures, indicating ongoing uncertainty.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Describes proactive mitigation efforts, reducing overall severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Shows real operational disruption but balanced by proactive measures, leading to a low-moderate score."
+            },
+            {
+                "snippet": "There is no certainty that such measures will be sufficient to mitigate the risks posed by the disease, and our ability to perform critical functions could be harmed.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Recognises potential inadequacy of mitigation measures.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights risk of harm to critical business functions.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Questioning effectiveness of mitigations and raising threat to critical functions produces a high-moderate score."
+            },
+            {
+                "snippet": "While the extent and duration of the COVID-19 pandemic on the global economy and our business is difficult to assess or predict, the pandemic has resulted in, and may continue to result in, significant disruption of global financial markets, which may reduce our ability to access capital or our customers’ ability to pay us for past or future purchases, which could negatively affect our liquidity.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes actual and continuing disruption of global financial markets.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects disruption to reduced capital access for NVIDIA.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights counter-party credit risk (customers’ ability to pay).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Addresses liquidity impact, a core financial risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Multi-channel financial-market risk with direct liquidity implications justifies a high score of 8."
+            },
+            {
+                "snippet": "A recession or financial market correction resulting from the lack of containment and spread of COVID-19 could impact overall technology spending, adversely affecting demand for our products, our business and the value of our common stock.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies macroeconomic recession risk tied to pandemic containment failure.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies adverse impact on technology spending and product demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Extends impact to shareholder value (common stock).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Clear articulation of recession-induced demand and valuation risk earns a high score."
+            },
+            {
+                "snippet": "An extended period of global supply chain and economic disruption as a result of the COVID-19 pandemic could have a material negative impact on our business, results of operations, access to sources of liquidity and financial condition, though the full extent and duration is uncertain.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Addresses prolonged supply-chain and economic disruption scenario.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses ‘material negative impact’ phrasing across multiple financial dimensions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges uncertainty, slightly tempering immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Describes severe but contingent long-term disruption, resulting in a mid-high score of 5."
+            }
+        ],
+        "calculated_score": 85,
+        "average_severity": 5.3125
+    }
+]

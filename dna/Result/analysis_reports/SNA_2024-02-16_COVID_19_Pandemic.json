@@ -1,0 +1,81 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated nearly four years after the WHO’s March 2020 declaration, treats pandemic exposure as an ongoing but generalized contingency rather than a currently crippling force.  COVID-19 is not named; instead management folds “outbreaks of infectious diseases” into broader operational-risk language covering manufacturing disruptions, supply-chain shortages and macro-economic volatility.  The text therefore presents the pandemic primarily as a forward-looking, hypothetical threat (“could have,” “may be affected”) with no quantified or historical financial hits.  Under the Time-Decay Principle, evidence from this 2024 document referring to a 2020 event falls in the 4-to-10-year window, warranting moderate—not maximal—severity scores.  The most material statement links infectious-disease outbreaks to potential plant shutdowns and “material adverse effect,” justifying mid-range scoring, while more generic listings of pandemics among many hazards merit only minimal weight.  Overall, the risk is acknowledged, unquantified, and mitigated by its conditional framing, so individual snippet scores peak at the mid-scale level (≤6), consistent with a medium-term, non-specific disclosure.",
+        "evidence_list": [
+            {
+                "snippet": "Any prolonged disruption in the operations of our existing manufacturing facilities, whether due to technical or labor difficulties, facility consolidation or closure actions, lack of raw material or component availability, destruction of or damage to any facility (as a result of natural disasters, climate or weather events, use and storage of hazardous materials, armed conflicts, sabotage, terrorism, civil unrest or other events), or other reasons, including outbreaks of infectious diseases, could have a material adverse effect on our business, financial condition, results of operations and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites 'outbreaks of infectious diseases' as a cause of manufacturing disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects the risk to direct operational impacts (facility shutdowns, raw-material shortages).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses strong materiality wording ('material adverse effect' on business, financial condition, results).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking, conditional language ('could') indicates uncertainty rather than existing impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "The sentence squarely links infectious-disease outbreaks to serious operational and financial harm, but the hypothetical framing keeps the medium-term score at 5."
+            },
+            {
+                "snippet": "In addition, outbreaks of infectious diseases, weather events, armed conflicts, government actions (including those affecting trade) or other circumstances beyond our control could also impact the availability of raw materials and components.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "References infectious-disease outbreaks as a supply-chain risk factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details the specific consequence—raw-material and component shortages.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic, conditional phrasing ('could') reduces immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Supplies a clear but unquantified link between disease outbreaks and supply-chain disruption, producing a modest medium-term score of 3."
+            },
+            {
+                "snippet": "We, our franchisees and our customers, and the economy as a whole, also may be affected by future world or local events outside our control, such as tariffs and other trade protection measures put in place by the United States or other countries, acts of terrorism, developments in the war on terrorism, armed conflicts (including the current war in Ukraine, an escalation of the conflict in the Middle East, and other regional conflicts), civil unrest, conflicts in international situations, weather events and natural disasters, outbreaks of infectious diseases, as well as government-related developments or issues, including changes in tax laws and regulations, new or enhanced regulations related to climate change and other sustainability matters, and changes in financial accounting standards.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions 'outbreaks of infectious diseases' as one of several macro risks.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "States potential broad impact on the company and economy.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generalized, bundled with many unrelated risks, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Pandemic risk is only one item in a long, generic list, offering minimal incremental insight; hence the low score of 1."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 3.0
+    }
+]

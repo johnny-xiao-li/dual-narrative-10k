@@ -1,0 +1,90 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "PAYC’s 2023 Form 10-K acknowledges COVID-19 primarily as a continuing, forward-looking operational and regulatory hazard rather than as a source of already-incurred, quantified losses.  References cluster around four themes: (1) possible constraints on physical expansion and staffing, (2) the proliferation of pandemic-driven legislation that could raise compliance costs, (3) generic warnings that public-health crises can disrupt business operations, and (4) the potential for the pandemic to amplify broader macro-economic slowdowns.  None of the disclosures provide dollar figures or cite an observable hit to revenue or margins; all are phrased with conditional language (“may,” “could”).  Because the filing date (16 Feb 2023) is within three years of the WHO declaration (11 Mar 2020), the Time Decay Principle permits higher scores, yet the generic, un-quantified nature of the statements warrants only moderate severity.  Overall, the pandemic is framed as an ongoing but manageable risk that management continues to monitor, assigning it a medium-low impact profile in the firm’s risk universe.",
+        "evidence_list": [
+            {
+                "snippet": "Our ability to add additional offices may be constrained by the COVID-19 pandemic, the willingness and availability of qualified personnel to staff and manage any new offices and our success in recruiting and training sales personnel in those new offices.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links the COVID-19 pandemic to a concrete operational constraint (geographic expansion).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies the mechanism (availability of personnel) rather than a generic disruption reference.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Language is conditional (‘may be constrained’) and impact is not quantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Mid-level severity: gives a direct operational channel but still hypothetical and un-quantified."
+            },
+            {
+                "snippet": "For example, there have been and may continue to be a significant number of new laws and regulations promulgated by federal, state and local governments following the outbreak of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects the pandemic to ongoing regulatory proliferation, implying compliance cost risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights future persistence (‘may continue’), underscoring forward-looking exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No dollar figures or probability estimates provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Regulatory risk is acknowledged but remains qualitative, yielding a moderate score."
+            },
+            {
+                "snippet": "business disruptions caused by widespread public health crises (such as the COVID-19 pandemic), natural disasters, such as tornadoes, hurricanes, fires, earthquakes and floods, acts of war, terrorism, or other catastrophic events;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists COVID-19 among events that can disrupt business and financial results.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic, grouped with many unrelated hazards, reducing specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic boiler-plate inclusion of COVID-19 in a long hazard list justifies a low score."
+            },
+            {
+                "snippet": "Furthermore, the impact of such macroeconomic developments may be exacerbated by the COVID-19 pandemic or geopolitical events such as the ongoing military conflict in Ukraine.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemic could intensify macroeconomic downturn effects, linking to financial performance.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indirect and speculative; shares causal weight with other events and lacks quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Exacerbation language shows relevance but remains speculative and non-specific, so the score is low."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 2.25
+    }
+]

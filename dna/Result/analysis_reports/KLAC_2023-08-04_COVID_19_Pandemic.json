@@ -1,0 +1,114 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "KLAC’s 2023 Form 10-K continues to highlight COVID-19 as a material enterprise-wide risk even though the official declaration of the pandemic is now slightly more than three years old.  The company frames the virus chiefly as an operational hazard capable of disrupting manufacturing sites, suppliers and customers, driving order cancellations and lengthening lead-times.  It also links the pandemic to measurable labour-market pressure, noting heightened competition for engineers that has already raised recruitment costs.  The language is mostly forward-looking and qualitative—e.g., ‘could significantly disrupt’, ‘could seriously harm’—but at several points KLAC acknowledges realised impacts (‘has caused … delays’) that occurred during earlier phases of the outbreak.  Because the filing date (Aug-2023) is only marginally beyond the three-year “recent” window, the Time-Decay principle still allows above-average severity scores, though not the absolute peak values reserved for very fresh, quantified impacts.  Overall, the disclosed pandemic risk is current, pervasive and largely un-mitigated, warranting mid-to-high single-digit micro-scores (5-7) for individual sentences.",
+        "evidence_list": [
+            {
+                "snippet": "Natural disasters, such as earthquakes, health crises such as the COVID-19 pandemic, acts of terrorism or war or other catastrophic events, and the lack of insurance thereof, could significantly disrupt our operations, including affecting the global supply chain, for lengthy periods of time;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites COVID-19 as a potential disruptive health crisis.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights magnitude (‘significantly disrupt’) and duration (‘lengthy periods of time’) of impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions a concrete channel of impact – global supply-chain disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Purely forward-looking; no quantified loss or past impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Sentence describes serious, supply-chain-oriented disruption but remains hypothetical, so time-decayed score is a solid yet moderate 5."
+            },
+            {
+                "snippet": "Disruption of our manufacturing facilities or other operations or those of our suppliers, or in the operations of our customers, due to climate change, earthquake, flood, other natural catastrophic events, public health crises such as the COVID-19 pandemic or terrorism could result in cancellation of orders, delays in deliveries or other business activities, or loss of customers and could seriously harm our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 under ‘public health crises’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details concrete consequences: order cancellations, delivery delays, customer loss.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong wording ‘could seriously harm our business’.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Still framed as potential rather than realised impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Lists multiple severe operational impacts but remains prospective; balanced score of 5 under medium-term decay."
+            },
+            {
+                "snippet": "Such disruption has caused (as with the COVID-19 pandemic, for example) and could in the future cause inefficiencies in our workforce and delays in, among other things, shipments of products to our customers, our ability to perform services requested by our customers, the ability of our suppliers to supply us components for our products in a timely manner, or the timely installation and acceptance of our products at customer sites.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits historical, realised impacts (‘has caused … as with the COVID-19 pandemic’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates multiple operational pain points: workforce inefficiencies, shipment delays, supplier delays, installation delays.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Maintains forward-looking risk (‘could in the future cause’), extending relevance.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantitative dollar amount or probability provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Combines past evidence of disruption with a broad set of ongoing risks, justifying a higher mid-range score of 6."
+            },
+            {
+                "snippet": "The expansion of high technology companies worldwide and the elevated demand for talent from the growth in the demand for semiconductors following the onset of the COVID-19 pandemic has increased demand and competition for qualified personnel.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic directly to increased semiconductor demand and labour shortages.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States impact as factual and present (‘has increased demand and competition’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Focuses on talent acquisition – a critical operational resource.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No explicit severity adjective or quantified cost.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows a realised HR impact attributable to COVID-19 but without quantification; earns a moderate score of 5."
+            }
+        ],
+        "calculated_score": 21,
+        "average_severity": 5.25
+    }
+]

@@ -1,0 +1,458 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "PHM’s 2021-02-02 Form 10-K weaves a dense, highly specific narrative linking COVID-19 to both realised and prospective risks across virtually every facet of its operations.  Because the filing date is less than a year after the WHO declaration (Time-Decay window 0-3 yrs), recent-event rules allow high severity scores.  The disclosure is not generic: the company details concrete past impacts—shuttered sales centres, delayed builds, labour absenteeism, supply-chain slow-downs, order cancellations, liquidity draws—and then layers on forward-looking scenarios ranging from prolonged site closures to covenant breaches.  Mitigations (remote work, essential-service exemptions, vaccine progress, potential price increases) do appear, but they are portrayed as uncertain buffers rather than reliable offsets.  Overall, the pandemic is positioned as an ongoing, material, multi-dimensional threat whose duration and magnitude remain unknowable.  Consequently, the evidence warrants generally high snippet scores (7-10 for the most direct, quantified, or existential impacts; mid-range where mitigants dilute severity), fully consistent with the Time Decay Principle for a very recent event.",
+        "evidence_list": [
+            {
+                "snippet": "Our business has been materially and adversely disrupted by the present outbreak and worldwide spread of COVID-19 and could be materially and adversely disrupted by another epidemic or pandemic, or similar public threat, or fear of such an event, and the measures that international, federal, state and local governments, agencies, law enforcement and/or health authorities implement to address it.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States current, material, adverse disruption already occurring.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicitly ties disruption to COVID-19; no ambiguity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Extends risk to future pandemics, showing ongoing exposure.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Direct admission of material harm plus forward-looking exposure merits a very high score of 9."
+            },
+            {
+                "snippet": "An epidemic, pandemic, or similar serious public health issue, and the measures undertaken by governmental authorities to address it, could significantly disrupt or prevent us from operating our business in the ordinary course for an extended period, and thereby, and/or along with any associated economic and/or social instability or distress, have a significant adverse impact on our consolidated financial statements.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights possibility of ceasing normal operations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Flags ‘significant adverse impact’ on consolidated financials.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Risk framed as conditional (‘could’) not yet realised.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Severe prospective impact on operations and financials justifies a score of 8 despite conditional language."
+            },
+            {
+                "snippet": "For instance, our business was impacted by restrictions on travel, the inability to keep our sales centers open for in-person customer interactions, limits on our ability to continue physical construction of homes and adjustments to many of our other business processes to limit direct interactions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple concrete operational disruptions (travel, sales centres, construction).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Describes impacts that have already occurred (‘was impacted’).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specific, realised operational impacts yield a solid score of 7."
+            },
+            {
+                "snippet": "Those restrictions, combined with a reduction in the availability, capacity, and efficiency of municipal and private services 8 necessary to progress land development, homebuilding, mortgage loan originations, and home sales, which in each case varied by market depending on the scope of the restrictions local authorities have established, tempered our sales pace and delayed home construction and deliveries.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects restrictions to reduced sales pace and construction delays (financial + operational hit).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Describes actual, not hypothetical, slow-downs.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Real-world sales and delivery delays create high immediacy—score 7."
+            },
+            {
+                "snippet": "While our operations are now fully functioning, subject to regulated restrictions and safety constraints we have enacted in order to protect our employees, trade contractors, and customers, the current resurgence of the COVID pandemic in key areas of our operations may require us to implement restrictions on our operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges possible future re-restriction of operations due to resurgence.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes current full functionality (mitigating factor).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Future-looking risk tempered by present mitigation results in a lower but still positive score of 2."
+            },
+            {
+                "snippet": "The potential magnitude or duration of the business and economic impacts from the unprecedented public health effort to contain and combat the spread of COVID-19 are uncertain and could include, among other things, significant volatility in financial markets.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights uncertainty around magnitude/duration of impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Cites potential for significant market volatility.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Emphasises uncertainty and market volatility, giving a mid-range score of 5."
+            },
+            {
+                "snippet": "The COVID-19 public health effort may be intensified to such an extent that we will not be able to conduct any business operations in certain of our served markets or at all for an indefinite period.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Foresees complete shutdown of business operations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Indefinite duration amplifies severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Potential total cessation of operations drives a high score of 6."
+            },
+            {
+                "snippet": "In addition, efforts by local governments and agencies to lift restrictions on individuals’ daily activities and businesses’ normal operations may result in a resurgence of a pandemic or epidemic like COVID-19 and potentially prolong and intensify the impact of the crisis.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Risk of resurgence due to policy changes could prolong crisis.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Prolonged/intensified impact increases duration risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Describes policy-driven resurgence risk; score 5."
+            },
+            {
+                "snippet": "Despite the development of a vaccine and more effective treatments for the physical impacts of COVID-19, there are no reliable estimates of how long the COVID-19 pandemic will last, and therefore, the unpredictability of the current economic and public health conditions will continue to evolve.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights ongoing unpredictability and unknown duration.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes vaccine progress (mitigant).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Uncertainty is offset by vaccine progress, leaving a low positive score of 1."
+            },
+            {
+                "snippet": "Our business has also been impacted by constraints to the labor and supply chain we rely on to construct our homes.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly cites labor and supply-chain constraints already impacting operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Supply-chain is critical to core business (construction).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete supply-chain disruption yields a score of 5."
+            },
+            {
+                "snippet": "The continuing pandemic has caused our employees and those of our trade partners to miss workdays due to illness or quarantine.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows direct labour absenteeism.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Extends to trade partners, broadening impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Labour shortages across ecosystem justify score 4."
+            },
+            {
+                "snippet": "In addition, our supply chain has been impacted by similar labor interruptions slowing production capacity and by increased demand on raw materials generated in part by the COVID pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Labour interruptions slowing production capacity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions raw-material demand spikes (cost pressure).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Dual hit to capacity and costs supports a 5."
+            },
+            {
+                "snippet": "The combination of these factors can lead to increased costs and reductions in our production times.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic factors to higher costs.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes slower production times.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Less detailed but still negative; score 3."
+            },
+            {
+                "snippet": "Our business could also be negatively impacted over the medium-to-longer term if the disruptions related to COVID-19 decrease consumer confidence generally or with respect to purchasing a home; cause civil unrest; precipitate a prolonged economic downturn and/or an extended rise in unemployment or tempering of wage growth, any of which could lower demand for our products, impair our ability to sell and build homes in a typical manner or at all, generate revenues and cash flows, and/or access the capital or lending markets (or significantly increase the costs of doing so), as may be necessary to sustain our business; increase the costs or decrease the supply of building materials or the availability of subcontractors and other talent, including as a result of infections or medically necessary or recommended self-quarantining, or governmental mandates to direct production activities to support public health efforts; and/or result in our recognizing charges in future periods, which may be material, for inventory impairments or land option contract abandonments, or both, related to our current inventory assets.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates extensive long-term demand and economic threats.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies supply-side cost and labour shocks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Flags potential material write-downs/impairments.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Medium-to-long term timing less immediate.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Comprehensive list of severe, multi-year risks earns score 8."
+            },
+            {
+                "snippet": "The unprecedented uncertainty surrounding COVID-19, due to rapidly changing governmental directives, public health challenges and progress, macroeconomic consequences, and market reactions thereto, also makes it more challenging for our management to estimate the future performance of our business and develop strategies to generate growth or achieve our objectives for 2021 and beyond.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights management’s planning difficulty (strategic risk).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links uncertainty to inability to forecast growth.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Strategic uncertainty, moderate severity—score 4."
+            },
+            {
+                "snippet": "Should the adverse impacts described above (or others that are currently unknown) occur, whether individually or collectively, we would expect to experience, among other things, increases in the cancellation rates for homes in our backlog, and decreases in our net orders, homes delivered, revenues, and profitability, as we experienced in the first few weeks of our second quarter of 2020.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Projects cancellations and revenue/profit erosion.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Cites precedent from early Q2 2020 (evidence of past hit).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Demand-side and financial hit, anchored in past data, score 5."
+            },
+            {
+                "snippet": "In addition, should the COVID-19 public health effort and governmental restrictions in response to the pandemic instensify to such an extent that we cannot operate in most or all of our served markets, we could generate few or no orders and deliver few, if any, homes during the applicable period, which could be prolonged.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Foresees scenario of almost zero sales/deliveries.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Potentially prolonged duration exacerbates impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Severe sales shutdown risk merits 5."
+            },
+            {
+                "snippet": "Along with a potential increase in cancellations of home purchase contracts, if there are prolonged government restrictions on our business and our customers, and/or an extended economic recession, we could be unable to produce revenues and cash flows sufficient to conduct our business; meet the terms of our covenants and other requirements under our debt obligations, and/or mortgages and land contracts due to land sellers and other loans; service our outstanding debt; or pay any dividends to our stockholders.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to liquidity and covenant breach risks.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates multiple severe financial consequences (debt service, dividends).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Multi-faceted financial distress risk scores 5."
+            },
+            {
+                "snippet": "Such circumstances could, among other things, exhaust our available liquidity (and ability to access liquidity sources) and/or trigger an acceleration to pay a significant portion or all of our then-outstanding debt obligations, which we may be unable to do.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies threat of liquidity exhaustion and debt acceleration.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Serious liquidity threat earns 3 despite being conditional."
+            },
+            {
+                "snippet": "While the economic impact of COVID-19 may be reduced by financial assistance under the Coronavirus Aid, Relief, and Economic Security (CARES) Act; the Consolidated Appropriations Act, 2021; or other similar COVID-19 related federal and state programs, such programs may not be sufficient to have a positive impact on our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges possible mitigation via government aid.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Immediately questions sufficiency of that aid.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mitigation noted but discounted; minimal net risk score 1."
+            },
+            {
+                "snippet": "Modified our corporate and division office functions in order to allow all of our employees to work remotely except for essential minimum basic operations which could only be done in an office setting;",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates a shift to remote work (operational disruption).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Represents a deliberate mitigation strategy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Remote-work adaption shows disruption offset by mitigation; low score 1."
+            },
+            {
+                "snippet": "As the result of the COVID-19 pandemic, our net new orders declined significantly in late March through April.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies demand impact via significant order decline.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Tied directly to pandemic timing.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Actual demand contraction gives score 4."
+            },
+            {
+                "snippet": "However, we have experienced periodic disruptions in our supply chain, including the availability of skilled labor as industry demand increases, which have elongated the production cycles in certain markets.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Supply-chain and labour disruptions continue.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Prolonged production cycles slow revenue recognition.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Ongoing supply-chain delays score 5."
+            },
+            {
+                "snippet": "We are also facing cost pressures related to labor and materials, especially lumber, although we believe that we will be able to increase pricing to offset the majority of such cost increases.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges rising input costs.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States belief in ability to offset via pricing (mitigant).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Cost pressure offset by planned pricing leaves net neutral score."
+            }
+        ],
+        "calculated_score": 100,
+        "average_severity": 4.5
+    }
+]

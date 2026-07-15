@@ -1,0 +1,94 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "ALB’s 2024 Form 10-K continues to frame COVID-19 primarily as an operational and strategic risk factor rather than a presently material, quantified hit to financial performance.  Nearly four years after the WHO declaration, the company’s language has shifted from describing acute disruptions (as appeared in earlier filings) to emphasising (a) persistent, localised shutdown risks—especially in China where authorities may still close plants without notice, (b) knock-on threats such as IT-security vulnerabilities caused by the remote-work model incubated during the pandemic, and (c) broad contingency statements citing possible future pandemics.  These disclosures are mostly un-quantified and forward-looking, signalling management’s view that pandemic-driven contingencies remain relevant but are now part of the general risk landscape rather than an immediate crisis.  Applying the Time-Decay Principle, COVID-19 is nearing the 4-year mark, so severity scores migrate from the high (7-10) band toward the moderate (4-6) band.  Sentences that describe concrete curtailments in China still command higher scores because they evidence continuing, location-specific vulnerability, whereas generic boiler-plate about “future pandemics” or broad supply-chain possibilities earns lower points.  No sentence mentions an explicit dollar impact, so the absence of quantification reduces each score somewhat.  Mitigating language (e.g., “continue operations as normal”) is rare inside the extracted snippets, so few negative points are applied.",
+        "evidence_list": [
+            {
+                "snippet": "Furthermore, the Chinese government has, from time to time, curtailed manufacturing operations, with little or no notice, in industrial regions out of growing concern over air quality and in response to COVID-19 outbreaks.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links curtailment of ALB’s manufacturing operations directly to COVID-19 outbreaks (ongoing, not historical only).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes sudden, unpredictable nature (“with little or no notice”), heightening operational risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No financial magnitude or duration quantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Concrete evidence that COVID-19 can still shut plants in China warrants a moderate score, tempered by lack of dollar quantification."
+            },
+            {
+                "snippet": "A global or regional pandemic or similar outbreak in a region in which we or our key partners, customers, or suppliers operate could disrupt business, depending on factors including, but not limited to, the duration and severity of the pandemic, government restrictions on businesses and individuals, impact on demand for our products, impact on the supply chain network, and the health and safety of our employees and the communities in which we do business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple impact vectors—supply chain, demand, workforce health—demonstrating breadth of potential risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking and conditional (“could”), therefore more hypothetical.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No specific locations, timeframes, or financial metrics provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Detailed but generic list of possible pandemic impacts produces a mid-range score reflecting breadth without specificity."
+            },
+            {
+                "snippet": "Additionally, we face increased information technology security and fraud risks due to our increased reliance on working remotely during the COVID-19 pandemic and beyond, which may create additional information security vulnerabilities and/or magnify the impact of any disruption in information technology systems.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies a secondary, enduring risk (cyber-security) that is explicitly attributed to pandemic-driven remote work.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights future amplification of disruptions (“magnify the impact”), indicating persistent vulnerability.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Lacks quantification of potential loss or probability.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specific causal chain (remote work → cyber risk) earns moderate points, offset by absence of measurable impact."
+            },
+            {
+                "snippet": "• impact of any future pandemics;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemics as a continuing macro-risk driver in forward-looking statements.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generic catch-all bullet with no detail or direct linkage to operations or financials.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Boiler-plate reference conveys minimal incremental risk insight, resulting in a neutral net score."
+            }
+        ],
+        "calculated_score": 10,
+        "average_severity": 2.5
+    }
+]

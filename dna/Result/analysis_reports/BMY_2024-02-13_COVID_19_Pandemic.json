@@ -1,0 +1,228 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Bristol-Myers Squibb’s 2023 Form 10-K still frames COVID-19 as a relevant, though not acute, enterprise-wide threat.  The company discloses that the initial 2020 pandemic already dampened product demand (a realised impact) and that similar or wider consequences—ranging from raw-material scarcity, staffing shortages and logistics bottlenecks, to clinical-trial delays and even heightened cyber-risk—could recur with any future wave.  These statements are mostly prospective and qualitative, yet they remain credible because they reference concrete operational nodes (manufacturing sites, supply chain, patient starts, clinical enrolment).  No quantified dollar amount is provided, and management notes that it did not suffer major manufacturing outages to date—an explicit mitigant.  Under the Time-Decay Principle, COVID-19 is now almost four years old, placing it in the 4-10-year “medium-term” band; therefore each snippet’s score must be moderate.  Overall, the filing depicts a still-material but no longer crisis-level risk that can erode revenues and disrupt development if new outbreaks arise, justifying mid-range evidence scores (roughly 2-6 per sentence).",
+        "evidence_list": [
+            {
+                "snippet": "(ix) disruptions in supply chain continuity, including from market forces (such as the recent stress on global logistics), natural disasters, global disease outbreaks or pandemics (including COVID-19), acts of war or terrorism or other unforeseeable or unavoidable events that materially impact one or more of our facilities or a critical supplier.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names pandemics, including COVID-19, as a cause of supply-chain disruption.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong wording that disruptions could ‘materially impact’ facilities or key suppliers.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic catch-all phrasing reduces precision of the disclosure.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Time-decay adjustment for an event now ~4 years old.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "The sentence links COVID-19 directly to material supply-chain risk, but is qualitative and somewhat generic; hence a mid-level score of 4."
+            },
+            {
+                "snippet": "The COVID-19 pandemic affected demand for some of our products driven by lower patient starts and visits, and we would expect any future pandemics to have a similar effect.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges an actual historical impact on product demand.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Adds a forward-looking warning that future pandemics could replicate the damage.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Time-decay adjustment (medium-term event).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Because it cites realised financial harm and anticipates recurrence, the evidence is strong but still moderated for time, yielding a score of 6."
+            },
+            {
+                "snippet": "In addition, while we did not experience any significant manufacturing or supply issues due to COVID-19, it is possible that we could experience these issues in response to future pandemics.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States potential future manufacturing and supply problems from pandemics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights that no significant issues have occurred so far—clear mitigating language.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Time-decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Prospective risk is counter-balanced by explicit mitigation and time decay, driving the score down to 0 (very low materiality)."
+            },
+            {
+                "snippet": "For instance, we may experience scarcity of certain raw materials and components as a result of the influx of pandemic related vaccine orders receiving priority treatment from vendors.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies a concrete mechanism—vaccine-order prioritisation—through which pandemics can create raw-material shortages.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Directly links scarcity to operational risk (‘may experience’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Time-decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific supply-chain vulnerability tied to pandemic dynamics merits a moderate-high score of 5 after time adjustment."
+            },
+            {
+                "snippet": "Furthermore, a future epidemic or pandemic could create material staffing shortages at our manufacturing sites which could disrupt the supply of our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes material staffing shortages that directly threaten product supply.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Prospective rather than realised impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Time-decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Clear operational exposure (staffing shortages) but still forward-looking; net score 4."
+            },
+            {
+                "snippet": "It is also possible that we may experience supply chain interruptions as a result of quarantines, shelter-in-place and other governmental orders and policies, travel restrictions, airline and cargo capacity and route reductions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple pandemic-related governmental measures that can interrupt supply chains.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses conditional language (‘possible’), signalling uncertainty.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Time-decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Although specific mechanisms are cited, the conditional tone and time factor temper the severity to 2."
+            },
+            {
+                "snippet": "We may also experience delays in the initiation and enrollment of patients in our clinical trials as a consequence of any future pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights risk of clinical-trial delays, directly affecting pipeline progression.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Forward-looking and contingent on future pandemics.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Time-decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "A concrete R&D risk with moderate probability, leading to a score of 4."
+            },
+            {
+                "snippet": "The prevalence of counterfeit medicines is an industry-wide issue due to a variety of factors, including the adoption of e-commerce, which increased during the COVID-19 pandemic, greatly enhancing consumers’ ability to obtain prescriptions and other medical treatments via the internet in lieu of traditional brick and mortar pharmacies.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 to a rise in counterfeit-medicine risk via e-commerce growth.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Risk is indirect (counterfeiting rather than core operations).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Time-decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Indirect, partially historic risk yields a low score of 1."
+            },
+            {
+                "snippet": "Global economic conditions or events such as wars or pandemics also create additional risks from their impact on our suppliers, vendors, outsourcing partners, alliance partners and other third parties that we rely on to research, develop, manufacture, commercialize, co-promote and sell our products, manage certain marketing, selling, human resource, finance, IT and other business unit and functional services.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Recognises that pandemics can impair a broad range of third-party dependencies.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highly generic grouping with other macro events reduces specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Time-decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic breadth and timing discount pull the score down to 1."
+            },
+            {
+                "snippet": "We could also face potential other negative consequences stemming from future pandemics or global events, including but not limited to increased cyber threats to us and our partners such as cyber attacks and outages.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies an emergent cyber-security threat intensified by pandemics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Speculative and bundled with ‘other global events’.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Time-decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Speculative nature and time discount produce a low score of 1."
+            }
+        ],
+        "calculated_score": 28,
+        "average_severity": 2.8
+    }
+]

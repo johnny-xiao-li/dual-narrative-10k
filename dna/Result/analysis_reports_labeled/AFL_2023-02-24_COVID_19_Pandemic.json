@@ -1,0 +1,200 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "AFL’s 2023 Form 10-K frames COVID-19 as an ongoing, multi-dimensional threat that remains squarely within the 0-3-year ‘recent-event’ window, so high residual risk is expected under the Time Decay Principle.  The filing repeatedly attributes current and prospective headwinds—in capital markets, inflation, supply-chain frictions, labor availability, face-to-face distribution, vendor reliability and actuarial pricing uncertainty—to the pandemic.  Language is generally forward-looking (\"could continue to impact…\", \"may hinder sales…\"), yet it is anchored by specific operational conduits (agent recruiting, small-business customers, remote-work transitions) and strong qualifiers such as “material adverse effect.”  No hard dollar figures are provided, but the statements are neither boiler-plate nor historic: they describe live exposures that management cannot fully quantify and for which no definitive mitigants are offered beyond adaptive measures.  Accordingly, the overall risk profile is elevated—material but unquantified—and the extracted sentences warrant upper-mid to high severity scores (6-9) after balancing aggravating factors (direct linkage, breadth of impact, severity wording) with minor mitigating factors (absence of hard loss data, expression of uncertainty).",
+        "evidence_list": [
+            {
+                "snippet": "Difficult conditions in global capital markets and the economy, including those caused by COVID-19, could have a material adverse effect on the Company's investments, capital position, revenue, profitability, and liquidity and harm the Company's business.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to adverse macro conditions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong severity wording ('material adverse effect', 'harm').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates multiple financial dimensions (investments, capital, revenue, profitability, liquidity).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking conditional language introduces uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct recent-event linkage and severe, enterprise-wide impact justify a high score of 7."
+            },
+            {
+                "snippet": "Supply chain issues remaining from the COVID-19 pandemic, as well as geopolitical events, have contributed to inflation and volatility in energy prices.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemic-driven supply-chain disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects disruption to macroeconomic outcomes (inflation, energy volatility).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Shared attribution with ‘geopolitical events’ dilutes specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows causal chain but with moderate severity and partial attribution, yielding a score of 4."
+            },
+            {
+                "snippet": "The Company has evaluated its holdings and identified investments in areas such as commercial real estate, including mortgages, consumer discretionary spending, issuers with higher leverage, and emerging markets issuers as the most exposed to rising interest rates, an economic downturn and the continuing effects of the COVID-19 global pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies asset classes most exposed to ‘continuing effects’ of the pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Demonstrates active risk assessment by management (slight mitigation).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "References ongoing nature of pandemic effects.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Identifies vulnerable investments but includes management action, so impact is moderate (3)."
+            },
+            {
+                "snippet": "Major public health issues, including COVID-19 and any resulting or coincidental economic effects, could have an adverse impact on the Company's financial condition and results of operations and other aspects of its business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Broad statement that COVID-19 can adversely impact financial condition and operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Generic wording with no quantification or specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic catch-all language lowers severity despite acknowledging adverse impact."
+            },
+            {
+                "snippet": "Due to the evolving nature of the COVID-19 pandemic, the COVID-19 pandemic and any resulting or coincidental economic effects could continue to impact the Company's business, financial condition, results of operations, capital position, liquidity or prospects in a number of ways.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights ongoing, multi-faceted risk across key financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasizes uncertainty ('evolving nature', 'could continue').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Lacks concrete data or magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Broad, ongoing exposure with uncertainty but no quantification merits a moderate score of 3."
+            },
+            {
+                "snippet": "The ability of individual agents and agencies, strategic alliance partners, brokers and other distribution partners to make sales in Japan and the U.S. and the ability to conduct agent and broker recruiting has been reduced by efforts to mitigate the effects of the pandemic, and by cultural and workplace changes that were caused by or are coincidental with the pandemic and may be long-term in nature, including social distancing techniques and remote working by employees.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete operational impacts on sales force and recruiting.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Signals potential long-term structural change (‘may be long-term in nature’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mitigation efforts mentioned but effects still negative.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific operational disruption with possible long-term consequences earns a score of 5."
+            },
+            {
+                "snippet": "For example, most Aflac U.S. business customers, and most of the independent agents in its agency channel, are small businesses who may lack the financial resources to weather an economic downturn and may be disproportionately negatively impacted by the economic uncertainty surrounding COVID-19.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Pinpoints vulnerable customer/agent segment tied to COVID-19 uncertainty.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses conditional language (‘may’), reflecting uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Highlights a specific vulnerability but framed as a possibility, resulting in a score of 2."
+            },
+            {
+                "snippet": "Further, the Company's operations, as well as those of its vendors, service providers and counterparties, may also be adversely affected by the COVID-19 pandemic or the mitigation efforts and cultural and workplace changes outlined above.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Extends pandemic risk to third-party ecosystem (vendors, counterparties).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers operational breadth but uses tentative wording (‘may’).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Adds supply-chain/outsourcing dimension but with non-definitive language, so score is 2."
+            },
+            {
+                "snippet": "The assumptions and estimates that the Company uses in establishing premiums and reserves depend on the Company's judgment regarding the likelihood of future events and are inherently uncertain, including without limitation in regard to the effects of COVID-19.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to actuarial uncertainty in pricing and reserves.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights inherent uncertainty without mitigation.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows COVID-19 complicates core actuarial assumptions, a significant though unquantified risk (score 5)."
+            }
+        ],
+        "calculated_score": 33,
+        "average_severity": 3.6666666666666665
+    }
+]

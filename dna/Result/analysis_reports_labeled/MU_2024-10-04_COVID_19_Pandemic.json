@@ -1,0 +1,98 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Micron’s 2024-10-04 Form 10-K no longer singles out COVID-19 by name, yet multiple sentences still frame “public health crises” and “outbreaks of contagious diseases” as material threats to operations, supply chains, labour availability and macro-demand. The disclosures are forward-looking, largely qualitative and lack fresh, quantified impacts, indicating that management views pandemic fallout as an ongoing but now background-level risk rather than an acute crisis. Because the filing date is roughly 4½ years after the WHO declared COVID-19 a pandemic, the Time Decay Principle caps individual evidence scores in the moderate range (4-6). Overall, the company acknowledges enduring vulnerabilities—factory shutdowns, shipping delays, hiring constraints and demand shocks—but couches them in broad language without new financial metrics or remedial detail, resulting in mid-level severity assessments.",
+        "evidence_list": [
+            {
+                "snippet": "Other events, including political or public health crises, such as an outbreak of contagious diseases, may also affect our production capabilities or that of our suppliers, including as a result of quarantines, closures of production facilities, lack of supplies, or delays caused by restrictions on travel or shipping.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links public health crises/outbreaks to operational disruption (production capabilities).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details concrete mechanisms—quarantines, facility closures, supply shortages, travel restrictions—that mirror COVID-19 realities.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers both Micron and its suppliers, widening the potential impact scope.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct, specific, and wide-ranging description of pandemic-style disruptions earns the maximum moderate score (6) allowable under 4-10 year Time Decay."
+            },
+            {
+                "snippet": "Downturns in regional or worldwide economies, due to inflation, geopolitics, major central bank policy actions including interest rate increases, public health crises, or other factors, have harmed our business in the past and current and future downturns could also adversely affect our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects public health crises to both historical and prospective harm to the business.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges actual past impact, strengthening credibility of the risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Impact is broad and unquantified, lowering specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Provides evidence of real and potential financial harm but remains generic and unquantified, yielding a mid-range score of 3."
+            },
+            {
+                "snippet": "We and/or our suppliers and service providers could be affected by regional conflicts, civil unrest, labor disruptions, sanctions, tariffs, embargoes, or other trade restrictions, as well as laws and regulations enacted in response to concerns regarding climate change, conflict minerals, responsible sourcing practices, public health crises, or other matters, which could limit the supply of our materials and/or increase the cost.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions regulations driven by public health crises as a factor that can restrict supply and raise costs.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional and bundled with many unrelated risks, diluting emphasis on pandemic.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "References pandemic-related regulations but in a highly conditional, diffuse context, resulting in a low severity score of 1."
+            },
+            {
+                "snippet": "Additionally, changes to immigration policies in the countries in which we operate, as well as restrictions on travel due to public health crises or other causes, may limit our ability to hire and/or retain talent in, or transfer talent to, specific locations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links travel restrictions from public health crises to labour and talent retention issues.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies operational dimension—hiring/transfer of employees—which can materially affect performance.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantification or mitigation provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights staffing risks tied to pandemic travel limits with moderate detail, justifying a score of 3."
+            }
+        ],
+        "calculated_score": 13,
+        "average_severity": 3.25
+    }
+]

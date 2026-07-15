@@ -1,0 +1,92 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "NXPI’s 2024 Form 10-K still devotes discrete language to the COVID-19 pandemic, treating it in two ways.  First, management cites a concrete, historical impact: during 1H-2020 the pandemic-driven shutdown of automotive OEMs sharply depressed demand and hurt results.  Second, the filing retains a forward-looking, catch-all risk statement that future epidemics or pandemics could again disrupt labour availability, suppliers and customers.  Both references confirm that the company views COVID-19 as more than a closed chapter: it is evidence of a vulnerability that could recur.  Because the filing date (Feb 2024) is just under four years after the World Health Organization declared the pandemic (March 2020), the Time-Decay Principle places the event at the very edge of the “recent” to “medium-term” boundary.  Consequently, realised impacts from 2020 warrant a moderately high score, while generic forward-looking warnings merit only a moderate score.  No language quantifies dollar amounts, so severity is driven by the directness of causality and operational breadth rather than by hard numbers.",
+        "evidence_list": [
+            {
+                "snippet": "In the first half of 2020, demand in the automotive market steeply declined as a result of manufacturing shutdowns by automotive OEMs due to the coronavirus pandemic, resulting in an unforeseen negative impact to our results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes the decline to the coronavirus pandemic (‘as a result of’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Describes an actual, realised adverse impact (‘steeply declined’, ‘unforeseen negative impact’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies the affected segment (automotive) and operational mechanism (OEM shutdowns).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Event occurred almost four years ago, slightly diluting immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Strong, explicit causal link to COVID-19 with real operational damage; time decay knocks the score from very high to 7."
+            },
+            {
+                "snippet": "• epidemics and pandemics, such as the coronavirus outbreak, which may adversely affect our workforce, as well as our suppliers and customers;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly identifies pandemics and the coronavirus as a risk category.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates multiple potential impact channels (workforce, suppliers, customers).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Purely forward-looking and conditional (‘may’), no actual impact yet.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Generic boiler-plate language reduces specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic, prospective warning earns a moderate score of 3 after deducting for lack of specificity."
+            },
+            {
+                "snippet": "In less favorable industry environments, like we faced in the first half of 2020, we are generally faced with a decline in the utilization rates of our manufacturing facilities due to decreases in demand for our products.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "References the challenging conditions of 1H-2020, implicitly tied to the pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details an operational consequence (lower factory utilisation).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indirect link—does not explicitly say ‘COVID-19’ or ‘coronavirus’.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Historical reference approaching medium-term timeframe.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Only implicit COVID-19 linkage and older reference keep the score low at 2 despite noting operational stress."
+            }
+        ],
+        "calculated_score": 12,
+        "average_severity": 4.0
+    }
+]

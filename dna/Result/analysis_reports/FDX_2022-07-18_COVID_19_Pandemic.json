@@ -1,0 +1,161 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "FedEx’s 2022 10-K repeatedly links the COVID-19 pandemic to both realized and still-evolving threats across every major risk vector the prompt asks us to track.  Because the filing date (18-Jul-2022) is within 30 months of the WHO declaration (11-Mar-2020), Time-Decay permits high scores.  The company discloses concrete, already-incurred impacts—lower 2022 operating results, reduced shipping demand, network disruptions, higher labour and PPE costs—while also warning that fresh variants, remote-work vulnerabilities and uncertain government restrictions could further erode margins and heighten other disclosed risks.  The language is mostly specific (naming cost categories, business lines and operational choke-points such as FedEx Express) and sometimes quantified qualitatively (“higher costs,” “reduced shipping demand”), but does not give precise dollar amounts.  No meaningful mitigating language (e.g., insurance recoveries, firm cost-savings) offsets these statements.  Therefore the evidence set warrants mid-to-high severity scores (4-9 range), with sentences describing concrete 2022 detriments at the upper end and more generic forward-looking cautions at the lower end.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic negatively impacted our operating results in 2022.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies that the impact has already materialised ('negatively impacted' + past year).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links directly to financial performance ('operating results').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Event is recent (within 0-3 yrs), so Time-Decay permits higher weighting.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Direct, recent, realised harm to operating results justifies a near-maximum score of 9."
+            },
+            {
+                "snippet": "Global recovery from the impacts of the COVID-19 pandemic slowed with the onset of new variants, which resulted in reduced shipping demand and caused network disruptions, particularly at FedEx Express.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Attributes specific operational impacts to pandemic variants (reduced demand, network disruptions).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Identifies business segment most affected ('particularly at FedEx Express').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recent timeframe (variants appearing in 2022) heightens severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Detailed link between variants and measurable operational pain across a named segment scores a high 8."
+            },
+            {
+                "snippet": "Our business is labor and capital intensive in nature, which has required us to incur higher costs to operate our networks during the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemic has already increased operating costs.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights structural exposure (labour & capital intensity) that magnifies risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No mitigating actions cited.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Recency factor (cost increases ongoing during pandemic).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specifies cost inflation tied to pandemic and underlying cost structure; significant but less severe than demand loss, hence 7."
+            },
+            {
+                "snippet": "We have also incurred increased operating expenses related to personal protective equipment and medical/safety supplies, as well as additional security and cleaning services, in order to protect our team members and customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete cost categories already realised (PPE, cleaning, security).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates these are incremental expenses caused by pandemic safety measures.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recent and continuing nature of costs (implied ongoing need).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Provides specific examples of ongoing cost drag; meaningful but narrower in scope, resulting in score 6."
+            },
+            {
+                "snippet": "Our business operations may be disrupted, and we may experience increased risk of adverse effects on our business, if a significant portion of our workforce or certain business operations are negatively impacted as a result of remote work arrangements, including due to cyber risks or other disruption to our technology infrastructure.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forward-looking risk of operational disruption tied to pandemic-driven remote work.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Introduces secondary risks (cyber, tech disruption).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional language ('may') slightly mitigates certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Speculative but plausible secondary risk pathway; conditional tone lowers severity to 4."
+            },
+            {
+                "snippet": "To the extent the COVID-19 pandemic continues to adversely affect our business and financial results, it may also have the effect of heightening many other risks described in this section, any of which could materially and adversely affect our business, results of operations, and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Signals compounding effect—pandemic can amplify multiple existing risk factors.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong materiality language ('materially and adversely affect').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly conditional and generic with no quantification.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Broad, generic amplification warning without specifics; after deductions the snippet scores a low-moderate 2."
+            },
+            {
+                "snippet": "The continuing impact of the COVID-19 pandemic on our business, results of operations, and financial condition is highly unpredictable.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges uncertainty and potential breadth of impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No specifics or quantification; generic statement.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Purely generic uncertainty statement with no detail merits minimal risk evidence score of 1."
+            }
+        ],
+        "calculated_score": 37,
+        "average_severity": 5.285714285714286
+    }
+]

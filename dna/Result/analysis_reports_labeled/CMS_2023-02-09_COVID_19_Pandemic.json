@@ -1,0 +1,140 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CMS’s filing, dated February 9 2023, discusses COVID-19 as both a realised and continuing threat.  Three years after the WHO declaration, management still describes the pandemic as capable of materially harming every major performance metric—operations, liquidity, capital programme and cash flow—while also acknowledging impacts already felt (economic slow-down, supply-chain breakdowns, labour shortages and productivity loss).  The language is specific, forward-looking and broad-based, indicating that risk has not yet decayed materially.  Although a few passages note mitigation efforts, these are high-level and do not neutralise the pervasive nature of the threat.  Under the Time Decay Principle, an event that is <3 years old can attract high scores; accordingly, evidence that ties direct COVID-19 impact to material financial or operational exposure is scored in the 7-10 range, while more generic or mitigated statements receive lower scores.  Supply-chain sentences that omit an explicit pandemic reference are included because the filing positions global disruptions within the same timeframe and strategic discussion as COVID-19, signalling their inter-related origin.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic could materially and adversely affect each of CMS Energy’s and Consumers’ business, results of operations, financial condition, capital investment program, liquidity, and cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly identifies COVID-19 as a risk driver.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Enumerates multiple critical impact areas (business, operations, liquidity, etc.), signalling breadth of exposure.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong, materiality-trigger language ('materially and adversely affect').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "High-impact, forward-looking warning covering all major financial dimensions with no mitigation language warrants a 9/10."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has had widespread impacts on people, businesses, economies, and financial markets globally, in the U.S., and in markets where CMS Energy and Consumers conduct business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Affirms that impacts are already realised, not merely potential.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights global scope, including the company’s own markets.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly ties the impacts to COVID-19.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Sentence confirms actual, geographically wide-ranging effects; moderately high severity but unquantified, yielding 7/10."
+            },
+            {
+                "snippet": "These impacts include a reduction in economic activity, disruption to supply chains and operations, increased labor costs, reduced availability of labor, and reduced productivity.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides concrete operational and financial stress channels (supply chain, labour, productivity).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Clarifies variety of simultaneous pressures, increasing risk complexity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Enumerates specific adverse mechanisms without mitigation or quantification—solid but slightly weaker than prior sentence (6/10)."
+            },
+            {
+                "snippet": "Natural disasters, severe weather, wars, terrorist acts, civil unrest, vandalism, theft, cyber incidents, pandemics, and other catastrophic events could result in severe damage to CMS Energy’s and Consumers’ assets beyond what could be recovered through insurance policies (which are subject to deductibles, limitations, and self-insurance amounts that could be material), could require CMS Energy and Consumers to incur significant upfront costs, and could severely disrupt operations, resulting in loss of service to customers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes pandemics among catastrophic events, linking to potential severe damage and costs.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes financial and operational consequences (unrecovered damage, upfront cost, service disruption).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Generic multi-hazard clause with pandemics listed; moderately aggravating but less specific, so 4/10."
+            },
+            {
+                "snippet": "While CMS Energy and Consumers have experienced some supply chain disruptions and inflationary pressures, they have taken steps to mitigate the impact on their ability to provide safe and reliable service to customers.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges actual supply-chain disruptions (aggravating).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes active mitigation efforts, reducing net risk.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Realised disruption offset by explicit mitigation brings score down to 1/10."
+            },
+            {
+                "snippet": "Consumers’ ability to implement the 2021 IRP may be affected by global supply chain disruptions and changes in the cost, availability, and supply of generation capacity.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links global supply-chain disruptions to strategic capital plan execution.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Forward-looking exposure to supply-chain risk without mitigation; specific to strategic plan—moderate 3/10."
+            },
+            {
+                "snippet": "Consumers’ ability to implement its plan may be affected by environmental regulations, global supply chain disruptions, and changes in the cost, availability, and supply of natural gas or the ability to deliver natural gas to customers.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies global supply-chain disruptions as a threat to gas delivery plan.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Similar strategic risk from supply-chain factors, with no mitigating language, merits 3/10."
+            }
+        ],
+        "calculated_score": 33,
+        "average_severity": 4.714285714285714
+    }
+]

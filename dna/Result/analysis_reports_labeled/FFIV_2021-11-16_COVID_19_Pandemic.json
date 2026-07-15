@@ -1,0 +1,138 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "FFIV’s 2021-11-16 filing squarely acknowledges that the COVID-19 pandemic remains an active, enterprise-level threat.  Although management says fiscal-year 2021 results were not yet materially hit, they concede that pandemic-driven supply-chain shortages are already reducing visibility into component lead-times and that a broad set of downstream effects— from customer-spending slow-downs to remote-work disruptions—could still impair revenue, operations and margins.  The language is recent (within two years of the March 2020 WHO declaration), mixes concrete present-tense impacts (ongoing supply-chain constraints) with forward-looking contingencies (possible demand declines, cash-collection delays, workforce challenges), and generally avoids quantification.  Taken together, this yields a moderate-to-high risk profile: specific operational pain points have emerged, but the company also notes mitigation efforts and reports no significant historical hit yet.  Accordingly, individual snippet scores cluster in the 2-8 range, with higher marks where the filing ties direct, ongoing impacts to COVID-19 and lower marks where management highlights mitigation or uncertainty without evidence of current damage.  All scores comply with the Time Decay Principle for a recent event (0-3 years, scores may reach up to 10).",
+        "evidence_list": [
+            {
+                "snippet": "Global supply chain constraints in the wake of the COVID-19 pandemic continue to decrease our visibility into component availability and lead times.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links supply-chain constraints to the COVID-19 pandemic (‘in the wake of the COVID-19 pandemic’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Describes an ongoing, concrete operational impact (‘continue to decrease our visibility’).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "High score because the sentence ties an immediate, continuing operational disruption directly to COVID-19 with no mitigating language."
+            },
+            {
+                "snippet": "Despite efforts to mitigate the effects of supply chain constraints, the unavailability of suitable components, any interruption or delay in the supply of any of these hardware components or the inability to procure a similar component from alternate sources at acceptable prices within a reasonable time, may delay assembly and our ability to fulfill our sales of our products and, hence, our revenues, and may harm our business and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential delays in assembly and revenue harm due to component shortages—an aggravated operational and financial risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights multiple possible supply-chain failure modes (unavailability, interruptions, price spikes).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Acknowledges ‘efforts to mitigate,’ indicating partial risk reduction.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Moderate score: significant potential impact is tempered by acknowledgment of mitigation efforts and absence of explicit COVID wording in the sentence itself (context relies on prior sentence)."
+            },
+            {
+                "snippet": "The effects of a pandemic or widespread health epidemic such as the coronavirus outbreak could have a material adverse effect on our business and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly references pandemic/coronavirus as a threat.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong materiality language (‘material adverse effect’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Employs conditional ‘could,’ signalling uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Generic but clearly warns of material harm; conditional phrasing prevents a higher score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has disrupted the U.S. and global economies and put unprecedented strain on governments, healthcare systems, educational institutions, businesses, and individuals around the world, the impact and duration of which is difficult to assess or predict.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges widespread economic disruption attributable to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasises uncertainty over duration and impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Statement is macro-level, not company-specific.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Low-moderate score because it is broad and non-specific to FFIV, though it reinforces the pandemic’s disruptive nature."
+            },
+            {
+                "snippet": "While our analysis shows COVID-19 did not have a significant impact on our results of operations for the fiscal year ended September 30, 2021, the impacts of the global pandemic on our business and financial outlook are currently unknown.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states no significant historical impact—a strong mitigating factor.",
+                            "points": -3
+                        },
+                        {
+                            "reason": "Admits uncertainty regarding future impact (‘currently unknown’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Net score is zero because the denial of current impact fully offsets the generic acknowledgement of future uncertainty."
+            },
+            {
+                "snippet": "Areas that may or may not be adversely disrupted or impacted by the COVID-19 pandemic include, but are not limited to: customer demand for our products and services, reductions in customer spend, delayed or the inability to collect from our customers, disruptions to our supply chain that could result in delays, shortages or increased costs of our products, disruptions to our operations in servicing our customers as a result of working remotely or business location closures, which all may adversely impact our business, results of operations and overall financial performance in future periods.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple specific operational and financial risk channels (demand, cash collection, supply chain, remote work).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Directly ties these risks to the COVID-19 pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Warns of adverse impact on ‘business, results of operations and overall financial performance’.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "High score because it lists numerous concrete risk vectors directly stemming from COVID-19, covering both operational and financial dimensions, with no mitigating language."
+            }
+        ],
+        "calculated_score": 24,
+        "average_severity": 4.0
+    }
+]

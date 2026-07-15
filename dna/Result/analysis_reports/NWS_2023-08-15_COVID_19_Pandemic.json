@@ -1,0 +1,115 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "News Corporation’s 2023 Form 10-K acknowledges both historical and prospective impacts from the COVID-19 pandemic.  The filing cites concrete consequences—sports cancellations that hit Foxtel revenue and declines in print newspaper and advertising sales—and warns that future health crises could disrupt multiple operating areas, from supply-chain logistics to international workforce safety.  The language is largely qualitative: it notes ‘negatively impacted revenues’ and ‘increased printing and distribution costs,’ yet offers no dollar quantification.  While the document positions the pandemic alongside other exogenous shocks (e.g., natural disasters, geopolitical unrest), it still highlights COVID-19 as a salient driver of risk continuity (‘could continue to increase…costs’).  Because the WHO declaration occurred roughly 3.5 years before this filing, the Time Decay Principle shifts evidence out of the “recent/high-impact” bracket and into “medium-term” relevance; therefore individual snippet scores are capped in the mid-range (4-6) even where past impact is explicitly stated.  Overall, the disclosures portray a moderate but persistent enterprise-wide risk: historical damage has been felt, mitigation is not yet complete, and potential recurrences remain a concern—justifying aggregated scores in the 2-6 range for each sentence extracted.",
+        "evidence_list": [
+            {
+                "snippet": "For example, the COVID-19 pandemic caused postponements and cancellations of sports events that negatively impacted Foxtel revenues and a decline in print newspaper and advertising sales.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly names the COVID-19 pandemic as the causal factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes concrete operational disruptions (sports postponements/cancellations).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links event to revenue deterioration in specific business lines (Foxtel, print newspapers, advertising).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "The sentence ties COVID-19 to identifiable revenue hits across multiple segments, providing clear historical impact, thus meriting the upper bound of a medium-term score."
+            },
+            {
+                "snippet": "Future widespread health crises or other uncontrollable events may similarly have an adverse effect on the Company’s business, results of operations and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags pandemics/health crises as an ongoing, company-wide risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses hypothetical ‘may’ language, indicating uncertainty and reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Purely forward-looking and generic phrasing lessens severity; the result is a low but non-zero risk score."
+            },
+            {
+                "snippet": "Other events outside the Company’s control, including natural disasters, extreme weather, pandemics (including the COVID-19 pandemic) and other widespread health crises, political and social unrest or acts of terrorism, have had, and may in the future have, a similar impact.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references COVID-19 within a list of disruptive events.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges both historical and future impact dimensions.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Risk is diluted by grouping with many other hazards, reducing specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "The sentence notes past and prospective COVID-19 effects but bundles them with broad calamities, yielding a modest score."
+            },
+            {
+                "snippet": "These and other factors such as financial pressures, industry trends or economics (including the closure or conversion of newsprint mills), labor unrest, changes in laws and regulations, natural disasters, extreme weather (which may occur with increasing frequency and intensity), pandemics and other widespread health crises or other circumstances affecting the Company’s paper and other third-party suppliers and print and distribution partners could continue to increase the Company’s printing and distribution costs and could lead to disruptions, reduced operations or consolidations within the Company’s printing and distribution supply chains and/or of third-party print sites and/or distribution routes.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemics to ongoing supply-chain cost inflation and operational disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies specific functional area affected (printing and distribution).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses ‘could continue’—signals persistence of risk beyond initial outbreak.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Pandemics listed among many drivers, diffusing direct attribution.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Provides a concrete operational channel (printing supply chain) for pandemic risk, but enumeration of multiple causes tempers the impact."
+            },
+            {
+                "snippet": "There are risks inherent in doing business internationally and other risks may be heightened, including (3) the impact of catastrophic events in relevant jurisdictions such as natural disasters, extreme weather (which may occur with increasing frequency and intensity), pandemics (including COVID-19) and other widespread health crises, acts of terrorism or war (including the war in Ukraine);",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly mentions pandemics, including COVID-19, as a heightened international operating risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generic; no direct impact or financial metric provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Generic, list-style reference to COVID-19 without impact detail yields a neutral overall score under the time-decay-moderated rubric."
+            }
+        ],
+        "calculated_score": 12,
+        "average_severity": 2.4
+    }
+]

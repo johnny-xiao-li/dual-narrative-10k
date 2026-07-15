@@ -1,0 +1,136 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Aon’s 2024 Form 10-K continues to acknowledge the COVID-19 pandemic – framed more broadly as ongoing or future “health pandemics” – as a material risk factor.  The filing indicates that the pandemic has already hurt results (“have been adversely affected”) and could still cause “materially” adverse effects, but the company provides no quantified impact or fresh disclosures of specific supply-chain or workforce costs.  The language is largely generic and bundled with other macro threats, reflecting that four years have elapsed since the initial outbreak; per the Time-Decay Principle the risk signal therefore moderates from acute to medium-term.  Nevertheless, the document ties pandemics to concrete business mechanisms (client spending declines, economic volatility, operational disruption) and explicitly cites “pandemic health events (such as the COVID-19 pandemic).”  Overall, the evidence supports a moderate but persistent risk profile, warranting mid-range snippet scores (1-6) rather than the extremes seen with very recent or fully historic events.",
+        "evidence_list": [
+            {
+                "snippet": "Our results of operations have been adversely affected and could be materially adversely affected in the future by the effects of natural or man-made disasters, including health pandemics or the impacts of climate change.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States a realised historical impact on results (‘have been adversely affected’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong severity language (‘could be materially adversely affected’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Time-decay adjustment – pandemic now four years old.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Directly links past and potential future material impact to health pandemics; mid-term timing tempers an otherwise high severity."
+            },
+            {
+                "snippet": "Economic downturns, volatility, or uncertainty in the broader economy or in specific markets (including as a result of endemics or pandemics, climate change, political unrest, actions by central banks, or otherwise) may cause reductions in technology and discretionary spending by our clients, which may result in reductions in the growth of new business or reductions in existing business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemics to concrete business mechanism (client spending cuts).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details operational effect (slower new and existing business growth).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking and unquantified – uncertainty remains.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Time-decay moderation (4-year horizon).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows how pandemics can depress revenue via client behaviour, but lack of quantification plus medium-term timing lowers severity."
+            },
+            {
+                "snippet": "These losses may be attributable in whole or in part to alleged failures on our part or to events entirely outside of our control, including but not limited to uncertainty or volatility in financial markets due to economic, political, and regulatory conditions or pandemics.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges potential losses linked to pandemics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Generic, catch-all phrasing; no specificity or data.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Time-decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mentions pandemic-driven losses only hypothetically and without detail; residual risk signal is weak."
+            },
+            {
+                "snippet": "We are exposed to various risks arising out of natural disasters, including earthquakes, hurricanes, fires, floods, tornadoes, extreme weather, or other climate events; pandemic health events (such as the COVID-19 pandemic), and man-made disasters, including acts of terrorism, civil unrest, violence, military actions, and cyber-terrorism (including, but not limited to, ransomware).",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites ‘pandemic health events (such as the COVID-19 pandemic)’ as a risk exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists pandemics alongside other catastrophic risks, signalling broad exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generic enumeration; no impact data.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Time-decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Provides clear acknowledgement of COVID-19 but only as part of a generic risk list; limited incremental severity."
+            },
+            {
+                "snippet": "For many companies, the management of ESG risks and opportunities has become increasingly important, and ESG-related challenges, such as extreme weather events, supply chain disruptions, cyber events, regulatory changes, ongoing public health impacts, and the increased focus on workforce resilience in various work environments, continue to create volatility and uncertainty for our clients.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies ‘ongoing public health impacts’ as a continuing volatility driver.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links pandemic-driven volatility to client environment (indirect revenue risk).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Embedded in broad ESG list; non-specific and unquantified.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Time-decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Shows that pandemic after-effects still influence client risk profiles, but evidence is indirect and generic, yielding a low score."
+            }
+        ],
+        "calculated_score": 11,
+        "average_severity": 2.2
+    }
+]

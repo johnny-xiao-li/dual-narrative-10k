@@ -1,0 +1,142 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Palantir’s 2022-02-24 Form 10-K treats COVID-19 as an active, ongoing threat that has already produced tangible operational effects and that could further erode future performance.  Because the filing date is within two years of the WHO pandemic declaration, the Time-Decay Principle permits high severity scoring.  The discussion mixes backward-looking evidence—office closures, remote-only field work, lower travel spend—with forward-looking risk channels such as shrinking IT budgets, lengthening sales cycles, payment delays and higher future costs as offices reopen.  The company also acknowledges broad macro-economic headwinds that could suppress overall technology demand.  While some mitigating language appears (e.g., cost savings from reduced travel and “new opportunities”), the disclosures are primarily framed as adverse contingencies that could materially affect revenue, cash flow and margins.  Overall, the risk is recent, direct, multi-faceted and company-specific rather than boiler-plate, justifying high (but not maximum) snippet scores.",
+        "evidence_list": [
+            {
+                "snippet": "The ongoing global COVID-19 pandemic has significantly affected our business and operations.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit statement that COVID-19 has already produced significant impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links impact directly to company’s business and operations (present tense).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Recency (event <3 years) amplifies materiality under Time-Decay principle.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, unqualified acknowledgement of material current impact merits a high score."
+            },
+            {
+                "snippet": "For example, the COVID-19 pandemic has generally disrupted the operations of our customers and prospective customers, and may continue to disrupt their operations, including as a result of travel restrictions and/or business shutdowns, uncertainty in the financial markets or other harm to their business and financial results, which could result in a reduction to information technology budgets, delayed purchasing decisions, longer sales cycles, extended payment terms, the timing of payments, and postponed or canceled projects, all of which would negatively impact our business and operating results, including sales and cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple concrete disruption channels (travel bans, shutdowns).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates specific financial impacts (budget cuts, delayed purchasing, cash-flow timing).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects customer disruptions to Palantir’s own negative outcomes.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicit forward-looking risk (‘may continue’) adds persistence.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 10
+                },
+                "reasoning_summary": "Multi-layered, specific cascade from pandemic to Palantir’s cash flow justifies maximum score allowed."
+            },
+            {
+                "snippet": "Currently, as a result of certain work and travel restrictions related to the COVID-19 pandemic, and the precautionary measures that we have adopted, many of our field sales and professional services activities are still being conducted remotely, which has resulted in a decrease in our travel and office expenditures.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies operational change: shift to remote work due to pandemic restrictions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Quantifies a mitigating cost effect (decrease in travel/office spend).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows concrete operational shift; mitigation tempers but does not erase risk, yielding a moderate-high score."
+            },
+            {
+                "snippet": "However, we expect our travel and office expenditures to increase in the future as we resume such travel and continue to reopen our offices, which could negatively impact our financial condition and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forecasts future cost rebound tied to pandemic recovery phase.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links rising costs to negative financial impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking cost risk is specific but narrower in scope, producing a mid-range severity."
+            },
+            {
+                "snippet": "More generally, the COVID-19 pandemic has and is expected to continue to adversely affect economies and financial markets globally, leading to a continued economic downturn, which may decrease technology spending generally and could adversely affect demand for our platforms and services.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to broader macro-economic downturn.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Translates macro risk into lower demand for Palantir’s offerings.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States expectation of ongoing adverse effects (persistence).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Macro-level risk with explicit link to demand justifies a strong, though not peak, rating."
+            },
+            {
+                "snippet": "Our results of operations depend on sales to enterprise customers, which make product purchasing decisions based in part or entirely on factors, or perceived factors, not directly related to the features of the platforms, including, among others, that customer’s projections of business growth, uncertainty about economic conditions (including as a result of the ongoing COVID-19 pandemic), capital budgets, anticipated cost savings from the implementation of our platforms, potential preference for such customer’s internally-developed software solutions, perceptions about our business and platforms, more favorable terms offered by potential competitors, and previous technology investments.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites COVID-19-driven economic uncertainty affecting customer purchasing.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Positions pandemic as factor that can suppress Palantir’s revenue pipeline.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "List of other non-pandemic factors dilutes specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Pandemic named as key demand variable but embedded among other factors, leading to a moderate score."
+            }
+        ],
+        "calculated_score": 42,
+        "average_severity": 7.0
+    }
+]

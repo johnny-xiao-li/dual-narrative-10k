@@ -1,0 +1,98 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Ingersoll Rand’s 2024 Form 10-K continues to frame COVID-19 as a live, enterprise-level hazard, but the language has clearly shifted from the acute crisis phase to a medium-term, manageable risk.  The company acknowledges two dimensions: (i) it “has experienced” tangible supply-chain interruptions traceable to the pandemic, and (ii) it still “could” face future operational, workforce-availability and demand-fulfilment challenges if pandemic conditions recur or persist.  These statements are moderately specific—pinpointing raw-material delays, labour constraints and production stoppages—but they remain unquantified and largely conditional, signalling a prudent, forward-looking stance rather than a report of current material impairment.  Because the filing date (23 Feb 2024) is nearly four years after the WHO pandemic declaration, the Time-Decay Principle calls for mid-level severity scoring.  Overall, the evidence supports a moderate but non-negligible risk rating: the pandemic is no longer destabilising the firm daily, yet clearly informs ongoing contingency planning around supply chains, labour and customer demand.",
+        "evidence_list": [
+            {
+                "snippet": "A natural disaster, catastrophe, pandemic, geopolitical tensions or other event could adversely affect our operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists 'pandemic' as a threat that can harm operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic, bundled with many other risks and framed with conditional 'could', reducing specificity and immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic mention of pandemic as one of several hazards; low detail and purely hypothetical, so minimal severity."
+            },
+            {
+                "snippet": "In addition, disruptions in our supply chain due to natural disasters (including but not limited to those as a result of climate change), catastrophes, pandemics (such as COVID-19) or other events could reduce our ability to produce products and satisfy customer demand.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly ties pandemics, including COVID-19, to supply-chain disruption risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies material operational impact—reduced production capacity and unmet customer demand.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Use of conditional 'could' signals potential, not current, loss.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Moderately strong: names COVID-19, links to supply-chain and demand impact, but remains forward-looking and unquantified."
+            },
+            {
+                "snippet": "Interruptions to our operations and supply chain could also result from pandemic which could adversely impact our workforce or that of our suppliers, causing disruption to the manufacturing process or our supply chain, and last a week or months depending on the severity of the disruption.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights pandemic-driven labour shortages affecting both the company and its suppliers.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details operational consequences—manufacturing disruption and potential multi-week or multi-month duration, indicating seriousness.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional ‘could’ frames it as a possibility rather than a certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Gives concrete channels of impact (workforce, manufacturing) and potential duration, yielding a solid mid-level severity score."
+            },
+            {
+                "snippet": "We have experienced disruptions to our supply deliveries for raw materials and component parts due to reasons related to the pandemic and other recent economic conditions and may experience further supply disruptions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States an actual, historical impact—supply interruptions attributable to the pandemic.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies critical area affected: raw-material and component supply chain.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Signals continuing exposure by noting the possibility of further disruptions.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Partially dilutes attribution by adding 'other recent economic conditions'.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Most compelling evidence: confirms past pandemic-linked supply problems and warns of future issues, justifying the top end of the medium-term range."
+            }
+        ],
+        "calculated_score": 16,
+        "average_severity": 4.0
+    }
+]

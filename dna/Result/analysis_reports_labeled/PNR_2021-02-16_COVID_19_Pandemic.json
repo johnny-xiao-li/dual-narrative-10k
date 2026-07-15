@@ -1,0 +1,186 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "PNR’s 2021-02-16 Form 10-K provides an unusually detailed, forward-looking and backward-looking discussion of COVID-19.  The filing date is within 12 months of the WHO pandemic declaration (11 March 2020), so Time-Decay permits high severity scores (0-3 years bucket).  Management discloses both realised impacts – factory shutdowns, absenteeism, $10.4 million in incremental safety costs, supply-chain delays, higher freight and labour – and still-uncertain but probable future harms such as persistent demand reductions in multiple end-markets, potential liquidity strain and further regulatory lockdowns.  The language is specific (“material”, “significantly impacted”, names end-markets, quantifies costs) and ties each operational vector (demand, supply chain, labour, capital markets) directly to the pandemic.  Although the company notes mitigation efforts (remote work, alternate suppliers, cost-cutting), these are outweighed by the breadth, immediacy and materiality of the threats.  Therefore, individual snippets generally warrant high risk scores (7-10).  Mitigating components reduce some scores slightly, but none of the evidence is older than three years, so no Time-Decay cap is triggered below the recent-event ceiling of 10.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic is expected to have a material negative impact on our business, financial condition, results of operations and cash flows.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit statement of ‘material negative impact’ covering multiple financial dimensions.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Forward-looking certainty (‘is expected’) indicates continuing risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Clear, blanket acknowledgement of material harm justifies a very high score."
+            },
+            {
+                "snippet": "Our business and financial results have been and are expected to continue to be negatively impacted by the COVID-19 pandemic.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms both realised and future negative impacts on results.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Uses strong, unqualified language (‘have been’, ‘continue to be’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Sentence ties actual and ongoing harm to the pandemic, producing a high but slightly lower score than the ‘material’ statement."
+            },
+            {
+                "snippet": "Due to the impacts of the COVID-19 pandemic, we have experienced and expect to continue to experience reductions in customer demand for certain of our products and in several of our end-markets, including commercial filtration, commercial flow, industrial filtration and food and beverage.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific end-markets with current and future demand reductions.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Admits both realised and forecast impacts (‘have experienced and expect to continue’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Specificity on segments plus continuing demand loss merits near-maximum score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic is adversely affecting, and is expected to continue to adversely affect, certain elements of our business (including certain elements of our operations, supply chains and distribution systems), including as a result of impacts associated with required, preventive and precautionary measures that we, other businesses, our communities and governments are taking.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights multiple operational vectors—operations, supply chain, distribution—already affected.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Projects continuing adverse effects.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Broad operational disruption across key functions yields a strong risk rating."
+            },
+            {
+                "snippet": "In addition, we have experienced disruptions at some of our facilities with higher absenteeism due to the COVID-19 pandemic.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms concrete labour disruptions and absenteeism at facilities.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Realised workforce disruption is material but narrower in scope, producing a mid-high score."
+            },
+            {
+                "snippet": "During the first and second quarters of 2020, mandatory lockdowns or other restrictions on operations in some countries temporarily disrupted our ability to manufacture or distribute our products in some of these markets.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites specific timeframe and direct manufacturing/distribution disruption.",
+                            "points": 6
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Documented production interruptions lift score to the high-medium range."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has disrupted and is expected to continue to disrupt our operations, global supply chain and routes to market or those of our suppliers or their suppliers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Addresses entire global supply chain and routes to market—systemic risk.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Expectation of ongoing disruption.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Scope (company + suppliers) and duration (continuing) justify a very high score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has increased volatility and pricing in and disrupted the capital markets and commercial paper markets, and volatility is likely to continue.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies direct impact on financing and liquidity channels.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Predicts continued volatility, extending risk horizon.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Capital-markets instability is material but not yet quantified, generating a solid moderate score."
+            },
+            {
+                "snippet": "For the year ended December 31, 2020, we incurred $10.4 million of costs related to providing for the health and safety of our employees specific to the COVID-19 pandemic.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies actual cost incurred ($10.4 million).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Represents realised financial impact within last fiscal year.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Spending is a mitigation (employee safety) rather than a future risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Quantified cost elevates score, but mitigating nature of spend slightly offsets severity."
+            },
+            {
+                "snippet": "These supply chain and capacity challenges have led to higher transportation and labor costs in order to timely deliver finished goods to our customers.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes cost inflation (transportation and labour) stemming from pandemic-related challenges.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct cost increase is concrete but unquantified, placing it in the mid-range of high severity."
+            }
+        ],
+        "calculated_score": 65,
+        "average_severity": 6.5
+    }
+]

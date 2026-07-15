@@ -1,0 +1,246 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated February 25 2022, contains an extensive discussion of how COVID-19 has already affected Merck (MRK) and how it could continue to do so.  The language repeatedly links the pandemic to concrete, realized impacts – notably a quantified US $1.3 billion revenue hit in 2021, social-distancing-driven drops in vaccine and oncology sales, and tangible supply-chain disruptions that raise raw-material costs and threaten the Company’s ability to meet demand.  The text also frames COVID-19 as an ongoing and highly uncertain risk, emphasising the unpredictability of future variants, government responses, and health-system dynamics.  Although there are brief mitigating notes (e.g., systems have “largely adapted”), these are outweighed by explicit acknowledgements of continuing exposure, including the fact that roughly 75 % of Pharmaceutical revenue depends on physician-administered products that remain vulnerable if conditions worsen.  Given the recency of the pandemic (well inside the 0-3-year window), the specificity of impacts (supply-chain delays, cost inflation, physician-visit shortfalls), and the presence of a large, quantified financial hit, the evidence warrants high severity scores, tempered only where language is purely forward-looking or notes partial adaptation.",
+        "evidence_list": [
+            {
+                "snippet": "In 2021 and 2020, COVID-19-related disruptions had an adverse impact on the Company’s business, operations and financial performance.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States direct, realized adverse impact over two consecutive years.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers multiple dimensions (business, operations, financial performance).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Event is recent (0-3 yrs).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "High severity because it confirms multi-year, realized impacts, though no dollar figure is given."
+            },
+            {
+                "snippet": "The Company is unable to predict the full extent to which the COVID-19 pandemic or any future pandemic, epidemic or similar public health threat will adversely impact its business, operations, financial performance, results of operations, and financial condition.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit uncertainty about magnitude of adverse impact across critical financial areas.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking acknowledgement of risk persistence.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recency of event.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Lacks specificity/quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Moderate score: highlights broad, ongoing risk but remains generic and unquantified."
+            },
+            {
+                "snippet": "In addition, the COVID-19 pandemic has caused some disruption and volatility in the Company’s global supply chain network, and the Company may experience disruptions in availability and delays in shipments of raw materials and packaging, as well as related cost inflation.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific operational impacts (supply-chain disruption, delays, cost inflation).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links directly to pandemic cause.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recency factor.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No dollar quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Substantial operational risk described, though not quantified, yields a strong but not maximal score."
+            },
+            {
+                "snippet": "Any such disruptions, delays or costs may result in the Company’s inability to meet demand for the Company’s products.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights threat to revenue through inability to meet demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Directly linked to earlier supply-chain pandemic effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recent event window.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Conveys serious downstream consequence (lost sales) deriving from COVID-19-related disruptions."
+            },
+            {
+                "snippet": "As expected, within the Company’s human health business, which is comprised largely of physician-administered products, revenue was negatively impacted by social distancing measures and fewer well visits, which negatively affected vaccine and oncology sales in particular.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies causal mechanism (social distancing, fewer visits) linking pandemic to revenue decline.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Identifies affected product lines (vaccines, oncology).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recency factor.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Provides clear, recent operational channel of impact, though still unquantified."
+            },
+            {
+                "snippet": "The estimated negative impact of COVID-19-related disruptions to Merck’s revenue for the full year 2021 was approximately $1.3 billion, attributable to the Pharmaceutical segment.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies financial damage ($1.3 billion).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Links directly to pandemic and specifies segment affected.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Recent, realized impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 10
+                },
+                "reasoning_summary": "Maximum score: recent, direct, and materially quantified financial impact."
+            },
+            {
+                "snippet": "Merck believes that global health systems and patients have largely adapted to the impacts of COVID-19, however, roughly 75% of Merck’s Pharmaceutical segment revenue is comprised of physician-administered products which could be adversely affected by the pandemic if its effects worsen.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights substantial exposure (75% of revenue) to continued pandemic effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes some mitigation (systems have adapted).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Forward-looking risk in recent timeframe.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Risk is large but partly offset by adaptation language, yielding a modest net score."
+            },
+            {
+                "snippet": "The degree to which COVID-19-related disruptions impact the Company’s results in 2022 will depend on future developments, beyond the Company’s knowledge or control, including, but not limited to, the duration of the pandemic, its severity, the success of actions taken to contain or prevent the virus or treat its impact, and how quickly and to what extent normal economic and operating conditions can resume.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple uncontrollable variables affecting future impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Places risk squarely in the upcoming fiscal year (2022).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks concrete financial metrics.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Recency factor.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific future-risk drivers cited, but absence of quantified impact keeps score moderate."
+            },
+            {
+                "snippet": "Despite the Company’s efforts to manage the impacts of the COVID-19 pandemic, their ultimate effect will also depend on factors beyond the Company’s knowledge or control, including the duration of the COVID-19 pandemic as well as governmental and third-party actions taken to contain or prevent the spread and treatment of the virus and mitigate its public health and economic effects.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges uncontrollable external dependencies that could exacerbate risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasises ongoing uncertainty in recent period.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No specific financial or operational metric.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights uncertainty but is generic and unquantified, resulting in a lower score."
+            },
+            {
+                "snippet": "In addition, any future pandemic, epidemic or similar public health threat could present similar risks to the Company’s business, cash flow, results of operations, financial condition and prospects.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Extends risk horizon to future pandemics affecting multiple financial dimensions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic, contingency language without specifics or quantification.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Relevance maintained by immediate context of COVID-19.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Very broad statement of potential risk with no detail or data, so it scores low."
+            }
+        ],
+        "calculated_score": 54,
+        "average_severity": 5.4
+    }
+]

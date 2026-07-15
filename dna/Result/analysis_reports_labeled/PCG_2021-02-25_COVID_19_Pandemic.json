@@ -1,0 +1,166 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated February 25 2021, was written less than a year after the WHO declared COVID-19 a pandemic, so the Time Decay Principle allows high severity scores.  PG&E describes both realised and prospective impacts.  Several passages record concrete, quantified deteriorations – a US $478 million jump in overdue customer receivables, a US $430 million fall in billed revenues, and 2 % drops in electric and gas load – demonstrating that COVID-19 is materially eroding cash-flow and demand.  Other sentences flag operational pressures: workforce shortages, remote-work protocols, supply-chain lags and the need to re-sequence capital projects, all of which raise execution risk.  The company also warns of possible future financing strain through wider credit spreads.  Taken together, the disclosures show a blend of present damage and ongoing vulnerability.  Because the effects are already quantifiable and hit multiple risk dimensions (liquidity, operations, supply chain, financing), I assess the overall pandemic risk for PG&E as high-to-severe (upper-mid of the 0-10 spectrum).",
+        "evidence_list": [
+            {
+                "snippet": "PG&E Corporation’s and the Utility’s financial condition, results of operations, liquidity and cash flows have been and could continue to be significantly affected by the outbreak of the COVID-19 pandemic.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to material impact on multiple financial metrics (‘financial condition, results of operations, liquidity and cash flows’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States both realised and continuing risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No numerical size or timing detail provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clear acknowledgment of broad, existing and ongoing impact, but generic – yields a mid-range score of 5."
+            },
+            {
+                "snippet": "For example, the economic downturn has resulted in a reduction in customer receipts and collection delays in the second, third and fourth quarters of 2020.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes actual 2020 cash-flow deterioration tied to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies affected time-frame (multiple quarters).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No dollar amount given.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows concrete but unquantified cash-collection stress; moderate severity."
+            },
+            {
+                "snippet": "The Utility’s customer energy accounts receivable balances over 30 days outstanding as of December 31, 2020 were approximately $825 million, or $478 million higher as compared to the balances as of December 31, 2019.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies a substantial deterioration in receivables ($478 million).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Links directly to pandemic period (comparison 2019 vs 2020).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Large, numeric, realised liquidity hit; high score of 7."
+            },
+            {
+                "snippet": "In addition, the Utility has experienced average reductions of approximately two percent in electric load and approximately two percent in core gas load on a weather-adjusted basis from mid-March 2020 through December 2020, resulting in an estimated $430 million reduction in billed revenues for the mid-March 2019 to the December 2020 period.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides precise operational metric (2 % load drop) and financial consequence ($430 million).",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Covers an extended span within the pandemic timeframe.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, quantified revenue loss attributable to COVID-19 – near-maximum severity within recent-event window."
+            },
+            {
+                "snippet": "The COVID-19 pandemic and resulting economic downturn have resulted and will continue to result in workforce disruptions, both in personnel availability (including a reduction in contract labor resources) and deployment.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete labour-force constraints already occurring.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Signals future persistence of the issue.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights staffing risk but without numbers; moderate score."
+            },
+            {
+                "snippet": "These disruptions necessitate changes to the Utility’s operating and capital expenditure plans, which could lead to project delays or service disruptions in certain programs.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-driven disruptions to potential capex delays and service risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is prospective and unquantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Forward-looking operational risk, no data; low weight."
+            },
+            {
+                "snippet": "Delays in production and shipping of materials used in the Utility’s operations may also impact operations.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "References supply-chain bottlenecks affecting operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Purely potential effect, no magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mentions supply‐chain exposure but purely hypothetical – minimal score."
+            },
+            {
+                "snippet": "Potential longer-term impacts of COVID-19 on PG&E Corporation or the Utility include the potential for higher credit spreads and borrowing costs and incremental financing needs.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Foresees capital-markets risk (higher spreads, more financing).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Speculative, no figures or certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Adds financing risk but entirely forward-looking and unquantified, so low severity."
+            }
+        ],
+        "calculated_score": 30,
+        "average_severity": 3.75
+    }
+]

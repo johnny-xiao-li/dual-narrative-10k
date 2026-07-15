@@ -1,0 +1,127 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "M&T’s Form 10-K acknowledges COVID-19 primarily as an external macro-risk that has already disrupted the bank’s operating environment and might continue to weigh on future performance.  All references appear in the generic Risk-Factors narrative rather than in quantified financial discussions, signalling that management views the pandemic as an important—but now background—driver of broader economic volatility (inflation, supply-chain strain, labour shortages, demand shifts).  The wording mixes past-tense (‘created… disruptions that adversely affected’) with conditional language (‘could’, ‘may’) and bundles pandemics with other shocks such as wars and geopolitics.  Because the filing date (Feb 2024) is almost four years after the WHO declaration, the Time-Decay Principle requires a moderate (not peak) severity weighting: the pandemic is no longer an acute shock but remains within the 4-10-year window where lingering effects and renewed waves are still plausible.  Overall, the risk is forward-looking, unquantified and somewhat diluted by its inclusion in a basket of exogenous threats, so each individual sentence receives a mid-range score (4-6), and no disclosure rises to ‘high’ severity.",
+        "evidence_list": [
+            {
+                "snippet": "Additionally, economic conditions, financial markets and inflationary pressures may be adversely affected by the impact of current or anticipated geopolitical uncertainties; military conflicts, including Russia’s invasion of Ukraine and the attacks on Israel and conflict in the Middle East; pandemics, including the COVID-19 pandemic; and global, national and local responses thereto by governmental authorities and other third parties.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites ‘pandemics, including the COVID-19 pandemic’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects event to adverse macro-economic effects (‘may be adversely affected’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional language (‘may’, ‘anticipated’) indicating uncertainty.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Risk is blended with several other shocks, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Names COVID-19 as a threat to the economy but remains high-level and conditional; moderate, generic disclosure yields a score of 4."
+            },
+            {
+                "snippet": "Pandemics, acts of war or terrorism and other adverse external events could significantly impact the Company’s business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemics could ‘significantly impact’ the business—strong wording.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No specific reference to COVID-19 or concrete impact channels.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Highly conditional (‘could’).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights materiality (‘significantly impact’) but is wholly generic and conditional, so lands at a moderate score of 4."
+            },
+            {
+                "snippet": "For example, the COVID-19 pandemic created economic and financial disruptions that adversely affected, and may in the future adversely affect, the Company’s business, financial condition, capital and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 explicitly.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges realised past impacts (‘created… adversely affected’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Projects potential future impacts (‘may in the future adversely affect’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impacts still unquantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Most concrete sentence—links COVID-19 to actual past and possible future harm, but lacks numbers; receives a 5."
+            },
+            {
+                "snippet": "These unpredictable events could create, increase or prolong economic and financial disruptions and volatility that adversely affects the Company’s business, financial condition, capital and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects the grouped events (including pandemics per prior sentence) to adverse effects on multiple performance areas.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses verbs ‘create, increase or prolong’, signalling persistence of risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Does not single out COVID-19 and remains hypothetical (‘could’).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows potential breadth and duration of pandemic-linked disruptions but remains hypothetical and aggregated; moderate score 4."
+            },
+            {
+                "snippet": "Depending on the impact of pandemics, military conflicts, terrorism and other detrimental or destabilizing global and national events on general economic and market conditions, consumer and corporate spending and investment and borrowing patterns, there is a risk that adverse conditions could occur, including supply chain disruptions; higher inflation; decreased demand for the Company’s products and services or those of its borrowers, which could increase credit risk; challenges related to maintaining sufficient qualified personnel due to labor shortages, talent attrition, employee illness and willingness to return to work; and disruptions to business operations at the Company and at counterparties, vendors and other service providers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies operational channels (supply chain, labor shortages, demand shifts, operational disruptions).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Frames them as conditional risks (‘could occur’).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Pandemics grouped with other events, but still central to sentence.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Provides detailed pathways of pandemic impact, though still conditional; merits a higher mid-range score of 5."
+            }
+        ],
+        "calculated_score": 22,
+        "average_severity": 4.4
+    }
+]

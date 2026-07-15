@@ -1,0 +1,179 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Johnson & Johnson’s 2021-02-22 Form 10-K describes COVID-19 as both an already-realized and a continuing source of enterprise risk.  The filing lays out concrete evidence of current damage—lower sales, reduced demand, idle-capacity costs, and procedure deferrals—while also warning of future disruptions to supply chains, manufacturing, clinical trials, and workforce arrangements.  Although the company cites business-continuity plans and robust supply-chain networks as partial mitigants, these counter-measures are portrayed as uncertain or potentially insufficient.  Because the pandemic began less than a year before the fiscal period closed, the Time Decay Principle permits high severity scores.  Overall, the disclosures are recent, specific, and linked to measurable financial and operational consequences, warranting elevated risk ratings with modest downward adjustments where the company references mitigation or offsets.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic has adversely impacted certain aspects of the Company’s business and could cause disruptions or future impact to the Company’s business, results of operations and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit statement that COVID-19 has already produced adverse impacts.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Forecasts additional future disruptions to operations and financial condition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No mitigating language in the sentence.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct acknowledgement of realized harm plus forward-looking risk yields a high severity score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has adversely impacted, and is expected to continue to adversely impact, certain aspects of the Company’s business, results of operations and financial condition, including lower sales and reduced customer demand and usage of certain of our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States both current and continuing adverse impacts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Cites specific financial effects: lower sales and reduced demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No offsetting mitigation referenced.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Concrete reference to falling sales and demand makes this a high-materiality disclosure."
+            },
+            {
+                "snippet": "The spread of COVID-19 has caused the Company to modify its business practices (including instituting remote work for many of the Company's employees), and the Company may take further actions as may be required by government authorities or as the Company determines are in the best interests of our patients, customers, employees and business partners.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes operational disruption via remote-work transition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Suggests possibility of additional mandated actions (future risk).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Implicit mitigation through proactive modifications.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Operational shift is noteworthy but partly offset by the company’s proactive stance."
+            },
+            {
+                "snippet": "The Company continues to monitor the situation and while we have robust business continuity plans in place across our global supply chain network to help mitigate the impact of COVID-19, these efforts may not completely prevent our business from being adversely affected and future impacts remain uncertain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges residual risk despite mitigation plans.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights uncertainty of future impacts.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "References ‘robust business continuity plans’ (mitigating factor).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Risk is tempered by explicit mention of continuity plans, resulting in a low-moderate score."
+            },
+            {
+                "snippet": "The continued global spread of COVID-19 could adversely impact the Company's operations, including, among other things, our manufacturing operations, supply chain, including third-party suppliers, sales and marketing and clinical trial operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple critical functions at risk (manufacturing, supply chain, sales, clinical trials).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking conditional language (‘could’) lessens immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Comprehensive list of potential disruptions but phrased as contingent, yielding a moderate score."
+            },
+            {
+                "snippet": "Growth was negatively impacted by COVID-19 and associated deferral of medical procedures.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports realised negative growth impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links impact to deferred procedures—a core demand driver.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific linkage between pandemic and revenue decline in medical devices supports a solid mid-range score."
+            },
+            {
+                "snippet": "The decline in hips was driven by the negative impact of COVID-19 partially offset by a leadership position in the Anterior approach, strong market demand for the ACTIS® stem and enabling technologies – KINCISE™ and VELYS™ Hip Navigation.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies directional impact on a product line (decline due to COVID-19).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes offsets from product strengths (mitigation).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Actual impact but with explicit mitigating factors keeps the score low."
+            },
+            {
+                "snippet": "Cost of products sold increased as a percent to sales driven by: Medical Device idle capacity costs associated with COVID-19 related production slow downs, establishment of obsolescence reserves and fixed cost deleveraging associated with the impact of COVID-19 in the Medical Devices business, and supply chain costs associated with the development of the COVID-19 vaccine in the Pharmaceutical business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows concrete financial cost increases attributable to COVID-19 (idle capacity, obsolescence, supply-chain costs).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Multiple business segments affected, broadening severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Detailed articulation of cost pressures across segments merits an elevated score."
+            },
+            {
+                "snippet": "Any resurgence in COVID-19 infections could result in the imposition of new mandates and prolonged restrictive measures implemented in order to control the spread of the disease.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags future regulatory/operational constraints if infections rise.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Purely conditional forward-looking risk with no quantification keeps severity minimal."
+            }
+        ],
+        "calculated_score": 28,
+        "average_severity": 3.111111111111111
+    }
+]

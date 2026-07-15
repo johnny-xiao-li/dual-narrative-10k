@@ -1,0 +1,69 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated February 24 2021, falls well inside the first twelve months after the World Health Organization declared COVID-19 a global pandemic on 11 March 2020, so disclosures are evaluated under the “recent event” bracket of the Time Decay Principle (0-3 years).  ExxonMobil explicitly links the pandemic to both realised and prospective financial harm. One sentence states that demand destruction caused by COVID-19 has already resulted in a “significant decrease” in commodity prices and margins—evidence of an immediate, material impact rather than a mere possibility.  A follow-on sentence broadens the discussion to forward-looking consequences, warning that future cash flows, financing needs, and overall business results will hinge on how long pandemic conditions persist and on the success of response measures such as cost cuts and global vaccination efforts.  Elsewhere, the company also lists “public health issues and responses” as a factor that can weaken macro-economic conditions and thus energy demand; this reference is far more generic and therefore carries only minor risk weight.  Taken together, the narrative contains both concrete, present-day impacts and unresolved uncertainties, with no numerical quantification but with strong directional language (“significant decrease,” “will be affected”).  Because the pandemic was ongoing at the filing date, these statements merit high-to-moderate scores, unmitigated by time decay, although partial offsets are applied where the company notes potential mitigating actions (cost-cutting, vaccine roll-out).",
+        "evidence_list": [
+            {
+                "snippet": "Demand reduction due to the COVID-19 pandemic as well as accompanying conditions of oversupply have led to a significant decrease in commodity prices and margins.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct causal link between COVID-19 pandemic and adverse business effect (demand reduction).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Describes an existing, realised impact (“have led”), not merely a potential future risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong severity language (“significant decrease”) even though not quantified.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "High score (8) reflects a recent, direct and already-realised negative impact tied explicitly to COVID-19, with no meaningful mitigating language."
+            },
+            {
+                "snippet": "Future business results, including cash flows and financing needs, will be affected by the extent and duration of these conditions and the effectiveness of responsive actions that the Corporation and others take, including actions to reduce capital and operating expenses, and actions taken by governments and others to address the COVID-19 pandemic including the ongoing development and distribution of COVID-19 vaccines, and the impact of the pandemic on national and global economies and markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies that COVID-19 will affect future business results, cash flows, and financing—core financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates multiple operational and macro pathways of impact (duration of pandemic, government actions, vaccines).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions possible mitigating efforts (cost reductions, vaccinations), partially offsetting risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Score of 4 reflects a forward-looking but still significant risk statement that is moderated by references to mitigation strategies."
+            },
+            {
+                "snippet": "Other factors that affect general economic conditions in the world or in a major region, such as changes in population growth rates, periods of civil unrest, government austerity programs, trade tariffs, security or public health issues and responses, or currency exchange rate fluctuations, can also impact the demand for energy and petrochemicals.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes ‘public health issues and responses’—a category that encompasses pandemics—as a demand risk factor.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic mention of public health issues offers only weak, non-specific evidence, so the score is minimal (1)."
+            }
+        ],
+        "calculated_score": 13,
+        "average_severity": 4.333333333333333
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Estée Lauder’s 2024 Form 10-K references COVID-19 primarily as an ongoing, broad-based threat rather than a newly emerging shock. The company frames pandemic exposure in the context of consumer-demand swings (especially travel retail) and general business disruptions that can hamper global operations. The wording is largely prospective and generic—grouping pandemics with other disruptive events—yet it still acknowledges that such health crises can curb spending and interrupt travel, two core revenue drivers for EL. Because COVID-19 began over four years before the filing date, the Time Decay Principle dictates that evidence be scored in the moderate or lower range; no language points to quantified losses or specific operational stoppages during fiscal 2024. Overall, the risk is real but normalized: management signals vigilance but not acute distress, leading to modest severity scores for each extracted sentence.",
+        "evidence_list": [
+            {
+                "snippet": "In addition, disruptions in local or global business conditions, for example, from events such as a pandemic or other health issues, geo-political or local conflicts, civil unrest, terrorist attacks, adverse weather conditions, climate changes or seismic events, can have a short-term and, sometimes, long-term impact on consumer spending.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites a pandemic as a potential disruptive event.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links the event to both short-term and long-term consumer-spending impacts, i.e., demand risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Listed among many other hazards, making the statement broad and non-specific.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Clear acknowledgment that a pandemic can depress consumer demand, but the generic framing and lack of quantified impact keep the score at a moderate 4."
+            },
+            {
+                "snippet": "Events that impact consumers’ willingness or ability to travel or purchase our products while traveling may impact our business, including travel retail, a significant contributor to our overall results, and our strategy to market and sell products to international travelers at their destinations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights dependency on consumer travel—an aspect heavily affected by pandemics.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies travel retail as a “significant contributor,” signaling material exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not explicitly mention ‘pandemic,’ making the link indirect.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Materiality of travel retail raises the importance, but the pandemic connection is implied rather than stated, so the score is a modest 3."
+            },
+            {
+                "snippet": "(vi) social, economic and geopolitical conditions, such as a pandemic, terrorist attack, war or other military action.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘pandemic’ as a risk factor affecting global operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Applies to the company’s worldwide footprint, implying broad potential reach.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Presented in a catch-all list with no detail or immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "The bullet clearly names pandemics but offers no depth or impact discussion, producing a low-moderate score of 2."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 3.0
+    }
+]

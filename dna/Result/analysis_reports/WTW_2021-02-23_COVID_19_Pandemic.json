@@ -1,0 +1,188 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "WTW’s 2021-02-23 filing provides a dense, recent-event discussion of COVID-19 that spans realised impacts during 2020 and a catalogue of forward-looking threats for 2021 and beyond. Because the pandemic erupted less than a year before fiscal year-end and is still unfolding, the Time Decay Principle allows high severity scores (0-3 year window).  The disclosure set starts with an explicit acknowledgement that COVID-19 has already affected the firm and may do so ‘substantially and negatively’ in the future.  Management links the pandemic to multiple risk vectors that map exactly to the focus areas in the prompt: supply-chain interruptions, depressed client demand, liquidity strain, remote-work resiliency, labour availability (illness/closure of call centres), cyber-attack exposure, and delayed IT investment.  The text mixes statements of actual impacts (e.g., 2020 revenue drag) with potential escalations (e.g., professional-liability claims, further revenue declines in 2021).  Language is specific—identifying mechanisms such as (re)insurer behaviour, postponed conferences, and the need to shut call centres—yet remains mostly qualitative with few hard numbers, so scores stay below the maximum 10.  Mitigating actions are minimal and largely implicit, so downward point adjustments are modest.  Overall, the pandemic is portrayed as an acute, multi-faceted and continuing enterprise risk; therefore evidence snippets cluster in the upper-mid severity band (≈3-8/10) consistent with a very recent global event but lacking detailed quantitative damage figures.",
+        "evidence_list": [
+            {
+                "snippet": "We have been impacted by the COVID-19 pandemic and may be substantially and negatively impacted by it in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms an existing adverse impact already realised.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Warns of substantial, future negative impacts, signalling continuing exposure.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct admission of current harm plus explicit warning of significant future harm merits a high score of 7."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has had an adverse impact on global commercial activity, including the global supply chain, and has contributed to strain in financial markets, including, among other effects, significant volatility in equity markets, changes in interest rates and reduced liquidity on a global basis.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Calls out supply-chain disruption, matching a key systemic risk theme.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details financial-market stress factors that can damage liquidity and valuation.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes the impact as already realised and at a global scale.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific references to supply-chain and market volatility elevate the snippet, but lack of WTW-specific figures caps it at 5."
+            },
+            {
+                "snippet": "As such, there is a risk that COVID-19 could have a substantial negative impact on client demand and cash flow.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to potentially large drop in client demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights knock-on cash-flow pressure, a core financial risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking but concrete linkage to revenue and liquidity produces a solid mid-high risk score of 5."
+            },
+            {
+                "snippet": "Coverage disputes arising out of the pandemic could also increase our professional liability risk by increasing the frequency and severity of allegations by others that, in the course of providing services, we have committed errors or omissions for which we should have liability.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces a new liability vector—pandemic-driven litigation and E&O claims.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Impact framed as ‘could’, indicating conditionality.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Adds a specific but contingent liability channel, resulting in a moderate score of 2."
+            },
+            {
+                "snippet": "In addition, COVID-19 has disrupted certain aspects of our business and could continue to disrupt, possibly materially, our own business operations and the services we provide, as well as the business operations of our clients, suppliers and other third parties with whom we interact.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that disruption is already occurring inside WTW.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Warns that future disruption could be ‘material’.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Combination of realised and potentially material future disruption justifies a score of 6."
+            },
+            {
+                "snippet": "As an increasing percentage of our colleagues continue to work remotely, we face resiliency risks, such as the risk that our information technology platform could potentially be inadequate to support increasing demand, as well as the risk that unusual working arrangements could impact the effectiveness of our operations or controls.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies remote-work transition and associated IT capacity risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions governance/control effectiveness challenges.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is prospective; no quantified impact yet.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highlights operational fragility from remote work, warranting a mid-range score of 5."
+            },
+            {
+                "snippet": "These factors have exposed us to increased phishing and other cybersecurity attacks as cybercriminals try to exploit the uncertainty surrounding the COVID-19 pandemic, as well as an increase in the number of points of potential attack, such as laptops and mobile devices (both of which are now being used in increased numbers as many of our employees work remotely), to be secured.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that cyber-attack frequency has already increased due to pandemic conditions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes enlarged attack surface because of remote devices.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct escalation of cyber-risk linked to COVID-19 earns a score of 5."
+            },
+            {
+                "snippet": "The economic disruption caused by COVID-19 has impacted the pace at which we have made information technology-based investments, and we may continue to make fewer information technology-based investments than previously anticipated, which could potentially create business operational risk.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges actual slowdown in IT investment attributable to pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects slowdown to future operational risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Demonstrates tangible cap-ex drag but limited immediate severity, scoring 3."
+            },
+            {
+                "snippet": "Generally, the COVID-19 pandemic did not have a material adverse impact on our overall financial results during 2020; however, during 2020, the COVID-19 pandemic negatively impacted our revenue growth, primarily in our businesses that are discretionary in nature.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms actual revenue growth drag in 2020 caused by COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States overall results were not materially affected, which mitigates severity.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Provides concrete but modest financial hit with explicit mitigation, leading to a score of 2."
+            },
+            {
+                "snippet": "We continue to expect that the COVID-19 pandemic will negatively impact our revenue and operating results in fiscal 2021.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Projects ongoing negative impact into the next fiscal year.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Forward-looking expectation of revenue/earnings hit supports a moderate score of 3."
+            }
+        ],
+        "calculated_score": 43,
+        "average_severity": 4.3
+    }
+]

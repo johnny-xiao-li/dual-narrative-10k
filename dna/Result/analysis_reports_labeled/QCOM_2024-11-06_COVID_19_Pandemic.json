@@ -1,0 +1,120 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Qualcomm’s 2024 filing continues to frame COVID-19 — and broader pandemic-scale health crises — as an important, though now medium-term, enterprise risk.  References occur in multiple Risk Factor sections and consistently associate pandemics with supply-chain interruptions, factory shutdowns, quarantine-driven labor unavailability and macro-economic demand shocks.  The language is predominantly forward-looking (“could affect,” “could disrupt”), signalling potential rather than presently quantified losses, and is delivered in generic legal-safe-harbor style rather than with data or dollar figures.  Nevertheless, the company explicitly ties pandemics to core operational levers: ability of third-party foundries to manufacture chips, continuity of its own RF facilities, and end-market demand for smartphones and IoT devices.  Given that the pandemic’s onset is four-plus years old, the Time Decay Principle caps severity in the mid-range; there is no fresh, quantified impact, but the disclosures still highlight non-trivial, enterprise-wide exposure.  Overall, the risk profile merits moderate scores (4-5 for the most detailed statements, 2-3 for broad boiler-plate) reflecting persistent, supply-chain-centric vulnerability without immediate financial distress.",
+        "evidence_list": [
+            {
+                "snippet": "health crises, including epidemics or pandemics, and government and business responses thereto, which impact our suppliers, including as a result of quarantines or closures;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly highlights pandemics as a disruptor of suppliers, directly linking to supply-chain risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Calls out specific mechanism (quarantines/closures).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses conditional, forward-looking phrasing ('including'), making it somewhat generic.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Moderate severity: clearly ties pandemics to supplier shutdowns, but remains prospective and unquantified."
+            },
+            {
+                "snippet": "Further, health crises, including epidemics or pandemics, and government and business responses thereto, could affect our manufacturing facilities, including by resulting in quarantines and/or closures, which could result in disruptions to and potential closures of our manufacturing operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemics to the company’s own factory shutdown risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Provides concrete disruption pathway (quarantines leading to closures).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional 'could', no quantified impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct operational exposure gives weight, but absence of present losses keeps score mid-range."
+            },
+            {
+                "snippet": "Geopolitical conflicts, natural disasters, pandemics and other health crises, and other factors outside of our control, could significantly disrupt our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemics can ‘significantly disrupt’ business – clear but high-level.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highly generic catch-all sentence with no mechanism or numbers.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic acknowledgement earns some points but lower overall severity due to lack of specifics."
+            },
+            {
+                "snippet": "Acts of war, terrorism, geopolitical conflicts, political instability or tensions such as the current geopolitical tensions involving China and Taiwan, natural disasters, the effects of climate change, pandemics or other health crises affecting any of the regions in which we operate, and particularly those in which our customers, suppliers, manufacturing facilities and/or significant portions of our workforce are concentrated, could significantly disrupt our business by, among others: reducing demand for our products and services or end-user devices incorporating our products or intellectual property;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemics to multi-regional operational and demand disruption across customers, suppliers and workforce.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Mentions tangible consequence (reduction in demand).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Still phrased as contingent ('could'), part of broad list.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Comprehensive scope (supply, demand, workforce) lifts score, tempered by forward-looking framing."
+            },
+            {
+                "snippet": "In addition, acts of war, terrorism, geopolitical conflicts, political instability or tensions, natural disasters, the effects of climate change, pandemics or other health crises impacting any of these regions could also result in a decline in global, regional or local economic conditions generally, or increased volatility in financial markets, which could have adverse effects on our business and financial results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemics to macroeconomic decline and financial market volatility, potentially harming financial results.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies potential adverse effect on financial results.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic, conditional language without data.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Notes financial consequences but remains hypothetical and broad, yielding a moderate-low score."
+            }
+        ],
+        "calculated_score": 17,
+        "average_severity": 3.4
+    }
+]

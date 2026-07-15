@@ -1,0 +1,380 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "FedEx’s 2021 Form 10-K frames COVID-19 as an acute, still-evolving threat that is already reshaping every major driver of the company’s performance: demand mix (surging residential volumes, volatile commercial traffic), operating cost structure (labour, PPE, cleaning, security), network efficiency (need to ‘flex’ assets amid constrained air-freight capacity and disrupted global supply chains) and enterprise-wide risk profile (cyber-exposure from remote work, heightened exposure to partners such as the USPS).  The disclosure is not merely cautionary; it cites concrete, realised impacts—\"unprecedented\" peak-level residential volumes, “increased costs” and “lower composite yields”—as well as forward-looking uncertainties tied to variant outbreaks, government restrictions and labour shortages.  Language is company-specific and repeatedly links the pandemic to material financial metrics, but remains largely unquantified.  Given the filing date (July 2021), the pandemic sits well inside the 0-3-year ‘recent’ window, so time-decay allows high risk scores.  Overall, the text evidences a high-severity, continuing risk, tempered only by the absence of exact dollar figures or probability estimates.",
+        "evidence_list": [
+            {
+                "snippet": "The continuing impact of the COVID-19 pandemic on our business, results of operations and financial condition is highly unpredictable.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to business, operations and financial condition.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasises ongoing nature (“continuing”) and high uncertainty (“highly unpredictable”).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Refers to current, not hypothetical, impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct statement of ongoing, uncertain impact across core financial areas warrants a high score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has had varying impacts on the demand for our services, our business operations and the global economy and supply chains.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Addresses multiple risk vectors: demand, operations, global economy, supply chains.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Describes realised (“has had”) effects, not just potential.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Global scope increases severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Multi-dimensional, realised impacts with worldwide scope justify a top-tier score."
+            },
+            {
+                "snippet": "There is considerable uncertainty regarding the extent to which COVID-19 will continue to spread in certain regions of the world and the extent and duration of measures to try to contain the virus, such as travel bans and restrictions, quarantines, shelter-in-place orders, business and government shutdowns and other restrictions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights uncertainty about future course of pandemic and containment measures.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists specific disruptive measures (travel bans, shutdowns) that affect operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking risk rather than quantified impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specific disruptive scenarios and high uncertainty yield a solid but slightly lower score than direct impact statements."
+            },
+            {
+                "snippet": "This uncertainty is expected to continue to impact our business in 2022.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Projects near-term continuation of adverse effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Ties uncertainty directly to business impact timeframe.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks detail or quantification.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Forward-looking statement of ongoing impact scores moderately high despite brevity."
+            },
+            {
+                "snippet": "We have experienced unprecedented demand for our residential delivery services, rivaling our peak holiday season traffic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes operational stress from ‘unprecedented’ volume surge.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Comparison to peak season underscores scale.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Represents revenue upside that partly mitigates risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Positive volume surge creates capacity strain but also revenue upside, yielding a mid-low score."
+            },
+            {
+                "snippet": "We have incurred increased costs associated with this demand and lower composite yields than our typical service mix.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies higher costs—a direct financial hit.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes margin compression via lower yields.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No quantification reduces precision.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Clear negative financial consequences justify a high score."
+            },
+            {
+                "snippet": "In addition, demand for our commercial service offerings increased throughout 2021 as COVID-19 restrictions moderated globally while air freight capacity remained constrained.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights evolving demand pattern tied to easing restrictions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions constrained air-freight capacity—an operational bottleneck.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Some positive demand effect offsets risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Mixed implications (demand up but capacity tight) produce a mid-range score."
+            },
+            {
+                "snippet": "Our business is labor and capital intensive in nature, which has required us to incur higher costs to operate our networks during the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects structural cost profile to pandemic-driven expense surge.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States actual higher costs rather than potential.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No dollar figures provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Demonstrated cost inflation without quantification yields a moderate-high score."
+            },
+            {
+                "snippet": "If we are unable to remain agile and continue to flex our networks to align with shipping volumes, customer needs, disrupted global supply chains and other network inefficiencies, market demands and operating conditions, or are unable to continuously respond to evolving governmental policies for the duration of a prolonged period of economic recovery, our business operations could be negatively impacted, which could have a further adverse effect on our results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple operational failure points (network agility, supply-chain disruption).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links failure to material adverse financial effect.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional (‘could’) slightly reduces immediacy.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Comprehensive potential downside tied to supply-chain disruption merits a high score."
+            },
+            {
+                "snippet": "We have also incurred increased operating expenses related to personal protective equipment and medical/safety supplies, as well as additional security and cleaning services, in order to protect our team members and customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies new cost categories directly attributable to pandemic response.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Confirms costs are already incurred.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No monetary magnitude stated.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Concrete cost drivers but unquantified amounts support a solid score."
+            },
+            {
+                "snippet": "Due to the size, scope and geographically dispersed nature of our operations, the expenses we incur to protect the health and safety of certain of our employees may be higher than similar expenses incurred by companies in other industries.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights comparative disadvantage (higher safety costs than peers).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Qualifies risk with ‘may be’, reducing certainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Company-specific cost pressure recognised but conditional language tempers the score."
+            },
+            {
+                "snippet": "Additionally, a significant number of our employees as well as customers and others with whom we do business continue to work remotely in response to the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies sustained remote-work environment affecting stakeholders.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Implies operational changes but no direct downside stated.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Descriptive statement of remote work has limited explicit risk detail, yielding a lower score."
+            },
+            {
+                "snippet": "Our business operations may be disrupted, and we may experience increased risk of adverse effects on our business, if a significant portion of our workforce or certain business operations are negatively impacted as a result of remote work arrangements, including due to cyber risks or other disruption to our technology infrastructure.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies operational disruption and cyber-risk tied to remote work.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Potential for adverse business effects expressly stated.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional phrasing (‘may’) reduces certainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Detailed, multi-faceted risk from remote work drives a high-moderate score."
+            },
+            {
+                "snippet": "The continuing impact of the COVID-19 pandemic, including the extent of its effect on our business, results of operations and financial condition as well as the global economy, will be dictated by future developments that remain uncertain and cannot be predicted, such as its duration and spread, the success of efforts to contain it and treat its impact, the possibility of additional subsequent widespread outbreaks and variant strains and the impact of actions taken in response, resulting effects on the economic conditions in the global markets in which we operate, the future rate of e-commerce growth and the timeline for recovery of passenger airline cargo capacity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights broad spectrum of uncertain future variables (variants, recovery timelines).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links directly to business, operations and financial condition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly conditional and non-quantified.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Comprehensive uncertainty statement earns a strong score despite lack of numbers."
+            },
+            {
+                "snippet": "Certain financial and operating metrics that we reported for 2021 may not be indicative of results for future periods once the impact of the COVID-19 pandemic subsides.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of volatility and metric unreliability due to pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uncertainty about future performance.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Acknowledges forecasting risk but limited detail keeps score modest."
+            },
+            {
+                "snippet": "To the extent the COVID-19 pandemic adversely affects our business and financial results, it may also have the effect of heightening many other risks described in this section, any of which could materially and adversely affect our business, results of operations and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates compounding effect on other risk categories.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong materiality language (‘materially and adversely’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Effect described as conditional.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Risk-multiplier concept and materiality wording support a high-moderate score."
+            },
+            {
+                "snippet": "Such risks include, but are not limited to, additional changes in the state of the global economy and international trade policies and relations; our ability to implement our business strategy and effectively respond to changes in market dynamics and customer preferences; our strong reputation and the value of the FedEx brand; our ability to meet our labor and purchased transportation needs while controlling related costs; our ability to execute and effectively operate, integrate, leverage, and grow acquired businesses; changes in the business and financial soundness of the USPS; our ability to achieve our goal of carbon neutrality for our global operations by calendar 2040; and the impact of litigation or claims from customers, team members, suppliers, regulators or other third parties relating to the COVID-19 pandemic or our actions in response to the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates numerous corporate dimensions that could worsen due to pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects pandemic to strategic, legal and reputational risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Long list without quantification dilutes focus.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Broad enumeration of secondary risks earns a strong score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has negatively impacted the USPS.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes adverse impact on a critical customer/partner.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Statement of realised negative effect.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No detail on magnitude or knock-on effect for FedEx.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Partner disruption poses risk but lack of elaboration keeps score moderate."
+            }
+        ],
+        "calculated_score": 100,
+        "average_severity": 5.611111111111111
+    }
+]

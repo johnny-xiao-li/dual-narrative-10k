@@ -1,0 +1,76 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "GEN’s Form 10-K discusses “pandemics” only in the context of broad disaster-recovery and business-continuity planning.  The company does not cite any past COVID-19 impact or quantify losses; instead, it frames pandemics as one of several possible events (alongside earthquakes, power loss, terrorism, etc.) that could disrupt data-center operations, close facilities, jeopardise sales execution, or degrade customer service.  Because the filing date (May 2024) is roughly four years after the official declaration of the COVID-19 pandemic, the Time Decay Principle places the event in the medium-term window, warranting moderate—but not high—severity scores.  The language is forward-looking and generic, indicating that management views pandemic disruption as a continuing contingency rather than a currently material headwind.  Consequently, each sentence evidences risk that is real but un-quantified and non-specific, yielding snippet scores in the 2-4 range and an overall moderate risk assessment.",
+        "evidence_list": [
+            {
+                "snippet": "These facilities are vulnerable to damage, interference, interruption or performance problems from earthquakes, hurricanes, floods, fires, power loss, telecommunications failures, pandemics and similar events.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names “pandemics” as a cause of facility damage or interruption, establishing direct operational risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Risk is framed generically among a long list of other hazards, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Mentions pandemic-driven service disruption but only as one item in a generic list, so the evidence is weak-to-moderate."
+            },
+            {
+                "snippet": "The occurrence of a natural disaster, an act of terrorism state-sponsored attacks, a pandemic, geopolitical tensions or armed conflicts, and similar events could result in a decision to close the facilities without adequate notice or other unanticipated problems, which in turn, could result in lengthy interruptions in the delivery of our products and services, which could negatively impact our sales and operating results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links a pandemic explicitly to facility closures and service interruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects the operational disruption to financial impact (sales and operating results).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional ‘could’, signalling uncertainty and lack of quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides a clear causal chain from pandemic to revenue impact, but remains forward-looking and unquantified, justifying a moderate score of 4."
+            },
+            {
+                "snippet": "A disruption or failure of these systems or operations because of a disaster, cyberattack or other business continuity event, such as a pandemic, could cause data to be lost or otherwise delay our ability to complete sales and provide the highest level of service to our customers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies pandemic as a trigger for system failure and data loss.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights direct commercial implications—delayed sales and reduced service quality.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional wording and absence of quantification reduce immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Describes concrete operational and sales risks tied to a pandemic, but with generic, prospective phrasing; falls in the moderate range."
+            }
+        ],
+        "calculated_score": 10,
+        "average_severity": 3.3333333333333335
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Nasdaq’s 2023 Form 10-K acknowledges the COVID-19 pandemic primarily as a broad macro-economic and operational hazard rather than a currently quantified loss.  Across the risk-factor section the company repeatedly classifies pandemics—citing COVID-19 by name—as exogenous drivers that can weaken economic conditions, disrupt operations, heighten cybersecurity exposure through prolonged remote-work, and even trigger accounting impairments.  The statements are largely forward-looking and qualitative; they warn that COVID-19 could continue to depress trading activity, impair goodwill, or generate other losses but provide no numerical estimates.  Because the filing date (Feb-2023) is less than three years after the WHO declaration (Mar-2020), the Time Decay Principle allows moderately high scores, yet the lack of specificity, quantification, or demonstrated direct losses tempers severity.  Overall, the company presents pandemic risk as real and ongoing but in generic, catch-all language, warranting mid-range risk scores rather than maximum severity.",
+        "evidence_list": [
+            {
+                "snippet": "Our business performance is impacted by a number of factors, including general economic conditions, current or expected inflation, interest rate fluctuations, market volatility, changes in investment patterns and priorities, pandemics (such as COVID-19) and other factors that are generally beyond our control.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly cites ‘pandemics (such as COVID-19)’ as a factor impacting current business performance.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Frames the impact as present and ongoing (‘is impacted’), not merely hypothetical.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Provided as part of a broad, generic list with no quantification or detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Explicitly names COVID-19 as a continuing influence on performance but does so generically; moderate severity is appropriate."
+            },
+            {
+                "snippet": "Future disruptions to our business, prolonged economic weakness, due to pandemics or otherwise, or significant declines in operating results at any of our reporting units or businesses, may result in impairment charges to goodwill, intangible assets or other long-lived assets.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-driven weakness to potentially material accounting impacts (goodwill and intangible impairments).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights a clear financial statement consequence (impairment charges).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking and unquantified, reducing precision.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Links COVID-19 to tangible balance-sheet risks, elevating seriousness despite lack of numeric sizing."
+            },
+            {
+                "snippet": "We may incur losses as a result of unforeseen or catastrophic events, such as terrorist attacks, natural disasters, pandemics (such as COVID-19), extreme weather, fire, power loss, telecommunications failures, human error, theft, sabotage and vandalism.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges possibility of losses directly from pandemics like COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses broad ‘catastrophic events’ framing, diluting pandemic specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No magnitude or timeframe given, lowering severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Pandemics are listed among many hazards with no detail, so risk indication is present but relatively weak."
+            },
+            {
+                "snippet": "As a result of our adoption of a hybrid work environment, we have a broader and more distributed network footprint and increased reliance on the home networks of employees, and such remote work may cause heightened cybersecurity and operational risks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes structural shift (hybrid/remote work) widely linked to the pandemic era.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies concrete operational downside—heightened cybersecurity and operational risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not explicitly reference COVID-19, making the pandemic link implicit.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Remote-work cyber risk is a pandemic-related consequence, but absence of direct COVID wording and quantification keeps score modest."
+            }
+        ],
+        "calculated_score": 15,
+        "average_severity": 3.75
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The 2024-12-19 SNPS 10-K discusses pandemic exposure primarily in a consolidated ‘Catastrophic events’ risk factor.  The language frames COVID-19 as part of a broader class of events that can disrupt global operations, affect sales infrastructure, and create macro-market volatility.  Most statements are forward-looking and couched in conditional verbs (“may”, “could”), signalling potential rather than quantified, realised loss.  One sentence, however, explicitly recalls the government-imposed restrictions and financial-market turmoil experienced during the COVID-19 pandemic, demonstrating that the company has already observed concrete business-environment impacts.  Because the pandemic’s onset is now roughly four years old, the Time-Decay Principle places the event in the medium-term bucket; accordingly, even the strongest evidence is capped at a moderate severity score.  Overall, the filing indicates continuing vigilance but no acute, quantified damage, so individual snippet scores fall in the 3-6 range, reflecting generic disclosure, operational vulnerability, and limited specificity.",
+        "evidence_list": [
+            {
+                "snippet": "Catastrophic events and the effects of climate change, pandemics or other unexpected events may disrupt our business and harm our operating results.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics as a potential disruptive factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links the risk to business disruption and operating results damage.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generic; uses conditional language (‘may’) and provides no detail or quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic identification of pandemic risk with no specifics earns a low-moderate score of 2."
+            },
+            {
+                "snippet": "Due to the global nature of our business, our operating results may be negatively impacted by catastrophic events and the effects of climate change, pandemics, such as the COVID-19 pandemic, or other unexpected events throughout the world.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly names the COVID-19 pandemic within the risk framing.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects event to negative impact on operating results across global operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Still framed as potential (‘may be’); no quantitative impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific reference to COVID-19 and linkage to operating results elevate the score, while conditional wording tempers it, yielding 4."
+            },
+            {
+                "snippet": "A disruption or failure of these systems in the event of a major earthquake, fire, extreme temperatures, drought, flood, telecommunications failure, cybersecurity attack, terrorist attack, epidemic or pandemic, or other catastrophic or climate change-related events could cause system interruptions, delays in our product development and loss of critical data and could prevent us from fulfilling our customers’ orders.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies epidemic or pandemic as a trigger for multiple operational breakdowns.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details concrete operational consequences (system interruptions, development delays, inability to fulfill orders).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk remains hypothetical (‘could’), and pandemic listed among many hazards.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Operational-detail boosts importance, but hypothetical framing and multi-hazard context keep score at 3."
+            },
+            {
+                "snippet": "In particular, our sales and infrastructure are vulnerable to regional or worldwide health conditions, including the effects of the outbreak of contagious diseases, such as the government-imposed restrictions that curtailed global economic activity and caused substantial volatility in global financial markets during the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifically references real government restrictions and market volatility during COVID-19, indicating observed impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Identifies vulnerability of both sales and infrastructure—core operational areas.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Event is four years old; medium-term time decay applies.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Most concrete pandemic impact description in the filing; medium-term time decay trims score to 5."
+            }
+        ],
+        "calculated_score": 14,
+        "average_severity": 3.5
+    }
+]

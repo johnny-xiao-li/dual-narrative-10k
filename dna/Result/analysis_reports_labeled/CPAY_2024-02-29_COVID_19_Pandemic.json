@@ -1,0 +1,102 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CPAY’s 2024 Form 10-K places pandemic risk primarily in the forward-looking, macroeconomic bucket rather than citing direct, quantified damage already incurred.  References to COVID-19 appear as illustrative parentheticals inside broader risk factors—e.g., travel bans, credit deterioration, and operational disruption—that could hurt transaction volumes or increase customer defaults.  The language is mostly conditional (\"could\", \"may\") and bundled with other catastrophes, signalling management views the pandemic as a continuing but diminishing external threat rather than an acute crisis.  Because the filing date is almost four years after the WHO declaration (medium-term under the Time-Decay Principle), maximum severity is capped at a moderate level.  The absence of specific dollar impacts or novel mitigation steps further tempers the assessment.  Overall, the pandemic remains a material but generalized risk, meriting mid-range scores (≈5 for direct COVID-19 mentions; ≈2-3 for generic pandemic clauses).",
+        "evidence_list": [
+            {
+                "snippet": "Similarly, prolonged adverse weather events, travel bans due to medical quarantine (such as the responses to the COVID-19 pandemic) or in response to natural catastrophes, especially those that impact regions in which we process a large number and amount of payment transactions, could adversely affect our transaction volumes.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites COVID-19 pandemic as an example of medical-quarantine travel bans.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects event to a concrete operational metric: transaction volumes.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional language ('could'), indicating potential rather than realized impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct link between COVID-19 travel bans and lower transaction volume yields a solid mid-range score after deducting for its forward-looking nature."
+            },
+            {
+                "snippet": "Further, during a declining economic environment (including economic weakness caused by large-scale crises like the COVID-19 pandemic), we may experience increased customer defaults and preference claims by bankrupt customers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 pandemic as a causal factor in macroeconomic decline.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies a financial consequence: higher customer defaults and bankruptcy claims.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact is framed as a possibility ('may experience'), not a current hit.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Mentions COVID-19 directly and ties it to credit-loss risk, warranting a 5 after adjusting for speculative wording."
+            },
+            {
+                "snippet": "Adverse effects on payment card transaction volume and other aspects of our business and operations, from unfavorable macroeconomic conditions, weather conditions, natural catastrophes or public health crises or from changes to business purchasing practices, could adversely affect our financial condition and operating results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes 'public health crises', implicitly covering COVID-19-type events.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links such crises to broad financial and operational harm.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Extremely generic and bundled with many other risks; no specific pandemic reference or metrics.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic pandemic wording with no COVID-19 citation or quantification yields a low-moderate score of 2."
+            },
+            {
+                "snippet": "However, there could be material delays in fully activating backup facilities depending on the nature of the breakdown, security breach or catastrophic event (such as fire, explosion, flood, pandemic, natural disaster, power loss, telecommunications failure or physical break-in).",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists 'pandemic' among catastrophic events that threaten business continuity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights operational disruption risk ('material delays in ... activating backup facilities').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Pandemic reference is generic and ranked equally with many unrelated hazards.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic inclusion of ‘pandemic’ in a laundry list of catastrophes provides limited, low-specificity evidence, meriting a score of 2."
+            }
+        ],
+        "calculated_score": 14,
+        "average_severity": 3.5
+    }
+]

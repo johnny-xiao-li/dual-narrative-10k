@@ -1,0 +1,208 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "TEL’s 2021 filing describes COVID-19 as both an historical shock and an ongoing, material risk.  Multiple passages acknowledge concrete, recent damage: ‘significant, negative impact’ on FY-2020 sales, continued drag through FY-2021, global supply-chain disruption, plant shutdowns, labour mobility constraints, remote-work cyber exposure, and weakened end-market demand.  These are present-tense or continuing effects, demonstrating that the threat is not merely hypothetical.  The company also details potential future deterioration, emphasising uncertainty around variants, vaccine roll-out and government actions, while conceding the virus could intensify other listed risks.  Mitigating language appears (cost-cutting, health protocols, and a statement that management does not expect a “significant” near-term impact), but these do not erase the clear evidence of recent, direct financial harm.  Applying the Time Decay Principle, COVID-19 lies well within the 0-3 year window, so scores can be high.  Nevertheless, each snippet is weighted for specificity, materiality, and the presence of mitigating qualifiers, yielding a spectrum of severities from +9 for detailed operational disruption to –3 where management downplays future impact.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic had a significant, negative impact on our sales and operating results during fiscal 2020 and continued to negatively affect certain of our businesses in fiscal 2021.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly attributes impact to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes impact as 'significant, negative' on sales and operating results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States effect persisted into FY-2021 (ongoing).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Event is recent (within 3 years).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, recent and material impact on financial performance warrants a high score of 8."
+            },
+            {
+                "snippet": "The COVID-19 pandemic may have a negative impact on our financial condition and results of operations in future periods.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links potential future harm to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty without specifics.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Still within 0-3 year window.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic forward-looking caution generates a modest score of 2."
+            },
+            {
+                "snippet": "The COVID-19 pandemic impacted and continues to impact countries, communities, workforces, supply chains, and markets around the world, and as a result, we have experienced disruptions and restrictions on our employees’ ability to travel, as well as temporary closures of our facilities and the facilities of our customers, suppliers, and other vendors in our supply chain.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Ongoing global impact explicitly tied to pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details supply-chain disruption and facility closures.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions employee travel restrictions (labour constraint).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses present-tense 'continues to impact'.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specific operational disruptions across supply chain and facilities earn a strong score of 7."
+            },
+            {
+                "snippet": "As a result of the ongoing impacts of the COVID-19 pandemic, some of our employees are continuing to work from home on a full-time or part-time basis, which may increase our vulnerability to cyber and other information technology risks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemic-driven remote-work shift.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Introduces new cyber/IT vulnerability.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights a secondary risk (cyber) stemming from pandemic-induced remote work; moderate severity."
+            },
+            {
+                "snippet": "We have suffered and could continue to suffer significant business interruptions, including impacts resulting from the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits actual suffering of business interruptions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes potential continuation ('could continue').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Characterises interruptions as 'significant'.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Direct causal link to pandemic.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Acknowledged significant interruptions, both past and prospective, yield a mid-high score of 5."
+            },
+            {
+                "snippet": "The extent to which the COVID-19 pandemic will further impact our business and our financial results will depend on future developments, which are highly uncertain and cannot be predicted.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes pandemic could 'further impact' business.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Stresses high uncertainty, lacks specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Keeps focus on recent ongoing event.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Highly caveated statement with no quantification results in minimal score."
+            },
+            {
+                "snippet": "Further, to the extent the COVID-19 pandemic adversely affects our business, results of operations, or financial condition, it may also have the effect of heightening many of the other risks described in this “Risk Factors” section.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Suggests pandemic can amplify other risks.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Identifies compounding effect but without detail; modest severity."
+            },
+            {
+                "snippet": "We do not expect that it will continue to have a significant impact on our sales and operating results in the near term.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Management expectation of reduced future impact (mitigation).",
+                            "points": -3
+                        }
+                    ],
+                    "final_snippet_score": -3
+                },
+                "reasoning_summary": "Explicit mitigation language counteracts risk, producing a negative score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has impacted and continues to impact our business operations globally, causing disruption in our suppliers’ and customers’ supply chains, some of our business locations to reduce or suspend operations, and a reduction in demand for certain products from direct customers or end markets.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States ongoing global operational impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details supply-chain disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions facility reductions or suspensions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights demand reduction in end markets.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Comprehensive description of operational, supply-chain and demand shocks commands a high score of 9."
+            }
+        ],
+        "calculated_score": 35,
+        "average_severity": 3.888888888888889
+    }
+]

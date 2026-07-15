@@ -1,0 +1,256 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "FRT’s 2023-02-08 Form 10-K links the COVID-19 pandemic to multiple vectors of risk that remain current and material less than three years after the WHO declaration.  The filing moves beyond boiler-plate by tying the pandemic to concrete revenue threats (tenant rent abatements, vacancy-driven cash-flow declines), operational delays (project completions slowed by supply-chain blockages and labor shortages), strategic uncertainty (shifts in demand for retail and office space) and organisational strain (remote-work impacts, cyber-attack exposure).  Although some statements are framed as possibilities, the MD&A acknowledges that 2022 cash-flows were “negatively impacted,” confirming an existing, not merely potential, hit.  The document also details partial mitigants—rent deferrals, increased liquidity, improving collections—which temper but do not eliminate the exposure.  Given the event’s recency (0-3-year window) the Time Decay Principle permits elevated scores; snippets that evidence direct, realised financial impact or name critical operational choke-points rate highest, while generic or strongly mitigated statements score lower.",
+        "evidence_list": [
+            {
+                "snippet": "Economic, legal, and/or competitive conditions, as well as COVID-19, may impact the success of our tenants’ retail operations and therefore the amount of rent and expense reimbursements we receive from our tenants.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites COVID-19 as a driver of tenant performance risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Direct link to core revenue stream (rent and reimbursements).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking wording ('may impact') shows uncertainty, moderating severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Directly connects the pandemic to tenant success and rental income; high but not quantified impact gives a strong score of 7."
+            },
+            {
+                "snippet": "Possible delay in completion of a project because of a number of factors, including COVID-19, supply chain disruptions and shortages, inflation, weather, labor disruptions, construction delays or delays in receipt of zoning or other regulatory approvals, acts of terror or other acts of violence, or acts of God (such as fires, earthquakes or floods).",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 among causes of project delays.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Combines pandemic with supply-chain and labor shortage language, amplifying operational risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Listed among many factors, which dilutes specificity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows pandemic-related construction delay risk tied to supply-chain and labor issues; moderate-high severity but less focused, scoring 6."
+            },
+            {
+                "snippet": "Natural disasters, climate change and health crises, including the COVID-19 pandemic, could have an adverse impact on our cash flow and operating results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges COVID-19 as a health crisis affecting cash flow and results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Grouped with other macro-hazards, making it generic.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Generic but explicit statement of adverse financial impact; mid-level risk gives a 5."
+            },
+            {
+                "snippet": "In addition, our business is subject to risks related to the effects of public health crises, epidemics and pandemics, including the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags general pandemic exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic, no impact pathway or magnitude.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Very broad acknowledgment of pandemic risk with limited detail; modest score of 4."
+            },
+            {
+                "snippet": "reduce our cash flow, which could impact our ability to pay dividends at the current rate and in the current format or at all or to service our debt;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic event to cash-flow reduction and dividend/ debt service capacity.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Serious consequence affecting shareholders and creditors.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Concrete financial threat (dividends, debt) related to pandemic gives solid score 6."
+            },
+            {
+                "snippet": "interfere with our business operations by requiring our personnel to work remotely;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights remote-work operational disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No quantification or financial linkage.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Identifies remote-work risk but lacks detail; moderate score 4."
+            },
+            {
+                "snippet": "disrupt supply chains that could be important in our development and redevelopment activities;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly references supply-chain disruptions tied to pandemic.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Impacts cap-ex heavy development pipeline.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Supply-chain disruption threatens development schedule; high operational significance merits 6."
+            },
+            {
+                "snippet": "result in labor shortages;",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies labor shortages as a pandemic effect.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No direct financial metric attached.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Clear but brief mention of labor-shortage risk; scores 4."
+            },
+            {
+                "snippet": "temporarily or permanently reduce the demand for retail or office space;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Addresses fundamental shift in tenant demand.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Potentially permanent impact raises severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Demand destruction for core product is major strategic risk; earns 6."
+            },
+            {
+                "snippet": "Given the ongoing workforce shortages, global supply chain bottlenecks and shortages, and high inflation, we continue to monitor and address risks related to the COVID-19 pandemic and the general state of the economy.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms continuing pandemic-related workforce and supply-chain issues.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Statements of monitoring indicate some mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Active, ongoing exposure with partial mitigation; nets a 6."
+            },
+            {
+                "snippet": "While improving, our cash flow and results of operations in the year ended December 31, 2022 continued to be negatively impacted largely due to vacancy levels remaining above historical levels.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports actual, realised negative financial impact in 2022.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Mentions improvement trend, slightly mitigating.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Quantified as ongoing impact on cash-flow, albeit improving; severity justifies 7."
+            },
+            {
+                "snippet": "Although virtually all of our leases required the tenants to pay rent even while they were not operating, we entered into numerous agreements to abate, defer, and/or restructure tenant rent payments for varying periods of time, all with the objective of collecting as much cash as reasonably possible and maintaining occupancy to the maximum extent.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes concrete tenant rent relief actions directly attributable to pandemic shutdowns.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Shows proactive mitigation strategy.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Evidence of real cash-flow strain offset by management action; balanced score 6."
+            },
+            {
+                "snippet": "During 2022, we have continued to see improvements in overall cash collections from tenants with collection rates nearing pre-pandemic levels.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates recovery, reducing risk severity.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Still references pandemic baseline, confirming earlier impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Primarily a mitigating update; low residual risk earns score 3."
+            }
+        ],
+        "calculated_score": 70,
+        "average_severity": 5.384615384615385
+    }
+]

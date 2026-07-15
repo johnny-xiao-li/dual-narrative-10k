@@ -1,0 +1,106 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "DFS’s 2023 Form 10-K contains several forward-looking but mostly generic references to pandemic-related threats.  The company no longer treats COVID-19 as an acute, quantified crisis; instead, it folds the issue into broader categories such as “catastrophic events,” “public-health emergencies,” and the shift to hybrid work.  The disclosures emphasize potential operational disruptions (e.g., IT outages, cybersecurity incidents), weakened travel-related revenues for Diners Club, and heightened dependence on third-party service providers as employees work remotely.  None of the passages provide dollar figures or cite realised losses, signalling that COVID-19 is being managed as an ongoing environmental risk rather than a current material hit.  Because the pandemic remains within the recent three-year window (the event began 11 March 2020 and the filing is 23 Feb 2023), the Time Decay Principle allows moderately elevated scores, yet the absence of specificity or quantification tempers severity.  Overall, the risk evidence is current and credible but largely qualitative, resulting in mid-range severity assessments for the strongest sentences and lower scores for indirect references such as hybrid-work vulnerabilities.",
+        "evidence_list": [
+            {
+                "snippet": "Geopolitical events, natural disasters, extreme weather-related events or other catastrophic events, including terrorist attacks and pandemics, may have a negative effect on our business and infrastructure, including our information technology systems.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites pandemics as a catastrophic event category affecting the company.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States potential negative impact on both business operations and critical infrastructure (IT systems).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Impact is described qualitatively with no financial quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct mention of pandemics and clear statement of adverse operational impact justify a solid mid-high score, reduced slightly for lack of quantification."
+            },
+            {
+                "snippet": "Armed conflict, public health emergencies, natural disasters, political instability or terrorism may have a significant and prolonged negative effect on travel activity and related revenue.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes ‘public health emergencies’ (captures pandemics) as a risk driver.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong language – ‘significant and prolonged negative effect’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects the threat to a specific revenue stream (travel activity/Diners Club).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No numeric estimates of revenue impact.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Links pandemic-type events to prolonged revenue decline in a defined business line, yielding a 6 given its specificity but unquantified nature."
+            },
+            {
+                "snippet": "Our vulnerability to these types of threats may be increased to the extent employees may continue to work remotely on a more frequent basis with the current trend toward hybrid work arrangements.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies hybrid/remote work (a pandemic-driven shift) as amplifying vulnerability.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates an increase in risk exposure (‘vulnerability...may be increased’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not explicitly mention COVID-19 or quantify impact; generalized statement.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Captures pandemic-related remote-work risk but lacks direct pandemic wording or measurable impact, resulting in a low-moderate score."
+            },
+            {
+                "snippet": "Further, with the current trend toward hybrid work arrangements, we have become increasingly dependent on third-party service providers, including those with which we have no direct relationship, such as our employees’ internet service providers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights hybrid work (pandemic legacy) as changing operational dependencies.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes heightened reliance on third-party providers, implying operational risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No explicit pandemic reference or specified magnitude of risk.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Indirectly ties hybrid work (a pandemic consequence) to greater third-party risk; minimal detail keeps the score very low."
+            }
+        ],
+        "calculated_score": 15,
+        "average_severity": 3.75
+    }
+]

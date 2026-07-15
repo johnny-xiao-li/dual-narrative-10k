@@ -1,0 +1,112 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "VMC’s Form 10-K openly acknowledges both historical and forward-looking risks arising from the COVID-19 pandemic.  The company states that government-imposed containment measures disrupted its operations, supply chain, customers and transportation networks, and it records a quantified $13.4 million of direct incremental pandemic costs.  These disclosures show a mix of realised, measurable impacts (2020-2022) and the possibility of renewed disruptions should the virus or another public-health emergency worsen.  The language is moderately specific—naming affected business functions, employees’ health, and an exact dollar charge—yet stops short of detailing margin or shipment impacts.  Because the filing date (24 Feb 2023) is within three years of the pandemic’s official onset (11 Mar 2020), the Time Decay Principle allows high but not necessarily maximal severity scores.  Mitigating elements (e.g., the industry’s “essential” status and the lifting of most restrictions) temper—but do not eliminate—the risk.  Overall, the risk profile is significant and current, with direct evidence of financial impact, warranting upper-middle scores for the strongest snippets and lower scores for generic or mitigating statements.",
+        "evidence_list": [
+            {
+                "snippet": "Our business is exposed to the risks associated with a pandemic, epidemic or other public health emergency, such as the coronavirus (COVID-19) pandemic — The COVID-19 pandemic caused governments and businesses around the world to implement strict measures to help control the spread of the virus.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states exposure to pandemic risk and names COVID-19 specifically.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes global governmental and business counter-measures, linking event severity to corporate risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Broad but direct acknowledgement of pandemic risk with contextual detail; no quantification, so score is moderate."
+            },
+            {
+                "snippet": "The vast majority, if not all, of these measures are no longer in place in the United States.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates that prior restrictive measures have mostly been lifted, reducing present-day operational constraints.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Still relates to pandemic context, but offers no remaining threat or impact detail.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "This sentence is purely mitigating; under the scoring rubric it offsets risk evidence and nets to zero."
+            },
+            {
+                "snippet": "While our industry was deemed essential in every state in which we operate and we continued to operate across our footprint when such measures were in place, our operations, supply chain, customers, and transportation networks were negatively impacted by such measures (including our own) and the health of our employees.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies multiple business functions that suffered negative impacts—operations, supply chain, customers, transportation, employee health.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links impacts directly to pandemic-related measures, indicating realised harm.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Notes essential-industry status and continued operations, which partially mitigates severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides concrete but unquantified evidence of operational disruption, partly offset by the essential-industry caveat."
+            },
+            {
+                "snippet": "The progression of COVID-19 (which remains highly uncertain) or another pandemic may result in future measures taken by governments and/or businesses (including our own) that could negatively impact our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights ongoing uncertainty and potential for future government or corporate restrictions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses explicit downside language ('could negatively impact our business').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Forward-looking statement of possible renewed disruption; specific to pandemic but unquantified, warranting a moderate score."
+            },
+            {
+                "snippet": "pretax charges of $13.4 million for COVID-19 pandemic direct incremental costs",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies a concrete financial impact attributable to COVID-19 ($13.4 million).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Characterises the cost as 'direct incremental', showing causality and materiality.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Event is within three-year window, permitting a higher score under Time Decay Principle.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Strongest evidence: recent, direct, and monetised impact; near-max score but below 10 due to single-year scope and modest dollar amount relative to company size."
+            }
+        ],
+        "calculated_score": 21,
+        "average_severity": 4.2
+    }
+]

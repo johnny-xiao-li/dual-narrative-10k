@@ -1,0 +1,173 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated February 24 2023, discusses COVID-19 primarily within the Risk Factors section.  Because the pandemic began in March 2020, the disclosures relate to a still-recent event (≈3 years), so time-decay permits moderately high severity scores.  The language is largely forward-looking and couched in conditional verbs (\"could,\" \"may\"), signalling that management views COVID-19’s future waves and knock-on effects—not the 2020 shock itself—as an ongoing, potential risk rather than a presently quantified impact.  Nonetheless, several sentences explicitly connect new outbreaks to material operational vulnerabilities: labour health and productivity, supply-chain and transport disruptions, raw-material pricing, customer demand patterns, and funding streams for the Company’s core infrastructure markets.  The disclosures stop short of dollar quantification, but the breadth of functions cited (employees, procurement, distribution, end-market demand) indicates an enterprise-wide exposure.  Mitigating actions—such as active monitoring, compliance with mandates, and willingness to alter operations—are noted, tempering severity.  Overall, the risk is assessed as moderate-to-high (upper-mid single-digits) under Time Decay: recent enough to matter materially, specific enough to outline multiple impact channels, but still generic and un-quantified.",
+        "evidence_list": [
+            {
+                "snippet": "Our businesses could be adversely affected by new waves of COVID-19 or its variants, or any other outbreak of disease, epidemic or pandemic, or similar public health threat, or fear of such an event and its related economic and societal response",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct reference to COVID-19 and its variants.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States that the Company’s businesses could be \"adversely affected\"—explicit impact language.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights forward-looking risk from \"new waves,\" signalling ongoing exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Covers broad ‘economic and societal response’ scope, implying systemic effects.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic, unquantified wording (‘could’, no figures).",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Scores high-moderate (6) because it links future COVID waves to adverse business impacts across the economy, without providing quantification."
+            },
+            {
+                "snippet": "Our businesses could be negatively impacted by the widespread outbreak of an illness or other communicable disease, or any other public health crisis that results in economic and trade disruptions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies outbreak–related risk and ‘economic and trade disruptions’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses negative-impact language (‘could be negatively impacted’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not mention COVID-19 explicitly; broader, more generic phrasing.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Forward-looking conditional language, no quantification.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Generic communicable-disease clause still relevant to COVID context; moderate severity due to lack of specificity."
+            },
+            {
+                "snippet": "Public health threats like COVID-19 or its variants can negatively impact economic activity, consumer confidence and discretionary spending, and overall market conditions and these conditions could have an impact on our Company to the extent that they occur in regions where our Building Materials business principally operates.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites COVID-19 and variants.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists multiple macro-economic channels (economic activity, consumer confidence, discretionary spending).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects macro effects directly to Company geographies.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional ‘can/ could’ wording, no figures.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides clearer pathways from COVID to Company performance but remains broad and unquantified, yielding a mid-range score."
+            },
+            {
+                "snippet": "Further, COVID-19 or other outbreaks of illnesses could negatively affect the health of our employees, employee productivity, customer purchasing patterns and fulfillment of purchase orders, availability of supplies, pricing for raw materials and the ability to transport materials via the Company’s distribution network.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct COVID-19 reference.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Enumerates multiple concrete operational impact areas (employee health/productivity, demand, supply chain, logistics, input prices).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Includes specific mention of supply-chain and transport disruptions—highly pertinent to pandemic risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Highest scoring snippet (7) because it details several distinct, material operating vulnerabilities directly tied to COVID-19."
+            },
+            {
+                "snippet": "We actively monitor public health situations as part of our health and safety measures and acted during the pandemic to comply with federal, state and local mandates and to protect the health and safety of our employees.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges the pandemic and past action taken.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Describes specific mitigating actions (monitoring, compliance, protection measures).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Purely mitigation-oriented; offsets risk points, so the net snippet score rounds to 0."
+            },
+            {
+                "snippet": "We may take further actions that alter our business operations, including any that may be required by federal, state or local authorities or that we determine are in the best interests of our employees, customers, suppliers, vendors, communities and other stakeholders as we adapt to public health events from time to time.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits potential need to alter operations due to public-health events (ongoing risk).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights proactive adaptations (mitigation).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Implies operational disruption risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Low score: acknowledges possible operational changes but is framed largely as mitigation and is not COVID-specific."
+            },
+            {
+                "snippet": "Remote working trends or other factors that reduce miles driven can have a negative impact on various revenue streams that fund roadway projects.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights remote-working trend (a pandemic-driven shift).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Connects trend to negative impact on funding for the Company’s key infrastructure market.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions other unspecified factors; indirect link to pandemic.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Moderate-low score because link to COVID-19 is indirect, but it still reflects an enduring pandemic-related risk to demand drivers."
+            }
+        ],
+        "calculated_score": 24,
+        "average_severity": 3.4285714285714284
+    }
+]

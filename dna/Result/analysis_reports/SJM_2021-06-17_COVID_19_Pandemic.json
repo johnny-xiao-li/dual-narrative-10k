@@ -1,0 +1,623 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "SJM’s 2021-06-17 filing provides a dense, multi-layered discussion of COVID-19.  The company links the pandemic to both realised impacts (e.g., elevated at-home demand, higher commodity costs, away-from-home sales declines) and a broad spectrum of forward-looking threats that could still materialise: plant shutdowns, labour shortages, commodity inflation, financing constraints, supply-chain and logistics interruptions, IT-security exposure from remote work, and potential goodwill impairments.  Most statements are prospective and couched in conditional language (“could,” “may”), but several acknowledge impacts that have already occurred (“has had,” “has adversely affected,” “has been significantly disrupted”).  No sentence gives a hard dollar figure, so the evidence is unquantified; nevertheless, because the filing date is well within three years of the declared pandemic start (Time Decay window for high severity), recent impacts and concrete operational mechanisms warrant moderate-to-high scores.  Mitigating references (vaccine rollout, current minimal disruptions, at-home sales benefits, active monitoring) temper some passages, but the overall risk profile remains significant due to the breadth of functions potentially affected and the continued uncertainty around new variants and macroeconomic volatility.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic and related ongoing implications could negatively impact our business and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links COVID-19 to potential negative business impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Applies to overall business and results of operations (broad scope).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional wording ('could') reduces immediacy.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No quantified magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Clear but generic statement of potential harm; unquantified and conditional, yielding a moderate score of 4."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has had, and could continue to have, a negative impact on financial markets, economic conditions, and portions of our business and industry as a result of changes in consumer behaviors, retailer inventory levels, cost inflation, manufacturing and supply chain disruption, and overall macroeconomic conditions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges both realised ('has had') and potential future impacts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates multiple specific impact channels (supply chain, cost inflation, etc.).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Direct event linkage to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks numeric detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Lists several operational impact vectors and notes impacts already felt, justifying a higher risk score of 6."
+            },
+            {
+                "snippet": "While our overall business has benefited from increased at-home consumption due to COVID-19, our ability to sustain heightened sales is dependent on evolving consumer mobility and purchasing behavior.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes benefit from pandemic (mitigating).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Highlights future demand risk tied to consumer behaviour changes.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicit COVID-19 reference.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Contains both upside and conditional downside; net effect is low-moderate risk (score 1)."
+            },
+            {
+                "snippet": "Though the continued availability and effectiveness of vaccines may partially mitigate the risks around the continued spread of COVID-19, the related ongoing implications could negatively impact our business and results of operations in a number of ways, including, but not limited to, the following:",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces mitigation via vaccines.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "States that ongoing implications can still hurt business.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Direct linkage to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional 'could'.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Sets stage for detailed risks but emphasises partial mitigation; yields a modest score of 2."
+            },
+            {
+                "snippet": "A shutdown or slowdown of one or more of our manufacturing facilities due to illness or labor shortages could significantly disrupt our production capabilities, particularly with respect to our coffee production, substantially all of which takes place in New Orleans, Louisiana;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specific operational threat (facility shutdown/slowdown).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong wording 'significantly disrupt'.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights geographic concentration risk (coffee in New Orleans).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional 'could'.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete, location-specific production risk with strong language warrants a score of 5."
+            },
+            {
+                "snippet": "A slowdown or stoppage in our supply chain could result from government restrictions or labor shortages due to illness or if our suppliers, vendors, distributors, or third-party manufacturers fail to meet their obligations to us or experience disruptions in their ability to do so;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details potential supply-chain stoppage impacting operations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "References multiple counterparties (suppliers, vendors, etc.).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional wording.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights multi-party supply-chain vulnerability; strong but still conditional, giving a 4."
+            },
+            {
+                "snippet": "A strain on our supply chain could result from increased consumer demand at our retail and e-commerce customers;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies demand-driven supply-chain strain.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional 'could'.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Risk is narrower and still speculative; moderate score of 2."
+            },
+            {
+                "snippet": "An increase in commodity and other input costs could result from market volatility, particularly with respect to protein meals, fats, and green coffee, the supply chain for which has been significantly disrupted by COVID-19;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 disruption to commodity/input cost inflation.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Names specific commodities affected.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional 'could'.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Ties pandemic directly to key cost inflation on named inputs; risk score 4."
+            },
+            {
+                "snippet": "A significant portion of our workforce, including our management team, could become unable to work as a result of illness or government restrictions, or the attention of our management team could be diverted if any key employees become ill from COVID-19 and are unable to work;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Addresses labour continuity and leadership distraction risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Potential impact on a 'significant portion' of workforce.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional nature.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Labour and leadership availability risk is tangible but still hypothetical; score 3."
+            },
+            {
+                "snippet": "An impairment in the carrying value of goodwill, other intangible assets, or other long-lived assets, or a change in the useful life of finite-lived intangible assets could occur if there are sustained changes in consumer purchasing behaviors, government restrictions, financial results, or a deterioration of macroeconomic conditions;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights potential balance-sheet impairment tied to pandemic-driven behavioural and economic shifts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional 'could occur'.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Financial statement risk noted but abstract and conditional; moderate-low score 2."
+            },
+            {
+                "snippet": "A decrease in demand for away from home establishments, resulting from government restrictions and social distancing measures, has adversely affected, and may continue to adversely affect, our away from home operations;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States realised impact ('has adversely affected').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Projects continuing adverse effect.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specific business unit identified (away from home).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Actual and ongoing sales decline in a segment raises risk to 4."
+            },
+            {
+                "snippet": "An increase in working capital needs could occur, caused by an increase in days sales outstanding or an extension of payment terms by our customers or a reduction of payment terms by our suppliers resulting from increased financial pressures;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies liquidity/working-capital strain.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Economic stress linked to pandemic context.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional language.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Potential but unquantified liquidity squeeze; score 3."
+            },
+            {
+                "snippet": "A change in demand resulting from restrictions on social interactions could affect customers’ and consumers’ plans to purchase or methods of purchasing our products;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Demand disruption from social-interaction limits.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional 'could'.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic but relevant demand risk; score 2."
+            },
+            {
+                "snippet": "A change in demand for or availability of our products could result from retailers, distributors, or carriers modifying their restocking, fulfillment, or shipping practices;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights distribution and availability risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional wording.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Broad supply-chain caveat with low specificity; low score 1."
+            },
+            {
+                "snippet": "A shift in consumer spending as a result of the economic downturn could result in consumers moving to private label or competitive products or our lower-priced products;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies competitive/pricing pressure from pandemic-driven downturn.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Potential margin pressure noted but speculative; score 2."
+            },
+            {
+                "snippet": "A change in trade promotions and marketing activities could occur in response to changes in consumer viewing and shopping habits resulting from the cancellation of major events, travel restrictions, and changes in in-store shopping practices;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Marketing strategy disruption risk tied to pandemic behavioural shifts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Niche marketing risk; minimal severity (score 1)."
+            },
+            {
+                "snippet": "A fluctuation in foreign currency exchange rates or interest rates could result from market uncertainties;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes macro-financial volatility risk linked to pandemic uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Very general and conditional.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Broad macro reference with little company specificity; score 1."
+            },
+            {
+                "snippet": "An increase in the cost or the difficulty to obtain debt or equity financing, or to refinance our debt in the future, could affect our financial condition or our ability to fund operations or future investment opportunities;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly connects pandemic to financing cost/availability risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Financing risk identified but unquantified; score 2."
+            },
+            {
+                "snippet": "An increase in regulatory restrictions or continued market volatility could hinder our ability to implement price increases resulting from commodity or other input cost increases or to execute strategic business activities, including acquisitions and divestitures.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Strategic and pricing flexibility risk due to volatile pandemic environment.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional and broad.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Strategic constraints noted but speculative; score 2."
+            },
+            {
+                "snippet": "In addition, we are actively monitoring COVID-19 and its impact on our supply chain and consolidated results of operations, which could be negatively impacted in a number of ways, as previously noted.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms ongoing monitoring of pandemic risk to supply chain/results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States potential negative impacts.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Mitigating action (monitoring).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Conditional 'could'.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Reiterates risk while noting mitigation; nets to 2."
+            },
+            {
+                "snippet": "A significant interruption in the operation of any of our manufacturing or distribution capabilities, or the manufacturing or distribution capabilities of our suppliers, distributors, or contract manufacturers, or a service failure by a third-party service provider, whether as a result of adverse weather conditions or a natural disaster, work stoppage, terrorism, pandemic illness (such as the COVID-19 pandemic), or other causes, could significantly impair our ability to operate our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifically cites pandemic illness as possible cause of major operational interruption.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong term 'significantly impair'.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights severe operational risk explicitly tied to pandemic; score 4."
+            },
+            {
+                "snippet": "In particular, the supply chain for protein meals, fats, and green coffee has been significantly disrupted by the COVID-19 pandemic; therefore, the price for these commodities has increased and may continue to increase due to such disruptions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States actual supply-chain disruption already occurred.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links to increased commodity costs and future inflation.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking 'may continue' extends risk horizon.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No numeric magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Concrete evidence of realised disruption and cost impact drives a high score of 6."
+            },
+            {
+                "snippet": "Furthermore, as a result of COVID-19, we may experience an increase in the cost of or the difficulty to obtain debt or equity financing, or to refinance our debt in the future, which could also affect our financial condition or our ability to fund operations or future investment opportunities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly connects pandemic to capital-market access risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Impact on funding for operations/investments (strategic importance).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional 'may'/'could'.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Financing constraint risk reiterated outside bullets; moderate score 3."
+            },
+            {
+                "snippet": "Disruption to the timely supply of these services or increases in the cost of these services for any reason, including availability or cost of fuel, regulations affecting the industry, labor shortages in the transportation industry, service failures by third-party service providers, accidents, natural disasters, or a pandemic illness (such as COVID-19), which may impact the transportation infrastructure or demand for transportation services, could have an adverse effect on our ability to serve our customers, and could have a material adverse effect on our business, financial condition, and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemic as driver of transportation/logistics disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States potential 'material adverse effect'.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Transportation risk linked to pandemic logistics; moderate score 3."
+            },
+            {
+                "snippet": "We rely on information technology networks and systems, including the Internet, to process, transmit, and store electronic information, and the importance of such networks and systems has increased due to many of our employees working remotely as a result of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects remote-work shift (pandemic driven) to heightened IT dependency.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indirect risk (vulnerability to cyber issues).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No explicit harm stated; descriptive.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Indicates increased IT reliance but minimal explicit risk language; low score 1."
+            },
+            {
+                "snippet": "The spread of COVID-19 throughout the United States and the international community has had, and will continue to have, an impact on financial markets, economic conditions, and portions of our business and industry.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States both realised and continuing impacts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists broad areas affected (markets, economy, business).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Direct pandemic linkage.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Unquantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Broad but explicit statement of ongoing impacts; high-moderate score 6."
+            },
+            {
+                "snippet": "To date, there has been minimal disruption in our supply chain network, including the supply of our ingredients, packaging, or other sourced materials, although it is possible that more significant disruptions could occur if the COVID-19 pandemic continues to impact markets around the world, including the impact of e-commerce pressures on freight charges and potential shipping delays due to supply and demand imbalances.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges potential future supply-chain disruption tied to pandemic continuation.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States current minimal impact (mitigating).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Conditional.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Mitigation nearly cancels out potential risk, resulting in a neutral score."
+            },
+            {
+                "snippet": "A decline in products sold in away from home channels has also been experienced as a result of COVID-19, which has negatively impacted our net sales in our Away From Home operating segment, and we expect COVID-19 will continue to adversely affect our net sales while government-mandated safety measures are in place and consumers continue to stay at home as a precaution.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports realised sales decline due to pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Projects continued adverse effect.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Specific segment impact mentioned.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No dollar amount.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Concrete segment sales hit with forward risk; score 4."
+            },
+            {
+                "snippet": "Overall, the impact of COVID-19 remains uncertain and ultimately depends on the length and severity of the pandemic, inclusive of the introduction of new strains of the virus; the federal, state, and local government actions taken in response; continued vaccine availability and effectiveness; and the macroeconomic environment.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises ongoing uncertainty and multiple external dependencies.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No specific operational metric or magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Captures broad uncertainty but low specificity; score 1."
+            }
+        ],
+        "calculated_score": 81,
+        "average_severity": 2.793103448275862
+    }
+]

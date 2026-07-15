@@ -1,0 +1,361 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Cisco’s 2021-09-09 Form 10-K positions COVID-19 as a recent (≤18-month) event that has already produced tangible damage and continues to pose multi-faceted threats.  The filing blends backward-looking evidence (manufacturing challenges, component constraints, inventory build-ups, capital-market volatility) with forward-looking cautions (extended supply-chain disruption through FY-2022, long-term demand shifts, remote-work productivity losses, cyber-exposure, liquidity pressure).  The language is concrete—often using “significant” or “materially adversely affect”—and supplies time horizons, operational specifics, and cascading impacts on customers and vendors.  Mitigations are mentioned (e.g., “we continue to address”) but are outweighed by the breadth and persistence of the risks described.  Given the Time Decay Principle (event ≤3 yrs old), these statements warrant high but differentiated scores: direct, quantified, or multi-domain impacts cluster near 7-9; broad but less detailed or partially mitigated points settle near 3-6.",
+        "evidence_list": [
+            {
+                "snippet": "Our business, results of operations and financial condition have been adversely affected and could in the future be materially adversely affected by the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States past adverse impact already realized.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Projects future ‘materially adverse’ impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong, explicit risk wording (‘materially adversely’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Event is recent (0-3 yrs), no time-decay reduction.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct statement of past and potential material harm produces a high severity score."
+            },
+            {
+                "snippet": "In the second half of fiscal 2020, the COVID-19 pandemic had an impact on our financial results and business operations, with a significant impact in the third quarter of fiscal 2020 on our supply chain where we saw manufacturing challenges and component constraints.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details historical financial and operational impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights ‘significant impact’ on supply chain.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies nature of disruption (manufacturing challenges, component constraints).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recency factor (within 3 yrs).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Specific, significant, and recent supply-chain harms justify a high score."
+            },
+            {
+                "snippet": "We continue to address these supply chain challenges and cost impacts, which we expect will continue at least through the first half of fiscal 2022 and potentially into the second half of fiscal 2022.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing supply-chain challenges and related costs.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Provides explicit forward-looking time frame into FY-2022.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Expectation of persistence indicates heightened risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions mitigation effort (‘continue to address’).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Recency (≤3 yrs).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Ongoing, time-bounded risk is partially offset by stated mitigation, yielding a mid-level score."
+            },
+            {
+                "snippet": "Shelter-in-place orders and other measures, including work-from-home and other policies implemented to protect workers, has and could in the future impact our supply chain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic containment measures to supply-chain risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies remote-work dynamic as operational hazard.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking (‘could in the future’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific cause-and-effect link (lockdowns → supply disruption) but without quantified impact merits a moderate score."
+            },
+            {
+                "snippet": "In addition, current and future restrictions or disruptions of transportation, such as reduced availability of air transport, port closures, and increased border controls or closures, can also impact our ability to meet customer demand and could materially adversely affect us.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete logistical disruptions (air, ports, borders).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links to inability to meet customer demand.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses ‘could materially adversely affect’ language.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Recency factor.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specific transportation risks with materiality wording produce an above-average risk score."
+            },
+            {
+                "snippet": "Our customers have also experienced, and may continue to experience, disruptions in their operations, which can result in delayed, reduced, or canceled orders, and increased collection risks, and which may adversely affect our results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights downstream customer operational disruptions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies financial consequences (delayed/reduced/canceled orders, collection risk).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking continuation (‘may continue’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Recency factor.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear financial transmission of customer stress to Cisco justifies a solid risk score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic may also result in long-term changes in customer needs for our products and services in various sectors, along with IT-related capital spending reductions, or shifts in spending focus, that could materially adversely affect us if we are unable to adjust our product and service offerings to match customer needs.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates potential structural demand shift.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions capital-spending reductions.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Material adverse effect qualifier if company fails to adapt.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Long-term demand uncertainty is meaningful but conditional, giving a mid-range score."
+            },
+            {
+                "snippet": "The recent shift to a remote working environment also creates challenges.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges operational challenges from remote work.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Implicitly tied to pandemic circumstances.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Statement is generic, lacks detail or materiality.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic reference to ‘challenges’ without specifics earns a low–moderate score."
+            },
+            {
+                "snippet": "For example, governmental lockdowns, restrictions or new regulations has and could in the future impact the ability of our employees and vendors to work with the same speed and productivity in certain areas, even as other areas do not see negative impact.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies workforce productivity risk from lockdowns.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "References both past and future impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights uneven global effects, increasing operational complexity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Concrete workforce-productivity threat but no materiality descriptor yields a moderate score."
+            },
+            {
+                "snippet": "In addition, malefactors are seeking to use the COVID-19 pandemic to launch new cyber-attacks.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces pandemic-linked cyber-security threat.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates active exploitation by adversaries (‘are seeking’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Lacks quantified impact or probability.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Emerging cyber-risk is real but qualitatively described, hence mid-low score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has also led to increased disruption and volatility in capital markets and credit markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights macro-financial market disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States that disruption has already occurred.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Effect on Cisco implied but not specified.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Acknowledged external financial volatility without company-specific quantification results in a moderate score."
+            },
+            {
+                "snippet": "The pandemic and resulting economic uncertainty could adversely affect our liquidity and capital resources in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties pandemic to potential liquidity risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking contingency wording (‘could’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Potential liquidity impact is noted but speculative, keeping severity modest."
+            },
+            {
+                "snippet": "A reduction or interruption in supply, including disruptions on our global supply chain as a result of the COVID-19 pandemic or a significant natural disaster (including as a result of climate change); a significant increase in the price of one or more components; a failure to adequately authorize procurement of inventory by our contract manufacturers; a failure to appropriately cancel, reschedule, or adjust our requirements based on our business needs; or a decrease in demand for our products could materially adversely affect our business, operating results, and financial condition and could materially damage customer relationships.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple pandemic-driven supply-chain failure modes.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Employs strong ‘could materially adversely affect’ language.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Adds potential customer-relationship damage.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Recency factor.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Comprehensive, severe supply-chain risk articulation yields a high score."
+            },
+            {
+                "snippet": "For example, in fiscal 2021, we increased our inventory and purchase commitments in light of the supply chain challenges seen industrywide due to component shortages, caused in part by the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes concrete action (inventory build) attributable to pandemic-related shortages.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links to industry-wide supply-chain challenge.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Places event in recent fiscal year, underscoring immediacy.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Indicates potential cost implications (implied by commitments).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specific operational response driven by COVID shortages signals appreciable risk."
+            },
+            {
+                "snippet": "These increases in our inventory and purchase commitments to shorten lead times could also lead to significant excess and obsolete inventory charges if the demand for our products is less than our expectations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential financial loss (‘significant’ excess & obsolete charges).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects risk to earlier pandemic-driven inventory actions.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking conditionality.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Magnitude qualifier (‘significant’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specifies a measurable cost risk arising from COVID-induced inventory strategy, meriting a solid score."
+            }
+        ],
+        "calculated_score": 78,
+        "average_severity": 5.2
+    }
+]

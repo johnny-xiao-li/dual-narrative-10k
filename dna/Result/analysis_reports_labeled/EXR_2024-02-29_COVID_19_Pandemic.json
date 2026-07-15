@@ -1,0 +1,138 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "EXR’s 2024 Form 10-K discusses COVID-19–type threats primarily under the broader heading of “public health emergencies.”  The company frames the pandemic risk as forward-looking: it does not cite any quantified, historical hit to revenue or cash flow, but it does spell out several clear operational transmission channels—lower demand from stay-at-home orders, reduced late-fee collections, difficulty holding lien-sale auctions, higher bad-debt expense, and impaired capital-raising capacity.  The language is somewhat generic (no dollar figures or probability estimates) yet still uses strong qualifiers such as “materially and adversely” and “significant.”  Because the filing date (29 Feb 2024) is less than four years after the WHO declaration of the COVID-19 pandemic (11 Mar 2020), the Time-Decay Principle allows relatively high scores.  Overall, the disclosure signals a real but unquantified, continuing exposure; therefore the individual snippets generally fall in the moderate-to-elevated range (4-6), with modest downward adjustments where the company cites industry resilience or expresses uncertainty.",
+        "evidence_list": [
+            {
+                "snippet": "Our operations, revenues and operating income may be adversely impacted by, for example, increases in unemployment rates, rising interest rates, changing demographics, decreases in the volume of housing market transactions, recessions, perceptions about the safety of our stores, changes in local zoning laws, consequences from climate change, public health emergencies, as well as earthquakes, hurricanes and other natural disasters, terrorist acts, civil disturbances or acts of war.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘public health emergencies’ as a factor that can adversely impact operations, revenues and operating income.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Risk is embedded in a long catch-all list with no detail, making it generic and less severe.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "The sentence merely name-checks public-health risk in a laundry list; after offsetting genericness, the net impact is negligible."
+            },
+            {
+                "snippet": "Public health emergencies, and measures intended to prevent the spread of a public health emergency, could adversely affect our results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links public-health emergencies to adverse effects on results of operations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "No specifics or quantification; purely potential language (‘could’).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Clear linkage to operational harm but still generic and unquantified, yielding a modest risk score."
+            },
+            {
+                "snippet": "We face risks related to public health emergencies, such as epidemics and pandemics that could materially and adversely impact our results of operations in the future.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges direct exposure to epidemics and pandemics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong materiality language (‘materially and adversely impact’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Frames impact as future/potential rather than existing.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Materiality wording lifts the score, but future-tense, unquantified framing tempers severity."
+            },
+            {
+                "snippet": "The impact of a public health emergency, and measures to prevent the spread of a virus or the underlying causes of a health crisis, could lower demand for storage facilities due to, among other things, stay-at home orders and other restrictions which may lead to lower rental rates, reduced late fee collection and impaired ability to hold auctions resulting in higher accounts receivable and bad debt.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete operational pathways: demand drop, lower rates, reduced fees, auction limitations, higher bad debt.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Cascading financial consequences show breadth of exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Still couched as ‘could’, indicating contingency.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific operational channels elevate the risk to a solid mid-high level despite the conditional wording."
+            },
+            {
+                "snippet": "In addition, a public health emergency could cause general economic and market disruptions which could impair our ability to expand our business, raise capital and adversely affect the value of our securities.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies broader strategic and capital-market impacts (expansion, capital raising, security values).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links pandemic to macro-economic disruption, widening the scope of risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement remains hypothetical (‘could’), no quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Wide-ranging strategic implications produce a moderate score, moderated by lack of concreteness."
+            },
+            {
+                "snippet": "Although the self-storage industry has historically been resilient to ordinary market downturns, the impact of pandemics, epidemics or public health emergencies on the U.S. and world economies generally, and on our future results in particular, could be significant and will largely depend on future developments, which are highly uncertain and cannot be predicted.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges potentially ‘significant’ impact on future results and global economies.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Introduces mitigating context of historical resilience.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Emphasizes uncertainty and lack of predictability.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Despite admitting significant possible impact, strong mitigating language and uncertainty reduce the net score to negligible."
+            }
+        ],
+        "calculated_score": 16,
+        "average_severity": 2.6666666666666665
+    }
+]

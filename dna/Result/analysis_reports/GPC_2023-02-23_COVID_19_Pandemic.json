@@ -1,0 +1,94 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "GPC’s 2023 Form 10-K squarely acknowledges that the 2020-onward COVID-19 pandemic has created both realized and continuing risks across multiple operational fronts.  The filing confirms that the company has already suffered supply-chain friction—specifically global labour shortages and delays on internationally-sourced inventory—directly attributed to the pandemic.  Although management notes that these particular disruptions have not yet been “material,” it concedes that future impacts could become material and adverse, signalling an unresolved, forward-looking threat.  The text also ties the pandemic-driven shift to remote work to a measurable spike in cyber-security attacks, introducing a second, distinct risk vector.  A further, more generic sentence folds pandemics into the firm’s macro-economic risk framework, underscoring that health crises remain a standing consideration in demand and operations planning.  All statements are recent (within three years of the event) and refer to either experienced impacts or credible future exposures; therefore, under the Time Decay Principle, scores can range into the higher band (7–10) for the strongest evidence.  Mitigating language (“not material to date”) tempers, but does not eliminate, severity.  Overall, the pandemic presents a moderate-to-high risk profile for GPC, with supply-chain continuity and cyber-security as the most acute pressure points.",
+        "evidence_list": [
+            {
+                "snippet": "In recent years, partly as a result of the COVID-19 pandemic and other factors beyond our control, such as the ongoing Russia and Ukraine war, we have experienced supply chain disruptions, particularly with regard to global labor shortages and inventory sourced from outside the U.S.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to company-specific operational harm ('we have experienced supply chain disruptions').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes the impact as already occurring, not merely potential (realised risk).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Provides concrete areas of impact (global labor shortages, overseas inventory).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Event is within 0–3 year window, allowing high weighting per Time Decay Principle.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, recent, and specific evidence of pandemic-induced supply-chain disruption warrants a high score of 8."
+            },
+            {
+                "snippet": "These disruptions have not had a material impact on our business to date, but we cannot provide any assurance that these or new supply chain disruptions will not materially or adversely impact our business, financial condition and results of operations in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of possible future material adverse impacts, keeping risk active.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States current impacts are not material, a mitigating factor.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Expresses uncertainty ('cannot provide any assurance'), underscoring residual risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Forward-looking risk is acknowledged but tempered by a ‘not material yet’ statement, yielding a low-moderate score of 1."
+            },
+            {
+                "snippet": "In particular, in connection with the COVID-19 pandemic and the related increase in working from home, there has been a spike in cyber-security attacks as work from home measures have led businesses to increase reliance on virtual environments and communications systems, which have been subjected to increasing third-party vulnerabilities and security risks.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit causal link between COVID-19 and a new threat vector (remote-work cyber attacks).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Reports an actual increase ('spike') in attacks—evidence of realised impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details the mechanism of risk (greater reliance on virtual environments and third-party vulnerabilities).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Demonstrates a concrete, pandemic-related rise in cyber risk with operational detail; significant but unquantified, scoring 6."
+            },
+            {
+                "snippet": "Additionally, other economic conditions, including resulting from healthcare pandemics or epidemics, could impact various aspects of our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Generic acknowledgement that pandemics can affect the business.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "A broad, non-specific statement about pandemics offers minimal incremental risk insight; score is 1."
+            }
+        ],
+        "calculated_score": 16,
+        "average_severity": 4.0
+    }
+]

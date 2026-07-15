@@ -1,0 +1,264 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CenterPoint Energy’s 2021 Form 10-K was filed less than one year after the WHO declared COVID-19 a global pandemic, so the Time Decay Principle allows high severity scores (up to 10).  The filing contains numerous, detailed disclosures tying COVID-19 to tangible, present-day impacts across almost every business line: (i) direct financial hits such as goodwill and equity-method impairments, higher bad-debt reserves, and lower cash distributions; (ii) operational pressures including lower commercial-industrial load, moratoria on disconnections, potential supply-chain delays, remote-work cyber-security threats and workforce‐availability concerns; and (iii) regulatory and liquidity risks such as delayed rate cases, possible rate restrictions and the need for additional external financing.  Importantly, management concedes that it “expects the COVID-19 pandemic to adversely impact us in future quarters” but cannot predict the magnitude, underscoring forward-looking uncertainty.  Although the company notes some mitigating factors (no major supply-chain disruption to date, regulatory deferral mechanisms, continued monitoring), these are outweighed by the breadth, immediacy and quantification of adverse effects already experienced.  Consequently, most evidence snippets merit high but differentiated scores: sentences citing actual impairments or measurable financial strain receive 8-9 points; those describing ongoing but unquantified exposures receive 6-7; and statements dominated by generic uncertainty or limited mitigation receive 4-5.  No snippet is scored the maximum 10 because the impacts, while material, are not portrayed as existential threats to solvency, and several mitigating mechanisms are acknowledged.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic is a rapidly evolving situation that is adversely affecting current global economic activities and conditions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to adverse global economic conditions (broad impact).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses present-tense wording (‘is adversely affecting’) indicating existing impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Sentence establishes an ongoing, global adverse impact, but without company-specific magnitude, so moderate-high risk."
+            },
+            {
+                "snippet": "An extended slowdown of economic growth, decreased demand for commodities and/or material changes in governmental or regulatory policy in the United States has resulted in, and could continue to result in, lower growth, including customer growth, and reduced demand for and usage of electricity and natural gas in our service territories as customer facilities close, remain closed or potentially close again.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-driven slowdown directly to reduced demand for core products (electricity & gas).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Highlights both realized (‘has resulted’) and future (‘could continue’) impacts.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Shows concrete demand erosion already occurring and likely to persist—elevated but not quantified risk."
+            },
+            {
+                "snippet": "We have experienced reduced demand and usage among our electric and natural gas commercial and industrial customers, as well as a decrease in revenues from disconnections and reconnections due to the disconnect moratoriums across our service territories due to COVID-19, which have either expired or may expire during the second quarter of 2021 in certain of the Registrants’ service territories.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports actual reductions in demand and revenues—direct financial impact.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Identifies regulatory moratoria as causal factor, extending risk horizon.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Company-specific, realized revenue loss earns high score; timing note sustains forward risk."
+            },
+            {
+                "snippet": "As a result of the disconnect moratoriums across our Natural Gas service territories and other payment deferrals or arrangements, days outstanding on receivables and uncollectible accounts have increased, resulting in an increase to allowance for credit losses.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies financial metric deterioration (DSO, bad-debt reserve).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Links directly to pandemic-related moratoria and deferrals.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Quantitative accounting impact (higher reserves) justifies strong score."
+            },
+            {
+                "snippet": "CenterPoint Energy identified and recorded an impairment during the year ended December 31, 2020 based on the severity of the decline in Enable’s common unit price during the three months ended March 31, 2020 due to the macroeconomic conditions related in part to the COVID-19 pandemic.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States a booked impairment charge tied to pandemic conditions—realized loss.",
+                            "points": 7
+                        },
+                        {
+                            "reason": "Provides timing and causal linkage (‘related in part to the COVID-19 pandemic’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Actual impairment attributable to COVID-19 equals high severity."
+            },
+            {
+                "snippet": "Enable announced a reduction in its quarterly distributions per common unit by 50% in response to COVID-19 and economic conditions impacting the oil and gas industry.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies a 50% cut in cash inflow to parent—material financial hit.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Directly attributes decision to COVID-19 conditions.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Large, quantified drop in affiliate distributions heightens liquidity risk."
+            },
+            {
+                "snippet": "The ability of our customers, contractors and suppliers to meet their obligations to us, including payment obligations, has also been negatively affected under the current economic conditions.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights counter-party credit risk spanning customers and supply chain.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses present-tense ‘has ... been negatively affected’ indicating realized impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Broad but unquantified counter-party risk warrants medium score."
+            },
+            {
+                "snippet": "Additionally, our state and local regulatory agencies, in response to a federal mandate or otherwise, could impose restrictions on the rates we charge to provide our services, including the inability to implement approved rates, or delay actions with respect to our rate cases and filings.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential regulatory constraints on revenue recovery linked to pandemic responses.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Forward-looking regulatory risk; no quantification, so moderate score."
+            },
+            {
+                "snippet": "With respect to our supply chain, while we have not experienced significant disruptions or challenges from the COVID-19 pandemic, to the extent we experience such disruptions in our supply chain that limit our ability to obtain materials and equipment necessary for our businesses, whether through delayed order fulfillment, limited production or unavailability due to COVID-19, we may be unable to perform our operations timely or as anticipated, which could result in service or construction delays or increased costs.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags potential future operational and cost impacts (service delays, higher costs).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Contains mitigating statement (‘have not experienced significant disruptions’).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Risk is hypothetical and explicitly mitigated, resulting in low-moderate score."
+            },
+            {
+                "snippet": "Furthermore, in the event key officers or a substantial portion of our workforce were to be impacted by COVID-19 for an extended period of time, we may face challenges with respect to our services or operations and we may not be able to execute our capital plan as anticipated.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes potential human-capital disruption impacting capital program.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Forward-looking operational risk without current impact earns mid-range score."
+            },
+            {
+                "snippet": "As many of our employees and third-party service providers work remotely in accordance with government mandates or guidelines, we face heightened cyber security and privacy risks related to unauthorized system access, aggressive social engineering tactics and adversaries attacking the information technology systems, network infrastructure, technology and facilities used to conduct our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-driven remote work to increased cyber-security threat surface.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies nature of threat (social engineering, system access).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete description of heightened cyber risk but no financial quantification."
+            },
+            {
+                "snippet": "We cannot predict the extent or duration of the COVID-19 pandemic or its effects on national, state and local economies, including the impact on our ability to access capital markets, our supply chain, our business strategies and plans and our workforce, nor can we estimate the potential adverse impact from COVID-19 on our financial condition, results of operations, cash flows and liquidity.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits high uncertainty across multiple financial and operational dimensions.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Generic uncertainty statement—acknowledges broad risk but lacks specifics."
+            },
+            {
+                "snippet": "However, we expect the COVID-19 pandemic to adversely impact us in future quarters due to the considerable uncertainty regarding the extent to which COVID-19 will continue to spread and the extent and duration of governmental and other measures implemented to try to slow the spread of COVID-19.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit expectation of future adverse impacts—forward-looking risk declaration.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clear management forecast of continued negative impact; no quantification."
+            },
+            {
+                "snippet": "Based on the severity of the decline in Enable’s common unit price during the three months ended March 31, 2020 due to the macroeconomic conditions related in part to the COVID-19 pandemic, combined with Enable’s announcement on April 1, 2020 to reduce its quarterly distributions per common unit by 50%, and the market outlook indicating excess supply of crude oil and natural gas and continued depressed crude oil and natural gas prices impacting the midstream oil and gas industry, CenterPoint Energy determined that an other than temporary decrease in the value of its investment in Enable had occurred.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details causal chain from pandemic to market decline to OTTI conclusion.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Mentions 50% distribution cut—quantified impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Comprehensive, quantified linkage to a recognized impairment drives high score."
+            },
+            {
+                "snippet": "We have experienced reduced demand and usage among our electric and natural gas commercial and industrial customers, as well as a decrease in revenues from disconnections and reconnections due to the disconnect moratoriums across our service territories due to COVID-19.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Company-specific realized revenue decline from multiple sources.",
+                            "points": 6
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Duplicates earlier demand-reduction sentence but still strong evidence of realized loss."
+            }
+        ],
+        "calculated_score": 87,
+        "average_severity": 5.8
+    }
+]

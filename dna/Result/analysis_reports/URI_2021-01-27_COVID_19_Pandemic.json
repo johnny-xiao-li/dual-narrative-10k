@@ -1,0 +1,166 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The 2021 filing was prepared roughly ten months after the WHO declared COVID-19 a pandemic, placing the disclosure well inside the 0-3-year “recent event” window—there is therefore no time-decay discount. URI repeatedly states that COVID-19 has already produced measurable, material adverse effects on operations and finances, while also projecting further downside through weaker demand, labour and supply-chain disruptions, higher costs, liquidity pressure and heightened cyber risk. Language is largely specific and operationally grounded (e.g., lower equipment-rental volumes, temporary branch closures, cost increases, inability to access capital markets), signalling both realised and continuing exposure rather than generic boiler-plate. Although the company outlines mitigating actions such as business-continuity plans and remote-work protocols, these are framed as defensive moves and do not eliminate the core vulnerability. Accordingly, the evidence warrants mid-to-high severity scores (4-7 range), reflecting an already manifested, ongoing threat, with minor deductions where mitigation is emphasised.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic and its impact on business and economic conditions have adversely affected, and may continue to adversely affect, our results of operations and financial position.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct causal link between pandemic and company performance.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses past-tense 'have adversely affected' indicating realised impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Projects continued future impact ('may continue').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear, realised and ongoing financial harm from COVID-19, warranting a high but not maximum score."
+            },
+            {
+                "snippet": "The scale and scope of the COVID-19 pandemic, the uncertainty around the distribution, acceptance and effectiveness of COVID-19 vaccines, and the impact that the COVID-19 pandemic and the various measures that have been implemented to protect public health have had on the economy and financial markets have adversely affected, and are expected to continue to adversely affect, our results of operations and financial position.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights broad, systemic scope of the pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly links to adverse financial effects already felt and expected to persist.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Adds vaccine-distribution uncertainty as an aggravating factor.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Expands on severity and persistence, reinforcing high risk with specific aggravators (vaccine uncertainty)."
+            },
+            {
+                "snippet": "There can be no assurance that the continued spread of COVID-19 and efforts to contain the virus (including, but not limited to, vaccination, social distancing policies, restrictions on travel and reduced operations and extended closures of many businesses and institutions, including our customers) will not materially impact our results of operations and financial position.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Expresses possibility of material impact tied to containment measures affecting customers.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Enumerates several disruptive public-health actions (travel bans, closures).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses cautionary 'no assurance' language signalling uncertainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights multiple external containment measures that could hit results; moderately severe but more conditional."
+            },
+            {
+                "snippet": "In particular, the continued spread of COVID-19 and efforts to contain the virus could: • impact customer demand for equipment rentals; • reduce the availability and productivity of our employees (including by requiring temporary branch closures in the event that positive tests for COVID-19 are identified); • cause us to experience an increase in costs as a result of our emergency and business continuity measures, delayed payments from our customers and uncollectable accounts; • impact our cost of, and ability to access, funds from financial institutions and capital markets on terms favorable to us, or at all; • impact our ability to complete previously announced strategic plans, including our share repurchase program, on time, or at all; and • cause other unpredictable events.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple concrete operational and financial transmission channels (demand, labour, costs, liquidity).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Forward-looking conditional language acknowledges uncertainty.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "References potentially severe liquidity/financing constraints.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Comprehensive enumeration of risk channels elevates materiality despite conditional phrasing."
+            },
+            {
+                "snippet": "The situation surrounding COVID-19 remains fluid and the likelihood of an impact on us that could be material increases the longer the virus impacts activity levels in the locations in which we operate.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges uncertainty and increasing risk over time.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies materiality threshold tied to duration of pandemic.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Flags escalating risk with duration; important but less detailed than other excerpts."
+            },
+            {
+                "snippet": "Even after the COVID-19 pandemic subsides, the U.S. economy and other major global economies may experience a recession, and we anticipate our business and operations could be materially adversely affected by a prolonged recession in the U.S. and other major markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces secondary, post-pandemic macro risk (recession).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States expectation of material adverse effect on business.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights longer-tail economic fallout, adding medium-term strategic risk."
+            },
+            {
+                "snippet": "COVID-19 As discussed in note 1 to our consolidated financial statements, the COVID-19 pandemic has significantly disrupted supply chains and businesses around the world.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites global supply-chain disruption, a core operational risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Linkage appears in audited MD&A, signalling high credibility.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Confirms industry-wide supply-chain disruption, reinforcing operational exposure."
+            },
+            {
+                "snippet": "During the COVID-19 pandemic, we face increased cybersecurity risks due to our reliance on internet technology and the number of our employees who are working remotely, which could strain our technology resources or create additional opportunities for cybercriminals to exploit vulnerabilities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies a new, specific risk vector (cybersecurity) emerging from remote-work transition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details potential operational strain and vulnerability exploitation.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Adds dimension of pandemic-driven cyber exposure; material but narrower in scope."
+            }
+        ],
+        "calculated_score": 37,
+        "average_severity": 4.625
+    }
+]

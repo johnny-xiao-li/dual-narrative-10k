@@ -1,0 +1,170 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Qualcomm’s 2022 filing shows that COVID-19 remains both a realised and an ongoing source of material risk.  The company cites concrete past impacts – e.g., remote-work transitions, supply-chain interruptions and measurable drops in demand that hurt royalties – while also flagging forward-looking vulnerabilities (factory closures, employee illness, Chinese lockdowns, delayed 5G roll-outs, etc.).  Language is fairly specific, naming particular geographies (China), business lines (integrated circuits, licensing) and operational nodes (third-party suppliers, in-house fabs, critical staff).  Although most statements are qualitative, they link directly to revenue, cash-flow and manufacturing continuity.  Given the filing date (Nov-2022) the pandemic is still within the 0-3-year “recent” window, so Time Decay does not materially dilute severity.  Overall, the disclosed pandemic risks are moderate-to-high: they are not fully quantified, but they are explicitly tied to realised financial hits and to critical future exposures across supply chain, labour and end-market demand.",
+        "evidence_list": [
+            {
+                "snippet": "Further, health crises, including epidemics or pandemics, such as the COVID-19 pandemic, and government and business responses thereto, could affect our manufacturing facilities, including by resulting in quarantines and/or closures, which would result in disruptions to and potential closures of our manufacturing operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references COVID-19 as a threat to manufacturing continuity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details specific operational impact (quarantines/closures leading to production disruption).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional phrasing ('could') signals a potential, not yet realised, impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct link to COVID and clearly described manufacturing disruption justify a high-moderate score, tempered slightly because the impact is framed as potential."
+            },
+            {
+                "snippet": "The COVID-19 pandemic caused us to modify our workforce practices, including having the vast majority of our employees work from home.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States an actual, realised operational change directly attributable to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights large-scale labour shift (vast majority working remotely).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Past, company-wide workforce disruption is concrete and recent, warranting a solid score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic resulted in significant economic uncertainty, significant declines in business and consumer confidence and global demand in the wireless industry (among others) and a global economic slowdown, which negatively affected our financial results over certain periods.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 directly to macro-economic decline affecting the company.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Asserts negative impact on financial results (though unquantified).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Use of 'significant' multiple times underscores severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Describes broad, material financial harm, raising severity despite lack of numerical detail."
+            },
+            {
+                "snippet": "Specifically, throughout most of calendar 2020 and into early calendar 2021, the decline in demand for smartphones and other consumer devices sold by our customers or licensees resulted in decreased demand for our integrated circuit products and a decrease in the royalties we earned on the licensing of our intellectual property.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies a concrete period where COVID-related demand shock reduced product and royalty revenue.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects directly to two key revenue streams (chip sales and licensing).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows historical revenue contraction linked to pandemic-driven demand falloff, meriting a strong score."
+            },
+            {
+                "snippet": "Similarly, during calendar 2022, spikes in COVID-19 cases in certain parts of China have led the Chinese government to impose lockdowns, which have adversely affected consumer demand in the region and may continue to impact demand in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites current-year (2022) COVID resurgence causing government lockdowns.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes adverse effect on consumer demand with potential continuation.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Recent, geographically specific demand hit plus forward-looking caution sustain a high moderate score."
+            },
+            {
+                "snippet": "We could be negatively affected in the future if, among others, a significant number of our employees, or employees who perform critical functions, become ill and/or are quarantined as the result of exposure to COVID-19, or a similar health crisis, or if government policies restrict the ability of those employees to perform their critical functions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details potential labour/operational disruption from employee illness or quarantine.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights vulnerability of critical functions.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Purely prospective ('could'), no current impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Forward-looking and conditional nature lowers weight, but still relevant to workforce risk."
+            },
+            {
+                "snippet": "The COVID-19 pandemic, or a similar health crisis that may arise in the future, could impact our business, results of operations and financial condition in the manner described above, and/or through delayed, reduced or cancelled customer orders; disruptions or delays in our supply chain; the inability of our customers or licensees to purchase or pay for our products or technologies; the insolvency of key suppliers, customers or licensees; delays in reporting or payments from our customers or licensees; or failures by other counterparties.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple specific channels of COVID-triggered risk (orders, supply chain, insolvency).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers broad financial statement impacts (operations, liquidity).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Framed as potential, not realised.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Comprehensive list of risk vectors boosts score, though hypothetical wording moderates it."
+            },
+            {
+                "snippet": "The timing and scale of such deployments, in certain regions, have been delayed due to the COVID-19 pandemic and may be further delayed for reasons that are beyond our control.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges actual COVID-related delays in 5G deployments.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates possibility of continued delays, extending risk horizon.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No direct financial quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Realised schedule disruption is meaningful but less severe without explicit dollar impact."
+            }
+        ],
+        "calculated_score": 34,
+        "average_severity": 4.25
+    }
+]

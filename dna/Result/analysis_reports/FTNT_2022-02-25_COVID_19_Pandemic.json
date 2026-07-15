@@ -1,0 +1,236 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The 2022-02-25 10-K shows that Fortinet (FTNT) treats COVID-19 as a recent, high-severity risk that is already manifesting itself across multiple operational vectors.  The filing couples forward-looking language (\"could adversely affect\") with numerous backward-looking admissions that the pandemic \"has negatively impacted\" the company through component shortages, rising freight and manufacturing costs, extended lead-times, lost demand-generation opportunities, higher expenses, and risks of employee attrition during the return-to-office transition.  The disclosures go beyond generic boiler-plate: they tie COVID-19 directly to measurable business metrics—billings, revenue, gross margin, backlog, production schedule—and identify concrete channels of impact such as supply-chain bottlenecks, shipping constraints, labour pressures and reduced customer purchasing power.  No substantive mitigants (e.g., hedging contracts, dual-sourcing success, insurance recoveries) are offered, and several statements use “material” language, signalling management’s acknowledgement of magnitude.  Because the filing date is within two years of the WHO declaration (Time Decay window 0-3 years), the evidence warrants high single-digit risk scores.  Sentences that report realised disruptions or quantify potential financial harm score higher (8-9), those that discuss likely but not yet realised impacts score mid-range (6-7), and more tangential or conditional effects (e.g., limited marketing events) score lower (≈5).",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic, including its ongoing variants, could adversely affect our business in a material way, based on, for example, component shortages or negative impact on demand.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to a potential ‘material’ adverse effect on the business.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies concrete mechanisms (component shortages, demand erosion).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Refers to ongoing variants, signalling persistence of risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Material language plus specific channels of harm make this a high but still forward-looking risk statement."
+            },
+            {
+                "snippet": "The COVID-19 pandemic, including its ongoing variants, has negatively impacted the global economy, disrupted global supply chains and demand for certain solutions and created significant volatility in, and disruption of, global markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that impacts have already occurred (‘has negatively impacted’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights both supply-chain disruption and weakened demand—two core pandemic channels.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "References significant market volatility, broadening scope.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Describes realised, multi-faceted disruptions, warranting a very high score."
+            },
+            {
+                "snippet": "There is a worldwide shortage of various components, impacting many industries, caused in-part by the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges actual global component shortage.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Causally attributes shortage to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Industry-wide framing (not company-specific) slightly dilutes severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Directly ties pandemic to real supply-chain shortages, but lacks firm-specific data, so the score is mid-high."
+            },
+            {
+                "snippet": "We are experiencing ongoing component shortages, which have resulted in extended lead times of certain products and significant disruption to our production schedule.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States current, company-specific operational disruption (‘are experiencing’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Details outcomes—extended lead times and production schedule disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Characterises disruption as ‘significant’, intensifying severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Issue is ongoing, indicating duration.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Confirms live operational harm, hence near-maximum severity."
+            },
+            {
+                "snippet": "If the COVID-19 pandemic continues to limit the availability of our products, either by limiting components available, the actual manufacture and assembly or by limiting or restricting shipping of components and products, this could continue to result in increased product backlog, and result in lower billings, lower revenue and decreased profitability, and would negatively impact, and may materially negatively impact, our operating results and business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic persistence to financial metrics (billings, revenue, profitability).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies multiple operational choke-points: components, manufacturing, shipping.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses ‘materially’ and ‘negatively’—strong impact language.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional phrasing (‘if…continues’) slightly reduces certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Quantifies pathways to material financial harm; conditional nature keeps score at 8 instead of 9."
+            },
+            {
+                "snippet": "In addition, we may also face personnel-related risks as restrictions related to the COVID-19 pandemic begin to ease and we transition back to an in-person working model, including that our “return to office” plan may be viewed negatively by employees and lead to attrition or to difficulty in hiring.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights human-capital risks (attrition, hiring difficulty).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Directly tied to pandemic transition dynamics (return-to-office).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk framed as potential (‘may’), not yet realised.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Captures labour-force dimension; prospective nature moderates the score."
+            },
+            {
+                "snippet": "Moreover, the COVID-19 pandemic has created a reduction in certain business activity and demand for certain solutions, which we believe has negatively impacted our billings and may in the future materially and negatively affect the rate and amount of our billings.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits realised impact on billings (‘has negatively impacted’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Foresees future material adverse effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes both current reduction in business activity and demand.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct acknowledgement of billing hit plus outlook for further harm earns high score."
+            },
+            {
+                "snippet": "In addition, the COVID-19 pandemic has caused an increase in certain of our expenses, including increased shipping costs, increased cancellation charges and reduced attendance fees due to the cancellation of several of our 2021 Accelerate sales conferences, and has resulted in increased component and product manufacturing costs.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists concrete cost escalations already incurred (shipping, manufacturing, cancellations).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Financial impact (expense increase) clearly tied to pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Scope limited to specific cost lines, not overall profitability.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Shows realised cost pressure across multiple expense categories; strong but narrower impact."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has limited certain demand generation activities, such as conferences and in-person sales meetings, which may reduce our costs, but also may reduce leads that could result in closed sales.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies constraint on marketing channels leading to fewer sales leads.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Balanced acknowledgement of some offsetting cost savings (mitigant).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Risk is speculative (‘may reduce leads’) and indirect.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Still tied directly to pandemic restrictions.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Moderate severity because impact is indirect and partially offset by cost savings."
+            },
+            {
+                "snippet": "While we continue to monitor developments and the potential effect on our business, it is clear that the COVID-19 pandemic will negatively impact certain sales and may have a material negative impact on our operating results in the near term and longer term.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Definitive statement that sales will be negatively impacted.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses ‘material negative impact’ across both near and long term.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Shows ongoing monitoring but no explicit mitigation.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Strong forward statement of material harm elevates this to high severity."
+            }
+        ],
+        "calculated_score": 72,
+        "average_severity": 7.2
+    }
+]

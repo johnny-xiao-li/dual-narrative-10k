@@ -1,0 +1,139 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Microsoft’s 2023 10-K acknowledges the COVID-19 pandemic primarily as a forward-looking, amplifying risk rather than as a source of already-realised, quantified damage. All pandemic references appear in the generic risk-factor section and are couched in conditional language such as “may” or “could,” signalling management’s view that the threat is ongoing but unpredictable. The disclosures highlight broad operational, financial-performance, and macro-economic channels (e.g., supply-chain disruption, reduced IT spending, recessionary pressures) through which future outbreaks or containment measures could hurt the company. No hard numbers, supply-chain statistics, or labour-force data are provided, indicating low specificity. Because the pandemic’s onset (March 2020) is just over three years before the filing date, Time-Decay steers the severity toward the upper end of the medium band: the event is still fresh enough to matter, but the language remains hypothetical, so the evidence scores cluster in the 2-5 range rather than the top tier.",
+        "evidence_list": [
+            {
+                "snippet": "The occurrence of regional epidemics or a global pandemic, such as COVID-19, may adversely affect our operations, financial condition, and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references COVID-19, directly tying the company’s risk to the named pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies multiple impact areas (operations, financial condition, results), signalling breadth of potential harm.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses conditional language ('may') and provides no quantification, reducing certainty and severity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event is within ~3.5 years, so recency still heightens materiality.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Strong, recent, company-specific reference to COVID-19 and its broad potential impacts merits a moderate-high score of 5 despite the hypothetical wording."
+            },
+            {
+                "snippet": "The extent to which global pandemics impact our business going forward will depend on factors such as the duration and scope of the pandemic; governmental, business, and individuals' actions in response to the pandemic; and the impact on economic activity, including the possibility of recession or financial market instability.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges continuing, future impact of pandemics, showing risk is not closed.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links pandemic effects to broader macro risks (recession, financial instability).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly uncertain and unquantified (‘will depend on’), lowering precision.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Recency still relevant; event window <4 years.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides a detailed, forward-looking framework for how pandemics could hurt Microsoft but remains generic and unquantified, yielding a mid-level score of 4."
+            },
+            {
+                "snippet": "Measures to contain a global pandemic may intensify other risks described in these Risk Factors.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights that pandemic responses can amplify the entire risk landscape.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Shows cascading or systemic nature of the threat.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic, conditional language without specifics.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event still relatively recent.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Acknowledges a multiplier effect on other risks but remains abstract; accordingly, receives a moderate score of 3."
+            },
+            {
+                "snippet": "Worsening economic conditions, including inflation, recession, pandemic, or other changes in economic conditions, may cause lower IT spending and adversely affect our revenue.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to a clear financial channel (lower IT spending, revenue impact).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists pandemic among several macro factors, diluting specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Recency factor keeps the risk salient.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Still hypothetical (‘may cause’), no quantification.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Direct revenue linkage but generic wording and mixed with other macro risks place this sentence at a moderate score of 3."
+            },
+            {
+                "snippet": "A disruption or failure of our systems or operations because of a major earthquake, weather event, cyberattack, terrorist attack, pandemic, or other catastrophic event could cause delays in completing sales, providing services, or performing other critical functions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions pandemic as a trigger for operational disruption.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Specifies concrete operational consequences (delays in sales, services, critical functions).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Pandemic is one item in a long list of disparate hazards, reducing focus.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event remains recent enough to matter.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Includes pandemic but as part of a broad hazard list; low specificity yields a modest score of 2."
+            }
+        ],
+        "calculated_score": 17,
+        "average_severity": 3.4
+    }
+]

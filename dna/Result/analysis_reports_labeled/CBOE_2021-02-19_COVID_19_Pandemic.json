@@ -1,0 +1,156 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CBOE’s 2021-02-19 Form 10-K frames COVID-19 as both an already-experienced disruption and a continuing, high-uncertainty threat.  Because the filing date is less than one year after the WHO’s 11-Mar-2020 pandemic declaration, the Time Decay Principle allows high severity scores.  The company discloses a concrete historical impact—the three-month suspension of open-outcry trading—and warns that further outbreaks or regulatory measures could again curb trading volumes, impede vendor performance, and raise legal-health liabilities.  Language such as “material adverse effect” signals management’s view that the risk is financially significant, while multiple forward-looking caveats (“depends on future developments”) highlight uncertainty rather than resolution.  Mitigation steps (remote work, communications, health protocols) are acknowledged but are not yet proven to neutralise volume-driven revenue risk.  Overall, the evidence describes a recent, enterprise-wide exposure with demonstrated operational shocks and the potential to erode demand for the company’s core products; thus, individual snippets warrant mid-to-high risk scores (5-8 range), tempered only slightly where the text stresses mitigations or lack of current disruptions.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic and its effects could have a material adverse effect on our business, financial condition, operating results and cash flows.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to possible ‘material adverse effect’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple financial dimensions (business, condition, results, cash).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking (potential, not yet quantified).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Strong wording of potential enterprise-wide harm in a recent timeframe justifies a high-moderate score of 6."
+            },
+            {
+                "snippet": "These measures may interfere with the ability of our employees, vendors, technology equipment suppliers, data and disaster recovery centers, and other service providers to perform their respective responsibilities and obligations relative to the conduct of our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete operational choke-points (employees, vendors, suppliers).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes direct disruption to business continuity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific supply-chain and labor-force vulnerabilities raise operational risk, meriting a score of 5."
+            },
+            {
+                "snippet": "In particular, between March 13, 2020 and June 14, 2020, we temporarily suspended open outcry trading in response to COVID-19.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports an actual historical shutdown of a core operation.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Provides precise dates, underscoring immediacy and magnitude.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Temporary nature implies partial mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "A concrete, dated operational halt demonstrates realised impact; despite being temporary, it supports a high score of 7."
+            },
+            {
+                "snippet": "Further, changes in trading behavior, impacts to trading behavior due to the temporary suspension of open outcry trading, market disruptions, additional temporary suspensions of open outcry trading, temporary regulatory measures and other future developments caused by the effects of COVID-19, including a re-occurrence of cases, could impact trading volumes and the demand for our products, market data and services, which could have a material adverse effect on our business, financial condition, operating results and cash flows and could heighten many of the other risks described below.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights multiple cascading risks (volume, demand, regulatory).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses ‘material adverse effect’ language.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes possibility of recurrence, stressing ongoing exposure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Multifaceted, potentially compounding financial impacts yield a score of 6."
+            },
+            {
+                "snippet": "In response to COVID-19, we have provided frequent communications to employees, customers, regulators, critical vendors, technology equipment suppliers, data and disaster recovery centers, and other service providers and instructed non-essential employees to work from home on a temporary basis, implemented travel restrictions, and temporarily suspended open outcry trading between March 13, 2020 and June 14, 2020, without any known significant disruptions to our business or control processes.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists direct actions taken (remote work, travel bans, trading suspension) indicating operational impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States ‘without any known significant disruptions’, signalling mitigation.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Still evidences temporary shutdown of trading floor.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mitigation language offsets impact references, resulting in a low residual risk score of 1."
+            },
+            {
+                "snippet": "As of the date of this report, it is too early to determine the full impact this virus may have on the global financial markets and the overall economy.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges high uncertainty regarding future impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Absence of specific impact or severity detail reduces weight.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic uncertainty statement provides minimal incremental risk evidence; score kept at 1."
+            },
+            {
+                "snippet": "Our business and operations could be materially and adversely affected by the effects of COVID-19, however, the extent to which our results could be affected by COVID-19 largely depends on future developments which cannot be accurately predicted and are uncertain.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to potential material adverse effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Stresses unpredictability, reflecting unquantified risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Material-adverse wording adds weight, but lack of specifics holds the score to 3."
+            }
+        ],
+        "calculated_score": 29,
+        "average_severity": 4.142857142857143
+    }
+]

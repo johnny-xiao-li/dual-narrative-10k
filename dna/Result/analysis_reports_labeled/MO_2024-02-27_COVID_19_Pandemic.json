@@ -1,0 +1,142 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "MO’s 2024 Form 10-K still treats COVID-19 primarily as a broad, continuing uncertainty rather than an acute crisis, four years after the WHO declaration.  The filing clusters pandemic language under general “business operations” risks—discussing possible plant shutdowns, supply-chain interruptions, labor shortages and macro-economic knock-on effects—without quantifying any current cost or describing new controls.  Most statements are conditional (“could have,” “may experience”) and forward-looking, signalling that management sees pandemic threats as latent but not presently binding.  One retrospective disclosure—the 50 % dividend cut by equity investee ABI in 2020—demonstrates a real, previously realised cash impact, yet even that example is historical and not shown to persist.  Under the Time Decay Principle, COVID-19–related risks now fall in the medium-term bucket (event ≈ 4 years old), so maximum snippet scores are capped at 6.  Given the largely generic, non-quantified nature of the company’s own risk language, most evidence merits scores in the 3-4 range, with the single quantified ABI dividend impact warranted a score at the top of the medium band.  There are no substantial mitigating assertions (e.g., robust contingency plans), so negative points are minimal.",
+        "evidence_list": [
+            {
+                "snippet": "We face various risks related to health epidemics and pandemics, and such events, and the measures that international, federal, state and local governments, agencies, law enforcement and health authorities implement to address them, could have a material adverse effect on our business, results of operations, cash flows or financial position.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemics to potential ‘material adverse effect’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple impact areas (operations, cash flow, financial position).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Use of conditional wording (‘could’) indicates uncertainty, moderating severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Clear statement of serious potential impacts, but entirely forward-looking and conditional, warrants a moderate 3."
+            },
+            {
+                "snippet": "An epidemic, pandemic or other significant public health emergency, and the measures taken by governmental authorities to address it, could significantly disrupt our ability to operate our businesses in the ordinary course.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies operational disruption, a core business risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Ties disruption directly to pandemics and government counter-measures.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking ‘could’ softens immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Identifies an important operational hazard but remains generic and conditional, so the score is 2."
+            },
+            {
+                "snippet": "Furthermore, any associated economic consequences could have a material adverse effect on our business, results of operations, cash flows or financial position.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemic-driven economic fallout as materially adverse.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers broad financial metrics.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly conditional and unspecific.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Adds financial-impact emphasis yet still lacks specificity, landing at 2."
+            },
+            {
+                "snippet": "Accordingly, any future emergence or resurgence of an epidemic, pandemic or other public health emergency could have a material adverse effect on our business, results of operations, cash flows or financial position.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights risk of future COVID-19 waves or similar events with ‘material adverse effect’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking language moderates certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Restates materiality but is purely precautionary; score set at 2."
+            },
+            {
+                "snippet": "For example, in 2020, as a result of the uncertainty, volatility and impact of the COVID-19 pandemic on ABI’s business, ABI reduced by 50% its final 2019 dividend paid in the second quarter of 2020 and did not pay its interim 2020 dividend that would have been paid in the fourth quarter of 2020, which resulted in a reduction of cash dividends we received from ABI.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes a quantified 50 % dividend cut to the pandemic.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Shows concrete cash-flow impact on MO (loss of ABI dividends).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact occurred four years ago, triggering medium-term time-decay context.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Only sentence with specific, monetary consequence; maxes medium-term band at 6."
+            },
+            {
+                "snippet": "A natural or man-made disaster, cybersecurity incident, global pandemic or other disruption that affects the manufacturing operations of any of our operating companies, the operations of any key supplier, distributor or distribution chain service provider of any of our operating companies or any other disruption in the supply or distribution of goods or services ... could adversely impact operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links global pandemic to supply-chain/manufacturing disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers multiple tiers (suppliers, distributors, own plants).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly conditional (‘could’) and bundled with many unrelated risks, diluting pandemic specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Acknowledges pandemic‐linked operational vulnerabilities but is generic and conditional, yielding 2."
+            }
+        ],
+        "calculated_score": 17,
+        "average_severity": 2.8333333333333335
+    }
+]

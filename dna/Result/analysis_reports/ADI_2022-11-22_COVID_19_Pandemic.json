@@ -1,0 +1,188 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "ADI’s 2022-11-22 Form 10-K repeatedly flags COVID-19 as both an already-felt and still-evolving threat.  Statements range from generic references in multi-factor risk lists to concrete descriptions of manufacturing slow-downs, supply-chain disturbances, remote-work complications, and potential liquidity strain if customers delay payments.  The company notes actual facility disruptions and work-practice changes that have already occurred, while also stressing that future impacts hinge on uncertain variables such as new variants and vaccination progress.  Because the filing date is less than three years after the WHO pandemic declaration, the Time Decay Principle permits high scores.  However, many passages remain forward-looking and unquantified, or contain mitigating language (“could,” “uncertain,” contingency planning).  Accordingly, the evidence cluster warrants upper-mid but not maximum severity scores—generally 3-9—reflecting meaningful but mostly un-quantified, evolving risk rather than a precisely measured financial hit.",
+        "evidence_list": [
+            {
+                "snippet": "natural disasters or public health emergencies, such as the current COVID-19 pandemic;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references the ongoing COVID-19 pandemic as a public-health emergency risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Appears in a broad bullet list—language is generic, no impact detail.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic yet direct mention of COVID-19 as a risk; limited specificity keeps the score low-moderate."
+            },
+            {
+                "snippet": "The extent to which the novel strain of the coronavirus (COVID-19) pandemic will adversely affect our business, financial condition and results of operations is uncertain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to potential adverse impact across multiple financial dimensions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Heavy emphasis on uncertainty and lack of quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Acknowledges broad potential harm but uncertainty and no specifics temper the severity."
+            },
+            {
+                "snippet": "During the course of the pandemic, many of the countries in which we operate took and continue to take measures to address the pandemic, which at times has resulted in disruptions at some of our manufacturing operations and facilities, including restrictions on our access to facilities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes actual, historically observed disruptions to manufacturing operations caused by COVID-related measures.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights continuing nature ('continue to take measures'), signalling ongoing exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Direct operational impact—but still unquantified.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Concrete evidence of manufacturing disruptions—recent, ongoing, and operational—warrants a high score."
+            },
+            {
+                "snippet": "The continued COVID-19 pandemic could also cause further disruption in our supply chain and customer demand, and could adversely affect the ability of our customers to perform, including in making timely payments to us, which could further impact our business, financial condition and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies multiple impact channels: supply-chain, demand, and customer liquidity.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "States potential adverse effects on business, financial condition, and results.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional language ('could') lowers immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Multi-faceted risk statement with clear operational and financial pathways; conditional wording keeps it below maximum."
+            },
+            {
+                "snippet": "The ultimate impact of the COVID-19 pandemic on our business, results of operations, financial condition and cash flows continues to be largely dependent on future developments, including the duration, scope and severity of the pandemic, any additional resurgences, variants and severity of variants and the ability to effectively and widely manufacture and distribute vaccines, which are not within our control and cannot be accurately predicted and are uncertain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges dependence on uncontrollable future pandemic developments.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Heavy uncertainty and lack of current quantified impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Highlights uncertainty more than specific risk; minimal aggravation yields a low score."
+            },
+            {
+                "snippet": "To the extent the COVID-19 pandemic adversely affects our business, results of operations, financial condition and cash flows, it may also heighten many of the other risks described in this “Risk Factors” section.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows risk-amplification effect, linking pandemic to other risk factors.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Speculative framing ('to the extent') and absence of detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Pandemic as a force-multiplier noted, but speculative language limits severity."
+            },
+            {
+                "snippet": "The spread of COVID-19 has caused us to modify our business practices (including restricting employee travel, modifying employee work locations and cancelling physical participation in meetings, events and conferences) and we may take further actions as may be required by government authorities or that we determine are in the best interests of our employees, customers, partners, suppliers and shareholders.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete operational changes already implemented due to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions proactive management actions, a form of mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Shows real operational shifts but also demonstrates mitigation; yields a modest score."
+            },
+            {
+                "snippet": "Since the beginning of the COVID-19 pandemic, some of our employees have been working remotely, which may pose additional data security risks.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-driven remote work to heightened cybersecurity risk.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Identifies a specific new vulnerability (data security) arising directly from pandemic-induced remote work."
+            },
+            {
+                "snippet": "A prolonged disruption at, or inability to utilize, one or more of our manufacturing facilities, loss of raw materials or damage to our manufacturing equipment for any reason, including due to the COVID-19 pandemic, natural or man-made disasters, civil unrest or other events outside of our control, such as widespread outbreaks of illness, or the failure to maintain our labor force at one or more of these facilities, may disrupt our operations, delay production, shipments and revenue and result in us being unable to timely satisfy customer demand.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates severe operational and revenue implications tied to pandemic-related facility disruptions.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Expressed as a potential scenario ('may'), not confirmed impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Outlines significant potential operational and financial harm if COVID-19 triggers facility shutdowns; conditional language moderates score."
+            },
+            {
+                "snippet": "• the extent of the impact and the duration of the COVID-19 pandemic;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes pandemic duration/impact as a key variable in future financial performance.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic bullet with no detail.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic listing of pandemic duration as a risk driver; limited detail yields a low score."
+            }
+        ],
+        "calculated_score": 34,
+        "average_severity": 3.4
+    }
+]

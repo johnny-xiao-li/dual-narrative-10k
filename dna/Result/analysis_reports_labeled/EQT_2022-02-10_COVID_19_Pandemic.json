@@ -1,0 +1,80 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "EQT’s 2022 Form 10-K reflects that management still sees the COVID-19 pandemic as a live, material risk that could impede operational execution and financial performance. All pandemic language is forward-looking (“may,” “could”) rather than describing losses already incurred, yet the company ties COVID-19 to highly specific impact channels—supply-chain delays, labor shortages, potential work-site shutdowns, and demand destruction leading to price volatility. Because the filing date (February 2022) is less than two years after the WHO declaration of the pandemic (March 2020), Time-Decay allows elevated scores. Nevertheless, the disclosures remain un-quantified and couched in contingency language, signalling that management is emphasising potential severity more than documenting realised damage. Overall, the risk evidence is recent, specific, and operationally important, but not yet backed by concrete financial figures; this places individual snippets in the upper-mid range (5-7) of the scoring scale.",
+        "evidence_list": [
+            {
+                "snippet": "• supply chain disruptions or labor shortage impacts related to the COVID-19 pandemic or other global pandemics;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names two concrete operational risks—supply-chain disruptions and labor shortages—directly linked to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Risk is framed as a prospective possibility rather than an actual impact (‘related to’ within a bullet list).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Temporal proximity (≤2 yrs) keeps the disclosure highly relevant under Time-Decay.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specific, recent, pandemic-driven operational threats are identified, but absence of quantification or realised losses trims the score to 7/10."
+            },
+            {
+                "snippet": "Additionally, our operations may be disrupted or impaired if a significant portion of our or our service providers' employees or contractors are unable to work due to illness or if our field operations are suspended or temporarily shut-down or restricted due to control measures designed to contain the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 containment measures and workforce illness to potential operational shutdowns.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Provides operational detail (employees, contractors, service providers, field operations).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses ‘may’, indicating contingency rather than realised impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clear description of how COVID-19 could halt operations boosts the score, but lack of quantification keeps it to a moderate 5/10."
+            },
+            {
+                "snippet": "However, due to the volatility of commodity prices and the multitude of external factors that impact commodity prices, many of which are unknown and unforeseeable, such as reduced demand as a result of a general economic slowdown related to the COVID-19 pandemic or other global pandemics, we are unable to predict with certainty future potential movements in the market prices for natural gas, NGLs and oil.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to macro-level demand destruction and price volatility, affecting revenue projections.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights forecasting uncertainty, an aggravating financial-planning risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Speculative framing (‘unable to predict’, ‘potential’) without hard numbers.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Sentence ties pandemic to pricing and planning uncertainty—significant but still hypothetical—yielding a mid-level 5/10 risk score."
+            }
+        ],
+        "calculated_score": 17,
+        "average_severity": 5.666666666666667
+    }
+]

@@ -1,0 +1,103 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 appears in the 2023-02-15 Form 10-K almost exclusively in the context of customer receivable risk.  Management states that the pandemic’s chief impact has been a rise in uncollectible accounts, quantifies the amounts still embedded in reserves ($50.9 million company-wide, down from $55.3 million the year before) and explains that most of these amounts have been deferred for probable recovery in future rates.  No other pandemic-era pressure points—such as supply-chain delays, site shutdowns, remote-work inefficiencies or labour shortages—are identified as material.  Thus, the disclosure is recent (inside the three-year Time-Decay window) and quantified, but the company simultaneously emphasises mitigation: explicit cost deferrals, declining balances and strong confidence in eventual regulatory recovery.  Accordingly, while the statements merit scoring in the upper-middle range because they document a direct, measured financial exposure that is still live, the heavy presence of offsetting language tempers the severity; overall the risk evidence sits in the 4-6 band rather than the 7-10 band that would attach to an unmitigated, wide-ranging pandemic threat.",
+        "evidence_list": [
+            {
+                "snippet": "The financial impacts of COVID-19 as it relates to our businesses primarily relate to collectability of customer receivables and the outcome of future proceedings before our state regulatory commissions to recover our incremental uncollectible customer receivable costs associated with COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties COVID-19 to a specific operational/financial impact (collectability of receivables).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights dependency on future regulatory decisions, signalling ongoing uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Limits scope to a single primary impact, indicating the problem is contained.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct, recent linkage to the pandemic and acknowledgement of regulatory risk earn positive weight, but the narrow framing reduces ultimate severity."
+            },
+            {
+                "snippet": "As of December 31, 2022, our allowance for uncollectible customer receivable balance of $486.3 million, of which $284.4 million relates to hardship accounts that are specifically recovered in rates charged to customers, adequately reflected the collection risk and net realizable value for our receivables.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides large, concrete dollar figures that frame magnitude of exposure.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States that reserves ‘adequately’ cover risk, signalling mitigation.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Quantification is useful, but strong assurance about adequate coverage sharply lowers residual risk."
+            },
+            {
+                "snippet": "As of December 31, 2022 and 2021, the total amount incurred as a result of COVID-19 included in the allowance for uncollectible accounts was $50.9 million and $55.3 million at Eversource, $16.0 million and $23.9 million at CL&P, and $4.1 million and $9.0 million at NSTAR Electric, respectively.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Offers precise, year-over-year dollar amounts attributable to COVID-19, showing measurable impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Trend shows declining balances, suggesting dissipating risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Strong quantification of pandemic costs, but downward trajectory moderates severity."
+            },
+            {
+                "snippet": "At our Connecticut and Massachusetts utilities, the COVID-19 related uncollectible amounts were deferred either as incremental regulatory costs or deferred through existing regulatory tracking mechanisms that recover uncollectible energy supply costs, as management believes it is probable that these costs will ultimately be recovered from customers in future rates.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows company action to shift pandemic costs into regulatory assets – indicates control but also ongoing exposure until recovery approved.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Asserts high probability of future recovery, a clear mitigating claim.",
+                            "points": -3
+                        }
+                    ],
+                    "final_snippet_score": -1
+                },
+                "reasoning_summary": "Deferral mechanism is evidence of risk management more than risk itself; net impact is slightly risk-reducing, so the snippet carries a negative score that offsets earlier aggravating points."
+            },
+            {
+                "snippet": "Based on the status of our COVID-19 regulatory dockets, policies and practices in the jurisdictions in which we operate, we believe the state regulatory commissions in Connecticut and Massachusetts will allow us to recover our incremental uncollectible customer receivable costs associated with COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Addresses the likelihood of favourable regulatory outcomes, pointing to resolution pathway.",
+                            "points": -3
+                        },
+                        {
+                            "reason": "Still conditional—recovery ‘will’ but subject to regulators—so some residual uncertainty remains.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": -2
+                },
+                "reasoning_summary": "Statement is predominantly mitigating; it reduces overall perceived severity by expressing confidence in full cost recovery."
+            }
+        ],
+        "calculated_score": 5,
+        "average_severity": 1.0
+    }
+]

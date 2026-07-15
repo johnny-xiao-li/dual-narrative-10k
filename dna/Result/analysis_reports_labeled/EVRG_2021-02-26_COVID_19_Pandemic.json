@@ -1,0 +1,336 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is treated throughout the filing as a current, multi-faceted and material threat.  Nearly every disclosure is written in the present-to-near-future tense (e.g., ‘has had and may continue,’ ‘could continue to cause’), confirming that the company is already experiencing tangible impacts—lower commercial and industrial load, higher residential load, incremental O&M expense, customer-payment stress, supply-chain interruptions and market volatility.  The company also warns of secondary and tertiary effects such as liquidity strain, credit-facility covenant pressure, cyber-security exposure from remote work and potential inability to recover pandemic-related costs from regulators.  Mitigations do exist—regulatory deferral orders, customer-relief programs, and vaccination prospects—but each is portrayed as conditional or uncertain.  Because the Form 10-K was filed less than one year after the WHO declaration (within the 0-3-year ‘recent event’ window), the Time-Decay Principle allows scores up to the high range.  Nevertheless, many statements remain qualitative or contingent, so individual snippet scores cluster between 4 and 8 rather than the absolute maximum.  Overall, the risk profile is high, direct and still evolving, warranting elevated—but not peak—severity scores.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic has had, and may continue to have, a significant impact on the way that the Evergy Companies conduct their operations and could adversely impact their results of operations, financial condition, cash flows and liquidity.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that the pandemic is already impacting operations (‘has had’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links impact to multiple financial metrics (results, cash flows, liquidity).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Language is qualitative with no quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct acknowledgement of current operational and financial harm justifies an above-average score despite lack of dollar figures."
+            },
+            {
+                "snippet": "The pandemic, along with the efforts to contain the virus, has caused and could continue to cause an economic slowdown or recession, result in significant disruptions or reductions in various public, commercial or industrial activities and cause employee absences, which could interfere with the Evergy Companies' operations or the operations of their customers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to macro-economic recession risk and operational interference.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights workforce availability (‘employee absences’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking ‘could continue’ introduces uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Captures broad, systemic downside channels but remains partly speculative."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has altered electricity usage patterns, including an overall reduction in demand and shifting usage away from customers with relatively higher load requirements, such as industrial and commercial customers, toward customers with relatively lower load requirements, such as residential customers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes concrete change in demand profile already observed.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies customer segments (industrial/commercial vs. residential).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Evidence of realised demand shift raises severity because top-line revenue mix is directly affected."
+            },
+            {
+                "snippet": "These changes in electricity usage patterns and the extent to which some of these shifts could become long-term or permanent could result in a significant decrease in the Evergy Companies' sales of electricity.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of potentially ‘significant decrease’ in sales—materiality language.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights persistence risk (long-term/permanent).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Speculative ‘could’ without figures.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Material but unquantified downside to revenue keeps score moderate."
+            },
+            {
+                "snippet": "The Evergy Companies have also incurred, and will continue to incur, expenses related to monitoring the COVID-19 pandemic and modifying operations in response to the pandemic.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges actual incremental costs already being recorded (‘have incurred’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Ongoing nature (‘will continue’) indicates persistence.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No dollar magnitude provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Confirmed cost outflows elevate risk even without quantification."
+            },
+            {
+                "snippet": "In July 2020, the KCC authorized Evergy Kansas Central and Evergy Metro to record to a regulatory asset all net incremental costs incurred with respect to their Kansas operations associated with the COVID-19 pandemic for consideration in their next Kansas rate cases, which are expected to be completed no later than the end of 2023.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows existence of sizable pandemic costs requiring deferral.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Regulatory asset treatment provides recovery pathway (mitigation).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Specifies timing (next rate cases by 2023).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Cost recognition is offset by an established—though still pending—recovery mechanism, keeping net risk modest."
+            },
+            {
+                "snippet": "Notwithstanding the foregoing, regulators might not allow for recovery of these amounts in a timely manner, or at all.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states recovery uncertainty—regulatory disallowance risk.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Potential disallowance reinstates financial exposure despite earlier mitigation."
+            },
+            {
+                "snippet": "The Evergy Companies have also temporarily implemented policies, and in the future may implement additional policies, that are intended to ease the financial burden of the pandemic on customers, such as temporarily extending payment options and offering incentives for customer payments on overdue balances as well as the elimination of late payment fees and disconnections for non-payment.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates cash-flow-negative concessions (extended terms, fee waivers).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Action is voluntary mitigation to support customers (slightly offsets risk).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Customer-relief moves pressure near-term liquidity but reflect purposeful mitigation."
+            },
+            {
+                "snippet": "A decrease in the amount of, or a delay in receiving, customer collections due to the COVID-19 pandemic or otherwise could, absent a waiver or amendment, result in a breach of these accounts receivable financing arrangements and require the Evergy Companies to repay any outstanding loans.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-driven cash collection shortfall to covenant breach and forced repayment.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Contingent (‘could’) and dependent on waiver availability.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights specific liquidity covenant risk—material but not yet realised."
+            },
+            {
+                "snippet": "In addition, the COVID-19 pandemic led to disruption and volatility in the financial markets, which in turn could impair the Evergy Companies' ability to access the capital markets or increase their cost of capital.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to higher financing cost / reduced access.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Effect is conditional (‘could’).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Capital-market risk is significant conceptually but still prospective."
+            },
+            {
+                "snippet": "The pandemic could disrupt the supply chains that provide services and equipment to the Evergy Companies as part of their capital expenditures or maintenance efforts.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces supply-chain disruption risk affecting cap-ex and maintenance.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Speculative, ‘could disrupt’.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Operational supply chain threat noted, but no evidence of occurrence yet."
+            },
+            {
+                "snippet": "A significant reduction in the Evergy Companies' taxable income due to the impacts of the COVID-19 pandemic or otherwise could require the Evergy Companies to record a valuation allowance against a portion of those tax assets, which in turn reduces earnings, and the Evergy Companies may in general not be able to utilize these tax benefits.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Points to possible write-down of deferred tax assets—a direct P&L hit.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Scenario-based (‘could require’) with no figures.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Tax-asset impairment is meaningful but still hypothetical."
+            },
+            {
+                "snippet": "In addition, the COVID-19 pandemic has changed the way the Evergy Companies operate and has increased the use of technology to enable remote-working arrangements, which may increase or expose previously unknown vulnerabilities.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Establishes new cyber risk channel tied to remote work.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "‘May increase’ reflects uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Emerging cyber-security exposure is flagged but not quantified."
+            },
+            {
+                "snippet": "Public reports have also indicated an increase in cyberattacks in general since the start of the pandemic due, in part, to the increase in the number of employees working remotely and the proliferation of the different ways in which employees and third parties interact with the Evergy Companies' information technology infrastructure.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites external evidence of heightened cyberattack frequency.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Ties explicitly to pandemic-driven remote work environment.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Substantiated rise in threat level pushes cyber risk into higher-severity range."
+            },
+            {
+                "snippet": "Any of these circumstances, or other impacts of the pandemic, could adversely affect customer demand or revenues, impact the ability of the Evergy Companies' suppliers, vendors or contractors to perform, or cause other unpredictable events, which could have a significant adverse impact on the results of operations, financial position, liquidity and cash flows of the Evergy Companies.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Aggregates multiple pandemic pathways all leading to ‘significant adverse impact’.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Broad but non-quantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Comprehensive statement of severity but still general in nature."
+            },
+            {
+                "snippet": "During 2020, Evergy experienced an overall reduction in demand and shift of usage away from customers with relatively higher load requirements, such as industrial and commercial customers, towards customers with relatively lower load requirements, such as residential customers.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms realised demand reduction in 2020, attributing to pandemic.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Specifies affected customer segments, indicating operational granularity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Historical evidence of revenue-relevant demand change merits high score."
+            },
+            {
+                "snippet": "These policies, such as temporarily extending payment options and offering incentives for customer payments on overdue balances as well as the elimination of late payment fees and disconnections for non-payment, could lead to lower levels of operating cash flows compared to historical levels for the Evergy Companies.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights cash-flow downside from pandemic relief measures.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Effect is projected, not yet measured.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Potential liquidity drag is noted but remains forward-looking."
+            }
+        ],
+        "calculated_score": 68,
+        "average_severity": 4.0
+    }
+]

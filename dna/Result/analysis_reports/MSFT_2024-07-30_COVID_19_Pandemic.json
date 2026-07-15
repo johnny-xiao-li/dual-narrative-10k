@@ -1,0 +1,90 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Microsoft’s 2024 Form 10-K still acknowledges COVID-19 primarily as an ongoing, but now more background, macro-risk.  The company frames the pandemic as a broad, forward-looking contingency that could exacerbate other risk factors – supply-chain fragility, IT-spend contraction, and general economic instability.  None of the disclosures quantify impacts or cite current disruptions; instead, they emphasize potential adverse effects if new waves or containment measures arise.  This language is largely generic and precautionary, signalling that COVID-19 has moved from an immediate operational shock to a medium-term uncertainty.  In line with the Time Decay Principle (the initial event is ~4 years old), evidence scores are capped at the mid-range (4-6) when the wording is explicit and enterprise-wide, and lower when the reference is brief or purely illustrative.  No sentence rises to a severe rating because the filing lacks concrete financial figures, recent disruptions, or specific mitigation costs attributable to the pandemic.",
+        "evidence_list": [
+            {
+                "snippet": "The occurrence of regional epidemics or a global pandemic, such as COVID-19, may adversely affect our business, operations, financial condition, and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites COVID-19 as the exemplar global pandemic risk.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Enumerates broad possible impacts across business, operations, and financial condition.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Statement is forward-looking and generic rather than citing current quantified effects.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Directly links COVID-19 to enterprise-wide adverse effects but remains generic and unquantified, yielding a mid-range score of 5 under medium-term time decay."
+            },
+            {
+                "snippet": "The extent to which global pandemics impact our business going forward will depend on factors such as the duration and scope of the pandemic; governmental, business, and individuals' actions in response to the pandemic; and the impact on economic activity, including the possibility of recession or financial market instability.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes multiple drivers (duration, scope, policy actions) that could amplify pandemic impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights macro-economic knock-on effects (recession, market instability).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No specific company data or quantified exposure; purely contingent.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Provides nuanced, forward-looking variables but lacks specificity to Microsoft, resulting in a moderate score of 3."
+            },
+            {
+                "snippet": "Measures to contain a global pandemic may intensify other risks described in these Risk Factors.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic containment actions to amplification of existing risk profile.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Broad, non-specific wording without concrete examples or metrics.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Acknowledges interaction effects but is highly generic, so the snippet earns a low score of 1."
+            },
+            {
+                "snippet": "Worsening economic conditions, including inflation, recession, pandemic, or other changes in economic conditions, may cause lower IT spending and adversely affect our results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to potential reduction in customer IT spending – a direct demand-side risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemic is mentioned only in a list of illustrative macro factors, making the link weak.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Pandemic appears only as one of several macro headwinds; the attenuated connection limits the score to 1."
+            }
+        ],
+        "calculated_score": 10,
+        "average_severity": 2.5
+    }
+]

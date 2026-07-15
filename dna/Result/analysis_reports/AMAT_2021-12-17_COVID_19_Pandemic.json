@@ -1,0 +1,200 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Applied Materials’ 2021 Form 10-K conveys that COVID-19 is both an already-realised and still-evolving threat to the company.  The filing repeatedly notes that the pandemic has *already* disrupted supply chains, logistics, labour availability and on-site operations, and that these effects have dented financial results.  Just as important, management warns that the situation is fluid: renewed outbreaks, transport bottlenecks, post-lock-down demand spikes and vaccine uncertainties could further squeeze parts supply, raise costs and even curb end-market demand.  The language is predominantly specific—naming concrete channels such as air-freight capacity, port closures, workforce productivity, cyber-security exposure from remote work and potential order cancellations—yet it remains un-quantified.  Because the filing date (17 Dec 2021) is less than two years after the WHO pandemic declaration, the Time Decay Principle allows for elevated severity scores.  Overall, the risk profile is recent, direct and multi-faceted, warranting upper-mid to high micro-scores (6-8) for the strongest passages, with moderate scores (2-5) where the discussion is more generic or contingent, and small positive scores where residual or secondary risks are acknowledged.  Mitigating actions (multi-phase return-to-work plan, safety protocols) are noted but explicitly flagged as uncertain, so they trim, rather than neutralise, the assessed risk.",
+        "evidence_list": [
+            {
+                "snippet": "The ongoing COVID-19 pandemic and global measures taken in response thereto have adversely impacted, and may continue to adversely impact, Applied’s operations and financial results.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct statement that pandemic has *already* harmed operations and results.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicit warning of continued future impact ('may continue').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Use of adverse wording without mitigation.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Strong, recent and ongoing impact across financial and operational dimensions drives a high score of 8."
+            },
+            {
+                "snippet": "The ongoing COVID-19 pandemic and measures taken in response by governments and businesses worldwide to contain its spread have adversely impacted and are expected to continue to adversely impact Applied’s supply chain, manufacturing, logistics, workforce and operations, as well as the operations of Applied’s customers, suppliers and partners globally.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple critical functions already affected (supply chain, manufacturing, logistics, workforce).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Projects continuing adversity into the future.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Extends impact to customers and partners worldwide.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Comprehensive list of affected areas plus forward-looking concern earns a score of 7."
+            },
+            {
+                "snippet": "There is considerable uncertainty regarding the duration, scope and severity of the pandemic and the impacts on our business and the global economy from the effects of the ongoing pandemic and response measures.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights significant unknowns about duration, scope and severity, signalling risk could widen.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Generic wording with no specifics or quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Acknowledges broad uncertainty but lacks specifics, yielding a modest risk score of 2."
+            },
+            {
+                "snippet": "Travel and logistics restrictions, shelter-in-place orders and other measures, including working remotely, social distancing and other policies implemented in foreign and domestic sites, have resulted in, and are expected to continue to result in, transportation disruptions (such as reduced availability of air transport, port closures, and increased border controls or closures), production delays and capacity limitations at Applied and some of its customers, suppliers and partners, as well as reduced workforce availability or productivity at Applied and customer sites, and additional data, information and cyber security risks associated with an extensive workforce now working remotely full-time.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies concrete operational disruptions already occurring (transport delays, capacity limits).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States disruptions will ‘continue’, reinforcing forward risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Enumerates multiple sub-risks (workforce productivity, cyber risks).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Detailed, multi-channel disruptions—past and prospective—justify a score of 7."
+            },
+            {
+                "snippet": "In addition, the pandemic and global measures taken in response thereto have had, and may continue to have a significant adverse impact on the global economic activity and could also result in a reduced demand for our products, delayed deliveries or installation, cancelled orders or increase in logistics and operating costs, and materially and adversely affect Applied’s business, financial condition and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes significant adverse economic impact already realised.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Lists specific financial and operational consequences (reduced demand, cancellations, higher costs).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong qualifier 'materially and adversely'.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Material language plus explicit financial consequences merit a 7."
+            },
+            {
+                "snippet": "However, there is no assurance that such plan and safety measures will be effective in preventing the inadvertent transmission of COVID-19 within the workplace.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits mitigation plan may fail, preserving residual health risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicit 'no assurance' wording underscores uncertainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Residual risk despite mitigation keeps score at a moderate 3."
+            },
+            {
+                "snippet": "Further, implementation of such plan could adversely impact Applied’s operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns that mitigation efforts themselves may harm operations.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Secondary operational risk linked to mitigation actions scores a 2."
+            },
+            {
+                "snippet": "In addition, the COVID-19 pandemic, and transportation interruptions and other measures taken in response thereto, have had, and may continue to have, a significant adverse impact on the global and regional economic activity, as well as our ability to meet our customer demand.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to significant macro-economic harm and inability to meet demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking clause ('may continue') extends risk horizon.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Combination of macro and operational impact earns a score of 5."
+            },
+            {
+                "snippet": "Similarly, changes that result in sudden increases in consumer demand for electronic products (for example, as a result of the reopening of the economy with the easing of COVID-19 related restrictions) have resulted in, and may continue to result in, a shortage of parts and materials needed to manufacture our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-driven demand swings to parts shortages.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States both realised and ongoing shortage risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Direct impact on manufacturing capability.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific supply-chain pressure tied to pandemic reopening yields a 4."
+            },
+            {
+                "snippet": "Such shortages, as well as shipment delays due to transportation interruptions, have adversely impacted, and may continue to adversely impact, our suppliers’ ability to meet our demand requirements.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes current adverse impact on suppliers’ fulfilment.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights continuing risk into the future.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Ongoing supplier-side pressure affecting demand fulfilment justifies a score of 4."
+            }
+        ],
+        "calculated_score": 49,
+        "average_severity": 4.9
+    }
+]

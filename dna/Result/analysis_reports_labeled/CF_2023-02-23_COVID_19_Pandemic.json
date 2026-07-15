@@ -1,0 +1,40 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing makes only a passing but still relevant reference to COVID-19.  Instead of detailing direct operational disruptions (e.g., plant shutdowns, remote-work transitions or labour shortages), CF frames the pandemic as one among several factors that could depress ethanol demand by reducing vehicle miles travelled.  Because corn‐based ethanol consumption is a major driver of U.S. corn acreage – and thus of nitrogen-fertiliser demand – the company implicitly recognises that lingering or renewed pandemic-related mobility restrictions could weaken its end-market.  The statement is forward-looking and couched in conditional language (\"may put pressure\"), signalling a potential rather than an existing impact.  Nevertheless, the event remains within the 0-3-year ‘recent’ window, so time decay does not materially dilute the score.  Overall, the disclosure evidences a moderate, second-order risk: COVID-19 could indirectly depress fertiliser demand through the ethanol channel, but the company provides no quantification or concrete mitigation steps, keeping the severity in the mid-range.",
+        "evidence_list": [
+            {
+                "snippet": "Lower gasoline prices and fewer aggregate miles, driven by increased automobile fuel efficiency, the continued expansion of electric vehicle use or the impact of decreased travel, such as the decreased travel experienced during the coronavirus disease 2019 (COVID-19) pandemic, may put pressure on ethanol prices that could result in reduced profitability and lower production for the ethanol industry.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 pandemic to decreased travel and downstream financial pressure (aggravating factor).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Establishes a causal chain to the company’s demand driver (ethanol-corn-fertiliser), signalling relevance to CF’s core business.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses speculative language ('may'), indicating uncertainty and reducing immediacy.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event is recent (within 3-year window), so time-decay allows for a higher score.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "The sentence earns a 6/10 because it provides an explicit but indirect, unquantified, forward-looking risk tied to COVID-19; the recent timeframe boosts the score, but conditional phrasing and lack of detail keep it moderate."
+            }
+        ],
+        "calculated_score": 6,
+        "average_severity": 6.0
+    }
+]

@@ -1,0 +1,213 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Amazon’s 10-K, filed only eleven months after the WHO declared COVID-19 a pandemic, contains extensive, concrete discussion of the virus’s effects.  The filing ties COVID-19 to direct, already-incurred costs ($11.5 billion in 2020 and an expected $2 billion in Q1-2021), describes major operational strain (supply-chain bottlenecks, fulfillment-capacity limits, labour surges of 400 000+ hires, safety retrofits), and acknowledges persistent uncertainty about duration and demand shifts.  These statements are recent, specific and largely backward-looking, evidencing material impacts that have already hit cash flow as well as forward-looking risks that could continue to erode margins.  Mitigating actions (mass hiring, process changes, safety protocols) temper—but do not eliminate—the severity.  Under the Time Decay Principle, the pandemic is a current (<3 years) event, so strongly substantiated, quantified sentences warrant high scores (up to 10), whereas generic or heavily mitigated sentences score lower.",
+        "evidence_list": [
+            {
+                "snippet": "In addition to the effects of the COVID-19 pandemic and resulting global disruptions on our business and operations discussed in Item 7 of Part II, “Management’s Discussion and Analysis of Financial Condition and Results of Operations,” and in the risk factors below, additional or unforeseen effects from the COVID-19 pandemic and the global economic climate may give rise to or amplify many of the risks discussed below.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to a broad amplification of risk factors.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional language ('may give rise') indicating uncertainty and less immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic, forward-looking amplification of risk; minimal immediacy keeps the score low."
+            },
+            {
+                "snippet": "The COVID-19 pandemic and resulting global disruptions have affected our businesses, as well as those of our customers, suppliers, and third-party sellers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States a direct, realised impact ('have affected').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights breadth across customers, suppliers, and sellers, signalling systemic exposure.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct, present-tense acknowledgment of widespread impact yields a moderate-high score."
+            },
+            {
+                "snippet": "To serve our customers while also providing for the safety of our employees and service providers, we have modified numerous aspects of our logistics, transportation, supply chain, purchasing, and third-party seller processes.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes operational disruption across critical functions (logistics, supply chain).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly caused by COVID-19 (context from adjoining sentences).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Represents a mitigation step (proactive modifications).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Shows meaningful operational strain but also clear mitigation efforts, resulting in a modest score."
+            },
+            {
+                "snippet": "Beginning in Q1 2020, we made numerous process updates across our operations worldwide, and adapted our fulfillment network, to implement employee and customer safety measures, such as enhanced cleaning and physical distancing, personal protective gear, disinfectant spraying, and temperature checks.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates company-wide process changes attributable to the pandemic.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Primarily describes mitigation/safety efforts rather than residual risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Predominantly mitigation language with limited new risk information; net score neutral."
+            },
+            {
+                "snippet": "Since February 2020, we have hired over 400,000 full-time and part-time employees to increase our fulfillment network capacity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Large-scale labour action evidences significant operational stress related to pandemic demand and constraints.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Represents a mitigation investment to offset risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Magnitude of hiring signals serious pressure, but the step is also a mitigation; score is low-moderate."
+            },
+            {
+                "snippet": "We incurred approximately $4.0 billion in COVID-19 related costs in Q4 2020, for a total of more than $11.5 billion during 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides a precise, quantified figure for pandemic-related costs ($11.5 billion).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Costs are already incurred, demonstrating realised financial impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Magnitude is material, signalling high severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 10
+                },
+                "reasoning_summary": "Direct, recent and massive dollar impact justifies the maximum score under Time Decay rules."
+            },
+            {
+                "snippet": "Higher net sales in the North America and International segments reflect increased demand, particularly as people are staying at home, including for household staples and other essential and home products, partially offset by fulfillment network capacity and supply chain constraints.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemic-driven demand shift ('staying at home').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights supply-chain and capacity constraints creating operational risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes offsetting favourable sales trend, a partial mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows both positive demand effects and negative capacity constraints; net moderate risk."
+            },
+            {
+                "snippet": "Other effects in the North America and International segments include increased fulfillment costs and cost of sales as a percentage of net sales, primarily due to the impact of lower productivity, increased employee hiring and benefits, and costs to maintain safe workplaces.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details higher cost structure linked to pandemic-related productivity hits and safety costs.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies multiple cost drivers, reinforcing breadth of impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific cost pressures without quantification yield an above-average but not extreme score."
+            },
+            {
+                "snippet": "We expect the effects of fulfillment network capacity and supply chain constraints, elevated collection risk in our accounts receivable, and increased fulfillment costs and cost of sales as a percentage of net sales to continue into all or portions of Q1 2021.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Projects ongoing adverse impacts in near term, signalling persistence of risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Enumerates specific areas (capacity, supply chain, credit risk, costs).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Forward-looking statement of continuing pressures; meaningful but unquantified, so moderate score."
+            },
+            {
+                "snippet": "However, it is not possible to determine the duration and scope of the pandemic, including any recurrence, the actions taken in response to the pandemic, the scale and rate of economic recovery from the pandemic, any ongoing effects on consumer demand and spending patterns, or other impacts of the pandemic, and whether these or other currently unanticipated consequences of the pandemic are reasonably likely to materially affect our results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly acknowledges material uncertainty surrounding pandemic trajectory and economic impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly caveated language underscores generic uncertainty rather than specific losses.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Broad uncertainty acknowledgement with no figures or specifics leads to a low score."
+            },
+            {
+                "snippet": "This guidance assumes approximately $2.0 billion of costs related to COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides quantified forward-looking cost estimate ($2 billion).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Directly attributes cost to COVID-19, linking to the event.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Material, quantified future impact drives a high—but below-maximum—score."
+            }
+        ],
+        "calculated_score": 38,
+        "average_severity": 3.4545454545454546
+    }
+]

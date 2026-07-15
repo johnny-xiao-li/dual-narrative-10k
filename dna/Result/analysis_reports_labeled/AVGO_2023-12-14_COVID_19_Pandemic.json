@@ -1,0 +1,84 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "AVGO’s 2023 Form 10-K treats COVID-19 primarily as an ongoing, forward-looking operational threat rather than as a source of currently measured damage.  The company embeds pandemic language in several risk-factor passages that cover supply-chain fragility, contract manufacturing, global logistics and potential plant shutdowns.  The statements are broad, contingency-oriented and bundled with other hazards (e.g., natural disasters, geopolitical turmoil).  Although COVID-19 is now almost four years old, the disclosure timeframe (Dec 2023 filing versus Mar 2020 WHO declaration) keeps the event inside the early edge of the “medium-term” window defined by the Time Decay Principle, so individual snippet scores should fall in the middle range (about 4-6).  No quantified losses, cost figures or concrete disruptions are supplied; instead, management warns that future pandemic flare-ups **could** materially harm operations, delay production or strain suppliers.  Therefore, the overall severity is moderate: the risk remains credible because it targets critical manufacturing and supply-chain nodes, yet the absence of specific impact data and the generic wording temper the score.",
+        "evidence_list": [
+            {
+                "snippet": "• public health or safety concerns, medical epidemics or pandemics, such as COVID-19, and other natural- or man-made disasters;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references pandemics, specifically COVID-19, as a risk factor.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Appears in a formal list of items that \"could have a material adverse effect,\" implying seriousness.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generic, embedded in a laundry list with no specific impact or magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Direct mention of COVID-19 raises the risk, but the sentence is generic and unquantified, yielding a moderate 3."
+            },
+            {
+                "snippet": "Further, any substantial disruption in the contract manufacturing services that we utilize, including TSMC’s supply of wafers to us, as a result of a natural disaster, climate change, water shortages, political unrest, military conflicts, geopolitical turmoil, trade tensions, government orders, labor shortages, medical epidemics, such as the COVID-19 pandemic, economic instability, equipment failure or other cause, could materially harm our business, customer relationships and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 directly to potential disruption of critical wafer supply from TSMC.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong impact language: \"could materially harm our business, customer relationships and results of operations.\"",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Scenario is forward-looking and conditional, not reporting current damage.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "COVID-19 is one of many listed hazards, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific supply-chain node (TSMC) plus ‘material harm’ wording raise severity, but conditional phrasing and multi-factor list temper it to 4."
+            },
+            {
+                "snippet": "A prolonged disruption at or shut-down of one or more of our manufacturing facilities or warehouses, especially our Colorado, Singapore, Malaysia and Pennsylvania facilities, or those of our CMs or suppliers, due to natural- or man-made disasters or other events outside of our control, such as equipment malfunction or widespread outbreaks of acute illness, including COVID-19, or for any other reason, would limit our capacity to meet customer demands and delay new product development until a replacement facility and equipment, if necessary, were found.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 directly to potential shutdowns of named facilities.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Details operational consequences (capacity limits, product-development delays).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Expressed as a hypothetical future event rather than an existing impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Facility-level risks and stated operational effects justify a moderate score of 4 despite hypothetical framing."
+            }
+        ],
+        "calculated_score": 11,
+        "average_severity": 3.6666666666666665
+    }
+]

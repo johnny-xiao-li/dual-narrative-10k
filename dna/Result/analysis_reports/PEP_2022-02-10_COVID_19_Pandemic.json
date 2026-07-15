@@ -1,0 +1,208 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "PepsiCo’s 2022 Form 10-K frames COVID-19 as an acute, multi-dimensional threat that is still unfolding less than two years after the WHO declared the pandemic.  The narrative blends backward-looking evidence of realised harm (higher operating costs, negative profitability effects, volatility in capital markets) with forward-looking uncertainty about variants, labour availability and supply-chain congestion.  The filing ties the pandemic to core value-drivers — consumer demand, channel mix, manufacturing continuity, logistics capacity and financing access — and repeatedly states that these factors have already *negatively impacted* results and could do so further.  Although the company cites mitigation efforts (health protocols, continuity planning), it stresses that outcomes remain “uncertain” and “cannot be accurately predicted.”  Given the filing date (Feb 2022) the Time-Decay window is 0-3 years, allowing for high severity scores.  Each selected sentence therefore earns between 7 and 9 points, with minor deductions where language is more speculative or notes partial controls.  Overall, COVID-19 is presented as a live, enterprise-wide risk with tangible financial and operational consequences, warranting a high composite risk assessment.",
+        "evidence_list": [
+            {
+                "snippet": "The impact of COVID-19 continues to create considerable uncertainty for our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to company-wide uncertainty.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong, present-tense wording (\"continues\" & \"considerable\").",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct statement of ongoing, material uncertainty earns a high score in a recent-event window."
+            },
+            {
+                "snippet": "We have also incurred, and could continue to incur, increased employee and operating costs as a result of COVID-19, such as costs related to expanded benefits and frontline incentives, the provision of personal protective equipment and increased sanitation, allowances for credit losses, upfront payment reserves and inventory write-offs, and cost inflation in commodities, packaging, transportation and other input costs, which have negatively impacted and may continue to negatively impact our profitability.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States realised cost increases already incurred.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists specific cost categories, showing granularity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges negative impact on profitability (financial materiality).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking clause (‘may continue’) adds persistence.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Quantified-by-example cost impacts and profit pressure justify near-max score."
+            },
+            {
+                "snippet": "In addition, we and our business partners may also continue to see adverse impacts to our supply chain as a result of COVID-19 through raw material, packaging or other supply shortages, labor shortages or reduced availability of air or other commercial transport, port congestion and closures or border restrictions, any of which can impact our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic directly to supply-chain disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates multiple concrete disruption modes.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights cascading effect on business operations.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specific supply-chain vulnerabilities raise operational risk, yielding a strong score."
+            },
+            {
+                "snippet": "We have seen and could continue to see changes in consumer demand as a result of COVID-19, including the inability of consumers to purchase our products due to illness, quarantine or other restrictions, store closures, or financial hardship.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms observed demand shifts tied to pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details multiple causal mechanisms limiting purchases.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Combines realised and prospective impacts.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Demand contraction is critical but less quantified, so slightly lower (yet still high) severity."
+            },
+            {
+                "snippet": "We also have seen and could continue to see shifts in product and channel preferences, including an increase in demand in the e-commerce channel, which has impacted and could continue to impact our sales and profitability.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes channel-mix volatility affecting revenue model.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Admits profitability at risk from shift dynamics.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Combines past impact with forward risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Channel preference shifts are strategic risks; absence of hard numbers moderates score."
+            },
+            {
+                "snippet": "In addition, continued economic uncertainty associated with the COVID-19 pandemic has resulted in volatility in the global capital and credit markets which can impair our ability to access these markets on terms commercially acceptable to us, or at all.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to financing and liquidity risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights potential inability to access capital markets.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Capital-market volatility materially threatens financing; high but not maximum severity."
+            },
+            {
+                "snippet": "In addition, measures that impact our ability to access our offices, plants, warehouses, distribution centers or other facilities, or that impact the ability of our business partners to do the same or the inability of a significant portion of our or our business partners’ workforce to work because of illness, absenteeism, quarantine, vaccine mandates, or travel or other governmental restrictions, may continue to impact the availability or productivity of our and their employees, many of whom are not able to perform their job functions remotely.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes direct operational disruptions to facilities and labour.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers both company and partner workforce effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes prolonged nature (‘may continue’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Operational continuity threats are explicit; lack of quantified dollar effect keeps score at 6."
+            },
+            {
+                "snippet": "Public concern regarding the risk of contracting COVID-19 has impacted and may continue to impact demand from consumers, including due to consumers not leaving their homes or leaving their homes less often than they did prior to the start of the pandemic or otherwise shopping for and consuming food and beverage products in a different manner than they historically have or because some of our consumers have lower discretionary income due to unemployment or reduced or limited work as a result of measures taken in response to the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explains behavioural drivers of demand decline.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links to macroeconomic factors (unemployment, income).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Behavioral insight is valuable but more descriptive than financial; mid-high score."
+            },
+            {
+                "snippet": "Any reduced demand for our products or change in consumer purchasing and consumption patterns, as well as continued economic uncertainty (including supply chain disruptions and labor shortages), can adversely affect our customers’ and business partners’ financial condition, which can result in bankruptcy filings and/or an inability to pay for our products, reduced or canceled orders of our products...",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights knock-on credit risk from pandemic-driven demand decline.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes severe outcomes (bankruptcies, canceled orders).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Emphasises secondary financial contagion; significant but not directly quantified."
+            },
+            {
+                "snippet": "While we have developed and implemented and continue to develop and implement health and safety protocols, business continuity plans and crisis management protocols in an effort to mitigate the negative impact of COVID-19 to our employees and our business, the extent of the impact of the pandemic on our business and financial results will continue to depend on numerous evolving factors that we are not able to accurately predict...",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges mitigation efforts (risk-reducing).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Re-emphasises unpredictability and potential magnitude of impact.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Mitigation language tempers but does not eliminate uncertainty; net moderate evidence."
+            }
+        ],
+        "calculated_score": 61,
+        "average_severity": 6.1
+    }
+]

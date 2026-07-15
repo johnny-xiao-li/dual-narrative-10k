@@ -1,0 +1,76 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing references the COVID-19 pandemic only within a broader catalogue of “unexpected events.”  Although the language is somewhat generic and bundled with non-pandemic perils, the company explicitly states that epidemics and pandemics, “such as the COVID pandemic,” have already adversely affected its operations and financial performance and could do so again.  It then details concrete operational mechanisms—plant closures, supply-chain breakdowns, and logistics delays—through which those adverse effects can materialise, and it flags that insurance may not fully cover resulting costs.  No hard numbers are provided, but the disclosure confirms both historical impact (retrospective) and forward-looking risk.  Because the pandemic’s onset (March 2020) is roughly 3 ¾ years before the 15 Dec 2023 filing date, the Time Decay Principle places the evidence in the early part of the 4-to-10-year window, justifying moderate—but not maximal—severity scores.  Overall, the risk is current and tangible but conveyed at a qualitative rather than quantified level, leading to snippet scores clustered in the 2–6 range.",
+        "evidence_list": [
+            {
+                "snippet": "The occurrence of one or more unexpected events, including war, acts of terrorism, epidemics and pandemics (such as the COVID pandemic), civil unrest, fires, tornadoes, tsunamis, hurricanes, earthquakes, floods, and other forms of severe weather in the United States or in other countries in which we operate, or in which our suppliers are located, have adversely affected and could in the future adversely affect our operations and financial performance.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names epidemics and pandemics, with a specific parenthetical reference to the COVID pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States that these events have already 'adversely affected' operations and financial performance (retrospective, direct impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Adds a forward-looking clause ('could in the future adversely affect'), extending the risk horizon.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Moderate-high score (6) because the sentence directly ties COVID-19 to realised and potential material impacts, but lacks any quantification."
+            },
+            {
+                "snippet": "Such events have caused and could cause complete or partial closure of one or more of our manufacturing facilities or distribution centers, temporary or long-term disruptions in the supply of component products from some local and international suppliers, and disruption and delay in the transport of products to dealers, end-users, and distribution centers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific operational impacts: facility closures, supply-chain disruptions, and logistics delays.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges both past ('have caused') and future ('could cause') effects, showing ongoing relevance.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Link to COVID-19 is indirect (relies on the antecedent phrase 'such events'); lowers certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Earns 4 because it elaborates concrete operational harms but references the pandemic only implicitly, reducing the directness of the linkage."
+            },
+            {
+                "snippet": "Existing insurance coverage may not provide protection from all the costs that may arise from such events.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights a financial exposure—possible uninsured costs—stemming from pandemic-related (and other) events.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Very generic wording and only indirect connection to COVID-19 via 'such events.'",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Low score (1) because the sentence is generic, references COVID-19 only by implication, and provides no magnitude or specificity."
+            }
+        ],
+        "calculated_score": 11,
+        "average_severity": 3.6666666666666665
+    }
+]

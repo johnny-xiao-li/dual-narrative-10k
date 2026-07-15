@@ -1,0 +1,306 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "ADM’s 2021-02-18 Form 10-K openly links the COVID-19 pandemic to both realized and prospective risks across operations, supply chains, workforce availability, product demand, and working-capital requirements.  The filing was issued less than a year after the WHO declaration (11-Mar-2020), so Time-Decay permits high severity scoring.  ADM provides a layered disclosure: (1) broad, forward-looking statements that pandemics could disrupt operations; (2) specific contingencies—illness, quarantines, logistics breakdowns, higher costs—that could arise; and (3) concrete 2020 impacts already felt, such as volatile crushing margins, soft food-service demand, and the temporary idling of ethanol plants.  Although management mentions mitigation (monitoring, stakeholder coordination), it cannot yet quantify the ultimate effect and concedes the impact ‘could potentially be material.’  Overall, the risk is recent, multi-dimensional, partly realized, and only partially mitigated.  Consequently, individual sentence scores cluster in the mid-to-high range (4-7) when impacts are explicit, and lower (1-3) when language is generic or mitigation-heavy.",
+        "evidence_list": [
+            {
+                "snippet": "ADM is monitoring the novel coronavirus (COVID-19) global pandemic and taking steps to mitigate the potential risks posed by its spread, including working with its customers, employees, suppliers, local communities, and other stakeholders.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct reference to COVID-19 global pandemic identifies the risk explicitly.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges company-wide monitoring indicates risk is current and ongoing.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Mentions active mitigation efforts, which partially offsets severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Explicit recognition of COVID-19 but tempered by emphasis on mitigation, yielding a moderate score."
+            },
+            {
+                "snippet": "COVID-19 or other health epidemics, pandemics, or similar outbreaks could impact the Company’s operations if significant portions of its workforce are unable to work effectively, including because of illness, quarantines, lockdowns, government actions, facility closures, or other restrictions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic directly to core operational disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details multiple aggravating factors (illness, quarantines, facility closures).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights workforce incapacity, a critical dependency.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Sentence specifies several concrete channels through which COVID-19 can harm operations, warranting a high score."
+            },
+            {
+                "snippet": "Additionally, third party service providers, suppliers, joint ventures, customers, and other business partners may not be able fulfill their commitments creating additional disruptions for the Company.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies knock-on supply-chain / partner failures as a risk amplifier.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Potential, not yet quantified or realised.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights supply-chain fragility but remains hypothetical and unquantified, producing a modest score."
+            },
+            {
+                "snippet": "In such circumstances, ADM may be unable to perform fully on its contractual obligations, critical global supply chain and logistical networks may be affected, and costs and working capital may increase.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of breach of contractual obligations—legal/financial exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions disruption of global supply chain and logistics.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes higher costs and working-capital strain—direct financial impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Enumerates several severe financial and operational consequences, elevating the score."
+            },
+            {
+                "snippet": "These cost increases may not be fully recoverable or adequately covered by insurance.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that increased costs may be unrecoverable—permanent margin erosion.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Directly signals potential uninsured losses, but without quantification, yielding a moderate score."
+            },
+            {
+                "snippet": "In addition, demand for certain products that ADM produces, particularly biofuels and ingredients that go into food and beverages that support the food services channels, may be materially impacted from a prolonged outbreak of COVID-19 or significant local resurgences of the virus, leading to additional government-imposed lockdowns, quarantines, or other restrictions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies product categories (biofuels, food-service ingredients) at risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong materiality language (‘may be materially impacted’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects to prolonged outbreak and government lockdowns—ongoing trigger.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Highlights product-specific, potentially material demand shocks tied to COVID-19, justifying a high score."
+            },
+            {
+                "snippet": "The Company cannot at this time predict the impact of the COVID-19 pandemic on its future financial or operational results, but the impact could potentially be material over time.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits uncertainty about future impact, indicating incomplete mitigation.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Warns impact ‘could be material’, signaling magnitude.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Uncertainty combined with possible materiality places the sentence in the mid-range."
+            },
+            {
+                "snippet": "North American crushing margins were volatile due to slow farmer selling and COVID-19 impacts on demand for meal and oil earlier in 2020, but strengthened in the third quarter due to the increasingly tight soybean stocks in South America.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes actual margin volatility caused by COVID-19 demand effects.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Partially offset by later recovery (strengthened margins).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Provides operational linkage to pandemic in a key segment.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Realised impact but partly recovered; net effect merits a moderate score."
+            },
+            {
+                "snippet": "Margins for starches and sweeteners and wheat flour remained solid while demand was soft due to the impacts of COVID-19 in the food service sector.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies COVID-19 driven demand softness in specific product lines.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes margins remained solid—a mitigating factor.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Demand softening recognised but profitability held up, so severity is low."
+            },
+            {
+                "snippet": "Ethanol margins were mixed as U.S. industry ethanol production exceeded demand and inventories remained high early in the year, but improved and stabilized the rest of the year as ADM and many ethanol producers idled some capacity due to the low demand.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports actual capacity idling linked to pandemic-driven low demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates partial margin recovery (improved later), mitigating impact.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Highlights inventory build-up and demand contraction.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete operational response (idling) with some recovery; overall moderately high risk."
+            },
+            {
+                "snippet": "Lower out-of-home consumption caused by COVID-19 lockdown measures negatively impacted flavors and textured plant-based protein volumes, especially in the food service channel, as well as demand for aqua feed and amino acids.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly ties lockdowns to reduced volumes in multiple product categories.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers several segments, indicating breadth of impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Multiple product lines hit by lockdown-driven demand drop—significant severity."
+            },
+            {
+                "snippet": "the temporary idling in April 2020 of ethanol production at the corn dry mill facilities in Cedar Rapids, Iowa, and Columbus, Nebraska due to reduced demand.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies plant locations and actual shutdown—tangible operational impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Directly attributes to reduced demand (pandemic implication).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Plant idling is a concrete, high-severity operational effect of pandemic-related demand collapse."
+            },
+            {
+                "snippet": "emerging market areas could be subject to more volatile operating conditions including, but not limited to, logistics limitations or delays, labor-related challenges, epidemic outbreaks and economic recovery, limitations or regulations affecting trade flows, local currency concerns, and other economic and political instability.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions epidemic outbreaks as one of several volatility drivers.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic, forward-looking reference to epidemics among many risks, hence minimal score."
+            },
+            {
+                "snippet": "The Company faces risks related to health epidemics, pandemics, and similar outbreaks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly acknowledges pandemic risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic acknowledgement without detail or quantification; low severity."
+            },
+            {
+                "snippet": "The Company is exposed to potential business disruption including, but not limited to, disruption of transportation services, disruption in the supply of non-commodity raw materials used in its processing operations, and other impacts resulting from acts of terrorism or war, natural disasters, pandemics, severe weather conditions, and accidents which could adversely affect the Company’s operating results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists pandemics among events that can disrupt operations and supply.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Pandemic listed generically among many hazards; limited specificity keeps score low."
+            },
+            {
+                "snippet": "The assets and operations of the Company could be subject to extensive property damage and business disruption from various events which include, but are not limited to, acts of terrorism, war, natural disasters, pandemics, severe weather conditions, accidents, explosions, and fires.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Pandemics cited as one of several disruptive events.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Highly generic catch-all statement; minimal incremental information, hence very low score."
+            }
+        ],
+        "calculated_score": 62,
+        "average_severity": 3.875
+    }
+]

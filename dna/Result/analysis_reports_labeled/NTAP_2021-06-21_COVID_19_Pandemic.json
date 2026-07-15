@@ -1,0 +1,388 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "NetApp’s 2021-06-21 Form 10-K contains a dense cluster of COVID-19 disclosures that span immediate, realised impacts and forward-looking uncertainties.  The company repeatedly states that the pandemic has already curtailed customer demand, impeded logistics, forced a wholesale shift to remote work, heightened supply-chain constraints and driven competitors’ cloud adoption.  It also warns of credit losses, capital-market volatility and macro-economic recession.  These statements are recent (within 18 months of the 11-Mar-2020 trigger date) and therefore not subject to material time-decay.  The tenor of the language is largely adverse (“has adversely affected”, “we expect may continue…”, “could negatively impact”), signalling present-tense harm plus continuing risk.  Most sentences are qualitative rather than quantified, so the highest individual scores stop short of the maximum, but they still warrant elevated (6-9) ratings because they identify concrete channels—demand shock, supply-chain disruption, labour displacement, credit stress and cyber-exposure—that map directly to pandemic risk.  Mitigating language (e.g., classification as an essential business, precautionary measures) slightly tempers a few snippets, but does not materially offset the overall severity.  Applying the Time-Decay Principle for a <3-year-old event, the evidence merits high scores, reflecting significant, ongoing operational and financial exposure.",
+        "evidence_list": [
+            {
+                "snippet": "We are unable to predict whether the impact of the COVID-19 pandemic will accelerate the decline of our traditional market and increase demand for our cloud offerings.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit link between pandemic and potential market decline.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights strategic uncertainty (shift in demand).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking, not yet realised.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "States pandemic could erode core market; uncertainty lowers but still a moderate-high risk."
+            },
+            {
+                "snippet": "The impacts of the COVID-19 pandemic, including the increase in the number of employees working remotely, has accelerated customer adoption of competitors’ cloud solutions and contributed to increased competition in the market.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes realised competitive disadvantage already happening (‘has accelerated’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links remote-work shift to strategic threat.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Current-tense harm from pandemic-driven remote work raises competitive pressure—high severity."
+            },
+            {
+                "snippet": "We are also unable to predict whether increased customer spending on our cloud offerings and virtual desktop infrastructure will continue after the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights demand volatility tied to pandemic end-state.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Expresses uncertainty rather than harm.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mainly a caution about post-pandemic demand; mild aggravation."
+            },
+            {
+                "snippet": "In particular, the ongoing COVID-19 pandemic and current trade tensions between the U.S. and China could impact our business and operating results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct statement that pandemic could hit business results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Generic, no specifics or quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic risk acknowledgement; moderate but un-detailed."
+            },
+            {
+                "snippet": "A resurgence of COVID-19 or other circumstances could result in an economic slowdown and possibly cause a global recession.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic resurgence to macro-economic recession.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Forward-looking contingent wording (‘could’).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights severe systemic risk; probability uncertain."
+            },
+            {
+                "snippet": "We are unable to predict the extent to which the global COVID-19 pandemic may adversely impact our business, operating results, financial condition, and cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits potential broad financial harm.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasis on uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Broad but unquantified warning—moderate severity."
+            },
+            {
+                "snippet": "The COVID-19 pandemic and efforts to control its spread have significantly curtailed the movement of people, goods and services worldwide, including in most or all of the regions in which we sell our products and services and conduct our business operations.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes already-occurred global logistical disruption.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies geographic breadth (most regions).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Signals real, widespread operational disruption—high risk."
+            },
+            {
+                "snippet": "While we are currently considered an essential business in many of the key regions in which we operate, including in the United States (U.S.), there is no guarantee that we will continue to be classified as such.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies risk of losing essential-business status, affecting operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Present mitigation (current classification).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "States conditional operational risk; partially mitigated."
+            },
+            {
+                "snippet": "We have taken precautionary measures intended to minimize the risk of the virus to our employees, our customers, and the communities in which we operate such as India, including office closures and working remotely for the vast majority of employees, all of which could negatively impact our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details labour-force displacement (remote work, closures).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Company mitigation actions.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Shows operational adaptations with potential negative side-effects."
+            },
+            {
+                "snippet": "The magnitude and duration of the disruption and resulting decline in business activity is uncertain and has limited our ability to forecast future demand for our products and services.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights forecasting difficulty and demand uncertainty.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Demand-planning risk; moderate severity."
+            },
+            {
+                "snippet": "The COVID-19 pandemic and its uneven recovery have adversely affected, and we expect may continue to adversely affect, our business in a variety of ways, including by negatively impacting the demand for our products and services, and our ability to build and convert our sales pipeline (including delayed and deferred purchases); restricting our sales, marketing and distribution efforts; disrupting our supply chain and our ability to deliver product to customers; and constraining business operations, research and development capabilities, engineering, design and manufacturing processes and other important business activities, including in India.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists multiple realised operational harms (demand, supply chain, R&D, distribution).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "States expectation of continued adverse effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No mitigating language.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Comprehensive catalogue of realised and ongoing impacts—very high severity."
+            },
+            {
+                "snippet": "In addition, the COVID-19 pandemic has disrupted the operations of our suppliers, customers and partners for an indefinite period of time, including as a result of travel restrictions and/or business shutdowns and limited access to capital markets, all of which have and may continue to negatively impact our business and results of operations, including cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details supply-chain and customer disruptions already occurring.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links to cash-flow impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows ongoing supplier/customer disruptions with financial implications—high risk."
+            },
+            {
+                "snippet": "Accordingly, we expect the COVID-19 pandemic to have a negative impact on our future sales and results of operations, the magnitude and duration of which we are unable to predict.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Management expectation of continued sales impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicit uncertainty of duration.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking statement of adverse impact; significant severity."
+            },
+            {
+                "snippet": "Additionally, concerns over the economic impact of COVID-19 pandemic have caused extreme volatility in financial and other capital markets, which volatility has and may continue to adversely impact our stock price and could impact our ability to access capital markets.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to capital-market volatility and financing risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Includes present and future adverse impacts.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Financial-market risk driven by pandemic; high relevance."
+            },
+            {
+                "snippet": "More generally, the COVID-19 pandemic has adversely affected economies and financial markets globally, potentially leading to a prolonged economic downturn, which could decrease technology spending and adversely affect demand for our offerings and harm our business and results of operations for an extended period of time.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links macro downturn to reduced tech spending and long-term demand drop.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Forward-looking severity over extended horizon.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highlights systemic downturn translating to demand risk—high severity."
+            },
+            {
+                "snippet": "High-profile cyberattacks and security breaches have increased in recent years, with the potential for such acts heightened as a result of the number of employees working remotely due to COVID-19.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemic-linked rise in cybersecurity risk.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specific operational vulnerability tied to remote work; moderate risk."
+            },
+            {
+                "snippet": "Since March 2020, the vast majority of our employees have been working remotely and we have suspended business travel.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States implemented remote-work regime and halted travel—labour and operational impact.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Concrete operational change already in place; moderate severity."
+            },
+            {
+                "snippet": "During fiscal 2021, due to macroeconomic uncertainty caused by COVID-19, we continued to observe certain customers delay purchases of our products and services, while other customers accelerated or placed new orders to address the demands of remote working and digital business.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes actual demand delays linked to pandemic uncertainty.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Notes offsetting increased demand from other customers.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Mixed demand effect; net risk moderate."
+            },
+            {
+                "snippet": "We also experienced certain logistical challenges in delivering our products and services to customers in certain regions, and minor supply chain constraints.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes realised logistics and supply-chain problems.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Qualifies them as ‘minor’, mitigating severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Real but limited supply-chain disruption—moderate risk."
+            },
+            {
+                "snippet": "The magnitude and duration of the disruption to our business, and impact to our operational and financial performance, caused by COVID-19 pandemic remain uncertain.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Re-emphasises uncertainty of operational and financial disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No specifics or quantified data.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Broad uncertainty statement; modest aggravation."
+            },
+            {
+                "snippet": "We may experience increased losses as potentially more customers are unable to pay all or a portion of their obligations to us, particularly in the current environment when access to sources of liquidity may be limited as a result of the global COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights credit risk and cash-collection problems tied to pandemic liquidity squeeze.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specifies potential receivables losses; fairly high severity."
+            }
+        ],
+        "calculated_score": 76,
+        "average_severity": 3.619047619047619
+    }
+]

@@ -1,0 +1,118 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated February 22 2024, discusses pandemic-related threats only in broad, forward-looking terms.  References to “pandemics,” “public health crises,” and “contagious disease” appear in several risk-factor sections—operational resiliency, supply-chain continuity, and macro-economic demand—but the language is generic, bundled with many other hazards, and provides no quantification of historical or expected COVID-19 impacts.  The company frames the pandemic primarily as a potential future disruptor (e.g., factory closures, workforce shortages, reduced consumer spending) rather than describing direct, realised losses from the 2020–2023 period.  Because the COVID-19 outbreak is now almost four years old, the Time Decay Principle places these disclosures in the medium-term window (4-10 years), warranting moderate—not maximum—severity.  Overall, the statements indicate that management still perceives lingering vulnerability to pandemic-style shocks, especially through global supply chains and demand elasticity, but the absence of quantified financial effects or event-specific narratives tempers the evidentiary weight.  Consequently, individual snippet scores cluster in the 1–4 range, keeping total severity consistent with a medium-term, mostly generic risk profile.",
+        "evidence_list": [
+            {
+                "snippet": "We may be negatively impacted by a disruption to our supply chain or third-party delivery service providers, including if the factories that manufacture our point-of-sale devices, payment cards or computer chips for payment cards, or paper stock are temporarily closed or experience workforce shortages; shipping services are interrupted or delayed; there are increased lead times, shortages or higher costs for certain materials and components; or there are workforce shortages at our third-party customer support, software development or technology hosting facilities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights risk of supply-chain disruption across multiple tiers (factories, shipping, support).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifically lists workforce shortages, factory closures and shipping delays—common COVID-19 outcomes.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States that such disruption could negatively impact the company (implied materiality).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking and generic; does not mention COVID-19 explicitly.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No quantitative estimate of impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Supply-chain fragility and workforce shortages mirror well-known pandemic stresses, meriting a moderate score, but lack of COVID-specific data and quantification keeps it at 4."
+            },
+            {
+                "snippet": "Our facilities outside of the U.S., and those of our suppliers and vendors, including manufacturing, customer support, software development and technology hosting facilities, are subject to risks, including natural disasters, public health crises, political crises, terrorism, war, political instability and other events outside of our or our suppliers’ control.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names \"public health crises\" as a threat to global facilities.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers broad operational footprint, signalling extensive exposure through suppliers and vendors.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Bundled with many unrelated hazards, diluting pandemic specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No historical impact or financial quantification provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Acknowledges worldwide vulnerability to health crises but remains generic and unquantified, resulting in a score of 3."
+            },
+            {
+                "snippet": "• inflation, foreign currency fluctuations, declining economies, social unrest, natural disasters, public health crises, including the occurrence of a contagious disease or illness, and the pace of economic recovery can change consumer spending behaviors, on which a significant portion of our revenues are dependent;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects public health crises/contagious disease to shifts in consumer spending behaviour.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly ties revenue dependency to those behavioural shifts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presented as one item in a long list of macro factors, lowering specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Purely forward-looking; lacks data or magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Directly links contagious disease to revenue risk but remains high-level and speculative, warranting a score of 3."
+            },
+            {
+                "snippet": "Events that could cause operational failures include, but are not limited to, hardware and software defects or malfunctions, ransomware, denial-of-service and other cyberattacks, human error, earthquakes, hurricanes, floods, fires, natural disasters, pandemics, power losses, disruptions in telecommunications services, fraud, military or political conflicts, terrorist attacks, computer viruses or other malware, or other events.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists pandemics as a trigger for operational failure, implicating service continuity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights risk to critical operations and client services.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Pandemic reference embedded in a broad catch-all list, reducing emphasis.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No mention of COVID-19 history or quantified exposure.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Pandemics appear only as one item in an extensive hazard list with no detail, yielding a low severity score of 1."
+            }
+        ],
+        "calculated_score": 11,
+        "average_severity": 2.75
+    }
+]

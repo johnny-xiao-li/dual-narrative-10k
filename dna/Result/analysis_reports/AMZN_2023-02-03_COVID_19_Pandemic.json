@@ -1,0 +1,131 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Amazon’s 2023-02-03 Form 10-K acknowledges that the COVID-19 pandemic, now approaching its third anniversary, remains an active, multi-faceted threat.  The company frames the pandemic mostly as an ongoing macro-economic and operational headwind rather than a newly emerging shock.  References appear in both the Risk Factors and MD&A sections, tying the \"prolonged COVID-19 pandemic\" to direct and indirect impacts on results of operations, demand volatility, supply-chain friction, labour constraints, and logistics bottlenecks.  Most statements are prospective or continuing in nature (\"may\", \"could\", \"is being affected\"), signalling that management views pandemic-related disruption as a persisting, forward-looking risk rather than a historical one-off.  Although no exact dollar figures are provided, wording such as “direct and indirect impacts” and “negatively affected” conveys materiality.  Given the filing date (2023) is within three years of the WHO declaration (March 2020), the Time Decay Principle permits elevated scores; however, the largely qualitative, umbrella language keeps individual snippet scores below the maximum.  Overall, the risk is real and contemporaneous but described in broad terms, warranting mid-to-high severity ratings (3-7 range) depending on specificity.",
+        "evidence_list": [
+            {
+                "snippet": "Macroeconomic factors, including inflation, increased interest rates, significant capital market volatility, the prolonged COVID-19 pandemic, global supply chain constraints, and global economic and geopolitical developments, have direct and indirect impacts on our results of operations that are difficult to isolate and quantify.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names the ‘prolonged COVID-19 pandemic’ as a macro factor still in play.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States that impacts are both ‘direct and indirect’ on results of operations, signalling materiality.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights measurement uncertainty (‘difficult to isolate and quantify’) which amplifies risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No numeric magnitude or dollar disclosure provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Directly links a still-ongoing pandemic to operational results with strong language; lack of quantification prevents a higher score but overall severity remains high."
+            },
+            {
+                "snippet": "Demand for our products and services can fluctuate significantly for many reasons, including as a result of seasonality, promotions, product launches, or unforeseeable events, such as in response to global economic conditions such as recessionary fears or rising inflation, natural or human-caused disasters (including public health crises) or extreme weather (including as a result of climate change), or geopolitical events.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects ‘public health crises’ to significant demand volatility.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasises potentially large swings in demand (‘fluctuate significantly’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Listed in a broad, boiler-plate enumeration, reducing specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "References public health crises generically rather than COVID-19 specifically.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Identifies pandemic-style events as a driver of sharp demand swings, but generic wording and absence of COVID-specific or quantified detail restrain the score."
+            },
+            {
+                "snippet": "Our ability to receive inbound inventory efficiently and ship completed orders to customers also may be negatively affected by natural or human-caused disasters (including public health crises) or extreme weather (including as a result of climate change), geopolitical events and security issues, labor or trade disputes, and similar events.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links public health crises directly to disruptions in inbound inventory and outbound shipping—core supply-chain risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes the impact as ‘negatively affected,’ signalling operational harm.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Phrase is part of a long list of potential disruptors, diluting focus.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific operational area (inventory & shipping) tied to pandemic risk yields a solid, though not extreme, severity score."
+            },
+            {
+                "snippet": "Our computer and communications systems and operations in the past have been, or in the future could be, damaged or interrupted due to events such as natural or human-caused disasters (including public health crises) or extreme weather (including as a result of climate change), geopolitical events and security issues (including terrorist attacks and armed hostilities), computer viruses, physical or electronic break-ins, operational failures (including from energy shortages), and similar events or disruptions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names public health crises as a potential cause of IT system interruption—a critical function.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges prior occurrences (‘in the past have been’), indicating non-hypothetical exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Broad catch-all list lowers pandemic specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Not expressly tied to COVID-19.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Shows possible pandemic impact on IT resilience, but generic framing and lack of COVID-specific detail keep severity very low."
+            },
+            {
+                "snippet": "Decisions by our current suppliers to limit or stop selling or licensing merchandise, content, components, or services to us on acceptable terms, or delay delivery, including as a result of one or more supplier bankruptcies due to poor economic conditions, as a result of natural or human-caused disasters (including public health crises), or for other reasons, may result in us being unable to procure alternatives from other suppliers in a timely and efficient manner and on acceptable terms, or at all.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties supplier delivery delays to public health crises, highlighting supply-chain vulnerability.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Warns of potentially severe outcome—failure to procure alternatives, implying material disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic clause within a longer enumeration, reducing COVID salience.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Clear linkage between pandemic events and supplier failures gives moderate weight; absence of COVID-specific metrics tempers the score."
+            }
+        ],
+        "calculated_score": 19,
+        "average_severity": 3.8
+    }
+]

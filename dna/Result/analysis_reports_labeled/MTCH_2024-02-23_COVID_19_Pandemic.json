@@ -1,0 +1,152 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Match Group’s 2024 Form 10-K devotes a discrete risk-factor subsection to global health pandemics.  The language ties COVID-19 to concrete, already-experienced pressures – reduced consumer confidence, lower ability of users to pay, and the behavioural impact of lockdowns and social-distancing measures – while also warning that a renewed or prolonged public-health crisis could materially damage revenue and overall financial performance.  These statements blend backward-looking evidence (the Company says its results \"have been\" adversely affected) with forward-looking uncertainty.  They do not quantify the damage, nor do they cite supply-chain or labour disruptions; nevertheless they expressly connect COVID-19 to demand-side weakness, which is fundamental for a subscription-based, consumer-facing platform.  Because the filing date is about four years after the WHO declaration (mid-term in Time-Decay terms), peak severity scores are constrained to the middle of the range (≈4-6).  The text is generally specific (“lockdowns, closures, quarantines, and travel bans”) and uses strong materiality language, but it also contains caveats about unpredictability, which tempers the final scores.",
+        "evidence_list": [
+            {
+                "snippet": "Our business and results of operations have been and may in the future be adversely affected by global health pandemics.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states both historical and prospective adverse effects on business performance from pandemics.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Provides no detail or quantification, making it relatively generic.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Directly links pandemics to harm, but at a generic level and without numbers, yielding a mid-low score of 3."
+            },
+            {
+                "snippet": "Our business could be materially and adversely affected by the outbreak of a widespread health epidemic or pandemic, such as the Coronavirus Disease 2019 (COVID-19) pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 specifically and frames the impact as 'materially and adversely' affecting the business.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Still phrased as a conditional, forward-looking risk with no quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific reference to COVID-19 and strong materiality language drive the score upward, offset slightly by the hypothetical nature."
+            },
+            {
+                "snippet": "The COVID-19 pandemic reached across the globe, resulting in the implementation of significant governmental measures intended to control the spread of the virus, including lockdowns, closures, quarantines, and travel bans, as well as changes in consumer behavior as individuals became reluctant to engage in social activities with people outside their households.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete government actions (lockdowns, travel bans) and behavioural shifts linked to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Shows direct causation between the pandemic and these disruptive measures.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not quantify financial magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific operational disruptions tied directly to COVID-19 warrant a strong mid-range score of 5."
+            },
+            {
+                "snippet": "Such measures had an adverse impact on global economic conditions and consumer confidence and spending, and adversely affected users’ ability to pay, for our services.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that the pandemic measures already 'had an adverse impact'—evidence of realised harm.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links directly to users’ ability to pay, a core revenue driver.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No numeric disclosure of scale.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Describes concrete, historical damage to consumer spending and payment capacity, earning a score of 5."
+            },
+            {
+                "snippet": "The ultimate extent of the impact of any epidemic, pandemic, or other health crisis on our business will depend on multiple factors that are highly uncertain and cannot be predicted, including its severity, location, and duration, and actions taken to contain or further prevent its spread.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges potential impact but focuses on uncertainty and unpredictability.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Emphasises lack of visibility, a mitigating element that downplays immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "The sentence is largely a disclaimer of uncertainty, neutralising its risk signalling and resulting in a score of 0."
+            },
+            {
+                "snippet": "Additionally, pandemics could increase the magnitude of many of the other risks described in this annual report, and have other adverse effects on our operations that we are not currently able to predict.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes that pandemics can amplify other listed risks—an aggravating factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights inability to predict specifics, a mitigating factor.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Indicates broader risk amplification but with strong uncertainty language; yields a low score of 1."
+            },
+            {
+                "snippet": "If our business and the markets in which we operate experience a prolonged occurrence of adverse public health conditions, it could materially and adversely affect our business, financial condition, and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses strong materiality language ('materially and adversely affect').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Defines a clear condition (prolonged adverse health conditions) that would trigger impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking without numbers or timing specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Strong wording but still conditional and unquantified, positioning the snippet in the moderate range with a score of 3."
+            }
+        ],
+        "calculated_score": 21,
+        "average_severity": 3.0
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "NI’s 2024 Form 10-K contains only limited but still noteworthy discussion of pandemic-related risks.  Four years have elapsed since the World Health Organization declared COVID-19 a pandemic, moving the issue out of the “recent” window and into the medium-term (4-10 years) band under the Time Decay Principle.  The filing no longer treats COVID-19 as an acute crisis, yet management still recognises persistent second-order effects: (1) lingering economic damage that elevated customer bankruptcies and depressed revenue, and (2) the possibility that a future public-health emergency could disrupt field operations and customer service.  The first disclosure is framed as an existing, measurable impact (“results of operations are negatively impacted”), while the second is a forward-looking contingency folded into a broad catalogue of catastrophic events.  Neither passage quantifies dollar impacts or outlines detailed mitigation programmes; therefore they are more qualitative than numerical.  Considering both the moderate vintage of the pandemic and the generic tone of much of the language, the overall severity of the risk evidence is assessed as moderate.  Individual snippet scores are therefore capped in the 2-6 range to comply with the Time Decay Principle.",
+        "evidence_list": [
+            {
+                "snippet": "Our results of operations are negatively impacted by lower revenues resulting from higher bankruptcies, predominately focused on commercial and industrial customers not able to sustain operations through the economic disruptions related to the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links current negative financial effects to pandemic-related economic disruptions.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies the nature of the impact (higher bankruptcies leading to lower revenues), showing operational relevance.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses present-tense wording ('are negatively impacted') indicating the impact is ongoing.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantification of the magnitude of the impact, reducing precision.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Strong because it connects an ongoing financial hit to the pandemic, but lack of quantification and medium-term timing temper the score to 6."
+            },
+            {
+                "snippet": "A disruption or failure of natural gas distribution systems, or within electric generation, transmission or distribution systems, in the event of a major hurricane, tornado, wildfire, or other major weather event, or terrorist attack, acts of war, international military invasions, including the political and economic disruption and uncertainty related to such terrorist attack, acts of war, or international military invasions (e.g. Russia’s military invasion of Ukraine, Israel/Hamas conflict), civil unrest, accident, public health emergency (e.g. pandemic), or other catastrophic event could cause delays in completing sales, providing services, or performing other critical functions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemic as a potential cause of operational disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes concrete potential consequences (delays in sales, service, critical functions).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Pandemic is embedded within an expansive, generic list of catastrophes, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Mentions pandemic only as one item in a broad list of hazards, so the risk signal is weak and purely prospective, resulting in a low score of 2."
+            }
+        ],
+        "calculated_score": 8,
+        "average_severity": 4.0
+    }
+]

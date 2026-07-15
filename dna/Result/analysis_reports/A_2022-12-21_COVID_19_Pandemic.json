@@ -1,0 +1,211 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Company A’s 2022-12-21 filing repeatedly ties the COVID-19 pandemic to concrete, continuing and material risks across virtually every dimension of its operations: supply-chain reliability, demand volatility, site closures, installation delays, service limitations, and capital-markets exposure.  Most statements describe direct impacts already felt (e.g., the 2Q-22 Shanghai shutdown) while also warning of further potential disruption.  The language is largely specific—naming geographies, business functions and operational metrics—rather than boiler-plate.  Because the filing date is less than three years after the WHO declaration, the Time Decay Principle allows high severity scores.  Mitigating language (customers returning, improved conditions) appears but is outweighed by emphasis on uncertainty and the company’s inability to forecast the pandemic’s full effect.  Overall, the pandemic is portrayed as an active, high-magnitude enterprise risk, justifying generally elevated snippet scores between 3 and 9.",
+        "evidence_list": [
+            {
+                "snippet": "T he COVID-19 pandemic has adversely impacted, and continues to pose risks to, certain elements of our business, results of operations and financial condition, the nature and extent of which are highly uncertain and unpredictable.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states past and ongoing adverse impact from COVID-19 (‘has adversely impacted, and continues to pose risks’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers multiple critical areas (business operations, financial condition).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights high uncertainty and unpredictability, increasing perceived risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Event is recent (≤3 yrs) so Time Decay allows additional weight.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Direct, ongoing impact across business and finance with acknowledged uncertainty earns a near-maximum score within recent-event limits."
+            },
+            {
+                "snippet": "The global spread of COVID-19 had, and may continue to have, an adverse impact on our operations, sales and delivery and supply chains.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to adverse impacts already realized and potentially continuing.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies supply-chain, sales and operations—key value drivers.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Recent timeframe (≤3 yrs).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specific operational and supply-chain harm, both historic and prospective, yields a high score."
+            },
+            {
+                "snippet": "Due to these measures we experienced significant and unpredictable reductions or increases in demand for certain of our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes realized volatility in customer demand directly tied to pandemic measures.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses ‘significant and unpredictable,’ signaling magnitude and uncertainty.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Recent event window.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Demonstrated swings in product demand add material risk but lack financial quantification, producing a solid mid-high score."
+            },
+            {
+                "snippet": "Moreover, these measures caused delays in installations and significantly impacted our ability to service our customers on site.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details operational disruption (installation delays, service impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasises severity with ‘significantly impacted’.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Within recent timeframe.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specific service-delivery impairment elevates risk, justifying a 6."
+            },
+            {
+                "snippet": "For example, in the second quarter of fiscal year 2022, the outbreak of COVID-19 in China led to a mandated shutdown of our facilities in Shanghai, which negatively impacted our business and results, and impacted our supply chain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides concrete, dated example of facility shutdown due to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Notes negative impact on business results.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifically references supply-chain repercussions.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Very recent (2022) occurrence.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "A time-stamped, real shutdown with business and supply-chain damage merits a score of 9."
+            },
+            {
+                "snippet": "The COVID-19 pandemic also impacted our supply chain as we experienced disruptions or delays in shipments of certain materials or components of our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly states pandemic-related supply-chain disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions delays in critical inputs (materials/components).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recent timeframe effect.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Describes tangible supply-chain delays, sustaining a high score of 7."
+            },
+            {
+                "snippet": "While many of our customers have returned to work and economic activity has ramped up, we are unable to accurately predict the full extent and duration of the impact of the COVID-19 pandemic on our business and operations due to numerous uncertainties, including the duration and severity of the pandemic, the efficacy and distribution of vaccines, containment measures and additional waves of infection.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights inability to forecast pandemic impact, underscoring residual risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions some improvement (customers returned), partially mitigating.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Recent timeframe keeps relevance high.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Uncertainty adds risk but explicit note of improving conditions tempers severity, yielding a moderate score."
+            },
+            {
+                "snippet": "As COVID-19 conditions improved, there have been increases in demand for certain of our products, which posed challenges to our supply chain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies supply-chain stress from demand rebound.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges improvement, a mitigating element.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event remains recent.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Mixed message—improved demand but new supply-chain issues—keeps risk moderate."
+            },
+            {
+                "snippet": "If there are supply shortages or delays and we are not able to meet increasing product demand, our results would be adversely affected.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forward-looking warning of potential supply shortages impacting results.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links shortages/delays directly to financial performance.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Recent event context means risk still salient.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Potential financial harm from future supply shortfalls justifies a mid-level score."
+            }
+        ],
+        "calculated_score": 55,
+        "average_severity": 6.111111111111111
+    }
+]

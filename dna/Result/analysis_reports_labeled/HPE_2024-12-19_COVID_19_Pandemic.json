@@ -1,0 +1,66 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Hewlett Packard Enterprise’s 2024 Form 10-K shows that management still treats the COVID-19 pandemic as a relevant—but now largely background—risk driver.  The filing acknowledges that the pandemic previously created material, company-wide disruptions (operations, workforce, partners, customers, suppliers) and warns that a resurgence of similar public-health crises could once again depress operations, shake supply chains, and unsettle capital-market access.  The language is largely qualitative and framed in the conditional (\"may again\"), signalling that the most acute phase has passed.  Because the filing date (December 2024) is roughly 4 ¾ years after the WHO declaration (March 2020), the Time-Decay Principle places the event in the “medium-term” window (4-10 years), permitting moderate but not high severity scores.  The disclosures are explicit about COVID-19 and describe broad operational and financial channels of impact, yet they provide no quantified loss data nor new strategic pivots; mitigating steps are not highlighted.  Collectively, this supports mid-range risk evidence, warranting snippet scores between 3 and 5, and an overall assessment that pandemic risk is acknowledged but now considered one of several generic disruption factors rather than an immediate, stand-alone threat.",
+        "evidence_list": [
+            {
+                "snippet": "Public health crises, such as the COVID-19 pandemic, and the measures taken in response to such events have in the past negatively impacted, and may again in the future negatively impact, our operations and workforce, as well as those of our partners, customers and suppliers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit reference to the COVID-19 pandemic links the risk directly to the analysed event.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States that the pandemic previously produced negative impacts across core business areas (operations, workforce, partners, customers, suppliers) – breadth signals materiality.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking warning (\"may again in the future\") shows continuing exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantification of past or potential financial magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Directly ties COVID-19 to broad operational harm, both historical and potential, but lacks quantification; medium-term timing caps the evidence at a solid but not extreme 5."
+            },
+            {
+                "snippet": "Additionally, concerns over the economic impact of such events have, from time to time, caused increased volatility in financial and other capital markets, adversely impacting our stock price, our ability to access the capital markets, and our ability to fund liquidity needs, and may do so again in the future.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-type events to adverse financial-market outcomes (stock price, liquidity, capital-market access).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights concrete financial channels rather than generic disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Includes forward-looking language ('may do so again'), indicating ongoing vulnerability.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Impact magnitude is qualitative and unquantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Identifies specific financial-market risks linked to pandemic conditions, but absence of numbers and indirect reference keep the severity at a moderate 4."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 4.5
+    }
+]

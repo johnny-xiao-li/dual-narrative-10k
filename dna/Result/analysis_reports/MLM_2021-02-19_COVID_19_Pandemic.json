@@ -1,0 +1,189 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Martin Marietta’s 2021-02-19 Form 10-K treats COVID-19 as an immediate and continuing threat that is already eroding demand in its core construction markets and could disrupt almost every element of its operating model.  The filing blends backward-looking evidence (lower 1Q-20 construction growth, market impacts already felt) with forward-looking language that catalogues specific avenues of harm: employee illness, productivity loss, supply-chain and raw-material pricing pressures, transportation bottlenecks, potential site shutdowns if “essential” designations are revoked, as well as weakened public-sector funding because fuel-tax receipts are shrinking under remote-work patterns.  Although management notes short-term liquidity appears safe and cites the mitigating benefit of “essential” status, it simultaneously stresses that it “cannot accurately and fully predict” the pandemic’s ultimate impact.  Because the disclosure is recent (within one year of the pandemic declaration), detailed, company-specific and describes effects already underway, the Time Decay Principle allows high severity scores.  Mitigating statements and the absence of quantified dollar figures temper—rather than eliminate—the risk weightings, yielding mid-to-high single-digit scores for the strongest snippets and lower scores where the language becomes generic or expressly mitigating.",
+        "evidence_list": [
+            {
+                "snippet": "Our businesses could be adversely affected by the ongoing COVID-19 pandemic, or any other outbreak of disease, epidemic or pandemic, or similar public health threat, or fear of such an event and its related economic and societal response",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links the company’s performance to the ongoing COVID-19 pandemic (‘could be adversely affected’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Language is partly generic, bundling COVID-19 with other outbreaks and using conditional ‘could’.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Provides a clear but generic statement of pandemic risk; recent timing keeps the score meaningful but lack of specifics keeps it moderate."
+            },
+            {
+                "snippet": "Our businesses could be negatively impacted by the widespread outbreak of an illness or other communicable disease, or any other public health crisis that results in economic and trade disruptions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes potential negative impact on business from disease-driven economic and trade disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highly generic wording and conditional ‘could’.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Acknowledges pandemic-driven macro disruption but without COVID-specific operational detail, yielding a modest risk weight."
+            },
+            {
+                "snippet": "The proliferation of COVID-19 cases in the United States, and the extent that geography of outbreaks primarily matches the regions in which the Company’s Building Materials Business principally operates, in combination with the related governmental orders limiting individuals’ movements and social gatherings, as well as requiring many businesses to close for an undetermined period of time, are negatively impacting economic activity, consumer confidence and discretionary spending, and overall market conditions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that COVID-19 is already ‘negatively impacting’ key economic drivers.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights direct geographic exposure where company operates, increasing severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links impacts to government shutdown orders, showing a concrete mechanism.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Describes current, location-specific harm to demand, justifying a high severity score."
+            },
+            {
+                "snippet": "Further, COVID-19 could continue to negatively affect the health of our employees, employee productivity, customer purchasing patterns and fulfillment of purchase orders, availability of supplies, pricing for raw materials, and the ability to transport materials via the Company’s distribution network.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple operational vectors—labor, demand, supply chain, logistics—through which COVID-19 can hurt the firm.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Forward-looking ‘could continue’ tempers certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Lists many concrete risk channels but remains partly conditional, producing a robust yet not maximum score."
+            },
+            {
+                "snippet": "While our operations have been designated as “essential” under applicable government orders otherwise restricting business activities to prevent further outbreak of COVID-19, and accordingly have been permitted to continue to operate during the pendency of these orders, it is possible that they may not continue to be so treated under future government orders, or, even if so treated, site-specific health and safety concerns might otherwise require certain of the Company’s operations to be halted for some period of time.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies risk of forced shutdowns that would halt operations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Notes current mitigating factor (‘essential’ designation).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Balances a serious closure risk with an existing mitigation, leading to a lower-mid score."
+            },
+            {
+                "snippet": "We are monitoring the impact of COVID-19 on our operations and on our product demand.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms that COVID-19 impact is significant enough to warrant active monitoring.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Shows ongoing concern but gives no detail on magnitude; accordingly a modest score."
+            },
+            {
+                "snippet": "Due to economic uncertainty related to COVID-19, contractors and customers may delay advancing, or ultimately cancel, building projects.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links pandemic to demand destruction via project delays or cancellations.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highlights specific demand-side risk (project cancellations), meriting a strong score."
+            },
+            {
+                "snippet": "In addition, reduced travel due to remote working and stay-at-home practices, including as a result of governmental orders restricting activity, may continue to negatively impact fuel tax revenues that fund highway projects.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-induced behavior change to lower infrastructure funding, a core revenue driver.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Pinpoints an indirect but material funding risk, yielding a solid mid-level score."
+            },
+            {
+                "snippet": "While we do not currently expect that the virus will have a material adverse effect on the Company’s liquidity, we are unable to accurately and fully predict the impact that COVID-19 will have on the results of operations due to various uncertainties, including the ultimate geographic spread of the virus, the severity of the disease, the duration of the outbreak, actions that may be taken by governmental authorities and the timing and pace of any economic recovery as COVID-19 impacts ultimately abate.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges forecasting uncertainty across multiple parameters.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States expectation of no material liquidity effect, a mitigating note.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Highly mitigating statement offsets uncertainty admission, driving the score to zero under the rubric."
+            },
+            {
+                "snippet": "Subsequent to the Great Recession and until the impact from COVID-19 beginning in the first quarter of 2020, we experienced slow-but-steady construction growth that coincided with the longest economic recovery in United States history.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows that COVID-19 has already interrupted a long-running growth trend, evidencing realized impact.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Demonstrates actual disruption of growth trajectory; moderate score due to lack of quantified loss."
+            },
+            {
+                "snippet": "Though the Company’s operations have been considered an essential business during stay-at-home orders in 2020, the continuation of the COVID-19 pandemic has impacted markets in which the Company operates.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms market impact already occurring.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Mentions ‘essential’ designation, a partial mitigant.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Directly states pandemic impact but offset by mitigation, yielding a mid-level score."
+            }
+        ],
+        "calculated_score": 37,
+        "average_severity": 3.3636363636363638
+    }
+]

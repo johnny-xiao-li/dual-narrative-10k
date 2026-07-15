@@ -1,0 +1,56 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "ROP’s 2024 filing references the COVID-19 pandemic only in broad, forward-looking terms, grouping it with other disruptive events such as terrorism or extreme weather. The company does not cite any concrete, historical hit to revenue, profitability, supply chain, or labour force from COVID-19, nor does it quantify costs already incurred. Instead, the risk language positions a pandemic as a potential future disruption that could impair operations or demand. Because the pandemic began almost four years before the filing date, the Time Decay Principle caps the severity in the middle range. Overall, the disclosures suggest a residual, unmanaged exposure that management acknowledges but does not describe as currently material. The risk therefore sits at a moderate level—still relevant, but discussed generically and without specific financial magnitude.",
+        "evidence_list": [
+            {
+                "snippet": "Any business disruptions due to political instability, armed hostilities, incidents of terrorism, incidents of directed cyberattacks, public health crises, or extreme weather events or other natural disasters could adversely impact our financial performance.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly identifies 'public health crises' (which includes pandemics) as a disruptive risk factor.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States a direct adverse consequence on ‘financial performance’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic; provides no quantification or evidence of existing impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "The sentence links pandemics to financial harm but remains generic and unquantified; four years after COVID-19’s onset, this merits a moderate 4/10."
+            },
+            {
+                "snippet": "If terrorist activity, armed conflict, directed cyberattacks, political instability, public health crises, such as epidemics or pandemics, or extreme weather events or other natural disasters occur in the U.S. or other locations, such events may negatively impact our operations, cause general economic conditions to deteriorate, or cause demand for our products to decline.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifically references 'epidemics or pandemics' as a risk driver.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates multiple operational and demand-side impacts (operations, macro-economy, product demand).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses conditional language ('may') and lacks any quantified or past impact evidence.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "This sentence offers a clearer description of how a pandemic could hurt ROP, adding operational and demand implications; still hypothetical and unquantified, it scores a moderate 5/10."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 4.5
+    }
+]

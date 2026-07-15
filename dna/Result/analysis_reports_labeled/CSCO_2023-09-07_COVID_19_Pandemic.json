@@ -1,0 +1,70 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Cisco’s 2023 filing addresses pandemic-related threats almost exclusively in the risk-factor boiler-plate rather than in the performance narratives.  The company now frames COVID-19 as one element within a broader class of “public-health emergencies” that can disrupt its supply chain, inflate component costs and strain labor availability.  All references are forward-looking or contingency-oriented; none quantify an historical hit to revenue, margin, or cash flow.  This suggests that management believes the acute COVID-19 shock has eased, yet the underlying vulnerability (global sourcing of semiconductors and contract manufacturing) remains.  Because the pandemic is still within the 0-3-year Time-Decay window, any disclosure that directly links public-health emergencies to material adverse effects remains relevant, but the generic language and absence of specific financial data temper the severity.  Overall, the evidence points to a moderate residual risk rather than a currently material impact.",
+        "evidence_list": [
+            {
+                "snippet": "A reduction or interruption in supply, including disruptions on our global supply chain, caused in part by public health emergencies, geopolitical tensions (including as a result of China-Taiwan relations) or a significant natural disaster (including as a result of climate change) ... could materially adversely affect our business, operating results, and financial condition and could materially damage customer relationships.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites ‘public health emergencies’ as a trigger for global supply-chain disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects the trigger to potentially ‘materially adverse’ impacts on business, results and relationships.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Scope is global ('our global supply chain'), indicating breadth of exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking wording (‘could’) with no specific COVID-19 data.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "No quantified financial magnitude provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "The sentence links public-health emergencies to supply-chain disruption and material impact but remains generic and unquantified, yielding a moderate risk score of 3/10."
+            },
+            {
+                "snippet": "Our future results could be materially adversely affected by a variety of political, economic or other factors relating to our operations inside and outside the United States, any or all of which could have a material adverse effect on our operating results and financial condition, including the following: ... health or similar issues, including pandemics or epidemics;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists ‘pandemics or epidemics’ among factors that may materially affect results.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses ‘material adverse effect’ language, signaling seriousness.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generic, presented within a long catch-all list of risks.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No specific reference to COVID-19 or quantified impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Because the reference to pandemics is brief, generic, and unquantified, its evidentiary weight is low, resulting in a score of 1/10."
+            }
+        ],
+        "calculated_score": 4,
+        "average_severity": 2.0
+    }
+]

@@ -1,0 +1,240 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "EL’s 2023-08-18 10-K makes clear that COVID-19 remains one of the company’s most material, ongoing enterprise risks.  Although the initial WHO declaration occurred more than three years ago, multiple passages show that pandemic-related disruptions continued to depress fiscal-2023 sales (-10% overall) and to undermine the crucial Asia travel-retail channel.  The filing blends backward-looking evidence of realised harm—store closures, inventory reductions, weaker unit growth—and forward-looking warnings of a ‘more gradual and prolonged recovery.’  Risks span supply-chain bottlenecks (inventory tightening, shipping pressures), labour/travel constraints (visa delays, flight shortages, post-COVID regulations) and demand uncertainty (reduced foot traffic, changing consumer behaviour).  These statements are specific to COVID-19 (not generic ‘pandemic’ language), are tied to concrete business metrics and are temporally recent (FY-2023).  Under the Time Decay Principle, an event 3.5 years old commands moderately high severity scores (≈6-8) when impacts are still manifest; generic or mitigated statements merit lower scores (≈3-4).  The sentence-level micro-scores below reflect that calibration.",
+        "evidence_list": [
+            {
+                "snippet": "In addition, disruptions in local or global business conditions, for example, from events such as a pandemic or other health issues, geo-political or local conflicts, civil unrest, terrorist attacks, adverse weather conditions, climate changes or seismic events, can have a short-term and, sometimes, long-term impact on consumer spending.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘a pandemic’ as a potential disruptor of consumer spending (acknowledges pandemic risk).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking and generic; pandemic is only one item in a broader list, diluting specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No concrete financial metric or direct COVID-19 reference.",
+                            "points": 0
+                        },
+                        {
+                            "reason": "Still within ~3-4 year window, so recency keeps some relevance.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides a generic but clear acknowledgement that pandemics can dampen consumer demand, yielding a moderate score."
+            },
+            {
+                "snippet": "During the fiscal year ended June 30, 2023, the operating environment continued to be disrupted by the impact of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes ongoing disruption to COVID-19.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Applies to the entire ‘operating environment,’ indicating company-wide materiality.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Time-stamped to FY-2023, a very recent period.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Recent, company-wide disruption tied squarely to COVID-19 justifies a high severity score."
+            },
+            {
+                "snippet": "In mainland China, our performance in the first half of fiscal 2023 was hindered by low retail traffic as a result of COVID-19-related restrictions and the rise in COVID-19 cases.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Causal link between COVID restrictions/cases and hindered performance.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies geography and time period (H1 FY-2023) showing recency and specificity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates tangible operational harm (‘performance ... hindered’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Impact limited to one market, not whole company.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear, recent financial drag in a key market earns a strong but not maximum score."
+            },
+            {
+                "snippet": "During fiscal 2023, our business was challenged by the slower than anticipated recovery from the COVID-19 pandemic, including restrictions in mainland China and the rising number of COVID-19 cases earlier in the fiscal year.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States business-wide challenge directly linked to COVID recovery speed.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights concrete drivers (restrictions, rising cases).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Refers to FY-2023 period (recency).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Recent, enterprise-level difficulties tied to COVID recovery justify near-peak score."
+            },
+            {
+                "snippet": "We are experiencing a more gradual and prolonged recovery from the COVID-19 pandemic, particularly in our Asia travel retail business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits ongoing, extended recovery phase from pandemic; risk persists.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Targets critical revenue stream (Asia travel retail).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Present-tense ‘are experiencing’ underscores immediacy.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Still-unfolding recovery in a major segment sustains a high but not top score."
+            },
+            {
+                "snippet": "In Korea, the travel retail business slowed during the transition to post-COVID-19 regulations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links business slowdown to post-COVID regulatory transition.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies location but narrower scope than company-wide.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Reflects current-period operational impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Implied revenue hit (slowed business).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Localized but concrete impact earns a mid-level score."
+            },
+            {
+                "snippet": "On August 20, 2020, we announced a two-year restructuring program, Post-COVID Business Acceleration Program (the “PCBA Program”), designed to realign our business to address the dramatic shifts to our distribution landscape and consumer behaviors in the wake of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Demonstrates company had to launch a multi-year restructuring specifically because of pandemic-driven shifts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Represents mitigating action (proactive restructuring).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Program launched in 2020—slightly older but still within medium window.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows pandemic seriousness but also mitigation; moderate score applied."
+            },
+            {
+                "snippet": "Additionally, in Korea, the shipments to duty free retailers were pressured owing to the transition to post-COVID-19 regulations as traveling consumers gradually return.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects shipment pressure to post-COVID regulatory changes.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates operational strain (shipment volumes).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Geographically narrow.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Current period context (‘were pressured’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Narrow but factual operational impact delivers a modest risk score."
+            },
+            {
+                "snippet": "During the fiscal 2023 second quarter, the Dr.Jart+ reporting unit experienced lower-than-expected growth within key geographic regions and channels that continue to be impacted by the spread of COVID-19 variants, resurgence in cases, and the potential future impacts relating to the uncertainty of the duration and severity of COVID-19 impacting the financial performance of the reporting unit.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct link between COVID-19 variants and underperformance.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies financial under-delivery (‘lower-than-expected growth’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recency: Q2 FY-2023.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact limited to one brand unit.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Brand-level but quantified and recent COVID impact supports a strong score."
+            },
+            {
+                "snippet": "Elsewhere, the recovery from the COVID-19 pandemic progressed across markets globally over the course of the fiscal year as restrictions lifted.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges improving conditions, mitigating overall risk.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Still frames discussion around pandemic recovery, confirming continued relevance.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": -1
+                },
+                "reasoning_summary": "Predominantly mitigating language yields a minimal (effectively 0) risk contribution; included for completeness."
+            }
+        ],
+        "calculated_score": 49,
+        "average_severity": 4.9
+    }
+]

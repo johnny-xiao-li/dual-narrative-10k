@@ -1,0 +1,120 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CBOE’s 2023 filing situates COVID-19 as an ongoing, forward-looking risk that could materially affect virtually every facet of its business model—from trading volumes and market-data demand to workforce availability and legal exposure.  All references are couched as potential, not yet realized, impacts; however, the company explicitly lists multiple operational vectors (supply-chain disruptions, remote-work complications, regulatory shutdowns, shifts in trading behaviour) and repeatedly warns that these could have a “material adverse effect” on revenues, cash-flows and liquidity.  Because the filing date (February 2023) is fewer than three years after the pandemic’s declared onset, the Time-Decay Principle permits relatively high severity scores.  The language is largely qualitative and precautionary—there are no quantified dollar amounts—but the breadth of functions cited and the admission of possible material harm elevate the risk beyond boiler-plate.  Overall, I assess the disclosure as a moderately high (but not maximal) severity signal: specific operational channels are identified, the threat is active and proximate, yet the narrative remains un-quantified and partly generic, which tempers the ultimate scoring.",
+        "evidence_list": [
+            {
+                "snippet": "A pandemic, such as the COVID-19 pandemic, and its effects may have significant impacts on economies around the world.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly names COVID-19 and frames impact as ‘significant’.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Statement is broad and macro-level with no company-specific metric.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Direct reference to COVID-19 and the word ‘significant’ warrant positive points, but generic economic framing keeps the score modest."
+            },
+            {
+                "snippet": "Impacts of a pandemic could also have a material adverse effect on our business, financial condition, operating results and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to multiple core financial dimensions (‘material adverse effect’).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Conditional wording (‘could’) and lack of quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Uses strong ‘material adverse effect’ language across four financial areas, but future-conditional phrasing lowers certainty."
+            },
+            {
+                "snippet": "Governments, public institutions, and other organizations around the world may take or reimpose previous, emergency measures to combat a potential pandemic, including vaccination requirements, implementation of travel bans, stay-at-home orders, border closures, and closures of offices, factories, schools, public buildings and businesses.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists specific restrictive measures that can disrupt operations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Focuses on external actions rather than CBOE-specific vulnerability.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Rich detail on potential government actions earns points, but the risk is framed generically."
+            },
+            {
+                "snippet": "These measures may disrupt the supply chain and may interfere with the ability of our employees, vendors, technology equipment suppliers, data and disaster recovery centers, and other service providers to perform their respective responsibilities and obligations relative to the conduct of our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete operational channels: supply chain, vendors, tech suppliers, DR sites.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Still stated as ‘may’, indicating uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides company-specific operational disruption pathways, lifting the score despite conditional wording."
+            },
+            {
+                "snippet": "In addition to uncertain expenses and impacts to our business we may incur due to a pandemic as part of us providing a safe and healthy work and trading environment, employees working remotely from different locations and in connection with our return to our offices, we may also be subject to claims from employees or customers alleging failure to maintain safe premises and restrictions with respect to protocols relating to such pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Covers remote-work costs and potential legal liabilities—two distinct risk vectors.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses speculative verbs (‘may incur’, ‘may be subject’) and no figures.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Mentions new cost centres and litigation risk but highly speculative and unquantified, yielding a lower score."
+            },
+            {
+                "snippet": "Further, changes in trading behavior, impacts to trading behavior due to market disruptions, temporary suspensions of open outcry trading, temporary regulatory measures and other future developments caused by the effects of a pandemic, including a re-occurrence of cases and the emergence of variants, could impact trading volumes and the demand for our products, market data and services, which could have a material adverse effect on our business, financial condition, operating results and cash flows and could heighten many of the other risks described herein.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links pandemic to reduced trading volumes and product demand—core revenue drivers.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "References ‘material adverse effect’, strong impact language.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional (‘could’) and still qualitative; no numbers.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Pinpoints revenue-critical metrics (trading volume, demand) and uses forceful wording, justifying the highest score among snippets."
+            }
+        ],
+        "calculated_score": 22,
+        "average_severity": 3.6666666666666665
+    }
+]

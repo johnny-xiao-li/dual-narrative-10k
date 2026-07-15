@@ -1,0 +1,160 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "META’s 2021-01-28 10-K treats COVID-19 as a centrally material, ongoing threat that has already dented performance and could reshape the company’s risk profile for years.  The filing (i) recounts concrete, already-realised impacts—most notably the slowest quarterly ad-revenue growth in the firm’s public history—and (ii) lays out forward-looking exposures across revenue, operations, labour, supply chain and workforce productivity.  Language is specific and strong (“significant adverse impact,” “business slowdowns or shutdowns”), and the document goes beyond generic statements by naming precise transmission channels: inventory shortages, supply-chain and labour shortages, remote-work productivity drag, capacity constraints, and volatility in user demand.  These statements sit well within the 0-3-year “recent” window, so high severity scores (7-9) are warranted.  Mitigants are mentioned (e.g., surge in on-line commerce temporarily lifting ad demand) but are framed as potentially transient, leaving net risk elevated.  Overall, the pandemic is portrayed as both an immediate operational and financial shock and a catalyst for structural uncertainty; therefore the aggregate COVID-19 risk level for META is assessed as high.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic has had, and may in the future have, a significant adverse impact on our advertising revenue and also exposes our business to other risks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states realised impact (“has had”) linking pandemic to core revenue stream.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Projects continuing future risk (“may in the future have”).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong materiality language (“significant adverse impact”).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, high-impact wording ties past and future revenue damage to COVID-19, justifying a high score of 8."
+            },
+            {
+                "snippet": "These measures have caused, and are continuing to cause, business slowdowns or shutdowns in affected areas, both regionally and worldwide, which have significantly impacted our business and results of operations.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States ongoing operational disruption (“continuing to cause”) tied to pandemic containment measures.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links directly to overall business performance (“significantly impacted our business and results of operations”).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Global scope highlighted (“regionally and worldwide”), widening risk footprint.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Sentence details worldwide shutdown effects already harming operations, earning a strong score."
+            },
+            {
+                "snippet": "For example, in the second quarter of 2020, our advertising revenue grew 10% year-over-year, which was the slowest growth rate for any fiscal quarter since our initial public offering.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specific numeric comparison to historical performance gives concrete evidence of impact.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Tied causally to pandemic context (appears within COVID-19 discussion).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Implies materiality by referencing company IPO history.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Quantified, historically unprecedented revenue slowdown linked to COVID-19 merits a near-maximum score."
+            },
+            {
+                "snippet": "In addition, we believe that the pandemic has contributed to an acceleration in the shift of commerce from offline to online, as well as increasing consumer demand for purchasing products as opposed to services, which in turn have increased demand for our advertising services; however, it is possible that this increased demand may not continue in future periods and may even recede as the effects of the pandemic subside, which could adversely affect our advertising revenue growth.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies fundamental, pandemic-driven demand shift affecting business model.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Flags uncertainty and potential adverse reversal, highlighting forward-looking risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers consumer-demand dynamics—a core analysis focus.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows structural demand changes but with possible upside; net moderate-high risk (6)."
+            },
+            {
+                "snippet": "delays in product development or releases, or reductions in manufacturing production and sales of consumer hardware, as a result of inventory shortages, supply chain or labor shortages, or diversion of our efforts and resources to projects related to COVID-19;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites supply-chain and labour shortages causing production delays.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers multiple operational dimensions (development, manufacturing, sales).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking conditional phrasing slightly reduces immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct mention of supply-chain and labour risk yields a solid score of 7 despite conditional tone."
+            },
+            {
+                "snippet": "negative impact on our workforce productivity, product development, and research and development due to difficulties resulting from our personnel working remotely;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights remote-work productivity drag—key pandemic labour issue.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Touches critical innovation functions (product and R&D).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Addresses remote-work operational risk but lacks quantified impact, leading to a mid-level score."
+            },
+            {
+                "snippet": "volatility in the size of our user base and user engagement, particularly for our messaging products, whether as a result of shelter-in-place measures or other factors;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic containment measures to fluctuating demand/engagement.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Focuses on core platform usage risk but without financial quantification.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "User-engagement volatility linked to shelter-in-place is relevant but less severe than revenue or supply-chain issues."
+            }
+        ],
+        "calculated_score": 45,
+        "average_severity": 6.428571428571429
+    }
+]

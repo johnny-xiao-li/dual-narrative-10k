@@ -1,0 +1,188 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Dow’s 2022 Form 10-K frames COVID-19 as both an already-realized and still-evolving enterprise-wide threat.  The Risk-Factors section documents material impacts that have *already occurred* (e.g., demand destruction, supply-chain disruptions, labor shortages, asset impairments) while warning they can ‘continue’ and remain un-quantified because the duration and severity of the pandemic are unknown.  The company stresses that the virus has touched **all geographic regions** in which it operates and could ‘substantially’ harm results, cash-flow and liquidity, thereby elevating financial-statement risk.  Sentences are generally specific—listing concrete operational, financial and workforce impacts—yet remain partly generic regarding magnitude.  Management discussion later in the filing offers partial mitigation (plants largely kept running, strong liquidity, re-opened sites), but these statements do not eliminate the forward-looking exposure.  Considering the Time-Decay principle, COVID-19 is < 2 years old on the filing date, so high severity scores (7-10) are warranted for the most direct, material disclosures; sentences dominated by mitigation receive offsets.  The combined evidence confirms a high but actively managed risk profile.",
+        "evidence_list": [
+            {
+                "snippet": "A public health crisis or global outbreak of disease, including the pandemic caused by COVID-19 has had, and could continue to have, a negative effect on the Company's manufacturing operations, supply chain and workforce, creating business disruptions that could continue to have a substantial negative impact on the Company’s results of operations, financial condition and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to manufacturing, supply-chain and workforce damage already experienced.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States risk could ‘continue’ and be ‘substantial,’ signalling material future impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Touches all three key financial metrics (operations, condition, cash-flows).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 10
+                },
+                "reasoning_summary": "Direct, company-wide impacts both realized and prospective justify the maximum score for a recent event."
+            },
+            {
+                "snippet": "The pandemic caused by COVID-19 has impacted all geographic regions where Dow products are produced and sold.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms impact is global and not localized.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Refers to impacts already occurring (‘has impacted’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows breadth of impact but without financial quantification, yielding a moderate-high score."
+            },
+            {
+                "snippet": "The global, regional and local spread of COVID-19, including existing and new variants, has resulted in significant global mitigation measures, including government-directed quarantines, social distancing and shelter-in-place mandates, travel restrictions and/or bans, mask and vaccination mandates, restrictions on large gatherings and restricted access to certain corporate facilities and manufacturing sites.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details external mitigation measures that directly disrupt operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights evolving nature via ‘existing and new variants’.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific operational constraints are noted, but financial materiality is implied rather than stated."
+            },
+            {
+                "snippet": "Uncertainty with respect to the severity and duration of the COVID-19 pandemic, coupled with oil price fluctuations due in part to the global spread of COVID-19 and the continued increase in global cases, has contributed to the volatility of financial markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to macro-level market volatility.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasises ongoing uncertainty in severity/duration.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Captures systemic financial-market risk but is less company-specific, keeping score mid-range."
+            },
+            {
+                "snippet": "While the severity and duration of the COVID-19 pandemic in key geographic regions and end-markets cannot be reasonably estimated at this time, impacts to the Company include, but are not limited to: fluctuations in the Company’s stock price due to market volatility; a decrease in demand for certain Company products; price declines; reduced profitability; supply chain disruptions impeding the Company’s ability to ship and/or receive product; temporary idling or permanent closure of select manufacturing facilities and/or manufacturing assets; asset impairment charges; interruptions or limitations to manufacturing operations imposed by local, state or federal governments; reduced market liquidity and increased borrowing costs; workforce absenteeism and distraction; labor shortages; customer credit concerns; increased cyber security risk and data accessibility disruptions due to remote working arrangements; workforce reductions and fluctuations in foreign currency markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates extensive, specific operational and financial impacts already experienced or likely.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Acknowledges inability to estimate severity/duration, signalling high uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers multiple risk categories (demand, supply chain, impairments, liquidity, labor).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Comprehensive list of concrete negative effects across functions warrants near-maximum score."
+            },
+            {
+                "snippet": "Additional risks may include, but are not limited to: shortages of key raw materials; potential impairment in the carrying value of goodwill; additional asset impairment charges; increased obligations related to the Company’s pension and other postretirement benefit plans; and tax valuation allowances.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces further prospective financial statement risks (goodwill, pensions, taxes).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking phrasing (‘may include’) slightly lessens immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Adds breadth to risk landscape but with conditional language, so score is lower."
+            },
+            {
+                "snippet": "Business disruptions and market volatility resulting from the COVID-19 pandemic have had and could have a substantial negative impact on the Company’s results of operations, financial condition and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties realised and future ‘substantial’ negative impact to core financial metrics.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Combines both past (‘have had’) and forward-looking (‘could have’) effects.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Strong language on materiality across earnings, condition and cash flow earns high score."
+            },
+            {
+                "snippet": "The adverse impact of the COVID-19 pandemic on the Company may also have the effect of heightening many of the other risks described in this \"Risk Factors\" section.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows compounding nature of pandemic risk on other risk factors.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional (‘may’) softens certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Signals inter-risk amplification but with tentative wording, producing a minimal score."
+            },
+            {
+                "snippet": "Although supply disruptions and related logistics issues have posed challenges across all modes of transportation, the Company’s manufacturing sites have continued to operate during the COVID-19 pandemic, with no significant impact to manufacturing whether through shutdowns or shortages in labor, raw materials or personal protective equipment.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges supply-chain challenges (risk factor).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Strong mitigating statement of ‘no significant impact’ to manufacturing.",
+                            "points": -4
+                        }
+                    ],
+                    "final_snippet_score": -2
+                },
+                "reasoning_summary": "Mitigation outweighs risk in this sentence, resulting in a negative contribution that tempers overall assessment."
+            },
+            {
+                "snippet": "The Company is well-positioned for continued profitable growth in the ongoing economic recovery and improving industry cycle.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Expresses confidence and resilience, mitigating pandemic risk.",
+                            "points": -3
+                        }
+                    ],
+                    "final_snippet_score": -3
+                },
+                "reasoning_summary": "Purely positive outlook offsets some earlier severity, so it receives a negative (mitigating) score."
+            }
+        ],
+        "calculated_score": 37,
+        "average_severity": 3.7
+    }
+]

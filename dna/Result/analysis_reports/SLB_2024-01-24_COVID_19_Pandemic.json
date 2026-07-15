@@ -1,0 +1,140 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "SLB’s 2023 Form 10-K links the COVID-19 pandemic to both historical and continuing material impacts across demand, operations, supply chain and liquidity. The company states that the pandemic \"has had, and may continue to have, a material adverse effect\"—confirming an experienced, direct hit that is still unfolding. Most language is qualitative but detailed, enumerating concrete channels of disruption (e.g., drilling suspensions, supply-chain delays, labor illness, customer shutdowns). Because the filing date (January 2024) is less than four years after the declared start of the pandemic (March 2020), the Time Decay Principle treats the event as “recent,” allowing elevated scores. However, the absence of precise dollar figures or quantified volume effects tempers maximum severity. Overall, the risk evidence is specific, forward-looking, and anchored in actual experience, warranting moderate-to-high snippet scores in the 4-7 range, with smaller scores for generic references.",
+        "evidence_list": [
+            {
+                "snippet": "Public health emergencies, such as the COVID-19 pandemic, and resulting adverse economic conditions have had, and may continue to have, a material adverse effect on our financial condition, results of operations, and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names COVID-19 and states it has already impacted the company (‘have had’) and could continue to do so.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong, materiality language (‘material adverse effect’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No numerical quantification of impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct, recent, and material language yields a high score despite lack of quantification."
+            },
+            {
+                "snippet": "Public health emergencies, including the COVID-19 pandemic, have caused, and could again cause, a significant reduction in global economic activity, significantly weakening demand for oil and gas, and in turn, demand for our products and services.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 to both past (‘have caused’) and future (‘could again cause’) demand shocks.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects macroeconomic downturn directly to the company’s core revenue driver (oil-and-gas demand).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking warning enhances risk relevance.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No numerical estimate provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows clear demand-side vulnerability tied to COVID-19 but remains qualitative, so score is mid-high."
+            },
+            {
+                "snippet": "Other effects of public health emergencies have included, and may continue to include, significant volatility and disruption of the global financial markets; adverse revenue and net income effects; disruptions to our operations, including suspension or deferral of drilling activities; customer shutdowns of oil and gas exploration and production; downward revisions to customer budgets; limitations on access to sources of liquidity; supply chain disruptions; limitations on access to raw materials; employee impacts from illness; and local and regional closures or lockdowns, including temporary closures of our facilities and the facilities of our customers and suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple concrete channels of impact (supply-chain, labor, liquidity, drilling suspensions).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers both historical and prospective effects (‘have included, and may continue to include’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic ‘public health emergencies’ framing, not always COVID-specific.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Detailed operational impacts raise risk, but generic wording and no numbers keep score moderate."
+            },
+            {
+                "snippet": "The extent to which our operating and financial results will be and may continue to be affected by public health emergencies will depend on various factors beyond our control, such as the continued severity and duration of the public health emergencies, including any sustained geographic resurgence; the emergence of new variants and strains of a contagious disease or virus; and the success of actions to contain or mitigate the effects of the public health emergency.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights uncertainty and dependence on uncontrollable future pandemic dynamics (variants, duration).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Maintains forward-looking perspective, signalling ongoing risk exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No explicit historical impact or quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Mainly sets contingency parameters; risk is acknowledged but not strongly evidenced, so score is low."
+            },
+            {
+                "snippet": "A public health emergency, and volatile regional and global economic conditions stemming from a public health emergency, could also aggravate our other risk factors described in this Form 10-K.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemics can amplify all other corporate risks, indicating systemic vulnerability.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly conditional and generic with no specifics or figures.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Broad, unquantified amplification claim yields a minimal score."
+            },
+            {
+                "snippet": "• extreme weather conditions, natural disasters, and public health or similar issues, such as pandemics and epidemics.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists pandemics among potential disruptive factors.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Purely generic boiler-plate reference.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic bullet point provides weak, background-level evidence, so minimal score is assigned."
+            }
+        ],
+        "calculated_score": 19,
+        "average_severity": 3.1666666666666665
+    }
+]

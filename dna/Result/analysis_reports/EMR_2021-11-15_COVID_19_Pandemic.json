@@ -1,0 +1,286 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "EMR’s November 15 2021 Form 10-K acknowledges both realized and continuing risks from the COVID-19 pandemic.  Because the filing date is within two years of the World Health Organization’s March 11 2020 declaration, the Time-Decay Principle permits relatively high scores.  The Risk Factors section expressly states that COVID-19 has already ‘adversely impacted’ the company and may cause further material harm, detailing concrete mechanisms such as demand destruction, supply-chain interruptions, regulatory delays, labour shortages tied to vaccination mandates, manufacturing downtime, employee absenteeism, credit-market volatility and liquidity pressure.  The language is event-specific—not a boiler-plate reference to generic epidemics—and blends backward-looking evidence (e.g., 9 % sales decline in 2020 directly attributed to COVID-19) with forward-looking uncertainty.  Several mitigating steps (remote-work arrangements, hygiene protocols, diversified supply, hedging) are disclosed but are outweighed by the breadth, immediacy and multi-dimensional nature of the threat.  Accordingly, individual snippet scores cluster in the 5-8 range, with the highest scores reserved for quantified, already-realised impacts, and moderate scores for prospective or less-specific statements.  Very generic pandemic references score low.  No snippet is reduced to zero because the event is recent and clearly relevant.",
+        "evidence_list": [
+            {
+                "snippet": "In addition, the ongoing COVID-19 pandemic could delay the receipt of certain regulatory approvals.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to a potential operational delay (regulatory approvals).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking (‘could delay’) indicates uncertainty rather than realised impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific but narrow operational risk; no quantification, so a moderate 4."
+            },
+            {
+                "snippet": "However, the supply of materials or other items could be disrupted by natural disasters, a health epidemic or pandemic, or other events.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Recognises pandemic as a possible supply-chain disruptor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic, grouped with other events; no COVID-19 specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic contingency language earns a low score of 1."
+            },
+            {
+                "snippet": "Our and our suppliers’ international production facilities and operations could be disrupted by weather and natural disaster (including the potential effects of climate change), labor strife, war, political unrest, terrorist activity or public health concerns such as an epidemic or pandemic, particularly in emerging countries that are not well-equipped to handle such occurrences.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemic as a factor that can directly disrupt global production.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists many other hazards, diluting pandemic focus.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Disruption risk noted but diluted; modest score of 2."
+            },
+            {
+                "snippet": "The Coronavirus (COVID-19) Outbreak Has Adversely Impacted our Business and Could in the Future Have a Material Adverse Impact on our Business, Results of Operation, Financial Condition and Liquidity, the Nature and Extent of Which is Highly Uncertain",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Heading declares both realised and potential ‘material adverse’ impact.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "No quantitative detail but strong, unequivocal wording.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Strong language elevates the heading to 6 despite lack of numbers."
+            },
+            {
+                "snippet": "The global outbreak of the coronavirus (COVID-19) has significantly increased economic, demand and operational uncertainty.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct causation between COVID-19 and increased uncertainty across core areas.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses the intensifier ‘significantly’.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Event-specific, multi-dimensional uncertainty warrants 5."
+            },
+            {
+                "snippet": "We have global operations, customers and suppliers, including in countries most impacted by COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights geographic exposure to heavily affected regions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Implied vulnerability rather than stated impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Exposure statement earns a moderate 4."
+            },
+            {
+                "snippet": "Authorities around the world have taken a variety of measures to slow the spread of COVID-19, including travel bans or restrictions, increased border controls or closures, quarantines, shelter-in-place orders and business shutdowns and such authorities may impose additional restrictions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates specific governmental actions that can disrupt operations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Notes possibility of further restrictions, extending risk horizon.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Detailed list of disruptive measures justifies a 5."
+            },
+            {
+                "snippet": "We have also taken actions to protect our employees and to mitigate the spread of COVID-19, including embracing guidelines set by the World Health Organization and the Centers for Disease Control and Prevention on social distancing, good hygiene, restrictions on employee travel and in-person meetings, and changes to employee work arrangements including remote work arrangements where appropriate.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete mitigation actions (remote work, hygiene, travel limits).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Acknowledges need to address COVID-19 risk, confirming its seriousness.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Mitigations counterbalance risk acknowledgment, resulting in a neutral 0."
+            },
+            {
+                "snippet": "Evolving government plans around the world to institute vaccination mandates, including in the U.S., create uncertainty that may impact our employees and result in labor shortages and unforeseen costs, which could negatively affect our results.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links vaccination mandates to labour shortages and cost risks.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Forward-looking with potential financial impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specific labour-supply and cost risks from mandates warrant a 6."
+            },
+            {
+                "snippet": "These actions have and may continue to impact our employees, customers and suppliers, and future developments could cause further disruptions to Emerson due to the interconnected nature of our business relationships.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits current and future disruptions across stakeholder groups.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights systemic risk via interconnected relationships.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Acknowledged ongoing disruption across the value chain scores 5."
+            },
+            {
+                "snippet": "The impact of COVID-19 on the global economy and our customers, as well as volatility in commodity markets (including oil prices), has negatively impacted demand for our products and could continue to do so in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States realised demand decline due to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Predicts continuing negative demand impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Realised and prospective demand hit merits a strong 6."
+            },
+            {
+                "snippet": "Its effects could also result in further disruptions to our manufacturing operations, including higher rates of employee absenteeism, and supply chain, which could continue to negatively impact our ability to meet customer demand.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies manufacturing disruption, absenteeism and supply-chain risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Emphasises ongoing negative ability to meet demand.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Operations-focused risk with no figures earns 5."
+            },
+            {
+                "snippet": "Additionally, the potential deterioration and volatility of credit and financial markets could limit our ability to obtain external financing.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Ties pandemic-driven market volatility to liquidity risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Expresses possibility but not certainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Financing risk linked to pandemic-era volatility scores 4."
+            },
+            {
+                "snippet": "The extent to which COVID-19 will impact our business, results of operations, financial condition or liquidity is highly uncertain and will depend on future developments, including the spread and duration of the virus, potential actions taken by governmental authorities, and how quickly economic conditions stabilize and recover.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises broad uncertainty across multiple financial dimensions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights dependency on external, unpredictable factors.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Generic but comprehensive uncertainty earns 4."
+            },
+            {
+                "snippet": "Net sales for 2020 were $16.8 billion, a decrease of $1.6 billion, or 9 percent compared with 2019, as the global outbreak and spread of COVID-19 resulted in a rapid decline in demand which impacted most of the Company's end markets and geographies in the second half of the year.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies a significant (9 %) sales decline directly attributed to COVID-19.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Demonstrates realised, company-wide impact across geographies.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Quantified, already-incurred impact pushes score to 8."
+            },
+            {
+                "snippet": "Automation Solutions sales were $11.2 billion in 2020, a decrease of $1,047, or 9 percent, reflecting the negative effects of COVID-19 which impacted most end markets and geographies in the second half of the year, particularly in North America.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Segment-level 9 % decline explicitly linked to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies geographic focus (North America) and timing.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Quantified segment damage merits a solid 6."
+            }
+        ],
+        "calculated_score": 71,
+        "average_severity": 4.4375
+    }
+]

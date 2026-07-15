@@ -1,0 +1,132 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Boeing’s 2024 Form 10-K still identifies the COVID-19 pandemic as a material but moderating threat.  Nearly four years after the World Health Organization declared COVID-19 a pandemic, the company’s language has shifted from emergency response to residual vigilance: pandemics are now listed among other macro factors that can suppress aircraft demand or disrupt operations, and management admits the industry \"remains vulnerable\" to renewed outbreaks.  At the same time, several passages emphasise that global traffic and service revenues have largely rebounded to (or above) 2019 levels, with the principal short-fall confined to China’s international market.  No quantified cost impacts or current cash-flow drains are disclosed, signalling that the direct financial damage has substantially decayed.  Consequently, under the Time Decay Principle, the event sits in the medium-term band (≈4 years old), warranting moderate evidence scores.  Sentences that merely list pandemics in a catalogue of risks score low-to-moderate, while those highlighting recovery act as mitigating evidence, producing zero or minimal scores.  The aggregate picture is one of ongoing, forward-looking exposure rather than acute distress.",
+        "evidence_list": [
+            {
+                "snippet": "Demand for our commercial aircraft is further influenced by airline profitability, availability of aircraft financing, world trade policies, government-to-government relations, technological advances, price and other competitive factors, fuel prices, terrorism, pandemics, epidemics and environmental regulations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly includes 'pandemics' as a factor that can affect demand for aircraft.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links this factor directly to revenue-driving demand, indicating potential financial impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Presented as one item in a long generic list with no quantification or immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Direct mention of pandemics affecting demand elevates risk, but the generic, unquantified listing tempers severity, yielding a moderate score of 2."
+            },
+            {
+                "snippet": "Our business may be impacted by disruptions including threats to physical security or our information technology systems, extreme weather (including effects of climate change) or other acts of nature, and pandemics or other public health crises.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names pandemics/public-health crises as a discrete disruption source.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects the hazard to potential operational and financial impact ('may be impacted').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses conditional language and groups pandemics with many other threats, reducing specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Explicitly ties pandemics to possible business disruption but in cautious, generic terms, resulting in a moderate score."
+            },
+            {
+                "snippet": "The industry remains vulnerable to exogenous developments including fuel price spikes, credit market shocks, acts of terrorism, natural disasters, conflicts, epidemics, pandemics and increased global environmental regulations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States continued vulnerability to pandemics, implying an ongoing risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Frames the threat as industry-wide and forward-looking.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Again embedded in a broad list without company-specific data or magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Conveys persistent exposure but lacks detail, keeping the score at a moderate 2."
+            },
+            {
+                "snippet": "In 2023, global air traffic largely recovered to 2019 levels with domestic travel continuing to be the most robust and the single-aisle market following closely.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates that traffic has mostly rebounded, signalling reduced pandemic impact.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Shows improved demand environment, acting as a mitigating factor.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "This sentence mitigates pandemic risk rather than aggravating it, so after negative adjustments the net score is 0."
+            },
+            {
+                "snippet": "The transition in the international commercial market from recovery to normal market conditions is progressing slowly as China international travel remains below 2019 levels.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights lingering demand weakness linked to slower pandemic recovery in China.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Provides specific geographic detail, underscoring targeted exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Describes a gradual improvement, partially offsetting severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Identifies a specific area where pandemic effects persist, but partial recovery moderates the overall score."
+            },
+            {
+                "snippet": "In 2023, commercial services volume at BGS exceeded pre-pandemic levels.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Demonstrates that at least one business segment has surpassed pre-pandemic performance, reducing perceived risk.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Implies strong demand recovery, an additional mitigating signal.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "The sentence evidences mitigation rather than heightened risk; negative components zero out the snippet’s threat score."
+            }
+        ],
+        "calculated_score": 8,
+        "average_severity": 1.3333333333333333
+    }
+]

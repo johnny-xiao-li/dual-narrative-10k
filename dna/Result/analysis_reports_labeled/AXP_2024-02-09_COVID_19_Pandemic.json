@@ -1,0 +1,86 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "American Express (AXP) frames COVID-19 primarily as a macro-economic driver that has already produced material setbacks (e.g., a significant hit to network volumes) while still posing residual, forward-looking threats through labour-market frictions, supply-chain issues, inflation and the possibility of new variants.  Because the filing date (9 Feb 2024) is almost four years after the WHO pandemic declaration, the most acute phase of the crisis is treated as historical, yet the company explicitly acknowledges lingering impacts and continued uncertainty.  The disclosures are specific about past adverse volume effects and cite concrete transmission channels (consumer behaviour shifts, supply-chain disruption, labour shortages), signalling more than boiler-plate language.  Applying the Time-Decay Principle, evidence warrants moderate – not maximum – severity: the event sits at the threshold between recent and medium-term (≈4 years), so individual snippet scores are capped at 6, yielding an overall medium-high pandemic risk assessment for AXP.",
+        "evidence_list": [
+            {
+                "snippet": "Factors such as consumer spending and confidence, household income and housing prices, unemployment rates, business investment and inventory levels, bankruptcies, geopolitical instability, public policy decisions, government spending, international trade relationships, interest rates, taxes, inflation and deflation (including the effects of related governmental responses), energy costs, availability of capital and credit and the lingering impacts of the COVID-19 pandemic all affect the economic environment and, ultimately, our profitability.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links the lingering impacts of COVID-19 to profitability, signalling ongoing risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Contextualises pandemic within a broad list of macro factors, slightly diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Provides a forward-looking statement that COVID-19 still affects profitability, but phrasing is broad, so risk is present yet not acute."
+            },
+            {
+                "snippet": "The COVID-19 pandemic had widespread, rapidly evolving and unpredictable impacts on global society, economies, financial markets and consumer and business behaviors.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes the pandemic’s impacts as ‘widespread, rapidly evolving and unpredictable,’ highlighting severity.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Statement is retrospective, referring to past impacts rather than future exposure.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Captures severity of past disruption but lacks forward-looking or company-specific detail, moderating the score."
+            },
+            {
+                "snippet": "The pandemic and resulting containment measures adversely impacted a significant portion of our network volumes.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly acknowledges material, company-specific financial harm (‘significant portion of our network volumes’).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Impact is historical (use of past tense), invoking time-decay moderation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Strong, specific link to a material metric (network volumes) but tempered because the impact occurred in the past."
+            },
+            {
+                "snippet": "The global macroeconomic outlook continues to remain uncertain due to a variety of factors, including the emergence of new variants, impacts to the labor market, supply chain disruptions and inflation.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Projects continued uncertainty tied to COVID-19 variants and cites labour and supply-chain disruptions—clear forward-looking risk channels.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Does not quantify potential effect on AXP’s own financials, lowering precision.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Forward-looking acknowledgement of pandemic-related uncertainties, but generic to the macro environment and unquantified."
+            }
+        ],
+        "calculated_score": 13,
+        "average_severity": 3.25
+    }
+]

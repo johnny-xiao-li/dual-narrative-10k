@@ -1,0 +1,128 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated almost four years after the World Health Organization declared COVID-19 a pandemic, presents the virus primarily as an ongoing but moderating macro-risk.  The disclosures repeatedly acknowledge that a ‘prolonged public-health crisis or pandemic’ can depress consumer demand, disrupt suppliers, and shut distribution centres, and they point to a measurable drop in U.S. miles-driven (-13.2 % in 2020) that flowed directly from pandemic restrictions.  However, the statements are generally forward-looking, couched in conditional language (“could”, “may”), and are embedded in broad laundry lists of other hazards.  No current, quantified hit to ORLY’s 2023 financials is cited; instead, the company frames COVID-19 as one of several exogenous shocks it must monitor.  Applying the Time-Decay Principle, the pandemic is now in the medium-term window (between 3 and 10 years old), so maximum evidence scores should fall in the 4-6 range.  Overall, the risk remains material but is less acute than in earlier filings, yielding moderate severity scores for each sentence.",
+        "evidence_list": [
+            {
+                "snippet": "The economic health of our customers is affected by many factors, including, among others, general business conditions, interest rates, inflation, consumer debt levels, the availability of consumer credit, currency exchange rates, taxation, fuel prices, unemployment levels, a prolonged public health crisis or pandemic, and other matters that influence consumer confidence and spending.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names ‘a prolonged public health crisis or pandemic’ as a demand driver risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects pandemic to reduced consumer confidence and spending, linking to revenue impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presented within an extended laundry list, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Moderate risk: clear mention of pandemic effect on demand, but generic listing tempers severity."
+            },
+            {
+                "snippet": "If third parties, on whom we rely for merchandise, are unable to overcome difficulties resulting from the deterioration in economic conditions, the cause of which could include a prolonged public health crisis or pandemic, and provide us with the merchandise we need, or if counterparties to our credit facilities do not perform their obligations, our business, results of operations, financial condition, and cash flows could be adversely affected.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Ties a prolonged pandemic directly to suppliers’ and counterparties’ financial distress.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights concrete operational exposure—failure to receive merchandise.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional ‘could’, signalling uncertainty rather than realized impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct supply-chain linkage elevates severity to upper-medium, offset slightly by conditional wording."
+            },
+            {
+                "snippet": "We could also be negatively impacted when our suppliers or our supply chain experiences work stoppages; labor strikes; a prolonged public health crisis or pandemic; shipping and transportation disruptions or increased costs; currency fluctuations or inflation; or other interruptions to, or difficulties in, the manufacture or supply of the products we purchase.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists ‘a prolonged public health crisis or pandemic’ as a discrete cause of supply-chain disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly connects disruption to the company’s ability to secure products.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Appears in an enumerated list alongside other hazards, reducing specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Strong supply-chain relevance keeps score high within medium-term ceiling despite list formatting."
+            },
+            {
+                "snippet": "Business interruptions, including from a prolonged public health crisis or pandemic, weather-related events, terrorist activities, war, political or civil unrest, or other disasters, or the threat of them, may result in a disruption of operations or the closure of one or more of our DCs or other facilities, or may adversely affect our ability to deliver inventory to our stores on a nightly basis.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names pandemic as a trigger for distribution-centre closures and operational disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details specific operational consequence—failure to deliver nightly inventory.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional ‘may’ and inclusion in a multi-hazard list dilute certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete operational threat yields high-moderate score; generic list language prevents higher rating."
+            },
+            {
+                "snippet": "According to the U.S. Department of Transportation, the number of total miles driven in the U.S. decreased 13.2% in 2020, as a result of responses to the coronavirus pandemic, including work from home arrangements and reduced travel.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes a core demand metric (miles driven) to pandemic responses.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Provides precise, quantified impact (-13.2%).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links to ORLY’s sales driver, reinforcing materiality.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Refers to historical 2020 data, somewhat aged in 2024 context.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Quantified, pandemic-specific decrease in miles driven represents the strongest evidence; time decay caps score at upper-medium level."
+            }
+        ],
+        "calculated_score": 25,
+        "average_severity": 5.0
+    }
+]

@@ -1,0 +1,190 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CMS Energy’s 2021 filing was written less than a year after the WHO declared COVID-19 a pandemic, so time-decay allows high risk scores.  The company devotes a discrete risk-factor section and expanded MD&A coverage to COVID-19, identifying both realised impacts (lower commercial and industrial electricity sales, higher bad-debt expense, workforce-related cost increases, rescheduled cap-ex) and plausible future threats (prolonged economic contraction, supply-chain disruption, labour shortages, liquidity strain).  Language is generally explicit and materiality-oriented (“could materially and adversely affect,” “directly attributable to the pandemic”), demonstrating that management sees the pandemic as a current, significant, and evolving enterprise-wide hazard.  Some mitigating actions—business-continuity plans, liquidity financings, remote-work protocols—are disclosed, but they do not fully neutralise the breadth of operational, financial, and strategic uncertainty the virus introduces.  Overall, the evidence supports a high but not maximum severity: the risk is already manifesting in financial metrics yet remains only partially quantified, and management admits it cannot forecast the full impact.  Therefore, individual snippet scores cluster in the 6-8 range when statements show direct realised effects, and fall to the 2-5 range when impacts are prospective or partly offset by mitigation.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic could materially and adversely affect each of CMS Energy’s and Consumers’ business, results of operations, financial condition, capital investment program, liquidity, and cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses strong materiality language ('materially and adversely affect').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates a broad set of critical impact areas (operations, liquidity, capital).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Event is recent (0-3 yrs), aligning with high-severity window.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Explicit statement of potentially material adverse effects across key business dimensions warrants a high score of 7."
+            },
+            {
+                "snippet": "Future impacts of the pandemic could include a prolonged reduction in economic activity, extended disruption to supply chains and operations, and reduced availability of labor and productivity.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete channels of harm (economic slowdown, supply-chain disruption, labour shortages).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking without quantification, slightly lowering certainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specifies multiple operational stress points but remains prospective and unquantified, yielding a moderate score."
+            },
+            {
+                "snippet": "Consumers has experienced a decline in electric deliveries to commercial and industrial customers and increased uncollectible accounts.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports actual, already-realised negative impacts (lower sales, higher bad-debt).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Relates directly to revenue and cash-flow drivers, though without numeric detail.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Evidence of concrete, realised financial harm earns a high-moderate score."
+            },
+            {
+                "snippet": "It has also experienced increased uncollectible accounts and workforce-related expenses, among other cost increases directly attributable to the pandemic.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights specific cost pressures already hitting the income statement.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Attributes costs directly to COVID-19, strengthening causal link.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct cost escalation tied to the pandemic supports a solid mid-range severity."
+            },
+            {
+                "snippet": "Additionally, EnerBank could experience slower lending growth, higher loan write-offs, and increased loan modifications in the future as a result of the pandemic.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Extends pandemic risk to a financial subsidiary, listing concrete credit-quality impacts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impacts are stated as potential, not yet realised.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Subsidiary-level forward-looking impacts are specific but not yet realised, giving a smaller score."
+            },
+            {
+                "snippet": "Consumers anticipates that these trends will continue in the near term.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Signals expectation of ongoing negative effects, implying persistence of risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Confirms durability of adverse impacts but lacks detail, resulting in a low-moderate score."
+            },
+            {
+                "snippet": "In response to the COVID-19 pandemic, Consumers has rescheduled some capital investment projects, but has not made any changes to its long-term capital investment program at this time.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows direct operational disruption (project rescheduling).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mitigating note that long-term program remains intact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Short-term cap-ex delays are a risk indicator but are partly offset by management’s assurance on long-term plans."
+            },
+            {
+                "snippet": "CMS Energy and Consumers maintain over 60 departmental business continuity plans; these plans were reviewed and enhanced in early 2020 to ensure readiness for the COVID-19 pandemic.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Demonstrates awareness and proactive preparation for pandemic disruptions.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Implicitly acknowledges existence of operational risk requiring such plans.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": -1
+                },
+                "reasoning_summary": "Strong mitigation outweighs implied risk, yielding a negative net score (risk evidence is largely offset)."
+            },
+            {
+                "snippet": "CMS Energy and Consumers have mitigated the potential impact of the pandemic on their liquidity by completing financing transactions and reducing the need for additional external funding.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies liquidity counter-measures that reduce financial exposure.",
+                            "points": -3
+                        },
+                        {
+                            "reason": "Acknowledges that liquidity risk exists absent mitigation.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": -2
+                },
+                "reasoning_summary": "Liquidity risk is recognised but largely neutralised through clear mitigation, producing a negative score."
+            },
+            {
+                "snippet": "The degree to which COVID-19 will impact CMS Energy and Consumers will depend in part on future developments, including the severity and duration of the outbreak, actions or inactions that may be taken by governmental authorities, and to what extent and when normal economic and operational conditions can resume.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits high uncertainty and dependency on uncontrollable external factors.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights uncontrollable uncertainty, a hallmark of elevated risk, but lacks quantitative detail."
+            }
+        ],
+        "calculated_score": 27,
+        "average_severity": 2.7
+    }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "FMC’s 2024 Form 10-K references the COVID-19 pandemic primarily within a broader “global catastrophic event” risk category.  The company uses largely forward-looking, hypothetical language (“could”) but also acknowledges the concrete, historic disruptions the pandemic already caused.  The disclosures flag multiple transmission channels—employee health, supply-chain interruptions, market‐access limits, macro-economic contraction and weakened product demand—yet remain un-quantified and mostly generic.  Because the filing date (27 Feb 2024) sits almost four years after the WHO declared COVID-19 a pandemic (11 Mar 2020), the Time-Decay Principle dictates that evidentiary severity be capped in the mid-range.  Overall, the pandemic is portrayed as a material but now normalized, ongoing risk rather than an acute crisis; therefore snippet scores cluster between 2-5, with higher values reserved for the single sentence that cites specific, realised disruptions from COVID-19 itself.",
+        "evidence_list": [
+            {
+                "snippet": "A global catastrophic event (e.g., nuclear incident, pandemic, natural disaster) could endanger the lives and safety of our employees, limit market access, constrain supply and would require high levels of cross-functional coordination to maintain business continuity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘pandemic’ as a potential catastrophic event.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details multiple operational impacts (employee safety, supply constraints, market access).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights enterprise-wide coordination needs, signalling breadth of exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Purely hypothetical wording (‘could’) and no quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly links pandemics to several material operational threats, but lack of quantification and use of hypothetical language temper the score to a moderate 4."
+            },
+            {
+                "snippet": "Global catastrophic events could also result in social, economic, and labor instability in the countries in which we or our customers and suppliers operate.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes broad systemic fallout (social, economic, labor instability).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Contextually tied to the earlier pandemic example, extending the scope of impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic ‘could’ language and no COVID-specific data.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Provides additional breadth of risk but is generic and indirect, yielding a low-moderate score of 2."
+            },
+            {
+                "snippet": "A widespread health crisis could adversely affect the global economy, resulting in an economic downturn that could impact demand for our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects health crises to macro-economic downturn and reduced product demand—clear revenue linkage.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies direct channel (demand destruction) relevant to stakeholders.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Hypothetical framing with no metrics.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows a concrete causal pathway from pandemics to lower sales, but remains un-quantified; scores a moderate 4."
+            },
+            {
+                "snippet": "For example, the COVID-19 pandemic caused significant disruptions in the U.S. and global economies and resulted in persistent uncertainties throughout the duration of the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct reference to COVID-19 by name.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States actual, material impact (‘significant disruptions’) on U.S. and global economies.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes ongoing uncertainty, implying continuing relevance.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Time-decay adjustment for an event now ~4 years old.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Most potent evidence: acknowledges realised disruptions from COVID-19 itself, but age of event caps the score at 5 under the time-decay rule."
+            }
+        ],
+        "calculated_score": 15,
+        "average_severity": 3.75
+    }
+]

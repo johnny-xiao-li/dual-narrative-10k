@@ -1,0 +1,157 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "TEL’s 2023-11-13 filing treats COVID-19 as an event that has already produced tangible disruptions—global supply-chain breakdowns, temporary plant closures in China, raw-material volatility—and continues to pose a conditional, forward-looking threat should new variants emerge.  The narrative is qualitative rather than quantified and is often bundled with broader macro hazards, signalling that management believes the pandemic’s acute phase is fading.  Still, the company concedes vulnerability in its own and suppliers’ operations and acknowledges possible future setbacks.  Because the declaration date is roughly 3.7 years after the WHO pandemic declaration, the Time Decay Principle places the event at the lower edge of the “medium-term” band; therefore individual evidence scores are constrained to moderate levels.  Sentences describing direct, systemic supply-chain impacts receive the upper end of that band, while generic or heavily mitigated statements are scored lower, especially where management states it no longer expects significant near-term impact.",
+        "evidence_list": [
+            {
+                "snippet": "We have suffered and could continue to suffer business interruptions, including impacts resulting from pandemics, weather conditions, and natural catastrophic events, including those caused or intensified by climate change and global warming, and other macroeconomic factors.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits both past and potential future ‘business interruptions’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly cites ‘pandemics’ as a causal factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is bundled with many other hazards, lowering specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Moderate acknowledgement of pandemic-driven interruptions, but generic framing keeps the score at 3."
+            },
+            {
+                "snippet": "Our operations and those of our suppliers and customers, and the supply chains that support their operations, have been and may be in the future vulnerable to interruption by ... disease or other adverse health developments, including impacts resulting from the COVID-19 pandemic; or failures of management information or other systems due to internal or external causes.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights vulnerability of both internal and external supply chains to COVID-19 interruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers both historical and forward-looking exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Again lists COVID alongside unrelated threats, diluting focus.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specifies supply-chain vulnerability tied to COVID but diluted by broad list; moderate score of 3."
+            },
+            {
+                "snippet": "The COVID-19 pandemic had a global impact and resulted in business slowdowns or shutdowns, including systemic disruptions of global supply chains.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct causal link between COVID-19 and global business slowdowns/shutdowns.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Mentions ‘systemic disruptions of global supply chains’, indicating breadth and severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact is historical rather than ongoing, slightly tempering urgency.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Strong, explicit statement of severe past impact warrants the maximum allowed medium-term score of 6."
+            },
+            {
+                "snippet": "While the pandemic impacted certain aspects of our business, the extent to which the pandemic will continue to impact our business and the markets we serve will depend on future developments which may include the resurgence of the spread of the virus and variant strains of the virus as well as the success of public health advancements.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges past impacts from the pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Flags explicit uncertainty and potential future effects (variant resurgence, public-health efficacy).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantitative detail and conditional language reduces immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Combines historical impact with forward uncertainty but remains qualitative; earns a mid-range 3."
+            },
+            {
+                "snippet": "Certain of our operations in China were impacted in early fiscal 2023 and were shut down for a period of time in fiscal 2022; however, we do not expect the pandemic to have a significant impact on our businesses globally in the near term.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Discloses specific facility shutdowns tied to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Time-stamps the disruption (recent fiscal years), showing recency.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Explicit mitigation: management does not foresee significant near-term impact.",
+                            "points": -3
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Concrete past shutdowns raise risk, but the strong mitigating statement sharply lowers the net score to 1."
+            },
+            {
+                "snippet": "In recent years, raw material prices and availability have been affected by worldwide economic conditions, including supply chain disruptions, inflationary cost pressures, and the impacts of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 to raw-material and supply-chain challenges.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recognises actual historical effect (‘have been affected’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Nested within a broader list of economic pressures, reducing pandemic salience.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Shows pandemic influence on input costs but lacks detail; moderate-low score of 2."
+            },
+            {
+                "snippet": "These events could cause some of our operations to suffer from supply chain disruptions and potential delays in fulfilling customer orders or order cancellations altogether, lost business and sales, changing costs or availability of insurance, and/or property damage or harm to our people, each and all of which could have an adverse effect on our business operations, financial condition, and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete adverse consequences (supply-chain delays, lost sales) that encompass pandemic scenarios.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indirect reference—depends on earlier context to link to COVID-19.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Describes supply-chain harm applicable to COVID but only by inference; lowest relevance, score 1."
+            }
+        ],
+        "calculated_score": 19,
+        "average_severity": 2.7142857142857144
+    }
+]

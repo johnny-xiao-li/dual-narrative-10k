@@ -1,0 +1,123 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "BKR’s 2023 Form 10-K continues to frame the COVID-19 pandemic—and broader contagious-disease emergencies—as an active, multi-dimensional threat.  Although the filing date is almost four years after the WHO declaration (March 2020), the company still treats pandemic-related disruption as a near-term (0-3 year) concern that has already impacted supply-chains, market demand, and labour availability, and could again depress commodity prices, utilisation rates, and workforce stability.  The language is largely contingency-based (“could”, “may”), but several sentences concede that pandemic shocks ‘have had’ tangible effects, signalling BKR’s recognition of realised risk.  No quantified dollar amounts are given, so severity rests on qualitative breadth (supply chain, demand, labour, cash flow) rather than hard metrics.  Under the Time Decay Principle, a March 2020 event is still ‘recent’; therefore evidence can merit mid-to-high scores (4-7) when it shows direct corporate exposure, and lower scores (2-4) when it is more generic or heavily hedged.  The overall risk level is assessed as moderate-to-high: impacts are neither fully behind the company nor precisely measurable, but remain material enough to warrant disclosure and ongoing scenario planning.",
+        "evidence_list": [
+            {
+                "snippet": "Additional disruptions within our supply chain resulting from factors including, but not limited to, pandemic, inflation, rising interest rates, and shortages in labor supply, have had and may continue to have an impact on our business and reputation.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘pandemic’ as a cause of supply-chain disruption (direct risk linkage).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses past-tense ‘have had’ indicating realised impact, not just potential.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States that impacts ‘may continue’, highlighting ongoing exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Risk diluted by grouping pandemic with other macro factors (inflation, rates).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Scores mid-range (5/10) because it evidences an already-experienced and continuing pandemic-driven supply-chain risk, but lacks financial quantification and shares attribution with other variables."
+            },
+            {
+                "snippet": "Our business has and may continue to be adversely affected by a public health emergency or outbreak of a contagious disease or virus.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct statement that a public-health emergency (i.e., pandemic) can adversely affect the business.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges both past (‘has’) and future (‘may continue’) effects—temporal breadth.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Very general—no detail on mechanisms or magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Basic acknowledgement of pandemic risk earns points, but generic wording and absence of specifics limit the score to 3/10."
+            },
+            {
+                "snippet": "The spread of a pandemic could result in instability in the markets and decreases in commodity prices resulting in adverse impacts on our financial condition, results of operations and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic directly to market instability and commodity-price decline—key operating drivers.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects those effects to specific financial statements (‘financial condition, results of operations and cash flows’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional ‘could’ reflects uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows clear transmission path from pandemic to financial outcomes, but remains hypothetical; scores 4/10."
+            },
+            {
+                "snippet": "In addition, the outbreak and spread of contagious diseases and measures to contain the disease may adversely impact our workforce and operations, operations of our customers, and those of our vendors and suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies multiple impact nodes (own workforce, customers, vendors)—broad operational exposure.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Cites containment measures, reflecting real-world lockdown/remote-work scenarios.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses ‘may’—potential rather than confirmed impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Broad operational scope but no quantification or evidence of realised losses; moderate severity at 3/10."
+            },
+            {
+                "snippet": "There is considerable uncertainty regarding such containment or mitigation measures and potential future measures which may result in labor disruptions, employee attrition, and could negatively impact our ability to attract and retain qualified employees, all of which could have a material adverse effect on our financial condition, results of operations and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights labour-force risks (disruptions, attrition, talent retention) tied to pandemic containment steps.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicit ‘material adverse effect’ language on key financial metrics.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "High degree of uncertainty emphasised—mitigating factor.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Addresses human-capital dimension and potential materiality, but uncertainty language tempers final score to 3/10."
+            }
+        ],
+        "calculated_score": 18,
+        "average_severity": 3.6
+    }
+]

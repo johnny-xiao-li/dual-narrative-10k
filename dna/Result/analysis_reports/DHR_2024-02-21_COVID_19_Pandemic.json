@@ -1,0 +1,127 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "DHR’s 2024 Form 10-K embeds COVID-19 primarily as a medium-term, evolving risk: the company acknowledges that the initial pandemic phase has eased (moderation of preventive measures and product demand), yet it still flags multiple residual exposures—unexpected drops in demand for COVID-related offerings, potential resurgences, and broader operational or macro-economic disruption.  Language is partially retrospective (detailing the ‘unprecedented restrictions’ that already hit supply chains and activity) and partially forward-looking (‘any resurgence could negatively impact…’).  Although no hard dollars are quantified, the filing presents concrete operational channels (product demand swings, global market slowdowns) rather than boiler-plate wording alone.  Given the filing date is roughly four years after the WHO declaration (medium-term per the Time-Decay Principle), individual sentence scores are capped in the mid-range.  Mitigating cues (e.g., demand has already “moderated”) pull some scores down, yet the persistence of global-scale downside justifies moderate severity overall.",
+        "evidence_list": [
+            {
+                "snippet": "Global health crises, pandemics, epidemics or other outbreaks can adversely impact certain elements of our business and our financial statements.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly identifies pandemics (including COVID-19) as a source of risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links risk directly to business and financial statement impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic wording, no specifics or quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct pandemic link and stated financial exposure warrant a moderate score; lack of detail tempers it."
+            },
+            {
+                "snippet": "As COVID-19 and the preventive measures related thereto have moderated, demand for the Company’s COVID-19 related products has moderated as well.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes an actual, realized decline in product demand tied to COVID-19 trends.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Indicates moderation (suggesting partial recovery and mitigation).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Medium-term time decay adjustment (event ~4 yrs old).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Shows concrete impact but also notes easing conditions; after time-decay, severity is low-moderate."
+            },
+            {
+                "snippet": "The global spread of COVID-19 led to unprecedented restrictions on, and disruptions in, business and personal activities, including as a result of preventive and precautionary measures that we, other businesses, our communities and governments undertook to mitigate the spread.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes operational disruption to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong language (‘unprecedented restrictions and disruptions’) signalling severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Medium-term time decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Severe, specific historical impact offsets time decay, yielding a solid mid-range score."
+            },
+            {
+                "snippet": "Any resurgence of COVID-19 (or the outbreak of any other epidemic or pandemic) or the reinstatement of similar preventive measures in the future could negatively impact the economies and financial markets of the world and our business and financial statements.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights forward-looking threat of COVID-19 resurgence and global economic effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects macro risk to company-specific financial statements.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional ‘could’; no quantification provided.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term time decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Clear potential impact but phrased as contingent; moderate-low score after adjustments."
+            },
+            {
+                "snippet": "To the extent we develop and sell products to help address epidemics or pandemics in the future, as such epidemics/pandemics evolve we may experience declines in demand that are unanticipated in timing or magnitude, which could adversely affect our business and financial statements.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies specific commercial volatility (demand declines) linked to future pandemic dynamics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicit adverse effect on business and financials noted.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Speculative language (‘may’, ‘could’) reduces immediacy.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term time decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specifies a plausible demand shock scenario, but conditional phrasing and time lag keep score moderate."
+            }
+        ],
+        "calculated_score": 17,
+        "average_severity": 3.4
+    }
+]

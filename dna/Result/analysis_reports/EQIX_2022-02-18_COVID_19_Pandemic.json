@@ -1,0 +1,320 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "EQIX’s 2022 filing frames COVID-19 as a still-unfolding, enterprise-wide threat that touches every major operational vector: data-center continuity, construction schedules, supply-chain inputs, workforce availability, cyber-security in a hybrid-work model, regulatory mandates (e.g., vaccine rules) and customer satisfaction.  Most disclosures are forward-looking—stressing uncertainty, potential closures, cost inflation and project delays—but they also reference real, already-experienced impacts such as supply-chain constraints, higher energy prices and permitting delays.  Mitigating language appears (e.g., ‘operations have continued without interruption,’ ‘essential-business’ designations, inventory buffers), yet management repeatedly concedes that future negative outcomes could be “material.”  Because the pandemic started less than three years before the filing date, the Time Decay Principle allows high severity scores; however, explicit mitigants and the fact that many statements remain conditional temper those scores slightly.  Overall, the risk evidence is specific, enterprise-wide, and contemporaneously relevant, warranting upper-mid to high micro-scores (6-9) on individual sentences.",
+        "evidence_list": [
+            {
+                "snippet": "The ongoing COVID-19 pandemic could have a negative effect on our business, results of operations and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links pandemic to broad negative impact on business, operations and financial condition.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Uses conditional 'could', signalling uncertainty not certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Strong, enterprise-wide risk statement, but framed as potential rather than realized—moderate-high severity."
+            },
+            {
+                "snippet": "We have activated our business continuity and pandemic plans and while our business operations have continued without interruption and our IBX data centers have remained fully operational to date, we cannot guarantee our business operations or our IBX data centers will not be negatively impacted in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits possible future negative impacts despite current continuity.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicit mitigation: activated continuity plans and no interruption so far.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Mitigation language meaningfully tempers but does not eliminate future-impact warning."
+            },
+            {
+                "snippet": "Any change in these classifications could cause operational disruptions or closures of the affected IBX data centers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes risk of forced closures directly tied to pandemic-related regulatory classifications.",
+                            "points": 6
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Highlights a clear trigger (loss of ‘essential’ status) leading to data-center shutdowns—high operational risk."
+            },
+            {
+                "snippet": "These proactive actions we have taken or may take in the future and any restrictions imposed by the government could result in business delays, operational disruption and customer dissatisfaction.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-driven actions/restrictions to business delays and customer dissatisfaction.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Connects health-safety measures to tangible performance risks—moderate severity."
+            },
+            {
+                "snippet": "Employee illnesses resulting from the pandemic could result in further inefficiencies or delays and a suspected or confirmed case in an IBX data center could require temporary closure of the affected IBX data center for cleaning or until local regulatory requirements are fulfilled.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific operational impacts (inefficiencies, temporary closures) from workforce infection.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Conditional ‘could’ lessens certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Granular operational risk; potential nature moderates score slightly."
+            },
+            {
+                "snippet": "Preventative measures instituted by governments and businesses to mitigate the spread of COVID-19, including travel restrictions, social distancing requirements, shelter in place orders and quarantines, have negatively impacted the global economy and may adversely impact us, our customers and vendors.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites macroeconomic hit already occurring and links to company, customers, vendors.",
+                            "points": 7
+                        },
+                        {
+                            "reason": "Uses ‘may’ for company-specific impact (uncertainty).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows broad ecosystem exposure; high but still partly potential for EQIX."
+            },
+            {
+                "snippet": "Given the uncertainty around the duration and extent of the ongoing COVID-19 pandemic, we cannot accurately predict at this time how the pandemic will affect our business over time.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges significant forecasting uncertainty, implying risk magnitude unknown.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Uncertainty itself is risk; statement warrants mid-level score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has contributed to certain global supply chain disruptions including the supply of certain construction materials and has contributed to overall inflation.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms actual impacts (supply chain, inflation) already occurring.",
+                            "points": 8
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Describes realized, measurable operational and cost pressures—high severity."
+            },
+            {
+                "snippet": "Additional or unexpected disruptions could cause construction delays or significantly affect the cost of our planned expansion projects in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links future supply chain shocks to delays and higher costs on strategic projects.",
+                            "points": 6
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Material capex-related exposure; forward-looking but significant."
+            },
+            {
+                "snippet": "Significant construction delays and increases in costs because of the supply chain disruptions could interfere with our ability to meet commitments to customers who have contracted for space in new IBX data centers under construction and could have a material impact on our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies potential breach of customer commitments and ‘material impact’.",
+                            "points": 7
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Highlights customer contractual risk plus explicit ‘material’ language—elevated severity."
+            },
+            {
+                "snippet": "We are also reliant on third party construction labor to build and expand our IBX data centers, to which we may not have access due to the ongoing COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies labor availability risk directly tied to pandemic.",
+                            "points": 6
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Labor shortages could stall build-outs; strong operational risk."
+            },
+            {
+                "snippet": "Although currently stayed while being litigated in U.S. courts, U.S. Presidential Executive Order (EO 14042) requires companies that do business with the U.S. Federal government to implement a mandate for all their U.S. employees to be fully vaccinated against COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces regulatory compliance burden tied to pandemic.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Regulatory risk exists but order is stayed; lower severity."
+            },
+            {
+                "snippet": "If we experience more employee turnover than we expect or if similar mandates are required in other regions, we could experience disruptions to certain functions and employee satisfaction could be affected.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects vaccine mandates to potential functional disruptions and morale issues.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highlights HR-driven operational risk; moderate severity."
+            },
+            {
+                "snippet": "While the full extent and impact of the ongoing COVID-19 pandemic cannot be reasonably estimated at this time, it could have a material adverse impact on our business and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit ‘material adverse impact’ statement.",
+                            "points": 7
+                        },
+                        {
+                            "reason": "Conditional ‘could’ maintains uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Strong wording balanced by uncertainty—upper-mid risk."
+            },
+            {
+                "snippet": "Because of the ongoing COVID-19 pandemic, many of our non-IBX employees are working from home and could potentially be exposed to new security risks or attempted breaches because of these new work environments.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-driven remote work to elevated cyber-security risk.",
+                            "points": 6
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Introduces new threat vector impacting brand and liability—significant."
+            },
+            {
+                "snippet": "Our adaptation to a hybrid working model that includes both work from home and in an office could continue to expose us to new security risks.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing heightened risk state as hybrid model persists.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Sustained security exposure; moderate severity."
+            },
+            {
+                "snippet": "Pandemics, weather and climate related crises or any other social, political, or economic disruption in the U.S. or abroad could prevent sufficient staffing at our IBX data centers and have a material adverse impact on our operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Generic but includes ‘pandemics’; cites ‘material adverse impact’.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Broader formulation but still signals high operational stakes."
+            },
+            {
+                "snippet": "The ongoing COVID-19 pandemic, supply chain issues and inflation have exacerbated many of these construction risks and created additional risks for our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States pandemic is currently intensifying risk landscape.",
+                            "points": 6
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Confirms compounding effect—elevated severity."
+            },
+            {
+                "snippet": "We are currently experiencing permitting delays in most metros due to reduced production from labor availability and from other COVID-19 pandemic related permitting restrictions or stoppages.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports actual permitting delays already occurring.",
+                            "points": 8
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Demonstrates realized operational hindrance—high severity."
+            },
+            {
+                "snippet": "These Joint Ventures could also be negatively impacted by development and construction delays, including those resulting from the ongoing COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Extends pandemic risk to strategic joint-venture investments.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Project-level risk; moderate severity."
+            },
+            {
+                "snippet": "Geo-political events, such as the ongoing COVID-19 pandemic, ... may increase the likelihood of the listed risks to occur and could have a negative effect on our business domestically or internationally.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Positions pandemic as catalyst increasing multiple risk vectors globally.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Broader systemic risk amplifier; mid-level severity."
+            },
+            {
+                "snippet": "Many of our employees in California are still working from home because of the ongoing COVID-19 pandemic and they could be subjected to planned power outages at home which could be difficult to track and could affect our day to day operations of our non-IBX employees.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic remote work to operational monitoring challenges during power outages.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific operational complication; moderate severity."
+            }
+        ],
+        "calculated_score": 100,
+        "average_severity": 5.5
+    }
+]

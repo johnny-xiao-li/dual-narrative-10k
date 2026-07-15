@@ -1,0 +1,98 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "GM’s 2024 filing continues to frame COVID-19 as a material but moderating risk.  Management states that the pandemic has already caused supply-chain constraints and operational disruptions, thereby acknowledging an historical, realized impact.  At the same time, several passages remain forward-looking, warning that future public-health crises – explicitly including COVID-19 – could again impair manufacturing, labor availability, consumer demand, liquidity and capital-market access.  The language is specific enough to cite concrete channels (global supply disruptions, labor shortages, showroom traffic declines, credit defaults), yet it offers no quantified dollar figures and it also notes expectations of normalization “in the near term.”  Under the Time-Decay Principle, the event is roughly four years old, placing it in the medium-term band where scores should cluster in the 4-6 range.  Overall, the risk is still relevant and potentially material, but less acute than during 2020-2022, justifying moderate severity scores for each sentence.",
+        "evidence_list": [
+            {
+                "snippet": "Additionally, despite the fact that OEMs have experienced supply constraints in recent years due to the COVID-19 pandemic and certain supply chain and logistics challenges, overall manufacturing capacity in the automotive industry has historically far exceeded demand, and we expect conditions to normalize in the near term.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links recent supply constraints to COVID-19, confirming a realized operational impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States expectation that conditions will normalize, which mitigates forward-looking severity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No financial quantification and asserts excess capacity, limiting perceived magnitude.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows direct COVID-driven supply-chain impact but also notes normalization, yielding a moderate risk score of 4."
+            },
+            {
+                "snippet": "Pandemics, epidemics, disease outbreaks and other public health crises have disrupted our business and operations, and future public health crises could materially adversely impact our business, financial condition, liquidity and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges past disruption to business from pandemics, implying realized losses.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Warns of material adverse impacts on multiple financial dimensions going forward.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses broad language without quantification, slightly diluting precision.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Describes both historical and prospective material effects, but generically, earning a balanced 5."
+            },
+            {
+                "snippet": "Pandemics, epidemics or disease outbreaks in the U.S. or globally, such as the COVID-19 pandemic, have previously disrupted, and may in the future disrupt, our business, which could materially affect our results of operations, financial condition, liquidity and future expectations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit reference to COVID-19 with acknowledgment of prior disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights potential for future material impacts across earnings and liquidity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lacks specificity and hard numbers, tempering risk assessment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clearly ties COVID-19 to past and potential future material impacts, but remains unquantified, so score is 5."
+            },
+            {
+                "snippet": "In particular, we could experience, among other things: (1) continued or additional global supply disruptions; (2) labor disruptions or shortages; (3) an inability to manufacture; (4) an inability to sell to our customers; (5) a decline in showroom traffic and customer demand; (6) customer defaults on automobile loans and leases; (7) lower than expected pricing on vehicles sold at auction; and (8) an impaired ability to access credit and the capital markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates a wide spectrum of specific operational and financial risks tied to pandemics (context set in prior sentence).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "List is hypothetical (‘could experience’) and not quantified, moderating severity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Covers critical areas—supply chain, labor, demand, liquidity—broadening risk exposure.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Detailed catalog of possible pandemic impacts across the value chain raises concern but remains hypothetical, landing at 5."
+            }
+        ],
+        "calculated_score": 19,
+        "average_severity": 4.75
+    }
+]

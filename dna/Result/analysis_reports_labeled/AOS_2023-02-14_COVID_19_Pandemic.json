@@ -1,0 +1,284 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "AOS repeatedly frames COVID-19 as both an historical and ongoing driver of material business risk.  The filing contains several strands of evidence: (1) generic forward-looking language that the pandemic can disrupt supply chains, labor availability and consumer spending; (2) concrete disclosures that 2022 sales – especially in China, which accounts for a substantial share of revenue – actually declined because of lockdowns and reduced consumer demand; (3) acknowledgement that the pandemic has permanently altered demand patterns for commercial spaces and has heightened cybersecurity exposure through remote work; and (4) partial mitigation cues such as the recent relaxation of restrictions and management’s monitoring efforts.  Because the 10-K is dated February 14 2023 – less than three years after the March 2020 onset of the pandemic – the Time Decay Principle allows high severity scores for direct, recent impacts.  However, where the company signals recovery or uses highly conditional wording, those passages merit lower or even negative component points.  Overall, the risk profile is elevated: actual revenue hits are already visible, future demand uncertainty persists, and supply-chain and operational vulnerabilities remain, albeit with some signs of improvement.  The sentence-level micro-scores below reflect this mix of aggravating and mitigating content while staying within the recent-event scoring band.",
+        "evidence_list": [
+            {
+                "snippet": "Extraordinary events, including natural disasters, resulting from but not limited to climate change, political disruptions, terrorist attacks, public health issues, such as the COVID-19 pandemic, and acts of war may disrupt our business and operations and impact our supply chain and access to necessary raw materials or could adversely affect the economy generally, resulting in a loss of sales and customers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites the COVID-19 pandemic among extraordinary events that can disrupt operations and supply chain.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links pandemic disruptions to concrete negative outcomes (loss of sales and customers).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional language ('may'), signalling uncertainty and reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Generic but comprehensive risk description; tangible impacts mentioned, yet framed as potential, not realised."
+            },
+            {
+                "snippet": "The COVID-19 pandemic continues to cause disruption to the global economy.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that disruption is ongoing ('continues'), underscoring current risk exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights macro-economic disruption that can indirectly hurt the company.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No company-specific details or quantification provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Indicates live risk but stays generic and unquantified, yielding a modest score."
+            },
+            {
+                "snippet": "We continue to monitor the pandemic, and while periodic local increases and decreases in COVID-19 cases are likely, generally the restrictions due to and in response to the pandemic continue to relax in most locations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Company monitoring shows active management and mitigation.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Notes general relaxation of restrictions, signalling risk abatement.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Still recognises volatility in case levels, preserving some risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": -1
+                },
+                "reasoning_summary": "Primarily a mitigating statement; net effect is a slight reduction in overall risk severity."
+            },
+            {
+                "snippet": "However, the COVID-19 pandemic and efforts to manage it, including those by governmental authorities, could have a material adverse effect on our financial condition, results of operations and cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses the strong phrase 'material adverse effect' tied to key financial metrics.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Connects risk both to the pandemic and government counter-measures, broadening exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional word 'could' introduces uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "High-impact language raises severity, tempered only slightly by its forward-looking nature."
+            },
+            {
+                "snippet": "Our 2022 sales in China were impacted by lower consumer demand driven by COVID-19 related disruptions.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports an actual, recent hit to sales attributable to the pandemic.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "China is a significant market for AOS, increasing materiality.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks specific dollar amount or percentage, limiting precision.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct factual evidence of financial harm in a major market drives a high score."
+            },
+            {
+                "snippet": "Certain COVID-19 restrictions were lifted at the end of 2022 but could return.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges possibility of restrictions returning, implying renewed risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Indicates recent lifting of restrictions, which moderates near-term risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Balanced sentence with equal mitigating and aggravating elements yields a neutral net score."
+            },
+            {
+                "snippet": "As a result of the COVID-19 pandemic, businesses and commercial spaces have experienced and may experience in the future, fluctuation in demand and in occupancy that may reduce demand for our products, and commercial sectors, such as the restaurant and hospitality industries in which we have customers, may experience long-term shifts in consumer behavior which could negatively impact demand or capacity and may not return to pre-pandemic levels.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Attributes current fluctuations in demand directly to the pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Warns of potential permanent shifts in customer behaviour affecting future sales.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uncertainty language ('may', 'could') reduces immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights both realised and prospective demand erosion, but tempered by conditional phrasing."
+            },
+            {
+                "snippet": "In addition, as a result of the COVID-19 pandemic, remote work and remote access to our systems have increased, which may heighten these risks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to increased remote work, introducing operational vulnerability.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly states that cybersecurity risks may be heightened.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses 'may', signalling potential rather than certain impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows a secondary, non-financial risk pathway (cyber) with moderate severity."
+            },
+            {
+                "snippet": "Our sales in China in 2022 were impacted by lower consumer demand driven by COVID-19-related lockdowns.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms realised sales decline due to pandemic-induced lockdowns.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Specifies the causal mechanism (lockdowns), reinforcing credibility.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Lacks detailed quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Another clear example of direct financial impact, sustaining a high score."
+            },
+            {
+                "snippet": "Certain COVID-19 restrictions were lifted in China at the end of 2022 and we believe that economic activity there will improve in 2023 as a result.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that pandemic restrictions influence economic activity, confirming relevance.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights loosening of restrictions and expected improvement, mitigating risk.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": -1
+                },
+                "reasoning_summary": "Predominantly optimistic statement; net effect lowers overall risk perception."
+            },
+            {
+                "snippet": "Our guidance excludes the impacts from potential future acquisitions and assumes the COVID-19-related impacts in China improve in the second half of the year and do not have a significant impact on our productivity or significantly impact the end markets that we serve.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Guidance assumption that COVID impacts will improve signals management’s risk assessment.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Implicitly acknowledges current existence of COVID-related impacts requiring modelling.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": -1
+                },
+                "reasoning_summary": "Relies on optimistic assumptions; overall, it reduces indicated risk."
+            },
+            {
+                "snippet": "The decrease in sales in 2022 was primarily driven by lower consumer demand in China due to COVID-19-related disruptions and lockdowns.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that COVID disruptions were the primary driver of a sales decrease.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Highlights causation between pandemic conditions and financial performance.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No numeric scale of the decline is given.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct attribution of sales decline to COVID earns a high, though not maximal, score."
+            },
+            {
+                "snippet": "We see the recent change to certain COVID-19 restrictions in China as a positive step to an improved economic environment.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges COVID restrictions as a key economic variable, keeping it relevant.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Characterises the change as positive, signalling reduced future risk.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": -1
+                },
+                "reasoning_summary": "Mainly a mitigant, slightly offset by the recognition that restrictions remain influential."
+            }
+        ],
+        "calculated_score": 30,
+        "average_severity": 2.3076923076923075
+    }
+]

@@ -1,0 +1,123 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "MSI’s 2024 filing links the COVID-19 pandemic to both historical impacts already felt since 2020 and to forward-looking operational threats that could resurface with any new outbreak.  The company explicitly cites COVID-19 as having negatively affected its workforce, supply chain, costs, schedules and market volatility, and warns these pressures \"could continue\" during future health crises.  Although no precise dollar amounts are provided, the language is more than boiler-plate: it references concrete operating domains (labour, materials, production delays, inflation) that map directly to pandemic-driven risk channels prescribed in the prompt.  Because the disclosure occurs only about four years after the WHO declaration, Time-Decay still allows an elevated score, but the absence of quantified loss data or newly-emerging shocks tempers severity to the mid-high range.  Overall, MSI frames COVID-19 as an extant but now better-understood risk that remains capable of materially disrupting performance, particularly via renewed supply-chain or workforce shocks—warranting moderate-to-high risk scoring under the methodology.",
+        "evidence_list": [
+            {
+                "snippet": "Our business operations, and the operations of our customers and suppliers, are subject to interruption by natural disasters (including climate change-related events), flooding, fire, power shortages, the widespread outbreak of infectious diseases and pandemics, terrorist acts or the outbreak or escalation of armed hostilities, and other events beyond our control.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics as a potential source of operational interruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement is generic and bundled with many other hazards, diluting specificity.",
+                            "points": 0
+                        },
+                        {
+                            "reason": "Event is still recent (<4 yrs), allowing some weight under Time-Decay.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic inclusion of pandemics conveys baseline risk but lacks COVID-specific detail; recent timeframe keeps score modest at 3."
+            },
+            {
+                "snippet": "If a new pandemic or health outbreak were to occur, we could experience varied impacts similar to what we experienced related to the impacts of COVID-19, including impacts to our workforce and supply chain, inflationary pressures and increased costs, schedule or production delays, market volatility and other financial impacts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly references past COVID-19 experience and future recurrence.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates concrete operational impact channels (workforce, supply chain, costs, delays, market volatility).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recency (<4 yrs) supports higher weighting.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Sentence ties COVID-19 to multiple specific impact vectors and future exposure, justifying a high-moderate score of 7."
+            },
+            {
+                "snippet": "These events such as COVID-19 have had, and in the future could continue to have, a negative impact on our ability to manage our business and/or cause disruption of economic activity, which could have an adverse effect on our business, results of operations, financial position, cash flows and stock price.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States COVID-19 already produced negative effects and may continue to do so.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects to broad financial statement impacts (operations, cash flows, stock price).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Event still within recent window; moderate uplift.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Links COVID-19 to both historical and forward-looking financial harm, but without quantification, so score set at 6."
+            },
+            {
+                "snippet": "Because of these sizable sales and operations outside of the U.S., we have more complexity in our operations and are exposed to a unique set of global risks that could negatively impact our business, financial condition, results of operations, and cash flows, including but not limited to: (i) currency fluctuations, ... (ix) natural disasters, (x) public health issues or outbreaks or pandemics (such as the COVID-19 pandemic) and (xi) litigation in foreign court systems and foreign enforcement or administrative proceedings.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists COVID-19 pandemic as a specific global risk factor affecting international operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Integrates pandemic within a broad catalogue of risks, reducing salience.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Recency consideration (+1) keeps some weight.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights potential negative impact on multiple financial metrics (+2).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Pandemic noted as one of many global threats; some materiality but diluted, yielding a moderate score of 4."
+            },
+            {
+                "snippet": "We could have difficulties fulfilling our orders and our sales and profits could decline if: ... (vi) such third-parties are disrupted by external events, such as cyberattacks, natural disasters, public health issues or outbreaks or pandemics, extreme weather conditions related to climate change, acts of terrorism or political conflicts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifically ties third-party supply disruption risk to pandemics.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Direct linkage to potential sales and profit decline highlighted.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic within longer list and no COVID details (mitigating).",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Suppliers’ pandemic disruption risk is acknowledged but not elaborated; results in a modest score of 3."
+            }
+        ],
+        "calculated_score": 23,
+        "average_severity": 4.6
+    }
+]

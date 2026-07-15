@@ -1,0 +1,80 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "FFIV’s Form 10-K continues to acknowledge COVID-19 as a live, but now mostly macro-level, risk driver.  The company no longer speaks of factory shutdowns or office closures; instead, it frames the pandemic’s effects in terms of lingering supply-chain constraints, component cost inflation, and broader macroeconomic volatility that can dampen customer demand and squeeze gross margins.  The wording is largely forward-looking (\"could\" or \"may\" adversely affect), yet it also concedes that pandemic-linked disruptions \"have led\" to slower global growth, signalling that some impact is already embedded in current results.  Because the filing date (14 Nov 2023) is roughly 3.5 years after the WHO declaration (11 Mar 2020), the Time-Decay Principle calls for mid-range severity: the pandemic is neither brand-new nor remote history, but a persisting medium-term threat.  The extracted sentences are mostly qualitative and unquantified; nevertheless, they explicitly link COVID-19 to supply-chain problems, cost pressures, and profitability.  Accordingly, individual snippet scores fall in the 4-6 band, and no evidence exceeds that range.",
+        "evidence_list": [
+            {
+                "snippet": "In addition, factors such as sales price, product and services mix, inventory obsolescence, returns, component price increases, warranty costs, global supply chain constraints, and the remaining uncertainty surrounding the COVID-19 pandemic could significantly impact our gross margins.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites the ‘remaining uncertainty’ of COVID-19 as an ongoing risk driver.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects the pandemic to a concrete financial metric—gross margins—with the phrase ‘could significantly impact’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights supply-chain constraints, a classic pandemic-related operational pressure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Directly ties lingering COVID-19 uncertainty to potentially ‘significant’ margin impact and supply-chain pressure, warranting the upper end of the medium-term band."
+            },
+            {
+                "snippet": "Worsening economic conditions, including inflation, higher interest rates, slower growth, fluctuations in foreign exchange rates, and developments related to the COVID-19 pandemic, and other changes in economic conditions, may adversely affect our results of operations and financial performance.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 developments as part of the set of worsening economic conditions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links those conditions to ‘adversely affect our results of operations and financial performance’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "The reference is generic and bundled with many other macro factors, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides a clear but generic forward-looking warning that pandemic developments could hurt performance; the breadth of other factors tempers severity."
+            },
+            {
+                "snippet": "Prolonged adverse macroeconomic conditions both in the U.S. and abroad, including, but not limited to, rising interest rates to combat inflationary pressures of goods and services, challenges in the financial and credit markets, labor shortages, supply chain disruptions, trade uncertainty, adverse changes in global taxation and tariffs, sanctions, outbreaks of pandemic diseases such as COVID-19, political unrest and social strife, armed conflicts, such as the Russian invasion of Ukraine, or other impacts from the macroeconomic environment have led to a slowing of global economic growth.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references ‘outbreaks of pandemic diseases such as COVID-19’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses past-tense ‘have led’ to acknowledge that pandemic outbreaks already slowed global economic growth (existing impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Pandemic is one of many listed factors, diluting attribution.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Acknowledges a realised macro impact (‘have led’) from COVID-19 outbreaks, but bundles the cause with multiple other headwinds, giving it a solid mid-level score."
+            }
+        ],
+        "calculated_score": 15,
+        "average_severity": 5.0
+    }
+]

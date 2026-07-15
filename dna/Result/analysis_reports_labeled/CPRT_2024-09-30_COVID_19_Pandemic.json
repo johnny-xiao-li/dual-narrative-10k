@@ -1,0 +1,66 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CPRT’s Form 10-K continues to flag the COVID-19 pandemic only in sweeping, boiler-plate bullet lists that group it with a host of other macro hazards. The language is forward-looking (“will continue to subject us to…”) but offers no concrete figures, operational anecdotes, or mitigation measures. As the filing date (30 Sep 2024) is roughly 4½ years after the WHO pandemic declaration, the Time Decay Principle allows for a mid-range score, yet the highly generic phrasing tempers severity. Overall, the disclosures indicate that management still perceives pandemic-related disruptions (labour, supply chain, travel, etc.) as possible future headwinds, but the absence of specificity or evidence of current material impact points to a moderate residual risk—credible enough to warrant attention, though clearly reduced from peak-pandemic levels.",
+        "evidence_list": [
+            {
+                "snippet": "•    public health issues, such as the COVID-19 pandemic and other pandemics;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites the COVID-19 pandemic as an ongoing public-health risk category affecting international operations.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Uses forward-looking framing (included in list of risks that will 'continue to subject us'), signalling persistence of risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Statement is generic and unquantified—no data on magnitude, duration, or financial impact.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Time Decay: event is ~4.5 years old (medium-term window), requiring a modest downward adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "The sentence clearly acknowledges COVID-19 as a continuing threat, but its broad, non-specific wording and the medium-term timing cap the score at a moderate 4."
+            },
+            {
+                "snippet": "•    public health issues, such as COVID-19 and other pandemics;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 directly to factors that 'may affect our operating results,' tying the pandemic to financial performance.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Phrased as a potential rather than realised impact ('may affect'), reducing immediacy.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Highly condensed, catch-all phrasing with no quantification or detail.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term Time Decay adjustment (event >4 years old).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Although it ties COVID-19 to possible earnings volatility, the lack of detail and the passage of time reduce the weight to a low-moderate 3."
+            }
+        ],
+        "calculated_score": 7,
+        "average_severity": 3.5
+    }
+]

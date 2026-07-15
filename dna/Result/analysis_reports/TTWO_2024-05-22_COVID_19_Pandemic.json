@@ -1,0 +1,64 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "TTWO’s 2024 filing makes only passing, largely generic references to the COVID-19 pandemic.  All instances appear within broader discussions of cybersecurity and regulatory uncertainty rather than standalone pandemic-specific sections.  The company frames COVID-19 as an event that has already triggered enduring conditions—most notably prolonged remote-work arrangements and sporadic government Internet restrictions—that could continue to amplify cyber-risk or dampen demand.  No quantified financial impacts, supply-chain shortages, or labour-force statistics are provided, and the pandemic is mentioned alongside other contemporaneous geopolitical issues, diluting its salience.  Because the pandemic began more than four years before the filing date, the Time Decay Principle points to a mid-range severity ceiling (approximately 4-6).  Given the brief, forward-looking, and bundled nature of the disclosures, the evidence supports a moderate-to-low residual risk assessment, with individual snippet scores clustered in the 4-5 range.",
+        "evidence_list": [
+            {
+                "snippet": "The risk of such threats is heightened by events outside of our control, such as the extended period of remote work arrangements due to COVID-19, the Russia-Ukraine war and the Israel-Hamas war.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 remote-work conditions to an increased cybersecurity threat, establishing a causal risk nexus.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Characterises the impact as ongoing ('heightened'), indicating persistence beyond the initial outbreak.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Bundled with other geopolitical events, which dilutes COVID-19-specific focus.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term time decay (event >4 years old) warrants a downward adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides a clear but unquantified statement that pandemic-driven remote work continues to elevate cyber risk; moderately severe within the 4-6 band."
+            },
+            {
+                "snippet": "Changes in laws or regulations that adversely affect the growth, popularity, or use of the Internet, including laws affecting 'net neutrality' or measures enacted in certain jurisdictions, for example as a result of the COVID-19 pandemic, could decrease the demand for our products and services or increase our cost of doing business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-driven regulatory measures to potential revenue loss and cost increases, flagging a material business impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking 'could' language indicates possibility rather than current hit, reducing certainty.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Reference is illustrative and grouped with net-neutrality risks, reducing pandemic specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term time decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Highlights possible pandemic-related regulatory drag but is speculative and diluted, warranting a lower mid-range score."
+            }
+        ],
+        "calculated_score": 6,
+        "average_severity": 3.0
+    }
+]

@@ -1,0 +1,183 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "FMC’s 2023 10-K acknowledges the COVID-19 pandemic as a still-present, high-severity operational threat.  The filing date (24 Feb 2023) sits less than three years after the WHO declared the pandemic, so Time-Decay permits elevated scores.  The document provides a blend of backward-looking facts (e.g., the pandemic “caused significant disruptions”) and forward-looking uncertainty (ongoing supply-chain and demand risks).  While the company emphasises certain mitigants—‘essential’ status, continued plant operations, monitoring—the risk language remains largely unquantified and conditional, with repeated references to potential constraints on critical materials, labour instability, market-access limits and demand shocks.  Because disclosures are recent, directly tied to COVID-19, and speak to global, multi-faceted impacts without firm numerical sizing, the overall risk profile is high but not maximal; individual sentences score from 1 to 7 after factoring mitigating statements and the absence of hard dollar figures.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic caused significant disruptions in the U.S. and global economies.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links COVID-19 to realised disruptions (‘caused’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses the materiality modifier ‘significant’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies worldwide scope (‘U.S. and global economies’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Recent, direct statement of significant, global disruption—no numeric quantification but clear materiality."
+            },
+            {
+                "snippet": "The extent to which COVID will continue to impact us will depend on future developments, many of which remain uncertain and cannot be predicted with confidence, including the duration of the pandemic, further actions to be taken to contain the pandemic or mitigate its impact, and the extent of the direct and indirect economic effects of the pandemic and containment measures, among others.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing, future impact potential.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights high uncertainty and multiple unknown variables.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists broad effect channels (duration, containment actions, economic effects).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Forward-looking uncertainty across several vectors keeps risk high though unquantified."
+            },
+            {
+                "snippet": "A widespread health crisis could adversely affect the global economy, resulting in an economic downturn that could impact demand for our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-type crisis to global economic downturn and demand reduction.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers revenue channel (‘demand for our products’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional wording ‘could’ reduces certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Generic but relevant statement of demand risk; moderate score after discounting conditional language."
+            },
+            {
+                "snippet": "A global catastrophic event (e.g., nuclear incident, pandemic, natural disaster) could endanger the lives and safety of our employees, limit market access, constrain supply and would require high levels of cross-functional coordination to maintain business continuity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names ‘pandemic’ among catastrophic events.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details multiple operational impact channels (employee safety, market access, supply).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Hypothetical ‘could’ tempers certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Multi-faceted operational risk from pandemics; moderate certainty keeps score mid-range."
+            },
+            {
+                "snippet": "Global catastrophic events could also result in social, economic, and labor instability in the countries in which we or our customers and suppliers operate.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights social, economic and labour instability risk across supply chain.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional phrasing reduces immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Adds breadth but little depth; largely conditional and generic, hence low score."
+            },
+            {
+                "snippet": "These uncertainties could have a material adverse effect on our business and our results of operation and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses strong phrase ‘material adverse effect’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links directly to overall business, operations and financial condition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uncertainty qualifier ‘could’ moderates.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Emphasises severity (‘material adverse’) but remains hypothetical; mid-level risk evidence."
+            },
+            {
+                "snippet": "As an agricultural sciences company, we are considered an \"essential\" industry in the countries in which we operate; we have avoided significant plant closures and all our manufacturing facilities and distribution warehouses remain operational and properly staffed.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Declares essential-industry status and continued operations (mitigation).",
+                            "points": -3
+                        },
+                        {
+                            "reason": "States avoidance of significant closures, reducing exposure.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Purely mitigating statement offsets risk—score floored at zero."
+            },
+            {
+                "snippet": "Our research laboratories and greenhouses also have continued to operate throughout the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates uninterrupted R&D operations (mitigation).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Adds mitigation only; no residual risk—score zero."
+            },
+            {
+                "snippet": "Although we have averted any material disruptions throughout the pandemic, we are aware of the potential for disruptions or constraints on the availability of critical materials.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges potential future supply-chain constraints.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes lack of past material disruptions (mitigation).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Net low score: potential risk flagged but balanced by past resilience."
+            }
+        ],
+        "calculated_score": 27,
+        "average_severity": 3.0
+    }
+]

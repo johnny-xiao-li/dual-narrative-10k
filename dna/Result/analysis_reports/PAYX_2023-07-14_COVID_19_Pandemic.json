@@ -1,0 +1,43 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "PAYX’s 2023 Form 10-K contains only a brief, catch-all reference to a “public health emergency, pandemic” as one of several events that could severely disrupt operations.  The company does not cite COVID-19 by name, quantify past impacts, or describe specific supply-chain, labour-force, or demand shocks already experienced.  Instead, management frames it as a forward-looking contingency: if a pandemic strikes (or re-escalates), infrastructure failures and service interruptions could occur.  Although the COVID-19 pandemic is still within the recent-event window (≤3 years) under the Time-Decay Principle, the disclosure is generic and largely precautionary, providing minimal detail on exposure or mitigation beyond an acknowledgement that a business-continuity plan exists but might fail.  Consequently, the overall risk evidence is assessed as moderate-to-low severity; the recency of the pandemic keeps the score from dropping further, but the lack of specificity prevents a high score.",
+        "evidence_list": [
+            {
+                "snippet": "In the event of a catastrophe, our business continuity plan may fail, which could result in the loss of client data and adversely interrupt operations. Our operations are dependent on our ability to protect our infrastructure against damage from catastrophe or natural disaster, unauthorized security breach, power loss, telecommunications failure, terrorist attack or act of war, public health emergency, pandemic, or other events that could have a significant disruptive effect on our operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘public health emergency, pandemic’ as a potential cause of ‘significant disruptive effect’.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links the pandemic to concrete operational harms (loss of client data, service interruption).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Event is recent (within 3-year window of COVID-19), enhancing relevance.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Mentions existence of a business-continuity plan (partial mitigation).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Statement is broad and unquantified, bundled with many other risks (generic wording).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "The sentence directly cites pandemics as a disruptive threat and describes operational consequences, warranting a positive risk score.  However, the language is generic and partially mitigated by a (potentially fallible) continuity plan, resulting in a mid-level severity score of 5."
+            }
+        ],
+        "calculated_score": 5,
+        "average_severity": 5.0
+    }
+]

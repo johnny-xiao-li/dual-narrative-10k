@@ -1,0 +1,115 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CenterPoint Energy’s 2022 Form 10-K openly recognizes COVID-19 as an ongoing, enterprise-wide risk that has already produced tangible effects (e.g., supply-chain delays, labor shortages and liquidity strain on retail electric providers) and could continue to depress revenue, inflate costs and disrupt operations.  The language is largely qualitative—no dollar amounts are cited—but it expressly links the pandemic to specific operational areas: receivables collection, materials procurement, workforce availability, project timing and regulatory processes.  Management frames COVID-19 both retrospectively (the company has already ‘experienced’ impacts) and prospectively (future variants and prolonged disruptions ‘could’ further affect demand, capital plans and customer payments).  Because the filing date (17 Feb 2023) is less than three years after the WHO declaration of the pandemic, the Time Decay Principle permits relatively high severity scores.  However, the absence of quantified losses, the sharing of blame with other macro factors (inflation, weather, etc.) and the lack of detailed mitigation language temper the overall risk rating, leading to moderate-to-high—but not maximum—scores for the extracted evidence.",
+        "evidence_list": [
+            {
+                "snippet": "Adverse economic conditions, such as the impact of COVID-19, the February 2021 Winter Storm Event, structural problems in the market served by ERCOT, inflation or financial difficulties of one or more REPs have and may in the future impair the ability of these REPs to pay for Houston Electric’s services or cause them to delay such payments.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites COVID-19 as an adverse economic factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links pandemic to a concrete financial exposure—non-payment or delayed payment by customers (REPs).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses forward-looking wording (‘may in the future’) indicating persistent risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Directly ties COVID-19 to cash-collection risk from major customers, creating a specific but unquantified financial threat; recent timeframe supports a strong, though not peak, score."
+            },
+            {
+                "snippet": "The global supply chain has experienced and is expected to continue to experience disruptions due to a multitude of factors, such as the COVID-19 pandemic, labor shortages, resource availability, long lead time, inflation and weather, and these disruptions have adversely impacted the utility industry.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 as a driver of supply-chain disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States disruptions have ‘adversely impacted’ (past impact) the utility industry—evidence of realized harm.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Projects that disruptions are ‘expected to continue,’ signalling ongoing risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Acknowledges both realized and continuing adverse supply-chain effects attributable to COVID-19, elevating the severity to upper-moderate levels."
+            },
+            {
+                "snippet": "Current and future health pandemics, epidemics and similar public health threats, such as COVID-19 and its variants, and the measures implemented to contain their spread, such as travel bans and restrictions, quarantines and vaccination mandates, continue to and may in the future have widespread impacts on the global economy, our employees, customers, and third-party business partners.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies COVID-19 specifically and frames it as both current and future threat (variants).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights ‘widespread impacts’ across multiple stakeholder groups and the global economy.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions containment measures (travel bans, quarantines) that intensify operational risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Broadly describes multi-stakeholder, continuing impacts and containment actions tied to COVID-19, supporting a solid mid-high risk score despite lack of quantification."
+            },
+            {
+                "snippet": "Any future health threat, including the emergence of a new variant of COVID-19, could, in the future, impact our business in numerous ways, including, but not limited to, those outlined below:",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags possibility of new COVID-19 variants, extending timeline of uncertainty.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Introduces a list of diverse potential business impacts, signalling breadth of exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Purely conditional language (‘could’) and no specifics or history of impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Forward-looking caution about future variants and multiple exposure channels, but speculative tone and absence of detail keep severity moderate."
+            },
+            {
+                "snippet": "Like many companies, we experienced the above and other impacts pursuant to the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms that pandemic impacts have already been experienced.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Very generic—no specifics on magnitude or nature of impacts.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Provides minimal, generic acknowledgment of past COVID-19 effects; lack of detail or forward risk keeps score low."
+            }
+        ],
+        "calculated_score": 25,
+        "average_severity": 5.0
+    }
+]

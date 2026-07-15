@@ -1,0 +1,120 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated August 26 2024, discusses the potential impact of “public health crises” in a consolidated risk factor section that groups pandemics with other disruptive events such as natural disasters and armed conflict. Although the text never uses the term “COVID-19” explicitly, the language clearly references pandemic-type scenarios (“widespread public health crises,” “ability of our associates to work remotely”) and maps the multiple operational pathways through which a pandemic can hurt Jack Henry & Associates (JKHY): lower client spending, implementation delays, workforce disruptions, third-party service breakdowns, and reduced transaction volumes. All statements are forward-looking and conditional, framed with “could” and “may,” indicating that management views pandemic risk as an ongoing but unquantified contingency rather than a present-day, quantified loss. Because the WHO declaration of COVID-19 occurred roughly 4½ years before the filing, the Time Decay Principle places the event in the medium-term band; therefore, individual evidence scores should land in the moderate range (about 4–6) unless strong mitigating language reduces severity. Overall, the disclosure is moderately specific—naming concrete operational channels (remote work, transaction counts, on-site service constraints)—but still generic in not citing COVID-19 by name or providing financial metrics. Consequently, the overall risk assessment is “moderate, persistent but unquantified,” consistent with mid-term time decay.",
+        "evidence_list": [
+            {
+                "snippet": "Natural disasters, public health crises, wars, acts of terrorism, other armed conflict, and workforce shortages could adversely affect our results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly mentions 'public health crises', directly tying pandemic-type events to the company’s results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States potential adverse effect on results of operations (materiality).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Is part of a broad, catch-all list with generic wording, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "The sentence identifies pandemic risk and material impact but is generic and unquantified, yielding a moderate score of 3."
+            },
+            {
+                "snippet": "The occurrence of, or threat of, natural disasters, widespread public health crises, political unrest, war, acts of terrorism, other armed conflicts involving the United States or foreign countries, or general workforce shortages can result in significant economic disruptions and uncertainties and could adversely affect our business, results of operation, and financial condition.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites 'widespread public health crises' explicitly and links to broad economic disruption—strong aggravating factor.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong language ('significant economic disruptions') signalling higher severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional 'could' and inclusion in a multi-event list reduce precision.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Adds severity through ‘significant economic disruptions,’ but generic enumeration keeps the score at a moderate 4."
+            },
+            {
+                "snippet": "The conditions caused by such events may affect the rate of spending by our clients and their ability to pay for our products and services, delay prospective clients’ purchasing decisions, interfere with our associates’ ability to support our business function, disrupt the ability of third-party providers we rely upon to deliver services, adversely impact our ability to provide on-site services or installations to our clients, or reduce the number of transactions we process, all of which could adversely affect our results of operation and financial position.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple concrete operational channels of pandemic impact (client spending, workforce, third parties, transaction volumes).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "References potential adverse effects on both results of operations and financial position (material).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Still framed generically as 'such events', lacking COVID-specific data.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific operational impacts raise severity, but absence of quantified data keeps the score at 4."
+            },
+            {
+                "snippet": "We are unable to accurately predict the impact of such events on our business due to a number of uncertainties, including the duration, severity, geographic reach and governmental responses to such events, the impact on our clients’ and vendors' operations, and our ability to continue to provide products and services, including the ability of our associates  to work remotely.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights uncertainty and uncontrollable variables, underscoring risk breadth.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly references remote-work capability as a potential stress point linked to pandemics.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic 'such events' phrasing and lack of quantified impact lessen specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Mentions remote-work exposure and uncertainty, but generic framing yields a moderate score of 3."
+            },
+            {
+                "snippet": "If we are not able to respond to and manage the impact of such events effectively, our business will be harmed.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States clear negative consequence ('our business will be harmed') if pandemic response fails.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic; no direct mention of pandemic or mechanism of harm.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Adds little new detail and is very generic, so only minimal weight (score 1) is assigned."
+            }
+        ],
+        "calculated_score": 15,
+        "average_severity": 3.0
+    }
+]

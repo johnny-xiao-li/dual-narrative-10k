@@ -1,0 +1,56 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Apple’s 2024 Form 10-K still treats COVID-19 as a live, material risk rather than merely a historical event.  Although the initial outbreak began more than four years before the filing date, the disclosure makes clear that pandemic-related disruptions (supply chain bottlenecks, freight restrictions, employee travel curbs, depressed consumer demand and delays in new-product ramps) have already harmed the Company and could do so again.  This wording reflects both realised impacts (“have adversely affected”) and forward-looking threats (“could in the future materially adversely affect”), providing more than a boiler-plate reference.  Because the event is now in the 4-to-5-year window, the Time Decay Principle caps any single-sentence score in the moderate range (4-6).  No substantial mitigating language (e.g., alternative sourcing, remote-work efficiencies, pandemic playbooks) accompanies the statements, so the risk remains largely untempered.  Overall, the evidence supports a moderate-to-high residual risk assessment tied to COVID-19, consistent with Apple’s continued dependence on a globally concentrated supply chain and consumer sentiment that can shift quickly during public-health crises.",
+        "evidence_list": [
+            {
+                "snippet": "Major public health issues, including pandemics such as the COVID-19 pandemic, have adversely affected, and could in the future materially adversely affect, the Company due to their impact on the global economy and demand for consumer products; the imposition of protective public safety measures, such as stringent employee travel restrictions and limitations on freight services and the movement of products between regions; and disruptions in the Company’s operations, supply chain and sales and distribution channels, resulting in interruptions to the supply of current products and offering of existing services, and delays in production ramps of new products and development of new services.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit reference to the COVID-19 pandemic connects the sentence unambiguously to the analysed event.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States that the pandemic has already ‘adversely affected’ Apple—evidence of realised, not just potential, impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Enumerates multiple concrete impact channels (supply chain, labor/travel restrictions, demand shifts, production delays).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking clause (‘could in the future’) signals continuing exposure rather than a closed historical matter.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Strong, specific and multi-faceted description of realised and prospective COVID-19 impacts warrants a high-moderate score; capped at 6 to respect the 4-year time decay ceiling."
+            },
+            {
+                "snippet": "Following any interruption to its business, the Company can require substantial recovery time, experience significant expenditures to resume operations, and lose significant sales.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights material consequences (recovery time, extra costs, lost sales) that magnify pandemic-related interruptions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic wording without explicit mention of COVID-19 or public-health context reduces direct linkage strength.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Sentence quantifies the gravity of business interruptions but is only indirectly tied to the pandemic discussion, so it receives a low residual score."
+            }
+        ],
+        "calculated_score": 7,
+        "average_severity": 3.5
+    }
+]

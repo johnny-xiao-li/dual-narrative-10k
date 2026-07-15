@@ -1,0 +1,36 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing contains only a single, brief reference to the COVID-19 pandemic, buried within a broader list of geopolitical and health-related uncertainties. The company frames the pandemic strictly as a potential, future-oriented disruption equivalent to war or terrorism, rather than describing any direct, measured impact on operations, supply chains, labour availability or demand patterns. Four years have elapsed since the World Health Organization declared COVID-19 a pandemic, placing the event in the medium-term window where meaningful effects can still persist, but the Time Decay Principle dictates that scores should be moderate unless concrete, quantified impacts are disclosed. Because the disclosure is generic, unquantified and purely contingency-based, the overall risk signal is present but weak, warranting only a modest severity assessment.",
+        "evidence_list": [
+            {
+                "snippet": "We are subject to risks associated with potential disruption caused by changes in domestic or global political, economic and diplomatic developments, including war, civil and political unrest, illnesses declared as a public health emergency (including viral pandemics such as COVID-19), terrorism, expropriation and local labor conditions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites ‘viral pandemics such as COVID-19’ as a risk factor, directly linking the company to the event under analysis.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Language is prospective (‘potential disruption’) with no evidence of realised impact or quantification.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "COVID-19 is lumped together with numerous unrelated risks (war, terrorism, etc.), diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "The sentence acknowledges COVID-19 by name, but only in a generic, forward-looking list and without detail or measurement; four years after the outbreak this yields a low-moderate score of 2."
+            }
+        ],
+        "calculated_score": 2,
+        "average_severity": 2.0
+    }
+]

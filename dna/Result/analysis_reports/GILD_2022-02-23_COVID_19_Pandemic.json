@@ -1,0 +1,314 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Gilead’s 2022 Form 10-K shows the company views COVID-19 as a recent, multifaceted threat that is already disrupting its core activities—manufacturing, clinical development, commercial demand and overall financial performance—while also remaining a forward-looking uncertainty.  Several passages describe realised impacts (lower HCV/HIV demand, delayed trial enrolment, revenue volatility) alongside prospective hazards (future supply-chain interruptions, site shut-downs, regulatory bottlenecks).  The language is specific to business segments and products, although not expressed in precise dollar terms.  Because the filing date (23-Feb-2022) is within two years of the WHO pandemic declaration, the Time Decay Principle allows high severity scores.  Statements evidencing concrete, current impacts are weighted highest (scores ~7-8); broad, conditional or un-quantified statements are given moderate scores (3-6).  Mitigating disclosures (e.g., return-to-site protocols) slightly temper, but do not eliminate, risk levels because the company admits these actions may not suffice.  Overall, the risk is assessed as high, recent, and directly linked to the pandemic, warranting elevated but sub-maximal snippet scores.",
+        "evidence_list": [
+            {
+                "snippet": "Actual or threatened outbreaks of epidemic, pandemic or contagious diseases, such as COVID-19, may significantly disrupt our global operations and adversely affect our business, financial condition and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 directly to significant disruption of global operations and broad adverse business effects.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers multiple impact areas (operations, financial condition, results).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking, conditional wording ('may') reduces immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Strong statement of potential enterprise-wide disruption, but phrased as potential rather than realised; scored at 4."
+            },
+            {
+                "snippet": "For example, the COVID-19 pandemic has caused significant volatility and uncertainty in U.S. and international markets and has resulted in increased risks and adverse impacts to our operations, including as described below.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses past-tense ('has caused', 'has resulted'), confirming realised impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights market volatility and operational adversity, broadening severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantitative magnitude stated.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Confirms actual operational impact and market volatility, but lacks quantification; high-moderate score of 5."
+            },
+            {
+                "snippet": "Supply Chain: The pandemic could result in disruptions to our global supply chain and distribution in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies specific operational channel (supply chain/distribution) as vulnerable.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking conditional ('could result') lowers certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Specific but purely prospective statement about supply-chain risk; moderate score of 2."
+            },
+            {
+                "snippet": "For example, quarantines, shelter-in-place and other governmental orders and policies, travel restrictions, airline capacity and route reductions, safety guidelines and health impacts of the pandemic could impact the availability or productivity of products and personnel at manufacturers, distributors, freight carriers and other necessary components of our supply chain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete mechanisms (quarantines, travel curbs) that threaten multiple supply-chain nodes.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers both product availability and workforce productivity, expanding exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Still framed as conditional ('could impact').",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Granular description of supply-chain disruption channels yields high relevance despite conditional wording; score 5."
+            },
+            {
+                "snippet": "In addition, there may be unfavorable changes in the availability or cost of raw materials, intermediates and other materials necessary for production, which may result in higher costs, disruptions in our supply chain and interruptions in our distribution capabilities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Pinpoints cost inflation and material shortages leading to production and distribution risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies financial consequence (higher costs).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional language ('may') lowers certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Connects material shortages to higher costs and distribution problems; moderate-high score 4."
+            },
+            {
+                "snippet": "Clinical Trials: The pandemic has adversely affected and may continue to adversely affect certain of our clinical trials, including our ability to initiate and complete our clinical trials within the anticipated timelines.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States realised adverse effect on critical R&D activity (clinical trials).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Flags ongoing risk to future timelines ('may continue').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No numerical magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Realised and continuing impact on trial timelines is a core operational risk; strong score 6."
+            },
+            {
+                "snippet": "For ongoing trials, clinical trial sites have imposed restrictions on patient visits to limit risks of possible COVID-19 exposure, and we may experience issues with participant compliance with clinical trial protocols as a result of quarantines, travel restrictions and interruptions to healthcare services.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explains specific operational obstacles (site restrictions, participant compliance).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links them directly to pandemic measures (quarantines, travel).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Concrete operational hurdles in ongoing trials merit high score 6."
+            },
+            {
+                "snippet": "For the foregoing reasons, we have experienced delays with new subject enrollment for most clinical trials during the course of the pandemic, and may continue to experience overall delays in our clinical trials.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits experienced delays in enrolment—realised impact.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Warns of continuation, extending risk horizon.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Clear, realised delay in trial enrolment—material R&D impact; score 7."
+            },
+            {
+                "snippet": "Access to Healthcare Providers: The pandemic has limited patients’ ability or willingness to access and seek care from healthcare providers and initiate or continue therapies, which has resulted in lower demand for our products during the course of the pandemic, particularly with respect to hepatitis C virus (“HCV”) treatment and HIV treatment and prevention.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly ties pandemic to lower product demand in key franchises (HCV, HIV).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Specifies affected therapeutic areas, signalling materiality.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact qualitative, not quantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Real-world decline in core product demand; high relevance but unquantified; score 6."
+            },
+            {
+                "snippet": "For example, we have observed lower levels of patient visits and testing volumes in HCV, resulting in fewer patient starts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Observed, concrete metric deterioration (visits, testing, patient starts).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Relates directly to revenue-generating activities.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specific real-time demand reduction in HCV; high relevance; score 6."
+            },
+            {
+                "snippet": "In addition, at times during the pandemic, we have seen lower levels of screening and diagnosis for HIV, resulting in fewer treatment initiations, as well as higher levels of discontinuations, resulting in a reduction in prescription refills.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple realised effects (fewer initiations, more discontinuations, fewer refills).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Targets HIV, a major revenue segment.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Multi-faceted, realised downturn in HIV demand; very strong evidence; score 7."
+            },
+            {
+                "snippet": "Our field personnel have also had reduced access to healthcare personnel during the pandemic, including fewer in-person interactions, which has adversely impacted and may continue to adversely impact our commercial activities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies operational workforce obstacle affecting commercial execution.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes both realised and ongoing adverse impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Demonstrates sales-force limitations reducing commercial effectiveness; score 5."
+            },
+            {
+                "snippet": "Financial: The pandemic has had, and may continue to have, an adverse financial impact in the short term and potentially beyond.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly acknowledges adverse financial impact already occurring.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights indefinite duration ('potentially beyond').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Lacks specifics on magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "General statement of realised and continuing financial harm; moderate score 4."
+            },
+            {
+                "snippet": "We may continue to experience fluctuating revenues as infection rates rise and fall and as pandemic restrictions are periodically tightened and eased.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Foresees revenue volatility directly linked to pandemic dynamics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking and conditional.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Highlights revenue volatility but purely prospective; lower score 2."
+            },
+            {
+                "snippet": "These factors together with the overall uncertainty and disruption caused by the pandemic could result in increased volatility and decreased predictability in our results of operations and volatility in our stock price.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to earnings and stock price volatility.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional ('could'), no data.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Broad but speculative statement on volatility; scored at 2."
+            },
+            {
+                "snippet": "The extent to which the pandemic impacts our business and results will depend on future developments, which are uncertain and cannot be predicted with confidence, including any potential future waves of the pandemic, new variants of the virus that impact the severity and duration of the pandemic, the development, distribution, effectiveness and public acceptance of vaccines, and any other ongoing and future actions taken to contain the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges uncontrollable variables (future waves, variants) influencing risk magnitude.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly uncertain, no direct impact stated.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Descriptive uncertainty statement without current impact; minimal score 1."
+            }
+        ],
+        "calculated_score": 72,
+        "average_severity": 4.5
+    }
+]

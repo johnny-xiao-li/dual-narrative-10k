@@ -1,0 +1,124 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Alphabet’s 2024 Form 10-K still links the COVID-19 pandemic to several operational and strategic vulnerabilities, but the framing has shifted from an acute, near-term shock to an ongoing, albeit moderating, source of risk.  The company now discusses the pandemic mostly in tandem with other disruptive forces (natural disasters, geopolitical conflicts, climate events), signalling that management views COVID-19 as one of several external stressors rather than the singular driver it was in 2020-2021.  Nonetheless, the filing acknowledges both (i) tangible past impacts (e.g., supply shortages already experienced; outsized but temporary advertising growth) and (ii) forward-looking exposures (possible IT outages, weakened incident-response, cultural/HR strains).  Because the pandemic began almost four years before the filing date, the Time Decay Principle caps severity in the mid-range; evidence points to credible, company-specific risks, but they are largely unquantified and blended with broader contingency language.  Overall, the risk profile merits moderate scoring (4-6 range) rather than the high urgency of recent-event disclosures.",
+        "evidence_list": [
+            {
+                "snippet": "We have experienced and/or may in the future experience supply shortages, price increases, quality issues, and/or longer lead times that could negatively affect our operations, driven by raw material, component availability, manufacturing capacity, labor shortages, industry allocations, logistics capacity, inflation, foreign currency exchange rates, tariffs, sanctions and export controls, trade disputes and barriers, forced labor concerns, sustainability sourcing requirements, geopolitical tensions, armed conflicts, natural disasters or pandemics, the effects of climate change (such as sea level rise, drought, flooding, heat waves, wildfires and resultant air quality effects and power shutdowns associated with wildfire prevention, and increased storm severity), power loss, and significant changes in the financial or business condition of our suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits actual past impact ('we have experienced') linking supply shortages to pandemics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States potential continuing risk ('may in the future experience') with negative operational consequences.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemic is one of many listed causes, slightly diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly acknowledges both historical and future pandemic-driven supply-chain harm, but specificity is diluted by a long list of other drivers, yielding a moderate score of 4."
+            },
+            {
+                "snippet": "Our systems are vulnerable to damage, interference, or interruption from modifications or upgrades, terrorist attacks, state-sponsored attacks, natural disasters or pandemics, geopolitical tensions or armed conflicts, export controls and sanctions, the effects of climate change (such as sea level rise, drought, flooding, heat waves, wildfires and resultant air quality effects and power shutdowns associated with wildfire prevention, and increased storm severity), power loss, utility outages, telecommunications failures, computer viruses, software bugs, ransomware attacks, supply-chain attacks, computer denial of service attacks, phishing schemes, or other attempts to harm or access our systems.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly recognises pandemics as a threat vector to IT continuity and service delivery.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists pandemic alongside many other hazards, reducing event-specific salience.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Highlights potential harm to reputation, financial condition, and operations if systems fail.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Identifies pandemic as a possible trigger for IT outages, but generic list format and lack of past impact keep severity low-moderate (score 2)."
+            },
+            {
+                "snippet": "While we have dedicated significant resources to privacy and security incident response capabilities, including dedicated worldwide incident response teams, our response process, particularly during times of a natural disaster or pandemic, may not be adequate, may fail to accurately assess the severity of an incident, may not be fast enough to prevent or limit harm, or may fail to sufficiently remediate an incident.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges specific operational weakness ('response process may not be adequate') during a pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes mitigation efforts (dedicated resources), which partially offsets risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Points to reduced incident-response effectiveness during pandemics, but existing mitigation and conditional language lower severity (score 1)."
+            },
+            {
+                "snippet": "As our organization grows and evolves, we may need to adapt our corporate culture and work environments to ever-changing circumstances, such as during times of a natural disaster or pandemic, and these changes could affect our ability to compete effectively or have an adverse effect on our corporate culture.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights pandemic-related HR and competitiveness challenges (remote work, culture).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Purely potential and broadly phrased; no evidence of material impact yet.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Describes possible cultural and competitive strain from pandemic-driven workplace changes, but speculative nature keeps score minimal (1)."
+            },
+            {
+                "snippet": "We expect that this evolution will continue to benefit our business and our revenues, although at a slower pace than we have experienced historically, in particular after the outsized growth in our advertising revenues during the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to abnormal revenue growth, implying risk of post-pandemic deceleration.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Focuses on slowing benefit, not explicit downside loss; partially mitigating.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Links pandemic to a non-recurring revenue surge and future slowdown risk; moderate but unquantified impact yields score 2."
+            },
+            {
+                "snippet": "However, we may not have discovered, and may in the future not discover, all such incidents or activity, whether as a result of our data limitations, including our lack of visibility over our encrypted services, the scale of activity on our platform, or other factors, including factors outside of our control such as a natural disaster or pandemic, and we may learn of such incidents or activity via third parties.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemic as external factor that could hamper detection of security incidents.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly conditional and bundled with many other factors.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Pandemic surfaces as a complicating factor for incident detection, but generic framing limits risk weight (score 1)."
+            }
+        ],
+        "calculated_score": 11,
+        "average_severity": 1.8333333333333333
+    }
+]

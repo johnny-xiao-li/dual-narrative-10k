@@ -1,0 +1,261 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "TYL’s 2022 filing presents COVID-19 as a live, multifaceted risk that is already affecting operations while still carrying meaningful forward-looking uncertainty.  Because the pandemic began less than two years before the filing, time-decay is minimal and recent impacts are weighted heavily.  The company cites concrete, realized consequences—lower software-services revenue, disrupted hardware supply chains, and project delays—alongside quantified but low-margin pandemic-related revenues that could unwind quickly.  It also describes plausible near-term threats such as further government-procurement slowdowns, labour-access issues, potential goodwill impairments and cash-collection strains.  Mitigating language appears (e.g., virtual delivery, recurring-revenue cushion, improving market conditions), but these factors do not fully offset the breadth of exposure.  Overall, the disclosures show a medium-to-high severity, recent, only partially mitigated risk profile; accordingly, individual snippet scores cluster in the 3-7 range, with a few near-neutral scores where the narrative reflects pandemic-driven upside or recovery signals.",
+        "evidence_list": [
+            {
+                "snippet": "A global economic slowdown, the COVID-19 pandemic, or similar circumstances could also adversely affect the businesses of our third-party providers, hindering their ability to provide the services on which we rely.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 directly to potential disruption of critical third-party services.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights downstream operational dependence (‘services on which we rely’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional wording (‘could’), indicating uncertainty rather than an existing hit.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows concrete supply-chain/outsourcing exposure but framed as a potential rather than realized event, yielding a moderate score."
+            },
+            {
+                "snippet": "In addition, the ongoing COVID-19 pandemic has disrupted and may continue to disrupt the supply chain of hardware needed to maintain these third-party systems or to run our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that disruption is already occurring (‘has disrupted’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Warns of continued future disruption (‘may continue’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Describes a current, continuing supply-chain impact, so risk is high but still unquantified."
+            },
+            {
+                "snippet": "We expect that the continued global spread of COVID-19 may negatively impact our business and financial results in fiscal year 2022.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Company forecasts specific near-term negative impact to business and financial results.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Time-bounded to FY-2022, increasing immediacy.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Explicit, time-bound expectation of adverse financial effect warrants a solid mid-high score."
+            },
+            {
+                "snippet": "While we are unable to accurately predict the full impact that COVID-19 will continue to have on our results from operations, financial condition, liquidity and cash flows due to numerous uncertainties, including the duration and severity of the pandemic and containment measures and associated compliance, we do expect the pandemic may negatively impact our revenues and other financial results.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges uncertainty across multiple financial dimensions (breadth of risk).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Still anticipates negative revenue and financial effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Heavy caveats (‘unable to accurately predict’) temper severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Broad but speculative statement; uncertainty language lowers the severity score."
+            },
+            {
+                "snippet": "We may see some more immediate impact on our business should there be new delays in government procurement processes and uncertainty around public sector budgets, or new delays in implementations caused by travel restrictions, closed offices, or clients shifting focus to more pressing issues.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete channels (procurement, travel, budget) through which COVID-19 can hurt revenues.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional ‘may’/‘should there be’ softens certainty.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Highlights immediacy (‘more immediate impact’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specific operational pressures, but framed as contingent; yields a moderate score."
+            },
+            {
+                "snippet": "Appraisal and software implementations projects may be delayed if clients put projects on hold or slow projects by extending go-live dates.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Points to potential revenue and timing risk on project work.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Use of ‘may’ indicates possibility not certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Narrow, contingent risk; low severity score."
+            },
+            {
+                "snippet": "Some clients could request changes to payment terms, negatively impacting the timing of collections of accounts receivables in future periods.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights cash-flow risk from client behaviour linked to pandemic stress.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Speculative (‘could’).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Cash-collection risk is material but still only potential, so moderate-low score."
+            },
+            {
+                "snippet": "Although market activity improved throughout 2021 in most sectors of our business and continues to trend to near or above pre-pandemic levels in most sectors of our business, the pandemic continues to delay some government procurement processes and is expected to impact our ability to complete certain implementations, negatively impacting our revenue.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms ongoing delays and revenue impact from pandemic.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Mentions partial recovery/improvement, a mitigating factor.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Ongoing impact balanced by noted recovery; net risk modest."
+            },
+            {
+                "snippet": "For the twelve months ended December 31, 2021, excluding the impact of 2021 acquisitions, the impact of the COVID-19 pandemic resulted in lower revenues from software services.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports realised, period-specific revenue decline attributed to COVID-19.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Actual historical revenue hit produces a strong risk indicator."
+            },
+            {
+                "snippet": "Software services revenues have been affected by a decline in billable travel revenue, as most services are now being delivered virtually rather than on-site.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies operational shift causing revenue erosion (lost billable travel).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Direct cause-and-effect description of revenue decrease; moderate severity."
+            },
+            {
+                "snippet": "For the twelve months ended December 31, 2021, total revenues include COVID-related subscriptions revenue and software services revenues of $75.0 million from NIC's TourHealth, pandemic unemployment services, and Virginia rent relief offerings.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies $75 million positive revenue tied to pandemic programmes (risk-mitigating).",
+                            "points": -3
+                        }
+                    ],
+                    "final_snippet_score": -3
+                },
+                "reasoning_summary": "Shows pandemic-related upside, which offsets risk; net score is negative, signalling mitigation."
+            },
+            {
+                "snippet": "We currently expect that these low margin COVID-related revenues from TourHealth and pandemic unemployment will wind down in the first half of 2022, while revenues from the Virginia rent relief program are expected to continue through 2022.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of near-term decline in pandemic-driven revenue streams.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Future drop-off of low-margin pandemic revenue represents additional downside risk."
+            },
+            {
+                "snippet": "Because an increasing portion of our revenues are recurring, the effect of COVID-19 on our results of operations may also not be fully reflected for some time.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights lagging recognition of pandemic effects (hidden risk).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes stabilising effect of recurring revenue (mitigation).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Delayed visibility of impact adds mild risk, partly offset by revenue stability."
+            },
+            {
+                "snippet": "As travel restrictions are relaxed, software services and appraisal services revenues are increasing.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates recovery trend reducing pandemic risk.",
+                            "points": -3
+                        }
+                    ],
+                    "final_snippet_score": -3
+                },
+                "reasoning_summary": "Explicit risk mitigation; negative score reflects diminishing severity."
+            },
+            {
+                "snippet": "The occurrence of any of these events, which could be caused or impacted by the COVID-19 pandemic, may require us to record future goodwill impairment charges.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces potential for significant non-cash impairment tied to pandemic effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional ‘may’ tempers certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Identifies possible balance-sheet hit, but uncertainty keeps score modest."
+            }
+        ],
+        "calculated_score": 34,
+        "average_severity": 2.2666666666666666
+    }
+]

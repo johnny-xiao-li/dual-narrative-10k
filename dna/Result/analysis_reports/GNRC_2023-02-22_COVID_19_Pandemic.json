@@ -1,0 +1,127 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "GNRC’s 2023 Form 10-K describes COVID-19 as an ongoing, multi-faceted risk that still materially threatens the company nearly three years after the WHO declaration.  The disclosure moves beyond generic cautions: management reports that the pandemic has already caused ‘various interruptions’ in its supply chain, inbound and outbound logistics delays, and increased costs.  It also notes that these disruptions could intensify—potential work stoppages at factories or suppliers could leave the company unable to meet customer demand, while broader macro-economic knock-on effects (inflation, labour shortages, asset-impairment risk) could significantly hit operating results and financial condition.  Although no dollar amounts are provided, the language is specific about business functions (manufacturing operations, supply chain, distribution networks, demand) and distinguishes between realised impacts (interruptions, higher costs) and forward-looking contingencies (future stoppages, cascading macro risks).  Because the filing date (22-Feb-2023) is well within three years of the pandemic’s start, time-decay does not materially erode severity.  Nevertheless, the absence of quantified losses and the presence of some mitigation language cap individual snippet scores in the mid-range rather than at the maximum.  Overall, the evidence depicts a current, direct but un-quantified risk that is still material, warranting moderate-to-high risk scores on the 0-10 scale.",
+        "evidence_list": [
+            {
+                "snippet": "The duration and scope of the impacts of the COVID-19 pandemic are uncertain and may continue to adversely affect our operations, supply chain, distribution, and demand for certain of our products and services.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly references COVID-19 and links it to multiple critical business areas (operations, supply chain, distribution, demand).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses adverse-impact language (‘may continue to adversely affect’), signalling potential ongoing harm.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights uncertainty and lack of quantification, weakening precision.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event is recent (≤3 years) so no time-decay deduction.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Concrete link to pandemic and key functions gives this sentence weight, but generic wording and no figures temper severity."
+            },
+            {
+                "snippet": "The impact of COVID-19 has resulted in and may in the future result in disruptions to our manufacturing operations and supply chain, which could negatively impact our ability to meet customer demand.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that disruptions have already occurred (‘has resulted’), showing realised impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies critical functions affected (manufacturing operations and supply chain).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights a knock-on effect— inability to meet customer demand—raising business severity.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking ‘may in the future’ caveat lowers certainty slightly.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Evidence of past and prospective disruptions to core production yields a solid mid-high score despite cautionary wording."
+            },
+            {
+                "snippet": "To date, we have experienced various interruptions to our supply chain as a result of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms factual, historical impact (‘have experienced’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Ties impact directly to COVID-19 and a vital function (supply chain).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantification of magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Actual supply-chain interruptions are material, but lack of financial sizing moderates the score."
+            },
+            {
+                "snippet": "If we were to encounter a significant work stoppage, disruption, or outbreak due to COVID-19 at one or more of our locations or suppliers, we may not be able to satisfy customer demand for a period of time.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Defines a severe contingency (significant work stoppage/disruption) linked to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details concrete business consequence— inability to satisfy customer demand.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Purely conditional (‘if’, ‘may’), so impact not yet realised.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Severity of potential stoppage is high, but hypothetical nature and no current impact keep score modest."
+            },
+            {
+                "snippet": "Furthermore, the impact of COVID-19 on the economy, demand for our products and impacts to our operations, including the measures taken by governmental authorities to address it, may precipitate or exacerbate other risks and/or uncertainties, including specifically many of the risk factors set forth in this Annual Report, including inflationary costs, disruptions due to labor shortages, supply chain disruptions, and risks related to the fair market value of intangible assets that could lead to an impairment, which may have a significant impact on the Company's operating results and financial condition, although we are unable to predict the extent or nature of these impacts at this time.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes cascading, multi-domain risks triggered or worsened by COVID-19, broadening severity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Signals potentially ‘significant impact’ on operating results and financial condition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Admits inability to predict extent, reflecting uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Wide-ranging secondary risks elevate concern, but uncertainty and no numeric detail hold score to upper-mid level."
+            }
+        ],
+        "calculated_score": 20,
+        "average_severity": 4.0
+    }
+]

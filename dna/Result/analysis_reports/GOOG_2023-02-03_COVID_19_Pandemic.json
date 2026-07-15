@@ -1,0 +1,206 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Google’s 2023 10-K acknowledges that the COVID-19 pandemic, declared in March 2020 and still recent at the February 2023 filing date, has already affected—and may continue to affect—the company across several dimensions.  The disclosure set explicitly states that Google’s revenue growth, expense ratios, and overall operating results ‘have been’ impacted by COVID-19-driven macro-economic conditions, showing a realised, not merely hypothetical, effect.  In addition, the filing links the pandemic to supply-chain shortages, labour constraints, potential data-centre outages, cyber-incident response limitations, and general market unpredictability.  Most statements are qualitative and unquantified, but they span critical functions (advertising revenue, cloud availability, hardware supply) and concede ongoing uncertainty.  Because the pandemic’s onset (2020) is within three years of the filing, the Time-Decay Principle allows elevated severity scores.  However, the absence of hard numbers and the bundling of ‘pandemics’ with other hazards temper the ratings.  Overall, the risk profile is significant and recent, but largely described in broad, forward-looking terms, with only one sentence confirming concrete financial impact to date.",
+        "evidence_list": [
+            {
+                "snippet": "We have experienced and/or may in the future experience supply shortages, price increases, and/or longer lead times that could negatively affect our operations, driven by raw material, component availability, manufacturing capacity, labor shortages, industry allocations, logistics capacity, inflation, foreign currency exchange rates, tariffs, sanctions and export controls, trade disputes and barriers, geopolitical tensions, armed conflicts, natural disasters or pandemics, the effects of climate change (such as sea level rise, drought, flooding, heat waves, wildfires and resultant air quality effects and power shutoffs associated with wildfire prevention, and increased storm severity), power loss, and significant changes in the financial or business condition of our suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges both past and potential future disruptions ('have experienced and/or may in the future experience').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly lists pandemics as a driver of supply shortages and higher costs.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links disruptions to negative operational impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemics are bundled with many other hazards, diluting specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No quantified financial magnitude provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides concrete operational risk already encountered, directly tied to pandemics, but is qualitative and mixed with many other factors."
+            },
+            {
+                "snippet": "Our systems are vulnerable to damage, interference, or interruption from modifications or upgrades, terrorist attacks, state-sponsored attacks, natural disasters or pandemics, geopolitical tensions or armed conflicts, the effects of climate change (such as sea level rise, drought, flooding, heat waves, wildfires and resultant air quality effects and power shutoffs associated with wildfire prevention, and increased storm severity), power loss, telecommunications failures, computer viruses, software bugs, ransomware attacks, computer denial of service attacks, phishing schemes, or other attempts to harm or access our systems.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies vulnerability of critical IT systems to pandemics.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Potential interruption could harm operations and reputation.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Pandemics included in a long generic list, lowering specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Purely forward-looking with no evidence of actual impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights an important operational exposure but remains generic and hypothetical."
+            },
+            {
+                "snippet": "The occurrence of a natural disaster or pandemic, closure of a facility, or other unanticipated problems affecting our data centers could result in lengthy interruptions in our service.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies that a pandemic could cause 'lengthy interruptions' of data-centre services—critical infrastructure.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly links pandemic to potential service outages.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No historical impact and no quantification.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Severe potential consequence stated, but purely prospective and unquantified."
+            },
+            {
+                "snippet": "Our business, operations and financial performance have been, and may continue to be, affected by the macroeconomic impacts resulting from COVID-19, and as a result, our revenue growth rate and expenses as a percentage of our revenues in future periods may differ significantly from our historical rates, and our future operating results may fall below expectations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms realised impact (‘have been affected’) from COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers multiple financial levers (revenue growth rate and expense ratios).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Projects continued adverse effects (‘may continue to be’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No numerical magnitude disclosed.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Strongest evidence: actual past impact and broad future risk, though still qualitative."
+            },
+            {
+                "snippet": "The continuing effects of the COVID-19 pandemic and its impact are highly unpredictable and could be significant, and could harm our business, financial condition, and operating results.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises unpredictability and potentially significant impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly references COVID-19’s ongoing nature.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "States broad areas of harm (business, financial condition, operating results).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantification provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clear, company-wide risk acknowledgement; moderately severe but unquantified."
+            },
+            {
+                "snippet": "The extent to which our business will continue to be affected will depend on a variety of factors, many of which are outside of our control, including the persistence of the pandemic, impacts on economic activity, and the possibility of recession or continued financial market instability.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that ongoing impact is contingent on pandemic persistence.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights dependence on external macroeconomic factors.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly conditional and generic wording.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No quantitative data.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Adds context to uncertainty but offers little detail or severity."
+            },
+            {
+                "snippet": "While we have dedicated significant resources to privacy and security incident response capabilities, including dedicated worldwide incident response teams, our response process, particularly during times of a natural disaster or pandemic, may not be adequate, may fail to accurately assess the severity of an incident, may not be fast enough to prevent or limit harm, or may fail to sufficiently remediate an incident.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that pandemic conditions could degrade security-incident response.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Indicates possible failure to prevent or limit harm.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Presence of existing mitigation efforts (dedicated resources).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No historical impact or quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mentions a specialised operational vulnerability but mitigated and hypothetical."
+            },
+            {
+                "snippet": "However, we may not have discovered, and may in the future not discover, all such incidents or activity, whether as a result of our data limitations, including our lack of visibility over our encrypted services, the scale of activity on our platform, or other factors, including factors outside of our control such as a natural disaster or pandemic, and we may learn of such incidents or activity via third parties.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists pandemics as external factor hindering incident detection.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Very generic and speculative; no direct operational or financial linkage.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Minor reference to pandemic as a detection obstacle; low materiality."
+            }
+        ],
+        "calculated_score": 25,
+        "average_severity": 3.125
+    }
+]

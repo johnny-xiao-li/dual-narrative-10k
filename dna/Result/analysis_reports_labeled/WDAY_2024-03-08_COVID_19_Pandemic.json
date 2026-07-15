@@ -1,0 +1,80 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Workday’s 2024 Form 10-K frames COVID-19 and broader pandemic threats as part of a constellation of macro-risk factors that can still materially disrupt the business even four years after the World Health Organization’s declaration. The language remains largely forward-looking—phrases such as “may negatively affect” or “may be unable to continue operations” dominate—indicating that management now treats COVID-19 as an ongoing contingency rather than an acute crisis. The filing highlights three residual vectors of exposure: (1) macro-demand uncertainty arising from future global health crises; (2) operational fragility should another pandemic-scale event occur, with the potential for outright service outages and data loss; and (3) the enduring cybersecurity vulnerabilities created by a hybrid/remote workforce that originated in the pandemic period. There is no quantified dollar impact, no discussion of specific supply-chain constraints, and only indirect reference to labour challenges. Consequently, while the disclosures acknowledge meaningful risk, they are generic and un-quantified, consistent with a medium-term (four-year-old) event. Applying the Time Decay Principle, overall severity is moderate rather than acute, which guides individual snippet scores into the 4-6 range.",
+        "evidence_list": [
+            {
+                "snippet": "Global economic developments, geopolitical volatilities, downturns or recessions, and global health crises may negatively affect us or our ability to accurately forecast and plan our future business activity.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "References ‘global health crises,’ explicitly tying pandemic-scale events to corporate risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes impairment of forecasting and planning capabilities, showing operational exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement is conditional (‘may’) and broad, reducing specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "The sentence expressly links pandemics to business disruption but remains generic and unquantified; within a four-year window this merits a moderate score of 4."
+            },
+            {
+                "snippet": "In the event of a major earthquake, hurricane, or other natural disaster, or a catastrophic event such as fire, power loss, telecommunications failure, vandalism, civil unrest, cyber-attack, geopolitical instability, war, terrorist attack, insurrection, pandemics or other public health emergencies, or the effects of climate change (such as drought, flooding, heat waves, wildfires, increased storm severity, and sea level rise), we may be unable to continue our operations and have, and may in the future, endure system interruptions, and may experience delays in our product development, lengthy interruptions in our services, breaches of data security, and loss of critical data, all of which could cause reputational harm or otherwise have an adverse effect on our business and operating results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘pandemics or other public health emergencies’ as a trigger event.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details severe potential consequences—cessation of operations, service outages, data loss—indicating material impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Pandemic is buried in an exhaustive hazard list, diluting event-specific focus.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Comprehensive enumeration of dire consequences elevates severity, but the catch-all nature prevents a higher score; 6 aligns with medium-term risk parameters."
+            },
+            {
+                "snippet": "Additionally, remote work and resource access, including our hybrid work model, has and may continue to result in an increased risk of cybersecurity-related events such as phishing attacks, exploitation of any cybersecurity flaws that may exist, an increase in the number cybersecurity threats or attacks, and other security challenges as a result of our employees and our service providers continuing to work remotely from non-corporate managed networks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-driven remote/hybrid work practices to ongoing operational risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies concrete threat types, showing a clear risk pathway.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not reference COVID-19 explicitly and uses ‘may,’ signalling potential rather than realized impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Identifies a direct, lingering pandemic-era shift (remote work) that heightens cyber-risk, but absence of explicit COVID reference and lack of quantification keep the score at a moderate 4."
+            }
+        ],
+        "calculated_score": 14,
+        "average_severity": 4.666666666666667
+    }
+]

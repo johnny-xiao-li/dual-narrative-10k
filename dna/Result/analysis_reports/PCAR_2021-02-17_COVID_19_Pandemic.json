@@ -1,0 +1,299 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated February 17, 2021, discusses COVID-19 less than one year after the WHO declared the pandemic, so the Time Decay Principle allows high-severity scores (0–3 yrs window).  The 10-K combines forward-looking warnings (possible facility shutdowns, supplier failures, demand shocks) with retrospective evidence of material impacts that already occurred in 2020 (global production suspension, reduced truck deliveries, higher credit-loss provisions, incremental costs).  The language is specific, repeatedly links the pandemic to the company’s revenue, cost structure, supply chain and labor availability, and even provides calendar dates for plant closures and re-openings.  Quantification is mostly qualitative, but breadth and immediacy of effects elevate risk.  Mitigants (essential-business status, re-start of plants, cost-saving measures) temper but do not eliminate the exposure.  Overall, COVID-19 represents a high, currently-manifesting risk to PACCAR, meriting high individual snippet scores (7–9) where concrete operational or financial impacts are described, and moderate scores (3–5) where risks are more generic or contingent.  Purely mitigating statements receive zero or low scores, consistent with the point-addition/subtraction method and the recent-event time-decay window.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic and various governmental responses to contain the outbreak have resulted in a significant reduction in global economic activity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that COVID-19 has already caused a 'significant reduction' in economic activity (recent, direct macro impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects governmental responses (lockdowns, etc.) to the downturn, signalling persistence of the risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly acknowledges a material, present-day macroeconomic hit; no PACCAR-specific data, so score is moderate."
+            },
+            {
+                "snippet": "National and local governments have issued various stay-at-home orders, travel restrictions and border closures affecting consumers and businesses.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates concrete restrictions (stay-at-home, travel bans, border closures) that impede operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights broad impact on consumers and businesses, implying demand and supply shocks.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Lists specific containment measures that aggravate operational risk, but without PACCAR-specific metrics."
+            },
+            {
+                "snippet": "These restrictions have been lifted to various degrees in different locations, but are subject to being re-imposed.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies uncertainty and possibility of renewed lockdowns (forward-looking aggravator).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges partial lifting, signalling some mitigation.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Future reinstatement risk keeps pressure elevated despite partial easing."
+            },
+            {
+                "snippet": "The Company’s operations have been designated as essential businesses in many jurisdictions as they support the transport of food, medical supplies and other essential materials which means the Company may operate under certain conditions including ensuring employee health and safety is maintained.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Essential-business designation allows continued operations (strong mitigation).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Still notes conditional operation requirements (some residual risk).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Mostly a mitigating statement; net risk impact is neutral after offsets."
+            },
+            {
+                "snippet": "The Company’s workforce at a given location could be affected by a localized outbreak of COVID-19, necessitating facility shutdowns.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies potential labor shortages and health risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions possible facility shutdowns (direct operational disruption).",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct operational threat via workforce illness deserves high score."
+            },
+            {
+                "snippet": "If the Company suspends production at one or more of its factories as a result of the pandemic or related impacts, or if one or more of the Company’s suppliers could not produce needed parts or not produce at sufficient volumes to support the Company’s production plans or aftermarket requirements, revenues and operating results could be adversely affected.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights own factory shutdown risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Adds supplier-capacity failure risk (supply chain disruption).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links both risks to adverse revenue and earnings impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Combines multiple concrete operational threats with explicit financial downside; recent event allows high score."
+            },
+            {
+                "snippet": "The full extent and duration of the adverse effect on the Company’s business is uncertain and depends on the severity of the pandemic and how quickly and to what extent global and local economies are able to recover from the effects of the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasizes uncertainty in magnitude and duration (risk amplification).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects outcome to macroeconomic recovery speed.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Uncertainty itself is a risk driver but lacks specifics, so moderate score."
+            },
+            {
+                "snippet": "Prolonged unemployment, changes in consumer behavior as a result of COVID-19, as well as other pandemic related economic factors such as business failures, lower housing and construction starts, lower automobile sales and disruptions in financial markets could have further adverse effects on the Company’s truck and parts revenues and operating results and may result in higher finance portfolio past dues, credit losses and used truck losses.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple macroeconomic channels hitting core revenues.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifically calls out credit losses and used-truck losses (financial impact).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Detailed cascade of potential financial harms yields moderately high score."
+            },
+            {
+                "snippet": "Other unforeseen impacts of the COVID-19 pandemic could also impact the Company’s business and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Catches additional unknown risks (breadth).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic catch-all; provides little specificity, so low score."
+            },
+            {
+                "snippet": "PACCAR’s financial results for year ended December 31, 2020 were impacted by the COVID-19 pandemic, with the most significant impact in the quarter ended June 30, 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges realized impact on financial results.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Identifies specific timing (Q2 2020), confirming recency.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct, time-stamped confirmation of material impact merits strong score."
+            },
+            {
+                "snippet": "The Company’s truck and engine production was suspended at its factories worldwide starting March 24, 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Concrete global production stoppage.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Provides exact start date, underscoring immediacy.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Severe operational disruption with worldwide scope produces high score."
+            },
+            {
+                "snippet": "Truck and engine production restarted in Europe and Australia on April 20, 2020, and factories gradually resumed operations in North America and Brasil in early May.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates resumption of production (mitigation).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Still implies a prior shutdown period.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Mostly mitigation; net score neutral after offsets."
+            },
+            {
+                "snippet": "In the third quarter the Company resumed production at rates sufficient to accommodate demand while maintaining appropriate health and safety protocols.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows recovery to pre-pandemic capacity (mitigation).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Ongoing health protocols imply residual cost/complexity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Recovery narrative offsets ongoing minor constraints; net neutral."
+            },
+            {
+                "snippet": "Effects of the pandemic included reduced truck deliveries, increased costs associated with the suspension of production, lower aftermarket parts sales and higher provision for losses on Financial Services receivables.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple realized negative impacts (deliveries, costs, sales, credit losses).",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Demonstrates breadth across segments (Truck, Parts, Financial Services).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Broad, realized, multi-segment impacts justify near-maximum score."
+            },
+            {
+                "snippet": "Increased costs related to the suspension and subsequent resumption of production primarily included reduced labor efficiency, costs to prepare factories for safe re-opening and reduced factory utilization.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific cost overruns tied to pandemic shutdown/resumption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights operational inefficiencies (labor, utilization).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides granular cost drivers; solid but not quantified, so moderate score."
+            },
+            {
+                "snippet": "The Company implemented cost saving measures to partially offset the increased costs.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes mitigation through cost savings.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Pure mitigation, reducing net risk contribution to zero."
+            },
+            {
+                "snippet": "Future production volumes will depend on market demand for trucks, parts availability from the Company’s suppliers and further government directives related to the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links future output directly to pandemic-driven factors (demand, supply, regulation).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly references supplier availability risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking conditionality on pandemic factors warrants moderate-high score."
+            }
+        ],
+        "calculated_score": 64,
+        "average_severity": 3.764705882352941
+    }
+]

@@ -1,0 +1,128 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "BG’s 2024 filing acknowledges that the COVID-19 pandemic has already affected its operations and remains a live threat that could further disrupt supply chains, logistics, employee health and overall demand.  The narrative, however, is mostly qualitative: management cites past adverse impacts and lists numerous potential future effects but provides no quantified loss figures or precise scenarios.  Because the World Health Organization declared COVID-19 a pandemic almost four years before the filing date, Time-Decay pushes the evidence into a ‘medium-term’ window (4-10 years), capping severity scores in the mid-range.  Still, several sentences disclose enduring vulnerabilities—especially to commodity-price volatility, transportation networks and workforce safety—which indicates that the risk is not merely historic.  Overall, the company characterises COVID-19 as an ongoing, multi-faceted operational and financial hazard but uses largely generic, forward-looking language, implying moderate—not acute—risk severity at this stage.",
+        "evidence_list": [
+            {
+                "snippet": "Prices for agricultural commodities and their by-products, including, among others, soybeans, corn, wheat, sugar and ethanol, like those of other commodities, are often volatile and sensitive to local and international changes in supply and demand caused by factors outside of our control, including farmer planting and selling decisions, currency fluctuations, inflation, government agriculture programs and policies, pandemics (such as the COVID-19 pandemic), governmental restrictions or mandates, global inventory levels, demand for biofuels, weather and crop conditions, and demand for and supply of competing commodities and substitutes.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites pandemics, including COVID-19, as a driver of commodity-price volatility and demand swings.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is presented generically within a long list with no quantitative impact or immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mentions COVID-19 as a volatility factor but only generically, yielding a very low severity score."
+            },
+            {
+                "snippet": "As a result, we are subject to the risks inherent in such activities, including industrial accidents, environmental events, fires, explosions, strikes and other labor or industrial disputes, disruptions in logistics or information systems, as well as natural disasters, pandemics (such as the COVID-19 pandemic), wars (including the Ukraine-Russia war and conflicts in the Middle East), acts of terrorism, and other external factors over which we have no control.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists pandemics such as COVID-19 alongside other major disruptive events, signalling exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links pandemics to potential logistics and information-system disruptions, indicating operational vulnerability.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Provides operational context for pandemic risk but still in a broad list, resulting in a modest score."
+            },
+            {
+                "snippet": "Our operations have been and may in the future be adversely impacted as a result of public health crises, pandemics and epidemics.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits realised past adverse impacts on operations—evidence of existing harm.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Warns of continuing future adverse impacts, showing ongoing exposure.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Combines past and potential future impacts, earning the highest allowable mid-term score."
+            },
+            {
+                "snippet": "Public health crises, pandemics and epidemics, such as the COVID-19 pandemic, could adversely affect our business, financial condition and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 specifically and connects it to multiple financial dimensions (business, condition, results).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers a broad scope of impact areas, increasing severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional language ('could') tempers certainty of impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specific linkage to COVID-19 and financial harm, but conditional wording keeps the score moderate."
+            },
+            {
+                "snippet": "Any outbreaks of new public health crises, pandemics and epidemics and the related government responses may adversely affect our operations, facilities, health of our employees and consumers, as well as general commercial activity related to our supply chain and customer base.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple operational touch-points (facilities, employee health, supply chain, customers).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly references supply-chain and customer-base disruptions.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses conditional 'may', reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Granular description of possible impacts balanced by conditional phrasing yields a mid-level score."
+            },
+            {
+                "snippet": "To the extent any public health crisis, pandemic or epidemic adversely affects our business, results of operations, financial condition and share price, it may also have the effect of heightening many of the other risks described in this Item 1A.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights compounding effect—pandemics can amplify other disclosed risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions multiple financial categories including share price.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional phrasing ('may') reduces certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Notes a cascading risk effect but with conditional language and no specifics, so severity is low-moderate."
+            }
+        ],
+        "calculated_score": 17,
+        "average_severity": 2.8333333333333335
+    }
+]

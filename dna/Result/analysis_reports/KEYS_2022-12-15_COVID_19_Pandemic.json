@@ -1,0 +1,191 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Keysight’s 2022-12-15 filing acknowledges that the COVID-19 pandemic is both an already-realised and still-evolving threat.  Management discloses concrete past impacts—specifically, supply-chain shortages that have delayed manufacturing, raised material costs, and slowed deliveries—and warns that further mutations or government counter-measures could again disrupt operations worldwide.  The language is stronger than generic boiler-plate: it cites actual adverse effects (“have had an impact,” “have adversely impacted our ability to procure”), flags the possibility of material financial harm, and ties the risk to critical functions such as component sourcing, factory uptime, logistics, and customer fulfilment.  Although the company notes mitigation efforts (safety measures, ongoing monitoring), these are high-level and unquantified, leaving residual exposure.  Because the pandemic event is well within the 0-to-3-year Time-Decay window and the filing documents both realised impacts and continuing uncertainty, the overall risk evidence warrants upper-mid scores across multiple snippets.",
+        "evidence_list": [
+            {
+                "snippet": "• negative impact of a country’s response to, or an imposed reduction in economic activity and other economic and political measures taken to contain the spread of global pandemic conditions;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links government pandemic-containment actions to negative economic impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Bullet phrasing is generic/conditional with no quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Mentions pandemic-driven economic restrictions but in a broad, un-quantified way, yielding a low-moderate score of 2."
+            },
+            {
+                "snippet": "Global health crises, such as the COVID-19 pandemic, have had an impact on our supply chain and could have a material impact on our global operations, our customers and our vendors, which could adversely impact our business results and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that COVID-19 has already affected the supply chain (realised impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Warns of ‘material’ future impact on global operations, customers and vendors.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicit reference to pandemic risk driver.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional wording (‘could’) slightly tempers certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Combines realised supply-chain disruption with potential ‘material’ harm, producing a high risk score of 6."
+            },
+            {
+                "snippet": "The continued evolution of COVID-19 and its variants, as well as periodic spikes in infection rates, local outbreaks on our sites or supplier, customer or vendor sites, in spite of safety measures or vaccinations, could cause disruptions to our operations or those of our suppliers, customers or vendors.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights ongoing variant evolution and infection spikes—evidence of persistent, emerging risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies potential disruptions across company, suppliers and customers (broad operational scope).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Use of ‘could’ reflects uncertainty rather than certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Describes evolving variant risk and multi-party disruption potential, but in hypothetical terms, yielding a moderate score of 4."
+            },
+            {
+                "snippet": "The pandemic has led to global supply chain challenges, which have adversely impacted our ability to procure certain components and could impact our ability to manufacture products and cause delays in delivery of our solutions to our customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Defines direct causation: pandemic → global supply-chain challenges.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Admits realised adverse impact on component procurement.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Flags knock-on risks to manufacturing and customer delivery.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Portion of sentence is forward-looking (‘could impact’).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Combines confirmed past disruption with forward-looking manufacturing/delivery risk; strong evidence scores 7."
+            },
+            {
+                "snippet": "As new variants of the virus appear, especially variants that are more easily spread, cause more serious outcomes, or are resistant to existing vaccines, new health orders and safety protocols could further impact our on-site operations and our ability to manufacture, ship or deliver products and solutions to customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies specific variant characteristics (transmissibility, vaccine resistance) elevating risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details possible additional impacts on manufacturing, shipping and delivery.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Scenario remains conditional (‘could’), no current losses stated.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Variant-driven future disruption is plausible but not yet realised, giving a moderate score of 3."
+            },
+            {
+                "snippet": "These factors could materially and negatively impact our business results, operations, revenue, growth and overall financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses strong language (‘materially and negatively impact’) across key financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Relies on prior factors, not all pandemic-specific, and is fully conditional.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic summation of potential material impact but lacks pandemic specificity, resulting in a score of 2."
+            },
+            {
+                "snippet": "Our global operations have been affected by many headwinds, including inflationary pressures, ongoing global supply chain disruptions, increased geopolitical tensions, including the war between Russia and Ukraine, increased trade restrictions, financial market volatility, currency movements, and the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Affirms that pandemic is one of several headwinds already affecting operations (realised impact).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemic is listed among multiple factors, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Acknowledges pandemic as a current headwind but without detail, so the score is limited to 1."
+            },
+            {
+                "snippet": "These headwinds, specifically the supply chain disruptions, have adversely impacted our ability to procure certain components, which in some cases has impacted our ability to manufacture products, causing delays in delivery of our solutions to our customers and higher material procurement costs.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports concrete adverse impacts (procurement, manufacturing delays, higher costs).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links impacts to supply-chain headwinds that include the pandemic (implicit pandemic causality).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Describes actual supply-chain fallout (with pandemic among causes), earning a solid score of 4."
+            },
+            {
+                "snippet": "In the midst of an uncertain economic environment, we continue to closely monitor the macro indicators related to inflation, trade, tariffs, monetary and fiscal policies, endemic and pandemic conditions, and the related global supply chain challenges, increased trade restrictions and increasing geopolitical tension in regions outside of the U.S., including the risk of increased tensions between China and Taiwan.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references ongoing monitoring of pandemic conditions and supply-chain challenges.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights a mitigation stance (‘closely monitor’).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Merely states that pandemic conditions are being monitored; mitigative tone offsets limited risk content, resulting in a neutral score of 0."
+            }
+        ],
+        "calculated_score": 29,
+        "average_severity": 3.2222222222222223
+    }
+]

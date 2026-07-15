@@ -1,0 +1,132 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Kraft Heinz’s 2023 10-K continues to treat the COVID-19 pandemic as a live, enterprise-wide threat.  Although nearly three years have elapsed since the WHO declaration (March 2020), the filing frames the pandemic primarily as an ongoing, forward-looking risk rather than a closed historical event.  The company flags several channels of exposure: (1) potential swings in consumer demand, (2) supply-chain bottlenecks created by retailer and carrier behaviour, (3) labour-force illness that could halt production, and (4) legal or regulatory liabilities that could arise from the firm’s pandemic response.  None of the passages quantify dollar impacts, and most use conditional language (“could,” “may”), signalling uncertainty rather than already-incurred losses.  Nevertheless, the risk is broad-based, touches multiple operational nodes, and is described in the present tense—indicating material relevance despite the lack of hard numbers.  Given the recency of the pandemic (< 3 years), the Time Decay Principle permits moderately high severity scores, but the largely generic, un-quantified nature of the disclosures tempers the ceiling; most snippets merit scores in the 4-7 range rather than a maximum 9-10.",
+        "evidence_list": [
+            {
+                "snippet": "Moreover, weak economic conditions, recessions, inflation, severe or unusual weather events, global or local pandemics, including COVID-19, as well as other factors, could affect consumer preferences and demand, at times, causing a strain on our supply chain due, in part, to retailers, distributors, or carriers modifying their restocking, fulfillment, or shipping practices.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit reference to the event ('global or local pandemics, including COVID-19').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies demand-side risk (changes in consumer preferences and demand).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights supply-chain strain (restocking, fulfillment, shipping).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses speculative language ('could'), reducing certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Directly links COVID-19 to both demand shifts and supply-chain stress, but the risk is framed as hypothetical, yielding a solid but not top-tier severity."
+            },
+            {
+                "snippet": "Such events and circumstances could include a sustained decrease in our market capitalization, increased competition or unexpected loss of market share, increased input costs beyond projections, disposals of significant brands or components of our business, unexpected business disruptions (for example due to a natural disaster, pandemic, or loss of a customer, supplier, or other significant business relationship), unexpected significant declines in operating results, significant adverse changes in the markets in which we operate, changes in income tax rates, changes in interest rates, or changes in management strategy.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions pandemic as a trigger for 'unexpected business disruptions'.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects those disruptions to potential financial impairments (market cap decline, loss of share).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly conditional list ('could include'), broad and generic.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Lists pandemics among many possible impairment triggers; linkage exists but is generic and speculative, so risk contribution is modest."
+            },
+            {
+                "snippet": "Furthermore, actions we have taken or may take, or decisions we have made or may make, in response to pandemics (including the COVID-19 pandemic), may result in investigations, legal claims, or litigation against us.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct reference to COVID-19 pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies specific downside: legal claims and litigation.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk phrased with 'may', signalling uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights litigation exposure tied to pandemic response; clear but unquantified and conditional, giving it a mid-range score."
+            },
+            {
+                "snippet": "Factors that are hard to predict or beyond our control, such as weather or other geological events or natural disasters, including hurricanes, earthquakes, floods, tsunamis, or wild fires (whether as a result of climate change or otherwise), raw material shortages, fires or explosions, political unrest, geopolitical conflicts (including the ongoing conflict between Russia and Ukraine), terrorism, civil strife, acts of war, public corruption, expropriation, generalized labor unrest or labor shortages, or pandemics (including COVID-19), could damage or disrupt our operations or the operations of our customers, suppliers, vendors, co-manufacturers, distributors, or regulators.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites pandemics including COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes potential damage or disruption to both company and extended supply chain.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional phrasing ('could'), no quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Broad operational disruption risk is clearly articulated and event-linked, but remains hypothetical, yielding a moderate score."
+            },
+            {
+                "snippet": "Illness of our workforce, or the workforce of third parties with which we do business, due to influenza or pandemics, could disrupt production of our products in one or more of our manufacturing facilities, or cause our suppliers, vendors, distributors, or third-party manufacturers to fail to meet their obligations to us.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links pandemics to workforce illness.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies production disruption at company facilities.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Adds supply-chain failure risk (suppliers, vendors, distributors).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional 'could', indicating uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Most concrete operational pathway (labour shortages leading to production and supplier failures); despite conditional language, breadth and specificity justify a higher severity within recent-event limits."
+            }
+        ],
+        "calculated_score": 25,
+        "average_severity": 5.0
+    }
+]

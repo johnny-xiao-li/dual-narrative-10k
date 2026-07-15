@@ -1,0 +1,85 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "FSLR’s 2024 Form 10-K provides only a short, forward-looking discussion of pandemic-related threats.  The company frames COVID-19 (and future public-health events) primarily as a potential rather than a continuing, quantified impact: it warns that future outbreaks could disrupt supply chains, operations, and demand but discloses no current losses, cost figures, or operational slow-downs.  The wording is largely generic (e.g., “significant risks,” “materially impact”) and emphasises uncertainty.  Because the World Health Organization declared COVID-19 a pandemic in March 2020, the event is now four years old; under the Time-Decay Principle the evidentiary weight drops from the ‘recent’ band to the ‘medium-term’ band, capping individual snippet scores in the mid-range.  Overall, the disclosure signals that pandemic risk remains relevant but is not presented as an acute, quantified threat, yielding moderate severity scores for each sentence.",
+        "evidence_list": [
+            {
+                "snippet": "The severity and duration of public health threats could materially impact our business, financial condition, and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses strong wording ‘materially impact’, signalling potentially significant consequence.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Statement is generic and lacks any specifics or quantification.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event is in medium-term window (4 yrs after onset), per Time-Decay principle.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Strong materiality language gives weight, but generic framing and medium-term timing temper the score to a moderate 5."
+            },
+            {
+                "snippet": "The extent to which public health threats (including pandemics such as COVID-19 or similarly infectious diseases) could impact us in the future is highly uncertain and unpredictable, and will depend largely on subsequent developments, including but not limited to (i) the severity and duration of any public health threat, (ii) measures taken to contain the spread of any public health threat, such as restrictions on travel and gatherings of people and temporary closures of or limitations on businesses and other commercial activities, (iii) the timing and nature of policies implemented by governmental authorities, and (iv) any future variants of the public health threat, which may surge over time.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names COVID-19 and contagious-disease outbreaks, anchoring risk to the specified event.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists concrete mechanisms (travel limits, business closures) showing pathways for impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights ‘uncertain and unpredictable’, a mitigating note that downplays immediate certainty.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term time frame adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides detailed causal pathways but couches them in uncertainty; after time-decay adjustment the score is 4."
+            },
+            {
+                "snippet": "As a result of any public health threat and any related containment measures, we, our suppliers, or customers may be subject to significant risks, including to supply chain and business operations, which have the potential to materially and adversely impact our business, financial condition, and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to concrete areas (supply chain, operations) that drive corporate performance.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong language ‘significant risks’ and ‘materially and adversely impact’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Still framed as hypothetical; no current quantified impact.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term timing deduction.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clearly articulates operational impact pathways with strong materiality language, but hypothetical nature and time-decay cap the severity at 5."
+            }
+        ],
+        "calculated_score": 14,
+        "average_severity": 4.666666666666667
+    }
+]

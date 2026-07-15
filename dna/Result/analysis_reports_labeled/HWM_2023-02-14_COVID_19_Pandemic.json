@@ -1,0 +1,230 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "HWM’s 10-K presents COVID-19 as a still-evolving, high-severity risk that began in 2020 but remains materially relevant in the 2023 filing.  The company discloses both realized impacts—such as the collapse of air-travel demand that cut aerospace sales, continuing labor and supply-chain bottlenecks, and the prospect of asset impairments—and forward-looking uncertainty tied to new variants, vaccination uptake and travel restrictions.  The language is concrete (e.g., ‘material adverse effect,’ ‘adversely affected demand’) and explicitly links the pandemic to revenue, customer production rates, cost pressures and product-mix shifts.  Some mitigating signals appear: U.S. domestic travel has mostly rebounded and management expects narrow-body growth, but wide-body recovery lags and China and international traffic remain below 2019 levels.  In line with the Time Decay Principle, the pandemic is within the 0-3-year “recent” window, so high scores (up to 10) are appropriate for direct, quantified, or highly material statements, while sentences that emphasise recovery or uncertainty temper the scoring.  Overall, the disclosure reflects a significant, ongoing enterprise risk that is only partially offset by early signs of market normalization.",
+        "evidence_list": [
+            {
+                "snippet": "Our business, results of operations, financial condition and/or cash flows have been and could continue to be adversely impacted materially by the continued effects of the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit statement of material adverse impact already experienced.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights future continuation of impact (‘could continue’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Directly attributes impact to COVID-19 pandemic.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Direct, unqualified language ties past and future material harm to COVID-19, warranting a very high score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic affecting the global community has had and may continue to have a material adverse effect on our business, results of operations, financial condition and/or cash flows, and the nature and extent of the impact over time remain uncertain.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States both historical and potential material adverse effect.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Emphasises uncertainty of duration and magnitude.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Global scope underscores breadth of risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Strong linkage to material adverse effects and ongoing uncertainty yields a high—but not maximum—score."
+            },
+            {
+                "snippet": "A sustained impact to our operations, financial results and market capitalization may require material impairments of our assets, including, but not limited to, goodwill and other intangible assets, long-lived assets, and right-of-use assets.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential for significant non-cash charges (asset impairments).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional language (‘may require’) reduces immediacy.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Possible future impairments are serious but contingent, generating a moderate score."
+            },
+            {
+                "snippet": "The impact over time will depend on future developments that are beyond our control, including the duration of the pandemic, the continued severity of the virus, resurgences and emergence of variants of the virus, the efficacy and availability or uptake of vaccines and related drugs, and the actions that may be taken in response to COVID-19, such as travel limitations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple external, uncontrollable risk drivers.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Speculative, forward-looking tone dilutes certainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Lists significant but uncertain external factors, so risk evidence is present yet less concrete."
+            },
+            {
+                "snippet": "For instance, the decrease in domestic and international air travel due to the pandemic adversely affected demand for narrow-body and wide-body aircraft.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites specific operational metric (air travel) directly linked to pandemic.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects to core revenue driver (aircraft demand).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Provides concrete example of demand destruction, producing a strong but not extreme score."
+            },
+            {
+                "snippet": "Although domestic air travel now approximates pre-pandemic levels, China domestic air travel is still below pre-pandemic 2019 levels on an average monthly basis in 2022.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates ongoing regional demand weakness tied to pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Partial recovery in domestic market is a mitigating sign.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mixed message—continued impact in China but recovery elsewhere—yields a low net risk score."
+            },
+            {
+                "snippet": "International travel also continues to be lower than pre-pandemic 2019 levels.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights sustained shortfall in international travel demand.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Ongoing depressed international travel signals continuing demand risk, but lacks quantification."
+            },
+            {
+                "snippet": "We expect commercial aerospace growth to continue, with narrow-body demand returning faster than wide-body demand.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Management expectation of growth signals mitigation of pandemic impact.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": -2
+                },
+                "reasoning_summary": "Purely optimistic outlook offsets risk evidence, resulting in a negative (mitigating) score."
+            },
+            {
+                "snippet": "The commercial wide-body aircraft market is taking longer to recover, which is creating a shift in our product mix compared to pre-pandemic conditions.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes protracted recovery in key product segment.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies operational consequence (product-mix shift).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Moderate score reflects tangible but not quantified impact on product strategy."
+            },
+            {
+                "snippet": "In addition, several of our commercial aerospace and transportation customers have encountered, and may continue to encounter, challenges in their ability to increase production rates to meet demand due to labor and supply chain constraints stemming from the pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly attributes labor and supply-chain constraints to pandemic.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Indicates continuing future risk (‘may continue’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct linkage between pandemic and customer production constraints earns a high score."
+            },
+            {
+                "snippet": "Additionally, the COVID-19 pandemic has or may continue to exacerbate other risks disclosed herein, including, but not limited to, risks related to global economic conditions, competition, loss of customers, costs of supplies, supply chain disruptions, manufacturing difficulties and disruptions, investment returns, our credit profile, our credit ratings, and interest rates.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies broad amplification of multiple risk categories.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions specific operational issues (supply chain disruptions, manufacturing difficulties).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Pandemic portrayed as a multiplier of diverse risks, producing a solid mid-high score."
+            },
+            {
+                "snippet": "Due to the global COVID-19 pandemic and its impact on the commercial aerospace industry to date, there has been a decrease in domestic and international air travel, which in turn has adversely affected demand for narrow-body and wide-body aircraft.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies causal chain from pandemic to air-travel drop to reduced aircraft demand.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers both domestic and international markets, signifying breadth of impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear causal description of demand hit across markets justifies a high score."
+            }
+        ],
+        "calculated_score": 50,
+        "average_severity": 4.166666666666667
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CTAS’s 2024 Form 10-K echoes that COVID-19 remains a noteworthy—but no longer acute—threat to the company’s operations. All references to the pandemic are couched in forward-looking, conditional phrasing (“could,” “may”), indicating that management now treats COVID-19 primarily as an ongoing contingency rather than an emergent crisis. The filing links global health pandemics to higher labor costs, supply-chain instability, and broad operational disruptions— precisely the dimensions requested for this analysis—yet it offers no quantified or historical dollar impact, signalling that the company’s exposure is material but not presently crippling. Because the pandemic began more than four years before the July 25 2024 filing date, the Time-Decay Principle dictates a moderate severity band (roughly 4-6) for even the strongest evidence. Sentences that merely list pandemics among many generic risks warrant lower scores, while passages that tie pandemics to concrete cost drivers (labour, materials) or supply access receive the upper end of the medium range. No mitigation strategies (e.g., remote-work adaptations, supply diversification specific to COVID-19) are detailed in the extracted sentences, so there are few point deductions. Overall, COVID-19 persists as a live but moderated risk, justifying mid-scale evidence scores consistent with a medium-term event.",
+        "evidence_list": [
+            {
+                "snippet": "Increases in labor costs, including the cost to provide employee-partner related healthcare benefits, minimum wages, labor shortages or shortages of skilled labor, regulations regarding the classification of employees and/or their eligibility for overtime wages, higher material costs for items such as fabrics and textiles, the inability to obtain insurance coverage at cost-effective rates, higher interest rates, inflation, global health pandemics, higher tax rates and other changes in tax laws and other economic factors could increase our costs of rental uniforms and facility services, cost of other services and selling and administrative expenses.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘global health pandemics’ as a driver of higher operating costs.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies specific cost categories (labor, materials, services) that would be affected—shows operational granularity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional language ('could'), indicating a potential rather than confirmed impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Moderate severity: the sentence links pandemics to tangible cost pressures but remains forward-looking and unquantified, yielding a 4 within the medium-term range."
+            },
+            {
+                "snippet": "These and other factors, including the potential negative impact of global health pandemics affecting our suppliers and our access to products could adversely affect our consolidated results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemics directly to supplier disruption and product access—classic supply-chain risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States that such impact could affect consolidated results, implying materiality.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional phrasing ('could') reduces immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Supplies a clear pandemic-to-supply-chain linkage with potential financial consequences; balanced by speculative wording, landing at a moderate score of 4."
+            },
+            {
+                "snippet": "Unexpected events, including fires or explosions at facilities, severe weather conditions and natural disasters such as hurricanes, fires, floods, droughts and tornadoes (including those caused by climate change), geopolitical conflicts, war or terrorist activities, unplanned outages, global health pandemics, supply disruptions, failure of equipment or systems or changes in laws and/or regulations impacting our businesses, could adversely affect our consolidated results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists global health pandemics among unexpected events that can disrupt operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions potential adverse effect on consolidated results—signals financial relevance.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Pandemic is one item in a long generic catch-all list, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Because the pandemic reference is generic and embedded in a broad list, the evidence is weaker, producing a lower—but still positive—score of 2."
+            },
+            {
+                "snippet": "The price of fuel and energy needed to run our vehicles and equipment is unpredictable and fluctuates based on events outside of our control, including geopolitical developments, supply and demand fluctuations for fuel and other energy related products, actions by energy producers, war and unrest in oil producing countries, regional production patterns, limits on refining capacities, natural disasters, environmental concerns including the impact of legislative and regulatory efforts to limit GHG emissions and global health pandemics.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Associates global health pandemics with volatility in fuel and energy costs, indicating indirect cost risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Frames the pandemic as one of many macro factors—broadens but also dilutes the causal link.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Pandemic is only an ancillary driver of energy-cost volatility here; limited specificity keeps the score to 1."
+            }
+        ],
+        "calculated_score": 11,
+        "average_severity": 2.75
+    }
+]

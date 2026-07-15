@@ -1,0 +1,111 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "IDEXX’s 2024 Form 10-K continues to frame the COVID-19 pandemic—and future public-health crises—as a live, enterprise-wide threat.  Although nearly four years have elapsed since the WHO declared COVID-19 a pandemic, the company still highlights multiple vectors of vulnerability: supply-chain interruptions, labor shortages, logistics bottlenecks, mandated facility shutdowns, reduced veterinary-clinic traffic, and consequent drops in demand for its diagnostic products and services.  The language is mostly forward-looking (“could” and “may”), signalling potential rather than already-incurred damages; nonetheless, it explicitly warns of “material adverse” impacts and describes concrete operational choke-points (manufacturing sites, third-party suppliers, customer clinics).  Because the disclosure sits just outside the 0-3-year “recent” window but within 4 years of the pandemic’s onset, the Time Decay Principle caps individual snippet severity in the mid-range.  Overall, the risk is specific (naming precise disruptions), enterprise-wide, and still timely, warranting moderate-high scores (4-6) rather than the highest tier reserved for fresh, quantified impacts.",
+        "evidence_list": [
+            {
+                "snippet": "We are subject to risks associated with public health issues, including pandemics, which could have a material adverse effect on our financial condition and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemics to ‘material adverse effect’ on financial condition and results.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses conditional/forward-looking language (‘could’) without detail or quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Statement clearly flags pandemic as a material risk but remains high-level and unquantified, warranting a moderate score of 3."
+            },
+            {
+                "snippet": "Public health issues and crises may adversely impact our operations, supply chain and logistics network if the locations where we operate, manufacture or distribute our products; where our raw materials or product components are sourced, manufactured or distributed; or where our third-party distributors, suppliers and other service providers operate, are disrupted, temporarily closed or experience worker shortages for a sustained period of time.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple concrete impact channels (operations, supply chain, logistics, closures, worker shortages).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Risk framed as potential (‘may’), with no magnitude or probability stated.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Gives operational specificity but remains hypothetical, producing a solid yet mid-range risk score of 3."
+            },
+            {
+                "snippet": "In addition, public health issues and crises may adversely impact our customers’ businesses due to business lockdowns, decreased companion animal clinical visits, labor shortages, the delay of elective procedures and wellness visits, and disruption of veterinary clinic and other customer operations, all of which could cause a decline in demand for our products and services.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies clear downstream demand shocks (lockdowns, fewer clinic visits, delayed procedures) tied to pandemic conditions.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Cites direct consequence: ‘decline in demand for our products and services’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking (‘may’, ‘could’) and unquantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Enumerates specific customer-side impacts that hit revenue, lifting the score to 5 within medium-term limits."
+            },
+            {
+                "snippet": "A future public health issue, pandemic, or outbreak of COVID-19 could lead to delays in the manufacturing and supply of products, which could have a material adverse effect on our business and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic resurgence directly to manufacturing and supply delays.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong impact phrase ‘material adverse effect’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional and unquantified nature of statement.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specifies production delays and cites ‘material adverse effect’, but remains hypothetical, yielding a score of 4."
+            },
+            {
+                "snippet": "Moreover, any future public health issue such as a resurgence in COVID-19 infections, including due to new variants of the virus for which current vaccines may not be effective, could result in the imposition of new governmental restrictions, quarantine requirements or other measures to slow the spread of the virus, which could result in closures or other restrictions that significantly disrupt our operations or those of our third-party distributors, suppliers or other service providers, or otherwise adversely affect our customers’ businesses or operations, or result in economic weakness or slowdowns in one or more of our key geographies, any of which could adversely affect our financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes a chain of government actions (restrictions, quarantines) leading to significant operational disruption across company and partners.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights broader macroeconomic consequences (‘economic weakness or slowdowns’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement is prospective and not quantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Comprehensive depiction of cascading operational and economic impacts from a potential COVID-19 resurgence warrants a score of 5."
+            }
+        ],
+        "calculated_score": 20,
+        "average_severity": 4.0
+    }
+]

@@ -1,0 +1,144 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Chubb’s 2023 filing makes it clear that the company still faces material, forward-looking exposure from the COVID-19 pandemic even though acute impacts have eased.  The pandemic is explicitly framed as an ongoing, multi-faceted threat that can raise claims severity, depress premium volumes if commercial activity again stalls, erode investment portfolio values through financial-market stress, and strain collateral requirements.  All disclosures are recent (within three years of the WHO declaration) so the Time-Decay principle allows elevated scoring.  The language is mixed: it admits that vaccines and loosened restrictions have helped (a mitigating element) yet emphasises that new variants or renewed lockdowns may continue to hit earnings, capital and liquidity.  Impacts are not quantified but are described in several concrete business channels—loss ratios, premiums, invested-asset quality—indicating more than generic boiler-plate.  Overall, the risk level is significant but not at the “quantified crisis” extreme; therefore individual snippet scores cluster in the mid-to-upper range (4-8), with a single generic pandemic reference scoring very low.",
+        "evidence_list": [
+            {
+                "snippet": "COVID-19, the effects of global actions taken to contain its spread, and its economic and societal impact could adversely impact our businesses, invested assets, financial condition, and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly names COVID-19 and links it to potential adverse impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Enumerates multiple impact channels (business, assets, financial condition, results).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Event is within 3-year window so no time-decay reduction.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Highly specific, recent statement describing broad adverse consequences; no mitigating language, so a strong score of 8."
+            },
+            {
+                "snippet": "Although the adverse impact of COVID-19 and related variants (the “pandemic”) is lessening through medical advances (including the widespread distribution of vaccines, antiviral medicines, and other treatments) and the removal or lessening of government restrictions on economic and social activity, COVID-19 continues to threaten further disruption to public health, the global economy, financial markets, and commercial, social and community activity generally.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges continued threat of disruption across multiple macro arenas.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies drivers (new variants, public-health disruption, economic impact).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Includes mitigating note that impact is ‘lessening’.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Recency – still within 3-year window.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Gives balanced view—ongoing risk but with mitigation—yielding a mid-level score of 4."
+            },
+            {
+                "snippet": "Depending on the course of the pandemic, including the spread of new variants, and government responses, COVID-19 may continue to affect our current and future financial results.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forward-looking statement tying pandemic trajectory to financial results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights uncertainty around variants and policy response.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Recency allows higher weighting.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows direct linkage of future earnings to evolving pandemic, but less detail; moderate score of 5."
+            },
+            {
+                "snippet": "We may experience higher levels of loss and, claims activity in certain lines of business in excess of losses we have already recognized, and our premiums could also be adversely affected by any repeated or further suppression of global commercial activity that results in a reduction in insurable assets and other exposure.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete operational impacts—higher claims and lower premiums.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links these impacts explicitly to renewed pandemic-driven suppression of activity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recent event window.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Detailed operational risk (loss ratios, premium base) tied to pandemic, no mitigation; strong evidence, score 7."
+            },
+            {
+                "snippet": "Financial conditions resulting from the pandemic and the economic consequences of the resulting fiscal and monetary policy may also have a negative effect on the value and quality of our portfolio of invested assets, thereby adversely affecting our investment returns and increasing our credit and related risk.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies pandemic-driven financial conditions harming investment portfolio and credit risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights multiple risk vectors (returns, credit).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recency factor.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows capital-market channel of pandemic risk with clear adverse outcome; good specificity, score 6."
+            },
+            {
+                "snippet": "We have substantial exposure to losses resulting from natural disasters, man-made catastrophes, such as terrorism or cyber-attack, and other catastrophic events, including pandemics.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemics in list of catastrophes exposing company to loss.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic, no COVID-specific detail or quantified impact.",
+                            "points": 0
+                        },
+                        {
+                            "reason": "Recency benefit but minimal because statement is generic.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic reference to pandemic risk without COVID-specific context; minimal aggravation, score 1."
+            }
+        ],
+        "calculated_score": 31,
+        "average_severity": 5.166666666666667
+    }
+]

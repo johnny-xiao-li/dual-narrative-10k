@@ -1,0 +1,208 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "AVGO’s December 2021 Form 10-K ties the COVID-19 pandemic to a set of concrete, ongoing operational threats.  The filing describes an immediate and continuing impact rather than a hypothetical, future-only risk: actual shutdowns at suppliers, longer lead-times, price increases for wafers and substrates, transportation delays, and the forced shift to extended remote-work arrangements.  These statements are recent (within 0-3 years of the World Health Organization’s March 2020 declaration) and focus on hard-to-mitigate areas such as global supply-chain choke points and single-site dependencies (e.g., Fort Collins FBAR fab and Malaysia warehouse).  While a few mitigating references appear (e.g., the Malaysia warehouse remained operational, software segment little affected), the narrative overall is dominated by direct disruptions already experienced and the likelihood of further constraints.  Under the Time Decay Principle, evidence from this 2021 filing—less than two years after the pandemic’s onset—carries maximum weight, so most snippets receive high scores (7-9) when they provide specific operational details, quantified consequences (order lead-time extensions, product allocation), or emphasize critical dependencies; more generic or partially mitigated statements score in the mid-range (5-6).",
+        "evidence_list": [
+            {
+                "snippet": "The ongoing COVID-19 pandemic has disrupted and will likely continue to disrupt normal business activity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to disruption already occurring ('has disrupted').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Signals continued future impact ('will likely continue').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic – no operational specifics or quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct acknowledgement of existing and future disruption, but generic wording keeps the score at a moderate-high 4."
+            },
+            {
+                "snippet": "The global spread of COVID-19 and the efforts to control it have disrupted, and reduced the efficiency of, normal business activities in much of the world.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes concrete, present-tense operational harm ('have disrupted, and reduced the efficiency of').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights broad geographic scope ('much of the world').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Still somewhat general – no AVGO-specific metrics.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows widespread, current operational degradation; absence of company-specific detail caps the score at 4."
+            },
+            {
+                "snippet": "We have been, and expect to continue, experiencing some disruption to parts of our global semiconductor supply chain, including procuring necessary components and inputs, such as wafers and substrates, in a timely fashion, with suppliers increasing lead times or placing products on allocation and raising prices.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific supply-chain pain points (wafers, substrates, lead-time increases, allocations, price hikes).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Admits ongoing and prospective impact ('have been, and expect to continue').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple aggravating dimensions: timing, allocation, cost inflation.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Highly specific, multi-faceted operational disruptions already occurring and expected to persist merit a high score of 8."
+            },
+            {
+                "snippet": "This resulted in significant logistical challenges and product delays, which could recur in the event of any future closures of, or periods of reduced operations at, our warehouse or the facilities of our suppliers and providers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites concrete past effects ('significant logistical challenges and product delays').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Raises likelihood of recurrence, pointing to vulnerability.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indirect quantification – 'significant' but no numbers.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Demonstrates realized impact and future exposure; moderate detail yields a score of 5."
+            },
+            {
+                "snippet": "As a result of these supply chain disruptions, we have increased customer order lead times and placed some products on allocation.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specific operational consequence: longer lead times.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Another concrete action: product allocation (rationing).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct cause-and-effect statement with tangible customer impact scores a solid 5."
+            },
+            {
+                "snippet": "Working remotely for extended periods may reduce our employees’ efficiency and productivity, which may cause product development delays, hamper new product innovation and have other unforeseen adverse effects on our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights labor-force efficiency risk and downstream innovation delays.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking but plausible (remote-work impact).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No evidence of actual impact yet (potential).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Identifies material human-capital risks tied to remote work, but mainly prospective, so score is 4."
+            },
+            {
+                "snippet": "In addition, disruptions to commercial transportation infrastructure have increased delivery times for materials and components to our facilities, transfers of our products to our key suppliers and, in some cases, our ability to timely ship our products to customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specific logistics bottlenecks and their operational impacts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States an already realized effect ('have increased delivery times').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Actual, measurable logistics slowdown drives a mid-high score of 5."
+            },
+            {
+                "snippet": "Any similar disruption at our Fort Collins, Colorado manufacturing facility would severely impact our ability to manufacture our FBAR products and adversely affect our wireless business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies single-site dependency with severe potential impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong language ('severely impact', 'adversely affect').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Contingent – has not occurred yet.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights a critical vulnerability but remains hypothetical, so score is 4."
+            },
+            {
+                "snippet": "For example, due to the COVID-19 pandemic, we have experienced some supply constraints and increases in prices, including with respect to wafers and substrates.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit causal link to pandemic with real cost inflation.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Names specific materials (wafers, substrates).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete evidence of cost pressure tied to critical inputs supports a score of 5."
+            },
+            {
+                "snippet": "While we continue to see robust demand in our semiconductor solutions segment and record profitability driven by the supply imbalance, and have seen little impact to our software business from the COVID-19 pandemic, the macroeconomic environment remains uncertain and it may not be sustainable over the longer term.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges uncertainty and potential unsustainability of current demand (aggravating).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes current positive conditions and limited software impact (mitigating).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Mitigating language offsets the forward-looking concern, resulting in a neutral score (0) per Time Decay rules for balanced statements."
+            }
+        ],
+        "calculated_score": 44,
+        "average_severity": 4.4
+    }
+]
