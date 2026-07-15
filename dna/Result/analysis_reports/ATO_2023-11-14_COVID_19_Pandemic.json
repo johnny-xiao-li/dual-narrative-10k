@@ -1,0 +1,65 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "A thorough review of ATO’s 2023 Form 10-K shows that explicit references to the COVID-19 pandemic are absent; however, several sentences implicitly touch on pandemic-type risks—specifically tight labor markets, the need to keep employees healthy, and how workforce disruptions can jeopardize service continuity. These disclosures are forward-looking, qualitative, and unquantified, indicating management views the issues as potential rather than currently material impacts. Because the pandemic began in March 2020 and the filing is dated November 2023 (≈3 years 8 months later), the Time Decay Principle places the event at the cusp between “recent” and “medium-term.” Given both this timing and the highly generic nature of the statements, the overall evidentiary strength is low-to-moderate, and no snippet warrants more than a modest score. The absence of concrete financial metrics, supply-chain language, or references to remote-work transitions further limits severity. Accordingly, individual snippet scores fall in the 1-3 range, reflecting minor but still relevant risk indicators that the pandemic—or similar widespread health events—could disrupt operations.",
+        "evidence_list": [
+            {
+                "snippet": "The competition for talent has become increasingly intense and we may experience increased employee turnover due to a tightening labor market.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights tightening labor market and potential turnover, aligning with pandemic-era labor shortages.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Statement is generic, lacks explicit pandemic mention or quantified impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Moderate aggravation for labor-shortage risk (+3) is tempered by generic wording (-1), producing a low-severity score of 2."
+            },
+            {
+                "snippet": "Additionally, our ability to operate is contingent on maintaining a healthy workforce and a safe working environment.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Establishes dependency on workforce health, relevant to pandemic illnesses.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Very broad wording with no event linkage or metrics.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Acknowledges health-related operational vulnerability but is so general that only a minimal score of 1 is justified."
+            },
+            {
+                "snippet": "Incidents that impact the health and availability of our workforce could threaten the continuity of our business operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly connects workforce health incidents to business continuity risk, an explicit aggravating factor.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Forward-looking and unquantified, with no specific reference to COVID-19.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Clear statement of operational threat (+4) but generic nature (-1) results in a modest severity score of 3."
+            }
+        ],
+        "calculated_score": 6,
+        "average_severity": 2.0
+    }
+]

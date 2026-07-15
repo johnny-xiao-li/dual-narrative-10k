@@ -1,0 +1,73 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing acknowledges that, nearly four years after the World Health Organization declared COVID-19 a pandemic, Realty Income still sees pandemic-related pressures as a live, albeit moderating, threat.  Management frames the risk primarily as an indirect exposure: epidemics can weaken tenants’ businesses, disrupt supply chains and consumer behaviour, and ultimately impair rent collections, property values and the company’s ability to service debt or pay dividends.  The language is largely forward-looking and qualitative—there are no quantified dollar impacts—yet it recognises that COVID-19 has already caused downturns in certain industries (e.g., theatres) and could trigger further tenant distress.  Because the event falls just inside the 4-year “medium-term” window, the Time-Decay principle limits severity scores to a mid-range.  Overall, the narrative depicts a real but un-quantified exposure that could amplify financial stress if tenant credit deteriorates, justifying moderate risk scores (4-6) for the individual statements.",
+        "evidence_list": [
+            {
+                "snippet": "Epidemics, pandemics or outbreaks of illness, disease or virus that affect countries or regions in which our clients and their parent companies operate or in which our properties or corporate headquarters are located;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references epidemics and pandemics as a potential adverse factor for the company’s footprint.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Statement is very general (no specificity, no quantification, bullet-point list).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "The sentence squarely flags pandemics as a threat but in a generic, unquantified way, warranting a moderate score of 4 within the medium-term window."
+            },
+            {
+                "snippet": "In addition, some of our properties are leased to clients that may have limited financial and other resources and, therefore, they are more likely to be adversely affected by a downturn in their respective businesses, including any downturns that have resulted or may result from the COVID-19 pandemic or other epidemics or pandemics, or in the regional, national or international economy.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly names the COVID-19 pandemic and links it to tenant financial distress and rent risk.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Highlights heightened vulnerability of certain tenants with limited resources (aggravating factor).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact is qualitative and not quantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specific reference to COVID-19 and concrete pathway (weaker tenants → rent risk) produces the highest permissible medium-term score of 6."
+            },
+            {
+                "snippet": "Natural disasters, terrorist attacks, cyber attacks, other acts of violence or war, or other unexpected events (e.g., pandemics or epidemics) may negatively affect our operations, the market price of our capital stock and the value of our debt securities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists pandemics/epidemics among hazards that can harm operations and securities valuation.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects the hazard to multiple financial dimensions (operations, stock price, debt value).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Bundled with many other risks, making the pandemic reference less focused.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Pandemics are acknowledged as one of several disruptive events with financial impact, but the broad grouping and lack of detail keep the score at a mid-level 4."
+            }
+        ],
+        "calculated_score": 14,
+        "average_severity": 4.666666666666667
+    }
+]

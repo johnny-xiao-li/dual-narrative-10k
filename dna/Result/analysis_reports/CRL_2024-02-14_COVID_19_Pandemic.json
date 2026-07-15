@@ -1,0 +1,119 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CRL’s 2024 Form 10-K continues to frame COVID-19 as a live, multi-faceted enterprise risk even four years after the WHO declaration.  The text presents the virus primarily as an exogenous threat that can (a) disrupt operations through facility closures, (b) constrict key inputs such as non-human primates and human-blood donors, and (c) trigger lasting macro-economic headwinds that undermine M&A performance.  These disclosures are forward-looking, couched in contingency language (\"could\", \"may\"), and generally un-quantified, signalling potential rather than booked impacts; however, they also cite concrete, still-active supply-chain restrictions (e.g., Chinese export bans dating back to early 2020).  Under the Time-Decay Principle, the pandemic is a recent-to-medium-term event (< 4 years) so elevated scores (up to ~8) are permissible where the filing shows present-day operational exposure.  Overall, the company acknowledges meaningful but not catastrophic residual risk: supply-chain pinch points and donor shortages remain material, whereas revenue effects are discussed only in qualitative terms.  Therefore, evidence snippets show moderate-to-high severity when the language ties COVID-19 directly to ongoing supply constraints, and lower severity where references are generic, historical, or partly offset by positive demand effects.",
+        "evidence_list": [
+            {
+                "snippet": "Despite any precautions we take for natural disasters or other catastrophic events, these events, including terrorist attack, a pandemic, epidemic or outbreak of a disease, hurricanes, tornadoes, fire, floods and ice and snow storms, could result in damage to and closure of our or our customers’ facilities or the infrastructure on which such facilities rely.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly identifies a pandemic/epidemic as a trigger.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details specific operational impacts—facility damage and closure—which translate into potential revenue loss.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Language is conditional ('could'), indicating forward-looking possibility rather than an actualised loss.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Directly links pandemics to serious operational shutdowns, but the impact is hypothetical, yielding a solid mid-level risk score of 5."
+            },
+            {
+                "snippet": "First, the surge of research relating to COVID-19 increased short-term demand.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 as the causal driver.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes a concrete business effect (demand spike), demonstrating real impact even if positive.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Effect is portrayed as historical/short-term and beneficial, not a negative risk factor.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Although COVID-19 is linked to a measurable change, the change is favourable and historical, so residual risk is low (score 2)."
+            },
+            {
+                "snippet": "Second, China previously supplied a significant portion of certain critical large research models, which have been subject to geographic export restrictions applicable to many animal species since the beginning of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly associates COVID-19 with ongoing export restrictions from a key supplier nation.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights a critical supply-chain bottleneck affecting 'significant portion' of inputs—material operational risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates that the restriction has persisted 'since the beginning' of the pandemic, implying current, continuing exposure.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "This sentence ties COVID-19 to a live, material supply constraint of essential research models, justifying a high severity score of 8."
+            },
+            {
+                "snippet": "difficulties in achieving business and financial success (due to unplanned events such as the long-term economic impact of the COVID-19 pandemic and ongoing geopolitical conflicts, such as between the Russian Federation and Ukraine, and between Israel and Hamas);",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to 'long-term economic impact' that can impair business success.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Frames the impact as enduring ('long-term'), extending relevance.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Embedded in a list, with no quantification or specificity of magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Cites long-term pandemic economics as a drag on acquisition success but remains broad and un-quantified, meriting a moderate score of 4."
+            },
+            {
+                "snippet": "Due to any pandemic, epidemic or outbreak in one or more regions in which our Cell Solutions business operates, the portion of the donor pool that typically donates may be unable, or unwilling to donate, thereby significantly reducing the availability of research products upon which we rely.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references pandemics as the causal factor.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes a critical supply-side risk—loss of donor materials affecting product availability.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Risk is phrased as contingent ('may'), lacking evidence of current occurrence.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows how future pandemics could choke donor supply lines for Cell Solutions; specificity of effect offsets the conditional wording, producing a score of 5."
+            }
+        ],
+        "calculated_score": 24,
+        "average_severity": 4.8
+    }
+]

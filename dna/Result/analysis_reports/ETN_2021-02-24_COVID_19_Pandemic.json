@@ -1,0 +1,119 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated only eleven months after the WHO declared COVID-19 a pandemic, presents COVID-19 as both an already-materialized threat and an ongoing, highly uncertain risk. Eaton explicitly discloses that the outbreak has *already* “negatively impacted” its operations and financial results, making the risk current rather than hypothetical. The company then details the mechanisms of impact—government lockdowns, travel bans, shifting consumer demand, and potential production-facility disruptions—while stressing that future consequences remain unpredictable. The language is largely qualitative (no dollar figures), but it is direct, specific and tied to operational and financial performance, so under the Time Decay Principle (0-3-year window) high but not maximum scores are warranted. No meaningful mitigating actions are described, so aggravating factors dominate the scoring.",
+        "evidence_list": [
+            {
+                "snippet": "The coronavirus (COVID-19) outbreak has negatively impacted our results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes a negative impact to COVID-19 (event linkage).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States the impact is current and realized, not merely potential.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Refers to core financial metric (‘results of operations’) indicating materiality.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "High score because it documents a present, material financial impact directly caused by the recent pandemic with no mitigating language."
+            },
+            {
+                "snippet": "As a result of the COVID-19 pandemic outbreak, authorities have implemented measures to try to contain the virus, such as travel bans and restrictions, shelter-in place-orders, and shut downs, and consumers have changed their demand patterns.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 to government containment actions that disrupt operations (travel bans, shutdowns).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes altered consumer demand patterns, signalling market-side risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specific operational mechanisms described (adds specificity vs. generic statements).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Solid, specific description of multiple operational risk channels, but lacks quantified or already-realized financial data, yielding a mid-high score."
+            },
+            {
+                "snippet": "As a result, our operations and financial results have been impacted.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Affirms actual impact on both operations and financial results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Implicitly ties impact to preceding COVID-19 measures (contextual linkage).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No detail or quantification provided (limits severity).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Acknowledges real impact but is generic and unquantified, so the score is moderate."
+            },
+            {
+                "snippet": "The degree to which COVID-19 impacts our future results will depend on future developments, which are highly uncertain and cannot be predicted, including, but not limited to, the duration and spread of the outbreak, its severity, the actions to contain the virus or treat its impact, and how quickly and to what extent normal economic and operating conditions resume.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights high uncertainty around future financial impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Enumerates multiple variables that could exacerbate risk (duration, severity, containment actions).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking rather than realized; no concrete impact yet.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Purely forward-looking uncertainty—important but less severe than realized impacts—so a modest score is assigned."
+            },
+            {
+                "snippet": "The Company's manufacturing facilities and operations could be disrupted by a natural disaster, labor strike, war, political unrest, terrorist activity, economic upheaval, or public health concerns such as the spread of COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies COVID-19 as a public-health threat to global production facilities.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Frames as a potential ('could be disrupted') rather than realized impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Bundled with many other generic risks, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Potential, generic, and grouped with other risks; therefore, a low but non-zero score."
+            }
+        ],
+        "calculated_score": 23,
+        "average_severity": 4.6
+    }
+]

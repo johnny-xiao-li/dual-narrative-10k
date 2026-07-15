@@ -1,0 +1,145 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "WAB’s 2024 filing acknowledges COVID-19 as both a recently experienced shock and a continuing source of operational uncertainty.  The company cites concrete, realized impacts—order deferrals and backlog delays during the 2020-2022 slowdown—as well as persistent after-effects on global supply chains, labour availability and component shortages that are still depressing revenue timing today.  These disclosures show that the pandemic is not merely historical; it remains embedded in current cost structures and delivery schedules.  At the same time, management notes that operations have “generally stabilised,” signalling partial mitigation, and frames most forward-looking language in probabilistic terms (e.g., “could,” “may”).  Because the event occurred less than four years ago, the Time Decay Principle allows elevated scores, but the presence of mitigation and generic phrasing in several sentences moderates the severity.  Overall, the risk profile is mixed: tangible past impacts and ongoing supply-chain friction drive higher scores for direct statements, while broad, catch-all references to ‘disease outbreaks’ or hypothetical future pandemics score lower.",
+        "evidence_list": [
+            {
+                "snippet": "For example, the economic slowdown that was caused by COVID-19 impacted the timing of some orders, as customers deferred the delivery of some goods and services to future years.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit causal link between COVID-19 and operational impact (‘impacted the timing of some orders’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies concrete consequence (order deferral) affecting revenue timing.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Event is recent (<4 yrs) so limited time-decay penalty.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct, recent, and operationally specific impact yields a high (but not maximum) score of 7."
+            },
+            {
+                "snippet": "For example, although the economic slowdown caused by COVID-19 did not result in any material cancellations of the Company's backlog, it did impact the timing of some orders in backlog as, in certain cases, the delivery of goods and services were pushed out from their original timelines.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes backlog delays to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Details operational effect (deliveries pushed out).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States mitigating factor (‘did not result in any material cancellations’).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Strong link and detail are tempered by an explicit mitigation statement, producing a moderate score of 5."
+            },
+            {
+                "snippet": "All of our facilities, equipment, supply chains, distribution systems and information technology systems are subject to the risk of catastrophic loss due to unanticipated events, such as cyber-attacks, disease outbreak, fires, earthquakes, explosions, floods, tornadoes, hurricanes or weather conditions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions ‘disease outbreak’ as a potential catastrophic risk category.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic list dilutes specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic enumeration of hazards offers minimal, non-specific insight, so the score is held to 1."
+            },
+            {
+                "snippet": "In the aftermath of the disruptions caused by the COVID-19 pandemic, various disruptive forces have continued to impact some of our supply chains, particularly in China, India, the U.S., and Europe.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects ongoing supply-chain problems directly to COVID-19 aftermath.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights geographical breadth of impact across key regions.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Links continuing, global supply-chain stress to COVID-19, warranting a solid score of 6."
+            },
+            {
+                "snippet": "Supply chain disruptions and labor availability constraints have caused component, raw material and chip shortages resulting in an adverse effect on the timing of the Company’s revenue generation.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete operational impacts (component shortages, revenue timing).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No explicit mention of COVID-19; dependence on preceding context weakens link.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Operational impact is clear but COVID linkage is implicit only, so the snippet scores a restrained 1."
+            },
+            {
+                "snippet": "While our operations have generally stabilized since the peak of the COVID-19 pandemic, future public health emergencies, which could include a resurgence of  COVID-19, and unpredictable responses by authorities around the world could negatively impact our global operations, customers and suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of future pandemic resurgence affecting global operations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Acknowledges partial mitigation (‘operations have generally stabilized’).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Specifies multiple stakeholder impacts (operations, customers, suppliers).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking, multi-party risk balanced by noted stabilization yields a mid-level score of 5."
+            },
+            {
+                "snippet": "Any future public health crises, epidemics, pandemics or similar events could result in disruptions to our operations, including higher rates of employee absenteeism and supply chain disruptions, decreased demand for our products, volatility in financial markets, and overall deterioration of national and global economic conditions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates several specific operational and market impacts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Purely hypothetical and generic (uses ‘could’).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Detailed but hypothetical language delivers a modest score of 2."
+            }
+        ],
+        "calculated_score": 27,
+        "average_severity": 3.857142857142857
+    }
+]

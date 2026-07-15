@@ -1,0 +1,88 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "L3Harris’s 2024 Form 10-K acknowledges the COVID-19 pandemic only in broad, catch-all language and through indirect references to recent supply-chain turmoil.  The filing notes that epidemics and pandemics are one of several disruptive forces that could materially impair operations, employee availability, and financial performance; elsewhere it concedes that “in recent years” supply chains have already suffered significant disruption manifested in longer lead-times, price volatility and labour issues.  The discussion therefore blends (i) a forward-looking, generic contingency framing (“could be subject to… pandemics”) with (ii) a backward-looking admission that the company has actually felt widespread supply-chain stress—an effect strongly associated with the COVID-19 period even if not named explicitly.  No quantified dollar impact, duration estimate or mitigation cost is provided.  Given the filing date (Feb 2024) sits just under four years after the WHO pandemic declaration, the Time-Decay Principle places this evidence in the early “medium-term” window: the pandemic is no longer brand-new, but its echo is still operationally relevant.  Overall, the disclosures demonstrate moderate severity—real enough to warrant board-level attention yet expressed in largely generic terms without financial specificity—warranting mid-range risk scores (≈4-5) for the individual snippets.",
+        "evidence_list": [
+            {
+                "snippet": "Our worldwide operations and operations of our suppliers and customers could be subject to natural disasters (including those as a result of climate change) or other significant disruptions, including hurricanes, typhoons, tsunamis, floods, earthquakes, fires, water shortages, other extreme weather conditions, epidemics, pandemics, acts of terrorism, power shortages and blackouts, telecommunications failures and other natural and man-made disasters or disruptions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists 'pandemics' as a disruptive force that can affect company, supplier and customer operations worldwide.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights global scope of potential impact (company, suppliers, customers).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Language is conditional ('could be subject'), signalling a generic, forward-looking risk rather than an observed impact.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No quantification or specificity about COVID-19-related costs or frequency.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Mentions pandemics directly and frames them as a material operational threat, but uses generic, precautionary wording with no quantified data, yielding a moderate score of 4."
+            },
+            {
+                "snippet": "In the event of such a natural disaster or other disruption, we could experience disruptions or interruptions to our operations or the operations of our suppliers, subcontractors, distributors, resellers or customers, including inability of employees to work; destruction of facilities; and/or loss of life, all of which could materially increase our costs and expenses, delay or decrease orders and revenue from our customers and have a material adverse effect on the continuity of our business and our business, financial condition, results of operations, cash flows and equity.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete operational consequences (employee absenteeism, cost increases, revenue delays).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong 'material adverse effect' wording covering multiple financial metrics.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Tied implicitly to pandemic risk via preceding sentence’s list of disruptions, maintaining relevance.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Still framed as hypothetical ('could'), with no COVID-specific data.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides specific pathways to financial harm that a pandemic could trigger, but remains hypothetical and non-quantified; balanced factors result in a score of 4."
+            },
+            {
+                "snippet": "In recent years, global supply chains, including ours, have experienced significant disruption from material availability and supplier performance, as well as extended lead times, pricing volatility, inflationary pressures and labor issues.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges an actual, realised impact ('have experienced significant disruption') rather than a mere possibility.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates multiple pandemic-linked stress factors (lead-time extensions, labour issues, price volatility).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not explicitly attribute disruptions to COVID-19 or pandemics, introducing some causal ambiguity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Confirms real supply-chain harm consistent with pandemic effects, though without naming COVID-19 directly; this mix of concrete impact and indirect linkage justifies a moderate score of 4."
+            }
+        ],
+        "calculated_score": 12,
+        "average_severity": 4.0
+    }
+]

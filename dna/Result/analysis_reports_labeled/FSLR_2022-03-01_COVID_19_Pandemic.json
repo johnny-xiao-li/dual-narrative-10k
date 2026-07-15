@@ -1,0 +1,132 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "FSLR’s 2022-03-01 Form 10-K repeatedly links the COVID-19 pandemic to material, enterprise-wide threats that are both current and prospective.  The company notes continuing disruptions across every major vector the prompt asked us to track: potential mandatory plant shutdowns, actual supply-chain and logistics cost overruns, labour-force and R&D slow-downs, and a large-scale shift to remote work that increases cybersecurity exposure.  The wording toggles between present-tense impacts (e.g., “we have incurred manufacturing charges”) and forward-looking contingencies (“may idle, slowdown, shutdown…”), signalling that COVID-19 is not merely a historic shock but an ongoing, high-severity risk.  Because the filing date (2022) is less than three years after the WHO’s pandemic declaration (March 2020), the Time-Decay Principle allows high per-sentence severity scores.  The disclosures are moderately specific—citing concrete operational areas and acknowledging real charges—yet they stop short of full quantification.  Overall, the risk evidence merits upper-mid scores (6-9/10) rather than the absolute maximum because impacts are described qualitatively and contingently, with only one direct admission of realised financial cost.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic could materially impact our business, financial condition, and results of operations.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly connects COVID-19 to potential material impact on core financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong language ('materially impact') signalling severity.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Recent event window (0-3 yrs) allows higher weight.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct statement of material risk, but generic and unquantified; earns a moderate-high 5/10."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has continued to have an unprecedented impact on the United States, Malaysia, Vietnam, India, and other countries throughout the world, including those in which we do business or have operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing ('has continued') widespread impact across all major geographies where the firm operates.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies multiple countries, indicating global operational exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes impact as 'unprecedented', amplifying severity signal.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Global scope and present-tense framing raise the score to 6/10 despite lack of numeric detail."
+            },
+            {
+                "snippet": "The failure of our suppliers or vendors to supply materials or equipment, or the failure of our vendors to install, repair, or replace our specialized equipment, due to the COVID-19 pandemic and related containment measures, may idle, slowdown, shutdown, or otherwise cause us to adjust our manufacturing capacity, and the availability and cost of logistics services associated with the procurement of raw materials or equipment used in our manufacturing process and the shipping, handling, storage, and distribution of our modules may require us to adjust our module manufacturing plans or module delivery commitments, which may result in additional unplanned charges. We have incurred manufacturing charges associated with the ongoing COVID-19 pandemic;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific supply-chain and logistics disruptions linked to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates severe operational consequences (idle, slowdown, shutdown of manufacturing).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges actual realised financial impact ('We have incurred manufacturing charges').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Recent timeframe keeps weight high.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Contains concrete operational detail and admits realised costs, yielding a high 9/10."
+            },
+            {
+                "snippet": "The COVID-19 pandemic and related containment measures, including the unavailability of our personnel and third-party partners who are engaged in R&D activities, may inhibit our R&D efforts, our ability to timely advance or commercialize these efforts, or otherwise implement our technology roadmap (such as our CuRe program);",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to disruption of critical R&D and technology roadmap.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Names a specific strategic program (CuRe), adding specificity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights potential delay in commercialisation—strategic, long-term impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specific strategic threat (technology delay) but still conditional; scores 7/10."
+            },
+            {
+                "snippet": "The majority of our associates who are capable of performing their function remotely are telecommuting (i.e., working from home)... Any increase in the frequency or scope of cyber-attacks may exacerbate the aforementioned cybersecurity risks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies large-scale shift to remote work due to pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects this shift to heightened cybersecurity risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions mitigation (‘instituted security measures’) which partially offsets risk.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Still within recent event window.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Remote-work-driven cyber exposure noted, but some mitigation; nets a moderate 4/10."
+            }
+        ],
+        "calculated_score": 31,
+        "average_severity": 6.2
+    }
+]

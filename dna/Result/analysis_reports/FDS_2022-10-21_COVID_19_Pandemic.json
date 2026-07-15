@@ -1,0 +1,128 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "FDS acknowledges COVID-19 primarily as a potentially severe but still largely emergent operational and financial threat.  Although the company notes that, up to the October 2022 filing date, the pandemic has not yet produced a “material negative impact,” management nonetheless describes multiple channels through which future damage could arise: (i) government counter-measures such as travel restrictions, quarantines and site closures; (ii) productivity losses among employees, vendors and data-suppliers, especially in remote-work settings that heighten dependence on video-conferencing and cloud services; (iii) higher medical-insurance costs; and (iv) knock-on amplification of other disclosed risks.  The language is forward-looking and conditional, but it repeatedly uses strong qualifiers such as “materially and adversely affected,” “substantial negative impact,” and “may interfere with the ability of our employees… to perform,” indicating that the company views the risk as significant even if not yet realised.  Because the filing date falls only 2½ years after the WHO declaration (within the 0–3 year window), the Time Decay Principle permits high severity scores; however, the company’s explicit statement of *no* current material impact and its description of active mitigation efforts partially offset that severity.  Overall, the pandemic presents a medium-to-high residual risk (roughly mid-single-digit scores), with the most acute vulnerability tied to workforce productivity and supply-side content gathering rather than immediate revenue contraction.",
+        "evidence_list": [
+            {
+                "snippet": "Our business could be materially and adversely affected by the risk, or the public perception of risk, related to a pandemic or widespread health crisis, such as the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit reference to COVID-19 pandemic as a threat driver.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong materiality language ('materially and adversely affected').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Risk framed as potential, not current.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct mention of COVID-19 with strong impact wording earns a solid score, tempered slightly because the impact is still hypothetical."
+            },
+            {
+                "snippet": "In addition, any preventative or protective actions that governments implement or that we take in respect of a global health crisis, such as travel restrictions, quarantines or site closures, may interfere with the ability of our employees, vendors, and data suppliers to perform their respective responsibilities and obligations relative to the conduct of our business, including our ability to gather content.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists concrete government actions (travel restrictions, quarantines, site closures).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects those actions to specific operational impacts on employees, vendors and data collection.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Impact remains conditional ('may interfere').",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Provides detailed causal chain from pandemic counter-measures to operational disruption, justifying a high but not maximum score."
+            },
+            {
+                "snippet": "However, due to the ongoing uncertainty related to the duration, magnitude and impact of the pandemic, it may still have a substantial negative impact on our employees' or vendors' productivity, which could result in our operations, including our ability to gather content, suffering, and in turn our results of operations, cash flows, and overall financial performance being impacted negatively.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights 'ongoing uncertainty' and possibility of 'substantial negative impact.'",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links productivity losses directly to financial outcomes (operations, cash flows, performance).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact is prospective ('may still').",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Emphasises sizeable potential downside across multiple metrics, warranting a high score moderated for conditionality."
+            },
+            {
+                "snippet": "To date, the COVID-19 pandemic has not had a material negative impact on our financial condition, results of operations, or cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states no material impact to date, a strong mitigating factor.",
+                            "points": -4
+                        },
+                        {
+                            "reason": "Still acknowledges ongoing monitoring of pandemic effects.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": -3
+                },
+                "reasoning_summary": "This sentence lowers overall severity by asserting no realised harm so far; net negative points reflect its mitigating nature."
+            },
+            {
+                "snippet": "Our management is focused on mitigating the effects of COVID-19 on our business, which has required and will continue to require a substantial investment of their time and may delay their other efforts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes management’s active mitigation efforts (reduces risk).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Notes cost in time/resources and potential delays (adds some operational strain).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Mitigation activity balances the operational burden, leading to a neutral net score."
+            },
+            {
+                "snippet": "These risks may be heightened in connection with employees working from remote work environments, as our dependency on certain service providers, such as video conferencing and web conferencing services, has significantly increased.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags remote-work arrangement as an amplifying factor—a pandemic-driven operational shift.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies increased dependency on critical third-party services.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows a concrete, pandemic-related operational vulnerability (remote-work dependence), yielding a moderate aggravating score."
+            }
+        ],
+        "calculated_score": 16,
+        "average_severity": 2.6666666666666665
+    }
+]

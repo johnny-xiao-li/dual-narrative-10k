@@ -1,0 +1,208 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Teradyne’s 2021-02-22 filing describes COVID-19 as both an already-realised and a still-evolving threat that permeates operations, supply chains, labour practices and market demand.  Multiple passages confirm tangible impacts that have already materialised—higher company-wide costs, concrete demand contractions in the Industrial Automation segment, day-to-day operational disruption and supplier interruptions—while also stressing that future magnitude remains impossible to forecast.  The company links the pandemic to cascading effects on liquidity, profitability and competitiveness, giving the disclosure a high materiality profile.  Although management lists many mitigations (remote-work protocols, health measures, active supplier monitoring, new credit facility, signs of demand recovery), these do not neutralise the underlying exposure.  Because the filing date is less than twelve months after the World Health Organization declared the pandemic (Time Decay window: 0-3 years), the evidence is scored toward the upper half of the scale; nevertheless, individual snippet scores are adjusted downward whenever explicit mitigations or recoveries are noted.",
+        "evidence_list": [
+            {
+                "snippet": "The novel coronavirus (COVID-19) pandemic has impacted our business and could materially adversely affect our results of operations, financial condition, liquidity or cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that COVID-19 has already impacted the business (realised risk).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Warns of ‘materially adversely’ affecting multiple core financial metrics (operations, financial condition, liquidity, cash flows).",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct acknowledgement of realised impact and potential material harm across key financial areas yields a high severity score."
+            },
+            {
+                "snippet": "These measures have impacted our day-to-day operations and disrupted our business, workforce and operations, as well as the operations of our customers, contract manufacturers and suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms operational disruption inside the company.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Extends disruption to customers and supply-chain partners, amplifying systemic risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple stakeholder groups simultaneously (workforce, customers, suppliers).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Broad, multi-party disruption demonstrates extensive operational vulnerability, justifying a high score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic, and the numerous measures implemented by authorities in response, has adversely impacted our results of operations, including increasing costs company-wide and decreasing demand in our Industrial Automation businesses, but we cannot accurately estimate the full extent of the impact for our 2020 financial results or to our future financial results.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states adverse impact on results of operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies company-wide cost increases.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies demand decrease in a specific segment (Industrial Automation).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights inability to estimate full impact, signalling continued uncertainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Multiple concrete impacts (costs up, demand down) plus acknowledged uncertainty push the snippet near the top of the scale."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has significantly increased economic uncertainty in our markets, resulting in a decrease in demand for our industrial automation products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes heightened economic uncertainty in core markets.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Confirms actual demand decrease for a product line.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Provides a clear demand-side impact but without additional financial quantification, yielding a moderate score."
+            },
+            {
+                "snippet": "The spread of COVID-19 has caused us to modify our business practices, including implementing social distancing protocols, suspending employee travel, requiring most employees to work remotely, canceling physical participation in meetings, events and conferences, and extensively and frequently disinfecting our workspaces, and we may take further actions as may be required by government authorities or that we determine are in the best interests of our employees, customers, contract manufacturers and suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes significant operational changes signalling disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists proactive health and safety measures (mitigations).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Mentions possibility of further actions, indicating ongoing uncertainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Operational changes show disruption but extensive mitigation language tempers overall severity."
+            },
+            {
+                "snippet": "In addition, the pandemic has disrupted our contract manufacturers and suppliers, and has resulted in some instances in short-term cost increases to meet customer demand.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights direct disruption to contract manufacturers and suppliers (supply-chain risk).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions realised short-term cost increases.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Confirms tangible supply-chain disruption and cost inflation, producing a solid mid-range score."
+            },
+            {
+                "snippet": "However, our suppliers have faced and may continue to face difficulties maintaining operations in light of government-ordered restrictions, including social distancing requirements and shelter-in-place mandates.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies current difficulties faced by suppliers.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes continuation of these difficulties (‘may continue’) tied to external mandates.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Forward-looking supply-chain strain is significant but not yet quantified, warranting a moderate score."
+            },
+            {
+                "snippet": "Although we regularly monitor the financial health of companies in our supply chain, financial hardship on our suppliers or sub-suppliers caused by the COVID-19 pandemic could disrupt our ability to obtain components required to manufacture our products, adversely affecting our operations and in some instances result in higher costs and delays, both for obtaining components and shipping finished goods to customers, which could harm our profitability, make our products less competitive, or cause our customers to seek alternative suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of component supply disruption stemming from supplier financial hardship.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Predicts higher costs and delays affecting operations and deliveries.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links these issues to profitability, competitiveness and customer retention.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presence of monitoring programme provides some mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Comprehensive description of potential cascading supply-chain failures is partially offset by stated monitoring controls."
+            },
+            {
+                "snippet": "Our Industrial Automation business, however, experienced a significant decline in demand through first half of 2020 due to COVID-19 related shutdowns affecting global manufacturing but demand recovered in the second half of 2020 from the low point in the second quarter.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports a significant, realised demand decline attributed to COVID-19 shutdowns.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Notes subsequent demand recovery (mitigating element).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "While the initial hit was severe, the documented recovery softens the current risk profile."
+            },
+            {
+                "snippet": "The COVID-19 pandemic could cause further global economic disruption that could cause demand for our products to decline, which would adversely affect our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights potential for additional global economic disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects disruption to potential demand decline and adverse business impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking statement links macroeconomic risk to company-specific demand exposure, producing a mid-level score."
+            }
+        ],
+        "calculated_score": 50,
+        "average_severity": 5.0
+    }
+]

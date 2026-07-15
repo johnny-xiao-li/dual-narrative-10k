@@ -1,0 +1,154 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "AXON’s 10-K was filed less than twelve months after the WHO declared COVID-19 a global pandemic, so the event is firmly within the ‘recent’ 0-3-year window of the Time-Decay Principle—allowing relatively high severity scores where warranted.  The filing moves from a broad macro description of the pandemic’s adverse effects on workforces and financial markets, to specific, company-level disclosures: (1) recognition that COVID-19 has already affected, and may continue to affect, AXON’s operations; (2) an explicit warning that business-disruption back-up plans may fail; (3) quantified disclosure of a $4.1 million cost impact in 2020; and (4) an expectation of further pandemic-driven costs.  The language is a blend of realised impacts (the $4.1 million expense) and forward-looking contingencies (possible operational and financial disruption).  Although management outlines mitigation efforts—monitoring, contingency planning, and travel-budget offsets—it simultaneously concedes that success is not assured.  Overall, the risks are direct, specific, and current, but only partially quantified; hence, individual snippet scores cluster in the mid-to-high range (5-9) under the recent-event allowance, weighted down where mitigating language appears.",
+        "evidence_list": [
+            {
+                "snippet": "In March 2020 the World Health Organization declared coronavirus (or “COVID-19”) a global pandemic.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Anchors the disclosure to the specific, recognised global pandemic event.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Provides date-specific recognition of the pandemic but no company-level impact; low aggravation."
+            },
+            {
+                "snippet": "This contagious disease outbreak, which has continued to spread throughout the United States and world, has adversely affected workforces, economies, and financial markets globally, leading to an economic downturn.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes broad, negative systemic impacts (‘adversely affected workforces…economies…financial markets’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Signals macroeconomic downturn relevant to corporate performance.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights widespread adverse effects but remains generic to AXON—moderate severity."
+            },
+            {
+                "snippet": "These events have had and could continue to have an impact on our operations.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to AXON’s operations (‘have had and could continue’).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Uses forward-looking language signalling ongoing risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct company-specific operational impact; no mitigation, so elevated score."
+            },
+            {
+                "snippet": "If our backup and mitigation plans are not sufficient to minimize business disruption, our financial results could be adversely affected.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links potential inadequacy of contingency plans to adverse financial results.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Conditional wording (‘if…’) slightly tempers certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Identifies direct financial risk but framed as a contingency, moderating severity."
+            },
+            {
+                "snippet": "We are continuously monitoring our operations and intend to take appropriate actions to mitigate the risks arising from the COVID-19 pandemic, but there can be no assurances that we will be successful in doing so.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States active mitigation efforts (monitoring, actions).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Acknowledges possibility of mitigation failure (‘no assurances’), reinstating risk.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Mitigation offsets much of the aggravation, leaving a low-to-moderate net risk."
+            },
+            {
+                "snippet": "Our expenses for the year ended December 31, 2020 increased by approximately $4.1 million for costs related to the pandemic.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies realised financial impact ($4.1 million).",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Specifies direct linkage to pandemic costs.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Recent, direct, quantified cost impact merits a high score within the allowed range."
+            },
+            {
+                "snippet": "We expect ongoing increased costs related to the mitigation of contamination risk at our facilities.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forward-looking statement of continuing cost pressure.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Describes operational health-safety mitigation (evidence of proactive stance).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Predicts future cost increases but partially offset by proactive measures; moderate risk."
+            },
+            {
+                "snippet": "We expect these incremental costs will continue to be partially offset by savings on travel and events and other cost-savings measures.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites cost offsets and savings, reducing net impact.",
+                            "points": -3
+                        },
+                        {
+                            "reason": "Still acknowledges ongoing incremental costs (implies some remaining exposure).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": -2
+                },
+                "reasoning_summary": "Strong mitigating language outweighs the residual risk, yielding a negative adjustment."
+            }
+        ],
+        "calculated_score": 27,
+        "average_severity": 3.375
+    }
+]

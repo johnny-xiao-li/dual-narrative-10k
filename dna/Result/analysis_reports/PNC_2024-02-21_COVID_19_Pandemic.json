@@ -1,0 +1,77 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "PNC’s 2023 Form 10-K filings reference COVID-19 mostly in the context of lingering, structural after-effects rather than acute, company-specific shocks.  The bank frames the pandemic as a catalyst for secular changes—most notably the persistence of remote work and the resulting weakness in certain commercial-real-estate segments—and as a precedent for possible future regulatory constraints on capital distributions.  The language is primarily forward-looking, stressing uncertainty and potential vulnerability rather than disclosing quantified, realised losses.  Because the filing date (February 2024) is just under four years after the WHO declaration (March 2020), the Time-Decay Principle places the evidence in a medium-term window: risks remain relevant but should not receive the highest severity scores.  Overall, the statements are moderately specific (they single out commercial real-estate demand and reference prior Fed dividend restrictions) yet still largely qualitative, so individual snippet scores cluster in the 4-6 range, reflecting material but unquantified, medium-term risk.",
+        "evidence_list": [
+            {
+                "snippet": "We operate in an uncertain economic environment due to structural and secular changes triggered by the pandemic for certain sectors of the economy combined with increased interest rates, inflation and geopolitical tensions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links current economic uncertainty to structural changes \"triggered by the pandemic.\"",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Positions the risk as ongoing and forward-looking (\"operate in an uncertain… environment\").",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantitative impact or sector detail beyond a general statement.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct pandemic linkage and acknowledgement of persistent macro uncertainty warrant a moderate score (4/10) under medium-term time-decay rules."
+            },
+            {
+                "snippet": "For example, as remote work continues to be a feasible alternative to pre-pandemic in-office work arrangements, notable portions of available commercial real estate space remain underutilized.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies a concrete behavioural shift (remote work) explicitly tied to the pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Cites a specific sectoral impact—under-utilisation of commercial real-estate—which can materially affect credit quality and demand for banking services.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks numeric magnitude or financial loss disclosure.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific sector exposure and clear causal chain to the pandemic justify a solid mid-range risk score, tempered for lack of quantification."
+            },
+            {
+                "snippet": "The Federal Reserve can also impose additional limitations on capital distributions, such as the limitations on distributions imposed in response to the COVID-19 pandemic and the 2007-2008 financial crisis.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "References historical pandemic-driven regulatory action (dividend restrictions) that could recur, signalling potential future capital risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Language is conditional (\"can\"), indicating possible rather than current impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic, no specific financial estimate or probability.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights a plausible but contingent regulatory risk rooted in pandemic precedent; lower specificity yields a slightly lower mid-level score."
+            }
+        ],
+        "calculated_score": 11,
+        "average_severity": 3.6666666666666665
+    }
+]

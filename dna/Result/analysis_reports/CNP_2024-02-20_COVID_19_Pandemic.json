@@ -1,0 +1,114 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is referenced throughout the 2024 filing as a continuing but now-evolving business risk.  Because the pandemic began almost four years before the filing date, the comments are framed less as acute crisis effects and more as medium-term economic, credit-quality and supply-chain uncertainties that could still impair cash flow, capital execution and labor availability.  The company points to (1) weakened retail-electric-provider liquidity that could delay collections, (2) pandemic-driven global supply-chain bottlenecks that raise costs for critical materials, and (3) the broader possibility that future variants or health emergencies will amplify other listed risks (workforce, regulatory timelines, customer demand).  All disclosures are qualitative and un-quantified, yet they tie COVID-19 directly to cash-flow, operational and strategic execution threats that remain “ongoing” or “future” oriented.  Given the Time-Decay principle, evidence scores are capped in the mid-range (4-6) to reflect that the pandemic is now a medium-term rather than immediate event, even though the company still describes specific financial and operational exposures.",
+        "evidence_list": [
+            {
+                "snippet": "Adverse economic conditions, including, but not limited to, the impact of COVID-19, the February 2021 Winter Storm Event or other extreme weather (which may result in abnormal power prices), structural problems in the market served by ERCOT, mismanagement by the REPs, inflation or financial difficulties of one or more REPs, have and may in the future impair the ability of these REPs to pay for Houston Electric’s services or cause them to delay such payments.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites COVID-19 as an adverse economic factor.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links pandemic impact to a concrete financial exposure—non-payment or delayed payment by REPs.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Risk is stated as both historical ('have') and forward-looking ('may in the future'), increasing relevance.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Time-decay adjustment for ~4-year-old event.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct pandemic reference tied to potential cash-collection losses justifies a moderately high score, tempered for the event’s age."
+            },
+            {
+                "snippet": "The global supply chain has experienced disruptions due to a multitude of factors, such as the COVID-19 pandemic, labor shortages, resource availability, long lead time, delivery delays, inflation, severe weather events and disruptions to internal or international shipping, including as a result of armed conflicts, and these disruptions have adversely impacted the utility industry.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 as a primary driver of supply-chain disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States that the disruptions have already 'adversely impacted' the utility industry, signalling realized impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights broad operational exposure (global supply chain).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Time-decay moderation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Sentence shows direct causal link between COVID-19 and operational impacts; medium-term timing keeps score at 5."
+            },
+            {
+                "snippet": "Current and future health pandemics, epidemics and similar public health threats, such as COVID-19 and its variants, and the measures implemented to contain their spread, such as travel bans and restrictions, quarantines and vaccination mandates, continue to and may in the future have widespread impacts on the global economy, our employees, customers, and third-party business partners.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifically references COVID-19 (and variants) as an ongoing threat.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Enumerates multiple impact channels (economy, workforce, customers, partners).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking language ('may in the future') shows persistence of risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Adjust for event age per Time-Decay.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Broad but less specific description of pandemic impacts yields a solid mid-level risk score."
+            },
+            {
+                "snippet": "These and other impacts of global or regional health pandemics, epidemics or similar public health threats could also have the effect of heightening many of the other risks described in this section and the other reports we file from time to time with the SEC.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights amplifying effect of pandemics on a wide range of corporate risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking conditional language ('could') indicates potential future severity.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No specific financial metric or mitigation; generic amplification statement reduces severity.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Time-decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic amplification of risk without quantitative detail leads to a lower, but still positive, score."
+            }
+        ],
+        "calculated_score": 17,
+        "average_severity": 4.25
+    }
+]

@@ -1,0 +1,218 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Bank of America’s 2021-02-24 filing links COVID-19 to a broad, material and continuing set of risks.  The disclosure acknowledges that the pandemic has already harmed 2020 earnings (e.g., higher loan-loss provisions and expenses) and states that management expects further adverse effects across revenues, credit quality, liquidity, capital and operations.  The company itemises concrete transmission channels – lower product demand, merchant charge-backs, prolonged low rates, deposit withdrawals, market volatility, remote-work disruptions and heightened litigation – illustrating a multi-faceted, enterprise-wide exposure.  Language such as “have adversely affected” and “material adverse effect” confirms realised damage, while extensive forward-looking qualifiers (“are expected to continue”, “highly uncertain”) signal persistent vulnerability.  Given the filing date is within one year of the WHO declaration, Time Decay permits high severity scores.  The statements are specific, cover several financial metrics and include few mitigating actions, leading to aggregated snippet scores mostly in the 7-9 range.",
+        "evidence_list": [
+            {
+                "snippet": "The effects of the pandemic have adversely affected, and are expected to continue to adversely affect, our businesses and results of operations, and its duration and future impacts on the economy and our businesses, results of operations and financial condition remain uncertain.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms realised adverse impact (‘have adversely affected’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Predicts continuing harm (‘expected to continue to adversely affect’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers broad scope: economy, business, results, financial condition.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights high uncertainty, increasing risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Sentence shows both realised and ongoing uncertain impacts across the enterprise, warranting a high score of 7."
+            },
+            {
+                "snippet": "The negative economic conditions arising from the pandemic negatively impacted our financial results during 2020 in various respects, including contributing to increases in our allowance and provision for credit losses and noninterest expense.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States concrete, historical financial hit in 2020.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Quantifies nature of impact (higher credit loss allowance, expenses).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Time-proximity to event (same year).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, quantified 2020 impacts on core earnings drivers push severity to 8."
+            },
+            {
+                "snippet": "These negative economic conditions may have a continued adverse effect on our businesses and results of operations, which could include: decreased demand for and use of our products and services; protracted periods of historically low interest rates; lower fees, including asset management fees; lower sales and trading revenue due to decreased market liquidity resulting from heightened volatility; higher levels of uncollectible reversed charges in our merchant services business; increased noninterest expense, including operational losses; and increased credit losses due to our customers' and clients' inability to fulfill contractual obligations and deterioration in the financial condition of our consumer and commercial borrowers, which may vary by region, sector or industry, that may increase our provision for credit losses and net charge-offs.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple specific revenue and cost threats.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights credit-loss escalation scenario.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers cross-business impacts (products/services, merchant, trading).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking but plausible continuation.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Detailed enumeration of many profit levers under threat yields strong but slightly less than realised-impact score."
+            },
+            {
+                "snippet": "Additionally, our liquidity and/or regulatory capital could be adversely impacted by customers’ withdrawal of deposits, volatility and disruptions in the capital and credit markets, volatility in foreign exchange rates and customer draws on lines of credit.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential liquidity and capital strain drivers.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists several concrete stress triggers (deposit run, markets, FX).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Risk is prospective, not yet realised.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Important but still contingent liquidity/capital threats merit a moderate-high score of 5."
+            },
+            {
+                "snippet": "Continued adverse macroeconomic conditions could also result in potential downgrades to our credit ratings, negative impacts to regulatory capital and liquidity and further restrictions on dividends and/or common stock repurchases.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-driven macro stress to ratings and capital deterioration.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions constraints on shareholder returns.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Sentence flags serious capital-market consequences but remains conditional, scoring 4."
+            },
+            {
+                "snippet": "If we become unable to operate our businesses from remote locations including, for example, because of an internal or external failure of our information technology infrastructure, we experience increased rates of employee illness or unavailability, or governmental restrictions are placed on our employees or operations, this could adversely affect our business continuity status and result in disruption to our businesses.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights operational continuity risks tied to remote-work pandemic model.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies several failure channels (IT, illness, government restrictions).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Operational disruption risk is material but not directly financial; score is 4."
+            },
+            {
+                "snippet": "Additionally, we rely on third parties who could experience adverse effects on their business continuity and business interruptions, which could increase our risks and adversely impact our businesses.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes dependency on third parties’ resilience, expanding risk scope.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Expressly links to adverse business impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Third-party amplification of operational risk raises concern but less severe: score 3."
+            },
+            {
+                "snippet": "Our participation in such programs has also resulted and may continue to result in operational losses, including from the Paycheck Protection Program (PPP) and processing unemployment insurance.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States realised and possible future operational losses from pandemic relief programs.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Cites specific program (PPP) tied to COVID-19.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Actual losses tied to COVID-response activities heighten risk moderately (score 4)."
+            },
+            {
+                "snippet": "The magnitude and duration of the pandemic and its future direct and indirect effects on the global economy and our businesses, results of operations and financial condition are highly uncertain and depend on future developments that cannot be predicted, including the likelihood of further surges of COVID-19 cases and the spread of more easily communicable variants of COVID-19, the timing and availability of effective medical treatments and vaccines, future actions taken by governmental authorities, including additional stimulus legislation, and/or other third parties in response to the pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises high uncertainty over multiple drivers and variants.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links uncertainty to broad financial metrics.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "High uncertainty across many uncontrollable factors justifies a solid risk score of 4."
+            },
+            {
+                "snippet": "The pandemic may cause prolonged global or national negative economic conditions or longer lasting effects on economic conditions than currently exist, which could have a material adverse effect on our businesses, results of operations and financial condition.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Foresees prolonged downturn with ‘material adverse effect’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers both global and national scope.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Sentence projects severe, enduring harm, but still prospective, scoring 4."
+            }
+        ],
+        "calculated_score": 50,
+        "average_severity": 5.0
+    }
+]

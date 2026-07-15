@@ -1,0 +1,289 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "TSN’s 2021-11-15 Form 10-K treats COVID-19 as a recent, high-magnitude threat that is both already hurting performance and likely to persist.  The filing contains numerous, concrete descriptions of operational slow-downs, labour shortages, supply-chain bottlenecks, demand shifts, litigation exposure and quantified cost spikes.  Several disclosures move beyond generic caution: they cite a specific US $335 million incremental expense and acknowledge materially lower utilisation of plants, lawsuits already filed and continuing supply-chain volatility.  While management notes certain mitigating steps (PPE, testing, CARES Act credits, vaccination mandates), these are presented as insufficient to eliminate risk.  Given that the pandemic began only 18 months before the filing date, the Time Decay Principle allows high severity scores (7-10) for direct, quantified impacts, with somewhat lower scores (3-6) for forward-looking or less-quantified statements.  Overall, the risk profile is severe, immediate and multi-faceted, justifying elevated snippet scores across the extracted evidence.",
+        "evidence_list": [
+            {
+                "snippet": "The outbreak of the COVID-19 global pandemic and associated responses has had, and is expected to continue to have, an adverse impact on our business and operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that COVID-19 has already adversely impacted the business (current, direct).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States expectation of continued future impact (persistence).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantification of scale; language is general.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct past harm plus expectation of ongoing damage merits a solid mid-high score, tempered slightly for lack of numbers."
+            },
+            {
+                "snippet": "We have experienced, and may experience in the future, slowdowns and temporary idling of certain of our production facilities due to a number of COVID-19 related factors, including implementing additional safety measures, testing of our team members, team member absenteeism, and governmental orders.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes concrete operational disruptions that have already happened (slowdowns, idling).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links disruptions explicitly to multiple pandemic drivers (safety measures, absenteeism, orders).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Projects that disruptions may recur (forward-looking).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specific, realised plant disruptions tied to COVID-19 push the score into the high range."
+            },
+            {
+                "snippet": "The idling and slowdowns impacted our results of operations for fiscal 2021, and additional or prolonged idling of facilities or an extended period of operating at a reduced capacity or more significant reductions in our operations at our facilities could have a material adverse impact on our ability to operate our business and on our results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms direct financial impact already felt in FY-2021.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong materiality language ('material adverse impact').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking conditional statement introduces uncertainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Recorded impact plus warning of material future harm yields a robust score."
+            },
+            {
+                "snippet": "During fiscal 2021, we incurred direct incremental expenses related to COVID-19 totaling approximately $335 million, which primarily included team member costs associated with worker health and availability, including direct costs for personal protection equipment, production facility sanitization, COVID-19 testing and vaccinations, donations, product downgrades, rendered product and certain professional fees, partially offset by The Coronavirus Aid, Relief and Economic Security Act (the “CARES Act”) credits.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies large incremental cost (US$335 million).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Specifies that costs were incurred in the most recent fiscal year (immediacy).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes partial offset by CARES Act credits (mitigation).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "A sizeable, numeric hit in the current year drives a near-maximum score, modestly reduced for government relief."
+            },
+            {
+                "snippet": "Workforce limitations and travel restrictions resulting from COVID-19 and related government actions adversely impacted, and may continue to adversely impact, many aspects of our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites specific pandemic-driven labour and travel constraints with adverse effect.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights continuing nature of the threat.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantitative detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct but unquantified labour/travel impacts yield a moderate score."
+            },
+            {
+                "snippet": "If a significant percentage of our workforce is unable to work, including because of illness, travel or government restrictions in connection with COVID-19, this could have an adverse effect on our operations and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential severe operational risk tied to workforce availability.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Purely conditional; impact not yet realised.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Prospective scenario without current impact scores lower, though still relevant."
+            },
+            {
+                "snippet": "In addition, certain of our team members who claim to have tested positive for COVID-19, or their family members, have filed lawsuits seeking compensatory and punitive damages for wrongful death and personal injury claims in several states.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reveals actual litigation already filed, indicating financial/legal exposure.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Claims include punitive damages, raising severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Existing multi-state lawsuits elevate the risk substantially."
+            },
+            {
+                "snippet": "We have also experienced, and expect to continue to experience, disruption and volatility in our supply chain, which has resulted, and may continue to result, in increased costs for certain raw materials, packaging materials and transportation costs.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details supply-chain disruptions already causing higher costs.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes expectation of continued cost escalation.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Ongoing supply-chain cost inflation justifies a mid-level score."
+            },
+            {
+                "snippet": "The spread of COVID-19 has also disrupted and may continue to disrupt logistics necessary to import, export and deliver products to us and our customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Focuses on logistics interruptions across import/export channels.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights continuity of risk into future.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific logistics risk, but no dollar figures, places the snippet in the moderate range."
+            },
+            {
+                "snippet": "As a result of the COVID-19 pandemic, each of our segments experienced a shift in demand from foodservice to retail during 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies fundamental shift in customer demand across all segments.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes realised impact in prior year.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Real change in demand mix is important but not monetised, yielding a mid score."
+            },
+            {
+                "snippet": "In addition, in the event of a protracted period of economic downturn, demand for our foodservice products may remain below expectations or decrease further, and demand for our retail consumption products may also decrease, which could have an adverse impact on our results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights economic-downturn scenario affecting multiple demand channels.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Purely forward-looking contingency.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Speculative, unquantified risk so the score is kept low."
+            },
+            {
+                "snippet": "Governmental authorities at the federal, state and local levels may increase or impose new or stricter social distancing directives, stay-at-home restrictions, travel bans, quarantines, workforce and workplace restrictions or other measures related to COVID-19 variants and resurgences, including any variants such as the Delta variant.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags potential for stricter government measures affecting operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Focus is anticipatory, not yet realised.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Potential regulatory tightening is notable but speculative, so score is modest."
+            },
+            {
+                "snippet": "We also face other risks associated with the COVID-19 pandemic, including: • additional increase in input cost may not be adequately captured through pricing; • an increase in consumer demand in our retail channel, such as grocery stores, club stores and value stores, which has and may continue to strain our supply chain; • an increase in working capital needs and/or an increase in trade accounts receivable write-offs (and associated reserves) as a result of increased financial pressures on our suppliers or customers who are not able to pay in a timely manner or at all; • adverse changes to the global economy may subject us to risk of material intangible and long-lived asset impairments, adjustments for inventory and market volatility for items subject to fair value measurements such as derivatives and investments; • an inability to effectively implement our marketing and advertising activities to reflect changing consumer shopping habits due to, among other things, reduced in-person shopping and travel restrictions; • a shift in consumer spending as a result of an economic downturn, which could result in consumers moving to private label or lower price products; and • litigation.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple concrete financial and operational risk vectors (input costs, working capital, impairments, litigation).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Some items already occurring (supply-chain strain) while others are potential.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Comprehensive list of diverse risks keeps the score in the middle-high tier."
+            },
+            {
+                "snippet": "We have experienced and continue to experience multiple challenges related to the pandemic, These challenges increased our operating costs during fiscal 2020 and fiscal 2021.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits sustained cost increases over two consecutive fiscal years.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lacks precise quantification in this sentence.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Repeated cost pressure is important but less impactful without numbers, so score is modest."
+            },
+            {
+                "snippet": "The major challenge we face is the availability of team members to operate our production facilities due to our production facilities experiencing varying levels of absenteeism and due to labor shortages associated with the economic impact of the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights labour shortage as ‘major challenge’, indicating high severity.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Direct link between pandemic and critical staffing shortages.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Company-labelled ‘major challenge’ elevates the severity despite no dollar figure."
+            }
+        ],
+        "calculated_score": 66,
+        "average_severity": 4.4
+    }
+]

@@ -1,0 +1,467 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is portrayed by Alliant Energy (LNT) as a recent, multifaceted threat that is already affecting, and could further erode, virtually every layer of its utility value-chain – from demand swings and customer credit quality to supply-chain blockages, labour availability, construction timetables, liquidity and even cyber-security.  The filing combines backward-looking facts (e.g., 3 % residential demand increase, 4 % C&I decline) with forward-looking cautions (possible pension-plan funding spikes, missed tax-credit deadlines, capital-market access, workforce illness).  Although management repeatedly notes that no “significant issues” have yet materialised and outlines several mitigation steps (regulatory deferrals, liquidity bolstering, cost-cutting, remote-work protocols), the overall tone remains one of heightened vigilance; most statements are framed as credible, near-term contingencies rather than distant hypotheticals.  Applying the Time Decay principle, the pandemic is <3 years old at the filing date, so high per-sentence scores (up to 10) are permissible.  Still, where the company highlights effective offsets or states that impacts are not yet material, scores are scaled down accordingly.  The net result is a risk profile that is acute, broad and only partially mitigated, warranting consistently elevated—but not maximum—snippet scores.",
+        "evidence_list": [
+            {
+                "snippet": "The continued spread of COVID-19 has resulted in widespread impacts on the economy and could lead to a prolonged reduction in economic activity, disruptions to supply chains and capital markets, and reduced labor availability and productivity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties multiple adverse effects to COVID-19 (‘resulted in’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions potential prolonged economic downturn.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights supply-chain disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes reduced labour availability/productivity.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Also flags capital-market disruption.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Direct, multi-vector impact statement covering supply chain, labour and finance merits a very high score of 9."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has impacted and may continue to impact the economic conditions in our service territories, which may adversely impact our sales and our customers’ abilities to pay their bills.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States both realised and future impacts on local economies.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links to reduced sales (demand risk).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Points to customer payment/credit risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Concrete but un-quantified demand and credit-quality impacts justify a solid mid-high score."
+            },
+            {
+                "snippet": "Travel and transportation restrictions and closures of commercial spaces and industrial facilities have been imposed in and across the U.S., including in the service territories in which we operate.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies operational constraints (travel, facility closures).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Confirms effect within company’s own territories.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Implication of supply/demand disruption.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Descriptive, not financial or quantified.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Lists concrete external restrictions affecting operations; absence of direct financial quantification keeps score at 6."
+            },
+            {
+                "snippet": "Governmental and regulatory responses to COVID-19 include suspending service disconnects, which may increase customer account arrears, possibly increasing our allowance for expected credit losses and decreasing our cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct linkage to COVID-19 policy actions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights increased arrears and credit-loss allowances.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Points to cash-flow deterioration.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Clear causal chain from pandemic policy to cash-flow risk warrants a 7."
+            },
+            {
+                "snippet": "Closures of commercial spaces and industrial facilities may result in a reduction in demand of electricity and natural gas from commercial and industrial customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies demand destruction in key customer classes.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Directly attributed to COVID-related closures.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking (‘may’), not yet quantified.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Demand risk for core products, albeit prospective and unquantified, earns a 6."
+            },
+            {
+                "snippet": "The negative impacts on the economy could adversely impact the market value of the assets that fund our pension plans, which could necessitate accelerated funding of the plans to meet minimum federal government requirements.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-driven economic decline to pension asset devaluation.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights possible cash drain via accelerated funding.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Contingent language (‘could’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Financial, but secondary, risk to pension funding places score at 5."
+            },
+            {
+                "snippet": "The negative impacts on the economy could also adversely impact the ability of counterparties to meet contractual payment obligations, including guarantees, or deliver contracted commodities and other goods or services at the contracted price, which could increase company expenses.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Addresses counterparty credit and performance risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions potential commodity delivery failures (supply chain).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes resulting expense increases.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Multiple counterparties and expense escalation risks justify a 6."
+            },
+            {
+                "snippet": "Our access to the capital markets could be adversely affected by COVID-19, which could cause us to need alternative sources of funding for our operations and for working capital, any of which could increase our cost of capital.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies liquidity/financing risk tied to pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Potential rise in cost of capital.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Contingent wording (‘could’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Material but conditional finance-market exposure merits 6."
+            },
+            {
+                "snippet": "Travel bans and restrictions, quarantines, shelter in place orders and shutdowns may cause disruptions in supply chains or access to labor that may adversely impact our planned construction projects, our ability to satisfy compliance requirements, or our operations, including our ability to maintain reliable electric and gas service.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple COVID-related restrictions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights supply-chain and labour-access disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Direct threat to construction timelines and compliance.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk to reliability of core services.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Rich detail on critical supply-chain/labour impacts pushes score to 8."
+            },
+            {
+                "snippet": "This may cause us to miss milestones on construction projects and experience operational delays, which, in the case of renewable energy projects, could delay our completion of such projects past the in-service dates required to qualify for the maximum general renewable tax credits for investments in such renewable energy projects.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies project-schedule risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects delays to loss of tax-credit financial benefits.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional language (‘may’, ‘could’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Operational and tax-credit jeopardy combine for a strong 7."
+            },
+            {
+                "snippet": "If our workforce contracts COVID-19, it could negatively impact our operations, including our ability to maintain reliable electric and gas service.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct human-capital health risk tied to operational continuity.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Threatens reliability of core utility service.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Workforce infection affecting critical services earns a 6."
+            },
+            {
+                "snippet": "The degree to which COVID-19 may impact our business operations, financial condition and results of operations is unknown at this time and will depend on future developments, including the ultimate geographic spread of COVID-19, the severity of the disease, the duration of the outbreak, possible resurgence of the disease at a later date, emergence of variants, speed, efficacy and adoption rates of vaccines, and further actions that may be taken by governmental and regulatory authorities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges wide uncertainty and multiple evolving variables.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasises inability to forecast impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Broad uncertainty statement is important but less concrete; score 5."
+            },
+            {
+                "snippet": "More of our workforce is working remotely due to the COVID-19 pandemic, which has increased the number of devices connected to the internet that impact our operations and therefore increase our exposure to a cyber attack.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-driven remote work to operational risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies heightened cyber-attack exposure.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Operational complexity via additional devices.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Novel cyber-risk vector from remote work justifies a 7."
+            },
+            {
+                "snippet": "Alliant Energy, IPL and WPL have not experienced significant impacts on their overall business operations, financial condition, results of operations or cash flows; however, the degree to which the COVID-19 pandemic may impact such items in the future is currently unknown and will depend on future developments of the pandemic as well as possible additional actions by government and regulatory authorities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States no material impacts to date (mitigating).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Re-emphasises significant future uncertainty.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Applies to multiple financial dimensions.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Mitigation (‘no impacts yet’) tempers otherwise broad uncertainty, yielding 4."
+            },
+            {
+                "snippet": "While Alliant Energy has not experienced any significant issues to-date, it continues to monitor potential disruptions or constraints in materials and supplies from key suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights ongoing supply-chain monitoring (risk exists).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes absence of current issues (mitigation).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Indicates reliance on key suppliers.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Prospective supply-chain concern offset by ‘no issues’ lowers score to 4."
+            },
+            {
+                "snippet": "COVID-19 has resulted in various travel restrictions and closures of commercial spaces and industrial facilities in Alliant Energy’s service territories.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites concrete restrictions within core service areas.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Implies operational and demand disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Direct causal link to pandemic.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Location-specific restriction evidence receives 6."
+            },
+            {
+                "snippet": "While the total expected impact of COVID-19 on future sales is currently unknown, Alliant Energy has experienced higher electric residential sales and lower electric commercial and industrial sales since the outset of the pandemic, and expects these sales trends by customer class to continue into 2021 but at lower impacts than in 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides actual observed demand shifts by customer class.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Expresses expectation of continued trend.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges uncertainty of full impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Realised and projected demand mix changes deliver a strong 7."
+            },
+            {
+                "snippet": "In 2020 compared to 2019, Alliant Energy’s retail electric residential temperature-normalized sales increased 3%, and its retail electric commercial and industrial temperature-normalized sales decreased 4% in aggregate.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies concrete pandemic-era demand changes.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Shows divergent impacts across customer segments.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Data is very recent (2020).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Hard numbers on demand shifts earn a near-top score of 8."
+            },
+            {
+                "snippet": "Alliant Energy’s temporary suspension of service disconnects and waivers of late payment fees for its customers, as well as broad economic factors, may negatively impact its customers’ willingness and ability to pay, which could increase customer arrears and bad debts, and negatively impact Alliant Energy’s cash flows from operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential surge in arrears/bad-debt.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links to cash-flow risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Directly tied to COVID-related policy decisions.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Credit-loss and cash-flow exposure produce a 7."
+            },
+            {
+                "snippet": "In March 2020, WPL received authorization from the PSCW to defer certain incremental costs incurred resulting from COVID-19, including bad debt expenses and foregone revenues from late payment fees.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates real incremental COVID-related costs.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions bad-debt and revenue foregone (financial hit).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Regulatory deferral mitigates timing of impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Costs recognised but deferred by regulators yield a mid-level 5."
+            },
+            {
+                "snippet": "In August 2020, IPL received authorization from the IUB for utilization of a regulatory asset account to track increased expenses and other financial impacts incurred after March 1, 2020 resulting from COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows company already incurring COVID-related expenses.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Regulatory asset mechanism indicates potential recovery (mitigation).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Covers unspecified ‘other financial impacts’.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Existence of tracked pandemic costs, partly offset by recovery mechanism, scores 5."
+            }
+        ],
+        "calculated_score": 100,
+        "average_severity": 6.190476190476191
+    }
+]

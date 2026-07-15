@@ -1,0 +1,266 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "KMX’s 2022-04-14 filing repeatedly links the ongoing COVID-19 pandemic to material and multi-faceted risks.  Management discloses both realized impacts (store closures, first-quarter FY-21 earnings hit, vendor distress) and forward-looking threats (new variants, labor shortages, credit losses, inventory sourcing, and accelerated digital buying trends that could render the legacy model less competitive).  The language is generally specific—often using terms such as “significant negative impact” or “material adverse effect”—and it names concrete operational vectors: consumer demand, store operations, financing, supply chain, staffing, third-party vendors, and loan-loss provisioning.  Because the filing date is just two years after the formal WHO declaration (within the 0-3-year “recent” window), the Time Decay Principle permits high severity scoring.  However, some sentences are more generic or partially mitigated (e.g., effects “seem to have subsided”), so scores are calibrated individually.  Overall, the pandemic remains an active, high-salience risk with both historical damage and continuing uncertainty, justifying several high micro-scores alongside moderate ones where statements are broader or partly mitigated.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic has likely accelerated the consumer trend of buying a car online, sight unseen.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly references COVID-19 as the catalyst.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies a fundamental shift in consumer demand that could disrupt the business model.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses probabilistic language ('likely'), reducing certainty of impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specifies a pandemic-driven market shift but with moderate language; risk is real yet unquantified."
+            },
+            {
+                "snippet": "These conditions and the economy in general could be affected by significant national or international events such as a global health crisis (like COVID-19), acts of terrorism or acts of war (including the recent Russian invasion of Ukraine).",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 to macro-economic deterioration that would hurt the company.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk phrased generically among several possible events, diluting specificity.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking conditional wording ('could be affected').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Mentions pandemic as one of several macro threats; generic framing leads to a moderate score."
+            },
+            {
+                "snippet": "A failure to maintain our culture, in response to COVID-19, in response to some other crisis, or otherwise, could have a material adverse effect on our business, sales and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties cultural/HR risk to COVID-19 response.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong impact phrase ('material adverse effect').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Shares risk with non-pandemic crises, reducing exclusivity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct but internally focused; materiality language elevates the score to mid-range."
+            },
+            {
+                "snippet": "In addition, managing our response to the ongoing COVID-19 pandemic as well as our strategic initiatives require management, employees and contractors to adapt and learn new skills and capabilities.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights operational strain and need for workforce adaptation due to pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking; no quantification of severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Indicates concrete internal challenges but without explicit financial magnitude."
+            },
+            {
+                "snippet": "One or more of these third-party vendors may experience financial distress, technology challenges, staffing shortages or liquidity challenges, file for bankruptcy protection, go out of business, or suffer disruptions in their business due to the COVID-19 outbreak.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links vendor/supply-chain disruption to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates multiple severe consequences (bankruptcy, business disruption).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses conditional 'may', slightly reducing immediacy.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Substantial potential impact on supply chain; strong yet prospective wording yields a high score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has had and may continue to have a significant negative impact on our business, sales, results of operations and financial condition.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Unequivocal statement of experienced impact and ongoing risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers multiple critical metrics (business, sales, results, financial condition).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong qualifier ('significant negative impact').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Direct, broad, and severe language describing both past and future harm merits near-maximum score."
+            },
+            {
+                "snippet": "The potential resurgence of infections or the emergence of new variants, including more severe variants or variants for which vaccine efficacy is low, could have an adverse impact on consumer demand, our retail operations, and our ability to secure financing, to source inventory and to maintain adequate staffing, among other adverse effects.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details forward risk from new variants with direct operational channels.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists multiple critical functions (demand, retail ops, financing, supply chain, staffing).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional language but explicit adverse outcome.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Comprehensive mapping of pandemic variant risks across the business supports a high score."
+            },
+            {
+                "snippet": "Throughout fiscal 2021, many U.S. states and localities had shelter-in-place orders and occupancy restrictions, impacting the operations of our stores and consumer demand.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites concrete government actions tied to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies direct operational impacts (store operations, demand).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Historical reference rather than ongoing, slightly lowering urgency.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Demonstrates realized operational disruption; past tense moderates but still high severity."
+            },
+            {
+                "snippet": "As a result, our fiscal 2021 results were significantly impacted by the COVID-19 pandemic, primarily during the first quarter.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct attribution of financial performance impact to pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong phrase ('significantly impacted').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Time-bounded to FY-21 but quantifies realized effect.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Explicit statement of significant historical earnings hit gives high evidentiary weight."
+            },
+            {
+                "snippet": "Although the effects of COVID-19 seem to have subsided, uncertainty continues.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing uncertainty related to pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes some mitigation ('seem to have subsided'), reducing perceived risk.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty warrants some residual score.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Mitigating language tempers severity; residual uncertainty keeps score above minimal."
+            },
+            {
+                "snippet": "In the event that any of these geographic areas experience a downturn in economic conditions, or are particularly affected by COVID-19 and related government actions taken to reduce the spread of the virus, weather events or other region-specific incidents, it could have a material adverse effect on our business, sales and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links regional pandemic outbreaks to material adverse business effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional and grouped with other events, lowering specificity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Regional focus and conditional wording yield a moderate risk score."
+            },
+            {
+                "snippet": "For example, when economic conditions deteriorate unexpectedly, such as in connection with the initial COVID-19 outbreak, additional loan losses not incorporated in the existing allowance for loan losses may occur.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies credit-loss risk tied to the pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies potential insufficiency in current financial reserves.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Connects pandemic shocks directly to financial reserve adequacy; specific but narrower scope."
+            }
+        ],
+        "calculated_score": 70,
+        "average_severity": 5.833333333333333
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Autodesk’s 2021 Form 10-K repeatedly links the COVID-19 pandemic to both realized and prospective risks across operations, liquidity and customer demand.  The filing, dated March 19 2021, sits squarely within three years of the WHO-declared pandemic (11 Mar 2020), so the Time Decay Principle permits high severity scores where warranted.  Language in the Risk Factors section confirms that COVID-19 has already disrupted normal business practice—forcing remote-work transitions, halting travel, postponing marketing events and altering customer payment behaviour—while simultaneously stressing that the ultimate magnitude on revenue, cash flow and renewal rates remains “uncertain.”  Several passages highlight concrete, near-term financial effects (e.g., cash-flow reduction from extended payment terms) and warn of possible “material adverse” outcomes if customer churn, economic downturns or supply-chain partners deteriorate further.  The company also outlines mitigating steps (payment extensions, deferred price increases, cost controls), which slightly temper but do not eliminate the risk.  Overall, the disclosures depict a recent, ongoing event with both present impacts and sizable downside potential, justifying elevated—but not maximal—severity scores (7-9 range) for the strongest evidence, with modest deductions where the company notes active mitigations.",
+        "evidence_list": [
+            {
+                "snippet": "The effects of the COVID-19 pandemic and related public health measures have affected how we and our customers are operating our respective businesses, and the extent of the impact on our business and results of operations remains uncertain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemic has already altered company and customer operations (present impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly ties pandemic to potential impact on financial results.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights continuing uncertainty, signalling forward-looking risk exposure.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct statement of current operational disruption plus future financial uncertainty during a recent event merits a high risk score of 7."
+            },
+            {
+                "snippet": "We are continuing to conduct business during the COVID-19 pandemic with substantial modifications to employee travel and work locations, as well as virtualization, postponement, or cancellation of certain sales and marketing events, among other changes.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete operational changes (remote work, halted travel, event cancellations).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Shows widescale disruption is ongoing (‘continuing’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recency allows elevated weighting per Time Decay Principle.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Sentence evidences active operational disruptions attributable to COVID-19, yielding a high severity score."
+            },
+            {
+                "snippet": "The extent of the impact of any such modifications on our business, including the effects on our customers and prospects, and on our financial results, remains uncertain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies uncertainty surrounding financial and customer impacts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Implies potential for adverse variance beyond current visibility.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recent timeframe sustains higher score.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Focuses on unknown magnitude of pandemic-driven changes; slightly lower score because it is purely contingent rather than quantifying impact."
+            },
+            {
+                "snippet": "During fiscal 2021, we took a number of actions to support our customers, including extending payment terms to 60 days through the beginning of August 2020, offering free commercial use of our cloud collaboration products through June 2020, delaying the transition from multi-user licenses to named-user licenses from May to August 2020 to minimize disruption, and deferring a 20% maintenance price increase from May to August 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows company had to implement extraordinary concessions (extended terms, free usage) directly due to pandemic pressures.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates potential revenue or cash-flow strain from concessions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Represents explicit mitigation efforts, reducing net risk.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Sentence reveals pandemic-driven concessions but also represents proactive mitigation, so net risk impact is moderate."
+            },
+            {
+                "snippet": "These actions have affected our cash flow, and if these actions as well as our other sales and marketing activities are not successful in retaining current customers and in closing new business, our business and results of operations could be materially adversely affected.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms direct negative cash-flow impact already realized.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Warns of potential ‘material adverse’ effect on operations if mitigation fails.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Recency amplifies significance.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct admission of current cash-flow hit plus threat of material adverse outcome drives a high score of 8."
+            },
+            {
+                "snippet": "For example, the coronavirus (COVID-19) pandemic has caused additional uncertainty in the global economy, and an economic downturn or recession in the United States or in other countries may occur or has already occurred and may continue.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to broader macroeconomic downturn risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes possibility that recession may already be underway, heightening immediacy.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Potential global scope increases severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Sentence broadens risk to macroeconomic recession driven by COVID-19, justifying a score of 7."
+            },
+            {
+                "snippet": "The extent to which COVID-19 will impact our financial condition or results of operations is still uncertain and will continue to depend on developments such as the impact on our customers, vendors, distributors, and resellers, as well as other factors, including the full duration and the extent of the pandemic; actions taken by governments, businesses, and consumers in response to the pandemic; speed and timing of economic recovery; our billings and renewal rates, including new business close rates, rate of multi-year contracts, pace of closing larger transactions, and new unit volume growth; and effect of the pandemic on margins and cash flow.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple financial levers (billings, renewals, margins) susceptible to pandemic developments.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights dependency on uncontrollable external factors (government actions, recovery speed).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Stresses continuing uncertainty, indicating ongoing elevated risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Comprehensive list of financial metrics vulnerable to COVID-19 creates a severe, wide-ranging risk disclosure, earning a 9."
+            },
+            {
+                "snippet": "Due to our subscription-based business model, the effect of COVID-19 may not be fully reflected in our results of operations until future periods, if at all.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates possible lag in recognizing pandemic impact, extending risk horizon.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges potential understatement of current financial risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes possibility of limited future impact (‘if at all’), providing slight mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Statement defers possible financial impact, reducing immediacy and producing a moderate score."
+            }
+        ],
+        "calculated_score": 51,
+        "average_severity": 6.375
+    }
+]

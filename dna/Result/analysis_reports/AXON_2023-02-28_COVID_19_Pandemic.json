@@ -1,0 +1,98 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "AXON’s 2023-02-28 filing treats the COVID-19 pandemic primarily as an ongoing, but still potential, operational hazard rather than a presently quantified hit to results.  The company aggregates “pandemic” with other catastrophic or public-health crises that could disrupt sales, services, freight flows, labour availability and cyber-security.  Language is largely conditional (“could”, “may”) and no dollar impact or volume loss is attributed directly to COVID-19, signalling that management views the threat as continuing but not yet crystallised into material losses.  Nevertheless, the statements acknowledge concrete vectors—supply-chain delays, freight cost inflation, remote-work vulnerabilities—that have featured prominently in pandemic-era disruptions worldwide.  Because the event is recent (within three years) under the Time Decay Principle, references to pandemic-driven risks still merit meaningful scores, but the absence of specific metrics or evidence of realised damage tempers severity.  Overall, the risk profile is moderate: the company recognises multiple channels through which a global pandemic can hurt operations, yet frames them as contingencies rather than impacts already embedded in financials.",
+        "evidence_list": [
+            {
+                "snippet": "A disruption or failure of our systems or operations in the event of a major earthquake, weather event, fire, explosion, failure to contain hazardous materials, industrial accident, utility failure, cyber-attack, terrorist attack, public health crisis, pandemic, or other catastrophic event could cause delays in completing sales, providing services, or performing other mission-critical functions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists 'pandemic' as a trigger for operational disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects the trigger to material impacts (delays in sales and mission-critical functions).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking, conditional wording ('could') makes the risk hypothetical rather than realised.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Directly ties pandemic to significant operational harm but remains a contingency; recent timeframe supports a solid mid-high score of 5."
+            },
+            {
+                "snippet": "Remote-work arrangements may also make our systems and employees more susceptible to attack.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies remote-work (a common COVID-19 response) as an aggravating factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights increased cyber-security vulnerability, a concrete operational risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses 'may', indicating uncertainty and lowering immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows a pandemic-driven shift (remote work) creating new risk but is unquantified and stated as potential, yielding a moderate score."
+            },
+            {
+                "snippet": "Our freight and import costs and the timely delivery of our products could be adversely impacted by a number of factors which could reduce the profitability of our operations, including: higher fuel costs; potential port closures; customs clearance issues; increased government regulation or regulatory changes for imports of foreign products into the U.S.; delays created by terrorist attacks or threats, public health issues, national disasters or work stoppages; and other matters.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links 'public health issues' to freight delays and cost increases—classic pandemic supply-chain pressure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States impact on profitability of operations, signalling financial materiality.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Framed with conditional 'could', reflecting uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Acknowledges pandemic-related supply-chain disruption but in a cautionary tone; moderate severity warranted."
+            },
+            {
+                "snippet": "Global supply chain and labor market challenges could also negatively affect our performance as well as the performance of our suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies supply-chain and labour challenges—key pandemic after-effects—as potential performance threats.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes negative effect on company and suppliers, widening impact scope.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Lacks explicit pandemic or COVID mention and is couched in 'could', reducing directness and certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Touches on pandemic-era challenges but without naming COVID-19; broad wording and uncertainty keep the score low."
+            }
+        ],
+        "calculated_score": 13,
+        "average_severity": 3.25
+    }
+]

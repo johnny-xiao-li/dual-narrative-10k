@@ -1,0 +1,236 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "GoDaddy’s 2021-02-19 Form 10-K repeatedly and explicitly ties COVID-19 to both realized and prospective operational and financial threats.  The filing post-dates the WHO’s 11 March 2020 declaration, so Time-Decay treats the pandemic as a very recent, ongoing event, allowing high severity scores.  The company describes concrete, already-experienced impacts (office closures, forced remote work, lower outbound-sales productivity, a June 2020 restructuring, customer demand softness, macro-economic drag) and flags future uncertainties (international demand, profitability, culture, systems resilience).  Language such as “material adverse impact,” “could have a material impact,” and quantified actions (470 terminations, office closures through at least 30 June 2021) underscores seriousness.  Mitigating comments (monitoring the situation, policy adjustments) are present but brief and generic.  Overall, the risk is present, specific, enterprise-wide, and contemporaneous—warranting high (7-10) snippet scores, moderated only where statements are generic or purely forward-looking.",
+        "evidence_list": [
+            {
+                "snippet": "poor business conditions for our customers or poor general macroeconomic conditions, including as a result of the COVID-19 pandemic;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links COVID-19 to deteriorating macro-economic conditions affecting customers.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking risk that could reduce demand (but not yet quantified).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Bullet-point phrasing is generic and lacks detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Identifies pandemic as a potential driver of weaker customer demand but is brief and unquantified, so mid-level severity."
+            },
+            {
+                "snippet": "the impact of the COVID-19 pandemic on demand for our products in international markets;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites COVID-19 as a risk to international product demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights geographic breadth (international), expanding scope of exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Purely potential impact, no magnitude discussion.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows pandemic could depress international demand, but absence of detail tempers score."
+            },
+            {
+                "snippet": "As a result of the COVID-19 pandemic, substantially all of our personnel, including our GoDaddy Guides, are working remotely through at least June 30, 2021, which could negatively affect our culture.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States concrete operational change (full remote work) already enacted.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects change to potential negative cultural impact, an enterprise-wide risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Includes defined timeframe, indicating persistence.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Remote-work mandate is a realized pandemic effect with stated negative consequences, justifying high severity."
+            },
+            {
+                "snippet": "In addition, in response to COVID-19, we closed offices to comply with local \"shelter-in-place\" orders and moved all of our GoDaddy Guides to work remotely; as a result, their productivity and efficiency has been and may continue to be negatively affected, including their ability to download or process orders at the same rate as before the COVID-19 pandemic and increased risk of systems disruptions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes specific actions already taken (office closures, remote shift).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Identifies measurable operational harm (lower productivity, system-disruption risk).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Points to continuing future impact (‘may continue’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Concrete, ongoing operational impairments tied to COVID-19 earn near-maximum score."
+            },
+            {
+                "snippet": "Moving our GoDaddy Guides to work remotely in response to COVID-19 has, and may continue to have, a negative impact on that team's productivity and its generation of new sales, which could have a material impact on our operations and financial results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-driven remote work to reduced sales generation.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong materiality language (‘material impact’ on operations and financial results).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct, material financial threat from pandemic-induced productivity drop produces high score."
+            },
+            {
+                "snippet": "If our GoDaddy Guides continue to work from home because of COVID-19 and we are unable to improve their productivity, our business and operating results will continue to be adversely affected.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Foresees continued adverse effects on business results tied to pandemic remote work.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditioned on future inability to mitigate (shows some uncertainty).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Forward-looking with explicit adverse outcome, but conditional wording reduces severity."
+            },
+            {
+                "snippet": "we may not be able to sustain or increase our growth or maintain profitability in the future or on a consistent basis, including as a result of the impact of the COVID-19 pandemic on customer demand for our products and our costs associated with modifying our operations, including moving all personnel to work remotely, in response to COVID-19.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Ties pandemic to both revenue (demand) and cost pressures.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links to key financial metrics (growth, profitability).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Expressed as possibility rather than certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Broad financial risk flagged, but hypothetical framing moderates impact."
+            },
+            {
+                "snippet": "macroeconomic conditions and the impact on the worldwide economy and our financial results as a result of the COVID-19 pandemic;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemic’s macro-economic effects on global economy and company results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Very generic, no specifics or scale.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic macro risk mention—relevant but low detail—earns low score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has had a material adverse impact on many of our customers and could harm our business and operating results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States pandemic already materially harmed customers—a direct impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Warns of consequent harm to GoDaddy’s results.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Explicit materiality and realized customer harm give solid, above-average severity."
+            },
+            {
+                "snippet": "Although we continue to monitor the situation and may adjust our current policies, these changes to how our personnel work have negatively affected, and may continue to negatively affect, their productivity and efficiency.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms negative productivity effects already experienced.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions ongoing risk (‘may continue’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Includes mitigation effort (‘continue to monitor’).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows actual impact but adds mitigation language, yielding moderate score."
+            },
+            {
+                "snippet": "In June 2020 we restructured our U.S. outbound sales and operations as a result of soft customer demand for higher-priced, do-it-for-you services such as GoDaddy Social, and reduced effectiveness of our U.S. outbound calling process, challenges that were exacerbated by the economic disruption resulting from the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete action—a restructuring—linked to pandemic-driven demand softness.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Implies financial/operational cost (restructure, layoffs).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Pandemic forced a costly restructure—major, specific impact merits high score."
+            }
+        ],
+        "calculated_score": 57,
+        "average_severity": 5.181818181818182
+    }
+]

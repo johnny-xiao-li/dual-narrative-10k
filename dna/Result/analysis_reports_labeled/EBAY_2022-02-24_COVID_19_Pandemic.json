@@ -1,0 +1,216 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "eBay’s 2022 Form 10-K frames COVID-19 as both an already-felt and a still-evolving threat.  The filing acknowledges concrete impacts that have already materialised—such as lower consumer spending, forced remote-work arrangements, traffic volatility and tightening logistics—while also warning of forward-looking exposures in financing, liquidity and supply-chain stability.  Most statements are qualitative, but several explicitly link the pandemic to measurable business drivers (traffic, GMV, borrowing costs).  The tone is largely cautionary, using verbs like “created,” “has resulted,” and “may experience,” indicating both realised losses and prospective downside.  Because the filing date (24 Feb 2022) sits well within three years of the pandemic’s onset (11 Mar 2020), the Time-Decay Principle allows high severity scores; the disclosures are recent, directly tied to the event, and outline multiple operational vectors of risk.  Mitigating notes—such as prior traffic spikes—temper but do not eliminate the overall risk narrative, which remains elevated due to continuing uncertainty around variants, consumer behaviour and supply-chain friction.",
+        "evidence_list": [
+            {
+                "snippet": "The global COVID-19 pandemic could harm our business and results of operations.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names COVID-19 as a threat to the company’s business and results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses conditional, generic language ('could'), with no quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Directly flags the pandemic as a risk but in generic, conditional terms, yielding a modest severity score of 2."
+            },
+            {
+                "snippet": "The global spread of COVID-19 variants and related measures to contain its spread (such as government mandated business closures and shelter in-place guidelines) have created significant volatility, uncertainty and economic disruption.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links the pandemic and containment measures to wide-ranging volatility and disruption that has already occurred ('have created').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes concrete drivers (business closures, shelter-in-place).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Indicates realised volatility from specific containment actions, warranting a high risk score of 5."
+            },
+            {
+                "snippet": "The extent to which the COVID-19 pandemic impacts our business, results of operations, financial condition and liquidity in the future will depend on numerous evolving factors that we cannot predict, including the duration and scope of the pandemic; any resurgence of the pandemic; the availability and distribution of effective treatments and vaccines; governmental, business and individuals’ actions that have been and continue to be taken in response to the pandemic; the impact of the pandemic on national and global economic activity, unemployment levels and financial markets, including the possibility of a national or global recession; the potential for shipping difficulties, including slowed deliveries from sellers to their customers; and the ability of consumers to pay for products.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple forward-looking risk drivers (resurgence, recession, unemployment, shipping delays, consumer solvency).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights unpredictability and breadth of potential impacts (business, liquidity, financial condition).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Specifically references supply-chain disruption ('shipping difficulties') and demand risk ('ability of consumers to pay').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Comprehensive list of pandemic-sensitive variables, including supply chain and consumer demand, drives a strong score of 6."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has generally resulted in a decrease in consumer spending, which could have an adverse impact on our sellers through reduced consumer demand for their products and availability of inventory, which could in turn negatively impact the demand for use of our platforms.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports an observed macro effect—decreased consumer spending—already attributable to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explains downstream impacts on sellers and eBay’s own platform demand.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "States a realised negative demand shock and its cascading effect on the marketplace, yielding a high score of 6."
+            },
+            {
+                "snippet": "Additionally, the COVID-19 pandemic has caused us to require employees to work remotely for an extended period of time, which could negatively impact our business and harm productivity and collaboration.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies mandatory remote-work shift attributable to the pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Flags potential productivity and collaboration losses.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights operational strain from prolonged remote work; moderately severe with a score of 3."
+            },
+            {
+                "snippet": "If there is a prolonged impact of COVID-19, it could adversely affect our business, results of operations, financial condition and liquidity, perhaps materially.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects extended pandemic duration to broad, material adverse effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Stresses potential materiality of impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Warns of materially adverse outcomes under prolonged pandemic conditions, scoring 4."
+            },
+            {
+                "snippet": "The future impact of COVID-19 and these containment measures cannot be predicted with certainty and may increase our borrowing costs and other costs of capital and otherwise adversely affect our business, results of operations, financial condition and liquidity, and we cannot assure that we will have access to external financing at times and on terms we consider acceptable, or at all, or that we will not experience other liquidity issues going forward.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to higher borrowing and capital costs—specific financial risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights potential inability to access financing and broader liquidity concerns.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Details concrete financing and liquidity pressures arising from COVID-19 uncertainty, meriting a 5."
+            },
+            {
+                "snippet": "Initially, our Marketplace platforms experienced improved traffic and buyer acquisition due to the ongoing impact of mobility restrictions taken globally to contain the spread of COVID-19 and changes in consumer behaviors that have resulted in more online shopping.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemic-driven behavioural shift boosting traffic (mitigating factor).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Illustrates dependence on pandemic conditions for favourable metrics (embedded risk if conditions reverse).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Describes a temporary pandemic-related benefit; net risk contribution is negligible after mitigation, resulting in a score of 0."
+            },
+            {
+                "snippet": "As restrictions have loosened and mobility increases, we may experience lower traffic and buyer acquisition, and the impacts seen may continue to create volatility in our results and a wider range of outcomes as consumer behaviors and mobility restrictions continue to evolve.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Predicts potential decline in traffic as mobility rebounds.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasises ongoing volatility and uncertain outcomes linked to behavioural shifts.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Foresees post-pandemic traffic erosion and volatility, producing a moderate score of 3."
+            },
+            {
+                "snippet": "These changes in behavior began to normalize as mobility trended toward pre-pandemic levels through the remainder of 2021, and we have experienced lower traffic in most markets which we expect to continue into 2022.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports actual drop in traffic tied to behavioural re-normalisation.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Projects continuation of lower traffic into 2022.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows realised and expected traffic declines as pandemic effects unwind, earning a score of 4."
+            },
+            {
+                "snippet": "Our buyers may in the future have less capacity for discretionary purchases and may reduce their purchases from our sellers as a result of various factors, including job losses, inflation, higher taxes, reduced access to credit, changes in federal economic policy, the COVID-19 pandemic and recent international trade disputes.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to lowered discretionary spending and potential sales reduction.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists multiple macroeconomic stressors, compounding demand risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Positions COVID-19 among key factors that could erode buyer purchasing power, leading to a moderate risk score of 3."
+            }
+        ],
+        "calculated_score": 41,
+        "average_severity": 3.727272727272727
+    }
+]

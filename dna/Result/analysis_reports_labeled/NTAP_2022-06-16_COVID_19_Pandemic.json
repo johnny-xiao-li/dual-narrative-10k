@@ -1,0 +1,198 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "NetApp’s 2022-06-16 Form 10-K embeds numerous, recent-event references tying COVID-19 to concrete and potential disruptions across virtually every operational dimension—demand volatility, competitive dynamics, workforce location, and especially supply-chain fragility.  Several sentences report impacts that have already materialised (e.g., loss of competitive advantage, extended component lead-times, customer purchasing delays), while others warn of continuing or future uncertainties such as new variants or prolonged supplier shutdowns.  Overall language is largely qualitative but still explicit, repeatedly connecting COVID-19 to measurable harms (price increases, remote-work costs, delayed deliveries) without offering strong offsetting mitigations.  Because the filing date is within two and a half years of the World Health Organization’s pandemic declaration, Time Decay allows high severity scores.  Combining the immediacy of realised impacts, breadth of operational exposure, and largely unresolved outlook, the risk profile is assessed as elevated-to-severe across the cited disclosures.",
+        "evidence_list": [
+            {
+                "snippet": "The impacts of the COVID-19 pandemic, including the increase in the number of employees working remotely, has accelerated customer adoption of competitors’ cloud solutions and contributed to increased competition in the market.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly attributes a concrete competitive harm directly to the pandemic ('accelerated customer adoption of competitors’ cloud solutions').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Describes a specific adverse business outcome (increased competition).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States the impact in the present perfect tense ('has accelerated'), indicating the risk is already occurring.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "High score because it links COVID-19 to an operating impact that is both realised and strategically significant."
+            },
+            {
+                "snippet": "Impacts on our supply chain from adverse public health developments, including outbreaks of contagious diseases such as the ongoing COVID-19 pandemic;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly connects supply-chain risk to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Addresses critical operational area (supply chain disruptions and constraints).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Broad wording implies potentially global, systemic exposure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Supply-chain fragility is a core operational risk; statement is explicit but still somewhat generic, yielding a strong but not maximum score."
+            },
+            {
+                "snippet": "As a result of COVID-19, we continued to observe certain customers delaying purchases of our products and services, while other customers accelerated or placed new orders to address the demands of remote working and digital business.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit causal link between COVID-19 and customer purchasing behaviour.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Discloses tangible demand volatility (delays, accelerations) affecting revenue timing.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses present tense ('continued to observe'), evidencing ongoing impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions some offsetting positive demand (accelerated orders).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Demand swings are material and current; minor mitigating upside keeps score just below maximum."
+            },
+            {
+                "snippet": "The COVID-19 pandemic and its uneven recovery have adversely affected, and we expect may continue to adversely affect, our business in a variety of ways, including by negatively impacting the demand for our products and services, and our ability to build and convert our sales pipeline (including delayed and deferred purchases); restricting our sales, marketing and distribution efforts; disrupting our supply chain, including delaying delivery and increasing the cost of critical product components, and our ability to deliver product to customers; and constraining business operations, research and development capabilities, engineering, design and manufacturing processes and other important business activities, including in India.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple specific operational and financial harms directly tied to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Includes both realised and forward-looking adverse effects, widening scope and duration.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers critical functions—demand, supply chain, R&D, manufacturing—indicating enterprise-wide exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges increased component costs and delivery delays, adding quantitative flavour.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 10
+                },
+                "reasoning_summary": "Comprehensive, detailed, and current portrayal of pandemic-linked harms justifies maximum score."
+            },
+            {
+                "snippet": "In addition, the COVID-19 pandemic has disrupted the operations of our suppliers, customers and partners for an indefinite period of time, including as a result of travel restrictions and/or business shutdowns and limited access to capital markets, all of which have and may continue to negatively impact our business and results of operations, including cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to third-party disruptions that cascade onto NetApp.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights indefinite timeframe, signalling ongoing uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies negative impacts on cash flows and operations.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Supplier and partner disruptions threaten continuity and liquidity, producing a high severity rating."
+            },
+            {
+                "snippet": "Since March 2020, the vast majority of our employees have been working remotely and we have limited business travel.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States operational shift (remote work, travel limits) directly resulting from pandemic timing.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Implies ongoing operational inefficiencies or cultural impacts.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Represents an implemented mitigation rather than explicit harm.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Remote-work disclosure evidences operational change but carries limited direct financial harm, yielding a moderate score."
+            },
+            {
+                "snippet": "In particular, the ongoing COVID-19 pandemic, including the unpredictable nature of variants globally, and ongoing trade tensions between the U.S. and China could impact our business and operating results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly raises potential for future COVID-19 impacts tied to emerging variants.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Positions risk as global and intertwined with other geopolitical tensions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Framed as 'could' impact—purely forward-looking.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Forward-looking, less concrete, but still notable due to variant uncertainty and global scope."
+            },
+            {
+                "snippet": "We are unable to predict the extent to which the global COVID-19 pandemic may adversely impact our business, operating results, financial condition, and cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemic could adversely impact multiple financial metrics.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasises uncertainty and lack of visibility, which itself heightens risk perception.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Purely generic statement with no specifics or quantified data.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic, cautionary language with no detail; per Time Decay still relevant but only warrants a low score."
+            }
+        ],
+        "calculated_score": 52,
+        "average_severity": 6.5
+    }
+]

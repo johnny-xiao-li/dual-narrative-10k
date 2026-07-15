@@ -1,0 +1,128 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing discusses pandemic exposure primarily in a forward-looking, qualitative manner.  COVID-19 is now four years old, placing it in the early edge of the “medium-term” window under the Time Decay Principle; therefore, evidence can receive moderate—but not peak—severity scores.  Xcel Energy does not quantify any historical losses, but it explicitly states that epidemics could be “material,” and it specifies operational vectors such as supply-chain disruption, labor shortages, shutdowns and transportation bottlenecks.  At the same time, the company repeatedly hedges with uncertainty language (“cannot ultimately predict”), signalling that impacts remain contingent rather than already realised.  Taken together, the disclosures indicate a live, but not yet crystallised, enterprise-wide risk.  Accordingly, individual snippet scores cluster in the 1-5 range, reflecting meaningful but unquantified pandemic exposure, tempered by generic caveats and the moderating effect of time since the initial 2020 outbreak.",
+        "evidence_list": [
+            {
+                "snippet": "We face risks related to health epidemics and other outbreaks, which may have a material effect on our financial condition, results of operations and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly identifies ‘risks’ tied to health epidemics/outbreaks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong materiality language (‘may have a material effect’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links impact to multiple financial metrics (financial condition, operations, cash flows).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Directly flags epidemics as a potentially material enterprise risk across key financial dimensions; no mitigating language in this sentence, warranting a moderate 5."
+            },
+            {
+                "snippet": "Health epidemics impact countries, communities, supply chains and markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that epidemics have systemic reach (‘countries, communities, markets’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Specifically calls out ‘supply chains,’ aligning with analysis focus.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Affirms the existence of epidemic impact rather than mere possibility.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Sentence ties epidemics to broad and supply-chain impacts, strengthening risk visibility, but remains general and unquantified, yielding a 4."
+            },
+            {
+                "snippet": "Uncertainty continues to exist regarding epidemics; the duration and magnitude of business restrictions including shutdowns (domestically and globally); the potential impact on the workforce including shortages of employees and third-party contractors due to quarantine policies, vaccination requirements or government restrictions; impacts on the transportation of goods, and the generalized impact on the economy.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple concrete operational impacts (shutdowns, labor shortages, transportation).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights uncertainty around duration and magnitude, signalling risk volatility.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presents as forward-looking uncertainty rather than realised harm (mitigating).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Detailed list of potential disruptions elevates severity, but future-oriented uncertainty tempers it; net score 4."
+            },
+            {
+                "snippet": "We cannot ultimately predict whether an epidemic will have a material impact on our future liquidity, financial condition or results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges possibility of material impact on liquidity and results.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Strong mitigating disclaimer (‘cannot ultimately predict’).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Materiality mentioned, but heavy uncertainty language dilutes severity; minimal score of 1."
+            },
+            {
+                "snippet": "Nor can we predict the impact on the health of our employees, our supply chain or our ability to recover higher costs associated with managing an outbreak.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "References workforce health, supply-chain and cost-recovery risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Use of ‘cannot predict’ softens certainty of impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Adds supply-chain and cost-recovery angles but again wrapped in uncertainty, keeping score low at 1."
+            },
+            {
+                "snippet": "We face the risks of possible loss of business due to significant events such as severe storms, temperature extremes, wildfires (particularly in Colorado), widespread pandemic, generator or transmission facility outage, pipeline rupture, railroad disruption, operator error, sudden and significant increase or decrease in wind generation or a workforce disruption.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists ‘widespread pandemic’ among business-loss threats.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemic mentioned only in a broad catch-all list, with no specifics.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic inclusion of pandemic in a laundry list yields minimal but non-zero evidentiary value; score 1."
+            }
+        ],
+        "calculated_score": 16,
+        "average_severity": 2.6666666666666665
+    }
+]

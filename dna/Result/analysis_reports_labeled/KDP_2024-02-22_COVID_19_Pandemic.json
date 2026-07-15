@@ -1,0 +1,94 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Keurig Dr Pepper’s 2024 Form 10-K continues to acknowledge the COVID-19 pandemic mainly as a contributory factor within broader, multi-variable risk disclosures.  The company concedes that it “has experienced” supply-chain disruptions but does not expressly tie those past problems to COVID-19; instead, it folds “health epidemics, pandemics, or other contagious outbreaks” into long enumerations of potential causes of volatility in raw-material availability, manufacturing uptime, third-party fulfillment and consumer-demand patterns.  The one place the filing becomes somewhat more concrete is in the consumer-behaviour paragraph, which states that pandemics “have impacted and could continue to impact” shopping behaviour and demand—an admission of both historical and prospective exposure.  Overall, the language is generic, heavily qualified, and primarily forward-looking, signalling risk awareness rather than quantifying direct financial damage.  Because the pandemic’s onset is now roughly four years old, the Time Decay Principle places the evidence in the medium-term window: scores should therefore cluster in the 2-4 range unless a sentence shows unusually strong, current impact.  No such highly specific, quantified impact statements appear, so the aggregate risk level is assessed as moderate and generic rather than acute.",
+        "evidence_list": [
+            {
+                "snippet": "The raw materials and other supplies, including agricultural commodities (such as coffee, apples, and corn), fuel and packaging materials, transportation, and other supply chain inputs that we use for the manufacturing, production, and distribution of our products are subject to price volatility and fluctuations in availability caused by many factors, which include changes in supply and demand; supplier capacity constraints; inflation; weather conditions (including the effects of climate change); wildfires and other natural disasters; disease or pests; agricultural uncertainty; cost increases in farm inputs; health epidemics, pandemics, or other contagious outbreaks; labor shortages, strikes, or work stoppages; changes in or the enactment of new laws and regulations; governmental actions or controls (including import/export restrictions, such as new or increased tariffs, sanctions, quotas, or trade barriers); port congestion or delays; transport capacity constraints; cybersecurity incidents or other disruptions; political uncertainties; acts of terrorism; governmental instability; speculation in global trading of commodities, such as coffee; or fluctuations in foreign currency exchange rates.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘health epidemics, pandemics, or other contagious outbreaks’ as a driver of supply-chain price and availability risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects the pandemic factor to core operational inputs (raw materials, fuel, packaging), signalling potential cost and supply volatility.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is embedded in an extremely long, catch-all list, diluting event specificity and suggesting boiler-plate disclosure.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "The sentence acknowledges pandemics as a supply-chain risk but does so generically among many other factors; medium-term timing keeps the score modest at 3."
+            },
+            {
+                "snippet": "Changes in mobility, travel, and leisure activity patterns, the acceleration of e-commerce and other methods of purchasing products, inflation and economic uncertainty, and pandemics, epidemics or other disease outbreaks, among others, have impacted and could continue to impact consumer shopping behavior and demand for our products.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemics ‘have impacted’ consumer behaviour—a direct acknowledgement of realised effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Adds a forward-looking clause (‘could continue to impact’) extending the risk horizon.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Again appears in a multi-factor list, reducing precision and attributability.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Because it concedes both past and future demand disruption tied to pandemics, this is the strongest evidence, yet still somewhat diluted; score set at 4 within medium-term bounds."
+            },
+            {
+                "snippet": "Disruptions could occur for many reasons, including fire, natural disasters, weather, water scarcity, manufacturing problems, disease, widespread illness, strikes, labor shortages, transportation or supply interruption, contractual dispute, government regulation, cybersecurity attacks or terrorism.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes ‘disease, widespread illness’—a pandemic proxy—as a possible trigger for facility disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic enumeration with no specific reference to COVID-19 or actual impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Mentions illness as a disruption source but provides no detail or historical linkage; produces a low-moderate score of 2."
+            },
+            {
+                "snippet": "Our third-party manufacturers and order fulfillment companies are subject to disruption, including as a result of health epidemics, natural disasters, information technology failures, commercial or international trade disputes, governmental regulatory and enforcement actions, labor stoppages or strikes, financial issues, or otherwise.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects ‘health epidemics’ to potential breakdown of critical third-party operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presented as part of a broad, unspecific risk list without quantified or realised impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Acknowledges that epidemics could disrupt external manufacturing/fulfilment but lacks specificity or magnitude; score limited to 2."
+            }
+        ],
+        "calculated_score": 11,
+        "average_severity": 2.75
+    }
+]

@@ -1,0 +1,250 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Nike’s July 2022 Form 10-K squarely acknowledges that the COVID-19 pandemic remains a recent (≤ 3 years) and material threat.  The filing blends backward-looking data—three months of factory shutdowns, a 23 % inventory surge to US $8.4 billion, elevated freight costs—with forward-looking statements that variants could keep margins under pressure in fiscal 2023.  The language is highly specific: it details factory cancellations, labor and container shortages, remote-work cybersecurity exposure, and weakened consumer demand.  Several passages explicitly use the term “materially impact,” and some quantify production losses and inventory build-ups, showing the impact has already crystallised, not merely remained hypothetical.  No strong mitigating language (e.g., comprehensive hedges or insurance) offsets these risks, although Nike notes monitoring and pricing actions.  Given the filing date (2022-07-21) is well within three years of the pandemic declaration (2020-03-11), the Time Decay Principle allows high severity scores (up to 10).  Overall, the evidence signals high, ongoing operational and financial exposure with limited mitigation, justifying elevated individual snippet scores clustered in the 7-10 range.",
+        "evidence_list": [
+            {
+                "snippet": "Our financial condition and results of operations have been, and could in the future be, adversely affected by the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit statement of past impact ('have been adversely affected').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Projects continuing future risk ('could in the future be').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Applies to both financial condition and results of operations, indicating breadth of exposure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Directly links COVID-19 to historical and prospective adverse financial effects with no mitigation mentioned, warranting a high score of 8."
+            },
+            {
+                "snippet": "The COVID-19 pandemic and preventative measures taken to contain or mitigate the pandemic have caused, and may in the future cause, business slowdown or shutdown in affected areas and significant disruption in the financial markets, both globally and in the United States.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States actual slowdowns/shutdowns already occurred.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Anticipates continued future disruptions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights global and U.S. scope, expanding severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Shows worldwide operational and financial-market disruption, past and future, giving a strong but unquantified risk score of 7."
+            },
+            {
+                "snippet": "These events have led to and could again lead to adverse impacts to our global supply chain, factory cancellation costs, store closures, and a decline in retail traffic and discretionary spending by consumers and, in turn, materially impact our business, sales, financial condition and results of operations as well as cause a volatile effective tax rate driven by changes in the mix of earnings across our jurisdictions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple concrete impacts (supply chain, factory costs, store closures, demand decline).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong materiality language ('materially impact').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers both past and potential future effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Adds secondary financial complexity (volatile tax rate).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Comprehensive list of severe operational and financial consequences with materiality language pushes score to 9."
+            },
+            {
+                "snippet": "Disruption to our distribution centers, contract manufacturers, finished goods contract factories and other vendors, through the effects of facility closures, increased operating costs, reductions in operating hours, labor shortages, and real time changes in operating procedures, such as additional cleaning and disinfection procedures, which have had, and could in the future again have, a significant impact on our planned inventory production and distribution, including higher inventory levels or inventory shortages in various markets;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific operational choke points (DCs, manufacturers, vendors).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists concrete drivers (closures, labor shortages, procedural changes).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes both past and future significant impacts on inventory.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights risk of mismatched inventory (excess or shortage).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Granular description of supply-chain stress and its inventory consequences justifies a high score of 8."
+            },
+            {
+                "snippet": "These supply chain effects have had, and could in the future have, an adverse effect on our ability to meet consumer demand, including digital demand, and have in the past resulted in and could in the future result in extended inventory transit times and an increase in our costs of production and distribution, including increased freight and logistics costs and other expenses;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links supply-chain disruptions directly to unmet consumer demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Cites tangible cost pressures (freight, logistics).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Past occurrence plus future risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Connects past and prospective supply-chain delays to cost inflation and lost sales, meriting a solid score of 6."
+            },
+            {
+                "snippet": "Operational risk, including but not limited to cybersecurity risks, as a result of continued workforce remote work arrangements, and restrictions on employee travel;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces remote-work-related operational and cyber risks.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates the risk stems from ongoing pandemic-driven work patterns.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights a specific pandemic-driven risk (remote-work cybersecurity) but without quantification, yielding a mid-level score of 4."
+            },
+            {
+                "snippet": "The COVID-19 pandemic and its impacts on the global supply chain created volatility in our fiscal 2022 business results and operations globally.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges direct impact on FY22 results (realised effect).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "References global supply-chain volatility, extending scope.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Reports actual volatility in recent fiscal year across global operations, producing a score of 6."
+            },
+            {
+                "snippet": "During the first quarter of fiscal 2022, the majority of NIKE Brand and Converse contract manufacturers in Vietnam and Indonesia were subject to government mandated shutdowns due to COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies geographic shutdowns of contract manufacturers.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Time-stamps occurrence within FY22, confirming recency.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete example of factory shutdowns in FY22 supports a score of 5."
+            },
+            {
+                "snippet": "As a result of these closures, we lost approximately three months of production, impacting available product supply throughout fiscal 2022.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies production loss ('three months'), indicating severity.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links directly to supply shortfalls for the full fiscal year.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Rare quantified operational loss elevates the score to 6."
+            },
+            {
+                "snippet": "These supply chain impacts and a COVID-19 resurgence in Greater China, combined with other factors, caused Inventories to grow to $8.4 billion, an increase of 23% compared to fiscal 2021.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides concrete financial metric (inventories $8.4 b, +23%).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Ties inventory surge directly to COVID-related factors.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Substantial, quantified balance-sheet impact attributable to COVID earns a high score of 8."
+            },
+            {
+                "snippet": "We also experienced elevated transportation, logistics and fulfillment costs as a result of this dynamic environment, which partially offset gross margin expansion in fiscal 2022.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies cost inflation in logistics directly tied to pandemic environment.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates margin erosion, linking to financial performance.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows cost-driven margin pressure rooted in pandemic disruptions, producing a score of 5."
+            },
+            {
+                "snippet": "We expect the operating environment could remain volatile in fiscal 2023 as there remains risk that COVID-19 variants may continue to cause disruption to our operations and could have a material adverse impact on future revenue growth as well as overall profitability.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly forecasts continued volatility and material adverse impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Points to variant risk, extending timeline into next fiscal year.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty without mitigation.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Forward-looking statement of material risk for FY23 secures a high score of 7."
+            }
+        ],
+        "calculated_score": 79,
+        "average_severity": 6.583333333333333
+    }
+]

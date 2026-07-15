@@ -1,0 +1,354 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "HES’s 2022 Form-10-K presents a dense, highly specific discussion of COVID-19.  The filing combines backward-looking evidence (“have been adversely affected”) with forward-looking warnings (“may continue,” “could result,” “remains unknown”), confirming that the pandemic is both an existing and an evolving threat.  Management links COVID-19 to multiple concrete operational vectors: (1) direct production disruptions and shut-ins, (2) supply-chain delays, (3) labour and remote-work challenges, (4) sustained demand destruction for oil and gas, (5) price volatility, (6) heightened cyber-security exposure, (7) liquidity and covenant pressures, and (8) new litigation or regulatory costs.  Mitigating language is present—e.g., hygiene protocols, vaccination policies and remote working—but the company explicitly concedes that these measures “may not be sufficient.”  Because the filing date (1 Mar 2022) is less than two years after the WHO declared the pandemic (11 Mar 2020), the Time-Decay Principle allows high severity scores.  Overall, the pandemic poses a material, continuing risk that permeates operations, finance and strategy, justifying predominantly high micro-scores (7-9) with occasional downward adjustments where the company cites mitigating actions.",
+        "evidence_list": [
+            {
+                "snippet": "Our business and operations have been and may continue to be adversely affected by COVID-19 or other similar public health developments and related changes to demand for oil and natural gas.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges realised impacts ('have been adversely affected').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States the impact is ongoing and future-oriented ('may continue').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links directly to demand destruction for core products.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Sentence discloses both past and continuing adverse effects on core operations and demand; no mitigation mentioned, so high severity (8)."
+            },
+            {
+                "snippet": "Since 2020, COVID-19 and related actions taken by governments and businesses, including voluntary and mandatory quarantines and travel and other restrictions, have significantly impacted economic activity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides concrete timing ('Since 2020') and attributes impact directly to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong qualifier ('significantly impacted economic activity').",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear statement of significant macro-economic impact already experienced; moderately high score (6)."
+            },
+            {
+                "snippet": "As a result of COVID-19, our operations, and those of our business partners, service companies and suppliers, have experienced and may continue to experience further adverse effects, including but not limited to: disruptions, delays or temporary suspensions of operations, including shut-ins of production; temporary inaccessibility or closures of facilities; supply chain issues; and workforce impacts from illness, school closures and other community response measures.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple specific operational disruptions (shut-ins, facility closures).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights supply-chain issues.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes labour/ workforce impacts.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Enumerates several direct, specific operational harms already occurring and potentially continuing; near-max severity (9)."
+            },
+            {
+                "snippet": "We have implemented a variety of health and safety measures, including enhanced cleaning procedures and modified work practices, such as travel restrictions, health screenings, vaccination policies, reduced personnel at offshore platforms and onshore work sites, wherever such reduction can be done safely, and remote working arrangements for office workers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete mitigation actions (health measures, remote work).",
+                            "points": -3
+                        },
+                        {
+                            "reason": "Implies operational adjustments that themselves carry execution risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": -2
+                },
+                "reasoning_summary": "Primarily mitigation; lowers overall risk perception, resulting in a negative contribution (-2)."
+            },
+            {
+                "snippet": "There is no certainty that these or any other future measures will be sufficient to mitigate the risks posed by the virus and its variants, including the risk of infection of key employees, and our ability to perform certain functions could be impaired by these new business practices.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits mitigation may be inadequate ('no certainty ... sufficient').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies risk to key personnel and functional capability.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Explicitly questions the effectiveness of mitigation and highlights remaining exposure; moderate-high severity (5)."
+            },
+            {
+                "snippet": "For example, our reliance on technology has necessarily increased due to our use of remote communications and other work-from-home practices, which could make us more vulnerable to cyber-attacks.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces secondary risk (cyber-attack vulnerability) arising from COVID-driven remote work.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Adds a specific ancillary risk; lower impact than core operational issues, so modest score (2)."
+            },
+            {
+                "snippet": "To the extent we or our business partners, service companies or suppliers continue to experience restrictions or other effects, our financial condition, results of operations and future expansion projects may be adversely affected.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects ongoing restrictions to broad financial and strategic harm.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Broad potential adverse financial impact—no mitigation presented; score 4."
+            },
+            {
+                "snippet": "In addition to the global health concerns, COVID-19 negatively affected the U.S. and global economy and the demand for oil and natural gas.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States negative effect on macro-economy and product demand.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct link to demand destruction for core products; moderate severity (4)."
+            },
+            {
+                "snippet": "The prolonged continuation or amplification of the outbreak of COVID-19 could result in further economic downturn that may affect our operating results in the long-term.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights risk of long-term adverse operating results.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Forward-looking but less specific; moderate score (3)."
+            },
+            {
+                "snippet": "Furthermore, the effects of COVID-19 and concerns regarding the global spread of its variants negatively impacted the domestic and international demand for crude oil and natural gas, which has contributed to price volatility and adversely affected the demand for and marketability of crude oil, natural gas and NGL.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links variants to demand decline and price volatility.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Reinforces demand and price risks; moderate impact (3)."
+            },
+            {
+                "snippet": "Containment measures implemented to mitigate the spread of COVID-19 and its variants could continue to be widespread and lead to sustained adoption of certain behavioral changes, such as reduced travel and enhanced work-from-home policies, which could result in further reductions in demand for and consumption of energy commodities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Signals potential permanent demand shift due to behavioral changes.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights structural demand risk; moderate score (3)."
+            },
+            {
+                "snippet": "A reduction in consumer demand for crude oil, natural gas and NGL could require further curtailments and shut-ins of production by the industry and further increase the costs of commercial storage and midstream contracts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies operational consequences (curtailments, shut-ins, higher storage costs).",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Concrete operational and cost impacts; moderate-high severity (4)."
+            },
+            {
+                "snippet": "The timeline and potential magnitude of COVID-19 remains unknown and will depend on future developments, including, among others, the global availability of vaccines, the efficacy of vaccines against variants and the extent to which normal economic and operating conditions resume.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises high uncertainty about duration and magnitude.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Focuses on uncertainty rather than direct impact; lower score (2)."
+            },
+            {
+                "snippet": "In the event one or more of our business partners is adversely affected by COVID-19 or the current market environment, that may impact our costs and ability to conduct business with them.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies counter-party risk cascading to HES.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Potential indirect cost and execution risk; modest score (2)."
+            },
+            {
+                "snippet": "In addition, we may face an increased risk of changes in the regulation related to our business resulting from COVID-19, such as the imposition of limitations on our workforce's ability to access our facilities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights regulatory uncertainty and potential operational constraints.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Regulatory risk adds uncertainty; modest score (2)."
+            },
+            {
+                "snippet": "We also are subject to litigation risk and possible loss contingencies related to COVID-19, including with respect to commercial contracts, employee matters and insurance arrangements.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces additional legal and financial exposure.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Specifies litigation exposure; small but relevant risk (2)."
+            },
+            {
+                "snippet": "We may experience decreases in production and 19 proved reserves, additional asset impairments, and other accounting charges if demand for crude oil, natural gas and NGL decreases.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Potential for tangible financial statement impacts (production, reserves, impairments).",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Quantifies possible accounting consequences; moderate-high score (4)."
+            },
+            {
+                "snippet": "A sustained extension of the current market environment may make it more difficult to comply with covenants and other restrictions in agreements governing our debt, and a lack of confidence in our industry on the part of the financial markets may result in a lack of access to capital, any of which could lead to reduced liquidity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-driven market environment to covenant breaches and liquidity strain.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights financing and liquidity risk; moderate severity (3)."
+            },
+            {
+                "snippet": "As the impact from COVID-19 remains difficult to predict, the extent to which it may negatively affect our operating results is uncertain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges uncertainty over negative effect.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic uncertainty statement; low incremental severity (1)."
+            },
+            {
+                "snippet": "Any impact will depend on future developments and new information that may emerge regarding the severity and duration of COVID-19 and the actions taken by authorities to contain it or treat its impact, all of which are beyond our control.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises uncontrollable external factors influencing risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic uncontrollability clause; minimal incremental risk (1)."
+            },
+            {
+                "snippet": "Catastrophic and other events, whether naturally occurring or man-made, may materially affect our operations and financial condition ... These events include ... cyber-attacks or health measures related to COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Classifies COVID-related health measures as potential catastrophic events impacting operations.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Frames COVID-19 health measures as a material hazard; modest score (2)."
+            },
+            {
+                "snippet": "Significant time delays between the estimated and actual occurrence of critical events associated with development projects may result in material negative economic consequences ... such examples include ... outbreaks of infectious diseases, such as COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 outbreaks to project delay and economic loss.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Project-schedule impact noted; modest score (2)."
+            },
+            {
+                "snippet": "We may encounter difficulties in obtaining required services or could face an increase in cost, including as a result of changes to our industry due to COVID-19, which may impact our ability to run our operations and deliver projects on time with the potential for material negative economic consequences.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags service-availability and cost escalation tied to COVID-19.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Operational cost and schedule risk recognised; moderate severity (3)."
+            },
+            {
+                "snippet": "Our reliance on technology has increased due to the increased use of remote communications and other work-from-home practices in response to COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reaffirms heightened technology dependency arising from pandemic.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Restates ancillary cyber-risk; small incremental weight (1)."
+            }
+        ],
+        "calculated_score": 74,
+        "average_severity": 3.0833333333333335
+    }
+]

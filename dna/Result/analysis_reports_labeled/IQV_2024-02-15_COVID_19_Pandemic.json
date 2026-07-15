@@ -1,0 +1,76 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "IQVIA’s 2024 Form 10-K treats the COVID-19 pandemic primarily as a continuing—though diminishing—operational risk.  The company no longer highlights pandemic effects as material to revenue, backlog or liquidity, yet it still lists COVID-19 among the events that could significantly disrupt clinical trials by lowering patient visits, delaying recruitment, hampering staff productivity and endangering personnel.  These disclosures are forward-looking and largely qualitative rather than quantified, indicating management now views the pandemic more as a residual contingency than an active drag on results.  Because the filing date (15 Feb 2024) is almost four years after the WHO declaration (11 Mar 2020), the Time-Decay Principle places the event on the cusp of the “medium-term” band; consequently, maximum snippet scores should sit in the mid-single digits.  No sentences cite concrete financial losses or supply-chain shutdowns, and the company explicitly notes that COVID-19-related work is currently immaterial.  Accordingly, the overall severity of pandemic-related risk evidence is moderate-to-low, with any single sentence capped near 6 and many mitigated to 1–2 points.",
+        "evidence_list": [
+            {
+                "snippet": "Natural disasters, public health emergencies and pandemics such as the COVID-19, including any variants, or international conflict, such as the ongoing conflict between Russia and Ukraine, or terrorist acts, could interrupt our services, endanger our personnel, lower patient visits and increase patient drop-out rates, cause delays in recruitment of new patients, decrease the productivity of our clinical research associates, cause other project delays or loss of clinical trial materials or results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites COVID-19 pandemic and variants as a class of risk events.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Enumerates multiple concrete operational impacts (service interruption, personnel risk, patient drop-outs, delayed recruitment, productivity loss, project delays, loss of materials).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Statement is forward-looking and qualitative (no quantification).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Comprehensive listing of pandemic-driven disruptions warrants a relatively high medium-term score of 6, the top of the 4-6 band, because it is recent enough and details material operational exposures."
+            },
+            {
+                "snippet": "While we experienced a decline in COVID-19 related work in 2023 versus 2022, overall COVID-19 related work was not material to operations.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits measurable change in workload tied to COVID-19, showing the event still affects business mix.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States impact is declining year-over-year, a mitigating trend.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Affirms that COVID-19 work is \"not material,\" a strong mitigating factor.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Net score is kept low (1) because management asserts immateriality and a downward trend, outweighing the modest acknowledgement of impact."
+            },
+            {
+                "snippet": "As of December 31, 2023, COVID-19 related work did not represent a material amount of our remaining performance obligations.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies COVID-19 share of backlog, linking pandemic to future revenue visibility.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Declares the amount \"not material,\" directly mitigating severity.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Because the sentence conveys that pandemic-linked backlog is immaterial, mitigating factors neutralize the small aggravating point, resulting in a zero-severity snippet."
+            }
+        ],
+        "calculated_score": 7,
+        "average_severity": 2.3333333333333335
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "FI’s 2023-02-23 filing presents COVID-19 as an active, enterprise-wide threat that is still unfolding almost three years after the WHO declaration (within the 0-3-year “recent” window).  The company explicitly states that the pandemic has already harmed its business and can further depress demand for core products such as merchant acquiring and payment processing, while simultaneously amplifying other risk factors.  Management highlights multiple transmission channels—consumer confidence, supply-chain disruption, workforce impacts, vendor performance, liquidity pressure, and macro-market volatility—and underscores that these effects may persist well beyond the formal end of the health crisis.  Although the narrative remains largely qualitative and does not quantify dollar impacts, the statements are specific as to business lines and operational areas and are phrased in the present tense (“has had, and may continue to have”).  No significant mitigating actions or controls are outlined; instead, the disclosures stress uncertainty around vaccination progress and governmental responses.  Given the recency of the event relative to filing, the breadth of exposure described, and the lack of concrete offsets, the evidence supports moderately high risk scores (5-7 range) under the Time Decay Principle, with lower scores for more generic references.",
+        "evidence_list": [
+            {
+                "snippet": "The ongoing COVID-19 pandemic has had, and may continue to have, adverse impacts on our business and may amplify many of our other known risks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges current (\"has had\") and future (\"may continue\") direct adverse impacts, establishing immediacy.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States that the pandemic can amplify other risk factors, widening potential damage.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct statement of realised and ongoing harm with broad amplification of other risks drives a high, but not maximum, score."
+            },
+            {
+                "snippet": "The ongoing COVID-19 pandemic and the related government actions taken to prevent the spread of COVID-19 have increased economic uncertainty and financial market volatility and caused a decline in consumer and business confidence, and could further negatively impact the demand for our products and services, including merchant acquiring and payment processing.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific realised impacts (uncertainty, volatility, confidence decline).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links potential future demand destruction to key revenue streams (merchant acquiring and payment processing).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly ties impacts to government containment actions, showing external drivers beyond company control.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Provides concrete channels of impact on financial demand and volatility, warranting a strong score."
+            },
+            {
+                "snippet": "Ultimately, the extent of the adverse impact of the COVID-19 pandemic on our business, results of operations, liquidity and financial condition will depend on, among other matters, the duration and intensity of the pandemic; the level of success of global vaccination efforts; governmental and private sector responses to the pandemic and the impact of such responses on us; and the impact of the pandemic on our employees, clients, vendors, supply chain, operations and sales, all of which are uncertain, difficult to predict and may remain prevalent for a significant period of time even after the pandemic subsides.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple vulnerable areas (employees, vendors, supply chain, operations, sales, liquidity).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights prolonged uncertainty and possibility of long-lasting effects beyond the pandemic period.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges potential mitigation through vaccination and responses, slightly tempering severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Broad scope of potential impact elevates risk, but mention of possible mitigating factors moderates the score."
+            },
+            {
+                "snippet": "These and other potential negative impacts relating to the COVID-19 pandemic may also heighten or exacerbate the other risk factors described in this Annual Report on Form 10-K.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates compounding effect on other disclosed risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement is generic with no specifics or quantification, reducing evidential weight.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic amplification language with no detail leads to a low score despite acknowledging exacerbation."
+            },
+            {
+                "snippet": "Global macroeconomic conditions, including fluctuations in foreign currency exchange rates, inflation, disruptions in the global supply chain, the effects of the ongoing conflict between Russia and Ukraine, the continuing impact of the coronavirus (“COVID-19”) pandemic, and regulations restricting trade or that impact our ability to offer products or services, could have a material adverse effect on our business, results of operations and financial condition.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists COVID-19 as a continuing factor that could materially harm financial results.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "COVID-19 impact is bundled among many other macro risks, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "COVID-19 is acknowledged but in a mixed list, giving only marginal incremental insight; hence a low score."
+            }
+        ],
+        "calculated_score": 19,
+        "average_severity": 3.8
+    }
+]

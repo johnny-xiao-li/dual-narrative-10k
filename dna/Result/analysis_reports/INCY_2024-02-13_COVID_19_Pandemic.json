@@ -1,0 +1,107 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated February 13 2024, addresses COVID-19 predominantly in the Risk-Factors section.  The company states that the pandemic has already hurt operations and could do so again, then itemises concrete operational pain-points—remote-work mandates hampering R&D access, slow-downs in clinical-trial enrolment and monitoring, demand softening for commercial products, and global-supply-chain constraints for raw materials.  The language blends backward-looking evidence of actual disruption (“have adversely affected … we experienced”) with explicitly forward-looking warnings (“could severely impact”).  No dollar amounts appear, so the discussion remains qualitative, but it is nonetheless specific about the functional areas at risk.  Because the COVID-19 emergency began almost four years before the filing, the Time-Decay Principle puts the event at the cusp of the 4-to-10-year “medium-term” window; thus individual snippet scores should be moderate (≈4–6) rather than severe.  Overall, the disclosures show that pandemic-related risk is ongoing, diverse across operations, and material enough to merit dedicated narrative, yet they lack quantification or fresh shock evidence, keeping severity in the middle range.",
+        "evidence_list": [
+            {
+                "snippet": "Public health epidemics and pandemics, such as the COVID-19 pandemic, have adversely affected and could in the future adversely affect our business, results of operations, and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to adverse effects on business performance.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States impact is both historical ('have adversely affected') and prospective ('could ... in the future').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Covers broad areas—business, operations, financial condition—implying enterprise-wide materiality.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct statement of past and potential future harm across the enterprise; qualitative but clear, meriting a mid-range score of 5."
+            },
+            {
+                "snippet": "As a result of the COVID-19 pandemic, we experienced, and as a result of future pandemics we may in the future experience disruptions that could severely impact our business, results of operations and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges concrete historical disruptions caused by COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Foresees future disruptions, expanding risk horizon.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses strong severity language ('could severely impact').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Combines actual experience with a warning of severe future impact, but remains unquantified—score 5."
+            },
+            {
+                "snippet": "These disruptions can include the following: the imposition of shelter-in-place orders and work-from-home policies that could affect our research and development activities and access to our laboratory space;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details a specific operational risk (R&D and lab access) tied to pandemic containment measures.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights potential rather than confirmed impact (‘could affect’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Provides concrete operational example but is conditional and narrower in scope; lower mid-range score of 3."
+            },
+            {
+                "snippet": "These disruptions can include the following: negative impacts on our clinical trials as a result of delays in site initiation, patient screening, patient enrollment, and monitoring and data collection;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies multiple clinical-trial slow-downs tied to pandemic disruptions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is prospective (‘can include’) rather than already realised in this sentence.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Lists precise clinical-development vulnerabilities; still forward-looking and qualitative, giving a score of 3."
+            },
+            {
+                "snippet": "These disruptions can include the following: negative impacts on the global supply chain which may affect our ability to obtain sufficient materials for our drug products and product candidates.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies supply-chain risk affecting both commercial and pipeline products.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional language ('may affect') tempers certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Supply-chain concern is material but framed conditionally with no evidence of realised impact; modest score of 2."
+            }
+        ],
+        "calculated_score": 18,
+        "average_severity": 3.6
+    }
+]

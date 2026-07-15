@@ -1,0 +1,98 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CrowdStrike’s 2024 Form 10-K continues to reference the COVID-19 pandemic only in broad, forward-looking terms.  The company frames the pandemic as one of several macroeconomic or catastrophic events that could depress customer spending, chill government budgets, disrupt operations, and heighten stock-price volatility.  The disclosures do not quantify historical losses, detail specific supply-chain constraints, or cite permanent workforce changes; instead they use cautious language such as “could,” “may,” and “have in the past.”  This places the risk squarely in the “potential/ongoing impact” category rather than an already-realised, measured impact.  Because the pandemic is still within the recent-event window (< 4 years) under the Time Decay Principle, evidence can score moderately high, but the generic tone and absence of concrete financial figures temper severity.  Overall, the pandemic is acknowledged as a continuing head-wind that might reduce demand or impair operations, but it is not depicted as an acute, quantified threat; therefore individual snippet scores cluster in the mid-range (2-7), reflecting meaningful yet un-quantified risk.",
+        "evidence_list": [
+            {
+                "snippet": "For example, any deterioration in general economic conditions, including as a result of the geopolitical environment, the outbreak of diseases or other public health crises, volatility in the banking and financial services sector, or inflation (as well as government policies such as raising interest rates in response to inflation), have in the past and may in the future cause our current and prospective customers to delay or cut their overall security and IT operations spending, and such delays or cuts may fall disproportionately on cloud-based security solutions like ours.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites ‘outbreak of diseases or other public health crises’ as a driver of economic deterioration.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links the outbreak directly to reduced customer spending on CrowdStrike’s core products (‘delay or cut ... spending’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes that cuts may have happened ‘in the past’ and could recur, signalling both historical and forward-looking relevance.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No numerical magnitude or timeframe for the impact is provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Provides a clear causal chain from public-health crises to lower demand for CrowdStrike’s offerings, but remains qualitative and un-quantified, warranting a solid yet not top-tier score."
+            },
+            {
+                "snippet": "effects of public health crises, pandemics and epidemics;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemics as a factor that can drive stock-price volatility.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement is extremely brief and purely generic, with no elaboration.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mention confirms recognition of pandemic risk but offers no detail or linkage to operations, so the score is minimal."
+            },
+            {
+                "snippet": "government demand and payment for our Falcon platform may be impacted by public sector budgetary cycles and funding authorizations, with funding reductions or delays in the government appropriations or procurement processes adversely affecting public sector demand for our Falcon platform, including as a result of abrupt events such as war, incidents of terrorism, natural disasters, and public health concerns or epidemics;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects ‘public health concerns or epidemics’ to reduced or delayed government spending—a concrete revenue channel.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies the mechanism (budgetary cycles and appropriations) through which the impact could materialise.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is framed as contingent (‘may be impacted’), not certain or quantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows a direct path from epidemics to lower public-sector sales, moderately strong but still qualitative."
+            },
+            {
+                "snippet": "A significant natural disaster, such as an earthquake, a fire, a flood, or significant power outage and other catastrophic events, including the occurrence of a contagious disease or illness, such as COVID-19, could have a material adverse impact on our business, results of operations, and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 explicitly as a catastrophic event category.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States potential ‘material adverse impact’ on multiple financial dimensions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Impact is hypothetical with no metrics or timing.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct COVID-19 reference plus ‘material adverse impact’ language elevates the risk, though lack of quantification keeps it below the maximum."
+            }
+        ],
+        "calculated_score": 18,
+        "average_severity": 4.5
+    }
+]

@@ -1,0 +1,118 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing was made fewer than three years after the World Health Organization declared COVID-19 a pandemic, so the Time Decay Principle allows recent evidence to be scored at the upper-mid range.  VICI repeatedly flags COVID-19 as a live, overarching threat that could disrupt its cash-flow-critical tenants through property closures, labour shortages, travel restrictions, supply-chain issues and difficulty raising capital.  The language is mostly forward-looking and conditional (\"could\", \"may\"), and the company gives no quantified impact; nevertheless it still constitutes material risk disclosure because (i) VICI’s triple-net model concentrates revenue in a handful of gaming tenants, (ii) those tenants were directly shut down in 2020 and the filing acknowledges continuing vulnerability, and (iii) management explicitly labels the threat as “ongoing” and potentially “adverse.”  Taken together, the statements show that pandemic risk remains a significant but un-quantified headwind, warranting mid-to-high severities (5-7) under the recent-event window.",
+        "evidence_list": [
+            {
+                "snippet": "Therefore, so long as our investments are concentrated in gaming-related assets, our success is dependent on the gaming industry, which could be adversely affected by economic conditions in general, changes in consumer trends and preferences and other factors over which we and our tenants have no control, including the COVID-19 pandemic and other similar health crises, labor shortages, travel restrictions, supply chain disruptions and property closures.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites the COVID-19 pandemic as a threat driver.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists concrete knock-on effects (labour shortages, travel restrictions, supply-chain disruptions, property closures).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects directly to company’s core revenue dependence on gaming tenants.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses conditional wording \"could be adversely affected,\" reducing immediacy.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event is within 0-3-year recent window, per Time Decay Principle.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Strong, multifaceted pandemic disclosure tied to VICI’s core business earns a high (7/10) score despite conditional language."
+            },
+            {
+                "snippet": "In particular, disruptions in the financial and credit markets, local economic conditions and other factors affecting the gaming industry, including the COVID-19 pandemic, may affect our tenants’ and borrowers’ ability to obtain financing to operate their businesses or continue to profitability execute their business plans.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 directly to tenants’ and borrowers’ financing capacity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Targets specific financial impact—difficulty obtaining capital—which threatens rent collection.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional \"may\" lowers certainty.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Falls within recent (≤3-year) period.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Identifies a concrete financial channel (capital access) whereby COVID-19 can hurt VICI, meriting a solid but slightly lower 6/10 due to conditional tone."
+            },
+            {
+                "snippet": "Adverse economic and market conditions, including rising interest rates and market volatility, as well as the impact of the COVID-19 pandemic, also present challenges with respect to assessing a potential counterparties’ historical and projected performance, as well as underlying asset values.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions COVID-19 as an ongoing factor complicating counterparty assessment.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights potential impairment of asset valuation and due-diligence reliability.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is grouped with other macro factors, diluting specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Recency (event within 3 years).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Moderate (5/10) because COVID-19 is one of several cited headwinds, yet still affects valuation and underwriting processes."
+            },
+            {
+                "snippet": "the ongoing adverse impact of the COVID-19 pandemic and responses thereto on us and our tenants;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses phrase \"ongoing adverse impact,\" signalling present, not just potential, risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Applies impact to both VICI and its tenants, indicating broad exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Lacks detail or quantification; presented as bullet fragment.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Falls within recent time frame (≤3 years).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Brief but emphatic acknowledgement of continuing pandemic harm; absence of detail keeps score at a mid-level 5/10."
+            }
+        ],
+        "calculated_score": 23,
+        "average_severity": 5.75
+    }
+]

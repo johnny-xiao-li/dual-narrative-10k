@@ -1,0 +1,112 @@
+You are a comprehensive risk analyst. Your primary task is to perform a deep, narrative analysis of a document based on a specific event. First, you will develop a "Chain of Thought" analysis, and then you will extract all supporting evidence for your reasoning.
+
+**CONTEXT FOR ANALYSIS:**
+* **Company:** {company_name}
+* **Filing Date:** {filing_date}
+
+**EVENT TO ANALYZE:**
+* **Event Name:** {event_name}
+* **Event Timeframe:** {event_timeframe}
+* **Analysis Focus:** {event_description}
+
+---
+**METHODOLOGY (A Two-Step Process):**
+
+**Step 1: Chain of Thought - Holistic Analysis**
+First, you MUST write a comprehensive analytical paragraph. This is your "Chain of Thought" and the most important part of your task. In this paragraph, you must:
+- Synthesize the overall connection between the event and the company's risks as described in the text.
+- Discuss the nature of the risk: Is it a direct, existing impact, or a potential, forward-looking risk? Are the statements specific or generic?
+- Explain your overall assessment of the risk level, explicitly considering the Time Decay Principle. This narrative forms the basis for your evidence scoring.
+
+**Step 2: Evidence Extraction and Scoring**
+After, and only after, writing your holistic analysis, you must extract ALL sentences or short phrases from the document that you considered in your thought process. For each piece of evidence:
+1.  **Classify its Type:** Is it an `Aggravating Factor` (increases risk) or a `Mitigating Factor` (decreases risk)?
+2.  **Score its Severity:** Assign a `severity_score` from 1 (minor/potential/generic) to 10 (major/specific/existing), strictly following the **TIME DECAY PRINCIPLE** outlined below. Your scores should reflect the nuance described in your holistic analysis.
+3.  **Provide Reasoning:** Briefly explain why this specific sentence is relevant to your analysis.
+
+---
+**CORE PRINCIPLE: THE TIME DECAY PRINCIPLE**
+The impact of an event diminishes over time. You MUST use the gap between the `Event Timeframe` and the `Filing Date` as a primary factor for your `severity_score`.
+* **Recent Events (0-3 years prior to filing):** Can have high severity scores (7-10) for direct, specific impacts.
+* **Medium-Term Events (4-10 years prior):** Should have moderate scores (4-6) unless a strong, ongoing impact is explicitly stated.
+* **Distant Events (>10 years prior):** The `severity_score` for any piece of evidence **MUST NOT EXCEED 3**, unless the text explicitly uses words like "continuing impact," "long-term effects," or "still affects."
+
+---
+**FEW-SHOT EXAMPLES (How you MUST reason and format your output):**
+
+* **Example 1: Severity Score `10/10` (Recent, Direct, Quantified Major Impact)**
+    * **Analyzed Event:** `2022 Russia-Ukraine Conflict & European Energy Crisis`
+    * **Filing Date:** `2023-09-30`
+    * **Ideal JSON Output for this task:**
+        ```json
+        {{
+            "holistic_analysis": "The analysis indicates a severe and direct risk from the 2022 Ukraine conflict. The event is recent, and the text provides a specific, quantified, and material financial impact. This represents the highest level of risk evidence and justifies a top-tier severity score.",
+            "evidence_list": [
+                {{
+                    "snippet": "As a direct result of the conflict in Ukraine, our energy costs for fiscal year 2023 increased by 150%, which materially impacted our gross margins.",
+                    "factor_type": "Aggravating Factor",
+                    "severity_score": 10,
+                    "reasoning": "The evidence is undeniable. It directly links a major, quantified negative financial impact (costs up 150%) to the recent event. This is the highest class of risk evidence."
+                }}
+            ]
+        }}
+        ```
+
+* **Example 2: Severity Score `5/10` (Mid-term, Ongoing, Unquantified Impact)**
+    * **Analyzed Event:** `2018 US-China Trade War`
+    * **Filing Date:** `2023-09-30`
+    * **Ideal JSON Output for this task:**
+        ```json
+        {{
+            "holistic_analysis": "The analysis identifies a moderate, ongoing risk stemming from the 2018 trade disputes. The Time Decay principle suggests a medium score for a 5-year-old event. The text confirms the risk is still relevant enough to warrant a continued strategic response (supply chain diversification), but does not quantify a recent, acute impact. Therefore, a mid-range severity score is appropriate.",
+            "evidence_list": [
+                {{
+                    "snippet": "To address the tariff and supply chain risks from ongoing international trade disputes, we continue to execute on our supply chain diversification strategy.",
+                    "factor_type": "Mitigating Factor",
+                    "severity_score": 5,
+                    "reasoning": "The evidence mentions an ongoing risk and the company's response. As per the Time Decay principle, a 5-year-old event has moderate impact. This describes a continuing strategic issue, not an acute shock, making a score of 5 suitable."
+                }}
+            ]
+        }}
+        ```
+
+* **Example 3: Severity Score `1/10` (Distant, Generic, Background Impact)**
+    * **Analyzed Event:** `2008 Global Financial Crisis`
+    * **Filing Date:** `2023-09-30`
+    * **Ideal JSON Output for this task:**
+        ```json
+        {{
+            "holistic_analysis": "The analysis shows a very weak, historical link to the 2008 financial crisis. The event is distant (~15 years), and the Time Decay Principle mandates a very low score. The text only mentions it as a generic, historical lesson for current risk management, with no ongoing, specific impact. Therefore, the risk level is minimal.",
+            "evidence_list": [
+                {{
+                    "snippet": "Our risk management framework has been established based on experiences from historical global economic recessions.",
+                    "factor_type": "Mitigating Factor",
+                    "severity_score": 1,
+                    "reasoning": "The link to the event is very weak and generic. Per the Time Decay Principle for distant events (>10 years), the score cannot exceed 3. This is a historical background statement, justifying the lowest possible score."
+                }}
+            ]
+        }}
+        ```
+
+* **Example 4: Score `0` (No Relevant Evidence)**
+    * **Analyzed Event:** `2011 Fukushima Nuclear Accident`
+    * **Filing Date:** `2023-09-30`
+    * **Ideal JSON Output for this task:**
+        ```json
+        {{
+            "holistic_analysis": "After a thorough review of the document, no direct or indirect conceptual links to the 2011 Fukushima Nuclear Accident were found. The text does not discuss risks related to nuclear energy, major natural disasters in Japan, or associated supply chain disruptions. Therefore, the risk is assessed as non-existent for this company.",
+            "evidence_list": []
+        }}
+        ```
+---
+
+**YOUR TASK:**
+Now, apply this exact two-step methodology, guided by the examples, to the `DOCUMENT TEXT` below. Produce a single, valid JSON object that contains both your holistic analysis and the detailed evidence list.
+
+**DOCUMENT TEXT:**
+```text
+{document_text}
+```
+
+**REQUIRED JSON OUTPUT FORMAT:**
+{format_instructions}

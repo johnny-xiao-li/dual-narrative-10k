@@ -1,0 +1,204 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "UAL’s 2023-02-16 Form 10-K presents COVID-19 as both an already-realised shock and a continuing, hard-to-quantify threat.  Multiple passages confirm that the pandemic has *materially and adversely* affected revenue, liquidity, strategic plans and debt levels.  The filing recounts concrete historical damage (precipitous demand collapse in 2020-2022, higher leverage) while also mapping forward-looking exposures—labour shortages, supply-chain bottlenecks, border closures, competitive shifts and regulatory burdens.  Language is largely specific and loss-oriented rather than boiler-plate, and several statements link the pandemic directly to measurable operational or financial stress.  Because the disclosure is written less than three years after the WHO declaration (within the Time-Decay window for “recent” events), high but not maximum severity scores (generally 5-9) are warranted.  Down-scores are applied where wording is conditional, generic or partially offset by recovery trends; up-scores are applied where impacts are described as “material”, “precipitous”, or where distinct risk channels such as debt escalation and supply-chain disruption are spelled out.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic, and related governmental regulations and restrictions, has materially and adversely impacted our business, operating results, financial condition and liquidity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties pandemic to company’s core risk areas (business, operating results, financial condition, liquidity).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong severity language: 'materially and adversely impacted'.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States impact as a realised fact ('has ... impacted').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, past-tense admission of material harm across multiple financial dimensions merits a high score of 8."
+            },
+            {
+                "snippet": "As a result, we experienced a precipitous decline in passenger demand and bookings for both business and leisure travel, which had an adverse impact that was material to the Company's business, operating results, financial condition and liquidity and materially disrupted our strategic operating plans.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies severity with phrase 'precipitous decline in passenger demand and bookings'.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Declares impact 'material' to multiple financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes disruption of strategic operating plans, extending risk beyond short-term revenue.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Provides concrete operational metric (demand collapse) and labels effect as materially disruptive, yielding a score of 8."
+            },
+            {
+                "snippet": "The COVID-19 pandemic, the measures taken in response and related macroeconomic effects may continue to impact many aspects of our business, operating results, financial condition and liquidity in a number of ways, including labor market constraints and related costs, facility closures and related costs, disruptions to the Company's and its business partners' operations, reduced travel demand and consumer spending, increased fuel and other operating costs, supply chain constraints, logistics constraints, volatility in the price of our securities, our ability to access capital markets and volatility in the global economy and financial markets generally.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forward-looking statement that impacts may 'continue', signalling persistent risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies labour shortages and cost pressure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Calls out supply-chain and logistics constraints.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights capital-market volatility and funding risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Enumerates multiple operational cost increases (fuel, facility closures).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Lists several concrete, ongoing risk channels; less emphatic than realised impacts, so scored 6."
+            },
+            {
+                "snippet": "If the impacts from the COVID-19 pandemic extend beyond our assumed timelines, our actual results may vary significantly from our expectations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Expressly warns of significant variance in results if pandemic lasts longer.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional wording reduces immediacy (risk not yet realised).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Statement flags possible large deviation but is purely conditional, yielding a moderate score of 3."
+            },
+            {
+                "snippet": "Our level of indebtedness has increased as we managed through the effects of the COVID-19 pandemic and positioned the Company for recovery.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to higher leverage, a tangible financial metric.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Increased debt elevates future default/liquidity risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Connects pandemic to a structural balance-sheet risk (higher debt); specific but limited detail => score 4."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has resulted in increased regulatory burdens in the U.S. and around the globe, which include closure of international borders to flights and/or passengers from specific countries, passenger and crew quarantine requirements and other regulations promulgated to protect public health but that have had and may continue to have a negative impact on travel and airline operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details new regulatory burdens directly attributable to pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies concrete operational constraints: border closures, quarantine requirements.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States ongoing negative impact on travel and operations.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highlights concrete regulatory and operational hurdles; significant but less financial quantification, yielding 5."
+            },
+            {
+                "snippet": "In addition, our competitors have established new routes and destinations, including some at our hub airports, in light of the expansion opportunities presented by the COVID-19 pandemic, which may compete with our existing routes and destinations and expansion plans.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes competitive landscape shift triggered by pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Potentially erodes market share at hub airports.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Competition-driven risk is real but indirect and unquantified; assigned 3."
+            },
+            {
+                "snippet": "Disruptions to our regional networks as a result of the COVID-19 pandemic, pilot shortage or other factors could adversely affect our business, operating results and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemic as a cause of regional network disruptions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States potential adverse effects on business and finances.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Forward-looking, moderate severity mention; score 3."
+            },
+            {
+                "snippet": "Our business and operating results for 2022 continued to be negatively impacted by the COVID-19 pandemic, particularly in the first half of the year.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Affirms recent, concrete negative impact in 2022 period.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies temporal concentration ('first half of the year'), underscoring proximity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Recent, realised impact but not quantified; mid-high score of 5."
+            },
+            {
+                "snippet": "It remains difficult to reasonably predict the full extent of the ongoing impact of the COVID-19 pandemic on the Company's longer-term operational and financial performance, which will depend on a number of future developments, many of which are outside the Company's control.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges uncertainty and uncontrollable factors, indicating elevated strategic risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Captures uncertainty but without detail or magnitude; lowest severity at 2."
+            }
+        ],
+        "calculated_score": 47,
+        "average_severity": 4.7
+    }
+]

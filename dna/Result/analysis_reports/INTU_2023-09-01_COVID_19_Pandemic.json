@@ -1,0 +1,157 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "INTU’s 2023-09-01 Form 10-K continues to frame COVID-19 primarily as an ongoing, forward-looking operational and regulatory hazard rather than a one-off historical shock.  While the filing is three years removed from the March 2020 WHO declaration, the company still attributes concrete, current-state impacts—such as its permanent hybrid-work structure and partner disruptions—to the pandemic.  Language emphasises (a) execution and cybersecurity complications from a dispersed workforce, (b) continuing interruptions to third-party suppliers and financial-services partners, and (c) evolving public-health regulations that have already impeded critical functions.  References to market volatility and generic “public health emergencies” are included but carry less weight because they are broad and unquantified.  Overall, the disclosures indicate a live, moderately severe risk profile: impacts are specific and still manifesting, but they are not quantified nor portrayed as existential.  Given the recency window (0-3 years), scores can be high, yet the absence of dollar figures and the presence of generalized wording temper the maximum severity assigned to each snippet.",
+        "evidence_list": [
+            {
+                "snippet": "In addition, our shift to a hybrid workplace model, where our workforce will spend a portion of their time working in our offices and a portion of their time working remotely, introduces operational complexity that exacerbates our security-related risks.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies a permanent organisational change (hybrid work) that is a direct pandemic consequence.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights concrete aggravating effect—greater operational complexity and security risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Frames the risk as ongoing (‘introduces’), not historical.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear, current operational impact from pandemic-driven hybrid work elevates risk, but lack of financial quantification keeps score at 6."
+            },
+            {
+                "snippet": "This model has introduced new execution risks and we may experience longer-term disruptions to our operations as we evolve our workplace model, any of which may impair our ability to perform critical functions or could make it considerably more difficult to develop, enhance and support our products and services.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges newly emerged execution risks tied to the hybrid model.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Warns of potential long-term operational disruptions and impairment of critical functions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details potential hindrance to product development and support—core business processes.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Use of conditional language (‘may’) softens certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specifies serious, lasting operational threats, but conditional wording and no dollars attached temper the score."
+            },
+            {
+                "snippet": "Additionally, the business operations of our third-party partners and the third-party partners who support them have been and could continue to be disrupted by the effects of uncertain macroeconomic environment and global events, including pandemics and endemics.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites pandemics as a cause of partner disruptions, linking to supply-chain/service continuity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States disruptions have already occurred and may persist (‘have been and could continue’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights dependence on external parties, amplifying indirect risk exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Bundled with broad ‘macroeconomic environment and global events,’ reducing specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Strong link to pandemic-driven partner outages; moderate deductions for generic grouping keep score at 6."
+            },
+            {
+                "snippet": "We have in the past and may in the future be subject to regulations in response to global pandemics and endemics that may impact our business, our workforce, and workplaces.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemic-specific regulatory exposure already experienced and expected to continue.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes multifaceted impact areas—business operations, workforce, workplaces.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Regulatory threat is clear and potentially material, but lacks detail or quantification, yielding a mid-high score."
+            },
+            {
+                "snippet": "Such restrictions have disrupted and may continue to disrupt our business operations and limit our ability to perform critical functions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms actual past disruption from pandemic-related restrictions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Projects ongoing limitations on critical functions (forward-looking).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Evidence of realised impact plus forward risk, but no numeric scale, so score set at 5."
+            },
+            {
+                "snippet": "Moreover, inflationary pressures, pandemics and endemics, and the Russia-Ukraine war have caused significant volatility in the global financial markets, which has resulted in significant volatility in our stock price recently.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemics directly to recent, observable stock-price volatility.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States effect has already manifested (‘has resulted’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact limited to market perception rather than core operations.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Realised market-risk impact acknowledged but less severe than operational threats, so lower score."
+            },
+            {
+                "snippet": "Our business operations, information technology and communications systems are vulnerable to damage or interruption from natural disasters, effects of climate change, human error, malicious attacks, fire, power loss, telecommunications failures, computer viruses and malware, computer denial of service attacks, terrorist attacks, public health emergencies and other events beyond our control.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes ‘public health emergencies’ (pandemics) as a potential disruption source.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generic, bundling pandemics with many unrelated hazards, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Mentions pandemics only in a broad catch-all list; net effect neutral under scoring rubric."
+            }
+        ],
+        "calculated_score": 31,
+        "average_severity": 4.428571428571429
+    }
+]

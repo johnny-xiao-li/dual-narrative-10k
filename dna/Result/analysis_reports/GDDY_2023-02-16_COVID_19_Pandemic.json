@@ -1,0 +1,116 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "GoDaddy’s 2023 filing discusses COVID-19 primarily as an ongoing, recently-experienced disruption that still poses operational and demand-side uncertainties.  The pandemic is treated as an existing event whose effects began in 2020 but continue to shape the company’s risk profile in 2023.  The narrative identifies concrete operational impacts—prolonged remote-work arrangements, potential cultural deterioration, cost increases, and service-delivery risks tied to vendors such as AWS—as well as macro-economic pressures on small-business customers and international demand.  While the text does not quantify dollar impacts, it acknowledges multiple vectors by which the pandemic can erode efficiency, increase expenses, and dampen revenue.  Given the filing date (February 2023), the event falls within the 0-3-year “recent” window, so moderately high severity scores are justified, yet most statements are forward-looking or qualitative, warranting scores in the 3-7 range rather than the maximum.  Mitigating specifics (e.g., detailed contingency plans or quantified cost savings) are largely absent, keeping net risk elevated under the Time Decay Principle.",
+        "evidence_list": [
+            {
+                "snippet": "poor business conditions for our customers or poor general macroeconomic conditions, including as a result of the COVID-19 pandemic, international conflicts such as the Russia-Ukraine military conflict or otherwise;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to adverse macro-economic conditions affecting customer demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Risk framed as potential (forward-looking) and generic, no quantification.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Identifies pandemic-driven macro risk but in a broad, non-quantified manner, yielding a moderate score of 4."
+            },
+            {
+                "snippet": "As a result of the COVID-19 pandemic, since 2020 a substantial portion of our personnel, including our GoDaddy Guides, have been working remotely, which could negatively affect our culture.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States a direct, already-experienced operational change (remote work) caused by COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies a concrete adverse effect (culture deterioration).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Describes an existing pandemic impact with identifiable operational downside, warranting a score of 6."
+            },
+            {
+                "snippet": "The full or partial return to in-office work and the potential transition to permanent remote working arrangements for some employees may result in increased costs, decreased efficiency, deterioration of company culture and/or other unforeseen challenges.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple specific cost and efficiency risks tied to post-pandemic work models.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty without quantification slightly tempers severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Enumerates several measurable downside vectors arising from pandemic-driven workplace shifts; strong but unquantified, score 7."
+            },
+            {
+                "snippet": "the impact of the COVID-19 pandemic on demand for our products in international markets;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly flags COVID-19 as a factor that could weaken international demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Presented as a concise bullet without depth or quantification.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Simple acknowledgment of demand risk with minimal detail keeps the score at 3."
+            },
+            {
+                "snippet": "We may experience interruptions, delays and outages in service and availability of AWS services due to a variety of factors, including technical failures, natural disasters, pandemics such as the COVID-19 pandemic, fraud or security attacks, all of which could impact our service to our customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to potential disruption of critical third-party infrastructure (AWS).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights customer-facing service impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specifies a supply-side operational threat tied to COVID-19; noteworthy but not quantified, earning a 5."
+            },
+            {
+                "snippet": "The extent to which the ongoing COVID-19 pandemic may impact our future results and operations will depend on future developments, including the duration of the pandemic and the parameters of global governmental measures put in place to control the spread of the virus as well as the continuing economic impact of the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Recognizes continuing uncertainty around pandemic duration and governmental responses affecting results.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highly general and lacks specifics or quantified impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Captures broad strategic uncertainty tied to COVID-19 with no hard numbers, producing a mid-level score of 5."
+            }
+        ],
+        "calculated_score": 30,
+        "average_severity": 5.0
+    }
+]

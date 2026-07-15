@@ -1,0 +1,342 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Match Group’s 2022 Form 10-K acknowledges COVID-19 as an event that has already produced measurable operational and financial effects and is expected to continue shaping performance.  The filing combines backward-looking evidence (vendor shutdowns, subscriber declines, remote-work productivity drag) with forward-looking language about possible future waves, lingering consumer caution, and enlarged exposure to other risk factors.  Several passages use strong materiality qualifiers (\"materially and adversely affect\") and tie the pandemic to concrete revenue drivers such as first-time subscriber trends and users’ ability to pay, illustrating both supply-side (labor/vendor disruption, office closures) and demand-side (consumer confidence, spending cuts) vulnerabilities.  Although the company notes some mitigating elements—rebound in 2020, vaccine-driven normalization, overall resilience—these do not neutralise the pandemic’s strategic significance.  Given the filing date (February 2022) is within two years of the World Health Organization’s March 2020 declaration, the Time Decay Principle permits high per-snippet scores; however, statements lacking quantification or tempered by mitigation are scored lower.  Overall, the risk is current, multi-faceted, and only partially mitigated, warranting elevated—but not maximum—severity scores across the evidence set.",
+        "evidence_list": [
+            {
+                "snippet": "Our business and results of operations have been and may continue to be adversely affected by the recent COVID-19 outbreak or other similar outbreaks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges actual past adverse impact (‘have been ... adversely affected’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Signals ongoing risk (‘may continue’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly links COVID-19 to past and future harm but remains generic and unquantified, producing a moderate score of 4."
+            },
+            {
+                "snippet": "Our business could be materially and adversely affected by the outbreak of a widespread health epidemic or pandemic, including the Coronavirus Disease 2019 (COVID-19) pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses strong materiality language (‘materially and adversely’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly references COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking conditional wording (‘could be’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific, material, forward-looking reference merits a 5 despite being couched as a possibility."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has reached across the globe, resulting in the implementation of significant governmental measures intended to control the spread of the virus, including lockdowns, closures, quarantines, and travel bans, as well as changes in consumer behavior as individuals have become reluctant to engage in social activities with people outside their households.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes factual, global scope of event already in effect.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists concrete governmental measures (lockdowns, quarantines).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights behavioural changes directly relevant to company’s social-interaction business model.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Provides detailed mechanism of impact on consumer behaviour, driving a solid risk score of 6."
+            },
+            {
+                "snippet": "While some of these measures have been relaxed in certain parts of the world, ongoing and future prevention and mitigation measures, as well as the potential for some of these measures to be reinstituted in the event of repeat waves of the virus, have had and are likely to continue to have an adverse impact on global economic conditions and consumer confidence and spending, and could materially adversely affect demand, or users’ ability to pay, for our services.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States both historical and continuing adverse impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects pandemic to demand destruction and payment capacity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Materiality wording (‘materially adversely’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Notes partial relaxation of measures (mitigation).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Strong linkage to revenue drivers but tempered by mention of relaxed measures; score settles at 5."
+            },
+            {
+                "snippet": "A public health epidemic, including COVID-19, poses the risk that Match Group or its employees, contractors, vendors, and other business partners may be prevented or impaired from conducting ordinary course business activities for an indefinite period of time, including due to shutdowns necessitated for the health and wellbeing of our employees, the employees of business partners, or shutdowns that may be requested or mandated by governmental authorities.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights operational disruption across employees, vendors, partners.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies potential indefinite duration.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Cites mandatory shutdowns as concrete mechanism.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Emphasises breadth and duration of operational risk, earning a 5."
+            },
+            {
+                "snippet": "For example, early on in the pandemic, certain of our customer support vendors were impacted by government mandated shutdowns which adversely impacted the capability of the affected brands to respond timely and effectively to user inquiries and requests.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides concrete historic example of vendor shutdowns.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Shows direct operational harm to customer service responsiveness.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Demonstrates realised—not hypothetical—impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specific past disruption boosts evidentiary weight, resulting in a 6."
+            },
+            {
+                "snippet": "In addition, in response to the COVID-19 outbreak, we have taken several precautions that may adversely impact employee productivity, such as continuing to allow employees to work remotely, imposing travel restrictions, and ongoing closures of office locations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits potential productivity decline from remote-work and travel limits.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presence of company-initiated mitigation actions.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Lists specific operational changes.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Shows self-inflicted operational drag but also mitigation, yielding a modest score of 2."
+            },
+            {
+                "snippet": "The ultimate extent of the impact of any epidemic, pandemic, or other health crisis on our business will depend on multiple factors that are highly uncertain and cannot be predicted, including its severity, location and duration, and actions taken to contain or prevent further its spread.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights high degree of uncertainty.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Acknowledges possibility of significant impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Primarily a disclaimer of uncertainty; risk signal diluted to a zero-effect score."
+            },
+            {
+                "snippet": "Additionally, the COVID-19 pandemic could increase the magnitude of many of the other risks described in this annual report, and have other adverse effects on our operations that we are not currently able to predict.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Suggests compounding effect on multiple risk areas.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasises unpredictability (mitigating certainty).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Notes amplifying effect but remains vague; low severity score of 1."
+            },
+            {
+                "snippet": "If our business and the markets in which we operate experience a prolonged occurrence of adverse public health conditions, such as COVID-19, it could materially and adversely affect our business, financial condition, and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses materiality language and references financial condition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking scenario planning (‘prolonged occurrence’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Connects directly to results of operations.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Clear materiality statement with future-risk framing earns a 4."
+            },
+            {
+                "snippet": "When the novel coronavirus (“COVID-19”) first hit Western Europe and then certain major metropolitan centers in the U.S. in the Spring of 2020, engagement (messages sent, daily active users, Swipe ® activity on the Tinder platform) increased significantly, but subscribers who purchase a subscription for the first time (“first-time subscribers”) declined at most of our brands as meeting in person was restricted.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides concrete operational metrics (engagement vs subscriber decline).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Demonstrates real negative effect on a key revenue metric (first-time subscribers).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Time-specific historical evidence.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Quantified historical impact on subscriptions drives a high score of 7."
+            },
+            {
+                "snippet": "As we entered the summer months of 2020, propensity to pay rebounded across our portfolio, and first-time subscribers climbed amid reduced COVID-19 cases, but then faced new headwinds at the end of 2020, as the second wave of COVID-19 cases and related lockdowns took hold.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates volatility linked to pandemic waves (headwinds).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes rebound, a mitigating trend.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Provides timeline context.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mixed impact (rebound plus new headwinds) yields a low net risk score of 1."
+            },
+            {
+                "snippet": "In 2021, we saw a new normalization level as vaccines continued to roll out globally, even as several countries experienced a third wave of cases.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights vaccine-driven normalization (mitigation).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Notes ongoing third wave risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Predominantly positive framing offsets residual risk; no net score assigned."
+            },
+            {
+                "snippet": "We saw strong recovery in the U.S. and improvement in Europe as well, but important markets for us such as India, South Korea, Brazil, and Japan were further behind on the COVID-19 curve.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges recovery in key regions (mitigation).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Identifies lagging markets still at risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Balanced recovery-and-risk narrative nets to a neutral score."
+            },
+            {
+                "snippet": "The recent Omicron variant surge has caused a modest impact on our business, with rolling global effects as the wave passes through the U.S., Europe, and then, we expect, Asia.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites latest variant causing current impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Characterises impact as ‘modest’ (mitigation).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Most recent wave acknowledged but labelled modest; moderate score of 2."
+            },
+            {
+                "snippet": "While we have continued to feel the effects of COVID-19 on our business as new waves and variants have emerged, the business has proven to be quite resilient over the last two years.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits ongoing effects of pandemic.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Emphasises resilience—strong mitigation.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Resilience claim offsets admission of impact; snippet receives no net risk points."
+            }
+        ],
+        "calculated_score": 48,
+        "average_severity": 3.0
+    }
+]

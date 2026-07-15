@@ -1,0 +1,288 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated February 22 2021, contains extensive, up-to-date discussion of COVID-19.  The company makes clear that the pandemic is not merely a hypothetical risk but an event that has already triggered concrete, material impacts: demand destruction, volume declines, capacity under-utilisation, segment-level impairments, liquidity actions, and large cost-cutting programmes.  Most disclosures are backward-looking (actual 2020 effects) but several expressly project continuing uncertainty and future exposure—e.g., the Risk Factor section.  Many impacts are quantified (e.g., $150 million cost cuts, $650 million precautionary borrowings, ~$200 million EBIT hit from lower capacity utilisation).  Because the event is well within the 0-3-year “recent” window of the Time Decay Principle, evidence can receive high severity scores when it shows a direct causal linkage, quantified financial consequences, or systemic operational disruption.  Sentences that only describe mitigation (remote work, repayments) or are generic receive lower scores.  Overall, COVID-19 constitutes a high-severity, ongoing risk for EMN, reflected in multiple segments and corporate-level liquidity management.",
+        "evidence_list": [
+            {
+                "snippet": "The decrease in forecasted revenue and EBIT for the tire additives reporting unit was primarily the result of weakened demand in transportation markets impacted by COVID-19 coronavirus global pandemic (\"COVID-19\") and increased competitive pricing pressure as a result of global capacity increases.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly attributes revenue and EBIT decline to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Identifies concrete financial metrics affected (revenue and EBIT).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Focuses on a specific reporting unit, signalling granularity and materiality assessment.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct causal link to the pandemic with clear financial impact on a business unit yields a high score of 8."
+            },
+            {
+                "snippet": "Sales volume decreased for products serving end-markets negatively impacted by COVID-19, including transportation, building and construction, consumer durables, and textiles end-markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects volume decline directly to COVID-19 effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists multiple end-markets, showing breadth of impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks numerical quantification of the decline.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Broad but unquantified volume impacts justify a moderate score of 4."
+            },
+            {
+                "snippet": "Following the outbreak of COVID-19 in early 2020, in March 2020 the U.S. Centers for Disease Control issued guidelines to mitigate the spread and health consequences of COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Anchors the timing and acknowledges the triggering event.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Provides context but no direct financial or operational impact, so the score is low."
+            },
+            {
+                "snippet": "The Company implemented changes to its operations and business practices to follow the guidelines and minimize physical interaction, including using technology to allow employees to work from home when possible and altering production procedures and schedules.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details operational adjustments (remote work, modified production).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Represents a mitigation effort that partially offsets risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Operational changes indicate exposure but mainly describe mitigation; hence, a modest score."
+            },
+            {
+                "snippet": "In response to the uncertainties of the impact of COVID-19 (including on overall business and market conditions; Eastman manufacturing sites and distribution, sales, and service facilities closure or reduced availability; and Eastman products market demand weakness and supply chain disruption), management's focus shifted to cash flow, liquidity, and cost management.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple potential disruptions (facility closures, demand weakness, supply-chain).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Shows strategic shift to liquidity preservation, evidencing seriousness.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highlights multi-faceted operational risk and strategic response, warranting a mid-high score."
+            },
+            {
+                "snippet": "As previously reported, as a precautionary measure due to increased financial market volatility resulting from COVID-19, Eastman took certain liquidity actions, including borrowing $400 million under the revolving credit agreement (the \"Credit Facility\") in first quarter 2020 and $250 million under a new 364-Day Term Loan Credit Agreement (the \"Term Loan\") in second quarter 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links large liquidity actions to COVID-related volatility.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Provides specific, quantified amounts ($400 m and $250 m).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights financing risk exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Actions are precautionary and later repaid, indicating mitigation.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Quantified financial response to pandemic-driven volatility earns a strong score, tempered by repayment mitigation."
+            },
+            {
+                "snippet": "Cost reduction actions in response to COVID-19, some of which are expected to be structural, included reduced discretionary spending, deferred asset maintenance turnarounds, and adjusted operations to ensure the health and safety of employees and contractors, totaling approximately $150 million in 2020, with approximately 60 percent in \"Cost of sales\" and approximately 40 percent in \"Selling, general and administrative expenses\" and \"Research and development expenses\" in the Consolidated Statements of Earnings, Comprehensive Income and Retained Earnings.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties cost actions to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Quantifies the magnitude ($150 million).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Notes that some actions are structural, underscoring lasting impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Large, quantified cost actions signal material impact, justifying a high score of 8."
+            },
+            {
+                "snippet": "The negative impact of COVID-19 on demand resulted in lower sales volume of aviation fluids and coatings and inks additives sold into transportation end-markets resulting in less favorable product mix.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links demand decline in specific products to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies effect on product mix, implying margin pressure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Focus on transportation end-market shows sector-specific vulnerability.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear operational and margin impact within a product line produces a solid score."
+            },
+            {
+                "snippet": "The impairments were primarily the result of weakened demand in transportation markets impacted by COVID-19 and increased competitive pricing pressure as a result of global capacity increases.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects asset impairments directly to COVID-related demand weakness.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Impairment indicates irreversible financial hit.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Irrecoverable write-downs tied to the pandemic merit a high severity score."
+            },
+            {
+                "snippet": "The negative impact of COVID-19 on demand resulted in lower sales volume of advanced interlayers products sold into transportation end-markets, partially offset by increased sales volume in the fourth quarter for consumer durables and increased sales volume of certain standard copolyester products used in applications for personal care and wellness and consumables end-markets, resulting in a less favorable product mix.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States direct demand-driven volume reduction due to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights product-mix deterioration, indicating profitability risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions partial offsets, indicating some mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Impact is clear but partially mitigated; score lands at 4."
+            },
+            {
+                "snippet": "Sales revenue decreased primarily due to lower selling prices across the segment attributed to lower raw material prices, and lower sales volume in most product lines attributed to the negative impact of COVID-19 on demand and increased competitive pressure.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links segment-wide volume decline to COVID-19 demand shock.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes broad impact across product lines.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No numerical quantification provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Segment-wide but unquantified impact results in a modest score."
+            },
+            {
+                "snippet": "Sales revenue decreased primarily due to lower textile products sales volume attributed to the impact of COVID-19 on demand and lower acetate tow selling prices primarily due to previously negotiated multi-year contracts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Attributes revenue decline in Fibers segment to COVID-related demand fall.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specific to textile products, indicating segment vulnerability.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantification of magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows clear impact but lacks scale data; score is 3."
+            },
+            {
+                "snippet": "Similarly, as a company which operates and sells products worldwide, continued uncertainty in the global economy and global capital markets resulting from the current global COVID-19 pandemic have adversely impacted and are expected to continue to adversely impact demand for certain Eastman products and, accordingly results of operations, and may adversely impact the Company's financial condition and cash flows and ability to access the credit and capital markets under attractive rates and terms and negatively impact the Company's liquidity or ability to pursue certain growth initiatives.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states both realised and expected future adverse impacts from COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers multiple financial dimensions (demand, operations, liquidity, access to capital).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking element heightens risk relevance.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Comprehensive, forward-looking risk discussion justifies a high score of 8."
+            },
+            {
+                "snippet": "In addition, the ongoing global COVID-19 pandemic has adversely impacted and is expected to continue to impact, and natural disasters, plant interruptions, supply chain disruptions, changes in laws or regulations, war or other outbreak of hostilities or terrorism, and breakdown or degradation of transportation and supply chain infrastructure used for delivery of strategic raw material and energy commodities could adversely impact, both the cost and availability of these commodities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to current and future supply-chain and commodity-cost risks.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights compounded risks alongside other disruptive events.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Emphasises supply-chain vulnerability from COVID-19, earning a solid score."
+            }
+        ],
+        "calculated_score": 72,
+        "average_severity": 5.142857142857143
+    }
+]

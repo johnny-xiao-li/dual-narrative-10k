@@ -1,0 +1,203 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is treated by PSX as a recent, already-materialised risk that continues to cast a shadow over future performance.  The filing cites factual 2020 demand collapses, identifies specific business lines most hurt (especially Refining) and repeatedly uses high-severity language such as “material adverse effect.”  While no dollar figures are offered, the company makes clear that the pandemic lowered earnings in 2020–2021 and could do so again if new variants or government restrictions re-emerge.  Management also flags second-order effects—supply-chain tension, customer default risk, labour availability—that COVID-19 could amplify.  Mitigating elements (vaccine roll-out, demand recovery) are mentioned only briefly and speculatively, so they do little to offset the risk narrative.  Because the event is within the 0-3-year “recent” window, the Time Decay Principle permits high scores; however, the absence of quantified dollar impacts and acknowledgement of some recovery restrain most sentences to the 6-9 range rather than a maximum 10.",
+        "evidence_list": [
+            {
+                "snippet": "The Coronavirus Disease 2019 (COVID-19) pandemic resulted in a significant decrease in demand for many of our products and has had and could continue to have a material adverse effect on our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States a past, realised impact ('resulted in a significant decrease in demand').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong materiality language ('material adverse effect').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly notes the risk is ongoing ('could continue').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct link to COVID-19, confirmed demand hit, and forward-looking materiality justify a high score of 8."
+            },
+            {
+                "snippet": "The COVID-19 pandemic and the associated containment efforts had a serious adverse impact on the economy and a material adverse effect on our business, particularly our Refining segment.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic containment measures to economic harm and company impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Targets a specific segment (Refining), showing granularity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses 'serious adverse' and 'material adverse' wording.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Segment-specific material harm plus strong wording earns the snippet an 8."
+            },
+            {
+                "snippet": "During 2020, demand for crude oil, gasoline, jet fuel, diesel fuel and other refined products was significantly reduced.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports an historical, factual collapse in product demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists multiple core products affected, signalling breadth of impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks explicit materiality qualifier or future outlook.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Concrete evidence of demand drop across products scores 7 despite no forward-looking statement."
+            },
+            {
+                "snippet": "In the event government authorities impose any new mandatory closures, work-from-home orders and social distancing protocols, or other restrictions to mitigate the further spread of COVID-19, it is likely that demand for our products will again be impacted and our business will be negatively affected.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies explicit triggers (closures, work-from-home) and links them to demand erosion.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Probabilistic language 'likely' indicates high likelihood.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking, unquantified risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Clear causal pathway from renewed restrictions to negative business effect merits a 7."
+            },
+            {
+                "snippet": "Even if a virus or other illness does not spread significantly, the perceived risk of infection or health risk may result in reduced demand for our products and materially affect our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights behavioural demand risk from mere perception.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses 'materially affect' to indicate severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Outlook is conditional and less certain.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Behavioural demand shock with materiality claim but conditional wording yields 6."
+            },
+            {
+                "snippet": "As we cannot predict the duration or scope of COVID-19 or any pandemic, the negative financial impact to our results cannot be reasonably estimated and could be material.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits inability to quantify, signalling high uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States potential for material financial impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lack of specifics dampens severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Unquantifiable but possibly material impact with high uncertainty scores 6."
+            },
+            {
+                "snippet": "Factors that will influence the impact on our business and operations include the duration and extent of the pandemic, including the virulence and spread of different strains of a virus and the level and timing of vaccine development and distribution across the world and their impact on economic recovery and growth, the extent of imposed or recommended containment and mitigation measures and their impact on our operations, and the general economic consequences of the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple dynamic variables (variants, vaccine timing) affecting impact, displaying seriousness.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Shows management uncertainty and broad exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions possible mitigation via vaccines, which slightly reduces net risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Comprehensive but mostly descriptive list of variables; inclusion of mitigation lowers net score to 3."
+            },
+            {
+                "snippet": "To the extent the COVID-19 pandemic or other widespread public health crises adversely affected or affects our business and financial results, it may also have the effect of heightening many of the other risks that could adversely affect our business described below, such as risks associated with industry capacity utilization, volatility in the price and availability of raw materials, material adverse changes in customer relationships including any failure of a customer to perform its obligations under agreements with us, and risks associated with worldwide or regional economic conditions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes compounding effect—pandemic amplifies other material risks.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists specific secondary risk areas heightened.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional wording and lack of quantification.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Amplification of multiple risk categories gives weight; conditional tone keeps score at 6."
+            },
+            {
+                "snippet": "Our reported earnings for 2021 continued to reflect the ongoing impacts of the disruption to global economic activities caused by the Coronavirus Disease 2019 (COVID-19) pandemic, primarily on our Refining segment.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms continued, measurable hit to 2021 earnings.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies specific segment primarily impacted.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No dollar amount given; recovery implied elsewhere.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Evidence of 2021 earnings drag, segment-specific, but unquantified, supports a 7."
+            }
+        ],
+        "calculated_score": 58,
+        "average_severity": 6.444444444444445
+    }
+]

@@ -1,0 +1,277 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "PANW’s September 2021 Form 10-K repeatedly links the COVID-19 pandemic to a broad set of operational, financial and strategic risks.  The disclosures state that the virus has already caused identifiable harm—e.g., global economic slowdown, supply-chain delays, remote-work complications—and that these effects are expected to persist.  The language is current-period and forward-looking, emphasising continuing uncertainty (“fluid and uncertain”) and the possibility of “material” adverse impacts on cash-flows, sales cycles, manufacturing, customer demand and credit risk.  Some mitigating steps (work-from-home transition, ongoing monitoring, vaccination progress) are noted, but they are described as incomplete and themselves potentially harmful (e.g., longer sales cycles).  Given the filing date (Sept 2021) falls well within three years of the WHO 11-Mar-2020 declaration, the Time-Decay Principle allows high severity scores.  Overall, the company presents COVID-19 as an active, multi-dimensional threat with both realised and potential future impacts; consequently most evidence snippets receive high (6-9) scores, moderated slightly where mitigation or conditional language appears.",
+        "evidence_list": [
+            {
+                "snippet": "The ongoing global COVID-19 outbreak could harm our business and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties COVID-19 to harm to business and results.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong, unconditional verb 'could harm', signalling materiality.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct statement of potential harm; recent event; no mitigation mentioned."
+            },
+            {
+                "snippet": "This outbreak has negatively impacted and will likely continue to have a negative impact on, worldwide economic activity and financial markets and has impacted, and will further impact, our workforce and operations, the operations of our end-customers, and those of our respective channel partners, vendors and suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes realised negative impacts (‘has negatively impacted’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Projects continuing future impact across multiple stakeholders.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers broad operational areas (workforce, supply chain, customers).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Shows both current damage and forward-looking risk across value chain—near-max score."
+            },
+            {
+                "snippet": "These measures include transitioning our employee population to work remotely from home beginning in March 2020, which continued through the fiscal year ended July 31, 2021, and may continue into future quarters.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies remote-work transition as a response to COVID-19 (evidence of disruption).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates prolonged duration into future quarters.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Represents a mitigation effort, partially offsetting risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Remote-work move shows operational disruption but is also a mitigation; moderate score."
+            },
+            {
+                "snippet": "These precautionary measures that we have adopted could negatively affect our customer success efforts, sales and marketing efforts, delay and lengthen our sales cycles, and create operational or other challenges, any of which could harm our business and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists concrete internal impacts (sales cycles, operations).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States potential to ‘harm our business and results’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Risk arises from COVID-related precautions (direct link).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Specific operational harms tied to COVID-19 precautions; high severity."
+            },
+            {
+                "snippet": "In addition, COVID-19 may continue to disrupt the operations of our end-customers and channel partners for an indefinite period of time, including as a result of travel restrictions and/or business shutdowns, all of which could negatively impact our business and results of operations, including cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forecasts indefinite disruption to customers and partners.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies cash-flow impact (financial specificity).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Direct causal link to COVID-19.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Highlights prolonged, cash-flow-related risks—strong but unquantified."
+            },
+            {
+                "snippet": "The ongoing impact of COVID-19 is fluid and uncertain, but it has caused and may continue to cause various negative effects, including an inability to meet with our existing or potential end-customers; our end-customers deciding to delay or abandon their planned purchases; increased requests for delayed payment terms or product discounts by our end-customers and channel partners; us delaying, canceling, or withdrawing from user and industry conferences and other marketing events, including some of our own; changes in the demand for our products, which has caused us to reprioritize our engineering and research and development efforts and make changes to our original offering roadmap; and delays or possible disruptions in our supply chain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple specific negative effects already occurring.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers demand shifts, payment delays, supply-chain disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges continuing uncertainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Comprehensive list of realised and potential harms; near-top score."
+            },
+            {
+                "snippet": "As a result, we may experience extended sales cycles; our demand generation activities, and our ability to close transactions with end-customers and partners may be negatively impacted; our ability to provide 24x7 worldwide support and/or replacement parts to our end-customers may be adversely affected; and it has been and, until the COVID-19 outbreak is contained and global economic activity stabilizes, will continue to be more difficult for us to forecast our operating results.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details operational degradations (sales, support, forecasting).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links duration to containment of COVID-19 (ongoing risk).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific operational impacts, but less emphasis on materiality; mid-high score."
+            },
+            {
+                "snippet": "More generally, the outbreak has not only significantly and adversely increased economic and demand uncertainty, but it has caused a global economic slowdown, and continuing global economic uncertainty which could decrease technology spending and adversely affect demand for our offerings and harm our business and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to macroeconomic slowdown affecting tech spending.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong language: ‘significantly and adversely’.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Macro-level demand risk with strong wording; solid score."
+            },
+            {
+                "snippet": "our ability to manage production and manufacturing related costs, global customer service organization costs, inventory excess and obsolescence costs, and warranty costs, especially due to potential disruptions in our supply chain as a result of COVID-19",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights supply-chain disruption risk due to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies cost categories that may rise.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Supply-chain cost risks noted but in a conditional clause; moderate severity."
+            },
+            {
+                "snippet": "insolvency or credit difficulties confronting our end-customers, which could increase due to the effects of COVID-19 and adversely affect their ability to purchase or pay for our products and subscription and support offerings in a timely manner or at all",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 to heightened credit risk among customers.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Direct consequence: inability to purchase/pay.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Financial risk (credit losses) tied to pandemic; mid-level score."
+            },
+            {
+                "snippet": "our inability to fulfill our end-customers’ orders due to supply chain delays or events that impact our manufacturers or their suppliers, which may be adversely affected by the effects of COVID-19;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Potential order-fulfillment failures linked to COVID-19 supply issues.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Single-impact statement (fulfillment risk); moderate severity."
+            },
+            {
+                "snippet": "COVID-19 and the global semiconductor shortage have in certain cases caused delays and challenges in obtaining components and inventory, as well as increases to freight and shipping costs, and may result in a material adverse effect on our results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports actual delays and cost increases already experienced.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Warns of ‘material adverse effect’ on results.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Documented operational cost impacts plus materiality warning; high score."
+            },
+            {
+                "snippet": "The multinational efforts to contain the spread of COVID-19 have had a significant adverse effect on the global macroeconomic environment that continues to cause economic uncertainty.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links containment measures to macroeconomic harm.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasises current, ongoing uncertainty.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Macroeconomic headwind identified; moderate-high score."
+            },
+            {
+                "snippet": "Revenue growth may slow or revenue may decline for a number of possible reasons, including the downturn in the global and U.S. economy due to COVID-19, slowing demand for our products or subscriptions, increasing competition, a decrease in the growth of, or a demand shift in, our overall market, or a failure to capitalize on growth opportunities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies revenue decline risk tied to COVID-19 economic downturn.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Mentions revenue impact but among several factors; moderate score."
+            },
+            {
+                "snippet": "Our channel partner operations may also be negatively impacted by other effects COVID-19 is having on the global economy, such as increased credit risk of end-customers and the uncertain credit markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes indirect channel risk via pandemic-driven credit stress.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Channel-specific financial risk; concise, moderate severity."
+            }
+        ],
+        "calculated_score": 82,
+        "average_severity": 5.466666666666667
+    }
+]

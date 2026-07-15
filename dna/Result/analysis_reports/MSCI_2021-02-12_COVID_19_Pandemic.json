@@ -1,0 +1,241 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "MSCI’s 2021 Form 10-K presents COVID-19 as an active, near-term enterprise‐wide threat.  Although management notes that 2020 results were not “materially impacted,” the filing details concrete operational disruptions—employee and vendor mobility restrictions, a wholesale shift to a global work-at-home model, and broader market volatility that directly affects the firm’s asset-linked fee streams.  The language is largely forward-looking but anchored in present-day realities: the pandemic “has caused significant economic disruption,” and MSCI’s own operations “have been affected.”  The company repeatedly warns that these effects, alone or combined with other risk factors, could be “material” to business, financial condition, and results of operations.  At the same time, it outlines mitigation efforts (business-continuity plans, cost controls, liquidity focus) and admits uncertainty about their ultimate success.  Under the Time Decay Principle, COVID-19 is a recent (< 3 years) and ongoing event, so high severity scores (upper-single digits) are permissible for sentences describing direct or quantified impacts, while more generic or strongly mitigated statements merit mid-range or low scores.  No snippet predates the event, so no automatic score reductions apply.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic, or other widespread health crises, could have a material adverse effect on our business, financial condition or results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to a possible ‘material adverse effect’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Statement is conditional/forward-looking without showing current impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Clearly flags material downside but is purely prospective, so risk severity is moderate."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has caused significant economic disruption, including volatility in the global equity markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes a current, already-realized macro-economic impact (‘has caused significant…’).",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Acknowledges present-day market volatility directly tied to COVID-19, raising risk level."
+            },
+            {
+                "snippet": "Our operations have been affected by a range of external factors related to the COVID-19 pandemic that are not within our control, including the imposition in many jurisdictions of a wide range of restrictions on the physical movement of our employees and vendors to limit the spread of COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that operations ‘have been affected’—a direct, realized impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Identifies specific operational constraints (employee & vendor mobility restrictions).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights lack of control over these external factors.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Describes concrete, uncontrollable operational disruptions, warranting a high risk score."
+            },
+            {
+                "snippet": "While we were not materially impacted in 2020, due to ongoing uncertainty related to the duration, magnitude and impact of the COVID-19 pandemic, and the volatile regional and global economic conditions stemming from the pandemic, its potential effects on our business are uncertain and difficult to predict, but may include: 16 These effects, alone or taken together, could have a material adverse effect on our business, financial condition or results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits broad uncertainty and possibility of material adverse effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes no material impact yet, signalling mitigation/temporarily lower severity.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Highlights volatile macro-conditions.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Balances acknowledgement of material risk with statement of minimal 2020 impact, yielding modest score."
+            },
+            {
+                "snippet": "If the COVID-19 pandemic is sustained or prolonged, these effects could be exacerbated.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of worsening impacts if the pandemic continues (forward-looking escalation).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Potential amplification of risks earns a small but notable score."
+            },
+            {
+                "snippet": "Additionally, many of the other risk factors described in this Item may be exacerbated or the likelihood of such risks materializing may be increased by global widespread health crises such as the COVID-19 pandemic and the volatile regional and global economic conditions stemming from the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows compounding effect on multiple existing risk factors.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Highlights cascading risk exposure, but remains generic, so mid-low score."
+            },
+            {
+                "snippet": "public health epidemics impacting the global economy and our employees, such as the worldwide COVID-19 pandemic, may have a material adverse effect on our business, financial condition or results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to material adverse effect across business dimensions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Generic conditional framing (’may have’) without detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic statement of materiality earns modest score."
+            },
+            {
+                "snippet": "We continue to work with our stakeholders (including customers, employees, suppliers, business partners, and local communities) to attempt to mitigate any negative effects of this global pandemic on our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that negative effects exist and require mitigation.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Details proactive stakeholder engagement as mitigation.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Mitigation language outweighs limited risk detail, reducing score to zero."
+            },
+            {
+                "snippet": "These mitigation efforts have included implementing our business-specific continuity plans and processes, transitioning to a largely global work-at-home model, proactively reducing costs intended to allow us to protect against further downside revenue risk, and investing in additional initiatives to support our long-term growth, while also focusing on maintaining liquidity and capital structure flexibility.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies operational changes (global work-at-home) and financial measures indicating pandemic-driven adjustments.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Represents deliberate mitigation steps, which moderate overall risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Documents concrete actions but largely mitigating, so low score."
+            },
+            {
+                "snippet": "We cannot assure you that we will be successful in any of these mitigation efforts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Expresses uncertainty about effectiveness of mitigation, re-elevating residual risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Acknowledged mitigation uncertainty provides a minor aggravating factor."
+            },
+            {
+                "snippet": "We closely monitor the impact of the COVID-19 pandemic and continually assess its potential effects on our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows ongoing surveillance but no specific risk detail; largely procedural.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Monitoring alone does not signify added risk or mitigation; neutral score."
+            },
+            {
+                "snippet": "Given the dynamic nature of these circumstances, we cannot reasonably estimate the full impact of the COVID-19 pandemic at this time.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits inability to quantify impact, indicating heightened uncertainty.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Unquantifiable uncertainty moderately increases risk severity."
+            },
+            {
+                "snippet": "The extent to which our business, financial condition, results of operations, or cash flows are affected by COVID-19 will depend in part on future developments which cannot be accurately predicted and are uncertain, as there are no comparable recent events that provide guidance as to the potential effect of the spread of a global pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights unpredictable future developments and lack of precedent.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Emphasizes forecasting difficulty, warranting modest score."
+            },
+            {
+                "snippet": "This situation is changing rapidly, and additional effects may arise that we are not presently aware of or that we currently do not consider significant risks to our operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Rapidly evolving situation implies latent, unrecognized risks.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Points to unknown emerging risks; slight aggravation."
+            },
+            {
+                "snippet": "If we are not able to respond to and manage the impact of such events effectively, our business and financial condition may be negatively impacted.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects inadequate response to negative financial consequences.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Links failure of response to direct adverse outcomes, giving low-moderate score."
+            }
+        ],
+        "calculated_score": 30,
+        "average_severity": 2.0
+    }
+]

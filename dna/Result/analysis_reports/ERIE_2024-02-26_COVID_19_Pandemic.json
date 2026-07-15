@@ -1,0 +1,221 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Although COVID-19’s initial shock occurred four years before this filing, ERIE’s 2024 Form 10-K shows that pandemic-related threats remain material.  The disclosure links the pandemic to concrete past impacts (e.g., a quantified $110 million revenue reduction, active lawsuits) and to forward-looking exposures such as reserve uncertainty, potential retroactive coverage mandates, labor-force disruption, hybrid-work cultural risks, and supply-chain-driven cost pressures.  These statements are largely qualitative and scenario-based, signalling potential rather than currently realised hits—yet one sentence does provide a specific, historical dollar impact.  Mitigating language (business-continuity plans, hybrid-work management efforts) tempers severity.  Applying the Time-Decay Principle (event ≈ 4 years old ⇒ medium-term), individual snippet scores are capped at moderate levels, with the quantified historical loss earning the high end of the allowable band.  Overall, the pandemic risk for ERIE is assessed as moderate but persistent, warranting continued monitoring rather than crisis-level concern.",
+        "evidence_list": [
+            {
+                "snippet": "The Exchange and its subsidiaries have also been named as defendants in a number of pandemic-related lawsuits and, therefore, are subject to the risks and uncertainties of such litigation.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly acknowledges existing pandemic-related litigation against the company.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights ongoing ‘risks and uncertainties’, implying future financial exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Event is medium-term (≈4 yrs); apply time-decay moderation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Identifies active lawsuits tied to COVID-19, a tangible legal risk; moderate score after time-decay adjustment."
+            },
+            {
+                "snippet": "The uncertainty of risks that emerge upon the occurrence of significant unexpected events, such as pandemics, or unexpected economic or social inflation caused by supply chain issues, societal trends, or otherwise, may cause additional challenges in the process of estimating loss and loss adjustment expense reserves or premiums to accommodate future claims and expenses.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemics can impair core actuarial processes (reserve & premium setting).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links pandemic effects with wider supply-chain/social inflation pressures.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Medium-term event; time-decay moderation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows how pandemic volatility complicates pricing and reserving; important but unquantified, so moderate."
+            },
+            {
+                "snippet": "If there were legislative action in response to a pandemic or other significant unexpected event that retroactively mandated coverage irrespective of terms, exclusions or other conditions included in policies, such as business interruption, that would otherwise preclude coverage, it could have a material impact on the financial condition, results of operations and cash flows of the Exchange.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Predicts ‘material impact’ on financials from pandemic-triggered legislation.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights retroactive mandate risk, an unusually severe scenario.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Time-decay moderation for a 4-year-old event.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Explicitly flags a high-severity, policy-driven pandemic exposure; strong wording lifts score to upper-moderate."
+            },
+            {
+                "snippet": "We have established business continuity and disaster recovery plans to provide for the continuation of core business operations in the event that normal business operations could not be performed due to catastrophic or other events, including pandemics.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemic could disrupt operations (risk recognition).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "States existence of business-continuity plans, a clear mitigation.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": -1
+                },
+                "reasoning_summary": "Risk is largely offset by explicit mitigation; net impact negligible (score floored at 0)."
+            },
+            {
+                "snippet": "Our operations and those of our third parties may become vulnerable to damage or disruption due to circumstances beyond our or their control, such as from catastrophic events, power anomalies or outages, natural disasters, pandemics, supply chain interruptions, network failures, and cyber attacks.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists pandemics among events that can directly disrupt operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Also cites supply-chain interruptions, compounding operational risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Medium-term time-decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Shows pandemic as one of several disruption sources; generic but relevant, so modest score."
+            },
+            {
+                "snippet": "It is also possible that changes in economic conditions and steps taken by federal, state, and local governments in response to a pandemic or other significant events could cause an increase in taxes at the federal, state, and local levels, which could adversely impact our results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic response actions to future tax-cost risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Potential, unquantified impact; less severe.",
+                            "points": 0
+                        },
+                        {
+                            "reason": "Time-decay moderation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Speculative, low-magnitude risk after time decay; results in minimal score."
+            },
+            {
+                "snippet": "If claims frequency and loss expenses were to decrease significantly as a result of an unexpected event, such as a pandemic, the profitability component of our agent incentive compensation would improve, and our agent compensation costs would increase.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies a counter-intuitive cost increase if pandemic lowers claims.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Quantifies mechanism (agent compensation linkage) though not dollar-specific.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Medium-term time-decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows pandemic can raise expenses via compensation formula; moderate unquantified financial exposure."
+            },
+            {
+                "snippet": "Regulatory developments, provider relationships, pandemics and demographic and economic factors that are beyond our control, such as inflation, are indicators that employee costs could increase, which could reduce our profitability.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemics to potential employee-cost inflation impacting profitability.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Medium-term adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Potential cost pressure noted but generic and unquantified; low score."
+            },
+            {
+                "snippet": "Additionally, failure to recognize, evaluate, and respond to changing workforce trends including current labor market conditions and new ways of managing in hybrid work environments, or failure to execute proactive retention and replacement strategies could also have an adverse effect on our business performance.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights risk linked to hybrid/remote work model that arose from pandemic era.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Indicates operational risk from hybrid-work transition; mild severity."
+            },
+            {
+                "snippet": "Furthermore, failure to instill appropriate cultural expectations and behavioral norms within our employees, particularly in a hybrid work environment, could damage our reputation.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Points to reputational risk specifically tied to hybrid work arrangements.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Hybrid-work culture issue is a secondary, low-level pandemic legacy risk."
+            },
+            {
+                "snippet": "In response to reduced driving conditions in 2020 resulting from the COVID-19 pandemic, the Exchange implemented $200 million in personal and commercial auto rate reductions on policies written between July 1, 2020 and June 30, 2021, which negatively impacted Exchange's written premium in 2021 by approximately $110 million.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct causal link to COVID-19 (‘resulting from the COVID-19 pandemic’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Provides quantified impact ( $110 million premium reduction ).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Time-decay moderation for 3-4-year lag.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Most concrete evidence: large, quantified past loss directly tied to pandemic; still within medium-term window, so capped at 6."
+            }
+        ],
+        "calculated_score": 24,
+        "average_severity": 2.1818181818181817
+    }
+]

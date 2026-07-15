@@ -1,0 +1,180 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Verizon’s February 25 2021 filing was prepared roughly one year after the WHO declared COVID-19 a pandemic, so time-decay allows high severity scores.  The document we reviewed intertwines past, present and forward-looking statements, making clear that COVID-19 has already reduced revenue, raised costs and lowered EPS during 2020, while simultaneously warning of continuing uncertainty in 2021 and beyond.  The company details concrete operational disruptions—remote-working 115,000 employees, 70 % retail-store closures, supply-chain interruptions, customer-payment risk—and explicitly states that these conditions ‘materially adversely’ affect or ‘could materially adversely affect’ business, financial condition and results.  Several sentences tie the pandemic to multiple risk channels (demand shifts, labour/field-work constraints, and vendor failures) and to traditional risk factors (credit losses, financing).  Although Verizon describes mitigation actions (business-continuity plans, store re-openings, repayment programs), these do not eliminate the fundamental exposure.  Because the event is recent (0-3 years) and the filing discloses both realised financial harm and ongoing potential impact across critical corporate functions, most evidence snippets merit upper-mid scores (6-8), with modest deductions where language is purely cautionary or heavily caveated by uncertainty.",
+        "evidence_list": [
+            {
+                "snippet": "Public health crises, including the COVID-19 pandemic, could materially adversely affect our business, financial condition and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to potential ‘materially adverse’ effects on core financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong severity language (‘materially adversely’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clear forward-looking warning with strong severity wording, but no numeric impact; recent event justifies an above-average score of 5."
+            },
+            {
+                "snippet": "We are subject to risks related to public health crises, such as the COVID-19 pandemic, which had an adverse effect on our operating results in 2020.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges concrete past impact (‘had an adverse effect ... in 2020’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects ongoing risk exposure to COVID-19 specifically.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Combines existing impact with ongoing risk, yielding a high severity score of 6."
+            },
+            {
+                "snippet": "For example, public and private sector policies and initiatives to reduce the transmission of COVID-19 and initiatives Verizon has taken in response to the health crisis to promote the health and safety of our employees and provide critical infrastructure and connectivity to our customers, along with the related global slowdown in economic activity, resulted in decreased revenues, increased costs and lower earnings per share during 2020.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct causal link between COVID-19 and multiple financial hits (decreased revenues, increased costs, lower EPS).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Enumerates several dimensions of impact, though un-quantified.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "References realised 2020 effects, not just potential.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Shows realised multi-faceted financial damage; absence of exact dollar figures keeps score at 7 rather than maximum."
+            },
+            {
+                "snippet": "As a result, our business, financial condition and results of operations could be materially adversely affected by a crisis, like the COVID-19 pandemic, that significantly impacts the way customers use and are able to pay for our products and services, the way our employees are able to provide services to our customers, and the ways that our partners and suppliers are able to provide products and services to us.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights potential ‘materially adverse’ effects across customers, employees, partners and suppliers.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple operational channels, broadening the exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Strong conditional severity language.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Comprehensive forward-looking risk statement across several stakeholder groups; high, but un-quantified impact justifies score of 7."
+            },
+            {
+                "snippet": "Because the severity, magnitude and duration of the COVID-19 pandemic and its economic consequences are uncertain and rapidly changing, the impact on our business, financial condition and results of operations in 2021 and beyond remains uncertain and difficult to predict.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing uncertainty and potential future impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Heavily caveated language reduces clarity on severity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event framed as continuing into future periods.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic uncertainty disclaimer offers minimal incremental risk insight; net score kept low at 1."
+            },
+            {
+                "snippet": "These suppliers or vendors could fail to provide equipment or service on a timely basis, or fail to meet our performance expectations, for a number of reasons, including, for example, disruption to the global supply chain as a result of the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Ties COVID-19 directly to supply-chain disruption risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights operational consequence—failure to receive critical equipment/services.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Links pandemic to a critical supply-chain vulnerability with clear operational stakes; strong evidence yields score of 6."
+            },
+            {
+                "snippet": "Moving over 115,000 of our 132,200 employees to remote work arrangements.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Demonstrates large-scale labour and operational shift caused by the pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Represents an implemented mitigation rather than a risk escalation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Shows significant workforce impact but also reflects effective mitigation; net severity moderate at 2."
+            },
+            {
+                "snippet": "Public and private sector policies and initiatives to reduce the transmission of COVID-19 have varied significantly across the U.S., but at various times during the year ended December 31, 2020 a significant percentage of the U.S. population was subject to meaningful restrictions on activities, which included limitations on the operation of businesses including retail operations, requirements that individuals remain in or close to their homes, school closures, travel restrictions, limitations on large gatherings and other policies to promote or enforce physical distancing.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details widespread governmental restrictions affecting economic activity and demand.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Contextual sentence describing macro restrictions; indicates broad external risk environment but not company-specific impact, scoring 3."
+            },
+            {
+                "snippet": "These restrictions and our responses to them have significantly impacted how our customers use our products and services, how they interact with us, and how our employees work and provide services to our customers.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemic-related restrictions already ‘significantly impacted’ customer behaviour and employee operations.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Confirms realised operational disruption without quantifying magnitude; earns score of 4."
+            }
+        ],
+        "calculated_score": 41,
+        "average_severity": 4.555555555555555
+    }
+]

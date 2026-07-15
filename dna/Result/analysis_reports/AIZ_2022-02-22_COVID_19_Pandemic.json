@@ -1,0 +1,294 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "AIZ’s 2022 filing contains an extensive, up-to-date discussion of COVID-19.  The company explicitly states that the pandemic has already disrupted its operations (“have been adversely affected”) and anticipates continued, potentially material impacts across almost every risk dimension – revenue, credit-market access, investment portfolio performance, workforce productivity, cybersecurity, litigation exposure and regulatory capital mobility.  The language is recent (within two years of the event), repeatedly characterises impacts as “material” and “continuing,” and itemises concrete transmission channels such as remote-work inefficiencies, client distress, fraudulent claims, capital-market volatility and mandatory vaccination costs.  No quantified dollar figures are provided and a few caveats (“may”, “could”) reduce certainty, but the breadth and specificity still signal a high-severity, forward-looking risk.  In line with the Time Decay Principle for events ≤3 years old, individual snippet scores cluster in the upper mid-range (3-7) with the most comprehensive sentences reaching 7 where multiple aggravating factors are named and no offsetting mitigations are offered.",
+        "evidence_list": [
+            {
+                "snippet": "The ongoing COVID-19 pandemic and measures taken in response thereto have disrupted and will likely continue to disrupt normal business activity, which may adversely affect our business, results of operations and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States pandemic is ‘ongoing’ and has already disrupted operations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicitly forecasts continued disruption (‘will likely continue’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses adverse-impact trigger words but gives no figures.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct, company-specific acknowledgement of existing and future COVID-19 disruption; high severity but unquantified."
+            },
+            {
+                "snippet": "The ongoing COVID-19 pandemic continues to have widespread impact on global economies, the financial markets, business practices and human capital resources.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights breadth of impact across macro and micro factors.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes the impact is current and continuing.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Framed at broad economy level, less company-specific.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows wide scope of COVID-19 impact but with generic framing, yielding a moderate score."
+            },
+            {
+                "snippet": "As the virus (and its variants) continues to spread, our results of operations and financial condition may be adversely affected by: clients underperforming expectations or experiencing financial distress; customers experiencing difficulty paying premiums or cancelling coverages; an increase in the number of fraudulent insurance claims; an impairment in the value of our tangible or intangible assets; and fluctuations in the labor market.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic directly to multiple, specific adverse financial pathways.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates five concrete channels of impact, increasing granularity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses ‘may’ (possibility not certainty).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Highly detailed list of company-specific vulnerabilities; strong aggravation with minor uncertainty qualifier."
+            },
+            {
+                "snippet": "Furthermore, if the pandemic creates disruption in the credit or financial markets, or if it impacts our credit ratings, it could adversely affect our ability to access capital on favorable terms or at all.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies capital-access risk tied to pandemic-driven market turmoil.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights possibility of losing favorable financing altogether.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific but conditional statement about funding risk; mid-level severity."
+            },
+            {
+                "snippet": "Our investment portfolio (and, specifically, the valuations and cash flows of investments we hold) may be adversely affected as a result of market developments from the COVID-19 pandemic and uncertainty regarding its outcome, including low interest rates, reduced liquidity, and a recession or continued slowdown in the U.S. or in global economic conditions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Targets direct hit to investment valuations and cash flows.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists concrete financial stressors (rates, liquidity, recession).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clear linkage to portfolio degradation; strong but still unquantified."
+            },
+            {
+                "snippet": "From an operational perspective, our employees, our clients and their customers, and vendors and other third parties with whom we work, have been, and may continue to be, adversely affected by the COVID-19 pandemic and efforts to mitigate its spread.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges both past and anticipated future operational harm.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers entire ecosystem (employees, clients, vendors).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Broad stakeholder impact, present and future; solid mid-range severity."
+            },
+            {
+                "snippet": "The vast majority of our global workforce is working remotely, and we expect to continue remote and hybrid work arrangements for a portion of our workforce after the pandemic has subsided, which increases cybersecurity risk and may adversely affect our internal control over financial reporting.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States concrete operational shift (remote work) caused by pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Flags heightened cybersecurity and control-failure risk.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific operational change with explicit downstream risks; moderately high score."
+            },
+            {
+                "snippet": "Remote working arrangements and a competitive labor market may result in increased employee turnover and other challenges in maintaining an engaged workforce.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-induced remote work to human-capital instability.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights turnover and engagement issues.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Narrow focus on HR challenges; meaningful but less comprehensive."
+            },
+            {
+                "snippet": "We face the risk that some of our facilities may close for periods of time or that significant portions of our workforce, including key personnel, may be unable to work effectively or at all because of illness and employee safety measures put in place.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Addresses potential facility closures and workforce incapacitation.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Impacts include productivity loss and key-person risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Operational continuity threat with specific consequences; above-average risk."
+            },
+            {
+                "snippet": "An extended period of such conditions may hinder our ability to attract, train and retain talent, impact employee morale, strain our business continuity plans and introduce additional operational risk, including cybersecurity and fraud risks, which may materially adversely affect our results of operations and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple compounding operational and security risks.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses ‘materially adversely affect’ signalling high severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Comprehensive list of long-term talent and operational threats; solid but not quantified."
+            },
+            {
+                "snippet": "In addition, we may be subject to COVID-19 vaccination or testing mandates, which may result in employee attrition, inefficiencies resulting from employee turnover, and costs associated with implementation and ongoing compliance.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags regulatory mandates translating into attrition and cost pressures.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specific government-policy risk; moderate severity."
+            },
+            {
+                "snippet": "The actions we take, including our return-to-office plans, may vary by geography, may prove to be premature or insufficient, may subject us to litigation and may have a material adverse effect on our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits mitigation plans might fail and trigger litigation.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicit ‘material adverse effect’ language.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights risk that even attempted controls create new liabilities; above-average impact."
+            },
+            {
+                "snippet": "The extent to which the COVID-19 pandemic impacts our business, results of operations or financial condition will depend on future developments which are highly uncertain and difficult to predict, including: the severity and duration of the pandemic; the actions taken by government authorities and other third parties to contain the virus (and its variants), including vaccination or testing mandates; the availability and efficacy of vaccines, other treatments and test kits; public acceptance of vaccines and testing; and how quickly and to what extent normal economic and operating conditions resume.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges high uncertainty, implying planning difficulty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists multiple external variables beyond company control.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Stresses unpredictability, but lacks direct impact details; modest score."
+            },
+            {
+                "snippet": "We cannot predict how legal and regulatory responses to concerns about the COVID-19 pandemic and related public health issues will impact our business, including the possibility of a mandated extension of business interruption or other insurance coverage beyond our policy language, or additional regulatory restrictions on our insurance subsidiaries’ ability to pay us dividends.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies risk of forced coverage expansion, directly affecting liabilities.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions potential dividend-blockage by regulators.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Regulatory risk could hit both liabilities and capital mobility; strong mid-high score."
+            },
+            {
+                "snippet": "In addition, and in connection with the COVID-19 pandemic, many companies, including us, have recently transitioned a significant portion of the workforce to remote work on a full- or part-time basis, which may result in increased competition for highly-skilled personnel who are no longer limited to employment opportunities within a particular geographic location.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-driven remote work to intensified talent competition.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes structural change in labor market conditions.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Pinpoints strategic HR risk derived from pandemic-induced remote-work shift."
+            },
+            {
+                "snippet": "Working remotely may reduce employee engagement, efficiency and productivity, which may drive increased turnover or cause product development delays, hamper new product innovation, and otherwise adversely affect our business and impede the achievement of our strategy.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details operational downsides (productivity loss, innovation delays).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links directly to strategic execution risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete description of how pandemic-related remote work undermines strategic goals; mid-high severity."
+            }
+        ],
+        "calculated_score": 73,
+        "average_severity": 4.5625
+    }
+]

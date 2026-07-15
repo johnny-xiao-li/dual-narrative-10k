@@ -1,0 +1,94 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Goldman Sachs’ 2023 Form 10-K contains several explicit references to the continuing impact of the COVID-19 pandemic.  The firm acknowledges that the pandemic has already produced concrete, adverse effects – notably March 2020 liquidity strains and documented declines in client activity – and warns that similar stresses could recur.  The disclosures are recent (within three years of the March 2020 outbreak), directly link COVID-19 to past and potential future hits to liquidity, profitability and operations, and give specific examples (e.g., corporate clients drawing down revolving credit facilities).  They are, however, largely qualitative and un-quantified: the company does not disclose dollar figures, precise margin impacts, or detailed supply-chain or workforce cost data.  The language is a mix of backward-looking evidence (“have been adversely affected”) and forward-looking caution (“may in the future”), with only minimal mitigating language.  Applying the Time Decay Principle (high relevance for 0-3-year events), the strongest sentences merit high scores (7-8/10) because they show a direct, realized impact; moderately strong statements that cite actual but less materialised effects score mid-range (5-6/10); and generic “pandemic” boiler-plate receives only low weight (≤2/10).",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic created economic and financial disruptions that have in the past adversely affected and may in the future adversely affect our business, financial condition, liquidity and results of operations.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names COVID-19 and states it ‘created economic and financial disruptions’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges realised impact: ‘have in the past adversely affected’.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Flags continuing forward-looking risk (‘may in the future’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Directly ties COVID-19 to historical and prospective adverse effects across multiple financial dimensions; recent event, so high severity score of 8."
+            },
+            {
+                "snippet": "Our liquidity may be impaired by an inability to access secured and/or unsecured debt markets ..., such as in March 2020, when corporate clients drew on revolving credit facilities in response to the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides concrete, time-stamped example (March 2020) linked to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects pandemic to specific liquidity pressure (client revolver draw-downs).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights potential future impairment (‘may be impaired’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Gives specific historical stress scenario affecting liquidity and warns of recurrence; strong, recent, direct evidence justifies score 8."
+            },
+            {
+                "snippet": "In addition, concerns about ... a resurgence of COVID-19 cases ... have, at times, negatively impacted the levels of client activity.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 resurgence fears to actual negative client-activity impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Signals ongoing sensitivity to pandemic developments.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows realised but less quantified impact on client activity; mid-range severity yields score 5."
+            },
+            {
+                "snippet": "Our businesses, financial condition, liquidity and results of operations have been and may in the future be adversely affected by unforeseen or catastrophic events, including pandemics, terrorist attacks, extreme weather events or other natural disasters.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions pandemics among catastrophic events with adverse effect language.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Statement is generic, bundles pandemics with many other risks, no COVID-specific data.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Generic boiler-plate reference to ‘pandemics’; no COVID detail; mitigated to zero severity."
+            }
+        ],
+        "calculated_score": 21,
+        "average_severity": 5.25
+    }
+]

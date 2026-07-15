@@ -1,0 +1,80 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "NetApp’s filing continues to treat COVID-19 as a material, enterprise-wide hazard rather than a fully-resolved historical event.  Although more than three years have elapsed since the WHO declaration (March 2020), the 2023-06-14 10-K still cites concrete, recent effects—e.g., supply-chain bottlenecks, component shortages and physical-mobility constraints—while also warning of forward-looking exposure if additional outbreaks occur.  All pandemic language is operationally specific (manufacturing allocation, freight delays, labour mobility) but remains unquantified and largely qualitative.  Because the pandemic falls just outside the 0-to-3-year “recent” window (≈3.25 years), the Time-Decay principle slightly tempers, but does not neutralise, the severity scores; medium–high risk scoring (4-6 range) is therefore appropriate.  The company offers few concrete mitigants beyond general vigilance, so aggravating factors dominate, sustaining a moderate-to-high residual risk profile.",
+        "evidence_list": [
+            {
+                "snippet": "Impacts on our supply chain from adverse public health developments, including outbreaks of contagious diseases such as COVID-19;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly names COVID-19 as an example of adverse public-health developments.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links the disease to a critical operational area: supply-chain disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement is forward-looking and generic (no data or magnitude).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific reference to COVID-19 and supply-chain risk is clear, but lack of quantification and generic wording moderate the score to 4."
+            },
+            {
+                "snippet": "When industry supply is constrained, or the supply chain is disrupted, as it was during the COVID-19 pandemic, our suppliers may allocate volumes away from us and to our competitors, all of which rely on many of the same suppliers as we do.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges actual historical disruption ('as it was during the COVID-19 pandemic').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights competitive disadvantage (allocation of volumes to competitors).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional language ('may') reduces certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Provides a concrete historical precedent and competitive impact, warranting a score of 5 after adjusting for conditional phrasing."
+            },
+            {
+                "snippet": "For example, in recent years, the COVID-19 pandemic impeded the mobility of our personnel, inventories, equipment and products and disrupted our business operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states the pandemic caused operational disruption across multiple domains.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers several critical functions (personnel, inventory, logistics), broadening impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses past-tense 'impeded' and 'disrupted', indicating some temporal distance.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Multi-faceted, confirmed impact yields high aggravation, but slight time decay pulls the final score to 5."
+            }
+        ],
+        "calculated_score": 14,
+        "average_severity": 4.666666666666667
+    }
+]

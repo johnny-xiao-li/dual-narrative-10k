@@ -1,0 +1,89 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "EPAM’s 2024 Form 10-K references the COVID-19 pandemic only sparingly, signalling that management now views the virus more as a lingering macro-economic head-wind than an acute operational crisis.  The filing identifies one concrete, backward-looking impact: customer demand weakened in 2023 because of uncertainty that ‘followed’ the pandemic, which in turn slowed the company’s growth.  All other references are forward-looking, grouping ‘a pandemic’ with other disruptive events (war, energy instability, civil unrest) that could stress business-continuity plans, create labour-mobility obstacles and push up talent costs.  No quantitative values are supplied, and mitigation steps are discussed only generically (e.g., existence of continuity plans).  Because the original outbreak occurred almost four years before the filing date, the Time Decay Principle places the pandemic in the medium-term window; evidence therefore merits moderate—not high—severity scores.  Overall, the residual pandemic risk appears to be real but waning, reflected by mid-range final snippet scores that peak at 5 and taper to 1 for purely generic statements.",
+        "evidence_list": [
+            {
+                "snippet": "Our growth has significantly slowed at times, particularly during 2023, due to waning customer demand, primarily due to uncertainty resulting from macroeconomic conditions following the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States an actual, observed outcome: ‘growth has significantly slowed’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links slowdown to customer-demand weakness, signalling operational impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly attributes the cause to post-COVID-19 macroeconomic uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Event is ~4 years old; medium-term decay reduces severity.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Directly ties a 2023 performance shortfall to pandemic after-effects, giving it moderate weight (5/10) under the medium-term time-decay rule."
+            },
+            {
+                "snippet": "Travel restrictions resulting from natural or man-made disruptions, pandemics or other public health events, and political or social conflict increase the difficulty of obtaining and retaining highly skilled and qualified professionals and could unexpectedly increase our labor costs and expenses, both of which could also adversely affect our ability to serve our customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemics to labour-supply constraints (‘difficulty of obtaining and retaining’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights potential cost escalation and service disruption—clear operational risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional language (‘could’), signalling a forward-looking, not yet realised, risk.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term time decay since 2020 onset reduces severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Identifies concrete channels (talent availability, labour costs) through which future pandemics can hurt EPAM, but lack of current impact and four-year lag temper the score to 3/10."
+            },
+            {
+                "snippet": "Our crisis management procedures, business continuity plans, and disaster recovery capabilities may not be effective at preventing or mitigating the effects of prolonged or multiple crises, such as civil unrest, military conflict, energy instability and a pandemic in a concentrated geographic area or in multiple geographies.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags a weakness in crisis-response systems with respect to pandemics.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Expresses only a hypothetical (‘may not be effective’) rather than observed impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic catch-all wording dilutes specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term time decay reduces overall severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Sentence merely lists pandemic among several hypothetical crises and notes potential inadequacy of plans, yielding a low severity score of 1/10."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 3.0
+    }
+]

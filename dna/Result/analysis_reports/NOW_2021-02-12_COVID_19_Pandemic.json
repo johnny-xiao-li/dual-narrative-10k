@@ -1,0 +1,264 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "ServiceNow’s 2021-02-12 filing repeatedly links the ongoing COVID-19 pandemic to both realised and prospective risks across virtually every operational dimension: customer demand, revenue visibility, collections, competitive pressure, office closures, labour health-and-safety, data-centre and hardware supply chains, cyber-security, and capital-market volatility.  The disclosure is largely contemporaneous (less than one year after the WHO declaration) and mixes backward-looking evidence of actual impacts in 2020 (e.g., curtailed demand, revised guidance) with forward-looking warnings that such pressures may intensify.  Language is generally specific—naming impaired verticals, enumerating concrete operational disruptions, and acknowledging material adverse effects—rather than boiler-plate.  Some mitigating actions are noted (remote-work shift, pandemic-oriented product launches), but these do not erase the sizeable residual uncertainty the company highlights.  Under the Time Decay Principle the event is “recent (0-3 years)”, so high severity scores (up to 10) are appropriate; however, sentences that reflect mitigation or only generic uncertainty receive lower net scores.  Overall, the risk profile is high, immediate, and multi-faceted, warranting numerous snippets with scores clustered between 5 and 9, tempered where the firm cites offsetting actions.",
+        "evidence_list": [
+            {
+                "snippet": "The extent to which the ongoing COVID-19 pandemic, including the resulting global economic uncertainty, and measures taken in response will continue to impact our business and future results of operations and financial condition will depend on future developments, which are highly uncertain and difficult to predict.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to impact on business, operations and financial condition.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasises continued, forward-looking uncertainty (‘will continue’, ‘future developments’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantification or specificity of magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct but generic articulation of pandemic risk with high uncertainty; moderate severity."
+            },
+            {
+                "snippet": "Some customers or potential customers, particularly in industries most impacted by the COVID-19 pandemic including transportation, hospitality, retail and energy, reduced their IT spending or delayed their digital transformation initiatives in 2020 and these reductions and delays in spend by our customers and prospects could persist.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific verticals and concrete behaviours (reduced spend, delayed initiatives).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Acknowledges persistence into future periods (‘could persist’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Reflects real, already-observed customer actions.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Specific, realised customer demand impact plus risk of continuation merits high score."
+            },
+            {
+                "snippet": "We experienced some curtailed customer demand, reduced customer spend or contract duration, delayed collections, lengthened payment terms, and impact on our ability to land new customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits multiple concrete adverse effects already experienced (‘We experienced’).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Covers revenue, cash-flow and growth dimensions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lacks dollar quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct, multi-faceted realised impacts drive elevated risk score."
+            },
+            {
+                "snippet": "If we should see an increase in such effects or increased competitive pressures due to changes in terms and conditions and pricing of our competitors’ products and services, our business, results of operations and overall financial performance in future periods could be materially and adversely impacted.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Potential for ‘materially and adversely’ impacting business and financial performance.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Forward-looking contingency tied to pandemic-driven competitive dynamics.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Highlights possibility of material deterioration; moderately severe."
+            },
+            {
+                "snippet": "In response to the COVID-19 pandemic, we temporarily closed most of our offices (including our headquarters) around the world, encouraged our employees to work remotely, implemented travel restrictions for all non-essential business, and canceled or shifted certain of our customer, industry, analyst, investor, and employee events to virtual-only experiences.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details significant operational shifts (office closures, remote work, event cancellations).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mitigative framing (‘in response’, proactive actions).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Operational changes signal disruption but also mitigation; lower net severity."
+            },
+            {
+                "snippet": "Additionally, our efforts to re-open our offices safely may not be successful, could expose our employees to health risks and could involve additional costs or liability.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Raises health, cost and liability risks tied to reopening.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Contingent; no certainty yet.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific operational and legal risks during reopening; moderate severity."
+            },
+            {
+                "snippet": "The COVID-19 pandemic could also impact our data center operations, including potential disruptions to the supply chain of hardware needed to maintain these third-party systems, and primary vendors we rely on for products and services that allow our employees to work remotely.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies critical supply-chain vulnerability affecting core service delivery.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Mentions reliance on third-party vendors, elevating dependency risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "High-impact supply-chain threat to data-centre operations yields strong score."
+            },
+            {
+                "snippet": "Further, we may experience increased cyberattacks and security challenges as our global employee base and vendors and other third parties work remotely on less secure systems.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights heightened cyber-security threat directly linked to pandemic remote work.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Use of ‘may’ introduces uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Acknowledges new cybersecurity exposure but framed as potential, so moderate-low."
+            },
+            {
+                "snippet": "Because we are a subscription business, the reduction in performance for 2020 will impact future years as well.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly connects 2020 pandemic-driven downturn to multi-year revenue drag.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "No mitigation noted.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows carry-over financial impact beyond immediate period; moderately high severity."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has created significant global economic uncertainty, adversely impacted the business of our customers, partners and vendors, and impacted our business and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States direct adverse impact on company and ecosystem.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Emphasises macroeconomic uncertainty.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear statement of existing negative impact plus uncertainty; elevated risk."
+            },
+            {
+                "snippet": "As the uncertainty continues, we may experience an increase in curtailed customer demand, reduced customer spend or contract duration, delayed collections, lengthened payment terms, lengthened sales cycles or competition due to changes in terms and conditions and pricing of our competitors’ products and services, our business, results of operations and overall financial performance in future periods could be materially adversely affected.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Comprehensive list of possible financial and operational impacts.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Uses strong materiality language (‘materially adversely affected’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Enumerates diverse severe risks; high score warranted."
+            },
+            {
+                "snippet": "In 2020, we released four Emergency Response applications to help customers navigate the COVID-19 pandemic management and the Safe Workplace applications, a four-application suite and dashboard, designed to help companies manage the essential steps for returning employees to the workplace and to support their health and safety.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes proactive product response that may offset some risks.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Signals strategic opportunity arising from pandemic.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": -3
+                },
+                "reasoning_summary": "Pure mitigation/opportunity statement; reduces overall perceived risk."
+            },
+            {
+                "snippet": "Additionally, we canceled our in-person, annual Knowledge user conference (“Knowledge”) and replaced it with a digital event experience.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates disruption of key marketing event.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Shows swift mitigation via digital replacement.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Minor operational disruption largely mitigated; low severity."
+            },
+            {
+                "snippet": "Risks caused or heightened by the COVID-19 pandemic may continue for the duration of and possibly beyond the COVID-19 pandemic for an indefinite period.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags indefinite duration of elevated risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Generic, no specific financial quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Highlights prolonged horizon but lacks specifics; modest risk score."
+            }
+        ],
+        "calculated_score": 61,
+        "average_severity": 4.357142857142857
+    }
+]

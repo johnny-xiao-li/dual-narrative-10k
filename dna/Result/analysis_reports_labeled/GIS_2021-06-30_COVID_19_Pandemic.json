@@ -1,0 +1,132 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "GIS’s 2021 filing shows that COVID-19 is depicted as both an already-realized shock and an ongoing, uncertain threat.  Multiple passages move beyond boiler-plate language, documenting concrete sales declines in away-from-home channels, actual (albeit minor) supply-chain labour disruptions, and heightened commodity-price volatility.  These disclosures span revenue, operations, and input-cost dimensions, conveying a multi-vector risk profile.  While some statements are purely cautionary (‘could materially affect’), several use the present-tense ‘have experienced’, confirming direct impacts within the last fiscal year.  No single sentence supplies hard dollar figures, so the evidence is unquantified, but the recency of the pandemic (within 0-3 years of the filing) sustains elevated severity under the Time-Decay Principle.  Overall, the risk is assessed as high-to-moderate depending on the facet discussed: strongest where actual sales erosion is acknowledged, weaker where effects are described as ‘minor’ or merely potential.  This framework underpins the micro-scores assigned below.",
+        "evidence_list": [
+            {
+                "snippet": "Global health developments and economic uncertainty resulting from the COVID-19 pandemic could materially and adversely affect our business, financial condition, and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links COVID-19 to corporate performance across multiple dimensions (business, financial condition, results).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong severity wording (‘materially and adversely affect’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Impact phrased as potential (‘could’) rather than realised, reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "High-severity language earns significant points, but the absence of realised impact and quantification tempers the score to 5."
+            },
+            {
+                "snippet": "We have experienced, and may continue to experience, a decrease in sales of certain of our products in markets around the world that have been affected by the COVID-19 pandemic.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits realised negative impact (‘have experienced’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies type of impact: decreased sales of products.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights ongoing nature (‘may continue to experience’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No numerical quantification provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Realised global sales decline drives the score high; lack of dollar figures keeps it from the top tier."
+            },
+            {
+                "snippet": "In particular, sales of our products in the away-from-home food outlets across all our major markets have been negatively affected by reduced consumer traffic resulting from shelter-in-place regulations or recommendations and closings of restaurants, schools and cafeterias.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes a specific channel (away-from-home) across all major markets, increasing specificity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States a realised negative effect on sales attributable to COVID-related restrictions.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explains causal mechanism (reduced consumer traffic due to shelter-in-place).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Still lacks hard financial quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Detailed, channel-specific evidence of realised impact merits a strong score of 7 despite unquantified magnitude."
+            },
+            {
+                "snippet": "We have experienced minor temporary workforce disruptions in our supply chain as a result of the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges actual operational disruption in supply chain.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Qualifies impact as ‘minor temporary’, which mitigates perceived severity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Links disruption directly to the pandemic.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Real impact is noted, but described as small and short-lived, leading to a modest score."
+            },
+            {
+                "snippet": "Commodity prices have become, and may continue to be, more volatile during the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to increased commodity-price volatility, an important cost risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasises ongoing uncertainty (‘may continue’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Statement is broad and lacks evidence of actual financial hit.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Identifies a relevant but generic cost risk with no quantified effect, yielding a low-moderate score."
+            }
+        ],
+        "calculated_score": 22,
+        "average_severity": 4.4
+    }
+]

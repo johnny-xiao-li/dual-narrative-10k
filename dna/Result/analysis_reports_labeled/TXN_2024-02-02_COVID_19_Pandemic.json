@@ -1,0 +1,124 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The 2024-02-02 Form 10-K discusses pandemic-related risk exclusively in forward-looking, catch-all language. Texas Instruments (TI) places ‘pandemics, epidemics or other public-health crises’ alongside other macro threats such as war, inflation and natural disasters, framing them as circumstances that could adversely affect customer demand, supply-chain continuity, manufacturing capacity, regulatory compliance and ultimately the company’s financial results and reputation. No sentence quantifies an actual COVID-19 impact, nor does management cite specific disruptions that have already occurred; instead, the text positions pandemics as an ongoing possibility that could resurface. Because the WHO declaration of COVID-19 as a pandemic occurred almost four years before this filing (March 2020 → February 2024), the Time-Decay Principle places the evidence in the ‘medium-term (4-10 years)’ bracket. Consequently, each snippet can receive, at most, a moderate score. The absence of concrete, historical loss data or unique mitigation strategies further tempers severity, but the company does acknowledge multiple operational vectors (demand, supply, labor, facilities, regulation) through which a future wave or new pathogen could materially harm performance. Overall, the risk evidence is specific enough to be credible yet generic enough to keep every snippet in the 3-5 range.",
+        "evidence_list": [
+            {
+                "snippet": "We are exposed to political, social and economic conditions (including inflation), security risks, acts of war, terrorism or other hostile acts, pandemics, epidemics or other public health crises, labor conditions, climate change risks and possible disruptions in power, water supply, transportation, communications and information technology networks of the various countries in which we operate.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘pandemics, epidemics or other public health crises’ as a threat to global operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links the threat to potential adverse effects on operations across multiple countries.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Diluted by being embedded in a long list of diverse risks, reducing specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Moderate score reflects a clear acknowledgement of pandemic exposure but without event-specific detail or quantified impact."
+            },
+            {
+                "snippet": "Our results of operations also might suffer because of a general decline or volatility in customer demand resulting from, for example: uncertainty regarding the stability of global credit and financial markets; natural events, pandemics, epidemics or domestic or international political, social, economic or other conditions; breaches of customer information technology systems that disrupt customer operations; or a customer’s inability to access credit markets and other sources of needed liquidity.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemics or epidemics directly to potential volatility in customer demand, a core revenue driver.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States that such demand swings could cause the company’s results of operations to suffer.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is presented hypothetically among many other examples, lowering precision.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Earns a 4 because it ties pandemics to revenue decline but remains generic and unquantified."
+            },
+            {
+                "snippet": "We have manufacturing, data and design facilities and other operations in locations subject to natural occurrences such as severe weather, geological events or epidemics that could adversely affect manufacturing capacity, availability and cost of key raw materials, utilities and equipment or otherwise disrupt operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies that epidemics could directly disrupt manufacturing capacity and resource availability.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights multiple operational levers (capacity, materials, utilities) through which impact could materialize.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Grouped with other natural occurrences, making the pandemic aspect less focal.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Scores 4 for detailing how epidemics can interfere with manufacturing, tempered by its broad ‘natural occurrences’ framing."
+            },
+            {
+                "snippet": "Our access to needed goods and services may be adversely affected by potential disputes with suppliers or disruptions in our own or suppliers’ operations as a result of, for example: quality excursions; uncertainty regarding the stability of global credit and financial markets; domestic or international political, social, economic and other conditions; natural events or epidemics in the locations in which our suppliers operate; or limited or delayed access to and high costs of key materials, natural resources, services and utilities.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes that epidemics at supplier locations can disrupt TI’s supply chain and access to inputs.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects the disruption to potential adverse effects on the company’s ability to obtain critical goods and services.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemic element is one of many listed hazards, reducing salience.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides a clear supply-chain channel for pandemic risk, but generic wording caps the score at 4."
+            },
+            {
+                "snippet": "We are subject to complex laws, rules and regulations on an international, national and local level that affect our domestic and international operations relating to, for example, the environment and climate change; safety; health; trade, including import and export; bribery and corruption; financial reporting; tax; data privacy and protection; labor and employment; competition; facilities and code compliance; market access; pandemics, epidemics or other public health crises; intellectual property ownership and infringement; and the movement of currency.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that compliance obligations now encompass pandemics and public-health crises.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Implies potential operational restrictions or costs tied to pandemic-related regulations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generalized regulatory list dilutes the pandemic reference.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Lower severity (3) because the sentence flags regulatory exposure but gives no detail on financial magnitude or likelihood."
+            }
+        ],
+        "calculated_score": 19,
+        "average_severity": 3.8
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Boeing’s 2023 filing presents COVID-19 not as a hypothetical but as an active, multi-year shock that is still reshaping its risk profile.  Three years after the WHO declaration, the company continues to cite lingering pandemic effects on every critical vector of its business model: (1) operations and productivity, because supply-chain interruptions and labor instability persist; (2) demand, because domestic air travel has rebounded faster than international traffic and wide-body demand remains muted; and (3) financial performance, because airlines—Boeing’s core customers—remain financially weakened.  The disclosures combine backward-looking impact statements (“have reduced productivity and adversely impacted our financial position”) with forward-looking caution (“remains impacted by government restrictions related to COVID-19”), indicating that the risk is both realized and ongoing.  The language is specific—tying the pandemic to supply-chain delays, market recovery trajectories, and customer solvency—rather than boiler-plate.  Given the filing date (Jan 2023), the event falls within the 0-3-year “recent” window, so Time Decay does not materially suppress scores: direct, quantified, current-impact statements warrant high severity (7-10), while generic references merit low scores (1-3).",
+        "evidence_list": [
+            {
+                "snippet": "Demand for our commercial aircraft is further influenced by airline profitability, availability of aircraft financing, world trade policies, government-to-government relations, technological advances, price and other competitive factors, fuel prices, terrorism, pandemics, epidemics and environmental regulations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics/epidemics as a factor influencing demand, acknowledging relevance of global health crises.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic, catch-all wording with no detail or quantified impact; forward-looking only.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Provides only a generic, boiler-plate acknowledgement that pandemics can hurt demand, so the severity is low (1/10)."
+            },
+            {
+                "snippet": "We and our suppliers are experiencing supply chain disruptions as a result of the lingering impacts of COVID-19, global supply chain constraints, and labor instability.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes ongoing supply-chain disruptions to COVID-19 impacts.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers broad operational scope—both Boeing and its suppliers—amplifying enterprise-wide risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses present-tense ('are experiencing'), confirming current, realized impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Adds compounding factor of labor instability, indicating multi-dimensional operational risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "This sentence shows a direct, current operational disruption tied to COVID-19, with no mitigating language, justifying a very high score (9/10)."
+            },
+            {
+                "snippet": "These factors have reduced overall productivity and adversely impacted our financial position, results of operations and cash flows.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States an actual decline in productivity attributable to previously cited COVID-related factors.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly notes adverse effects on financial position, operations and cash flows—material impact language.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Quantifies the pandemic’s knock-on effects in financial terms, though without numeric detail, warranting a solidly high score (6/10)."
+            },
+            {
+                "snippet": "Domestic travel continues to recover from the lingering effects of the COVID-19 pandemic before international travel and the narrow-body market continues to follow domestic travel recovery, while the wide-body market continues to be paced by international travel recovery.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges lingering pandemic effects differentiating domestic vs. international demand—shows demand distortion.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights shift between narrow-body and wide-body markets, signaling strategic sales risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Use of 'continues to recover' signals partial mitigation/positive trajectory.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows demand imbalance still tied to COVID-19 but tempered by signs of recovery, so risk is moderate (3/10)."
+            },
+            {
+                "snippet": "The pace of the commercial market recovery remains impacted by government restrictions related to COVID-19, especially China.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that COVID-related government restrictions are still slowing recovery.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Singles out China, a major customer base, magnifying potential revenue impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates ongoing (‘remains’) condition rather than resolved issue.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Identifies a continuing external barrier (government restrictions) in a key market, leading to a high severity score (6/10)."
+            },
+            {
+                "snippet": "Airline financial performance, which influences demand for new capacity, has been adversely impacted by the COVID-19 pandemic.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic directly to deterioration in customer financial health.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects weakened customers to lower future aircraft demand.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States impact as historical fact ('has been'), confirming realized risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Demonstrates an already-realized negative effect on customers that feeds back into Boeing’s order pipeline, justifying a high score (6/10)."
+            }
+        ],
+        "calculated_score": 31,
+        "average_severity": 5.166666666666667
+    }
+]

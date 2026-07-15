@@ -1,0 +1,216 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "KMI’s 2022 Form 10-K repeatedly links the 2020-present COVID-19 pandemic to both realized and continuing enterprise-level risks.  Management discloses that the pandemic has already depressed commodity demand and prices, disrupted global supply chains, impaired customer credit quality, and forced a shift to hybrid/remote work that heightens cyber-security exposure.  The filing also stresses that these impacts could persist or intensify because of variants, inflation, renewed lockdowns, or lingering structural changes in energy markets.  Although some recovery occurred in 2021, the company cannot yet quantify the final damage and explicitly warns that COVID-19 may «materially adversely affect» its business, cash flows and ability to execute its plan.  Because the filing date (Feb 2022) is less than three years after the WHO declaration (Mar 2020), the Time Decay Principle permits high severity scores.  The narrative is largely specific (naming supply-chain, workforce, cyber, commodity-price and customer-credit channels) and forward-looking, with only modest mitigating language (uncertainty, partial rebound).  Overall, the risk remains acute and largely unmitigated, justifying elevated micro-scores across the extracted evidence.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic has adversely affected, and could continue to adversely affect, our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States an actual adverse impact already realized ('has adversely affected').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Adds forward-looking continuation risk ('could continue').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Generic wording without quantification slightly tempers precision.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct admission of past and potential future harm yields a high but not maximum score due to lack of detail."
+            },
+            {
+                "snippet": "The COVID-19 pandemic and the efforts to control it resulted in a significant decline in global economic activity and significant disruption of global supply chains in 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to 'significant' macro decline and supply-chain disruption.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "References concrete historical impact (2020).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lacks company-specific financial metric.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specifies supply-chain and economic damage, but absence of firm-level numbers keeps score at 6."
+            },
+            {
+                "snippet": "The resulting downturn in economic activity negatively impacted global demand and prices for crude oil, natural gas, NGL, refined petroleum products, CO₂, steel, chemicals and other products that we handle in our pipelines, terminals, shipping vessels and other facilities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details direct impact on demand/prices of multiple commodities the company handles.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects macro effect to company’s operational portfolio (pipelines, terminals, vessels).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Impact described qualitatively, no dollar figures.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Granular linkage to core revenue drivers raises severity, moderated slightly by lack of quantification."
+            },
+            {
+                "snippet": "As the pandemic and responses to it continue, we may experience further disruptions to commodities markets, supply chains and the health, availability and efficiency of our workforce, which could adversely affect our ability to conduct our business and operations and limit our ability to execute on our business plan.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple critical channels: commodities markets, supply chains, workforce health/availability.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights potential to impede both operations and strategic execution.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses conditional language ('may'), reducing certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Comprehensive listing of operational vulnerabilities drives high score despite conditional phrasing."
+            },
+            {
+                "snippet": "COVID-19 may materially adversely affect our business, results of operations, financial condition and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses strong trigger word 'materially' across multiple financial dimensions.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Forward-looking warning maintains relevance.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No specificity or quantification.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Materiality language elevates risk but generic nature caps score at 5."
+            },
+            {
+                "snippet": "Even after the COVID-19 pandemic has subsided, we may experience materially adverse impacts to our business due to residual impacts from measures taken to combat the virus.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Signals long-tail, post-pandemic residual risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Again uses 'materially adverse' qualifier.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Speculative ('may'); lacks concrete examples.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows persistence of risk but with high uncertainty and no detail, yielding moderate score."
+            },
+            {
+                "snippet": "Additionally, demand for such products can decline due to situations over which we have no control, such as the COVID-19 pandemic and various measures that federal, state and local authorities have implemented in response to the virus or its economic consequences.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic and government measures to demand destruction.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Presents as one of several uncontrollable factors, diluting primacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Acknowledges pandemic-driven demand risk but in a broad list context, so lower severity."
+            },
+            {
+                "snippet": "As a result of the COVID-19 pandemic and our subsequent continuation of hybrid office-and-remote-working arrangements with some of our employees, remote access to our networks and systems has increased substantially.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies operational change (hybrid/remote work) directly caused by pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Implies heightened cyber-security exposure through greater remote access.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No explicit statement of financial magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights new cyber vulnerability channel; moderate score due to implicit rather than explicit impact."
+            },
+            {
+                "snippet": "While we have taken additional steps to secure our networks and systems, we may be more vulnerable to a successful cyber-attack or information security incident when significant numbers of our employees are working remotely.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links remote work (pandemic) to increased vulnerability to cyber-attack.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions some mitigation efforts.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mitigation language and conditional tone outweigh aggravation, resulting in low net score."
+            },
+            {
+                "snippet": "In 2020, the global economic slowdown caused by COVID-19, and the coinciding extreme drop in crude oil prices, which was exacerbated by the effects of the pandemic, significantly impacted the financial condition of many companies, particularly exploration and production companies, including some of our customers or counterparties.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows pandemic-driven customer credit risk that can cascade to company.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses 'significantly impacted' to emphasize severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact framed as historical (2020) rather than ongoing.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Details counterparty distress, but retrospective framing tempers urgency."
+            }
+        ],
+        "calculated_score": 43,
+        "average_severity": 4.3
+    }
+]

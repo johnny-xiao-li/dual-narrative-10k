@@ -1,0 +1,106 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, completed almost five years after the World Health Organization declared COVID-19 a pandemic, still contains multiple references that link the outbreak to tangible operational stresses for Skyworks (SWKS).  The company discloses both realised impacts (e.g., supply-chain shortages that lengthened lead-times and inflated costs) and continuing, forward-looking vulnerabilities (employee turnover linked to remote-work trends, possible lockdowns or quarantines, and broad ‘global health crisis’ disruptions).  These statements are moderately specific—naming concrete effects such as production delays and higher material costs—but they stop short of quantifying dollar values or margin erosion.  Because the pandemic is now a medium-term event (≈4½ years old at the 2024-11-15 filing date), the Time-Decay Principle warrants mid-range severity scores: the risks are still live and material yet no longer at their 2020–2021 peak intensity.  Overall, the evidence supports a medium risk posture, with individual snippet scores clustered in the 3-6 range.",
+        "evidence_list": [
+            {
+                "snippet": "In part as a result of the COVID-19 pandemic, we experienced supply constraints for certain materials and components, which impacted production lead times, the cost of such materials and components, and our ability to meet customer demand for our products.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct causal link to COVID-19 is explicitly stated (\"as a result of the COVID-19 pandemic\").",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Details concrete operational impacts: supply constraints, longer lead-times, higher input costs, inability to meet demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes a realised (not merely potential) effect, showing the risk has already materialised.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Medium-term time decay (≈4.5 years) tempers severity.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Strong, specific linkage between COVID-19 and measurable operational harm justifies a high mid-range score of 6 after a time-decay haircut."
+            },
+            {
+                "snippet": "The increased ability of employees in our industry to work from home or in other remote work arrangements has impacted, and may continue to impact, the mobility and turnover of our employees, potentially making it more difficult for us to compete in the job market.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies structural shift to remote work—an indirect, enduring consequence of the pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies negative human-capital effects (higher mobility and turnover, competitive disadvantage).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking phrasing ('may continue') signals ongoing exposure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Moderately severe, forward-looking HR risk tied to pandemic-triggered remote-work dynamics earns a score of 5."
+            },
+            {
+                "snippet": "acts of terrorism, widespread illness, the effects of global health crises on business conditions in our industry or in the jurisdictions in which we do business, or other deterioration of public health conditions, and war,",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists 'widespread illness' and 'global health crises' as risk factors affecting business conditions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Applies the risk across all jurisdictions and the entire industry, indicating broad exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic wording and lack of COVID-specific detail reduce precision.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic but still relevant acknowledgement of pandemic-type threats yields a lower, but non-zero, score of 3."
+            },
+            {
+                "snippet": "restrictive governmental actions (such as restrictions on transfer of funds, restrictions on individuals’ movement, including travel restrictions, quarantines, lockdowns, and curfews, trade protection measures, including export duties, quotas, customs duties, border taxes, border closures, increased import or export controls, export licenses, and tariffs, and restrictions on the purchase of products made or containing technology or components from certain companies or from companies located in certain jurisdictions)",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates pandemic-related government measures (travel restrictions, quarantines, lockdowns, curfews) that can disrupt operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights potential for increased operating costs and trade barriers.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Very broad, list-style clause with no specific COVID reference lowers specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Broad listing of pandemic-style governmental actions signals exposure but lacks specificity, meriting a score of 3."
+            }
+        ],
+        "calculated_score": 17,
+        "average_severity": 4.25
+    }
+]

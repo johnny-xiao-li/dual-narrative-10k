@@ -1,0 +1,60 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "GIS acknowledges COVID-19 mainly as an external shock that can trigger commodity price volatility and disrupt its end-to-end supply chain.  The references appear exclusively in the Risk Factors section and are framed as forward-looking contingencies (“could” language) rather than descriptions of impacts already incurred.  They emphasize two channels: (1) pandemics can spike input costs for raw materials, packaging and energy, squeezing margins; and (2) pandemics can physically disrupt manufacturing, logistics and labor availability, impeding the company’s ability to make, move and sell goods.  No quantitative figures or time-bound disclosures are supplied, and the risk is bundled with many other hazards, signalling generic disclosure rather than bespoke analysis.  Because the filing date (June 2023) is just over three years after the WHO declaration, the Time Decay Principle moderates the severity from “recent, acute” to the lower edge of “medium-term”; the lack of specificity further tempers the score.  Overall, the pandemic remains a material but not extreme risk, meriting mid-level severity scores for the evidence sentences.",
+        "evidence_list": [
+            {
+                "snippet": "The principal raw materials that we use are commodities that experience price volatility caused by external conditions such as weather, climate change, product scarcity, limited sources of supply, commodity market fluctuations, currency fluctuations, trade tariffs, pandemics, war (including international sanctions imposed on Russia for its invasion of Ukraine), and changes in governmental agricultural and energy policies and regulations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites pandemics as a driver of commodity price volatility affecting raw materials.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects the event to a financial impact channel (input-cost volatility threatens margins).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presented in a long catch-all list, signalling generic disclosure and diluting event specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides a clear but generic linkage between pandemics and raw-material cost risk; moderate severity after deducting for boiler-plate style."
+            },
+            {
+                "snippet": "Damage or disruption to raw material supplies or our manufacturing or distribution capabilities due to weather, climate change, natural disaster, fire, terrorism, cyber-attack, pandemics, war, governmental restrictions or mandates, labor shortages, strikes, import/export restrictions, or other factors could impair our ability to manufacture or sell our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemics as a potential direct cause of supply-chain disruption.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights operational impact—ability to manufacture or sell products could be impaired.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "References related aggravators (labor shortages, governmental mandates) that often accompany pandemics.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Risk is expressed in broad, conditional language among many other hazards, reducing specificity.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Directly links pandemics to critical supply-chain and operational risks, but generic wording and list format cap the score at a moderate level."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 4.5
+    }
+]

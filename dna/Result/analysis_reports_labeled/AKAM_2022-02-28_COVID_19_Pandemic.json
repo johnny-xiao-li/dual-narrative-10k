@@ -1,0 +1,252 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Akamai’s 2022-02-28 Form 10-K embeds numerous references to the COVID-19 pandemic that collectively portray a broad, still-unfolding, risk landscape.  The disclosures span concrete, already-experienced operational impacts (e.g., increased network traffic in 2020, supply-chain delays, remote-work strain) and forward-looking uncertainties (continued variants, possible employee-morale issues, customer demand shifts).  Most statements are recent-event references (< 3 years), so the Time Decay Principle allows elevated scores.  However, the severity of each sentence varies: some describe adverse effects (supply-chain constraints, facility inaccessibility, customer disruptions) while others note short-term upside (surge in 2020 media revenue) that may mask underlying vulnerability.  Nearly all language is qualitative rather than quantified, tempering maximum scores.  Overall, the company acknowledges pandemic-driven risks across revenue volatility, supply chain, labor practices, cybersecurity posture and service delivery.  Because these impacts are current and material but largely un-quantified, most evidence snippets fall in the mid-to-upper severity band (4-7/10), with particularly high weight assigned to continuing supply-chain lead-time problems.  Mitigating language (e.g., flexible work program) or positive impacts (traffic/revenue spikes) reduce some individual scores but do not eliminate the pandemic as a significant risk factor today.",
+        "evidence_list": [
+            {
+                "snippet": "We experienced a significant increase in revenue from our media solutions in 2020 due in large part to greater consumption of online media and games during the onset of the COVID-19 pandemic and associated stay-at-home orders across the globe.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties a major change in revenue to the pandemic (‘significant increase… due in large part to’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Demonstrates direct, realized impact in the recent period (0-3 yrs).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact described is positive (revenue boost), partially mitigating risk severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct, recent and material pandemic linkage, but outcome is beneficial, moderating overall risk level to 5/10."
+            },
+            {
+                "snippet": "In 2021, our revenue growth from media solutions declined as stay-at-home orders were lifted.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows reversal of earlier gains; indicates demand volatility tied to pandemic measures.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Direct temporal link to the lifting of pandemic restrictions.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights a negative swing connected to pandemic dynamics, but lacks quantification, yielding a moderate 4/10."
+            },
+            {
+                "snippet": "In addition, in 2021, some of our customers continued to experience disruptions to their businesses following the emergence of COVID-19 variants.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes ongoing customer disruptions attributable to new virus variants – forward-looking risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses ‘continued’ to stress persistence into current period.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Persistent customer disruption from variants elevates operational risk to 6/10."
+            },
+            {
+                "snippet": "In addition, we could face strains on, or failures of, our internal IT systems if governmental restrictions or vaccine or other mandates due to the ongoing COVID-19 pandemic limit the ability of our command center personnel to work in our physical locations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential operational failure (IT system strain) directly linked to pandemic-related mandates.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies critical personnel (command center) and physical-location dependency.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete scenario of operational disruption merits 5/10 severity."
+            },
+            {
+                "snippet": "Our ability to detect vulnerabilities could be particularly limited during extraordinary events, such as the ongoing COVID-19 pandemic, where more staff are working remotely and dealing with unusual distractions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-driven remote work to diminished cybersecurity detection capacity.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights security risk – high-impact domain.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Describes elevated security risk under pandemic conditions; lack of quantification keeps score at 5/10."
+            },
+            {
+                "snippet": "…other circumstances outside of our control such as trade disputes, political unrest, the imposition of sanctions, export controls, warfare, military or armed conflict, such as the Russian invasion of Ukraine, terrorist attacks, public health emergencies such as the ongoing COVID-19 pandemic and natural disasters that could disrupt our ability to provide services or limit customer purchases of them;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists COVID-19 public-health emergency as potential cause of service disruption and demand drop.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Presented generically among other macro threats (dilutes specificity).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic enumeration of pandemic as one of many risks yields a low-moderate 2/10."
+            },
+            {
+                "snippet": "Inability to access facilities where we would like to install servers, or perform maintenance on existing servers, because of governmental restrictions on access due to stay-at-home orders or social distancing requirements due to the ongoing COVID-19 pandemic or other events impedes our ability to expand or maintain capacity.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details direct operational constraint (facility access, server maintenance).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Ties constraint specifically to pandemic-related stay-at-home/social-distancing orders.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Concrete capacity-limiting scenario under pandemic restrictions merits 6/10."
+            },
+            {
+                "snippet": "Global supply chain constraints in the wake of the COVID-19 pandemic continue to increase lead times for equipment components, which adds risk to our ability to flex to meet future business needs.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct, ongoing supply-chain disruption with operational consequence (longer lead times).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Uses strong wording ‘continue to increase’ indicating persistence.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Sustained supply-chain impact threatens capacity; high relevance drives 7/10 score."
+            },
+            {
+                "snippet": "From time to time, it has been, and may continue to be, more difficult to purchase equipment that is manufactured in areas that face disruptions to operations due to unrest or other political activity, public health issues (such as the ongoing COVID-19 pandemic), safety issues, natural disasters or general economic conditions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges procurement difficulty tied to pandemic disruption regions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Prospective language ‘may continue’ signals ongoing uncertainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Moderate supply-chain risk stated in conditional terms earns 4/10."
+            },
+            {
+                "snippet": "Due to the ongoing COVID-19 pandemic, nearly all of our employees worldwide have been working remotely since the first quarter of 2020.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States large-scale operational shift (remote work) directly caused by pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Descriptive without explicit negative impact specified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Fact of remote-work shift indicates exposure but lacks expressed harm, so 2/10."
+            },
+            {
+                "snippet": "Although we believe a flexible working policy will help us attract and retain talent, the long-term continuation of pandemic-based restrictions and implementation of our FlexBase program could, among other things, negatively impact employee morale and productivity, inhibit our ability to hire and train new employees and impede our ability to support customers at the levels they expect.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete HR and customer-service risks if pandemic restrictions persist.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Includes partial mitigation (belief flexible policy will help).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Potential workforce-related downsides offset by some mitigation result in 3/10."
+            },
+            {
+                "snippet": "During 2020, we saw a dramatic increase in traffic growth on our network related to the shutdowns and restrictions from the novel coronavirus, or COVID-19, pandemic.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct link between pandemic restrictions and significant traffic surge.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Positive impact (traffic increase) partially offsets risk perception.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Describes beneficial traffic spike; modest risk evidence, score 2/10."
+            },
+            {
+                "snippet": "Primarily as a result of the rollback of many pandemic-related restrictions, we have seen the rate of traffic growth moderate during 2021.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates demand normalization tied to easing of pandemic measures – potential revenue risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Moderation (not decline) suggests limited severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Softening growth linked to pandemic rollback presents mild risk, 2/10."
+            }
+        ],
+        "calculated_score": 53,
+        "average_severity": 4.076923076923077
+    }
+]

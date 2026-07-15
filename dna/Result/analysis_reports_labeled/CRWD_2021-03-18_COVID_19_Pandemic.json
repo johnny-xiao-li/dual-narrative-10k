@@ -1,0 +1,218 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CRWD’s 2021-03-18 filing squarely positions COVID-19 as a live, multi-dimensional threat.  The Risk Factors section makes clear that management sees the pandemic as both an already-visible disruptor (e.g., customer billing delays, forced remote-work migration, liquidation of investments) and a latent, hard-to-quantify overhang (uncertainty about demand, churn, collections).  The language toggles between concrete present-day impacts—travel bans, virtual events, productivity drag, higher cyber-risk—and forward-looking cautions that effects may surface only in future periods because of the company’s subscription model.  The disclosures are company-specific, detailing operational steps (100 % remote workforce, sales-cycle elongation) and financial exposures (accounts-receivable delays, possible revenue hit, conversion of securities to cash).  Because the event is less than one year old at the filing date, the Time-Decay Principle allows elevated severity scores; sentences that quantify or enumerate direct operational or financial consequences are weighted more heavily, while statements that emphasize mitigation (e.g., “impact has been modest so far”) receive downward adjustments.  Overall, COVID-19 is presented as a high but still evolving risk with potentially material downside, justifying generally high snippet scores in the 5-9 range.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic could adversely affect global economic conditions and our business, operating results and future revenue.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to material adverse effects on company performance.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Forward-looking but broad and unquantified.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear statement of material risk; generic wording keeps score at 6 rather than higher."
+            },
+            {
+                "snippet": "This contagious disease outbreak has spread across the globe and is impacting worldwide economic activity and financial markets.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges current, global economic impact already in progress.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows existing macro impact but not yet tied directly to CRWD’s numbers, so mid-level score."
+            },
+            {
+                "snippet": "In light of the uncertain and rapidly evolving situation relating to the spread of COVID-19, we have taken precautionary measures intended to mitigate the spread of the virus and minimize the risk to our employees, customers, partners, and the communities in which we operate.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes uncertainty and evolving risk environment (aggravating).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists mitigation actions (reduces severity).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Uncertainty noted (+) but offset by preventive actions, yielding modest score."
+            },
+            {
+                "snippet": "These measures include transitioning our employee population to work remotely from home until at least April 30, 2021, imposing travel restrictions for our employees, shifting customer, partner and investor events to virtual-only formats, and limiting capacity at any of our offices which have reopened or may reopen during the pandemic’s duration.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists concrete operational disruptions (remote work, travel bans).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Time-bounded measure (‘until at least April 30 2021’) shows ongoing impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specific operational shifts signal material near-term disruption, warranting score of 6."
+            },
+            {
+                "snippet": "These precautionary measures could negatively affect our customer success efforts, delay and lengthen our sales cycles, impact our sales and marketing efforts, reduce employee efficiency and productivity, slow our international expansion efforts, increase cybersecurity risks, and create operational or other challenges, any of which could harm our business and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple direct business harms (sales cycle, productivity, cyber-risk).",
+                            "points": 7
+                        },
+                        {
+                            "reason": "Uses strong conditional language ‘could harm our business’.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Highly specific operational and strategic impacts; recent event, so high score of 8."
+            },
+            {
+                "snippet": "Some of our customers have been negatively impacted by the COVID-19 pandemic which could result in delays in accounts receivable collection, or result in decreased technology spending which could negatively affect our revenues.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete financial impacts (collection delays, reduced spend).",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Ties directly to revenue decline risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct line to revenue risk boosts score to 8."
+            },
+            {
+                "snippet": "More generally, the COVID-19 pandemic has adversely affected economies and financial markets globally, and continued uncertainty could lead to a prolonged economic downturn, which could result in a larger customer churn than we currently anticipate and reduced demand for our products and services, in which case our revenues could be significantly impacted.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to prolonged downturn and significant revenue impact.",
+                            "points": 7
+                        },
+                        {
+                            "reason": "Highlights potential for increased churn and reduced demand.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Combines macroeconomic and company-specific revenue threats—near-max severity."
+            },
+            {
+                "snippet": "Thus far, the impact of the pandemic has been modest with some customers, particularly in heavily impacted industries, requesting special billing or payment terms.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes customer requests for special billing—negative cash-flow sign.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States overall impact ‘has been modest’, a mitigating qualifier.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Mitigation cancels out limited aggravation, yielding neutral score."
+            },
+            {
+                "snippet": "In March 2020, we implemented several measures to help protect the health and safety of our employees around the globe including restricting all travel and transitioning 100% of our workforce to be remote.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes full remote-work shift and travel halt—significant operational change.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Protective intent slightly mitigates risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Operational disruption flagged; some mitigation; mid-level score."
+            },
+            {
+                "snippet": "We continue to conduct business as usual with modifications to employee travel, employee work locations, customer interactions, and cancellation of certain marketing events, among other things.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates ongoing operational modifications (travel, events cancelled).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Phrase ‘business as usual’ signals mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Mixed signal—changes acknowledged but tempered; low score."
+            },
+            {
+                "snippet": "The extent to which the COVID-19 pandemic may impact our longer-term operational and financial performance remains uncertain.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights significant uncertainty over long-term performance.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Uncertainty itself is a risk but unquantified; moderate score."
+            },
+            {
+                "snippet": "Furthermore, due to our subscription-based business model, the effect of the COVID-19 pandemic may not be fully reflected in our results of operations until future periods, if at all.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of lagging financial impact due to business model.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Lag effect could mask future downside—meaningful risk."
+            }
+        ],
+        "calculated_score": 58,
+        "average_severity": 4.833333333333333
+    }
+]

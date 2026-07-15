@@ -1,0 +1,134 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "News Corporation’s 2022-08-12 Form 10-K shows that the COVID-19 pandemic is treated as an active, ongoing, high-severity risk.  The filing repeatedly moves beyond generic cautions to cite concrete, realized impacts—e.g., lower print volumes, cancelled sporting events that hurt subscription revenues, and higher programming costs—while also flagging forward-looking exposure such as future advertising weakness, supply-chain disruption and labor-market tightness.  The language confirms that these effects have already ‘had’ a material impact and ‘may in the future’ continue, illustrating both historical loss and continuing uncertainty.  Because the pandemic falls well within the 0-3-year “recent” window, Time-Decay allows elevated scores (7-10) for the strongest snippets.  Where statements are more conditional or bundled with other macro threats, scores are moderated.  No significant mitigating language (e.g., large-scale hedging, lasting recovery, or quantified offsets) is provided, so deductions are modest.  Overall, the disclosure set supports a high composite risk assessment, with individual snippet scores ranging from 3 (generic but relevant) up to 8 (direct, realized, multi-area impacts).",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 outbreak and measures to prevent its spread caused significant and prolonged unemployment, a decline in consumer confidence, changes in consumer behavior, significant economic deterioration, volatility in the capital markets, inflation, supply chain disruptions and an increasingly competitive labor market and have had, and may in the future have, an adverse effect on the Company’s business and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly attributes multiple macro disruptions (supply chain, labor) directly to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States both realized (‘have had’) and forward-looking (‘may in the future have’) adverse effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers broad company-wide impact but remains unquantified and high-level.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, company-wide and ongoing impact of COVID-19 described; recent event allows high score."
+            },
+            {
+                "snippet": "For example, business restrictions and shelter-in-place orders caused a decline in print newspaper volumes, while postponements and cancellations of sports events negatively impacted commercial subscription revenues and broadcast and Kayo Sports subscribers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies specific operational impacts across multiple business lines (print, sports broadcasting).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Describes realized negative effects (declines and cancellations already occurred).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Multi-segment nature increases materiality and breadth of risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Concrete examples of losses in distinct segments make this high-severity evidence."
+            },
+            {
+                "snippet": "Advertising revenues also declined due to the resulting economic downturn.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-driven downturn to a core revenue stream (advertising).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Impact stated as historical fact but not quantified.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Single-area focus (advertising only) limits breadth.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct hit to advertising revenue is material but narrower and unquantified, yielding a mid-high score."
+            },
+            {
+                "snippet": "Natural disasters, including extreme weather, pandemics (including the novel coronavirus (“COVID-19”) pandemic) and other widespread health crises, inflation, including higher labor costs, supply chain disruptions, war or acts of terrorism have led and could continue to lead to greater economic uncertainty and reduced spending by advertisers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists COVID-19 pandemic as driver of reduced advertising spend.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking conditional language (‘could continue to’) indicates potential, not certain, impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic, bundled with other risks, forward-looking only; hence lower but still relevant score."
+            },
+            {
+                "snippet": "The Company’s subscription television business has experienced higher programming costs due to, among other things, ... reduced content supply in the previous two years due to the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites concrete cost increase tied directly to pandemic-driven content shortages.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Impact already realized (‘has experienced’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific cost pressure in a key segment; moderate severity without quantification."
+            },
+            {
+                "snippet": "These and other factors such as financial pressures, industry trends or economics, labor unrest, changes in laws and regulations, natural disasters, including extreme weather (which may occur with increasing frequency and intensity), pandemics and other widespread health crises or other circumstances affecting these third-party suppliers and print and distribution partners could continue to increase the Company’s printing and distribution costs and could lead to disruptions, reduced operations or consolidations within the Company’s printing and distribution supply chains and/or of third-party print sites and/or distribution routes.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemics as threat to supply chain and cost escalation.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Effect framed as conditional (‘could continue’); grouped with several other factors.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Supply-chain risk acknowledged but hypothetical and shared with other drivers, so modest score."
+            }
+        ],
+        "calculated_score": 33,
+        "average_severity": 5.5
+    }
+]

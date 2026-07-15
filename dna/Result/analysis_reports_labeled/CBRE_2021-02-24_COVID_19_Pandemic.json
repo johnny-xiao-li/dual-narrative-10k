@@ -1,0 +1,330 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CBRE’s 2021 filing depicts COVID-19 as a pervasive, multi-dimensional threat that is both already impairing results and likely to reshape the company’s risk profile for years.  The narrative combines facts (2020 revenue-line declines, emergency remote-work deployment, essential-worker exposure) with forward-looking warnings about credit-market dislocations, structural demand changes from work-from-home, and possible litigation over workplace infections.  The company uses forceful language—“material adverse effect,” “significant economic and societal disruption,” “decline in real estate sales, financing, construction and leasing activity”—that goes far beyond boiler-plate.  Most of the statements refer to impacts that have already happened or are expected to persist through 2021, positioning them in the 0-3-year window where Time Decay permits high scores.  Only limited mitigating language (e.g., mention of best-practice safeguards) appears, and it is outweighed by extensive detailing of revenue, liquidity, operational and reputational vulnerabilities.  Overall, the risk evidence is recent, specific, and enterprise-wide, justifying elevated severity scores across the extracted sentences.",
+        "evidence_list": [
+            {
+                "snippet": "For example, during 2020, commercial real estate markets globally were severely impacted by a sharp decline in economic activity due to the spread of Covid-19, which put downward pressure on certain parts of our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites an actual, time-stamped (2020) impact that is directly tied to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links pandemic to specific operational pressure on business segments (‘certain parts of our business’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Event is within 0-3 years, so no time-decay reduction.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Realised 2020 impact with direct causal link to COVID-19 yields a high severity score of 8."
+            },
+            {
+                "snippet": "The Covid-19 pandemic could have a material adverse effect on our business, results of operations, cash flows and financial condition.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses the phrase ‘material adverse effect’, signalling high severity.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicitly connects risk to COVID-19 across multiple financial dimensions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recent event window allows elevated scoring.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Strong, broad warning but still prospective; scores 7."
+            },
+            {
+                "snippet": "The Covid-19 pandemic has created significant economic and societal disruption, which has adversely affected our business operations, and may materially and adversely affect our results of operations, cash flows and financial condition.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States both realised impacts (‘has … adversely affected’) and future materiality.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights breadth of disruption (economic and societal).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recency (0-3 years).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Combines realised damage with forward risk across cash flow, operations, and liquidity—score 8."
+            },
+            {
+                "snippet": "In 2020, the Covid-19 pandemic resulted in a decline in real estate sales, financing, construction and leasing activity, adversely impacting deal volume in our property sales and leasing activity in our Advisory Services segment.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies concrete operational impacts (decline in multiple activities).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Identifies specific segment affected (Advisory Services).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Refers to 2020 (very recent).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, recent performance hit in a named segment—maximises severity within recent window."
+            },
+            {
+                "snippet": "We expect this impact to continue in 2021.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Projects continuation of negative effects into the next fiscal year.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Brief forward-looking statement without detail; moderate weight."
+            },
+            {
+                "snippet": "The continued spread of the Covid-19 pandemic may cause further economic weakness and may result in a general decline in the value of commercial real estate and in rents, which in turn may reduce our revenue from property commissions derived from property leasing, sales, valuation and financing, as well as property management fees and other fees and revenues, equity earnings and gains on asset sales associated with development or investment management activities.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple revenue streams at risk (leasing, sales, valuation, management fees, equity earnings).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links pandemic to fundamental asset-value decline and rent pressure.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking but detailed impact pathway.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Comprehensive mapping of revenue erosion channels earns high score."
+            },
+            {
+                "snippet": "It may also result in losses due to our participation in the Government Sponsored Enterprise lending programs, which require us to satisfy certain forbearance and loss sharing/repurchase obligations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete financial mechanisms (forbearance, loss-sharing) that could trigger losses.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Shows contractual exposure amplified by pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recent event context, no mitigation cited.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specific, quantifiable obligation risks linked to pandemic justify score of 7."
+            },
+            {
+                "snippet": "Furthermore, our investment management, development services and capital markets (including property sales and mortgage and structured financing services) businesses are sensitive to credit costs and availability, as well as financial liquidity, and dislocations in the capital markets related to the Covid-19 pandemic may adversely impact the performance of these businesses.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to credit-market dislocations affecting multiple business lines.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies which segments are at risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking adverse impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Important but less concrete than realised impacts, so mid-high score."
+            },
+            {
+                "snippet": "In addition, if office workers continue to work from home after the Covid-19 crisis has passed, it may alter the demand for office space, particularly in major urban areas, which may in turn lead to a decline in other sectors of commercial real estate such as multi-family and retail.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights structural demand shift (remote work) with long-term revenue consequences.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Cascading impact on multiple property sectors.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking but potentially permanent market change.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Signals fundamental shift in client demand; high severity."
+            },
+            {
+                "snippet": "In 2020, we transitioned a significant subset of our employee population to remote work environments to help mitigate the public health risk and comply with government directives, most of whom continue to work remotely.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Evidence of large-scale operational disruption (remote work).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Implies ongoing exposure and dependency on remote arrangements.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Contains mitigating intent (health risk mitigation compliance).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Operational change is notable but partly mitigative; modest score."
+            },
+            {
+                "snippet": "These arrangements increase our reliance on technology and may exacerbate certain risks to our business, including those relating to the security and effectiveness of our information and technology networks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces new cyber/IT vulnerability created by pandemic-driven remote work.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicit recognition of exacerbated risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Adds a second-order risk (cyber) tied to pandemic operations; medium severity."
+            },
+            {
+                "snippet": "As a result, they may be exposed to Covid-19 in their workplaces.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies direct health and safety risk for essential workers.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Implication of potential liability and absenteeism.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "On-site exposure risk is tangible but not yet linked to financial magnitude; score 5."
+            },
+            {
+                "snippet": "If one of more of our employees, independent contractors, clients or others at our worksites becomes ill from Covid-19 and attributes their exposure to such illness to us or one of our worksites, we could be subject to allegations of failure to adequately mitigate the risk of such exposure.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces litigation and liability exposure tied to workplace infections.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers multiple stakeholder groups (employees, contractors, clients).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Potential for costly legal claims raises severity to 6."
+            },
+            {
+                "snippet": "The extent to which the Covid-19 pandemic impacts our business, results of operations, cash flows and financial condition will depend on numerous evolving factors that we may not be able to accurately predict, including: the duration and scope of the pandemic; governmental, business and other actions that have been and continue to be taken in response to the pandemic; the impact of the pandemic on economic activity and actions taken in response; the effect on our clients and client demand for our services; the health of and the effect on our workforce and our ability to meet staffing needs, particularly if members of our workforce are quarantined as a result of exposure; the ability of our clients to pay for our services; the acceleration of secular changes in the use of certain commercial real estate; and any closures of our or our clients’ offices and facilities.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Comprehensive list of uncertainty drivers affecting multiple performance metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Admits inability to predict, signalling high residual risk.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Breadth of unknowns underscores persistent uncertainty; score 6."
+            },
+            {
+                "snippet": "In addition, if the pandemic continues to create disruptions in the credit or financial markets, or impacts our credit ratings, it could adversely affect our ability to access capital on favorable terms and continue to meet our liquidity needs, all of which are highly uncertain and cannot be predicted.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights critical liquidity and funding risk tied to pandemic.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "References potential credit-rating impact.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct threat to capital access—high severity score."
+            },
+            {
+                "snippet": "To the extent the Covid-19 pandemic adversely affects our business and financial results, it may also have the effect of heightening many of the other risks described elsewhere in this Annual Report.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates compounding or cascading effect on other risk factors.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Generic but shows pandemic as risk amplifier; lower mid-range score."
+            }
+        ],
+        "calculated_score": 98,
+        "average_severity": 6.125
+    }
+]

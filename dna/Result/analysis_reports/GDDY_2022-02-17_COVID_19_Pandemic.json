@@ -1,0 +1,144 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "GDDY’s 2022 filing acknowledges COVID-19 as an ongoing, multi-dimensional threat that is already influencing operations and could materially affect future performance.  The company notes concrete, present-day impacts (large-scale remote work, higher cybersecurity exposure, and reduced demand for higher-priced “do-it-for-you” services) while also flagging potential future pressures (cost increases, efficiency losses, cultural deterioration, and macro-economic weakness among small-business customers).  These disclosures are largely qualitative—no dollar figures or quantified downside is given—but they specifically link the pandemic to operational, financial and human-capital risks.  Because the event is recent (within the 0–3-year window) and several statements describe impacts that have already occurred or remain highly probable, the risk evidence merits moderate-to-high severity scores.  Mitigating language (e.g., “no material impact so far”) tempers some passages, but overall the filing conveys a live, evolving exposure rather than a remote contingency.  Applying the Time Decay Principle, snippet scores fall mostly in the 6-8 range for direct, specific impacts, and lower where the company emphasizes uncertainty or current immateriality.",
+        "evidence_list": [
+            {
+                "snippet": "As a result of the COVID-19 pandemic, a substantial portion of our personnel, including our GoDaddy Guides, have been working remotely, which could negatively affect our culture.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes operational change to the pandemic (‘as a result of the COVID-19 pandemic’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes large-scale remote-work transition, an ongoing operational disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies a specific negative outcome (damage to corporate culture).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear causal link to COVID-19 and explicit operational risk yield a solid mid-high score of 6."
+            },
+            {
+                "snippet": "The full or partial return to in-office work and the potential transition to permanent remote working arrangements for some employees may result in increased costs, decreased efficiency, deterioration of company culture and/or other unforeseen challenges.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates financial impact (‘increased costs’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights operational risk (‘decreased efficiency’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions cultural harm and unforeseen challenges, broadening the risk vector.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty tied to pandemic-driven work-model shifts.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Multiple concrete potential impacts tied to pandemic-driven workplace changes justify a score of 6."
+            },
+            {
+                "snippet": "However, we cannot predict how our employees or business will be impacted by the ongoing COVID-19 pandemic and we may experience difficulties onboarding new employees, managing employees and maintaining our culture while we work remotely and continue our return-to-office.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states uncertainty about pandemic impact, signalling elevated risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists specific HR challenges (onboarding, management, culture).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "References continuing remote-work context linked to the pandemic.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Less concrete than prior snippets but still outlines plausible HR risks; uncertainty lifts score to 4."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has disrupted, and may continue to disrupt, the operations of our customers as a result of business shutdowns, decreased demand from their customers, travel restrictions, loss of employment and uncertainty in the financial markets, all of which have negatively impacted, and could continue to negatively impact, our business and operating results by reducing customer spending on our products and services, in particular for our higher-priced, do-it-for-you services.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemic HAS already disrupted customers—evidence of realized impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links customer disruption to reduced spending on company products (direct revenue risk).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies mechanisms (shutdowns, demand decline, travel restrictions, etc.).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights vulnerability of a particular segment (‘higher-priced, do-it-for-you’ services).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Describes concrete, realized financial harm and multiple causal channels; earns high score of 8."
+            },
+            {
+                "snippet": "Incremental costs of these remote working arrangements have not been material, though such arrangements have increased the risk of cybersecurity incidents as individuals have been working through less secure network connections.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies heightened cybersecurity risk stemming from pandemic-driven remote work.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Mitigating language: notes costs ‘have not been material’.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Cyber-risk is significant but tempered by statement of immaterial cost to date; net score 2."
+            },
+            {
+                "snippet": "While the pandemic has not had a material impact on our results of operations so far, the extent to which it may impact our future results and operations will depend on future developments, including: (i) the duration of the pandemic; (ii) the widespread distribution and long-term efficacy of vaccines and the availability of effective treatments; (iii) the duration and parameters of global governmental measures put in place to control the spread of the virus; and (iv) the continuing economic impact of the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges continuing uncertainty and multiple external factors influencing future impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mitigating statement that no material impact has occurred so far.",
+                            "points": -3
+                        },
+                        {
+                            "reason": "Highlights dependency on vaccine efficacy and government measures, underscoring uncontrollable risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mitigation offsets much of the risk language, yielding a low but non-zero score of 1."
+            }
+        ],
+        "calculated_score": 27,
+        "average_severity": 4.5
+    }
+]

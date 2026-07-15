@@ -1,0 +1,66 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Boston Scientific’s 2024-02-20 Form 10-K treats COVID-19 as an ongoing, but no longer acute, threat. The company couches the pandemic in a broader category of ‘global pandemics or other public-health crises’, signalling that management considers COVID-19 largely stabilised yet still capable of flaring or mutating into further disruption. Language is forward-looking and largely conditional (“could adversely impact”), with no hard dollars or volumes attached, indicating that the disclosure is precautionary rather than a record of current material hits. Nevertheless, the filing explicitly links a renewed or continued pandemic wave to multiple concrete pressure points—global supply chains, labour markets, site shutdowns, procedure volumes, vendor solvency and price volatility—demonstrating that management sees a broad vulnerability map. Because the original WHO declaration is now almost four years old, the Time Decay principle moves the evidence out of the “recent” window; scores therefore fall in the moderate 4-6 band. The lack of quantification and the use of modal verbs (“could”, “may”) further temper severity, while the comprehensive list of operational choke-points keeps the risk well above trivial. Overall, the COVID-19-related risk is assessed as medium: important enough to monitor closely, but no longer existential absent a new surge.",
+        "evidence_list": [
+            {
+                "snippet": "In addition, global pandemics or other public health crises, such as the COVID-19 pandemic, could adversely impact our business, financial condition or results of operations, and those of our customers and suppliers, and any such future pandemics or public health crises could include disruptions in global economic activity, global supply chains and labor markets, operational challenges such as site shutdowns, workplace disruptions or limited provider capacity to perform procedures using our products, volatile financial market dynamics and significant volatility in price and availability of goods and services.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names the COVID-19 pandemic and ties it to potential adverse impacts on the company and its ecosystem.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Enumerates multiple concrete impact channels (supply chain, labour shortages, site shutdowns, procedure volumes, price volatility).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses conditional language ('could'), signalling risk is prospective rather than an existing hit.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No quantified financial magnitude provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Moderate-high severity: direct COVID-19 reference and detailed impact pathways warrant +7, but lack of quantification and conditional phrasing reduce the score to 5, consistent with a medium-term, forward-looking risk."
+            },
+            {
+                "snippet": "Further, uncertain or negative economic conditions, including as a result of inflationary pressures, interest rates or impacts from pandemics, could negatively affect our third-party vendors, which could lead to a reduction or interruption in the supply of materials and components used in manufacturing our products or increase the price of such materials or components.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemics as a causal factor within broader economic uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links pandemic impacts specifically to supply-chain disruption and cost inflation—key operational risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional wording ('could') indicates possibility rather than current fact.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Does not mention COVID-19 explicitly and provides no quantitative detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Lower severity: references pandemics generically and highlights supply-chain risk, but lacks COVID-specificity and quantification, yielding a moderate-low score of 2."
+            }
+        ],
+        "calculated_score": 7,
+        "average_severity": 3.5
+    }
+]

@@ -1,0 +1,119 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Fifth Third’s 2022 Form 10-K repeatedly acknowledges COVID-19 as a major, still-evolving risk driver.  Disclosures appear in both the formal Risk Factors and the MD&A, linking the pandemic to concrete pressure points: sector-specific stress (hospitality, leisure, retail, travel, certain healthcare niches), labour shortages, higher operating costs, volatile financial markets, and continued supply-chain disruptions.  Language mixes backward-looking impacts (e.g., ‘has caused’) with forward-looking uncertainty (e.g., ‘may become heightened’, ‘creates significant risks’), confirming that management sees COVID-19 as both an experienced and a prospective threat.  Although most passages are qualitative, they expressly reference macro-economic deterioration, credit quality concerns, and operational challenges—clear aggravating factors.  Because the filing date (25-Feb-2022) falls less than three years after the WHO declared the pandemic (11-Mar-2020), Time-Decay allows high severity scores.  No meaningful mitigating language (e.g., quantified offsets, strong hedges) accompanies the cited sentences, so deductions are limited.  Overall, evidence supports elevated risk scores (7-9 range) consistent with a recent, ongoing external shock that the issuer states is materially affecting multiple business dimensions.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic creates significant risks and uncertainties for Fifth Third’s business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to 'significant risks and uncertainties' for the company.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Statement is broad and unquantified (generic).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event is recent (<3 yrs), so high relevance under Time Decay.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct but generic declaration of material pandemic risk; recent timeframe boosts score to 7."
+            },
+            {
+                "snippet": "Government and public responses to the COVID-19 pandemic, including temporary closures of businesses and the implementation of social distancing protocols, caused reductions and instability in economic activity that resulted in increased unemployment levels in certain industries and volatility in the financial markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete mechanisms (closures, distancing) and specific impacts (instability, unemployment, market volatility).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Uses past-tense causation (‘caused’) showing realised impact, not just potential.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Event is recent (0-3 yrs).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Specific causal chain from pandemic response to economic harm justifies high severity (9/10)."
+            },
+            {
+                "snippet": "Markets continue to remain volatile as a result of the pandemic and its evolving impacts, including inflationary concerns as well as stresses in labor markets and supply chains.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies ongoing (‘continue to remain’) volatility and names labour and supply-chain stresses—key analysis focus areas.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Signals forward-looking uncertainty (‘evolving impacts’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Recency of event supports higher weighting.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Highlights continued, pandemic-driven market volatility and core operational pressures (labour & supply chain); strong but slightly less specific than prior sentence, scoring 8."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has caused certain industries to experience increased stress.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges direct impact on multiple sectors (industry stress).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Past-tense indicates realised effect.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recency (0-3 yrs) amplifies weight.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Sentence confirms realised sector stress but lacks detail or quantification, yielding a solid yet lower score of 7."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has negatively impacted the global economy, disrupted global supply chains, created significant volatility and disruption in financial markets and increased unemployment levels, all of which may become heightened concerns upon subsequent waves of infection or future developments.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple material impact channels (economy, supply chain, markets, unemployment).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Adds forward-looking escalation risk (‘may become heightened’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Relevant recent event timeframe.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Comprehensive enumeration of realised and prospective pandemic harms warrants a high severity score of 9."
+            }
+        ],
+        "calculated_score": 40,
+        "average_severity": 8.0
+    }
+]

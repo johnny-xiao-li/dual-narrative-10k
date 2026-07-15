@@ -1,0 +1,378 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "AutoZone’s 2021-10-25 filing delivers a detailed, largely forward-looking but still partly realised assessment of COVID-19 risk.  The company confirms that the pandemic is ongoing, directly impacting operations, labour availability, supply chains, cyber-security exposure and customer demand patterns.  Statements repeatedly use strong qualifiers such as “material adverse effect” and cite specific financial data (e.g., $43 million in pandemic expenses) and operational metrics (e.g., unprecedented demand, same-store-sales surge), demonstrating that the risk is not merely hypothetical.  Narrative emphasis falls on continuing uncertainty—variants, government actions, labour shortages—underscoring that management cannot confidently forecast duration or magnitude.  Mitigating actions (cleaning protocols, safety measures) are referenced but are outweighed by admissions that such steps may prove insufficient if demand reverts, stores must close, or supply disruptions persist.  Because the event occurred within the last two years, the Time Decay Principle allows high severity scores; nevertheless, sentences that only mention COVID-19 generically or add significant caveats receive modest deductions.  Overall, the disclosures reveal a high but variably quantified risk profile, justifying snippet scores clustering in the 7-10 range for the most acute statements and tapering downward where mitigation or uncertainty language tempers the message.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic persists in the U.S. and many other parts of the world and may have a material adverse effect on our business operations, financial condition, liquidity and cash flow.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit linkage of pandemic to potential 'material adverse effect' across multiple financial dimensions.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Present-tense verb 'persists' confirms the risk is current and continuing.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No mitigating action noted in this sentence.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, ongoing risk with materiality language merits a high score of 8."
+            },
+            {
+                "snippet": "The COVID-19 pandemic continues to impact numerous aspects of our business, and the long-term impact to our business remains unknown.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Affirms current impact ('continues to impact numerous aspects').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights uncertainty about long-term effects, increasing risk perception.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantification or specific financial metric provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Strong acknowledgement of ongoing effects but lack of detail keeps score at a moderate 5."
+            },
+            {
+                "snippet": "This is due to the numerous uncertainties that have risen from the pandemic, including the severity of the disease, the duration of the outbreak, the likelihood of resurgences of the outbreak, including due to the emergence and spread of variants, actions that may be taken by governmental authorities in response to the disease, the timing, distribution, efficacy and public acceptance of vaccines, and unintended consequences of the foregoing.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple escalating uncertainty drivers (variants, government actions, vaccines).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty elevates risk breadth.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Absence of quantified impact or mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Comprehensive catalogue of unknowns broadens risk scope, netting a score of 5."
+            },
+            {
+                "snippet": "In particular, it is unclear what near-term and long-term impact these factors will have on the number of vehicle miles driven, traffic to our stores, as well as demand for our products from our retail and commercial customers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic uncertainties to core revenue drivers (miles driven, store traffic, demand).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicitly states unclear impact, highlighting forecasting difficulty.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Lack of hard numbers or severity language.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Relates COVID-19 to demand fundamentals but with no materiality qualifier, producing a 4."
+            },
+            {
+                "snippet": "While we have added safety measures to protect our employees and customers, continued business disruption caused by COVID-19 may require further significant actions to mitigate the impact, including but not limited to employee furloughs, reductions in store hours and store closings as well as ongoing increases in expenses.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete potential operational responses (furloughs, store closings, expense increases).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses conditional 'may require', indicating possibility not certainty.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Mentions existing mitigation (safety measures).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific but conditional operational risks balanced by mitigation yield a mid-level score of 4."
+            },
+            {
+                "snippet": "Conversely, if the unprecedented levels of customer demand we have experienced during the pandemic revert or subside, we may be unable to reduce expenses or otherwise react quickly and effectively to such changes.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies risk of demand reversion impacting cost structure agility.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "References 'unprecedented' demand spike tied to pandemic, implying volatility.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional language without quantified impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights demand volatility risk but with softer language, scoring 4."
+            },
+            {
+                "snippet": "Further, the continuing pandemic and related economic uncertainty may result in prolonged disruption and volatility to our business, cause additional negative impacts of which we are not currently aware and also magnify other risks associated with our business and operations, including risks associated with sourcing quality merchandise domestically and outside the U.S.; our ability to promptly adjust inventory levels to meet fluctuations in customer demand; our ability to comply with complex and evolving laws and regulations related to customers’ and AutoZoners’ health and safety; our ability to open new store locations and expand or remodel existing stores; and our ability to hire and train qualified employees to address temporary or sustained labor shortages.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple amplified risk areas (sourcing, inventory, compliance, expansion, labor).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "References 'prolonged disruption and volatility', stressing duration.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No mitigation in sentence.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Comprehensive list of magnified operational risks warrants a high 7."
+            },
+            {
+                "snippet": "Accordingly, the COVID-19 pandemic could have a material adverse effect on demand for our products, workforce availability and our results of operations, financial condition, liquidity and cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Strong 'material adverse effect' language across multiple dimensions.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Connects pandemic to both demand and labour availability.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Materiality qualifier across core metrics pushes score to 7."
+            },
+            {
+                "snippet": "Additionally, the unprecedented levels of customer demand we have experienced for our products during the COVID-19 pandemic has resulted in significant increases in same store sales growth during fiscal 2020 and fiscal 2021.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States realised positive impact (sales surge) from pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses term 'significant increases', signalling material magnitude.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Positive impact partially offsets risk (mitigating).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Positive realised effect reduces overall risk, leading to a modest 3."
+            },
+            {
+                "snippet": "Therefore, we may not be able to sustain these growth trends if customer demand returns to pre-pandemic levels.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of potential reversal of pandemic-related demand boost.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional uncertainty lowers immediate severity.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantification or timeframe.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Risk tied to future demand normalisation is noted but not quantified, scoring 3."
+            },
+            {
+                "snippet": "These and other factors, such as the COVID-19 pandemic, affecting our suppliers and our access to products could adversely affect our business and financial performance.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to supplier and product access issues (supply chain).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses 'could adversely affect', indicating potential impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Explicit supply-chain exposure related to COVID-19 earns a 5."
+            },
+            {
+                "snippet": "War or acts of terrorism, political or civil unrest, unusual weather conditions, including due to the impacts of climate change, hurricanes, tornadoes, windstorms, fires, earthquakes and floods, global health epidemics (such as COVID-19) and other natural or other disasters or the threat of any of them, may result in certain of our stores, distribution centers, store support centers or sourcing offices being closed for a period of time or permanently or have a negative impact on our ability to obtain merchandise available for sale in our stores.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies possible store and supply closures due to epidemics like COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "COVID-19 grouped with broader disaster list, making reference more generic.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic epidemic reference with operational impact yields a 3."
+            },
+            {
+                "snippet": "In particular, in connection with the COVID-19 pandemic, there has been a spike in cyber-security attacks as shelter in place orders and work from home measures have led businesses to increase reliance on virtual environments and communications systems, which have been subjected to increasing third-party vulnerabilities and security risks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to increased cyber-security threat levels (new risk channel).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Provides causal chain (remote work -> vulnerabilities).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specific, realised cyber-risk amplification scores a strong 7."
+            },
+            {
+                "snippet": "Job growth in the U.S. was stagnated and unemployment was at historically high levels at the peak of the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites macro labour market deterioration directly tied to pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Historical context, not forward-looking within sentence.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Descriptive historical statement has limited direct risk implication, scoring 2."
+            },
+            {
+                "snippet": "Our sales remain at record levels as we have experienced unprecedented customer demand for our products during the COVID-19 pandemic, as we believe that many of our customers have benefitted from pandemic-related government stimulus and benefits.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows realised demand surge tied to pandemic stimulus.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates reliance on temporary external factors (stimulus) that may reverse.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Positive impact partially offsets risk.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Benefits noted but dependence on stimulus introduces risk; net score 3."
+            },
+            {
+                "snippet": "For fiscal 2021, we incurred approximately $43.0 million in pandemic related expenses, including Emergency Time-Off benefit enhancements for both full-time and part-time employees as compared to approximately $83.9 million in the comparable prior year period.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides concrete, quantified cost impact ($43 million).",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Shows trend comparison reinforcing materiality.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Hard dollar figure of pandemic cost gives high evidentiary weight—score 8."
+            },
+            {
+                "snippet": "The long-term impact to our business remains unknown as we are unable to accurately predict the impact that COVID-19 will have due to numerous uncertainties, including the severity of the disease, the duration of the outbreak, the likelihood of additional variants and resurgences of the outbreak, actions that may be taken by governmental authorities in response to the disease, the timing, distribution, efficacy and public acceptance of vaccines, and unintended consequences of the foregoing.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit admission of inability to predict long-term impacts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists major uncertainty drivers (variants, vaccines, government action).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Depth of uncertainty without mitigation earns a solid 6."
+            },
+            {
+                "snippet": "Furthermore, the continuing pandemic and related economic uncertainty may result in prolonged disruption and volatility to our business and magnify certain risks, including risks associated with sourcing quality merchandise domestically and outside the U.S.; our ability to promptly adjust inventory levels to meet fluctuations in customer demand; our ability to comply with complex and evolving laws and regulations related to customers’ and AutoZoners’ health and safety; our ability to open new store locations and expand or remodel existing stores; and our ability to hire and train qualified employees to address temporary or sustained labor shortages.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Parallel sentence in MD&A reiterates broad operational amplification (sourcing, inventory, labour).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Mentions 'prolonged disruption and volatility', stressing persistence.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Reinforces multi-faceted operational risks, scoring 7."
+            }
+        ],
+        "calculated_score": 91,
+        "average_severity": 5.055555555555555
+    }
+]

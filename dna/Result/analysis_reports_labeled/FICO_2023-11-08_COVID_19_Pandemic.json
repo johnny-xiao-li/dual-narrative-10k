@@ -1,0 +1,162 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "FICO’s 2023-11-08 Form 10-K frames the COVID-19 pandemic primarily as an ongoing, macro-level threat that can dampen customer demand, elongate sales cycles, increase credit defaults, and complicate internal workforce arrangements.  The discussion is almost entirely forward-looking—phrased with “may” and “could”—and does not quantify concrete dollar impacts, indicating that management views the pandemic more as a continuing risk factor than a currently crippling loss driver.  Nonetheless, because the filing date is within three years of the World Health Organization’s March-2020 declaration, the Time Decay Principle permits moderately high scores where language directly links COVID-19 to material financial or operational harm.  The strongest evidence appears in the Risk Factors section, where management details multiple transmission channels (customer spending reductions, payment defaults, remote-work productivity risks) and explicitly states that financial performance could suffer.  Mitigating language is sparse; outside of mentioning new remote-work policies, the company offers few concrete counter-measures.  Consequently, the overall risk profile is assessed as moderate-to-elevated (scores in the 5-7 range for the best sentences), reflecting a live but largely unquantified exposure whose severity is tempered only by its conditional wording rather than by elapsed time.",
+        "evidence_list": [
+            {
+                "snippet": "Our revenues, results of operations and overall financial performance may be negatively impacted by health epidemics or other disease outbreaks, such as the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references COVID-19 as an example of health epidemics affecting the company.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights broad financial dimensions at risk (revenues, operations, overall performance).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses cautious modal verb 'may', signalling uncertainty rather than current impact.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event is recent (≤3 years), so limited time-decay penalty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct but high-level statement of possible pandemic damage; recent timeframe boosts score, while conditional wording tempers it."
+            },
+            {
+                "snippet": "Health epidemics or disease outbreaks, such as the COVID-19 pandemic, could impact the rate of spending on our solutions and could adversely affect our customers’ ability or willingness to purchase our products and services, cause prospective customers to change product selections or term commitments, delay or cancel their purchasing decisions, extend sales cycles, and potentially increase payment defaults, all of which could adversely affect our future revenues, results of operations and overall financial performance.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly cites COVID-19 and enumerates multiple operational and financial impact pathways.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies concrete mechanisms (reduced spending, delayed purchases, extended sales cycles, payment defaults).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links those mechanisms to adverse effects on future revenues and performance.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses 'could', signalling contingency rather than certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Most detailed pandemic-related risk description; breadth of listed impacts warrants a high score despite forward-looking language."
+            },
+            {
+                "snippet": "The working arrangements for our employees differ from the arrangements before the pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges a structural, already-occurred operational shift attributable to the pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates a realized change (not merely hypothetical).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Does not quantify financial impact or specify consequences.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Recency keeps the statement relevant.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows concrete post-pandemic change but lacks detail on financial severity, yielding a modest score."
+            },
+            {
+                "snippet": "Should productivity decline or our employees’ ability to collaborate fall as a result of our Remote Work Policy, or if employees are unsatisfied with our Hybrid Work Location Policy and leave our company, our business could suffer.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies specific internal risks (productivity, collaboration, retention) tied to pandemic-driven remote-work policies.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects these risks to potential business harm.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional phrasing ('should', 'could') reduces immediacy.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Indirect link to COVID-19 (via remote-work context) rather than explicit mention.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Details pandemic-related remote-work vulnerabilities, but indirect linkage and conditional tone limit severity."
+            },
+            {
+                "snippet": "Various factors contribute to the uncertain economic environment, including geopolitical tensions, military conflicts, the level and volatility of interest rates, the level of inflation, the continuing effects of the COVID-19 pandemic, an actual recession or fears of a recession, trade policies and tariffs, and political and governmental instability.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references 'continuing effects of the COVID-19 pandemic' as a driver of economic uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links pandemic to broad macroeconomic risk that can cascade into company performance.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Pandemic is one item among many, reducing specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Acknowledges pandemic as a macro headwind but groups it with many other factors, diluting the direct risk signal."
+            },
+            {
+                "snippet": "natural disasters and pandemics, including the COVID-19 pandemic, and individual countries’ reactions to them;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit mention of COVID-19 within a list of global disruption sources.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generic list fragment with no stated impact or quantification.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Still within recent timeframe, giving minimal residual relevance.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Bare reference to COVID-19 without context; included for completeness but carries minimal risk weight."
+            }
+        ],
+        "calculated_score": 21,
+        "average_severity": 3.5
+    }
+]

@@ -1,0 +1,341 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated January 27 2021, describes COVID-19 as an ongoing, highly material threat that has already produced measurable damage and is expected to persist.  The language goes far beyond boiler-plate: management cites specific revenue declines of up to 48 %, enumerates operational disruptions (work-force reductions, drilling suspensions, facility shutdowns), and ties pandemic-related demand destruction directly to liquidity stress and strategic shifts (dividend cut, cash conservation).  Most disclosures are framed in the present tense (“has had”) with forward-looking caveats (“likely to continue”), indicating both realized and prospective risk.  Because the event occurred less than a year before the filing, the Time Decay Principle allows high severity scores.  No substantial mitigating controls are presented, other than generic cost-cutting and balance-sheet protection, so risk remains elevated.  Overall, the evidence portrays a recent, direct, multi-faceted impact that justifies high—but not necessarily maximal—scores across the extracted sentences.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic has significantly reduced demand for our services, and has had, and is likely to continue to have, a material adverse effect on our financial condition, results of operations and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to reduced demand for the company’s services.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States a \"material adverse effect\" on key financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking wording ('likely to continue') extends risk horizon.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, company-specific, and forward-looking statement of material impact warrants a high score of 8."
+            },
+            {
+                "snippet": "The effects of the COVID-19 pandemic, including actions taken by businesses and governments to contain the spread of the virus, have resulted in a significant and swift reduction in international and US economic activity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to macroeconomic contraction relevant to company demand.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong qualifiers ('significant and swift reduction').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact described at industry/macro level—less company-specific.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows large-scale impact, but less company-specific; scored at 6."
+            },
+            {
+                "snippet": "In our industry, geopolitical events that increased the supply of low-priced oil to the global market occurred at the same time that demand weakened due to the worldwide effects of the pandemic, leading to a collapse in oil prices in March 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to oil-price collapse—a key revenue driver.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Provides time-specific evidence ('March 2020').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Describes severe market outcome ('collapse in oil prices').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct causal chain to commodity collapse; significant but not quantified—score 6."
+            },
+            {
+                "snippet": "These events together adversely affected the demand for oil and natural gas, as well as for our services and products, and caused significant volatility and disruption of the global financial markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links reduced demand directly to company’s services and products.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights broader financial-market disruption, increasing systemic risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantification or new forward-looking element.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Company-specific but unquantified impact; moderate severity earns 5."
+            },
+            {
+                "snippet": "Other effects of the pandemic have included, and may continue to include, adverse revenue and net income effects; disruptions to our operations, including suspension or deferral of drilling activities ; customer shutdowns of oil and gas exploration and production; downward revisions to customer budgets; limitations on access to sources of liquidity; employee impacts from illness, school closures and other community response measures; workforce reductions in response to activity declines; and temporary closures of our facilities or the facilities of our customers and suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple operational disruptions (drilling suspension, facility closures).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers financial impacts (adverse revenue/net income, liquidity limits).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking clause ('may continue to include') extends risk horizon.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Comprehensive breadth of impacts (supply chain, labor, customers).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Extensive, multi-dimensional impact list with forward-looking tone justifies high score of 9."
+            },
+            {
+                "snippet": "This period of extreme economic disruption, low oil prices and reduced demand for our products and services has had, and is likely to continue to have, a material adverse effect on our financial condition, results of operations and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges realized and continuing material adverse financial impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects directly to reduced demand stemming from pandemic context.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking phrase ('likely to continue') increases risk duration.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Clear statement of current and future material harm yields score 8."
+            },
+            {
+                "snippet": "The extent to which our operating and financial results will continue to be affected by the COVID-19 pandemic will depend on various factors and consequences beyond our control, such as the duration and scope of the pandemic; additional actions by businesses and governments in response to the pandemic; and the speed and effectiveness of responses to combat the virus, including vaccine development and distribution.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights uncertainty and uncontrollable external factors.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly ties ongoing operating and financial results to pandemic trajectory.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions dependency on vaccine rollout, indicating forward-looking aspect.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Strong forward-looking uncertainty but less concrete damage—score 6."
+            },
+            {
+                "snippet": "COVID-19, and the volatile regional and global economic conditions stemming from the pandemic, could also aggravate our other risk factors described in this Form 10-K.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States compounding effect on existing risk factors.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates systemic amplification of overall risk profile.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional language ('could') slightly lowers immediacy.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows pandemic as risk multiplier but conditional tone keeps score moderate at 5."
+            },
+            {
+                "snippet": "Global demand for oil dropped precipitously from January through April of 2020, in parallel with the expansion of the COVID-19 coronavirus outbreak, as governments around the world responded with lockdowns and travel decreased significantly.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct temporal linkage between outbreak and demand collapse.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong descriptor ('dropped precipitously').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Industry-level but crucial to company revenue model.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows dramatic demand hit tied to pandemic; industry-wide but relevant—score 6."
+            },
+            {
+                "snippet": "Oil price volatility in the first half of the year, compounded by uncertainty over the pace of COVID-19 recovery, caused producers to lay down more than 40% of the world’s drilling rigs in just six months.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies operational impact (40% of rigs idled).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links directly to pandemic-related uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Demonstrates speed and scale ('in just six months').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Quantified, severe operational contraction tied to pandemic grants score 7."
+            },
+            {
+                "snippet": "North America operators dropped drilling and pressure pumping activity quickly in the first quarter due to the effects of the pandemic on demand, adding a modest volume of completion activity toward the end of the year.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct causation between pandemic demand shock and reduced activity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Operational impact specific to core service lines.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Partial mitigation ('modest volume of completion activity')",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Time-specific reference enhances credibility.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Significant activity decline with slight mitigation; net score 6."
+            },
+            {
+                "snippet": "This decline was most prominent in Latin America, Europe, and Africa due to downward revisions to customer budgets and COVID-19 disruptions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects regional revenue decline to COVID-19 disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights geographic breadth (multiple continents).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No direct quantification in the sentence itself.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Regional breadth and direct linkage, but unquantified—score 6."
+            },
+            {
+                "snippet": "Digital & Integration Full-year 2020 revenue of $3.1 billion decreased 26% year-on-year primarily due to lower multiclient and software sales as customers reduced activity due to COVID-19 and cut discretionary spending.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides exact financial impact (26% revenue decline).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Attributes decline directly to COVID-19 driven customer behavior.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Division-specific, illustrating depth of impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Quantified, direct division-level impact yields high score of 8."
+            },
+            {
+                "snippet": "Well Construction Full-year 2020 revenue of $8.6 billion decreased 28% year-on-year primarily due to the activity decline in US land as the rig count decreased significantly, while COVID-19 disruptions caused drilling activities to be cancelled or suspended in several international markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies large revenue drop (28%).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicitly cites COVID-19 disruptions causing cancellations/suspensions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers both domestic and international impacts.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Large quantified impact and clear causal link justify score 8."
+            },
+            {
+                "snippet": "In view of the uncertainty of the depth and extent of the contraction in oil demand due to the COVID-19 pandemic combined with the weaker commodity price environment, Schlumberger turned its strategic focus to cash conservation and protecting its balance sheet.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges strategic shift driven by pandemic-related demand uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates mitigating action (cash conservation, balance-sheet protection).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Highlights continued uncertainty ('depth and extent').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Demonstrates management response to risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Risk acknowledged but partially offset by mitigation, resulting in a moderate score of 4."
+            }
+        ],
+        "calculated_score": 98,
+        "average_severity": 6.533333333333333
+    }
+]

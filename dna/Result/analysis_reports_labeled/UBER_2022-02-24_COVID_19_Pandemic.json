@@ -1,0 +1,246 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Uber’s 2022 Form-10-K portrays COVID-19 as an ongoing, severe and multi-faceted risk that already produced material damage (declines in Mobility demand, fee caps, suspension of shared rides, remote-work disruption) and still clouds future performance.  The language is specific, forward-looking and backward-looking: it cites concrete past impacts (“adversely impacted”), continuing headwinds (driver-supply constraints, Omicron surge, capped merchant fees) and structural uncertainties (consumer behaviour may never fully rebound, long-term financial results may be hurt, pandemic heightens other risk factors).  These disclosures go well beyond boiler-plate, detailing supply-chain-type pressures (labour shortages of drivers, regulatory fee caps), operational upheaval (global remote work, need for safety protocols), and fundamental demand shifts.  Because the pandemic began less than three years before the filing, the Time-Decay Principle allows high severity scores.  Overall, the filing depicts a live, enterprise-wide threat whose magnitude remains difficult to quantify but is clearly material; therefore individual sentences that convey direct, quantified or strategic impacts score in the 8-10 range, while sentences discussing uncertainties or secondary effects score slightly lower (6-8).  Mitigating factors (e.g., launching new services) subtract modest points where mentioned but do not eliminate the high residual risk.",
+        "evidence_list": [
+            {
+                "snippet": "The coronavirus (“COVID-19”) pandemic and the impact of actions to mitigate the pandemic have adversely impacted and could continue to adversely impact our business, financial condition and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states pandemic has already caused adverse impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Signals continuing future impact (‘could continue’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple fundamentals (business, financial condition, results).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Direct acknowledgment of past and future material harm across all financial dimensions warrants a near-maximum score."
+            },
+            {
+                "snippet": "Various governments around the world have implemented, lifted, and in some regions reinstated travel restrictions, business restrictions, school closures, limitations on social or public gatherings, and other measures that have, and may continue to have, an adverse impact on our business and operations, including, for example, by reducing the demand for our Mobility offerings globally, and affecting travel behavior and demand.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific governmental actions affecting Uber.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links directly to reduced global demand for core product.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Indicates ongoing nature (‘may continue’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Granular description of restrictions tied to worldwide demand destruction merits high severity."
+            },
+            {
+                "snippet": "Even as such restrictions are being lifted and many regions around the world are making progress in their recovery from the pandemic, end-user behavior and demand for our Mobility offering may not recover to pre-pandemic levels.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights risk of permanent structural demand shift.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty affects strategic outlook.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Indicates enduring demand weakness even after restrictions, significant but somewhat less immediate than prior sentence."
+            },
+            {
+                "snippet": "We are experiencing and expect to continue to experience Driver supply constraints, and such supply constraints have been and may continue to be impacted by concerns regarding the COVID-19 pandemic, and we cannot predict when Driver supply levels will return to pre-pandemic levels.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies labour shortage directly tied to pandemic.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States uncertainty of resolution timeline.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impacts core supply side of platform.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Driver shortages directly threaten platform liquidity; high but slightly less than demand sentence."
+            },
+            {
+                "snippet": "The recent surge of COVID-19 primarily related to the rise of the Omicron variant in many markets in the United States and globally has affected and may continue to affect, among other things, travel and result in other COVID-19 related advisories and restrictions and may adversely affect both Driver supply and consumer demand for our Mobility offering.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites concrete variant-specific surge linking to travel & demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Simultaneous hit to supply and demand sides.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges global scope and continuing effect.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Omicron-related dual-side risk across geographies yields a strong risk score."
+            },
+            {
+                "snippet": "Certain U.S. jurisdictions have issued emergency orders that require us to cap fees charged to merchants on Delivery.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Regulatory action directly limits revenue per transaction.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Result is a quantifiable margin squeeze.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Important but narrower financial impact than global demand or supply shocks, yielding a moderate score."
+            },
+            {
+                "snippet": "To support social distancing, we temporarily suspended our shared rides offering globally for approximately one year, and our shared rides offering continues to be temporarily suspended in many regions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "References actual suspension of a product line worldwide.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Indicates continued partial shutdown.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Product cessation is concrete but segment-specific; moderate-high severity."
+            },
+            {
+                "snippet": "As a result of the COVID-19 pandemic, we asked that all employees who are able to do so work remotely, and while we have since re-opened certain offices and announced a hybrid return-to-office plan for employees, plans to return to the office may be negatively impacted by ongoing spread of the COVID-19 virus… these and any future instances of positive COVID-19 tests of personnel working in our offices, as well as continued widespread remote work arrangements could have a negative impact on our operations, the execution of our business plans, and productivity and availability of key personnel and other employees necessary to conduct our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details operational disruption and productivity risk from remote work/health issues.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Shows ongoing uncertainty in staffing/operations.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Operational disruption is significant but indirect to revenue; moderate score."
+            },
+            {
+                "snippet": "We have responded to the COVID-19 pandemic by launching new, or expanding existing, services, features, or health and safety requirements on an expedited basis, particularly those relating to delivery of food and other goods.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes mitigation action (new services) that offsets some risk.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Implies rapid change costs and execution risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": -1
+                },
+                "reasoning_summary": "Primarily a mitigating statement; net negative points reduce overall risk indication."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has adversely affected our near-term financial results and may adversely impact our long-term financial results, which has required and may continue to require significant actions in response, including but not limited to, additional reductions in workforce and certain changes to pricing models of our offerings, all in an effort to mitigate such impacts.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to both short-term and long-term financial harm.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Mentions potential drastic measures (workforce reductions, pricing changes).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Explicit connection to financial statements and need for structural actions yields high severity."
+            },
+            {
+                "snippet": "We do not believe it is possible to predict with precision the pandemic’s cumulative and ultimate impact on our future business operations, liquidity, financial condition, and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights material uncertainty over core financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lack of predictability signals elevated risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Emphasises unpredictability rather than quantified impact—moderate risk indicator."
+            },
+            {
+                "snippet": "Concerns over the economic impact of the COVID-19 pandemic have caused extreme volatility in financial markets, which has and may continue to adversely impact our stock price and our ability to access capital markets.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to capital-markets and valuation risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes ongoing market volatility.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Identifies financing risk; important but less operationally direct."
+            }
+        ],
+        "calculated_score": 73,
+        "average_severity": 6.083333333333333
+    }
+]

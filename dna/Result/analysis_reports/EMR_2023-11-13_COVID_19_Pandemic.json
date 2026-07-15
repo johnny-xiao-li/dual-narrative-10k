@@ -1,0 +1,161 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "EMR’s 2023 Form 10-K continues to treat COVID-19 primarily as a recently-past but still potentially re-emerging threat.  The filing acknowledges that the initial 2020 outbreak “significantly increased” uncertainty and that operations have now “generally stabilized,” yet management still flags multiple forward-looking vulnerabilities: renewed variants could trigger governmental actions, disrupt global supply chains, raise absenteeism, and impair the firm’s ability to satisfy customer demand.  Most statements are qualitative and unquantified, positioning the pandemic as a contingent, rather than currently material, risk.  Because the event is roughly 3 years and 8 months old—just outside the 0-3-year “recent” window—the Time Decay Principle requires us to temper scores into an upper-medium band (4-7).  Sentences that describe concrete operational channels (manufacturing outages, labor shortages, supply chain stress) receive higher scores, whereas generic or mitigating language (e.g., “operations have stabilized”) pulls scores down or to zero.  Overall, EMR still faces a moderate residual exposure to pandemic-related disruptions, but the narrative suggests that active impacts have waned and future effects are contingent on resurgence scenarios.",
+        "evidence_list": [
+            {
+                "snippet": "The global outbreak of the coronavirus (COVID-19) significantly increased economic, demand and operational uncertainty.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links COVID-19 to increased uncertainty affecting economics, demand and operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong qualifier 'significantly', signalling materiality.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes a historical impact rather than an ongoing one (some time decay).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Provides a clear statement of material historical impact; scored 6 to reflect medium-term event with strong wording but no quantification."
+            },
+            {
+                "snippet": "Our operations have generally stabilized since the peak of the COVID-19 pandemic and in May 2023, the World Health Organization declared an end to COVID-19 as a public health emergency.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that operations have stabilized – clear mitigation.",
+                            "points": -3
+                        },
+                        {
+                            "reason": "Cites WHO declaration ending the emergency – additional mitigating context.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Still references the pandemic as the reason conditions needed to stabilize.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Net risk effect is neutralised by strong mitigation; score floored at 0."
+            },
+            {
+                "snippet": "However, a resurgence or development of new strains of COVID-19, or other public health emergencies, could result in unpredictable responses by authorities around the world which could negatively impact our global operations, customers and suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies potential resurgence of COVID-19/new strains – forward-looking threat.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights 'unpredictable responses by authorities' affecting global operations, customers, suppliers – broad scope.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses negative impact language ('could negatively impact').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Forward-looking, enterprise-wide risk, but unquantified and medium-term timeframe – yields score 6."
+            },
+            {
+                "snippet": "Any future pandemics or public health emergencies could result in disruptions to our manufacturing operations, including higher rates of employee absenteeism, and supply chain, which could negatively impact our ability to meet customer demand.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Predicts manufacturing disruptions and supply-chain problems.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly cites higher employee absenteeism – labour shortage angle.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links disruptions to inability to meet customer demand – revenue risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking conditional phrasing ('could') lessens certainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Enumerates multiple operational channels of impact (manufacturing, labour, supply, demand); strong aggravators moderated by conditional tone – score 7."
+            },
+            {
+                "snippet": "The extent to which new strains or variants of COVID-19, or other public health emergencies, could impact our business, results of operations, financial condition or liquidity is highly uncertain and would depend on future developments, including the spread and duration of any such virus and the variants, potential actions taken by governmental authorities, and how quickly economic conditions stabilize and recover.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Covers broad spectrum of possible impacts (business, operations, financial condition, liquidity).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights high uncertainty – increases risk breadth but also signals lack of specificity.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional language and dependence on future developments – mitigates severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Broad but highly uncertain risk; limited specificity keeps score modest at 2."
+            },
+            {
+                "snippet": "However, the supply of materials or other items could be disrupted by natural disasters, a health epidemic or pandemic, or other events.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions epidemics/pandemics as a cause of material supply disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic, listed among multiple unrelated hazards – dilutes specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic acknowledgement of pandemic-driven supply risk; minimal detail yields score 1."
+            },
+            {
+                "snippet": "Our and our suppliers’ non-U.S. production facilities and operations could be disrupted by weather and natural disaster (including the potential effects of climate change), labor strife, war (including the Russia-Ukraine and other global conflicts), political unrest, terrorist activity or public health concerns such as an epidemic or pandemic, particularly in emerging countries that are not well-equip ped to handle such occurrences.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists epidemic/pandemic as a disruptor of global production facilities.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes heightened vulnerability in emerging countries – amplifies risk context.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Risk is embedded in an omnibus list with many other hazards – generic framing.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Identifies pandemic as one of several potential disruptors to global production; score limited to 2 due to generic presentation."
+            }
+        ],
+        "calculated_score": 24,
+        "average_severity": 3.4285714285714284
+    }
+]

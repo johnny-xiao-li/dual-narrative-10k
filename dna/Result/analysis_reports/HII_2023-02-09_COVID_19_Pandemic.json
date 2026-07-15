@@ -1,0 +1,155 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "HII’s 2023 filing treats COVID-19 as both an historic shock and an ongoing, material enterprise-wide risk.  The language spans two sections – Item 1A Risk Factors and MD&A – and repeatedly links the pandemic to concrete, already-incurred impacts (higher absenteeism, cost overruns, schedule delays, degraded financial performance) while warning that similar or worse effects may recur.  The disclosures are specific to core operating levers for a defense shipbuilder: direct labor availability, specialized-supplier performance, cost recovery under fixed-price government contracts, and the adequacy of insurance coverage.  The company also highlights profit-margin uncertainty, potential inability to recover COVID-related costs, and active litigation with reinsurers, signalling that financial consequences are not yet fully contained.  Mitigations are mentioned (contract cost allowability, vaccination encouragement), but they are caveated and unquantified, leaving residual exposure.  Because the event window (2020–present) is well within the 0-3-year “recent” band, the Time Decay Principle permits high per-sentence scores; however, lack of precise dollar figures and presence of some mitigating statements temper the maximum values.  Overall, the pandemic remains a high-severity, actively evolving risk for HII, largely driven by supply-chain fragility, labor shortages, and uncertain cost recovery under government contracts and insurance policies.",
+        "evidence_list": [
+            {
+                "snippet": "Such risks include disruptions or restrictions on our employees’ ability to work or work effectively, temporary closures of our facilities or the facilities of our customers or suppliers, delays in supplier deliveries, and delays in customer contract awards.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple operational disruptions (labor, facility shutdowns, supplier delays).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Directly ties disruptions to both upstream (suppliers) and downstream (customers) activities, indicating breadth of impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Lists several concrete disruption channels, but lacks quantified impact; therefore a moderate (3/10) risk indicator."
+            },
+            {
+                "snippet": "We experienced higher employee absentee rates as a result of COVID-19, which increased our costs and generated delay and disruption, impacted our performance on our contracts, and degraded our financial performance.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits historical, realized impact ('experienced').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States direct financial degradation and contract performance issues.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Provides clear evidence of realized cost increases and degraded performance, earning a high-moderate 5/10."
+            },
+            {
+                "snippet": "We could incur similar impacts in the future, in connection with COVID-19 or other health epidemics, pandemics, or similar outbreaks, and related cost increases may not be fully recoverable under our contracts or adequately covered by insurance, which could impact our profitability.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights forward-looking risk of recurring impacts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifically warns that cost increases may not be recoverable, elevating financial exposure.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Future-oriented warning on unrecoverable costs and profit pressure merits a solid 4/10 score."
+            },
+            {
+                "snippet": "The COVID-19 health crisis also created challenges for our suppliers relative to their workforces, access to necessary components, materials, and other supplies at reasonable prices, and access to support services, such as shipping and transportation.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details supply-chain specific challenges (components, materials, logistics).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links challenges to both cost (prices) and operational continuity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Supply-chain exposure is articulated but not quantified, giving a moderate 3/10."
+            },
+            {
+                "snippet": "We may in the future incur additional costs and performance challenges, including as a result of higher prices, schedule delays, or the need to identify and develop alternative suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies concrete future cost drivers (price inflation, schedule delays, alternative suppliers).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Predictive statement of potential cost overruns without hard data yields a 2/10."
+            },
+            {
+                "snippet": "To the extent we become subject to a vaccine mandate in the future, our implementation of the mandate could result in employee attrition, including attrition of critical skilled labor, and difficulty meeting future labor requirements.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies a specific regulatory scenario (vaccine mandate) that could exacerbate skilled-labor shortages.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Conditional but clear labor-risk scenario; modest severity at 2/10."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has dramatically impacted the global economic environment, including labor shortages and supply chain challenges.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges macro-level labor and supply-chain impacts already occurring.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "High-level statement of pervasive impacts; moderate weight (3/10)."
+            },
+            {
+                "snippet": "While costs related to COVID-19 Events are allowable under U.S. Government contracts, our contract financial estimates reflect profit margin impact uncertainty, because such costs may not result in equitable adjustments, particularly on firm fixed-price and fixed-price incentive contracts, or may not be adequately covered by insurance, which could impact our profitability.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags uncertainty on profit margins due to cost recovery limits.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes partial mitigation (costs allowable) but immediately caveats adequacy, reducing the mitigation impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Combines allowance with explicit profit-margin uncertainty; net high-moderate 4/10."
+            },
+            {
+                "snippet": "Reinsurers under our property insurance have failed to acknowledge coverage for various losses related to COVID-19, and we filed a complaint in state court in Vermont seeking a judgment declaring that our business interruption and other losses associated with COVID-19 are covered by our property insurance program.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Demonstrates real, unresolved financial exposure (insurance claim denial).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Litigation indicates ongoing risk and potential cost escalation.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Active dispute over insurance recovery shows concrete financial stakes; rated 4/10."
+            }
+        ],
+        "calculated_score": 30,
+        "average_severity": 3.3333333333333335
+    }
+]

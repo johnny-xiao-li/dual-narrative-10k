@@ -1,0 +1,98 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "IVZ’s 2024 Form 10-K still treats the COVID-19 pandemic principally as an ongoing, forward-looking operational threat rather than a presently quantified loss.  The company groups pandemics with broader “health crises” and business-continuity hazards and stresses that new variants or future pandemics could materially affect financial performance through human-capital constraints, facility outages and technology disruptions.  Language is largely generic—there are no hard numbers or references to specific supply-chain breakdowns—but it does spell out potential hits to revenues, AUM, net income and reputation.  Because the filing date (Feb 2024) is almost four years after the WHO declaration (Mar 2020), the Time-Decay Principle places the event in the medium window (4-10 yrs), capping snippet scores in a moderate band (≈4-6).  The evidence therefore shows persistent, but un-quantified and largely contingent, risk rather than immediate, measured impact; scores are accordingly mid-range.",
+        "evidence_list": [
+            {
+                "snippet": "If we are unable to successfully recover from a man-made or natural disaster, health crisis or pandemic or other business continuity problem, we could suffer material financial loss, loss of human capital, regulatory actions, reputational harm or legal liability.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites ‘pandemic’ as a potential threat.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists multiple severe consequences, including ‘material financial loss’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Risk is prospective (conditional), not a current impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct linkage to pandemic with clear statement of possible material financial and operational harm, but purely forward-looking; moderate score fits 4-10 yr time window."
+            },
+            {
+                "snippet": "If we were to experience a man-made or natural disaster, health crisis or pandemic, such as new variant of COVID-19, or other business continuity problem, our continued success will depend, in part, on the availability of our personnel, our office facilities and the proper functioning of our computer, telecommunication and other related systems and operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 specifically, acknowledging ongoing threat of new variants.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies concrete operational dependencies (personnel, facilities, IT).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional language (‘would depend’), indicating potential rather than realized impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Mentions COVID-19 variant risk and lists key operational vulnerabilities, but impact remains hypothetical; yields a moderate-low score."
+            },
+            {
+                "snippet": "The extent to which our business, revenues, AUM and net income are affected by a future pandemic or a new variant of COVID-19 will largely depend on new events or future developments, which cannot be accurately predicted and are uncertain, including the duration, severity and the length of time it will take for the economy to recover from the negative impacts on human capital and potentially more permanent impacts on how we operate and serve our clients.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic/COVID variants to key financial metrics (revenues, AUM, net income).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights uncertainty and lack of predictability, reducing specificity.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Strictly forward-looking; no current quantified loss.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows possible broad financial exposure to future COVID developments, but is entirely contingent and un-quantified; mid-low severity."
+            },
+            {
+                "snippet": "• accidents, pandemics, health crises or catastrophic events, climate-related risks, including greater frequency or intensity of adverse weather and natural disasters, that are beyond our control;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes ‘pandemics’ within a list of uncontrollable catastrophic risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Very generic wording, no direct link to financial metrics or operations.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mentions pandemics only in passing, lumped with other hazards; minimal detail lowers relevance and score."
+            }
+        ],
+        "calculated_score": 11,
+        "average_severity": 2.75
+    }
+]

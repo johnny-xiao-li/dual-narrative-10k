@@ -1,0 +1,54 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "All COVID-19 references in the filing appear in the Risk Factors and Management Discussion sections.  They frame the pandemic primarily as an operational continuity threat linked to workforce health rather than a direct financial loss driver.  The company emphasises that, as an essential natural-gas utility, it must keep employees on-site; a COVID-19 outbreak “could challenge the availability of our workforce,” thereby jeopardising service delivery.  This is a forward-looking risk (conditional language such as “could”) and is not accompanied by quantified cost estimates, yet it is specific—identifying workforce shortages and business interruption as the causal chain.  The second mention is historical and mitigating: bad-debt expense actually fell once pandemic collection moratoriums expired, signalling that one earlier impact has already unwound.  Considering the Time Decay Principle, COVID-19 is well within the 0–3-year “recent” window, so high scores are possible; however, the lack of hard dollar impacts and the acknowledgement of partial normalisation temper overall severity.  Consequently, the leading sentence is assessed as moderate-high (6/10) and the historical reference as very low (1/10).",
+        "evidence_list": [
+            {
+                "snippet": "Incidents of COVID-19 or any other future pandemic in our workforce could challenge the availability of our workforce which could threaten the continuity of our business operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references COVID-19 and future pandemics as a risk factor.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects the pandemic to a critical impact pathway—loss of workforce leading to business interruption for an essential service.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking, conditional wording (“could”) and no financial quantification reduce certainty and severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specific, recent, and tied to core operations, but unquantified and expressed as a potential risk, resulting in a moderate-high score of 6."
+            },
+            {
+                "snippet": "a $24.9 million decrease in bad debt expense, primarily due to the resumption of collection activities in late fiscal 2021 following the expiration of pandemic-related collection moratoriums.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows the company was previously affected by pandemic collection moratoriums, indicating a historical financial impact link to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes an improvement (decrease in expense) after moratoriums expired, signalling mitigation of the earlier impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Only a residual, historical reference with a mitigating trend, so the score is minimal at 1."
+            }
+        ],
+        "calculated_score": 7,
+        "average_severity": 3.5
+    }
+]

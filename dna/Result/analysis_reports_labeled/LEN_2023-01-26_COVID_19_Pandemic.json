@@ -1,0 +1,162 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "LEN’s 2023 filing acknowledges COVID-19 primarily as an exogenous, continuing public-health threat that could disrupt operations through demand shocks, regulatory shutdowns, approval delays, remote-work vulnerabilities and wider macro-economic weakness. The language is mostly forward-looking and qualitative: it notes that the 2020-era shutdowns were short-lived for LEN’s own sales, yet stresses that future outbreaks or variants could still materially impair revenues, margins, cash-flow and cyber-security. Because the pandemic is well within the 0-3-year ‘recent’ window, the Time Decay Principle allows high scores, but the company’s admission that its core home-sales were largely unaffected so far, plus the absence of quantified dollar impacts, tempers severity. Overall, the risk is assessed as moderate-to-elevated: LEN has not suffered major historical damage, but it concedes multiple pathways—supply-chain, governmental, demand, and information-security—through which renewed pandemic pressures could materially harm future performance.",
+        "evidence_list": [
+            {
+                "snippet": "Our results of operations and financial condition may be adversely affected by public health issues, and resulting governmental actions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states potential adverse effect on operations and financial condition.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects risk to governmental actions, implying possible shutdowns or restrictions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement is generic and unquantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly flags pandemic-type threats to core financial metrics but remains generic and unquantified, meriting a moderate score of 4."
+            },
+            {
+                "snippet": "The United States has experienced, and may experience in the future, outbreaks of contagious diseases that affect public health and public perception of health risk.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges historical and future outbreaks affecting public perception and health.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Very broad, serves as background context rather than company-specific impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Provides only a broad contextual reference with minimal company-specific implications, yielding a low score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic caused the shutdown of large portions of our national economy.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct reference to COVID-19 and national economic shutdown.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes severe macro-level disruption that plausibly threatens the company.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Links the pandemic to a severe macro shock; although not LEN-specific, the gravity of ‘shutdown’ warrants an above-average score."
+            },
+            {
+                "snippet": "With the exception of a period in March and April of 2020, the COVID-19 pandemic and its effects on the economy did not adversely affect our home sales.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms direct analysis of pandemic impact on home sales.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States that impact was minimal beyond a brief window, acting as a mitigant.",
+                            "points": -3
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Acknowledges monitoring of impact but emphasizes limited adverse effect, sharply reducing risk significance."
+            },
+            {
+                "snippet": "If a contagious disease causes significant negative impacts to economic conditions or consumer confidence, our results of operations, financial condition and cash flows could be materially adversely impacted.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Projects material adverse impacts across multiple financial dimensions.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong conditional language (‘could be materially adversely impacted’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking but emphatic about material harm potential, leading to a solid mid-range risk score."
+            },
+            {
+                "snippet": "In 2020 and 2021, shutdowns of government offices in response to the COVID-19 pandemic often delayed the time it took to obtain required approvals.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies specific operational bottleneck (government approvals) linked to pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Past-tense evidence of actual delays, demonstrating realized impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows concrete, realized operational disruption, but magnitude is not quantified; scores moderately."
+            },
+            {
+                "snippet": "Further, there has been a significant increase in work from remote locations since the start of the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights operational shift to remote work directly attributed to pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses qualitative modifier ‘significant’, indicating scale.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Mentions meaningful operational change but without detailing consequences, yielding a modest score."
+            },
+            {
+                "snippet": "Increased use of remote work environments and virtual platforms may increase our risk of cyber-attack or data security breaches.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-driven remote work to elevated cyber-security risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes potential escalation of a critical operational risk (cyber breach).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specifies a new vulnerability pathway aggravated by pandemic conditions, deserving a mid-to-high score."
+            }
+        ],
+        "calculated_score": 29,
+        "average_severity": 3.625
+    }
+]

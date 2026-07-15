@@ -1,0 +1,132 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "ON’s 2024 Form 10-K still frames COVID-19 as a live, forward-looking operational threat rather than a fully historical footnote.  The text repeatedly places the pandemic alongside other macro hazards and details how renewed outbreaks or lingering health-related restrictions could disrupt manufacturing, supply chains and customer sales.  Although the filing date is about four years after the WHO declaration (March 2020), management continues to discuss the pandemic in the present tense (“may cause,” “have the potential to disrupt”), signalling that the company believes risk persists—especially for globally distributed fabs and outsourced suppliers.  The language is moderately specific: it inventories concrete failure modes (worker absenteeism, labor shortages, port closures, border closures, shipment delays) and expressly warns of “materially adversely” affecting financial condition.  No precise dollar figures or probability estimates are given, and most statements are couched in conditional verbs (“could,” “may”), so the disclosures sit between generic boiler-plate and quantified impacts.  Under the Time Decay Principle, a 4-year-old event warrants moderate scoring (4-6).  The extracted sentences collectively justify mid-range severity because they delineate operational channels of loss, but remain unquantified and partly hedged by conditional wording.",
+        "evidence_list": [
+            {
+                "snippet": "For example, public health crises like the COVID-19 pandemic and related adverse public health developments may cause disruption to our domestic and international operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references the COVID-19 pandemic as a risk driver.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights potential disruption across both domestic and international operations, indicating broad operational exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional language ('may'), signalling uncertainty and reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly links COVID-19 to operational disruption but remains prospective and unquantified, yielding a moderate score of 4."
+            },
+            {
+                "snippet": "Any associated worker absenteeism, quarantines and restrictions on certain of our employees’ ability to perform their jobs, office and factory closures or restrictions, labor shortages, disruptions to ports and other shipping infrastructure, border closures and/or other travel or health-related restrictions could, depending on the magnitude of such effects on our manufacturing activities (or activities of our suppliers, third-party distributors or sub-contractors), could cause disruption and delay to our supply chain, manufacturing and product shipments.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple, concrete operational failure modes (absenteeism, labor shortages, port closures) tied to health crises.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects those failure modes directly to supply-chain, manufacturing and shipment delays—core business processes.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional phrasing ('could') tempers certainty.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Breadth and granularity of impacts raise perceived severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Detailed enumeration of disruption channels heightens severity, but conditional wording prevents a higher-than-moderate score; net result is 5."
+            },
+            {
+                "snippet": "Such disruption and delays could materially adversely affect our business, results of operations and financial condition.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses strong materiality language ('materially adversely affect') covering business, results and financial condition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks an explicit reference to COVID-19 in this sentence (context dependent).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Remains conditional ('could'), reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Amplifies severity with ‘material adverse’ wording but is generic and conditional, so it earns a low-moderate score of 2."
+            },
+            {
+                "snippet": "Additionally, public health crises like the COVID-19 pandemic have the potential to disrupt sales activities to customers in these end-markets, as well as the other end-markets we serve.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links COVID-19 to disruption of sales activities.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple end-markets, implying broad revenue exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Phrase 'have the potential' is speculative.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows breadth of revenue risk but remains speculative; overall moderate-low score of 3."
+            },
+            {
+                "snippet": "In addition to general economic conditions, impacts of other macroeconomic events, such as the COVID-19 pandemic, geopolitical conflicts and risks, such as the ongoing conflict in the Middle East and military conflict between Russia and Ukraine, climate change and other natural disasters, banking failures and uncertainties in global financial markets, could materially adversely impact our operations by causing disruptions in the geographies in which we and our suppliers, third party distributors and sub-contractors operate.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes COVID-19 pandemic among macro events that can materially adversely impact operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes geographic operational disruptions, indicating global supply-chain exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Risk is diluted by bundling with many other macro factors, making it less pandemic-specific.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Conditional 'could' lessens certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mentions COVID-19 within a broad list of hazards; diluted specificity and conditional language lead to a low score of 1."
+            }
+        ],
+        "calculated_score": 15,
+        "average_severity": 3.0
+    }
+]

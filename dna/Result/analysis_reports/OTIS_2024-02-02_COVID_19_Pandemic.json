@@ -1,0 +1,72 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 appears in the 2024 Form 10-K only inside the Risk Factors section and always in a forward-looking, contingency style.  The company states that pandemic health issues, including COVID-19, could disrupt macro-economic conditions and, more narrowly, that remote-work trends tied to the pandemic could dampen demand for construction and commercial real-estate projects, thereby hurting Otis’s sales pipeline.  There is no disclosure of any quantified 2023 impact, no description of actual supply-chain or labour shortages, and no discussion of ongoing mitigation programmes specific to COVID-19.  Accordingly, the references are generic, un-quantified and framed with conditional verbs such as “may” and “could.”  Under the Time Decay Principle, the pandemic is now almost four years old, placing it in the early medium-term bracket: residual risk remains, but severity scores must be moderated.  The net result is a moderate aggregate risk signal—material enough to warrant disclosure, yet clearly more attenuated and speculative than in filings from 2020-2022.",
+        "evidence_list": [
+            {
+                "snippet": "Our business, financial condition, operating results and cash flows may be adversely affected by changes in global economic conditions and geopolitical risks ... pandemic health issues, including COVID-19, and other challenges that could affect the global economy.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly identifies pandemic health issues, including COVID-19, as a potential adverse factor.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple facets of performance (business, financial condition, results, cash flows), widening potential impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Language is conditional and generic (\"may be adversely affected\"), diluting immediacy.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No quantification of magnitude and no company-specific examples.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event is ~4 years old – medium-term under Time Decay Principle, warrants modest upward adjustment.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Mention is direct but wholly generic and unquantified; with medium-term timing the result is a low-moderate score of 3."
+            },
+            {
+                "snippet": "In particular, a slowdown in building and remodeling activity or decreased public spending on infrastructure projects or decreased spending on commercial real estate or customer defaults due to higher levels of remote work in connection with the COVID-19 pandemic or otherwise, could adversely affect our financial performance.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 specifically to remote-work driven shifts in demand that would hit Otis’s core markets (construction, commercial real estate).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States direct adverse consequence on 'financial performance,' signalling materiality.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Still framed as a contingency ('could adversely affect'); no actual 2023 impact data.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No mitigating actions or strategies disclosed.",
+                            "points": 0
+                        },
+                        {
+                            "reason": "Medium-term time decay (≈4 years) tempers maximum severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "More company-specific than the first excerpt, linking pandemic-induced remote work to reduced demand, but still hypothetical and unquantified; scores a moderate 4."
+            }
+        ],
+        "calculated_score": 7,
+        "average_severity": 3.5
+    }
+]

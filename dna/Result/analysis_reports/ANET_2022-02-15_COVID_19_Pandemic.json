@@ -1,0 +1,423 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "ANET’s 2022-02-15 Form 10-K devotes an extended, highly specific section to the COVID-19 Pandemic.  The company states that COVID-19 has already “led” to concrete problems—manufacturing stoppages, semiconductor shortages, longer lead-times, higher logistics costs, remote-work complications and rising purchase commitments—and that these outcomes have pushed up costs and eroded gross margins.  It also warns of cascading commercial effects such as order cancellations, reduced demand, customer payment defaults and inventory obsolescence.  The language is chiefly present-tense or continuing-tense (“has had and could continue,” “we have experienced”), showing direct, realised impact rather than hypothetical risk.  Multiple sentences explicitly link the pandemic to measurable financial harm (e.g., increased gross-margin pressure) and operational strain across the global supply chain.  Only limited mitigating language appears (e.g., contract-manufacturer progress), so the disclosures are substantially aggravating.  Because the filing date is less than two years after the World Health Organization declared the pandemic (March 2020), the Time-Decay Principle permits high severity scores.  Overall, COVID-19 represents a recent, pervasive, and already-material risk for ANET, justifying elevated snippet scores that cluster in the 6-9 range, with slight discounts where wording is conditional (“could”) or mitigation is mentioned.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic, which has led, among other things, to manufacturing disruptions, supply chain shortages and unpredictable product demand and supply, extended demand planning horizons and increased purchase commitments, could materially adversely affect our business, financial condition, results of operations and prospects.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States pandemic has 'led' to multiple concrete disruptions (actual impact).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Enumerates several critical operational areas harmed (manufacturing, supply chain, demand).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong materiality wording ('materially adversely affect').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Partly forward-looking 'could', modest mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct causal link plus strong language and multiple impact vectors warrant a high score of 8 despite a small conditional tone."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has had and could continue to have an adverse impact on the business operations of our company and our customers, partners, manufacturers, suppliers, distribution fulfillment centers and service depots.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "'Has had' confirms realised adverse impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers entire ecosystem (customers, partners, suppliers, logistics).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Ongoing risk ('could continue').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Explicit statement of past and continuing harm across the value chain yields a strong score."
+            },
+            {
+                "snippet": "The vast majority of our employees continue to work from home, and this remote model could present operational and other workplace challenges over time that may affect our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies sustained remote-work shift affecting workforce.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links to operational and workplace challenges.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk phrased as 'could' and 'may', lowering certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights a real structural change but with less immediacy and quantified impact, so mid-low score."
+            },
+            {
+                "snippet": "We have also experienced, and may continue to experience, manufacturing and supply chain disruptions, components shortages, increased component lead times, unpredictability of supply, logistic challenges and increased costs.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "'Have experienced' shows current impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Lists multiple severe supply-chain pain points.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions ongoing nature ('may continue').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Concrete, already-incurred disruptions across the supply chain justify a high score."
+            },
+            {
+                "snippet": "Our contract manufacturers in Malaysia, Mexico and the United States are impacted by the pandemic and have experienced shelter in place orders, workforce disruptions, delays and increased costs for production, transit and the import and export of products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies geographic reach and direct impact on manufacturing partners.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details multiple cost and delay consequences.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Present-tense ('are impacted', 'have experienced').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Granular evidence of ongoing disruptions at key manufacturing sites merits an 8."
+            },
+            {
+                "snippet": "While our contract manufacturers have made progress to minimize disruptions caused by COVID-19, governments are continuing to impose restrictions on access as a result of COVID-19 variants, which has negatively impacted the staffing and product output of our contract manufacturers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes continuing governmental restrictions and negative impact on output.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges some mitigation progress.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "References variants, indicating persistent uncertainty.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Mixed with mitigation, so risk remains but net score trimmed to 4."
+            },
+            {
+                "snippet": "Our contract manufacturers’ activities are further limited by supply constraints caused by disruptions in the manufacturing activities of our suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights second-order supplier disruptions compounding risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates present limitation on activities.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows cascading supply-chain challenges; moderately severe."
+            },
+            {
+                "snippet": "Similar to our manufacturing facilities, our direct fulfillment centers and service depots continue to operate with varying degrees of government restriction on access, which can materially impact our ability to ship products or provide support services to our customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Government restrictions still in force; ongoing condition.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links to material impact on shipment and support.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Operational constraint on fulfilment and support earns mid-high risk score."
+            },
+            {
+                "snippet": "As a result of COVID-19 related manufacturing disruptions, the lead times for our products have increased and our supply chain costs have increased which has and may continue to adversely impact our gross margins.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct causal chain to longer lead-times and cost inflation.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Touches financial metric (gross margins) though not quantified.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Effect already realised ('has') and ongoing ('may continue').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Clear financial consequence tied to COVID-19—gross-margin pressure—earns a near-maximum score."
+            },
+            {
+                "snippet": "In addition, we have had to increase our demand planning horizon to address supply chain shortages, combined with increased component lead times and unpredictability of supply, resulting in significant increases to our purchase commitments and component buffer inventories.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes concrete operational change (longer planning horizon).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights financial exposure—'significant' increase in purchase commitments/inventory.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Root cause explicitly tied to supply-chain shortages from pandemic context.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Material financial commitment and inventory risk linked to COVID-19 justifies score of 7."
+            },
+            {
+                "snippet": "There is however no guarantee that suppliers will meet their commitments or that customers' actual demand will directly match our demand forecasts and this has increased the risk of future excess and obsolete inventory and could have a negative impact on our gross margins.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly raises risk of obsolete inventory and margin erosion.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights uncertainty of supplier performance and customer demand.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional language 'could' moderates certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Forward-looking but financially meaningful; moderate score."
+            },
+            {
+                "snippet": "As the COVID-19 pandemic continues, we have experienced and may continue to experience additional risks including: • more manufacturing disruptions and supply shortages, including shortages in semiconductors; • increased lead times for our products including longer lead times for component parts incorporated into our products which, in turn, can increase the risk of order cancellations; • reduced capacity and output at factories and factory closures; • disruptions in logistics which impact the movement of components and finished products; • overall increased demand for materials which could result in a limited or unpredictable supply of materials and components that are incorporated in our products; • delays in product shipments and limits on our ability to provide in-person support services to customers; and • increased risk of future excess and obsolete inventory as we extend our demand planning horizon and increase our purchase commitments and our inventory buffers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Comprehensive list of multiple severe, ongoing operational risks.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Mentions critical semiconductor shortage.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates experience to date and forward risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Extensive enumeration of current and future impacts across the supply chain validates a high score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic could limit our ability to add new customers and cause sales disruptions, order cancellations, longer upgrade cycles by customers for network equipment and overall lower demand for our products and services.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies demand-side threats: customer acquisition and sales disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Multiple commercial impacts listed.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional 'could' tempers certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Important but still prospective demand risk, so mid-level score."
+            },
+            {
+                "snippet": "Customers may purchase products in advance of their internal demand which could result in lower purchases in subsequent quarters.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights pull-forward risk leading to future revenue dips.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional nature lowers immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Narrow, speculative revenue timing issue results in low score."
+            },
+            {
+                "snippet": "In addition, given supply chain constraints, customers may give us more optimistic indications about prospective purchases which could result in lower than expected orders or cancellations of orders.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies risk of order shortfalls or cancellations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Tied to pandemic-driven supply constraints.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uncertain ('may', 'could').",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Speculative forecasting risk; modest severity."
+            },
+            {
+                "snippet": "We could also face increased risk of customer defaults and delays in payment.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions financial risk—defaults & delayed payments.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional 'could' reduces certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Brief, possible financial risk; minor score."
+            },
+            {
+                "snippet": "In addition, the COVID-19 pandemic has adversely affected, and may continue to adversely affect, the global economy and financial markets, which may result in an extended economic slowdown or a global recession that could adversely impact our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to macro-economic downturn and business impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges ongoing nature.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses 'may' and 'could', reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Macro-level risk relevant but less direct; moderate score."
+            },
+            {
+                "snippet": "Due to the uncertainty around the duration of the pandemic, the impact of new variants of 17 COVID-19, the availability, distribution and effectiveness of vaccines and treatments for COVID-19 around the world, the imposition of public safety measures, the impact of the pandemic on the global economy and the impact of COVID-19 on our customers, partners, contract manufacturers and supply chain, we are unable to predict the full impact of the COVID-19 pandemic on our business operations and financial performance.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises high uncertainty and breadth of potential impacts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Admits inability to forecast effects.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Confirms unpredictability; raises concern though not yet quantified."
+            },
+            {
+                "snippet": "In addition, the COVID-19 pandemic and the various responses to it, may also have the effect of heightening many of the other risks discussed in this “Risk Factors” section.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States pandemic amplifies other corporate risks.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Amplification statement shows breadth but lacks specifics, yielding moderate-low score."
+            },
+            {
+                "snippet": "In addition, COVID-19 related disruptions may cause delays in product shipments or cancellation of orders by end customers, and could have a negative impact on demand from our customers in future periods, and on our ability to add new customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies shipment delays, order cancellations, demand reduction.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking 'may/could' decreases certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Important demand-side risks but still conditional; modest score."
+            },
+            {
+                "snippet": "Supply of these components world-wide are being adversely affected by the COVID-19 pandemic as well as industry consolidation and geopolitical conditions such as international trade wars like the U.S. trade war with China and increased political tensions in Russia, Europe or Asia.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies worldwide component supply disruption directly tied to pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Combines with other geopolitical stressors, compounding risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Global component shortages aggravated by COVID-19 create significant supply risk; mid-high score."
+            }
+        ],
+        "calculated_score": 100,
+        "average_severity": 5.0
+    }
+]

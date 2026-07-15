@@ -1,0 +1,120 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Amazon’s 2024 10-K continues to flag pandemic-related threats, but the language has clearly shifted from the acute, near-term emergency tone of 2020-2021 to a broader, more generic catalogue of ‘public-health-crisis’ risks. The disclosures now frame COVID-19 (and any future pandemic) primarily as a prospective, amplifying factor that could disrupt demand patterns, supply-chain flows, fulfillment capacity, and systems uptime. There is no attempt to quantify dollar impacts, and the wording is bundled with other hazards such as extreme weather and geopolitical turmoil, signalling that management considers pandemic risk material but not singularly dominant. Applying the Time Decay Principle, the event sits at the four-year mark; therefore, evidence can earn a moderate score but should not reach the highest band. Overall, the filing reflects a guarded, forward-looking stance that pandemic conditions could again squeeze labor availability, supplier reliability, logistics throughput, or consumer demand—yet the statements remain largely boiler-plate without fresh metrics, keeping overall severity in the mid-range.",
+        "evidence_list": [
+            {
+                "snippet": "Demand for our products and services can fluctuate significantly for many reasons, including as a result of seasonality, promotions, product launches, or unforeseeable events, such as in response to global economic conditions such as recessionary fears or rising inflation, natural or human-caused disasters (including public health crises) or extreme weather (including as a result of climate change), or geopolitical events.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links ‘public health crises’ to fluctuating consumer demand, signalling direct revenue risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Statement is purely forward-looking and unquantified, reducing precision.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Embedded in a long list of generic factors, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Mentions pandemic as a driver of demand volatility but in a broad, generic list with no numbers; moderate but limited risk signal."
+            },
+            {
+                "snippet": "Disruptions from natural or human-caused disasters (including public health crises) or extreme weather (including as a result of climate change), geopolitical events and security issues (including terrorist attacks, armed hostilities, and political conflicts, including those involving China), labor or trade disputes (including restrictive governmental actions impacting us, our customers, and our third-party sellers and suppliers in China or other foreign countries), and similar events;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Labels public health crises as a potential source of broad operational disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Captures knock-on labour and geopolitical dimensions in same breath, slightly heightening relevance.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly aggregated bullet; lacks detail or timing.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows pandemic can disrupt multiple operational fronts but remains high-level; moderate severity."
+            },
+            {
+                "snippet": "In addition, our ability to receive inbound inventory efficiently and ship completed orders to customers also may be negatively affected by natural or human-caused disasters (including public health crises) or extreme weather (including as a result of climate change), geopolitical events and security issues, labor or trade disputes, and similar events.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly ties public health crises to supply-chain and fulfillment breakdowns, a core operational risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies both inbound (supplier) and outbound (customer) logistics impacts, increasing granularity.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Still forward-looking with no quantified magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Detailed linkage between pandemic conditions and logistics constraints merits a higher mid-range score."
+            },
+            {
+                "snippet": "Decisions by our current suppliers to limit or stop selling or licensing merchandise, content, components, or services to us on acceptable terms, or delay delivery, including as a result of one or more supplier bankruptcies due to poor economic conditions, as a result of natural or human-caused disasters (including public health crises) or geopolitical events, or for other reasons, may result in our being unable to procure alternatives from other suppliers in a timely and efficient manner and on acceptable terms, or at all.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights supplier non-performance and delivery delays explicitly linked to public health crises.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Articulates concrete consequence—failure to secure alternatives—enhancing materiality.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Mixed with numerous other causal factors; generic phrasing.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows pandemic could choke supplier pipeline with clear business impact; balanced by generic wording."
+            },
+            {
+                "snippet": "Our computer and communications systems and operations in the past have been, or in the future could be, damaged or interrupted due to events such as natural or human-caused disasters (including public health crises) or extreme weather (including as a result of climate change), geopolitical events and security issues (including terrorist attacks and armed hostilities), computer viruses, physical or electronic break-ins, operational failures (including from energy shortages), and similar events or disruptions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges historical and potential future systems interruptions tied to public health crises, indicating operational resilience risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "References past incidents vaguely but offers no quantitative disclosure.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Signals that pandemics can hamper IT operations, but detail is minimal, keeping the score modest."
+            }
+        ],
+        "calculated_score": 15,
+        "average_severity": 3.0
+    }
+]

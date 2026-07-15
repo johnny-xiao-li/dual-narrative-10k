@@ -1,0 +1,214 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "ELV’s 2023 Form 10-K repeatedly frames COVID-19 as a live, material, and multi-dimensional threat.  The filing was made fewer than three years after the WHO’s pandemic declaration, so Time Decay allows high severity scores.  Management discloses both realised impacts (e.g., retroactive Medicaid rate cuts, persistent utilisation volatility) and potential future shocks (labour shortages, supply-chain interruptions, cash-flow strain, membership losses).  Language is largely specific—often tying effects to concrete financial levers such as healthcare cost inflation, claims-liability uncertainty, and premium-rate predictability—and sometimes states that impacts “continue” or “will likely” occur, signalling current exposure rather than distant hypotheticals.  No meaningful mitigating actions are offered in the cited passages, so downward scoring adjustments are minimal.  Overall, the risk profile is acute, recent, and enterprise-wide, justifying upper-mid to high micro-scores across the extracted evidence.",
+        "evidence_list": [
+            {
+                "snippet": "We are subject to risks associated with pandemics, like the COVID-19 pandemic, as well as other extreme events, large-scale medical emergencies and public health crises, which could have a material adverse effect on our business, results of operations, and financial condition and financial performance.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites COVID-19 as a risk category.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong phrasing ‘material adverse effect’ across multiple financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers both current and future exposure (‘are subject to’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Applies to whole enterprise, not a segment.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct statement of enterprise-wide materiality for COVID-19 gives the sentence high severity."
+            },
+            {
+                "snippet": "The COVID-19 pandemic continues to impact our business, providers, customers and communities.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Present-tense ‘continues’ confirms ongoing, realised impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links impact to multiple stakeholder groups, signalling breadth.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Short but powerful confirmation that impacts are current, yielding a moderate-high score."
+            },
+            {
+                "snippet": "A new pandemic or other large-scale medical emergency or public health crisis, referred to collectively as “public health crises,” may cause illness, death, quarantines, business and school shutdowns, reductions in business activity, travel and financial transactions, unemployment, inflation, labor shortages, supply chain interruptions and overall economic and financial market instability.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates numerous severe macro-level consequences including supply-chain and labour issues.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking risk tied to pandemic context.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights systemic economic instability, widening impact scope.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Detailed catalogue of pandemic-driven disruptions warrants a solid risk score."
+            },
+            {
+                "snippet": "Increased healthcare costs due to higher utilization rates of medical facilities and services and behavioral health services, increased labor costs resulting from labor shortages and increases in medical expenses and associated hospital and pharmaceutical costs, including testing, treatment and the administration of vaccines and other therapeutics and costs due to care deferred during the public health crisis, which may lead to additional care resulting from missed treatments.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies concrete financial pressures (healthcare and labour cost inflation).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Directly attributes drivers to the public health crisis.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies knock-on effect of deferred care, signalling future cost spikes.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Covers multiple cost categories (medical, pharma, labour).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Granular description of multiple cost escalators tied to COVID-19 earns a high score."
+            },
+            {
+                "snippet": "Increased estimation uncertainty on our claims liability, as well as decreased predictability of Medicare and Medicaid rates due to changes in utilization of medical facilities and services, medical expenses and other costs.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights actuarial and pricing uncertainty stemming from pandemic utilisation shifts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Touches both liability side and revenue side (rate predictability).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Addresses technical financial-statement risk, meriting a moderate score."
+            },
+            {
+                "snippet": "A reduction in enrollment in our health benefits, products and services or a change in membership mix to less profitable lines of business by existing customers due to reductions in workforce and other impacts of an economic downturn.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-induced economic downturn to revenue/mix erosion.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies membership and profitability consequences.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Economic-driven membership risk is material but less direct than cost shocks, so mid-low score."
+            },
+            {
+                "snippet": "Cash flow volatility or shortfalls caused by delayed, delinquent or non-collectable payments.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies liquidity risk arising from pandemic-driven payment issues.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Brief mention of cash-flow risk without quantification, giving a modest score."
+            },
+            {
+                "snippet": "If the COVID-19 pandemic continues for a prolonged period, or if any future public health crisis occurs and continues for a prolonged period, these risks could be exacerbated, and cause further impact to our business and operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of compounding effects over time.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong language ‘exacerbated’ and ‘further impact’.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Forward-looking amplification language elevates, but still less specific than others."
+            },
+            {
+                "snippet": "Due to decreased utilization of medical facilities and services as a result of the COVID-19 pandemic, we experienced retroactive rate adjustments by certain state Medicaid agencies, and rate adjustments may continue in the future.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports an actual realised financial hit (retroactive rate cuts).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Causally links impact to pandemic-driven utilisation drop.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Flags possibility of recurrence (‘may continue’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Concrete past loss plus prospect of continuation yields high severity."
+            },
+            {
+                "snippet": "The end of the temporary suspension of eligibility recertification for Medicaid recipients in response to the COVID-19 pandemic, which will likely result in a reduction in our Medicaid membership.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies specific post-pandemic policy shift and links to membership loss.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses probability language ‘will likely’, indicating high likelihood.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific forecast of membership decline tied to pandemic policy earns a medium-high score."
+            }
+        ],
+        "calculated_score": 51,
+        "average_severity": 5.1
+    }
+]

@@ -1,0 +1,119 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "DAY’s 2022-02-28 filing presents COVID-19 as both an historical shock and an ongoing, material risk.  The disclosure states that the pandemic has already curtailed demand (via lower customer employment counts, professional-services usage and float income) and explicitly quantifies a US$21 million revenue hit for 2021.  It also flags continuing uncertainty—volatility in capital markets, interest-rate pressure, labour-market tightening and heightened talent competition—indicating that the threat is not merely past tense.  Language such as “has been adversely affected and will likely continue” shows the company views the risk as active and persistent.  Although most statements are qualitative, they tie specific operational levers (revenue streams, labour availability) to the pandemic, elevating severity.  Because the Form 10-K was filed less than three years after the WHO declaration (March 2020), the Time Decay Principle permits high severity scores (upper-range 7-10).  Overall, the risk evidence is recent, direct and company-specific, but is only partly quantified, so individual snippet scores cluster in the 5-8 range rather than the maximum 10.",
+        "evidence_list": [
+            {
+                "snippet": "Our business has been adversely affected and will likely continue to be adversely affected by the COVID-19 pandemic",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States current, realised negative impact (‘has been adversely affected’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Projects persistence into the future (‘will likely continue’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly references the recent global event (COVID-19).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct admission of realised harm plus forward-looking concern within 0-3 yrs warrants a high score of 8."
+            },
+            {
+                "snippet": "We have experienced and may continue to experience curtailed customer demand, primarily as a result of declining employment levels at our customers in certain sectors, such as retail and hospitality, as well as lower customer utilization of professional services, due to the effects of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific operational impacts (curtailed demand, sectoral employment decline, reduced services use).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges both historical and prospective impact (‘have experienced and may continue’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links impact causally to COVID-19.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Gives concrete channels of harm tied to COVID-19; no quantification, so score set at 7."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has had an adverse impact on our revenue streams during the year ended December 31, 2021, primarily in the form of lower employment levels at our customers, lower float revenue resulting from reductions in the U.S. Federal Reserve federal funds rate and the Bank of Canada overnight rate target, lower average float balances for our customer funds, and lower demand for professional services, among other effects.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies multiple financial impact vectors (revenue loss, float revenue compression, demand drop).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Anchors the impact in a very recent fiscal year (2021), demonstrating immediacy.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Unambiguously attributes impacts to COVID-19.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Lists concrete financial pressures in 2021 tied to the pandemic; high but un-quantified, so 7."
+            },
+            {
+                "snippet": "During 2021, COVID-19 outbreak continued to create significant volatility and uncertainty and economic and financial market disruption.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes ongoing macro-level disruption (volatility, uncertainty, market disruption).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Time-stamped to 2021, confirming recency.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Direct causal link to COVID-19.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Generic but timely statement of broad disruption; earns a moderate 5."
+            },
+            {
+                "snippet": "Competition for talent is intense, and has become more intense following the onset of the coronavirus disease 2019 (\"COVID-19\") pandemic, including without limitation for individuals with high levels of experience in designing and developing software and Internet-related services and senior sales executives.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes pandemic-driven labour-market tightening, a specific operational risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights escalation (‘has become more intense’), indicating worsening trend.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly ties talent scarcity to COVID-19 onset.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows pandemic’s effect on labour availability—an indirect but material risk—scored at 6."
+            }
+        ],
+        "calculated_score": 33,
+        "average_severity": 6.6
+    }
+]

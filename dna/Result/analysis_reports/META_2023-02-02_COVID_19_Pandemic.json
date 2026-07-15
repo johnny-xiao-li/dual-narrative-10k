@@ -1,0 +1,103 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Meta’s 2023 Form 10-K repeatedly links the COVID-19 pandemic to material, ongoing risks that could affect multiple dimensions of the business.  The filing acknowledges that the pandemic has *already* produced concrete financial harm—most notably, a “significant adverse impact” on advertising revenue—and that such pressures may recur.  It also lists specific operational vulnerabilities: volatility in user engagement caused by lockdown cycles; supply-chain and labor shortages affecting data-center build-outs and consumer-hardware production; and inventory and logistics disruptions.  These statements are forward-looking but anchored in past experience, indicating that management sees COVID-related turbulence as a continuing threat rather than a purely historical matter.  Because the disclosure date (02-Feb-2023) is less than three years after the WHO’s pandemic declaration (11-Mar-2020), the Time-Decay Principle permits relatively high severity scores when the language describes direct, quantified, or operationally specific impacts.  Overall, the pandemic risk is portrayed as active, multifaceted, and only partially controllable, warranting elevated individual snippet scores but tempered when statements are more generic or purely prospective.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic has previously had, and may in the future have, a significant adverse impact on our advertising revenue and also exposes our business to other risks.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states a material (‘significant’) adverse impact that has already occurred.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Highlights continued future exposure (‘may in the future have’) showing persistence of risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Refers to core revenue stream (advertising), implying enterprise-wide materiality.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Direct acknowledgement of past and potential future material revenue impact from COVID-19 justifies a high score within the recent-event window."
+            },
+            {
+                "snippet": "For example, the COVID-19 pandemic has led to increases and decreases in the size and engagement of our active user base from period to period at different points during the pandemic, and may continue to have a varied impact on the size and engagement of our active user base in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to observable volatility in user growth and engagement.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates ongoing uncertainty (‘may continue’) about future user metrics.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specifies user-engagement swings already experienced and potentially recurring; material but less severe than direct revenue hit."
+            },
+            {
+                "snippet": "Due to the effects of the COVID-19 pandemic, we have experienced, and expect to continue to experience, supply and labor shortages and other disruptions in logistics and the supply chain for our technical infrastructure.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms actual experience of supply-chain and labor shortages tied to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Projects persistence of these disruptions into the future (‘expect to continue’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Identifies concrete operational disruptions already occurring and forecast to persist, meriting a moderately high score."
+            },
+            {
+                "snippet": "These developments led to volatility in the demand for and pricing of our advertising services at various points throughout the pandemic, and we may experience similar effects in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes observed volatility in both demand and pricing for core services.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Foresees repeat occurrences, indicating continuing exposure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Describes past and potential future fluctuations in ad demand/pricing—important but less explicitly quantified than first snippet."
+            },
+            {
+                "snippet": "Delays in product development or releases, or reductions in manufacturing production and sales of consumer hardware, as a result of inventory shortages, supply chain or labor shortages;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific operational impacts (development delays, reduced production/sales) directly linked to pandemic-driven shortages.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers multiple facets (inventory, supply chain, labor), broadening risk scope.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Enumerates concrete supply-chain and labor-shortage consequences that could hinder product output, giving it a solid mid-range score."
+            }
+        ],
+        "calculated_score": 28,
+        "average_severity": 5.6
+    }
+]

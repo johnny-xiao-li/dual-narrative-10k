@@ -1,0 +1,56 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "AEP’s 2024 Form 10-K contains only limited but still explicit language linking its business risks to the COVID-19 pandemic.  The company refers to “continued pandemic-related delays and cost increases,” positioning the pandemic as an ongoing disruptor of project schedules, supply-chain reliability and cost structures rather than as a one-time historical shock.  Elsewhere, management cites the possibility that “public health considerations” could suppress economic activity and electricity demand, again indicating a forward-looking posture.  None of the statements quantify financial impact, and they sit within broader, multi-factor risk lists, signalling a moderate—not acute—level of concern.  Because the filing date (Feb 2024) is roughly four years after the World Health Organization’s March 2020 declaration, the Time Decay Principle caps any individual evidence score at a mid-range level.  Taken together, the disclosures show that COVID-19 remains a material but un-quantified head-wind, meriting moderate risk severity scores.",
+        "evidence_list": [
+            {
+                "snippet": "These variables include, but are not limited to, project management expertise, escalating costs for capital, materials, labor, and environmental compliance, reliance on suppliers for timely and satisfactory performance, continued pandemic-related delays and cost increases, and supply chains and material constraints, including those that may result from major storm events.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references 'continued pandemic-related delays and cost increases,' directly linking COVID-19 to operational and financial risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Positions the impact as ongoing ('continued'), showing that the risk is still live rather than historical.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects pandemic effects to tangible business areas—project timelines, supply chain reliability, and costs—though without quantification.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct, ongoing pandemic reference tied to cost and schedule impacts justifies a high-moderate score of 6, in line with the Time Decay cap for a four-year-old event."
+            },
+            {
+                "snippet": "Customer growth and customer usage are affected by a number of factors outside the control of AEP, such as mandated energy efficiency measures, demand-side management goals, distributed generation resources and economic and demographic conditions, such as population changes, job and income growth, housing starts, new business formation and the overall level of economic activity, including changes due to public health considerations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that public health issues (implicitly including pandemics) can alter demand and economic conditions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is stated generically without naming COVID-19 and without any quantitative or operational detail.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No mitigating actions or controls are mentioned in the sentence.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic linkage between public health conditions and demand results in a modest score of 3, reflecting lower specificity and materiality."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 4.5
+    }
+]

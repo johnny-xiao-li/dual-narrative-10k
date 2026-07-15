@@ -1,0 +1,305 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "ResMed’s 2021-08-17 filing ties the COVID-19 pandemic to a broad spectrum of operational and financial threats that continue to unfold well inside the 0-3-year ‘recent-event’ window.  Management acknowledges both realised impacts (e.g., shuttered sleep-diagnostic clinics, component shortages, labour constraints, regulatory delays) and forward-looking uncertainties (future demand shifts, excess inventory, cyber-risk from remote work).  Supply-chain fragility and constrained diagnostic pathways directly endanger core revenue streams, while declining pandemic-driven ventilator demand poses inventory and margin pressure.  These statements are generally specific (naming clinics, HME suppliers, travel bans, component shortages, etc.) and often describe impacts that have already occurred, though many are still couched in conditional language (“could,” “may”).  Given the recency of the pandemic, the continuing nature of the headwinds, and the multiplicity of risk vectors, most evidence snippets merit mid-to-high severity scores (6-8) after modest deductions for conditional wording or partial mitigants such as vaccination roll-outs.  The aggregate risk profile is therefore high, but not maximal, consistent with significant but not yet existential exposure and with the Time Decay Principle for a recent, still-developing event.",
+        "evidence_list": [
+            {
+                "snippet": "Our business, financial condition and results of operations could be harmed by the effects of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to potential harm across multiple core dimensions (business, financial condition, results).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses conditional \"could\", signalling uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Clear acknowledgement of pandemic threat but framed as potential, not certain, impact."
+            },
+            {
+                "snippet": "We are subject to risks related to the global pandemic associated with COVID-19, which have had an adverse impact on certain aspects of our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Declares company is exposed to pandemic risks.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States adverse impacts have already occurred (realised impact).",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Recent, realised harm elevates this to a high-severity (7) data point."
+            },
+            {
+                "snippet": "Specifically, diagnostic pathways for sleep apnea treatment, including physician practices, HME suppliers and sleep clinics, have been impacted and, in some instances, been required to temporarily close due to governments’ “shelter-in-place” orders, quarantines or similar orders or restrictions enacted to control the spread of COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete operational disruption (closures of diagnostic pathways).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Names specific stakeholder groups (physicians, suppliers, clinics) showing breadth of impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct, detailed operational harm across multiple channels justifies a high score."
+            },
+            {
+                "snippet": "In some countries, new patients are prescribed sleep apnea treatment through hospitals that are directing their resources to critical care, including COVID-19 treatment.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows demand-side diversion of hospital resources away from company’s treatment pathway.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specific but geographically limited demand disruption yields a moderate score."
+            },
+            {
+                "snippet": "Although certain governments have begun to reduce or remove COVID-19 restrictions to varying degrees, we cannot predict the impact that will have on diagnostic and prescription pathways and demand for our products designed to treat sleep apnea.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights continuing uncertainty over demand recovery.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions easing restrictions as a partial mitigating factor.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Uncertainty is acknowledged but partial mitigation tempers severity."
+            },
+            {
+                "snippet": "Furthermore, we cannot predict the extent, speed and effectiveness of worldwide containment and vaccination efforts and the impact of these factors will have on our employees, customers, vendors and patients.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Expresses broad uncertainty over multiple stakeholder impacts.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Wide stakeholder scope but purely forward-looking keeps score moderate."
+            },
+            {
+                "snippet": "While we have experienced increased demand for our respiratory care products due to the nature of COVID-19, we do not expect the same level of demand to continue as vaccination programs expand and infection rates decline globally.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Signals anticipated decline in pandemic-driven demand (future revenue risk).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Vaccination rollout described as mitigating factor.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Shift from positive spike to expected drop is a notable but partially mitigated risk."
+            },
+            {
+                "snippet": "Decreases in future demand may result in excess inventory, which we may be unable to sell.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies tangible financial risk (excess inventory).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Direct financial exposure adds weight despite speculative verb ‘may’."
+            },
+            {
+                "snippet": "Furthermore, due to governments’ varying restrictions on international and domestic travel, access to labor for our manufacturing facilities could be adversely impacted.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights potential labour shortage impacting production capacity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional 'could'.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Material operational risk tempered by conditional language."
+            },
+            {
+                "snippet": "Our SaaS business has also been affected by COVID-19 and measures taken to control the spread of COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits actual adverse effects on a separate operating segment (SaaS).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Realised multi-segment impact boosts significance."
+            },
+            {
+                "snippet": "Some of our existing and potential SaaS customers are HME distributors and have been impacted by the same temporary business closures noted above.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows downstream customer distress affecting SaaS revenue pipeline.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Customer-level disruption presents moderate indirect risk."
+            },
+            {
+                "snippet": "Given these challenging business conditions, businesses may be deterred from adopting new or changing SaaS platforms, which may adversely impact our ability to engage new customers for our SaaS businesses, or expand the services used by existing customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies adoption risk that threatens growth in SaaS segment.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional 'may' reduces certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Growth-limiting risk acknowledged, but uncertainty moderates score."
+            },
+            {
+                "snippet": "Disruptions relating to the COVID-19 pandemic, including current shelter-in-place orders, could prevent employees, suppliers, distributors, and others from accessing manufacturing facilities and from transporting our products or the components required to manufacture our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates dual threats: workforce access and logistics.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Conditional phrasing.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Concrete operational vulnerabilities, yet still prospective."
+            },
+            {
+                "snippet": "Further, worldwide supply chain disruption relating to the COVID-19 pandemic has resulted in component shortages that have and may continue to impact our ability to manufacture our devices.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States realised component shortages hampering production.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Already-material supply shortage elevates to high severity."
+            },
+            {
+                "snippet": "If either we or any third-party parties in the supply chain for materials used in the production of our devices continue to be adversely impacted by the restrictions resulting from the COVID-19 pandemic, our supply chain may be disrupted, limiting our ability to manufacture our devices.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights cascading supply-chain risk across tiers.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses conditional language.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Potential amplification of supply risk warrants moderate score."
+            },
+            {
+                "snippet": "These disruptions may, among other things, impact our ability to produce and supply products in quantities necessary to satisfy customer demand, which could negatively impact our results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects operational disruption directly to financial results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional 'may' / 'could' wording.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Explicit financial linkage but still hypothetical reduces score slightly."
+            },
+            {
+                "snippet": "In addition to existing travel restrictions, countries may continue to close borders, impose prolonged quarantines, and restrict travel, which have disrupted and may continue to disrupt our ability to move our product by air and sea.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies actual and ongoing logistics barriers affecting distribution.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Past and potential future disruptions to global distribution justify elevated score."
+            },
+            {
+                "snippet": "As a result of the COVID-19 pandemic, we may face increased cybersecurity risks due to our reliance on internet technology and the number of our employees who are working remotely, which may create additional opportunities for cybercriminals to exploit vulnerabilities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces ancillary risk channel (cyber) linked to remote work shift.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional 'may' twice.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "New risk vector noted, but speculative nature tempers severity."
+            },
+            {
+                "snippet": "As such, we do not expect material COVID-19-generated demand for our ventilator products for the fiscal year ending June 30, 2022.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Projects loss of a previously elevated revenue stream (ventilators).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Forward-looking revenue headwind receives modest but notable score."
+            }
+        ],
+        "calculated_score": 56,
+        "average_severity": 2.9473684210526314
+    }
+]

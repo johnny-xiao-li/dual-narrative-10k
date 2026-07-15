@@ -1,0 +1,299 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "NVIDIA’s 2023-02-24 Form 10-K frames COVID-19 as a still-active, multi-dimensional threat that has already damaged revenues (especially in China) and could continue to disrupt its global supply chain, labour model, logistics, customer demand and capital markets access.  The language is not merely boiler-plate: it cites concrete, realised impacts (e.g., lower China sales, incremental costs, supply-chain bottlenecks) while also warning of future lockdowns, extended lead-times and knock-on effects on liquidity and other risk factors.  Because the filing date falls less than three years after the WHO pandemic declaration, the Time Decay Principle allows high severity scores.  Nevertheless, some sentences introduce mitigating actions—office re-openings, remote-work policies—so individual snippet scores are occasionally tempered.  Overall, the disclosure portrays an on-going, material, and only partially controllable risk whose severity warrants upper-mid to high scores (4-8 range) for most evidence.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic has affected and could continue to have a material adverse impact on our financial condition and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit statement that the pandemic HAS already affected financial condition (realised impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States it COULD CONTINUE to do so (forward-looking, persistent risk).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong qualifier “material adverse impact,” signalling severity.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Directly links COVID-19 to realised and continuing, material financial harm, meriting a high score of 8."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has impacted and may continue to impact our workforce and operations and those of our customers, partners, vendors and suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges present impact on NVIDIA’s own workforce and operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Extends impact to entire business ecosystem (customers, partners, vendors, suppliers).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights future risk with 'may continue'.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "States impact as factual ('has impacted'), not hypothetical.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Shows broad, already-occurring operational disruption with ongoing exposure, justifying a score of 7."
+            },
+            {
+                "snippet": "COVID-19-related disruptions have created and may continue to create supply chain and logistics constraints, and COVID-19 containment around the world has put restrictions on, among other areas, manufacturing facilities, commerce, and support operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes tangible, realised supply-chain and logistics constraints.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Warns the constraints may persist (‘may continue’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details specific areas hit—manufacturing facilities, commerce, support operations—showing breadth.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Global scope (‘around the world’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Enumerates concrete, global supply-chain impacts already felt and expected to persist, warranting a score of 8."
+            },
+            {
+                "snippet": "Restrictions may be imposed or reinstated as the pandemic resurfaces, such as lockdown measures due to COVID-19 containment efforts in China.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies possibility of renewed restrictions/lockdowns (future operational risk).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Names a critical geography (China) where NVIDIA has major exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty that could disrupt operations.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highlights plausible future lockdown risk, but without quantified impact; moderate severity score of 5."
+            },
+            {
+                "snippet": "End customer sales for our products in China have been negatively impacted by lockdowns and this impact may continue if lockdowns return.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms actual sales decline (‘have been negatively impacted’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies key market (China), increasing materiality.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates continued vulnerability to future lockdowns.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Provides concrete evidence of demand loss in a major region with ongoing risk; earns a high score of 8."
+            },
+            {
+                "snippet": "COVID-19 has also resulted in, and may continue to result in, disruption of and volatility in global financial markets, which could impact overall technology spending or negatively affect our stock price and liquidity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to actual and prospective global financial-market disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects disruption to customer tech-spending cuts (demand risk).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions potential negative effects on stock price and liquidity (capital-market risk).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses forward-looking language ‘may continue’.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Captures capital-market and demand-side risks arising from COVID-19, giving a score of 7."
+            },
+            {
+                "snippet": "All of these factors have had or could in the future have a material negative impact on our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits material negative impact already experienced.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States possibility of future material harm.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Broad catch-all language, moderate specificity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Summarises cumulative material harm, but without new specifics; mid-level score of 6."
+            },
+            {
+                "snippet": "We modified our business and workforce practices in response to COVID-19, including with respect to flexible work and social distancing measures, and we may take further actions as required by government regulations or in the best interests of our employees, customers, partners and suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates operational disruption requiring policy changes.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists concrete mitigation steps (flexible work, social distancing).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Suggests ongoing need for further actions (remaining uncertainty).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mainly shows mitigation efforts, so risk severity is largely offset, yielding a low score of 1."
+            },
+            {
+                "snippet": "These and other measures have caused and may in the future cause us to incur incremental expenses and costs.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemic-related measures have already increased expenses (financial impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Warns of future incremental costs.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not quantify the cost, limiting severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Notes realised and prospective cost increases, moderately severe; score 6."
+            },
+            {
+                "snippet": "The extent of the impact of the COVID-19 pandemic on our operational and financial performance and our ability to timely execute our business strategies may continue to be difficult to measure and predict.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights uncertainty around operational and financial impacts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions potential effect on execution of business strategies.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasises ongoing unpredictability (‘may continue’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Expresses enduring uncertainty and strategic risk, producing a score of 5."
+            },
+            {
+                "snippet": "The impact of COVID-19 can also exacerbate other risks discussed in these risk factors.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that COVID-19 amplifies multiple other risk areas (compounding effect).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates ongoing potential (‘can’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic phrasing without specifics.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows contagion into other risk categories but in generic terms; score 4."
+            },
+            {
+                "snippet": "sudden or sustained government lockdowns or actions to control case spread of COVID-19 or other global or local health issues;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies lockdowns as a specific COVID-19 control action disrupting business.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Embedded in list of factors driving supply-demand mismatch (operational relevance).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking conditional risk (could happen).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Flags lockdowns as a supply-demand risk factor; moderately weighted at 4."
+            },
+            {
+                "snippet": "Extended lead times may occur if we experience other supply constraints caused by natural disasters, pandemics or other events, such as the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 to potential extended lead-times (supply-chain efficiency).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights broader supply-constraint mechanism.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Expressed as a conditional future risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows how COVID-19 could lengthen production lead-times; moderate severity score 5."
+            }
+        ],
+        "calculated_score": 74,
+        "average_severity": 5.6923076923076925
+    }
+]

@@ -1,0 +1,76 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The 2023-09-28 Copart (CPRT) Form 10-K places COVID-19 in the filing’s risk landscape, but only at a generic, forward-looking level. The company flags the pandemic as one of many ‘public-health issues’ that could disturb international operations or overall results, and the MD&A boiler-plate notes that forward-looking statements cover possible COVID-19 impacts. There is no quantified disclosure of past financial damage, nor any detailed discussion of supply-chain interruptions, labour shortages, or remote-work challenges. Consequently, the risk is presented as a continuing but largely contingent threat rather than an observed material impact. Given that the pandemic event is recent (≈3.5 years old) under the Time-Decay Principle, a moderate score is still warranted, yet the absence of specificity or metrics tempers severity. Overall, the COVID-19 risk appears acknowledged but not deeply analysed, suggesting a medium-level concern (roughly mid-single-digit scoring across snippets).",
+        "evidence_list": [
+            {
+                "snippet": "•    public health issues, including but not limited to the COVID-19 pandemic;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists the COVID-19 pandemic as a potential risk factor.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Presented only as a generic bullet with no details or quantification.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Embedded within a list of international-operation risks, signalling breadth of potential impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "The sentence expressly references COVID-19 as a risk to international operations, but its generic, unquantified nature keeps the severity moderate."
+            },
+            {
+                "snippet": "•    public health issues, including COVID-19 and other pandemics;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 as an ongoing factor that could affect operating results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lumped with “other pandemics,” signalling generic treatment rather than company-specific analysis.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Acknowledges COVID-19 in results-of-operations risk list but offers no depth; thus the score is low-to-moderate."
+            },
+            {
+                "snippet": "…including forward-looking statements concerning the potential impact of the COVID-19 pandemic on our business, operations, and operating results.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Affirms that COVID-19 may materially influence business, operations and results.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Framed purely as forward-looking ‘safe-harbor’ language, indicating caution rather than confirmed impact.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "No quantitative or qualitative specifics provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "While the sentence flags possible material effects, it is boiler-plate legal language with no specificity, so only a minimal score is assigned."
+            }
+        ],
+        "calculated_score": 7,
+        "average_severity": 2.3333333333333335
+    }
+]

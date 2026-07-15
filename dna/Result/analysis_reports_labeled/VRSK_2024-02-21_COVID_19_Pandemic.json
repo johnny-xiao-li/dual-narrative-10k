@@ -1,0 +1,66 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing offers only sparse and largely historical references to COVID-19.  The company notes that the 2020 pandemic suppressed premium growth in its core P&C-insurance customer base, and it generically groups “pandemics” with other catastrophe drivers that could sway future demand for its analytics.  There is no discussion of lasting supply-chain disruption, labour constraints, or operational upheaval inside Verisk itself; the impact is framed as indirect (i.e., through customers’ profitability and spending).  Because the pandemic shock occurred four years before the 2024 filing, the Time-Decay Principle caps any individual snippet at a moderate severity.  Overall, the disclosure signals that pandemic risk is now more of a background, industry-level variable than an acute threat to Verisk’s own operations, warranting a mid-to-low aggregate risk assessment.",
+        "evidence_list": [
+            {
+                "snippet": "In 2020, industry premium growth declined to 2.3% due to the COVID-19 pandemic.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes a negative outcome to the COVID-19 pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Provides a specific, quantified metric (premium growth down to 2.3%).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Effect is on the broader industry, not specifically on Verisk, making the link indirect.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Refers to a historical impact from 2020; four-year lag reduces immediacy under Time-Decay.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "The sentence ties a measurable downturn directly to COVID-19, but the effect is indirect and dated, yielding a moderate score of 3."
+            },
+            {
+                "snippet": "Trends in catastrophe and non-catastrophe losses (such as from weather, climate, casualty, terrorism, pandemics, and tsunamis) can have an effect on our customers’ profitability, and therefore on their appetite for buying analytics to help them manage their risks.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics as a factor that could diminish customer demand.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking wording ('can have an effect') signals potential ongoing risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Risk description is broad and unquantified.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Impact pathway is indirect, filtering through customers before affecting Verisk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "The mention of pandemics is generic and indirect, so after offsets it receives a low score of 1."
+            }
+        ],
+        "calculated_score": 4,
+        "average_severity": 2.0
+    }
+]

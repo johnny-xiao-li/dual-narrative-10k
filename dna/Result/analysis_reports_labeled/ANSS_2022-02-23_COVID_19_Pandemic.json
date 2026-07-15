@@ -1,0 +1,336 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "ANSS’s 2021 Form 10-K frames COVID-19 as an ongoing, multi-faceted enterprise threat that is already affecting operations and is likely to persist.  The disclosure combines backward-looking statements (office closures, shift to remote work, virtual customer engagement, business slow-downs) with forward-looking uncertainties (variant spread, regulatory mandates, talent attrition, demand erosion).  The company enumerates concrete operational pain-points—reduced in-person sales activity, potential government-contract loss, productivity hits from vaccination policies, and heightened cyber-risk—without providing quantified dollar impacts.  Mitigating language appears (successful remote controls, continued customer interaction, proactive vaccination compliance), but it does not eliminate the broad exposure.  Because the filing date (Feb 2022) is less than three years after the WHO pandemic declaration, the Time Decay Principle allows relatively high severity scores.  Overall, the risk profile is moderate-to-high: direct impacts have already materialised, yet most statements remain unquantified and couched in conditional terms, warranting scores largely in the 4-8 range with adjustments downward where mitigation is emphasised.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic has had, and is expected to continue to have, an effect on our business, employees, and consolidated financial statements.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges realized impact ('has had').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Projects continuing impact ('expected to continue').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple critical areas (business, employees, financials).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Strong, direct statement of both current and future material impact merits a high score of 9."
+            },
+            {
+                "snippet": "At the onset of the COVID-19 pandemic, we took action to enable our employees to work from home.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates pandemic-driven operational disruption requiring action.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights a successful mitigation (remote work enablement).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mainly a mitigation sentence with limited risk detail, so net score is low."
+            },
+            {
+                "snippet": "We closed our offices (including our corporate headquarters), transitioned to a remote work environment, and implemented certain travel restrictions, each of which has changed how we operate our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Office closures and travel restrictions show direct operational disruption.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Mentions transition to remote work as mitigation.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Disruption is tempered by mitigation, yielding a modest score."
+            },
+            {
+                "snippet": "We continue to monitor and manage the situation, but as of now, remote access remains the primary means of work for most of our workforce.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Ongoing reliance on remote work indicates persistent operational change.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Active monitoring/management language is mitigating.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Shows sustained change but with management control, so risk is low."
+            },
+            {
+                "snippet": "Requirements related to COVID-19 safety precautions, including COVID-19 vaccine mandates of varying scope and applicability (such as U.S. Executive Order 14042), may apply to operations in the U.S. or other jurisdictions in which our business operates.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces regulatory compliance risk across jurisdictions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Cites specific mandate (Executive Order 14042), adding concreteness.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific regulatory exposure elevates risk to moderate level."
+            },
+            {
+                "snippet": "Failure to comply with the applicable requirements could create the risk of potential loss of business, including with respect to our U.S. government contracts or agreements with customers who contract with the U.S. government, which could have an adverse effect on our business and consolidated financial statements.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links non-compliance to loss of business.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights jeopardy of U.S. government contracts (material customer segment).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Material customer-loss threat drives a significant score of 6."
+            },
+            {
+                "snippet": "Our implementation of various mandatory vaccination, testing or other requirements related to COVID-19 safety may result in a reduction in productivity of our workforce, attrition of management personnel or technical talent or in a reduction in employee morale, which could have an adverse effect on our business and consolidated financial statements.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies productivity and morale risks.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifically references potential talent attrition.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Detailed labor-force impacts justify a score in the upper-mid range."
+            },
+            {
+                "snippet": "The COVID-19 outbreak continues to cause business slowdowns and shutdowns in affected areas.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing external disruptions (slowdowns/shutdowns).",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct but generic statement of continuing disruption earns a mid score."
+            },
+            {
+                "snippet": "While in-person meetings have started to resume, as well as live attendance at trade events, a majority of our customer events and those of our channel partners remain virtual only experiences.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates lingering limitations on customer engagement.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes partial resumption of in-person activities (mitigation).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Residual constraint balanced by partial recovery keeps score low."
+            },
+            {
+                "snippet": "Virtual events may not be as successful as customer events prior to COVID-19 because, among other reasons, the limited number of such events, the varying attendance levels and virtual event fatigue.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights reduced effectiveness of virtual engagement.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specific drawback of virtual events yields a modest score."
+            },
+            {
+                "snippet": "An extended period of remote work arrangements may negatively impact the sales pipeline due to reduced, delayed, or altered sales and marketing interactions with customers and potential customers, expose us to increased risk of cyber incidents, delay or alter product roadmaps or research and development due to reduced or limited access to technologies, equipment, or services, and delay or disrupt recruitment efforts.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Potential sales-pipeline degradation.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Elevated cyber-security risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Possible R&D and roadmap delays.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recruitment disruption.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Multifaceted operational threats drive one of the highest snippet scores."
+            },
+            {
+                "snippet": "Limitations on availability, ease of use or increased cost related to the use of our products in our customers' remote work environments could also result in a decline in demand for our products.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct risk of demand erosion tied to customers’ remote environments.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects to product usability/cost concerns.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Demand-side threat rated at a solid mid-level severity."
+            },
+            {
+                "snippet": "The situation surrounding the COVID-19 pandemic remains fluid, and given its inherent uncertainty, we expect the pandemic will continue to have an impact on our business and consolidated financial statements in the near term.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Projects continued near-term impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasizes uncertainty/fluidity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking uncertainty with expected impact earns a moderate score."
+            },
+            {
+                "snippet": "The duration and extent of the impact from the COVID-19 pandemic depends on future developments that cannot be accurately predicted at this time, such as the timing and effectiveness of vaccination efforts in the markets where we do business, transmission rates of the virus and the development of virus mutations and variants, the nature and scope of government economic recovery measures, and the extent and effectiveness of containment actions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple uncontrollable external variables driving risk duration and extent.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights unpredictability but without direct quantified impact; mid-low score."
+            },
+            {
+                "snippet": "The impact of the COVID-19 pandemic may also have the effect of heightening many other risks and uncertainties described in this 'Risk Factors' section.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States pandemic acts as a force-multiplier for other risks.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Amplification of broader risk profile warrants moderate points."
+            },
+            {
+                "snippet": "Remote work arrangements have not adversely affected our ability to maintain effective financial operations, including our financial reporting systems, internal controls over financial reporting and disclosure controls and procedures.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Claims no adverse effect on key controls (strong mitigation).",
+                            "points": -3
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Purely mitigating; final score floored at 0."
+            },
+            {
+                "snippet": "We expect to maintain these effective controls as we continue to work remotely during and after the COVID-19 pandemic.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forward-looking mitigation commitment.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Mitigation statement only, so no net risk points."
+            },
+            {
+                "snippet": "The spread of the virus and its variants and economic deterioration caused by them could have an impact on our business, as well as on our ability to achieve our financial guidance.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags variant-driven economic risk impacting ability to meet guidance.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Links variants to potential financial underperformance; moderate score."
+            },
+            {
+                "snippet": "Our direct and indirect sales and support teams continue to use collaborative technology to access both Ansys’ data centers and the public cloud, and to meet virtually with customers to mitigate disruptions to our sales pipeline.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes proactive mitigation of sales-pipeline risk through technology.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Entirely mitigating in nature, yielding a zero risk score."
+            }
+        ],
+        "calculated_score": 65,
+        "average_severity": 3.4210526315789473
+    }
+]

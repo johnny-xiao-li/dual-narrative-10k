@@ -1,0 +1,135 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "DLTR’s 2023 Form 10-K frames COVID-19 as an ongoing, multi-faceted risk that is already eroding profitability and could further destabilise operations if new variants or renewed restrictions materialise.  Management emphasises both realised impacts—higher store and distribution-center operating costs, supply-chain bottlenecks, labour-market tightness, altered traffic patterns—and prospective threats such as future shutdowns, facility closures and added compliance costs.  Language is largely specific (e.g., ‘significant increases in the cost of operating our stores’, ‘pandemic-related port closings’) and repeatedly classifies the consequences as “material” or “adverse.”  Because the filing date (10 Mar 2023) sits less than three years after the World Health Organization’s pandemic declaration (11 Mar 2020), the Time Decay Principle allows high risk scores.  While the company mentions limited mitigating actions (e.g., an Instacart partnership), these are minor relative to the breadth of vulnerabilities disclosed.  Overall, COVID-19 remains a high-severity, contemporaneous risk driver for DLTR’s margins, supply chain, labour availability and consumer-demand mix, warranting elevated evidence scores in the 7-10 range.",
+        "evidence_list": [
+            {
+                "snippet": "The continuing COVID-19 pandemic arising from a novel strain of coronavirus and its variants has caused on-going direct and indirect economic disruptions that have adversely affected, and are expected to continue to adversely affect, elements of our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties disruptions to the ongoing COVID-19 pandemic and its variants.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States that disruptions have already occurred (realised impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forecasts that adverse effects will continue (forward-looking persistence).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong negative wording (‘adversely affected’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct causal link, realised plus continuing impact, and strong adverse language produce a high score of 8."
+            },
+            {
+                "snippet": "The COVID-19 pandemic, related public health measures and associated economic and social impacts have already contributed to, among other things, significant increases in the cost of operating our stores and distribution centers, disruptions in the patterns of consumer demand and traffic, and an increase in demand for online sales (which is an insignificant part of our business), home deliveries (which we began providing in 2021 through our partnership with Instacart) or curbside deliveries (which we do not offer), and changes in the labor markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple concrete operational impacts (cost inflation, demand shifts, labour market changes).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Confirms that these impacts have ‘already’ occurred (realised risk).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights vulnerability (online sales ‘insignificant’, limited curb-side capability).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Directly attributes impacts to COVID-19 and related measures.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes a small mitigating action (Instacart partnership).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Specific, realised, multi-dimensional impacts outweigh the minor mitigation, justifying a score of 8."
+            },
+            {
+                "snippet": "If the pandemic worsens or continues longer than expected (as new variants emerge), governments may reinstate or extend business or personal restrictions, and we could be forced to curtail or restrict operations or incur additional costs.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links potential future restrictions directly to COVID-19 worsening or new variants.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Identifies severe operational consequence—forced curtailment or restriction of operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Flags additional cost burden as a consequence.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is prospective rather than realised, introducing uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Prospective but severe operational and cost risks yield a moderate-high score after adjusting for uncertainty."
+            },
+            {
+                "snippet": "We have experienced disruptions in the global supply chain, including issues with shipping capacity, port congestion and pandemic-related port closings and ship diversions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms actual (‘have experienced’) supply-chain disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies pandemic-related causes (port closings, ship diversions).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists concrete logistics pain points (shipping capacity, port congestion).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Realised, pandemic-caused supply-chain disruptions with specific examples justify a score of 7."
+            },
+            {
+                "snippet": "If major new variants emerge, we might also experience new disruptions in our supply chain and sources of supply, suffer facility closures or encounter additional difficulties in hiring or retaining the workforce required for our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects potential new variants directly to multiple future operational risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Enumerates several severe impacts (supply disruptions, facility closures, labour shortages).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional language (‘might’) introduces uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Potential yet un-realised but wide-ranging impacts result in a moderate score of 4 after accounting for uncertainty."
+            }
+        ],
+        "calculated_score": 32,
+        "average_severity": 6.4
+    }
+]

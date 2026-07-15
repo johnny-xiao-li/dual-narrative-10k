@@ -1,0 +1,90 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "VRSK’s 2023 Form 10-K contains only limited, mostly qualitative references to COVID-19.  The company acknowledges that the pandemic has already affected its business— principally through disruptions to the global economy, a sharp 2020 contraction in P&C insurance premiums (the company’s core customer base), and operational items such as reduced travel.  These disclosures are backward-looking or industry-level, provide only sparse quantification, and do not identify any material supply-chain or labour-force constraints specific to VRSK.  They do, however, leave the door open for “additional or unforeseen effects” that could amplify other risk factors.  Because the event remains recent (within three years of the filing date), the Time-Decay Principle still permits moderate-to-high severity scores, but the generic wording, lack of company-specific metrics, and indications of recovery (premium growth rebounded in 2021; travel savings boosted EBITDA) temper the overall risk.  Accordingly, the evidence supports mid-single-digit snippet scores rather than the upper end of the scale.",
+        "evidence_list": [
+            {
+                "snippet": "In addition to the effects of the COVID-19 pandemic and resulting global disruptions on our business and operations discussed in Item 7 of Part II, \"Management's Discussion Analysis of Financial Condition and Results of Operations,\" and in the risk factors below, additional or unforeseen effects from the COVID-19 pandemic and the global economic climate may give rise to or amplify many of the risks discussed below.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states that COVID-19 has already affected the business and operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Warns of ‘additional or unforeseen effects’ that could amplify other risks (forward-looking aggravator).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic—no quantification or specificity to VRSK’s financials.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Moderate evidence of ongoing pandemic risk, but generic wording and no numbers limit the score to 4."
+            },
+            {
+                "snippet": "In 2020, industry premium growth declined to 2.3% due to the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides a concrete, quantified impact (premium growth down to 2.3%).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Directly links the negative impact to the pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Impact is at industry level, not a company-specific metric.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Quantified, pandemic-driven decline in VRSK’s key customer market yields a strong but not maximal score of 6."
+            },
+            {
+                "snippet": "Direct premium growth accelerated to 9.5% in 2021 indicating a recovery from the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges continuing relevance of the pandemic to financial metrics.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights recovery, which mitigates prior risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Shows pandemic impact is abating; residual risk is low, so the score is only 2."
+            },
+            {
+                "snippet": "The increase in EBITDA was primarily due to the release of the previously established EVT Litigation Reserve once the final payment was made in the fourth quarter of 2021, a reduction in travel expenses as a result of COVID-19, and cost discipline.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies an operational impact (lower travel costs) directly attributable to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Effect is cost-saving, signalling mitigation rather than heightened risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Pandemic produced a modest positive cost effect; net risk implication is minimal, hence score of 1."
+            }
+        ],
+        "calculated_score": 13,
+        "average_severity": 3.25
+    }
+]

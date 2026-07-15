@@ -1,0 +1,164 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "ARE’s 2021 filing openly acknowledges that the COVID-19 pandemic is already exerting material, economy-wide stress and details a spectrum of pathways through which that stress translates into corporate risk.  Most references are forward-looking (e.g., “could adversely affect”), but they are anchored in present-day conditions: severe market volatility, lockdown-driven operational disruption, remote-work mandates, and tenants’ financing challenges.  The company links the pandemic to core value drivers – rental revenues, equity-investment values, tenant solvency, labour and supply-chain continuity – without offering quantified loss estimates.  Language is specific to ARE’s business model (life-science campuses with small retail footprints) and is contemporaneous (filed within a year of the WHO declaration), so Time-Decay allows mid-to-high severity scores.  Mitigations are minimal; the narrative mostly lists exposures rather than controls, yielding elevated risk severity across the extracted evidence.",
+        "evidence_list": [
+            {
+                "snippet": "The current outbreak of COVID-19, or the future outbreak of any other highly infectious or contagious diseases, could adversely impact or cause disruption to our financial condition and results of operations, and/or to the financial condition and results of operations of our tenants and non-real estate investments.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties COVID-19 to adverse impacts on ARE’s own financial condition and results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Extends risk to tenants and portfolio companies, signalling second-order exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses ‘could’ – forward-looking, not yet quantified.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Event is <1 yr old at filing; Time-Decay allows full weighting.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct link to company and tenant financial harm from an ongoing pandemic warrants a high severity rating."
+            },
+            {
+                "snippet": "Market disruption and volatility, poor economic conditions in the capital markets and global economy, including in connection with the COVID-19 pandemic, and high unemployment levels could adversely affect the value of the companies in which we hold equity investments or the ability of tenants and the companies in which we invest to raise additional capital or access capital from venture capital investors or financial institutions on favorable terms.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-driven macro shocks to declines in equity-investment value.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights tenant financing stress, directly relevant to rent collection.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking conditional language (‘could’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Recency within 1-year window supports high score.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Shows multiple financial transmission channels from COVID-19 to ARE, justifying high risk weighting."
+            },
+            {
+                "snippet": "Seasonal weather conditions, climate change and severe weather, changes in the availability of transportation or labor, especially in connection with the COVID-19 pandemic, and other related factors may affect our ability to conduct business, the products, and services of our tenants, or the availability of such products and services of our tenants and the companies in which we invest.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly flags labour and transport shortages tied to the pandemic, i.e., supply-chain risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers both ARE operations and tenant product/service delivery.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "COVID-19 listed among several drivers, diluting specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event recency permits full weighting.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Identifies operational disruption vectors but mixes COVID-19 with other factors, yielding a mid-level score."
+            },
+            {
+                "snippet": "Although critical research and development efforts are continuing in our office/laboratory properties, in certain cases such research and development efforts have fewer workers, and non-critical workers in these buildings and most office buildings are working remotely.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes actual current impact (reduced on-site workforce, remote work).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specific to ARE-controlled facilities, signalling direct operational effect.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes continuity of critical R&D – partial mitigation.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Recency factor within 0-3 years.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Provides concrete evidence of operational change, balanced by mitigation of ongoing critical R&D."
+            },
+            {
+                "snippet": "Retail tenants in particular continue to be severely impacted by stay-at-home and lockdown restrictions and social distancing protocols that remain in place across all of the markets where our properties are located.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States ‘severely impacted’ – strong language of ongoing harm.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights persistent lockdown measures across all markets.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "ARE notes retail is only 0.5% of rental revenue, reducing materiality.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Recency supports weighting.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Severe but confined to a small revenue segment, moderating overall severity."
+            },
+            {
+                "snippet": "The potential impact and duration of the COVID-19 pandemic has had, and continues to have, a significant adverse impact across regional and global economies and financial markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing ‘significant adverse impact’ worldwide.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Frames risk as both current and continuing – temporal immediacy.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not tie explicitly to ARE’s own metrics – generic framing.",
+                            "points": 0
+                        },
+                        {
+                            "reason": "Event within recent 0-3 year window; no decay applied.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Broad statement of ongoing macro damage; lack of company specificity keeps score below maximum."
+            }
+        ],
+        "calculated_score": 34,
+        "average_severity": 5.666666666666667
+    }
+]

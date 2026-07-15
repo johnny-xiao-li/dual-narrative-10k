@@ -1,0 +1,178 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Dell’s 2023 filing shows that the company still views COVID-19 as a live, material risk almost three years after the WHO declaration.  The disclosure set spans both backward-looking statements (acknowledging concrete adverse effects on FY 2021-2023 results) and forward-looking warnings (supply-chain disruption, labour constraints, remote-work cyber-exposure, demand volatility).  None of the sentences quantify dollar impacts, but several confirm multi-year operational harm, which elevates severity beyond a purely hypothetical narrative.  Because the filing date (30-Mar-2023) is within the Time-Decay “recent” window (0-3 yrs), scores can reach the upper range; however, the absence of precise financial figures and the frequent use of conditional language (“may”, “could”) temper the ultimate severity.  Overall, the pandemic risk is moderate-to-high: clearly experienced, still ongoing in supply-chain and workforce models, yet partially mitigated by the generic, unquantified phrasing.",
+        "evidence_list": [
+            {
+                "snippet": "Weak or unstable global economic conditions, including those attributable to international conflicts, such as the conflict in Ukraine, international trade protection measures and disputes, such as those between the United States and China, or  public health issues, such as those resulting from the coronavirus disease 19 (“COVID-19”), also could harm our business by contributing to product shortages or delays, supply chain disruptions, insolvency of key suppliers, customer and counterparty insolvencies, increased product costs and associated price increases, reduced global sales, and other adverse effects on our operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to multiple operational and financial harms (product shortages, supply-chain disruption, cost increases, reduced sales).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Direct reference to COVID-19 as the causal public-health issue.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional language ('could'), signalling uncertainty.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No quantified magnitude of impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Lists concrete potential impacts but remains conditional and unquantified, yielding a moderate score of 3/10."
+            },
+            {
+                "snippet": "We experienced some of these adverse effects in Fiscal 2023, Fiscal 2022, and Fiscal 2021 as a result of continued impacts of the COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Affirms that COVID-19 actually caused adverse effects (realised, not hypothetical).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies multi-year duration (three fiscal years).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No detail on dollar value or business lines.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Confirms realised, multi-year impact but lacks quantification, producing a significant 5/10 severity."
+            },
+            {
+                "snippet": "The shift to work-from-home and flexible work arrangements following the COVID-19 pandemic may increase our vulnerability, as employees and contractors of our company and third-party providers are working remotely and using home networks that may pose a significant risk to network, data, and cyber security.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies a specific pandemic-driven operational change (remote work) that heightens cybersecurity risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Directly attributes the shift to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional wording ('may') introduces uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights a clear, ongoing vulnerability tied to COVID-19 but stated with conditional language, earning 3/10."
+            },
+            {
+                "snippet": "Natural disasters, terrorism or armed hostilities, such as the war between Russia and Ukraine, or public health issues, such as those resulting from the COVID-19 pandemic, whether in the United States or in other countries, could cause damage or disruption to us or our suppliers and customers, or could create political or economic instability, any of which impacts could harm our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions COVID-19 among events that could disrupt operations and supply chain.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Broad, multi-hazard clause dilutes COVID-specific focus.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Uses speculative 'could', and impact is unquantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Generic, multi-hazard wording and lack of specificity drive the score down to 0/10."
+            },
+            {
+                "snippet": "The COVID-19 pandemic negatively impacted the global economy, disrupted global supply chains, created significant volatility and disruption in financial markets, and, at times, increased unemployment levels.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States concrete global impacts directly attributed to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes multiple disruption channels (supply chains, markets, labour).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Describes macro impact rather than company-specific figures.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Clear statement of broad pandemic damage but not Dell-specific, yielding 3/10."
+            },
+            {
+                "snippet": "In addition, the pandemic resulted in temporary closures of many businesses and the institution of various lockdown orders and sheltering in place requirements around the world.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete operational constraints (closures, lockdowns) caused by the pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks direct link to Dell’s own operations and provides no numbers.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Describes real restrictions but without Dell-specific impact, so only 1/10."
+            },
+            {
+                "snippet": "The effects of COVID-19 adversely impacted aspects of our business over the last three fiscal years.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Company-specific acknowledgement of adverse impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Multi-year duration underscores persistence.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantitative detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Direct, multi-year impact statement, yet unquantified, merits 3/10."
+            },
+            {
+                "snippet": "The full impact of COVID-19 or any other widespread public health issue on our financial condition and results of operations will depend on the duration and scope of an outbreak (including the emergence or re-emergence of variants and their transmissibility, and the success of vaccination programs and treatments), its impact on our consumers and our partners, how quickly normal economic conditions, operations, and the demand for our services and products can resume, and any permanent behavioral changes which the pandemic or other public health issue may cause.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing uncertainty and multiple variables affecting future financial impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Purely speculative with no concrete metrics.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Forward-looking uncertainty statement provides limited severity evidence, so 1/10."
+            }
+        ],
+        "calculated_score": 19,
+        "average_severity": 2.375
+    }
+]

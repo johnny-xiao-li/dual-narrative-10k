@@ -1,0 +1,73 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated October 10 2024, addresses the COVID-19 pandemic only in broad, catch-all language. Management groups ‘global health emergencies’ and ‘pandemics’ with other macro hazards and notes that these events have previously hurt demand and could do so again. The wording signals the company has already experienced some adverse impact (historical anchoring) while also treating the threat as an ongoing, forward-looking uncertainty. No dollar amounts, supply-chain statistics, or labor-force metrics are provided, and no specific mitigation steps (e.g., diversified sourcing, vaccination policies) are disclosed. Because the pandemic’s onset is now roughly 4½ years in the past, the Time Decay Principle requires that evidence be scored in the moderate range: the risk is still relevant but no longer at its peak. Consequently, individual snippet scores fall between 1 and 5, reflecting generic but still credible references to demand disruption and operational challenges such as prolonged remote work.",
+        "evidence_list": [
+            {
+                "snippet": "Changing demand patterns from economic and political volatility and uncertainty, including as a result of increasing geopolitical tensions, inflation, economic downturns, changes in global trade policies, global health emergencies and their impact on us, our clients and the industries we serve, have in the past had a negative impact and could in the future have a significant negative impact on our results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘global health emergencies’—a direct reference to pandemic-type events.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States both historical damage (‘have in the past had a negative impact’) and forward-looking risk (‘could in the future have a significant negative impact’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No mitigating actions or quantified data provided (neutral, no deduction).",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Moderate severity: direct mention of pandemic risk and acknowledgement of past and potential future harm, but generic and unquantified."
+            },
+            {
+                "snippet": "Health emergencies or pandemics; acts of terrorist violence; political, social and civil unrest; regional and international war and other hostilities and international responses to these wars and hostilities; natural disasters, sea level rise, floods, droughts and water scarcity, heat waves, wildfires and storms, occurrences of which may increase in frequency and severity as a result of climate change; or the threat of or perceived potential for these events; and other acts of god have had and could in the future have significantly negative impacts on us.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses the explicit phrase ‘health emergencies or pandemics’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Asserts both historical and future ‘significantly negative impacts’.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Pandemic risk is bundled with many other hazards, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic bundled disclosure weakens the signal; still acknowledges material impact but with less focus, yielding a score in the lower mid-range."
+            },
+            {
+                "snippet": "As the breadth and complexity of this infrastructure continues to grow, including as a result of the increasing reliance on, and use of, mobile technologies, social media and cloud-based services, as more of our employees continue to work remotely, and as cyberattacks become increasingly sophisticated (e.g. deepfakes and AI generated social engineering), the risk of security incidents and cyberattacks has increased.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights the continuing remote-work model—an operational shift strongly associated with the pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No explicit mention of COVID-19 or health emergencies; linkage is implicit.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Indirect evidence: remote work raises cyber-risk, which is a downstream pandemic effect, but absence of explicit pandemic wording limits severity."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 3.0
+    }
+]

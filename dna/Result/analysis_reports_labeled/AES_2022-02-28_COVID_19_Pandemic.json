@@ -1,0 +1,422 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "AES’ 2022 Form 10-K treats COVID-19 as an immediate, multi-faceted threat that is already affecting— and could continue to affect— virtually every dimension of the company’s business.  The disclosure is framed as an existing, on-going impact rather than a purely hypothetical risk: management notes that the pandemic has “severely impacted” global economic activity and electricity demand, and then supplies a comprehensive catalogue of concrete ways in which AES could suffer— from customer non-payment and government moratoria, to construction delays, supply-chain blockages, workforce health problems, cybersecurity exposures from remote work, capital-market dislocations, and potential asset impairments.  The language is specific (naming utility customers, PPAs, fuel delivery, renewables construction, and credit-market access), forward-looking in scope, and explicitly links the event to material adverse effects on results of operations, financial condition and cash flows.  Because the filing date (28 Feb 2022) is less than three years after the WHO declared COVID-19 a pandemic (11 Mar 2020), the Time-Decay Principle allows high severity scores.  None of the text offers meaningful mitigating language beyond acknowledging that future impacts depend on vaccination progress; therefore individual snippets are scored largely on the breadth and directness of the stated risk, generally ranging from 6-9, with the most sweeping statements receiving the upper bound.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic, or the future outbreak of any other highly infectious or contagious diseases, could impact our business and operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links pandemic to company’s business and operations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers both current and future outbreaks, widening risk horizon.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional ‘could’ without mitigation.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Broad, unmitigated statement of potential impact across business operations warrants a high-moderate score of 7."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has severely impacted global economic activity, including electricity and energy consumption.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Asserts that impact is already occurring (past tense, ‘has severely impacted’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies sector-relevant effect on electricity demand.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "States existing, severe impact on a core revenue driver (energy consumption); receives 7."
+            },
+            {
+                "snippet": "COVID-19 or another pandemic could have material and adverse effects on our results of operations, financial condition and cash flows due to, among other factors:",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates potential ‘material and adverse’ effects on key financial metrics.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Transition sentence introduces detailed risk factors.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "High-level financial materiality statement earns 6."
+            },
+            {
+                "snippet": "further decline in customer demand as a result of general decline in business activity;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links macroeconomic slowdown to reduced power demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Direct revenue impact with no mitigation.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Describes demand-side revenue risk; moderate severity (5)."
+            },
+            {
+                "snippet": "further destabilization of the markets and decline in business activity negatively impacting customers’ ability to pay for our services when due or at all, including downstream impacts, whereby the utilities’ customers are unable to pay monthly bills or receiving a moratorium from payment obligations, resulting in inability on the part of utilities to make payments for power supplied by our generation companies;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details cascading non-payment risk across utility value chain.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies government moratoria scenario.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Explains payment-default chain reaction; high relevance yields 6."
+            },
+            {
+                "snippet": "decline in business activity causing our commercial and industrial customers to experience declining revenues and liquidity difficulties that impede their ability to pay for power that we supply;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights liquidity stress on C&I customers leading to non-payment.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly ties to AES revenue collection.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct revenue-collection threat; moderate severity (5)."
+            },
+            {
+                "snippet": "government moratoriums or other regulatory or legislative actions that limit changes in pricing, delay or suspend customers’ payment obligations or permit extended payment terms applicable to customers of our utilities or to our offtakers under power purchase agreements, in particular, to the extent that such measures are not mitigated by associated government subsidies or other support to address any shortfall or deficiencies in payments;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Points to regulatory interventions capping revenue or delaying cash flows.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Notes potential lack of mitigation by subsidies.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Regulatory risk to pricing and cash timing—highly material; score 6."
+            },
+            {
+                "snippet": "claims by our PPA counterparties for delay or relief from payment obligations or other adjustments, including claims based on force majeure or other legal grounds;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies legal/contractual exposure via force-majeure claims.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Could impair revenue certainty under PPAs.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Contract risk highlighted; moderate impact score 5."
+            },
+            {
+                "snippet": "further decline in spot electricity prices;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Spot-price depression reduces merchant revenues.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specific but single-dimension price risk; lower relative weight (3)."
+            },
+            {
+                "snippet": "the destabilization of the markets and decline in business activity negatively impacting our customer growth in our service territories at our utilities;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Predicts slower customer growth reducing long-term revenue base.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Long-term growth drag; modest severity (3)."
+            },
+            {
+                "snippet": "negative impacts on the health of our essential personnel and on our operations as a result of implementing stay-at-home, quarantine, curfew and other social distancing measures;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Operational continuity threat from workforce health and restrictions.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct operations risk via labor availability; score 4."
+            },
+            {
+                "snippet": "delays or inability to access, transport and deliver fuel to our generation facilities due to restrictions on business operations or other factors affecting us and our third-party suppliers;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes fuel-supply chain disruption affecting generation.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Supply-chain constraint on fuel; operationally critical; 4 points."
+            },
+            {
+                "snippet": "delays or inability to access equipment or the availability of personnel to perform planned and unplanned maintenance or disruptions in supply chain, which can, in turn, lead to disruption in operations;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights maintenance and equipment supply challenges leading to outages.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Maintenance/Supply-chain operational risk; 4."
+            },
+            {
+                "snippet": "a deterioration in our ability to ensure business continuity, including increased cybersecurity attacks related to the work-from-home environment;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-driven remote work to heightened cyber-risk.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Cybersecurity dimension of pandemic risk; moderate (4)."
+            },
+            {
+                "snippet": "further delays to our construction projects, including at our renewables projects, and the timing of the completion of renewables projects;",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Construction delays jeopardize growth pipeline and revenue timing.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Growth-project delay risk; 4."
+            },
+            {
+                "snippet": "delay or inability to receive the necessary permits for our development projects due to delays or shutdowns of government operations;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Regulatory permitting bottleneck affects project schedules.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Permit-related schedule risk; lower weight 3."
+            },
+            {
+                "snippet": "delays in achieving our financial goals, strategy and digital transformation;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Strategic initiative setback affecting long-term competitiveness.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "More general strategic delay; modest severity (2)."
+            },
+            {
+                "snippet": "deterioration of the credit profile of The AES Corporation and/or its subsidiaries and difficulty accessing the capital and credit markets on favorable terms, or at all, and a severe disruption and instability in the global financial markets, or deterioration in credit and financing conditions, which could affect our access to capital necessary to fund business operations or address maturing liabilities on a timely basis;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties pandemic to corporate credit deterioration and liquidity risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Mentions inability to refinance or fund operations.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Capital-market access risk critical to financing model; high score 6."
+            },
+            {
+                "snippet": "delays or inability to complete asset sales on anticipated terms or to redeploy capital as set forth in our capital allocation plans;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Hampers capital-recycling strategy and liquidity.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Asset-sale execution risk; medium-low 3."
+            },
+            {
+                "snippet": "increased volatility in foreign exchange and commodity markets;",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Market volatility affects costs and revenues.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Volatility pressure; moderate 3."
+            },
+            {
+                "snippet": "deterioration of economic conditions, demand and other related factors resulting in impairments to goodwill or long-lived assets;",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies accounting write-down risk (impairments).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Potential balance-sheet hit; score 3."
+            },
+            {
+                "snippet": "delay or inability in obtaining regulatory actions and outcomes that could be material to our business, including for recovery of COVID-19 related losses and the review and approval of our rates at our U.S. regulated utilities.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Regulatory lag could block cost recovery and rate approvals.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Risk to regulated recovery mechanisms; moderately high (4)."
+            },
+            {
+                "snippet": "The impact of the COVID-19 pandemic also depends on factors, including the effectiveness and timing of vaccine development and distribution efforts, the development of more virulent COVID-19 variants as well as third-party actions taken to contain its spread and mitigate its public health effects.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows uncertainty and dependency on uncontrollable external factors.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights uncertainty drivers; informational, medium (3)."
+            },
+            {
+                "snippet": "The COVID-19 pandemic presents material uncertainty that could adversely affect our generation facilities, transmission and distribution systems, development projects, energy storage sales by Fluence, and results of operations, financial condition and cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Comprehensive enumeration of assets and metrics at risk.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Labels uncertainty as ‘material’.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Wide-ranging, ‘material’ adverse-effect statement; strong 7."
+            },
+            {
+                "snippet": "Our suppliers may source certain materials from areas impacted by the COVID-19 pandemic, which may cause delays and/or disruptions to our development projects or operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies supply-chain dependency on pandemic-affected regions.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Supplier-side disruption risk; 4."
+            },
+            {
+                "snippet": "a deterioration in our ability to ensure business continuity, including increased cybersecurity attacks related to the work-from-home environment;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit link between remote work (pandemic measure) and cyber risk.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Operational cyber threat from pandemic-driven remote work; 4."
+            }
+        ],
+        "calculated_score": 100,
+        "average_severity": 4.423076923076923
+    }
+]

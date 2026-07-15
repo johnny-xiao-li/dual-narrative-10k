@@ -1,0 +1,118 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Northern Trust’s 2024 Form 10-K treats the COVID-19 pandemic primarily as an ongoing but generalized external threat rather than a discrete, quantified shock.  All pandemic language appears in broad risk-factor discussions that lump “pandemics” with other exogenous hazards (natural disasters, terrorism, wars).  The firm states that such events have hurt—or could hurt—operations, facilities, employee mobility, client behaviour and financial markets, yet it offers no specific dollar figures or measurable impact from COVID-19.  Consequently, the disclosures are largely forward-looking and cautionary.  They confirm that pandemic-related disruption is still relevant (the filing date is within four years of the 2020 outbreak, so time-decay is modest), but the wording (“may,” “could”) and the bundling with unrelated risks dilute severity.  Northern Trust also references existing business-continuity plans, which partially offsets concern.  Taken together, the overall risk evidence is moderate: the event is recent enough to matter, but the disclosures are generic and unquantified, warranting scores in the 3-5 range rather than the upper end of the scale.",
+        "evidence_list": [
+            {
+                "snippet": "Pandemics, natural disasters, global climate change, acts of terrorism, geopolitical tensions, and global conflicts may have a negative impact on our business and operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names pandemics as a risk driver.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States potential negative impact on business and operations.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Event is within 0-4 year window so recency warrants additional weight.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Bundled with many unrelated hazards, making the statement generic.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Clear acknowledgement of pandemic risk and possible adverse impact, but generic phrasing tempers severity."
+            },
+            {
+                "snippet": "Additionally, financial markets may be adversely affected by the liquidity or capital deficiencies ... terrorism, political or civil unrest, public health epidemics or pandemics, the exit or potential exit of one or more countries from the EU, sovereign debt downgrades or debt crises, or other geopolitical events.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemics to adverse effects on financial markets, implying earnings pressure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights forward-looking nature of risk ('may be adversely affected').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Scope broadened to many other events, reducing specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Recency of COVID-19 keeps the topic salient.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows plausible channel (market disruption) through which pandemic could hurt the company, but remains general and unquantified."
+            },
+            {
+                "snippet": "Factors that can impact operations and expose us to risks varying in size, scale and scope, some or all of which may be exacerbated by the trend toward hybrid and remote working arrangements in recent years, include: • failures of technological systems or networks ... • external events that are wholly or partially beyond our control, such as pandemics, geopolitical events, political or social unrest, natural disasters or acts of terrorism.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites pandemics as external events that can disrupt operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects pandemic risk to operational disruptions (technology, hybrid work).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "List format within many other factors dilutes focus.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Provides operational-disruption angle tied to pandemic, but broad listing and lack of impact detail keep score modest."
+            },
+            {
+                "snippet": "Pandemics, natural disasters, global climate change, acts of terrorism, geopolitical tensions, and global conflicts ... have had in the past, or may in the future have, a negative impact on our business and operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that pandemics have already produced negative impacts (realised risk).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Signals continuing future exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Explicit linkage to business and operational harm.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic grouping with several other hazards dampens specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Recency of COVID-19 era heightens relevance.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Most concrete statement—admits past pandemic damage and future threat—yet still broad and unquantified, yielding a moderate score."
+            }
+        ],
+        "calculated_score": 16,
+        "average_severity": 4.0
+    }
+]

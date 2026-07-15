@@ -1,0 +1,73 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CI’s Form 10-K indicates that management still recognises pandemic-related threats, but does so only in broad, forward-looking language.  Three sentences reference “pandemics” (never specifically “COVID-19”) as possible drivers of (i) unpredictable medical-cost inflation, (ii) operational challenges across international markets, and (iii) supply-chain disruption.  None of the statements quantify impact, cite past COVID-19 losses, or outline specific mitigation plans; they position pandemics as one risk among many.  Because the filing date is almost four years after the WHO declaration (March 2020 → Feb 2024), the Time-Decay Principle places the event at the edge of the medium-term window, capping scores in the mid-range.  Overall, the disclosure shows continuing—but generic—awareness rather than acute, measured exposure, so individual snippet scores cluster in the 1-4 range and stay well below the maximum allowed for medium-term events.",
+        "evidence_list": [
+            {
+                "snippet": "Our health care costs also are affected by external events that we cannot forecast or project and over which we have little or no control, including changes in laws and regulations, as well as pandemics, costly new treatments, new treatment guidelines, provider billing practices, inflation and changes in customers' health care utilization patterns, which may, among other things, impact our ability to appropriately document their health conditions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics as an uncontrollable external event that can raise health-care costs.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights forecasting difficulty, signalling heightened uncertainty.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Pandemics presented generically amid a long list of other factors, diluting specificity and materiality.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Provides a clear but generic link between pandemics and cost volatility, yielding a moderate score within medium-term limits."
+            },
+            {
+                "snippet": "• man-made disasters, natural disasters (including those arising as a result of climate change) and pandemics in locations where we operate;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that pandemics in operating regions pose risk to multinational business.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Very brief, grouped with other disaster types, no detail or impact discussion.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Only a cursory mention of pandemic risk; minimal aggravating content and thus a low score."
+            },
+            {
+                "snippet": "A disruption, or threat of disruption, in our supply chain, including as a result of future pandemics or public health emergencies, or inability to access or deliver products that meet requisite quality safety standards and patient needs in a timely and efficient manner could adversely impact our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemics directly to potential supply-chain disruption, a core operational risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses materiality language ('could adversely impact our business').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking and hypothetical; no COVID-specific history or quantification.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Links pandemics to a fundamental operational threat (supply chain), but remains hypothetical and unquantified, producing a mid-range score."
+            }
+        ],
+        "calculated_score": 7,
+        "average_severity": 2.3333333333333335
+    }
+]

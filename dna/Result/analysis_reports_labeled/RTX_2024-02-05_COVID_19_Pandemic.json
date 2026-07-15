@@ -1,0 +1,80 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "RTX’s 2024 Form 10-K continues to acknowledge the COVID-19 pandemic as a material but moderating enterprise-wide threat.  Statements are largely forward-looking and framed in conditional language (\"could be disrupted,\" \"could dramatically reduce demand\").  They emphasise three still-salient vectors of pandemic risk: (1) renewed public-health crises that disrupt operations and suppliers, (2) sudden drops in commercial-air-travel demand that erode aerospace margins, and (3) additional stress on an already strained global supply chain, potentially compounding inflation and parts shortages.  No new quantified impacts are provided and the company does not cite any current pandemic-driven losses; the disclosures serve mainly as risk reminders.  Because the original COVID-19 shock occurred almost four years ago, the Time-Decay Principle places the event in the “medium-term” window (4-10 years), so individual sentence scores should cluster in the moderate range (≈4-6).  Overall, the language confirms that pandemic disruption remains a credible strategic and operational hazard, but the absence of fresh, specific financial figures or immediate impairments tempers the severity assessment.",
+        "evidence_list": [
+            {
+                "snippet": "In addition, our business, and the businesses of our suppliers, subcontractors, service providers, and customers, could be disrupted by public health crises, such as pandemics and epidemics (including a resurgence of the Coronavirus Disease 2019 (COVID-19) pandemic), and governmental, business, and individual actions taken in response, damaging weather or other acts of nature, cyber-attacks on IT infrastructure and products, or other events outside of our control.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names COVID-19 and frames it as a risk of business disruption across the value chain (company, suppliers, customers).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights broad operational exposure (supply, subcontractors, service providers).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presented as a potential/contingent risk rather than an existing quantified impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct reference to COVID-19 and multi-tier disruption risk yields a solid, but time-decayed, mid-level score of 5."
+            },
+            {
+                "snippet": "Other factors, including future terrorist actions, aviation safety concerns, pandemic health issues, or major natural disasters, could also dramatically reduce the demand for commercial air travel, which could negatively impact the sales and margins of our aerospace businesses.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic health issues to a severe drop in consumer demand for air travel and resulting hit to sales and margins.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong downside wording (\"dramatically reduce,\" \"negatively impact\").",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Pandemic is listed among several generic threats, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Links pandemic to revenue and margin pressure but remains generic and un-quantified, so the score settles at 4."
+            },
+            {
+                "snippet": "Furthermore, the existing supply chain issues could be compounded by other events, such as an economic downturn; supplier capacity constraints for other reasons; supplier quality issues (for example, defects or fraudulent parts); supplier closing, bankruptcy, or financial difficulties; price increases for various reasons; and worsening shortages of raw materials or commodities, including as a result of war or other geopolitical actions, natural disaster (including the effects of climate change), health pandemic or other business continuity events, or transport and distribution issues, any of which could further negatively impact our ability to meet our commitments to customers or increase our operating costs and therefore incrementally affect our results of operations, financial condition, and liquidity.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies health pandemics as a compounding factor on already critical supply-chain problems that threaten operations and liquidity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Ties the risk directly to cost overruns and inability to meet customer commitments—a clear operational/financial pathway.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lengthy catch-all sentence where pandemic is one item among many, lowering distinctiveness.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows how a renewed pandemic could worsen supply-chain disruptions and financial results, but generic framing limits severity, yielding a score of 4."
+            }
+        ],
+        "calculated_score": 13,
+        "average_severity": 4.333333333333333
+    }
+]

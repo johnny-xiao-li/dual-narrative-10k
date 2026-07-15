@@ -1,0 +1,250 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "LLY’s 2023 Form 10-K positions the COVID-19 pandemic as a still-material, multi-dimensional threat.  Although the acute onset occurred in 2020, the filing describes continuing, concrete impacts—cost inflation, strained global logistics, product supply shortages, labor-market tightness, reduced face-to-face engagement, regulatory complexity around COVID-19 therapies, and persistent pricing pressures.  The company also layers forward-looking uncertainty on top of these realised effects, stressing that duration, new variants, and government counter-measures could further disrupt operations.  The language is predominately specific (e.g., detailing supply chain, workforce and pricing mechanics) and often framed in the present perfect (“has adversely impacted”), evidencing direct, ongoing losses rather than hypothetical exposure.  Given the filing date (Feb 2023) falls squarely within three years of the pandemic’s declared start (Mar 2020), the Time Decay Principle allows high severity scores.  However, the disclosures do not quantify dollar impacts, and some statements remain conditional (“could result”), tempering the maximum rating.  Overall, the risk signal is strong and current, warranting upper-mid to high micro-scores across the extracted evidence.",
+        "evidence_list": [
+            {
+                "snippet": "Our ability to attract and retain talent in our increasingly competitive environment may be further complicated by evolving employment trends, including as related to increased preferences for remote or flexible work arrangements; public health outbreaks, epidemics, or pandemics, such as the COVID-19 pandemic; political, social, civil, or cultural unrest; emergence or escalation of, and responses to, war and unrest; or the threat of or perceived potential for any of the foregoing events.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 to potential labor-market complications (talent attraction/retention).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights structural workforce shift (remote/flexible work) caused by the pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk framed as forward-looking possibility (‘may be further complicated’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Moderately severe because it identifies a concrete workforce risk tied to COVID-19 but remains largely prospective and unquantified."
+            },
+            {
+                "snippet": "Such difficulties, disruptions, or challenges could result from quality, oversight, or regulatory compliance problems; natural disasters (including increased instances of natural disasters or other events that may be due to climate change), public health outbreaks, epidemics, or pandemics (such as the COVID-19 pandemic); periods of global economic downturn or uncertainty; emergence or escalation of, and responses to, war or unrest (including the Russia-Ukraine war); equipment, mechanical, data, or IT system vulnerabilities, such as system inadequacies, inadequate controls or procedures, operating failures, service interruptions or failures, security breaches, malicious intrusions, or cyber-attacks from a variety of sources; labor shortages; contractual disputes with our suppliers and contract manufacturers; or inability to obtain single-source or other raw or intermediate materials.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics, including COVID-19, as a trigger for supply-chain/manufacturing disruptions.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Enumerates wide operational scope of potential disruptions (quality, regulatory, labor, materials).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "High relevance to supply-chain risk; breadth of impacts elevates severity even though framed as conditional (‘could result’)."
+            },
+            {
+                "snippet": "Trade and other global disputes and interruptions in international relationships, including related to tariffs, trade protection measures, import or export licensing requirements, the imposition of trade sanctions or similar restrictions by the U.S. or other governments, unrest or war, as well as public health outbreaks, epidemics, or pandemics, such as the COVID-19 pandemic, affect our ability to do business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to broad disruptions in international trade affecting business operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses present-tense ‘affect’, signalling current impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows present impact but at a higher, less detailed level than supply-chain-specific disclosures, yielding a mid-range score."
+            },
+            {
+                "snippet": "Public health outbreaks, epidemics, or pandemics, such as the COVID-19 pandemic, have adversely impacted and may in the future adversely impact our business and operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States direct adverse impact already experienced (‘have adversely impacted’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Acknowledges continuing future risk (‘may in the future’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicit reference to COVID-19 pandemic as causal event.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "High score because it affirms actual, material harm and ongoing exposure tied specifically to COVID-19."
+            },
+            {
+                "snippet": "Cost inflation and strain on global transportation, manufacturing, and labor markets, which have negatively impacted development, manufacturing, supply, distribution, and sales of our medicines, including through increased costs to provide, and in some cases disruptions in supply or shortages of, our medicines.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes concrete operational impacts (development, supply, sales) already experienced.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links impacts to systemic cost inflation and logistical strain driven by the pandemic context (as set up in prior sentence).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details both increased costs and product shortages, indicating material severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Near-max score: articulates present, multi-faceted operational damage including supply shortages and cost spikes."
+            },
+            {
+                "snippet": "Fewer in-person interactions among patients and healthcare providers and our employees with healthcare professionals in certain markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemic-driven change (reduced in-person engagement) impacting commercial and clinical activities.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Implies ongoing effect across ‘certain markets’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact is operational but less severe than supply-chain or cost shocks; no financial quantification.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Moderate score reflecting real but less financially acute disruption to customer engagement processes."
+            },
+            {
+                "snippet": "Pricing pressures, rebates, clawbacks, and other changes in reimbursement policies and programs resulting, in part, from the financial strain of the COVID-19 pandemic on government-funded healthcare systems around the world.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to concrete financial pressures on drug pricing and reimbursement.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights multiple mechanisms (rebates, clawbacks) that erode revenue.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Global scope (‘around the world’) broadens impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Financial risk is clear and ongoing, but absence of quantification keeps score in upper-mid range."
+            },
+            {
+                "snippet": "Risks related to our COVID-19 therapies, including heightened regulatory scrutiny of our manufacturing practices, quality assurance, and similar regulations; restrictions on administration that limit widespread and timely access to our therapies, and risks related to handling, return, and/or refund of product after delivery by us; concerns related to expedited authorization of restricted distribution of products with less than typical safety and efficacy data; and fluctuations in, or elimination of, demand for our COVID-19 therapies, including based on the availability of superior or competitive therapies, preventative measures such as vaccines and antiviral medicines, mutations of the virus impacting effectiveness, revocations or restrictions on EUAs, reaching endemic status in different jurisdictions, reduced government and payer funding for COVID-19 therapies, the unpredictable nature of pandemics, and other developments.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates an extensive list of regulatory, distribution, and demand risks specific to COVID-19 products.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers both current scrutiny and potential future changes (revocations, demand fluctuation).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Potentially material revenue impact through demand elimination and refunds.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "High score due to detailed, multifaceted threats to a product line, though effects are partly contingent."
+            },
+            {
+                "snippet": "The degree to which the COVID-19 pandemic could continue to affect us and other actual or threatened public health outbreaks, epidemics, or pandemics could affect us, will depend on developments that are highly uncertain and beyond our knowledge or control, including the duration and severity of the public health threat, the actions taken to reduce its transmission, the introduction and spread of new variants, the degree and extent of government restrictions on economic activity, government spending, and access to healthcare, and the speed with which, and extent to which, economic and operating conditions recover.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights high level of uncertainty and numerous external variables influencing future impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges potential for continued effect (‘could continue to affect us’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Demonstrates lack of control over critical factors, amplifying risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Mid-level score: no current quantified damage, but stresses uncontrollable uncertainty."
+            },
+            {
+                "snippet": "Should the COVID-19 pandemic, or any other actual or threatened public health outbreak, epidemic, or pandemic, as well as any associated or resulting cost of inflation, supply chain disruption, labor market impact, recession, depression, or other negative contingency, continue for a prolonged period, these risks could be exacerbated, causing further impact on our business and operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns that prolonged pandemic will intensify multiple adverse effects (cost, supply chain, labor).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes compound risk escalation (‘exacerbated’), indicating potential severity growth.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Lower score reflects conditional nature; impact framed as future possibility rather than current fact."
+            },
+            {
+                "snippet": "We continue to experience additional pricing pressures, rebates, clawbacks, and other changes in reimbursement policies and programs resulting from the financial strain of the COVID-19 pandemic, periods of global economic downturn or uncertainty, and the emergence or escalation of, and responses to, war or unrest (including the Russia-Ukraine war).",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States ongoing experience of pandemic-driven pricing pressures (current impact).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Financial implication explicit though unquantified.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Solid evidence of real, continuing financial squeeze; lack of numbers limits score to mid-range."
+            },
+            {
+                "snippet": "In addition, cost inflation, the strain on global transportation, logistics, and labor markets (including as exacerbated by the COVID-19 pandemic and the emergence or escalation of, and responses to, war or unrest, including the Russia-Ukraine war), global economic downturns or uncertainty, and an increase in overall demand in our industry for certain products and materials have had, and may continue to have, a number of impacts on our business, including increased costs and disruptions in the supply of our medicines.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly attributes cost inflation and logistics strain to COVID-19, linking to increased costs and supply disruptions.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses present perfect ‘have had’, showing realised impact, and projects continuation.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details tangible operational hit—‘increased costs and disruptions in the supply of our medicines’.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "High score because it documents current cost and supply-chain damage tied directly to the pandemic, with expectation of persistence."
+            }
+        ],
+        "calculated_score": 76,
+        "average_severity": 6.333333333333333
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The 2024 IBM filing addresses the COVID-19 pandemic primarily as an ongoing, potential disruptor rather than as a recently realised, quantified loss. The single explicit mention groups a “pandemic” with other large-scale hazards and states it *could* harm customer demand, operations, supply chains and IBM’s ability to deliver products. This wording is generic and forward-looking, offering no numerical impact or historical loss disclosure, which dampens severity. Nevertheless, the risk remains relevant—COVID-19-related pressures on supply chains, labour availability and remote-work security are still evident less than four years after the World Health Organization declared the pandemic (borderline between “recent” and “medium-term”). Applying the Time Decay Principle, evidence can merit a moderate score (upper mid-range, 4-6) because the pandemic’s effects are not yet stale, but the disclosure’s breadth and lack of detail prevent a higher rating. Secondary language about the cybersecurity challenges from widespread remote work provides a weak, indirect pandemic link and therefore scores low.",
+        "evidence_list": [
+            {
+                "snippet": "In addition, any widespread outbreak of an illness, pandemic or other local or global health issue, natural disasters, climate change impacts, or uncertain political climates, international hostilities, or any terrorist activities, could adversely affect customer demand, the company’s operations and supply chain, and its ability to source and deliver products and services to its customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names 'pandemic' as a threat.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details multiple critical impact channels (customer demand, operations, supply chain, sourcing/delivery).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses conditional language ('could'), indicating forward-looking uncertainty rather than current damage.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Pandemic is bundled with many other hazards, diluting specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event is ~4 years old—moderate time decay still allows meaningful relevance.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "The sentence earns a moderate 5/10: it clearly flags pandemic risk and cites several major operational impacts, but it is generic, speculative and unquantified, consistent with a medium-term event."
+            },
+            {
+                "snippet": "There are numerous and evolving risks to cybersecurity and privacy, including risks originating from intentional acts of criminal hackers, hacktivists, nation states and competitors; from intentional and unintentional acts or omissions of customers, contractors, business partners, vendors, employees and other third parties; and from errors in processes or technologies, as well as the risks associated with an increase in the number of customers, contractors, business partners, vendors, employees and other third parties working remotely.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies large-scale shift to remote work, a well-known consequence of the COVID-19 pandemic, as a risk factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects remote-work trend to cybersecurity exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Does not explicitly reference pandemic, making the link indirect.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Highly generic, no impact magnitude or financial detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Because the pandemic connection is implied rather than stated and no impact is quantified, this evidence is weak, yielding a low score of 1/10."
+            }
+        ],
+        "calculated_score": 6,
+        "average_severity": 3.0
+    }
+]

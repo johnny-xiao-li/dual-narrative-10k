@@ -1,0 +1,90 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "All pandemic-related disclosures in the filing are clustered in the Risk Factors section and frame COVID-19 as both a realized and continuing threat.  Adobe acknowledges concrete impacts (e.g., supply-chain disruptions that have already occurred) as well as forward-looking uncertainties (e.g., acquisition delays, potential operational interruptions and macro-economic slow-downs).  The language is largely qualitative and precautionary—there are no dollar figures or quantified volume losses—yet it is specific enough to tie the pandemic to strategic functions such as M&A execution, hardware procurement for data-center continuity, and day-to-day customer operations.  Because the filing date (17 Jan 2023) is less than three years after the WHO declaration (11 Mar 2020), the Time Decay Principle permits elevated scores.  Nonetheless, the absence of quantified financial impact, coupled with mentions of only potential or un-sized adverse effects, moderates the severity assessment.  Overall, the pandemic presents a meaningful but not catastrophic risk to Adobe; corresponding snippet scores therefore fall in the mid-to-upper range (3-7) rather than the maximum level.",
+        "evidence_list": [
+            {
+                "snippet": "Our ability to acquire other businesses or technologies, make strategic investments or integrate acquired businesses effectively may also be impaired by the effects of the COVID-19 pandemic, including government actions in light of the pandemic, trade tensions, restrictions and increased global scrutiny of foreign investments.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links COVID-19 to impairment of strategic activities (M&A and investments).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies specific external mechanisms—government actions, trade tensions, investment restrictions—that could amplify the risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows a concrete channel (M&A disruption) by which the pandemic can harm Adobe, but lacks quantification; therefore a moderate score of 5."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has disrupted and may continue to disrupt the supply chain of hardware needed to maintain these third-party systems and services or to run our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that disruption has already occurred ('has disrupted'), confirming realized impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights the continuing nature of the threat ('may continue to disrupt').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Specifies the operational area affected—hardware supply for critical systems—indicating direct business continuity risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Provides a recent, specific, and operationally critical impact; the strongest evidence, warranting a score of 7."
+            },
+            {
+                "snippet": "Catastrophic events, including global pandemics such as the COVID-19 pandemic, may disrupt our business and adversely affect our financial condition and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that a pandemic can disrupt business and financial results, but phrased as a broad possibility ('may disrupt').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links to both operational and financial outcomes, albeit generically.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "A generic, forward-looking caution without evidence of actual impact; low-moderate risk, score 3."
+            },
+            {
+                "snippet": "The occurrence of regional epidemics or a global pandemic, such as the COVID-19 pandemic, have had and may continue to have an adverse effect on how we and our customers are operating our businesses and our operating results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits past adverse effects ('have had') and the prospect of ongoing impact ('may continue').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects impact to both Adobe’s and customers’ operations, broadening the scope of risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Confirms historical and continuing operational impacts but lacks detail or quantification; merits a mid-level score of 5."
+            }
+        ],
+        "calculated_score": 20,
+        "average_severity": 5.0
+    }
+]

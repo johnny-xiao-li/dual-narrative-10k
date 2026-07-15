@@ -1,0 +1,230 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "APTV’s 2022-02-07 filing devotes extensive, specific language to the COVID-19 pandemic and its knock-on supply-chain effects.  Because the pandemic event began in March 2020—well within the most recent three-year window—the Time Decay Principle permits high severity scores.  The disclosure repeatedly links the pandemic to concrete, already-experienced impacts: factory work-stoppages, semiconductor shortages, volatile customer production schedules, elevated logistics costs, excess inventories and potential customer claims for lost production.  These are described as ongoing and expected to persist through 2022, underscoring that the risk is not merely hypothetical but an active, direct drag on operations and cash flow.  Some mitigating references appear (e.g., collaboration with suppliers, inventory buffering), yet management stresses that future developments are “highly uncertain and difficult to predict,” vaccination mandates could drive attrition, and pandemic-related shocks could “heighten many of the other risk factors.”  Collectively, the evidence shows a high-magnitude, continuing risk with limited controllability, warranting elevated snippet scores (7-9 range) after modest deductions where mitigating language exists.",
+        "evidence_list": [
+            {
+                "snippet": "Due to various factors that are beyond our control, there are currently global supply chain disruptions, including a worldwide semiconductor supply shortage.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states existence of global supply-chain disruptions tied to semiconductor shortage (direct, current impact).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses present-tense ('currently') confirming ongoing effect.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No mitigating actions mentioned in this sentence.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Current, uncontrollable supply-chain disruption is a direct pandemic-linked risk, justifying a high score of 8."
+            },
+            {
+                "snippet": "We anticipate these supply chain disruptions will persist throughout 2022.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forecasts continued disruption, extending risk horizon.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Shows management expectation, indicating risk materiality.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking persistence of disruption raises concern but lacks quantitative detail, yielding a moderate-high 5."
+            },
+            {
+                "snippet": "We, along with most automotive component manufacturers that use semiconductors, have been unable to fully meet the vehicle production demands of OEMs because of events which are outside our control, including but not limited to, the COVID-19 pandemic, the global semiconductor shortage, fires in our suppliers’ facilities, unprecedented weather events in the southwestern United States, and other extraordinary events.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct admission of failure to meet customer demand tied to COVID-19 and shortages.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links multiple exogenous shocks, compounding risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Shared industry impact slightly mitigates competitive disadvantage.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Sentence shows concrete operational shortfall caused by pandemic-driven shortages; modest mitigation for industry-wide nature gives score 7."
+            },
+            {
+                "snippet": "Some of our customers have indicated that they expect us to bear at least some responsibility for their lost production and other costs.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces potential financial liability claims from customers.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Implication of material cost exposure increases severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Possible cost-shifting from customers elevates financial risk; absence of mitigation yields score 6."
+            },
+            {
+                "snippet": "However, as a result of our customers’ recent production volatility and cancellations, our balance of productive, raw and component material inventories has increased substantially from customary levels as of December 31, 2021.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States measurable balance-sheet impact (substantial inventory build).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects impact to pandemic-related production volatility.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Inventory swell is direct, quantifiable operational strain, producing a mid-high score of 5."
+            },
+            {
+                "snippet": "The extent to which the COVID-19 pandemic, including its variants, and measures taken in response thereto impact our business, financial condition, results of operations and cash flows will depend on future developments, which are highly uncertain and difficult to predict.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights broad scope of potential impact across financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasizes high uncertainty, an aggravating factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks specificity or data.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Generic yet sweeping uncertainty statement deserves moderate 4 after small deduction for vagueness."
+            },
+            {
+                "snippet": "Although our manufacturing facilities were not impacted by prolonged shutdowns directly resulting from the COVID-19 pandemic in 2021, we cannot assure that this will not be the case in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges future risk of plant shutdowns.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes absence of 2021 shutdowns (mitigating).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Prospective risk but current mitigation yields low score 1."
+            },
+            {
+                "snippet": "Any future mandates could result in increased employee attrition, which could have a material adverse effect on our business and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specific labor risk (attrition) tied to vaccination mandates.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong materiality language ('material adverse effect').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete workforce threat with materiality wording rates a 5."
+            },
+            {
+                "snippet": "The direct adverse impacts of the COVID-19 pandemic on Aptiv ... included extended work stoppages and travel restrictions at our facilities and those of our customers and suppliers, decreases in consumer demand and vehicle production schedules, disruptions to our supply chain and other adverse global economic impacts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple concrete operational impacts already experienced.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Historical evidence confirms severity, not just potential.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Enumerated past harms demonstrate realized severity, scoring 7."
+            },
+            {
+                "snippet": "However, certain direct and indirect adverse impacts of the COVID-19 pandemic persisted throughout 2021 and are expected to continue into 2022, including the worldwide semiconductor supply shortage.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows persistence of pandemic impacts into current and next fiscal year.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly ties semiconductor shortage to pandemic.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Ongoing adverse conditions tied to semiconductor shortages justify score 5."
+            },
+            {
+                "snippet": "Lower global automotive sales would be expected to result in substantially all of our automotive OEM customers lowering vehicle production schedules, which has a direct impact on our earnings and cash flows ... including global health crises, such as the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-driven sales decline to earnings and cash-flow impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Conditional phrasing (would be expected) slightly lowers immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Potential but not yet realized impact; moderate severity 3."
+            },
+            {
+                "snippet": "In addition, as a result of the ongoing impacts of the COVID-19 pandemic, some of our employees are continuing to work from home on a full-time or part-time basis, which may increase our vulnerability to cyber and other information technology risks.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links remote-work shift to heightened cybersecurity exposure.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Qualifies impact as 'may', indicating uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Indirect, uncertain risk related to remote work gives low-moderate score 2."
+            }
+        ],
+        "calculated_score": 58,
+        "average_severity": 4.833333333333333
+    }
+]

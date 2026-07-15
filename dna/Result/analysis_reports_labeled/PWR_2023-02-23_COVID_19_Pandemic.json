@@ -1,0 +1,124 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated February 23 2023, references COVID-19 chiefly as an external shock that has already produced tangible impacts (e.g., lost industrial‐services demand in 2020–2021 and current cross-border labor delays) while also framing the virus as an ongoing macro-level uncertainty that could weaken future demand, disrupt supply chains and constrain workforce mobility.  Because the pandemic is still within the 0–3-year “recent-event” window, the Time Decay Principle allows higher severity scores where the company cites concrete, realized effects.  Only one sentence delivers a clearly realized operational impact, while several others discuss continuing or potential impacts in broader, less specific terms, often bundled with other risks.  Accordingly, evidence showing direct, dated consequences receives upper-mid scores (6–7), whereas generic, catch-all listings receive very low scores (0–2).  The overall risk posture is therefore assessed as moderate-to-elevated: the company has experienced measurable disruptions but largely treats COVID-19 as one of many external variables rather than an existential threat.",
+        "evidence_list": [
+            {
+                "snippet": "For example, demand for our industrial services operations declined during 2020 and 2021 as customers reduced and deferred regularly scheduled maintenance due to lack of demand for refined products and economic uncertainty as a result of the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes operational decline to the COVID-19 pandemic.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies an actual, historical impact (2020–2021), showing realized—not merely potential—risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies the business channel affected (industrial services) and nature of the impact (maintenance deferrals).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No dollar figure or percentage magnitude provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Real, time-bound operational losses linked to COVID-19 warrant a high (but not maximal) score despite lack of quantification."
+            },
+            {
+                "snippet": "For example, as a result of the COVID-19 pandemic, we have experienced delays and restrictions due to immigration processes that have prevented certain foreign workers from entering and working in the United States and Canada.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit causal link between the pandemic and workforce/immigration disruption.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Describes concrete operational hindrance—labor shortages affecting two countries.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses present-perfect tense ('have experienced'), implying ongoing impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantitative scale of the disruption.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Sentence shows an ongoing, specific operational constraint attributed to COVID-19, meriting a solid severity score."
+            },
+            {
+                "snippet": "Changes in economic conditions, including those resulting from wars and other conflicts, civil unrest, public health crises, such as the COVID-19 pandemic, acts of terrorism, or volatility in global markets, may adversely affect demand for our services and our customers’ ability to pay for our services.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 as a factor that could weaken demand and cash collection.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking statement flags potential (not yet realized) risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Bundled with many unrelated macro risks, diluting specificity.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic, multi-factor wording yields only a minimal score despite acknowledging COVID-19."
+            },
+            {
+                "snippet": "• other factors such as terrorism, military action, public health crises (e.g., the pandemic associated with the novel coronavirus that began in 2019 (COVID-19)) and delays attributable to U.S. government shutdowns or any related under-staffing of government departments or agencies;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references the COVID-19 pandemic as a public-health crisis.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presented as part of a broad list with no detail on impact or likelihood.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mention is specific but wholly generic in impact, so it scores very low."
+            },
+            {
+                "snippet": "• fluctuations in economic, political, financial, industry and market conditions on a regional, national or global basis, including as a result of, among other things, ... natural disasters and other emergencies (e.g., wildfires, weather-related events, pandemics);",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists pandemics among possible disruptive emergencies.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generic catch-all statement with no COVID-19 specificity or described effect.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "A perfunctory pandemic reference inside a long boiler-plate list provides negligible incremental risk insight, leading to a score of zero."
+            }
+        ],
+        "calculated_score": 15,
+        "average_severity": 3.0
+    }
+]

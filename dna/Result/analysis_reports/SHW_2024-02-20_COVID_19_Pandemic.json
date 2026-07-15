@@ -1,0 +1,85 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The 2024 Form 10-K frames pandemic exposure mainly through broad, catch-all risk language. Sherwin-Williams (SHW) repeatedly groups “public health crises, pandemics, outbreaks of disease” with other macro headwinds and states that such events have already affected – and could again affect – demand, raw-material availability, labour capacity and operating costs. Although COVID-19 is not named explicitly, the phrasing “have in the past impacted” implicitly references the 2020-23 pandemic experience, signalling that the risk is not purely hypothetical. The disclosures remain high-level: they do not quantify margin effects, cite specific shutdowns, or outline bespoke mitigation strategies, and they appear in omnibus sentences alongside many unrelated hazards, diluting specificity. Because the filing date (20 Feb 2024) is roughly four years after the WHO’s pandemic declaration (11 Mar 2020), the Time-Decay Principle places the event in the medium-term window (4-10 years), warranting a moderate severity band (≈4-6). Taking account of the generic wording (mitigating) but also the acknowledgement of past impact and the multi-faceted operational channels described (aggravating), the overall risk evidence is assessed as medium, clustering around a score of 4-5 per sentence.",
+        "evidence_list": [
+            {
+                "snippet": "Changes in inflation rates, interest rates, tax rates, unemployment rates, labor costs, healthcare costs, recessionary conditions, geopolitical conditions, governmental policies, laws and regulations, business disruptions due to cybersecurity incidents, terrorist activity, armed conflicts and wars (including the ongoing conflict between Russia and Ukraine and the Israel-Hamas war), public health crises, pandemics, outbreaks of disease, catastrophic events, adverse weather conditions or natural disasters (including those that may be related to climate change or otherwise), supply chain disruptions (including those caused by industry capacity constraints, labor shortages, raw material availability, and transportation and logistics delays and constraints), and other economic factors have in the past and could in the future adversely affect demand for some of our products, our ability to predict and meet any future changes in the demand for our products, the availability, delivery or cost of raw materials, our ability to adequately staff and maintain operations at affected facilities and our results of operations, cash flow, liquidity or financial condition and that of our customers, vendors and suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites 'public health crises, pandemics, outbreaks of disease' as a driver of risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details multiple operational impact channels (demand, supply chain, staffing, financial condition).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses retrospective language ('have in the past') indicating the risk has already materialised (link to COVID-19).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic omnibus list with many unrelated factors dilutes event specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Mentions pandemics directly and notes past adverse effects across critical business areas, but the highly generic catch-all style tempers severity, yielding a moderate score of 5."
+            },
+            {
+                "snippet": "Factors such as political instability, higher tariffs, supply chain disruptions, adverse weather conditions and natural disasters (including those that may be related to climate change or otherwise), armed conflicts and wars, or public health crises have impacted and may in the future disrupt the availability of raw material and fuel supplies, adversely impact our ability to meet customer demands for some of our products or adequately staff and maintain operations at affected facilities, and increase our costs.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies 'public health crises' among factors that 'have impacted' operations, signalling realised risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies concrete operational consequences: raw-material disruption, staffing issues, cost increases.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Past-tense wording ('have impacted') acknowledges historical COVID-related effects.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Placement within a long mixed-factor list reduces pandemic-specific focus.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Sentence links public health crises to supply-chain, labour and cost impacts, with acknowledgement of past disruptions; generic framing slightly offsets, landing at 5."
+            },
+            {
+                "snippet": "In addition, public health crises in foreign jurisdictions may temporarily reduce the demand for some of our products and adversely affect the availability and cost of raw materials.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly names 'public health crises' as a risk factor.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes specific impacts on demand and raw-material cost/availability.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking and geographically limited ('may', 'foreign jurisdictions'), reducing immediacy and breadth.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides clear causal link between future public-health events and demand/supply impacts, but purely prospective and narrower in scope, giving a score of 4."
+            }
+        ],
+        "calculated_score": 14,
+        "average_severity": 4.666666666666667
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "TXT’s 2021-02-19 Form 10-K squarely frames COVID-19 as an ongoing, multi-dimensional threat that is already depressing revenue, inflating costs and straining every major operating lever.  The language is overwhelmingly present-tense (\"is being adversely impacted\"), confirming that the risk is not hypothetical but current and material.  In multiple sections the company quantifies concrete impacts—e.g., a $1.2 billion revenue shortfall at Textron Aviation and $142 million of idle-facility expense—while also describing forward-looking uncertainties such as future supply-chain failures, labour constraints, customer insolvencies and capital-market volatility.  The disclosures go beyond generic boiler-plate: they cite specific operational choke-points (facility closures, remote-work limits, social-distancing re-tooling), sector-specific demand shocks (business jets, specialised vehicles) and explicit financial stress responses (new debt, suspended buy-backs, furloughs).  Because the filing date is less than a year after the WHO pandemic declaration, the Time Decay Principle allows high severity scores.  Taken together, the evidence shows a pervasive, continuing and only partially mitigated risk profile; the most heavily weighted snippets are those that quantify large financial impacts or reference critical supply-chain/operational breakdowns, while statements that are broad, mitigated or lightly evidenced receive lower but still non-zero scores.",
+        "evidence_list": [
+            {
+                "snippet": "Our business is being adversely impacted, and is expected to continue to be adversely impacted, by the coronavirus (COVID-19) pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit statement of current adverse impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forecasts continued future impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Applies company-wide ('our business').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct, company-wide acknowledgement of both present and future harm earns a high but not maximum score."
+            },
+            {
+                "snippet": "Our businesses have experienced and continue to experience various degrees of disruption and reduced demand for certain of our products due to the unprecedented conditions surrounding the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes operational ‘disruption’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights reduced demand for products.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates the impact is ongoing ('continue to experience').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows current operational and demand harm, but without quantification, yielding a solid mid-high score."
+            },
+            {
+                "snippet": "The effects of COVID-19 have included and could continue to include disruption of the operation or temporary closure of certain of our facilities or the facilities of our customers, suppliers or business partners as well as other disruptions in our supply chains.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies facility closures that halt operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly cites supply-chain disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Projects that these issues could ‘continue’.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Pinpoints both internal and external shutdowns plus supply-chain risk, so severity is high."
+            },
+            {
+                "snippet": "Challenges resulting from the pandemic have impacted, and may continue to impact, the ability of many of our employees to work effectively, due to illness, quarantines, facility closures, changes in manufacturing processes to accommodate social distancing guidelines, remote working arrangements, or other government-imposed operating restrictions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details labour productivity/availability problems.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists multiple root causes (illness, quarantines, remote work limits).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "States risk is ongoing.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Clear workforce-capacity threat, but no financial magnitude given, so score is moderate-high."
+            },
+            {
+                "snippet": "We have experienced and may continue to experience increased costs as a result of these business and production disruptions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms cost escalation already happening.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Projects additional future cost pressure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Cost inflation acknowledged but not quantified; earns a smaller, still positive score."
+            },
+            {
+                "snippet": "Our commercial businesses have been and may continue to be adversely impacted due to a general slowdown in demand for our general aviation products and services, recreational and other specialized vehicles and automotive products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States adverse impact on commercial segments.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Attributes impact to demand slowdown across multiple product lines.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates ongoing nature of impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Demand-side harm across several markets is material but unquantified, driving a mid-level score."
+            },
+            {
+                "snippet": "We have experienced a decline in orders for our aviation products and services, as well as lower deliveries of commercial helicopters and fixed-wing aircraft because of reduced demand and travel restrictions imposed in response to the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes measurable declines in orders and deliveries.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links directly to COVID-related travel restrictions and demand collapse.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Affects multiple high-value product categories.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete operational declines linked to the pandemic justify a strong score."
+            },
+            {
+                "snippet": "It is possible that the continued spread of COVID-19 and actions taken by various governmental authorities and other third parties in response to the outbreak could also further cause disruption in our supply chain or in the operations of our business partners, impacting their ability to perform their obligations, which could impact our ability to perform our contractual obligations; cause delay by, or limit the ability of, the U.S. Government and other customers to perform, including in making timely payments to us; and cause other unpredictable events.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies future supply-chain and partner-operation disruptions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights contractual-performance and payment-delay risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasises broader unpredictable cascading events.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking clause lists multiple potential knock-on effects, giving it notable severity."
+            },
+            {
+                "snippet": "The resulting economic downturn, the severity and length of which cannot be predicted, may cause continued reduced demand for our products, delays or cancellations of customer orders, the inability of customers to obtain financing to purchase our products, bankruptcies of our suppliers, customers or other business partners, adverse impact to investment performance of our pension plans and continued volatility in the global capital markets adversely impacting our access to capital.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forecasts prolonged reduced demand and order cancellations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Flags customer financing constraints.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Cites supplier and customer bankruptcies risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions pension and capital-market volatility impacts.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "States unpredictability of downturn duration.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Comprehensive enumeration of diverse financial stresses earns a high score."
+            },
+            {
+                "snippet": "During 2020, the global pandemic caused by the novel coronavirus, known as “COVID-19”, led to worldwide facility closures, workforce disruptions, supply chain destabilizations, reduced demand for many products and services, volatility in the capital markets and uncertainty in the economic outlook.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms multiple realised operational disruptions (facilities, workforce, supply chain).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes global scope and demand reduction.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights capital-market volatility and economic uncertainty.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Past-tense summary of wide-ranging global consequences justifies a high score."
+            },
+            {
+                "snippet": "Textron Aviation revenues were lower by $1.2 billion, largely due to lower Citation jet and commercial turboprop volume of $916 million, reflecting a decline in demand related to the pandemic, and lower aftermarket volume of $337 million, reflecting lower aircraft utilization resulting from the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies a $1.2 billion revenue decline.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Directly attributes decline to pandemic-driven demand fall.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Breaks down additional volume impacts ($916 m, $337 m).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Demonstrates material impact on a core segment.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Large, specific, pandemic-linked financial hit approaches maximum severity."
+            },
+            {
+                "snippet": "The decrease in cost of sales was partially offset by idle facility costs of $142 million, primarily at the Textron Aviation segment, reflecting unfavorable absorption of manufacturing costs attributable to abnormally low production levels resulting from the pandemic and temporary manufacturing facility closures.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides quantified cost impact of $142 million.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects cost to pandemic-driven idle facilities.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights production inefficiency due to low volumes.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Substantial cost penalty tied to pandemic-forced under-utilisation yields a strong score."
+            }
+        ],
+        "calculated_score": 68,
+        "average_severity": 5.666666666666667
+    }
+]

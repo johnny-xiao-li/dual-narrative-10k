@@ -1,0 +1,115 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Dell’s 2024 Form 10-K treats COVID-19 as an established but still-relevant threat that now sits alongside other macro shocks.  The company acknowledges it already experienced product shortages, delivery delays and higher costs during the pandemic and continues to cite “public-health issues such as the coronavirus pandemic” as a catalyst for future supply-chain disruption, labor shortages and remote-work security exposure.  The language is partly retrospective (we “experienced” impacts) and partly forward-looking (“could harm,” “may experience”), but no dollar amounts are quantified and several mitigating references (e.g., broader cost-management, efficient supply chain) dilute the tone.  Because the pandemic’s onset is four years removed from the filing date, the Time-Decay Principle caps scores in the mid-range: the event is not fresh enough for peak severity yet recent enough to remain material.  Overall risk is assessed as moderate—continuing operational exposure rather than an acute, immediate crisis.",
+        "evidence_list": [
+            {
+                "snippet": "Factors contributing to weak or unstable global economic conditions, including those attributable to geopolitical volatility (such as ongoing military conflicts in Ukraine and the Middle East and tensions across the Taiwan Strait), international trade protection measures and disputes, such as those between the United States and China, or  public health issues such as the coronavirus pandemic also could harm our business by contributing to product shortages or delays, supply chain disruptions, insolvency of key suppliers, customer and counterparty insolvencies, increased product costs and associated price increases, reduced global sales, and other adverse effects on our operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names the coronavirus pandemic as a risk driver.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details multiple concrete operational impacts (product shortages, supply-chain disruptions, increased costs, reduced sales).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses conditional language ('could harm'), signalling potential rather than certain impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct reference to COVID-19 with a catalogue of specific potential harms merits a solid mid-level score, moderated by conditional phrasing."
+            },
+            {
+                "snippet": "We experienced some of these adverse effects in recent periods, primarily as a result of impacts of the coronavirus pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Affirms actual experienced impact, not just potential.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links those impacts directly to the coronavirus pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantification or detail on magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Statement confirms real pandemic damage but lacks specificity, yielding a moderate score."
+            },
+            {
+                "snippet": "We may experience additional supply shortages and price increases caused by changes to raw material availability, manufacturing capacity, labor shortages, public health issues, tariffs, trade disputes and protectionist measures, natural catastrophes or the effects of climate change (such as extreme weather conditions, sea level rise, drought, flooding, and wildfires), and significant changes in the financial condition of our suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags supply shortages and price hikes linked to 'public health issues' broadly, capturing pandemic-type risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists additional aggravating factors (labor shortages, manufacturing capacity).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "COVID-19 not named explicitly; risk is bundled with many others.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic reference to public-health disruptions with some relevant impacts but diluted by broad grouping and no COVID-specific mention."
+            },
+            {
+                "snippet": "Continued work-from-home and flexible work arrangements further increase our risk, as employees and contractors of our company and third-party providers are working remotely and using home networks that may pose an increased risk to our networks, data, and cybersecurity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights ongoing remote-work exposure, a pandemic-driven structural shift.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Focuses on cybersecurity rather than core operations, lessening direct pandemic supply-chain relevance.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Remote-work security risks stem from pandemic changes but are indirect; score kept low."
+            },
+            {
+                "snippet": "Natural disasters, terrorism, armed hostilities, or public health issues, such as those that have resulted from the coronavirus pandemic, whether in the United States or in other countries, could cause damage or disruption to us or our suppliers and customers, or could create political or economic instability, any of which impacts could harm our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links coronavirus-related public-health issues to potential business harm.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies multiple disruption channels (damage to suppliers, customers, instability).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Framed as hypothetical ('could'), not quantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Clear identification of pandemic as a continuing threat with specific operational disruption paths yields a moderate score."
+            }
+        ],
+        "calculated_score": 16,
+        "average_severity": 3.2
+    }
+]

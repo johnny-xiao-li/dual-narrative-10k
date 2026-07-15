@@ -1,0 +1,158 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "FICO’s 2022 filing acknowledges COVID-19 as a still-unfolding, high-impact threat that spans macro-economic shock, customer demand uncertainty, supply-chain disruption and fundamental changes to its own labour model.  The company cites both historic damage (global economic contraction, reduced lending) and forward-looking vulnerabilities (future revenue pressure, longer sales cycles, payment defaults, productivity risk from hybrid work).  While the discussion is largely qualitative and avoids concrete dollar figures, it explicitly links the pandemic to core financial metrics—revenues, operating results, liquidity and cash flows—and describes multiple operational channels of exposure such as supply chains and remote-work productivity.  No counter-measures or offsets are detailed beyond mentioning new workplace policies, so mitigation is minimal.  Applying the Time Decay Principle, COVID-19 is well within the 0-3-year “recent-event” window for this November-2022 filing, justifying upper-mid to high severity scores (5-8 range) for the individual snippets depending on their specificity and materiality.",
+        "evidence_list": [
+            {
+                "snippet": "The duration of the negative effects of the COVID-19 pandemic, and the extent to which they will impact our future revenues, results of operations and overall financial performance, remain uncertain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links COVID-19 to possible negative effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Names concrete financial metrics at risk (revenues, results of operations, overall performance).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights uncertainty, reducing precision of impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clear statement that COVID-19 could harm key financial metrics, but lack of quantification and the emphasis on uncertainty temper the severity to mid-level."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has adversely affected the global economy, leading to reduced consumer spending and lending activities and disruptions and volatility in the global capital markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges an already-realized adverse impact from the pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details specific macro-economic channels (consumer spending, lending, capital-market volatility).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows tangible, multi-faceted economic harm tied to COVID-19; recent timing justifies a moderately high score."
+            },
+            {
+                "snippet": "COVID-19 has caused shutdowns to businesses and cities worldwide and has disrupted supply chains, business operations, travel, and consumer confidence.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates widespread operational disruptions directly attributed to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicit mention of supply-chain disruption, a critical risk vector.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Lists several concrete disruption channels, including supply chains, elevating the severity to 6."
+            },
+            {
+                "snippet": "The situation surrounding the COVID-19 pandemic continues to evolve and its effects remain unknown.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags continued evolution, indicating ongoing risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States that effects are unknown, highlighting unpredictability but providing no specifics.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Signals ongoing uncertainty but lacks detail or quantified impact, yielding a lower score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic may affect the rate of spending on our solutions and could adversely affect our customers’ ability or willingness to purchase our products and services, cause prospective customers to change product selections or term commitments, delay or cancel their purchasing decisions, extend sales cycles, and potentially increase payment defaults, all of which could adversely affect our future revenues, results of operations and overall financial performance.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct link between pandemic and reduced demand for FICO’s own products.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists multiple adverse customer behaviours (delays, cancellations, defaults) that map to revenue loss.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly ties these behaviours to future revenues and operating results.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Highly specific to FICO’s sales cycle and cash collections, justifying an elevated score of 8."
+            },
+            {
+                "snippet": "We are unable to accurately predict the complete impact that COVID-19 will have on our future results of operations, financial condition, liquidity and cash flows due to numerous uncertainties, including the severity and transmission rate of the virus and its variants, the duration and any resurgence of the outbreak, the extent and effectiveness of containment actions, the effectiveness and acceptance of any medical treatment and prevention options, and the impact of these and other factors on us, our employees, customers, partners and vendors, and on worldwide and U.S. economic conditions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges inability to forecast impact on critical financial areas (results, liquidity, cash flows).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Lists a wide range of uncertainty drivers, underscoring breadth of risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lack of concrete figures introduces some mitigation through vagueness.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Broad but detailed uncertainty statement covering many stakeholders; mid-range severity of 5."
+            },
+            {
+                "snippet": "The working arrangements for our employees differ from the arrangements before the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly notes operational change attributable to the pandemic.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Identifies a structural shift but does not yet state a financial or operational downside, so the score is low."
+            },
+            {
+                "snippet": "Should productivity decline or our employees’ ability to collaborate fall as a result of our Remote Work Policy, or if employees are unsatisfied with our Hybrid Work Location Policy and leave our company, our business could suffer.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites potential productivity and retention risks tied to pandemic-driven remote work policies.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links these workforce issues directly to potential business harm.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Connects pandemic-triggered remote-work shift to concrete operational risks, assigning a moderate score."
+            }
+        ],
+        "calculated_score": 40,
+        "average_severity": 5.0
+    }
+]

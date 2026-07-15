@@ -1,0 +1,282 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CDNS’s February 22 2021 Form 10-K repeatedly links the ongoing COVID-19 pandemic to operational, financial, supply-chain and macro-economic threats.  Because the filing date is only eleven months after the WHO declared the pandemic (well within the 0-3-year “recent” window), time-decay does not materially diminish severity scores.  The disclosures mix statements of FACT (e.g., delivery delays, remote-work arrangements, customer requests to defer payments) with forward-looking CAUTION (e.g., possible capital-market constraints, prolonged downturn).  Language is mostly qualitative but is concrete enough—citing specific business processes, collections risk, laboratory access, and hardware lead-times—to evidence real, continuing exposure.  Some mitigating comments appear (e.g., liquidity confidence; no material adverse impact in FY-2020), but they do not erase the documented disruptions.  Overall, the pandemic risk profile is elevated, with individual snippets scoring from 1–7 depending on specificity, immediacy, and presence of mitigating language.",
+        "evidence_list": [
+            {
+                "snippet": "The ongoing COVID-19 pandemic could continue to adversely affect our business, results of operations and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties pandemic to adverse effects on key financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses forward-looking language ('could continue'), indicating ongoing risk exposure.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clear statement of continuing, material risk; generic but direct, so mid-high score of 5."
+            },
+            {
+                "snippet": "While we are unable to accurately predict the full impact that the COVID-19 pandemic will have on our results of operations, financial condition, liquidity and cash flows due to numerous uncertainties, including the duration and severity of the pandemic and containment measures, our compliance with these measures has impacted our day-to-day operations and could disrupt our business and operations, as well as that of our key customers, suppliers (including contract manufacturers) and other counterparties, for an indefinite period of time.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges actual impact on day-to-day operations (realized risk).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights potential indefinite disruption across company, customers and suppliers.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasises unpredictability and multiple uncertainties, amplifying severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Combines realised impact with broad, indefinite future risk; no mitigation, so high score of 7."
+            },
+            {
+                "snippet": "To support the health and well-being of our employees, customers, partners and communities, a vast majority of our employees are still working remotely as of February 22, 2021.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Remote-work status signals ongoing operational alteration due to pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Remote work is framed as a protective action, partially mitigating disruption.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Indicates operational shift but also reflects mitigation; therefore low score of 1."
+            },
+            {
+                "snippet": "The disruptions to our operations caused by COVID-19 may result in inefficiencies, delays and additional costs in our product development, sales, marketing, and customer service efforts that we cannot fully mitigate through remote or other alternative work arrangements.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies possible inefficiencies, delays and extra costs across key functions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Admits inability to fully mitigate via remote or alternative work.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Detailed functional impacts plus limited mitigation drive a solid severity score of 5."
+            },
+            {
+                "snippet": "In addition, we have experienced, and may continue to experience, some volatility in our hardware product delivery times due to delays in obtaining access to customer sites.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports actual volatility already experienced in hardware deliveries.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links problem to access issues at customer sites—clear supply-chain/logistics risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete evidence of realised supply-chain disruption warrants a 5."
+            },
+            {
+                "snippet": "Moreover, access by our employees to our laboratory facilities that are necessary for the development of certain IP products has been and may in the future be disrupted due to local conditions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies past and potential future disruption of critical R&D facilities.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies impact on IP product development, a core revenue driver.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Lab-access issues affect core development, but scope is narrower than company-wide, so 4."
+            },
+            {
+                "snippet": "More generally, the pandemic raises the possibility of an extended global economic downturn and has caused volatility in financial markets, which could affect demand for our products and services and impact our results and financial condition even after the pandemic is contained, shelter-in-place orders are lifted and local conditions improve.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights macro-economic downturn and market volatility.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects downturn to demand reduction and lasting financial impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies effect could persist post-pandemic, extending risk horizon.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Macro-level, long-tail demand risk justifies a midpoint score of 5."
+            },
+            {
+                "snippet": "For example, we may be unable to collect receivables from those customers significantly impacted by COVID-19 and, in fact, have received numerous requests from our customers to delay their payments to us, while we continue to provide services to these customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Potential inability to collect receivables threatens liquidity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Documents numerous real customer requests for payment delays (evidence of impact).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Actual payment-delay requests plus future collection risk equal a 5."
+            },
+            {
+                "snippet": "The pandemic may also have the effect of heightening many of the other risks described in this “Risk Factors” section, including risks associated with our customers and supply chain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States pandemic amplifies multiple existing risk categories.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic multiplier statement—acknowledges breadth but not depth, so minimal score."
+            },
+            {
+                "snippet": "Although we expect that current cash and cash equivalent balances, cash flows that are generated from operations and cash borrowings available under our revolving credit facility will be sufficient to meet our domestic and international working capital needs and other capital and liquidity requirements for at least the next 12 months, if our access to capital is restricted or our borrowing costs increase due to the pandemic, our operations and financial condition could be adversely impacted.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags potential capital-market and liquidity strain tied to pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States expectation of sufficient liquidity, providing mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Capital-access risk noted but tempered by liquidity confidence; low score of 1."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has caused some volatility in our usual delivery timing for our hardware and IP products to certain customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct admission of delivery timing volatility already occurring.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Relates to both hardware and IP—key revenue streams.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Realised supply-chain disruption across major product lines merits a 5."
+            },
+            {
+                "snippet": "Many of our customers' employees are working remotely, and, in some cases, we have experienced delivery lead times that are longer than normal because of delays in getting access to customer sites to complete our deliveries.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms extended delivery lead times already experienced.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects delays to remote-work and site-access constraints.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific, observed delay but narrower than company-wide, so score 4."
+            },
+            {
+                "snippet": "We have also received numerous COVID-19 pandemic-related requests from our customers to allow them to delay their payments to us, while we continue to provide services to these customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes multiple real-time requests to delay payment—cash-flow impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Company still providing services, increasing exposure.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete evidence of strained collections yields a 5."
+            },
+            {
+                "snippet": "Despite the challenges the COVID-19 pandemic has posed to our operations, it did not have material adverse impact on our results of operations, financial condition, liquidity or cash flows during fiscal 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Affirms no material adverse impact in FY-2020 (strong mitigation).",
+                            "points": -5
+                        },
+                        {
+                            "reason": "Acknowledges operational challenges (minor aggravation).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Net mitigation outweighs risk language, so snippet’s score floors at 0."
+            },
+            {
+                "snippet": "public health emergencies, such as the recent COVID-19 pandemic and the subsequent public health measures, including restrictions on travel between jurisdictions in which we and our customers and suppliers operate.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to travel restrictions impacting international operations.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Travel-restriction impact is noted but without specifics—moderate score of 2."
+            },
+            {
+                "snippet": "Tax laws, regulations, and administrative practices in various jurisdictions are evolving and may be subject to significant changes due to economic, political and other conditions including the fiscal impacts caused by the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Suggests pandemic-driven fiscal pressures could trigger adverse tax changes.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Indirect, prospective tax risk linked to pandemic gets minimal score of 1."
+            }
+        ],
+        "calculated_score": 56,
+        "average_severity": 3.5
+    }
+]

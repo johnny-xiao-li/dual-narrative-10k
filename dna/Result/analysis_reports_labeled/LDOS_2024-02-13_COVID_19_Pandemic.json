@@ -1,0 +1,154 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "LDOS frames the COVID-19 pandemic primarily as an ongoing, medium-term headwind that has already harmed—and may continue to harm—both revenue and costs. The 10-K blends backward-looking evidence (actual delays, contract slippage, cost overruns) with forward-looking language (\"may continue to be delayed,\" \"could negatively impact\").  No quantified dollar amounts are supplied, but the narrative is specific enough to cite revenue delays, higher program costs, travel limitations and lingering impacts on the Security Enterprise Solutions segment.  Because the filing date (February 2024) is four years after the WHO declared COVID-19 a pandemic, the Time-Decay Principle caps severity in the mid-range.  The statements are more than generic boiler-plate; they tie COVID-19 to concrete operational effects, yet lack numerical magnitude or overwhelming immediacy.  Consequently, individual snippet scores fall in the 3-6 range, resulting in an overall moderate risk assessment.",
+        "evidence_list": [
+            {
+                "snippet": "The effects of an epidemic, pandemic, or similar outbreak have negatively impacted and could negatively impact, our business and financial results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that impacts have already occurred (realized loss).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies future exposure to business and financial results (forward-looking).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses broad phrasing (epidemic/pandemic) without naming COVID-19.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Directly links to business and financial results.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Existing and prospective harm is acknowledged, but the language is generic; medium-term timing tempers the score to 4."
+            },
+            {
+                "snippet": "Any epidemics, pandemics, or similar outbreaks such as COVID-19 and its variants could create economic uncertainty and disruptions to the global economy that could adversely affect our businesses, or could lead to operational difficulties, including travel limitations, that could impair our ability to manage or conduct our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references COVID-19 and its variants.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Enumerates multiple concrete risk channels (economic uncertainty, operational difficulties, travel limits).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Purely contingent language ('could'), indicating potential rather than realized impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Still largely hypothetical and broad.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific pathways and COVID mention raise concern, but absence of realized metrics and conditional wording moderate the score."
+            },
+            {
+                "snippet": "For example, the spread of COVID-19 and mitigating measures caused unprecedented disruptions to the global economy and normal business operations across sectors and countries, including the sectors in which we, our customers and other third parties operate.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct causal link between COVID-19 and 'unprecedented disruptions'.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Strong wording 'unprecedented' amplifies severity.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Clarifies that company-relevant sectors were affected.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete, historical impact using strong language warrants a higher mid-range score of 5."
+            },
+            {
+                "snippet": "Further, new contract awards have been and may continue to be delayed and our ability to perform on our existing contracts has been and may continue to be delayed or impaired, which will negatively impact our revenues.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites specific operational impacts—delays in new and existing contracts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links delays explicitly to revenue harm.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No explicit COVID-19 mention in this sentence; impact is implied.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Concrete revenue risk is offset by lack of explicit COVID reference, yielding a moderate score of 3."
+            },
+            {
+                "snippet": "In addition, our program costs have increased as a result of COVID-19, and these cost increases may not be fully recoverable or adequately covered by insurance or equitable adjustments to contract prices.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States actual cost increases tied directly to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights possibility of non-recovery, stressing financial exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No numeric magnitude disclosed.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Demonstrates realized cost pressure and unrecoverable risk, but absence of quantification tempers the score to 4."
+            },
+            {
+                "snippet": "Operations of the Security Enterprise Solutions ('SES') reporting unit rely heavily on the sales and servicing of security and detection products, which continue to be negatively impacted due to delays in airline travel infrastructure projects as customer budgets recover from the pandemic.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes ongoing, segment-specific impact linked to pandemic recovery.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies particular revenue stream (SES products) under strain.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Lacks quantitative detail and uses indirect phrasing ('delays').",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specific to a business unit and still current, but qualitative and indirect, resulting in a score of 3."
+            }
+        ],
+        "calculated_score": 23,
+        "average_severity": 3.8333333333333335
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "VST’s 2022-02-25 Form 10-K acknowledges COVID-19 as a recent (within the last two years) and potentially material enterprise-wide threat.  The filing situates the pandemic within its operational risk section and links it to demand weakness, supply-chain disruptions, liquidity pressures, workforce health, late customer payments, cyber-exposure from remote work, and possible legislative interventions.  The language is largely forward-looking (\"could,\" \"cannot currently predict\"), signalling risk rather than booked impairment, and no dollar figures are provided.  Nevertheless, several passages move beyond boiler-plate by confirming that pandemic control measures have already affected market demand and logistics, and by cataloguing concrete transmission channels that map directly onto the analyst’s focus areas (labour, supply chain, remote work, customer payment behaviour).  Given the filing date (within 0-3 years of the WHO declaration), the Time Decay Principle allows elevated—but not maximum—severity scores.  Overall, the disclosure evidences moderate-to-high risk salience (mainly qualitative, unquantified, but multi-faceted and partly realised), warranting snippet scores in the 4-7 range.",
+        "evidence_list": [
+            {
+                "snippet": "The outbreak of COVID-19, or the future outbreak of any other highly infectious or contagious diseases, could have a material and adverse effect on our business, financial condition, results of operations and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly identifies COVID-19 as a risk factor tied to core financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong severity language ('material and adverse effect').",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct link between COVID-19 and material enterprise-wide harm justifies a high recent-event score, though absence of specifics keeps it below maximum."
+            },
+            {
+                "snippet": "We continue to examine the impacts of the pandemic on our workforce, liquidity, reliability, cybersecurity, customers, suppliers, along with other macroeconomic conditions and cannot currently predict whether COVID-19 will have a material impact on our results of operations, financial condition, and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows ongoing monitoring across multiple critical business areas, indicating current exposure.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Admits uncertainty and lack of prediction, signalling the risk is not fully quantified or realised.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Links the assessment directly to potential material impacts on results, condition and cash flow.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Sentence evidences present-day scrutiny and broad exposure, but mitigated by explicit uncertainty; yields a moderate score."
+            },
+            {
+                "snippet": "Measures to control the spread of COVID-19, including restrictions on travel, public gatherings, and certain business operations, have affected the demand for the products and services of many businesses in the areas in which we operate and disrupted supply chains around the world.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemic control measures have already affected demand—evidence of realised impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Acknowledges worldwide supply-chain disruption, matching the analysis focus.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantification or company-specific dollar impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Confirms actual demand and supply-chain effects, elevating severity, but generic wording and no numbers temper the score."
+            },
+            {
+                "snippet": "However, COVID-19 or another pandemic could have material and adverse effects on our results of operations, financial condition and cash flows due to, among other factors, a protracted slowdown of broad sectors of the economy, changes in demand or supply for commodities, significant changes in legislation or regulatory policy to address the pandemic (including prohibitions on certain marketing channels, moratoriums or conditions on disconnections or limits or restrictions on late fees), reduced demand for electricity (particularly from commercial and industrial customers), increased late or uncollectible customer payments, negative impacts on the health of our workforce, a deterioration of our ability to ensure business continuity (including increased vulnerability to cyber and other information technology risks as a result of a significant portion of our workforce continuing to work from home), and the inability of the Company's contractors, suppliers, and other business partners to fulfill their contractual obligations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details numerous specific channels (demand shock, commodity supply, legislation, late payments, workforce health, remote-work cyber risk) through which COVID-19 may hurt the company.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Employs strong severity phrasing ('material and adverse effects').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking 'could' indicates potential rather than realised impacts.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Covers fundamental shifts in demand and supplier failure, directly aligning with the requested focus areas.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Comprehensive enumeration of risk pathways and severe wording drive a high score, moderated slightly for being prospective."
+            }
+        ],
+        "calculated_score": 21,
+        "average_severity": 5.25
+    }
+]

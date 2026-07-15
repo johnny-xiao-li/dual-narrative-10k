@@ -1,0 +1,183 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Delta’s 2022 Form 10-K repeatedly links the COVID-19 pandemic to severe, ongoing and still-evolving threats across every pillar of the airline’s business model: core passenger demand, operational continuity, labour availability, liquidity and long-term shifts in customer behaviour.  Unlike generic boiler-plate, the filing provides concrete cause-and-effect language—government travel bans, testing mandates, employee quarantines, and the possibility of permanent business-travel contraction—together with an explicit admission that cost-cutting actions cannot offset lost revenue.  The disclosures characterise COVID-19 as both a realised loss ('material adverse effect on our business, results of operations and financial condition') and a continuing forward-looking risk (‘will continue to have’, ‘may be reinstituted’, ‘could have a material impact’).  Because the filing date (11-Feb-2022) sits less than two years after the pandemic onset, the Time Decay principle allows high severity scores.  No material mitigating language (e.g., successful hedges or full insurance recovery) offsets the pervasive downside; even references to vaccines are tempered by warnings about new variants.  Accordingly, individual evidence snippets register in the upper-mid to high range (5-9/10), reflecting specific, current, and company-wide exposure to pandemic-related hazards.",
+        "evidence_list": [
+            {
+                "snippet": "The rapid spread of the COVID-19 virus, the continuing spread of its variants, the persistence of the resulting pandemic and measures implemented to combat it have had, and will continue to have, a material adverse effect on our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct causation between COVID-19 and material adverse effect stated.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicitly notes both historical impact and future continuation (‘will continue’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Timing falls within recent (0-3 year) window, no mitigation offered.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Strong, specific language ties COVID-19 and its variants to past and future material harm, justifying a high score of 9."
+            },
+            {
+                "snippet": "The rapid spread of the COVID-19 virus in 2020 and variants of the virus in 2021, the persistence of the resulting pandemic, the measures governments and private parties have implemented in order to stem the spread of this pandemic, and the general concern about the virus among travelers have had, and are continuing to have, a material adverse effect on the demand for worldwide air travel compared to historical levels, and consequently upon our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links specific government and private restrictions to demand destruction.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States continuing, material adverse effect on core revenue driver (air travel demand).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers 2020-2021 timeline (very recent).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Details concrete mechanisms (restrictions, traveler concern) suppressing demand and causing material harm, earning a 9."
+            },
+            {
+                "snippet": "These effects related to the COVID-19 pandemic have negatively impacted air travel in general, which in turn has materially adversely affected our revenues, results of operations and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic effects to specific financial statement areas (revenues, operations, condition).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong wording ‘materially adversely affected’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impacts already realised; no offsetting mitigation mentioned.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Provides company-wide, realised financial damage with no mitigation, leading to a high score of 8."
+            },
+            {
+                "snippet": "Although vaccines have generally proved to be effective and certain of the restrictions above have been eased in some places, the ongoing pandemic, including large outbreaks, resurgences of COVID-19 in various regions and appearances of new variants of the virus, has resulted, and may continue to result, in their reinstitution.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights risk of restrictions being reinstated due to variants and resurgences.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty (‘may continue’) keeps risk live.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Partial mitigation noted (vaccine effectiveness, eased restrictions).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Captures continued volatility risk but acknowledges some mitigation, resulting in a moderate score of 4."
+            },
+            {
+                "snippet": "Our operations have been, and could in the future be, negatively affected further if our employees are quarantined or sickened as a result of exposure to COVID-19, or if they are subject to additional governmental COVID-19 curfews or “shelter in place” health orders or similar restrictions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies operational risk from employee illness/quarantine.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly flags future vulnerability to government restrictions.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Operational continuity threat is clear but not quantified, giving a mid-level score of 5."
+            },
+            {
+                "snippet": "In response to the crisis, we took steps to mitigate the effects on our business, which themselves may have negative consequences with respect to our business and operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that mitigation actions can create new negative impacts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presence of mitigation indicates some risk reduction.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Statement notes secondary risks but is generic and partially offset by mitigation, resulting in a low score of 1."
+            },
+            {
+                "snippet": "Ultimately, cost-saving measures that we implemented to date, or may consider in the future, have not made up, and will not in the future make up, for the loss in revenue as a result of decreased ticket sales and cancellations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits permanent revenue shortfall despite mitigation efforts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Directly ties to pandemic-driven demand collapse (ticket sales, cancellations).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highlights enduring financial gap, elevating severity to 5."
+            },
+            {
+                "snippet": "At this time, we are also not able to predict the extent to which the COVID-19 pandemic may result in permanent changes to our customers’ behavior, with such changes including but not limited to a permanent reduction in business travel as a result of increased usage of virtual meetings, and videoconferencing and teleconferencing products and more broadly, a general reluctance to travel, each of which could have a material impact on our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential structural demand shift (permanent reduction in business travel).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States material impact uncertainty and lack of predictability.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Foresees long-term demand erosion with material consequences, assigning a score of 6."
+            },
+            {
+                "snippet": "Collectively, the foregoing circumstances have had, and are continuing to have, a material adverse effect on our business, results of operations and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Summarises cumulative, ongoing material adverse effects.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers entire enterprise (business, operations, financial condition).",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Comprehensive statement of sustained material harm yields a high score of 8."
+            }
+        ],
+        "calculated_score": 55,
+        "average_severity": 6.111111111111111
+    }
+]

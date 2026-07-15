@@ -1,0 +1,127 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing discusses the COVID-19 pandemic as part of a broader set of disruptive “health emergencies or pandemics.”  Although the pandemic began more than three years before the October 2023 filing date, the text still frames COVID-19 as both a historic and forward-looking threat that can materially impair Accenture’s operations, client demand, workforce availability and technology infrastructure.  The language is largely qualitative and bundled with other catastrophe-type risks, so it lacks granular financial quantification; however, it identifies multiple concrete transmission channels—remote-work cyber-exposure, travel and communication breakdowns, labour shortages, and sudden shifts in economic activity.  Under the Time-Decay Principle, the pandemic is now in the 4-to-10-year “medium-term” window, meaning evidence can merit moderate severity scores (≈4-6).  The extracted sentences therefore receive mid-range scores, reflecting explicit COVID-19 references, acknowledgement of past damage, and the possibility of significant future harm, but tempered by their generic, bundled presentation and absence of hard numbers.",
+        "evidence_list": [
+            {
+                "snippet": "Health emergencies or pandemics, including COVID-19; acts of terrorist violence; political, social and civil unrest; regional and international war and other hostilities and international responses to these wars and hostilities; natural disasters, volcanic eruptions, sea level rise, floods, droughts and water scarcity, heat waves, wildfires and storms, occurrences of which may increase in frequency and severity as a result of climate change; or the threat of or perceived potential for these events; and other acts of god have had and could in the future have significantly negative impacts on us.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names COVID-19 as part of the risk set.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States both historical ('have had') and prospective ('could in the future') impact, showing the risk is existing and ongoing.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong wording ‘significantly negative impacts’, signalling potential materiality.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Bundled with many other unrelated catastrophes, which dilutes pandemic-specific precision.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct COVID-19 mention and language about significant past and future harm justify a high-moderate score, moderated slightly for generic bundling."
+            },
+            {
+                "snippet": "Changing demand patterns from economic and political volatility and uncertainty, including as a result of increasing geopolitical tensions, inflation, economic downturns, changes in global trade policies, global health emergencies and their impact on us, our clients and the industries we serve, have in the past had a negative impact and could in the future have a significant negative impact on our results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies 'global health emergencies' (pandemics) as a causal factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links past and potential future significant negative impact on results of operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights demand-pattern shifts, a key pandemic transmission channel the prompt asks for.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No explicit COVID-19 wording, lowering specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows demand-side harm tied to health emergencies with past evidence; absence of explicit COVID-19 mention trims the score to a solid mid-range 5."
+            },
+            {
+                "snippet": "By disrupting communications and travel and increasing the difficulty of obtaining and retaining highly skilled and qualified people, these types of events impact our ability to deliver our services and solutions to our clients.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific operational mechanisms—communication, travel, labour shortages—aligned with pandemic effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links disruptions directly to service-delivery capability, an essential business metric.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemic reference is indirect ('these types of events'), reducing clarity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides concrete disruption channels but only implicitly references pandemics; moderate severity at 4."
+            },
+            {
+                "snippet": "If any of these circumstances occurs, we have a greater risk that interruptions in communications with our clients and other Accenture locations and people, and any down-time in important processes we operate for clients, could result in a material adverse effect on our results of operations and our reputation in the marketplace.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forecasts 'material adverse effect' on operations and reputation—strong language.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies operational downtime and communication interruptions, concrete impact vectors linked to pandemic-style disruptions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemic remains implicit via the prior context, limiting explicitness.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Strong materiality language keeps the score at 4 despite the indirect pandemic reference."
+            },
+            {
+                "snippet": "As the breadth and complexity of this infrastructure continues to grow, including as a result of the increasing reliance on, and use of, mobile technologies, social media and cloud-based services, as more of our employees continue to work remotely, and as cyberattacks become increasingly sophisticated (e.g. deepfakes and AI generated social engineering), the risk of security incidents and cyberattacks has increased.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights ongoing remote-work model—a pandemic-driven structural change—and associated cyber-risk escalation.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly states the risk has increased, signalling a continuing operational threat.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No direct reference to COVID-19 or pandemics; connection is by implication.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Captures pandemic-triggered remote-work vulnerabilities but lacks explicit COVID-19 wording, yielding a lower moderate score of 3."
+            }
+        ],
+        "calculated_score": 22,
+        "average_severity": 4.4
+    }
+]

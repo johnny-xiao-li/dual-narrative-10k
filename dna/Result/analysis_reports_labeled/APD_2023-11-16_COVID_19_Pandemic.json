@@ -1,0 +1,58 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "APD’s 2023 Form 10-K scarcely mentions the COVID-19 pandemic and does so only in boiler-plate risk language. The filing frames pandemics as one of several potential external shocks that could disrupt energy and raw-material supply chains or broadly interrupt operations, but it does not cite any historical COVID-related impacts, quantified losses, or strategic adjustments (e.g., remote-work protocols, labour shortages, or permanent demand shifts). All references are forward-looking and conditional (“could”), signalling that management treats the pandemic chiefly as a hypothetical ongoing threat rather than an already-experienced, measurable hit. Because COVID-19 remains within the ‘recent’ (0-3 year) window, the Time Decay Principle still allows a high ceiling, yet the generic, un-quantified wording materially tempers severity. Overall, the pandemic emerges as a low-to-moderate risk factor—acknowledged but not elaborated—yielding modest evidence scores.",
+        "evidence_list": [
+            {
+                "snippet": "A disruption in the supply of energy, components, or raw materials, whether due to market conditions, legislative or regulatory actions, natural disasters, public health crises and pandemics, or other disruption, could prevent us from meeting our contractual commitments and harm our business and financial results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemics to supply-chain disruption of energy, components and raw materials (direct risk trigger).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States potential inability to meet contractual commitments and resulting harm to business and financial results (identifies material impact).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses generic, conditional phrasing ('whether due to', 'could') and bundles pandemics with many other causes, reducing specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides a clear but unquantified link between pandemics and supply-chain / financial harm; generic wording keeps severity moderate."
+            },
+            {
+                "snippet": "Our operations could be impacted by catastrophic events outside our control, including severe weather conditions such as hurricanes, floods, earthquakes, storms, epidemics, pandemics, acts of war, and terrorism.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemics as a category of catastrophic events that can impact operations (risk acknowledgement).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Laundry-list format and absence of impact detail or probability assessment dilute the pandemic-specific relevance.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event still within recent 0-3 year window, justifying some weight despite generic phrasing.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Merely lists pandemics among many external threats; minimal detail yields a low severity score despite recency."
+            }
+        ],
+        "calculated_score": 6,
+        "average_severity": 3.0
+    }
+]

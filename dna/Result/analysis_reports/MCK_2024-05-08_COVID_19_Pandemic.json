@@ -1,0 +1,90 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "McKesson’s 2024 Form 10-K continues to acknowledge the COVID-19 pandemic primarily as a medium-term, external risk factor rather than an immediate, quantified threat.  Sentences in the filing reference pandemic-driven supply-chain interruptions and broad public-health disruptions that are ‘outside of our control,’ confirming that management still sees residual vulnerability in areas such as sourcing, logistics and overall business continuity.  However, the company also notes that formal public-health emergencies have ended and that COVID-related contributions to revenue and profit were ‘not material’ in fiscal 2024, signalling that direct financial exposure is waning.  The language is largely generic and forward-looking, with no hard dollar amounts attached, which tempers severity.  Applying the Time Decay Principle—the initial outbreak is now just over four years old—the evidence warrants moderate scores (4-6) for statements that tie pandemics to supply-chain or operational disruption, and very low scores (≈1) where the company emphasises mitigation or immaterial impact.  Overall, McKesson frames COVID-19 as a manageable, medium-term risk rather than a current crisis.",
+        "evidence_list": [
+            {
+                "snippet": "We are adversely impacted by events outside of our control, including: widespread public health issues, such as epidemic or pandemic infectious diseases; natural disasters such as earthquakes, floods, or severe weather, including as a result of climate change; political events such as terrorism, political tensions, military conflicts, civil unrest, and trade wars; and by other catastrophic events.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites ‘epidemic or pandemic infectious diseases’ as an event that can adversely impact the company.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Frames the impact as outside management’s control, signalling higher inherent risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemic is listed among many disparate hazards, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Generic but clear acknowledgement that pandemic-scale health crises can materially harm operations; medium-term timing keeps score at a moderate 4."
+            },
+            {
+                "snippet": "Supply interruptions are often due to a variety of causes over which we have no control, such as export controls or trade sanctions, labor disputes, unavailability of key manufacturing sites, inability to procure raw materials or finished goods, quality control concerns, ethical sourcing issues, supplier’s financial distress or bankruptcy, natural disasters, including as a result of climate change, civil unrest or acts of war, the impact of epidemics or pandemics, and other general supply constraints.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct link between ‘epidemics or pandemics’ and critical supply-chain interruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights lack of control and potential for product shortages—core to McKesson’s distribution model.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Risk is embedded within a long catch-all list, decreasing precision.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Strong connection between pandemics and supply-chain risk to a distribution business justifies a higher mid-range score, moderated slightly for generic listing."
+            },
+            {
+                "snippet": "COVID-19 The U.S. federal government and World Health Organization suspended their respective public health emergencies in regards to the SARS-CoV-2 coronavirus (“COVID-19”) in May 2023.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges the specific COVID-19 event, maintaining relevance.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Notes that formal emergencies have ended, signalling reduced risk exposure.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Statement is mostly mitigating, indicating diminishing pandemic risk; minimal residual score of 1 is appropriate."
+            },
+            {
+                "snippet": "In the second quarter of fiscal 2024, we began transitioning the distribution of COVID-19 vaccines to commercial channels, the results of which are included primarily within our U.S. Pharmaceutical and Medical-Surgical Solutions segments.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows operational shift driven by post-pandemic market changes, implying demand uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes an implemented transition plan, which mitigates potential disruption.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Operational adjustment evidences lingering but controlled pandemic effects; low residual risk merits a score of 1."
+            }
+        ],
+        "calculated_score": 11,
+        "average_severity": 2.75
+    }
+]

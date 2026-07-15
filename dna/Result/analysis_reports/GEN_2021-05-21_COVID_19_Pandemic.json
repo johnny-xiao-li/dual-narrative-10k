@@ -1,0 +1,251 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "GEN’s 10-K, filed in May 2021, contains an extensive, mostly forward-looking discussion of COVID-19.  The company acknowledges that the pandemic has already forced operational changes (company-wide remote work, cancelled events) and recognises multiple vectors of continuing or future harm: potential customer cancellations, litigation risk from workplace transmission, macro-recessionary pressure on discretionary consumer spending, degraded employee cohesion and talent retention, and constraints on capital markets.  At the same time, management repeatedly notes that, so far, it has not seen a “meaningful negative impact.”  This dual messaging—current disruption but no material financial hit yet—signals a moderate-to-high risk profile: real operational impacts are present, and material financial consequences remain plausible if the recession deepens or variants prolong the crisis.  Given that the filing date is only about one year after the WHO declaration (well within the 0-3-year ‘recent’ window), the Time Decay Principle permits relatively high snippet scores where direct or detailed impacts are described, while mitigation language and lack of quantification appropriately temper individual ratings.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic has affected how we are operating our business, and the duration and extent to which this will impact our future results of operations and overall financial performance remains uncertain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits a current, direct operational impact (‘has affected how we are operating’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Emphasises uncertainty regarding future financial impact, expanding the scope of risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantification or dollar amount provided, limiting precision.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct operational disruption plus acknowledged uncertainty justify a solid mid-high risk score of 5."
+            },
+            {
+                "snippet": "The COVID-19 pandemic is having widespread, rapidly evolving, and unpredictable impacts on global society, economies, financial markets, and business practices.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes broad, systemic and rapidly evolving impacts, signalling elevated external risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Statement is generic to ‘global society’ and not company-specific.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "System-wide disruption is noted but with little firm-specific detail, yielding a moderate score."
+            },
+            {
+                "snippet": "To protect the health and well-being of our employees, partners and third-party service providers, we have implemented a near company-wide work-from-home requirement for most employees until further notice, made substantial modifications to employee travel policies, and cancelled or shifted our conferences and other marketing events to virtual-only for the foreseeable future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete, company-wide operational changes (remote work, travel limits, event cancellations).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Cancellation of marketing events signals potential revenue-side disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presented as a protective measure, partially mitigating health risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific operational responses illustrate real disruption, but health-protection framing tempers the score."
+            },
+            {
+                "snippet": "To date, we have not seen any meaningful negative impact on our customer success efforts, sales and marketing efforts, or employee productivity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states absence of material negative impact to date—strong mitigation.",
+                            "points": -3
+                        },
+                        {
+                            "reason": "Covers multiple functional areas (customer success, sales, productivity), broadening mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Purely mitigating language offsets other risks, driving the snippet score to zero."
+            },
+            {
+                "snippet": "Nevertheless, as employees, partners or third-party services providers return to work during the COVID-19 pandemic, the risk of inadvertent transmission of COVID-19 through human contact could still occur and result in litigation.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies health-safety risk (viral transmission) tied to workplace re-entry.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Adds potential legal liability (‘result in litigation’), elevating severity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Expressed as contingent (‘could’), reflecting uncertainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Combines health and legal exposures, producing a relatively high risk rating."
+            },
+            {
+                "snippet": "The U.S. and global economies have experienced a recession due to the economic impacts of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms that a recession is already underway, implying macro-level demand risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Statement is economy-wide, not specific to the firm.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Acknowledged macro recession poses external threat; lack of firm specifics caps score at 4."
+            },
+            {
+                "snippet": "Although we did not experience a material increase in cancellations by customers or a material reduction in our retention rate in 2021, we may experience such an increase or reduction in the future, especially in the event of a prolonged recession as a result of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags potential future revenue loss through cancellations and lower retention.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Contingent on prolonged recession (‘may’), adding uncertainty.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Notes no impact yet, partially mitigating.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Prospective revenue risk is real but tempered by current stability, yielding a moderate 3."
+            },
+            {
+                "snippet": "A prolonged recession could adversely affect demand for our offerings, retention rates and harm our business and results of operations, particularly in light of the fact that our solutions are discretionary purchases and thus may be more susceptible to macroeconomic pressures, as well impact the value of our common stock, ability to refinance our debt, and our access to capital.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies multiple financial impacts: demand, retention, overall results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights equity valuation and refinancing/capital-access risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explains why products are vulnerable (discretionary nature).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Comprehensive list of potential financial harms pushes the score toward the upper mid-range."
+            },
+            {
+                "snippet": "The duration and extent of the impact from the COVID-19 pandemic depends on future developments that cannot be accurately forecasted at this time, such as the severity and transmission rate of new variants of the disease, the extent, effectiveness and acceptance of containment actions, such as vaccination programs, and the impact of these and other factors on our employees, customers, partners and third-party service providers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises unpredictability tied to variants and vaccine uptake, extending risk horizon.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Highlights continuing uncertainty but without direct financial linkage, so risk is modest."
+            },
+            {
+                "snippet": "While we continue to monitor the competitive environment, it is possible that the COVID-19 pandemic may affect the productivity of our employees and our ability to attract and retain key talent.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies operational talent and productivity risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Expressed as possibility (‘may’), indicating uncertainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Potential HR disruption is material but unquantified, leading to a modest score."
+            },
+            {
+                "snippet": "As a result of the pandemic, in March 2020, we transitioned to a remote working environment for the substantial majority of our employees.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms a concrete, already-implemented operational shift to remote work.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Timing given (March 2020) underscores immediacy and duration.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Documented, company-specific operational change supports a mid-level risk score."
+            },
+            {
+                "snippet": "While our employees have transitioned effectively to working from home, over time such remote operations may decrease the cohesiveness of our employees and our ability to maintain our culture, both of which are integral to our success.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of cultural and cohesion erosion that could undermine long-term performance.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Effect framed as future possibility (‘may’), adding uncertainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Intangible culture risk is noted but remains speculative, giving a moderate score."
+            },
+            {
+                "snippet": "Additionally, a remote working environment may impede our ability to undertake new business projects, to foster a creative environment, to hire new employees and to retain existing employees.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple strategic and staffing impediments linked to prolonged remote work.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers both innovation (‘creative environment’) and workforce dynamics.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Multipronged future-looking operational risks justify a score of 4."
+            }
+        ],
+        "calculated_score": 47,
+        "average_severity": 3.6153846153846154
+    }
+]

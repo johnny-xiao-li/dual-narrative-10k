@@ -1,0 +1,127 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Linde’s 2024 Form 10-K acknowledges COVID-19 primarily inside a broader ‘catastrophic events’ section, grouping the pandemic with extreme weather and terrorism.  The language is forward-looking (“could,” “may”) and unquantified, signalling a potential rather than an already-realised impact.  Nevertheless, the disclosure identifies concrete operational exposures: production and distribution shutdowns, supply-chain and raw-material shortages, customer and supplier outages, and even third-party liability.  The firm also outlines mitigation steps (resilient design, insurance reviews, vendor engagement) but concedes that such crises remain outside its control and could still materially harm financial results.  Because the onset of COVID-19 is now roughly four years old, the Time-Decay Principle places the evidence in the 4-to-10-year “medium-term” band—meaning scores should be moderate (4-6) for the strongest links, with lower or even negative scores where mitigation dominates or specificity is weak.  The sentences extracted below are the only passages that explicitly reference pandemics/COVID-19 or pandemic-like disruptions; each has been micro-scored accordingly.",
+        "evidence_list": [
+            {
+                "snippet": "Catastrophic events could disrupt the operations of Linde and/or its customers and suppliers and may have a significant adverse impact on the results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States possibility of operational disruption and a ‘significant adverse impact’.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Uses conditional language (‘could’), indicating potential rather than certain impact.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "References catastrophic events generically without naming COVID-19 or pandemics.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Strong wording about disruption and material harm (+6) offset by conditional phrasing and lack of pandemic specificity (-2), yielding a moderate score of 4."
+            },
+            {
+                "snippet": "The occurrence of catastrophic events or natural disasters such as extreme weather, including hurricanes and floods; health epidemics; pandemics, such as COVID-19; and acts of war or terrorism, could disrupt or delay Linde’s ability to produce and distribute its products to customers and could potentially expose Linde to third-party liability claims.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names ‘pandemics, such as COVID-19,’ linking risk directly to the event.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Details operational impact: disruption/delay of production and distribution.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Adds legal/financial exposure via third-party liability claims.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking ‘could’ lessens certainty.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event is in medium-term window (≈4 yrs); apply time-decay moderation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct COVID-19 reference with multiple impact vectors earns high base points; time decay and conditional language temper the score to 5."
+            },
+            {
+                "snippet": "In addition, such events could impact Linde’s customers and suppliers resulting in temporary or long-term outages and/or the limitation of supply of energy and other raw materials used in normal business operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights supply-chain and raw-material disruption, a core pandemic risk.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Specifies both temporary and long-term outages, indicating duration/severity.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional (‘could’) wording.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "References ‘such events’ generically without restating pandemic.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Supply-chain severity (+6) offset by generic reference and conditional phrasing (-2) results in a moderate score of 4."
+            },
+            {
+                "snippet": "Linde evaluates the direct and indirect business risks, consults with vendors, insurance providers and industry experts, makes investments in suitably resilient design and technology, and conducts regular reviews of the business risks with management.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes multiple mitigation actions (risk evaluation, insurance, resilient design).",
+                            "points": -3
+                        },
+                        {
+                            "reason": "Regular management reviews further reduce residual risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": -4
+                },
+                "reasoning_summary": "This sentence is purely mitigating, so it subtracts from overall severity, producing a negative score."
+            },
+            {
+                "snippet": "Despite these steps, however, these situations are outside Linde’s control and may have a significant adverse impact on its financial results.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits uncontrollability and ‘significant adverse impact’ potential.",
+                            "points": 7
+                        },
+                        {
+                            "reason": "Uses ‘may’, indicating uncertainty.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Time-decay moderation for 4-year-old event.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Re-asserts material downside despite mitigation (+7) but tempered by uncertainty and time decay (-2), yielding a moderate score of 5."
+            }
+        ],
+        "calculated_score": 14,
+        "average_severity": 2.8
+    }
+]

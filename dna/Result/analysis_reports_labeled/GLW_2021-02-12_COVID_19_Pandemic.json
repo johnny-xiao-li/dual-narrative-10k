@@ -1,0 +1,188 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Corning’s 2021-02-12 Form 10-K repeatedly links the March 2020 COVID-19 pandemic to concrete, ongoing, and forward-looking risks.  Management acknowledges immediate financial impacts (e.g., segment revenue declines of $17 million in Life Sciences and $129 million in Environmental Technologies) and operational disruptions (plant shutdowns, supply-chain interruptions, labour constraints, and remote-work transitions).  The filing also stresses the pandemic’s macro-economic knock-on effects—currency volatility, capital-market dysfunction, and uncertain demand trends—while conceding that the duration and severity remain unknown.  Although the company cites resilience actions (cost controls, employee protection, fulfilment of customer commitments), these are framed as mitigation rather than elimination of risk.  Given the filing date is less than one year after the WHO declaration, the Time-Decay Principle permits high severity scores.  Overall, the disclosure reflects a high, direct, and continuing risk environment with some—but not dominant—mitigating language.",
+        "evidence_list": [
+            {
+                "snippet": "The ongoing COVID-19 pandemic has, and may continue to, adversely impact the global economy and disrupt our operations and supply chains, which may have an adverse effect on our results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links COVID-19 to disruptions of operations and supply chains (core event/impact).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicitly states adverse effect on financial results.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses forward-looking language ('may continue'), signalling persistent risk.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "High score because it is a recent, direct, multi-dimensional risk statement with no mitigation."
+            },
+            {
+                "snippet": "COVID-19 has impacted and may further impact the global economy and could have additional impacts on economic growth, the proper functioning of financial and capital markets, foreign currency exchange rates, and interest rates.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies current and future macro-economic impacts attributable to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies multiple financial channels (growth, markets, FX, rates).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty ('may further impact').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Material but less company-specific; broad economic risk yields a solid mid-high score."
+            },
+            {
+                "snippet": "The pandemic has resulted in authorities around the world implementing numerous unprecedented measures such as travel restrictions, quarantines, shelter in place orders, and facility shutdowns.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists concrete government actions that disrupt business activity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights the unprecedented scale of measures, increasing perceived severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Describes external disruptive forces; notable but not company-specific or quantified."
+            },
+            {
+                "snippet": "These measures have impacted, and may continue to impact our workforce and operations, and those of our customers, contract manufacturers and suppliers, particularly in the event of a significant global resurgence of the illness.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly ties pandemic measures to effects on Corning’s labour force and operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Extends risk to customers and supply chain partners, broadening exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Warns of further impact if illness resurges (forward-looking).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Captures company-specific operational and supply-chain vulnerabilities with a forward-looking clause."
+            },
+            {
+                "snippet": "There is considerable uncertainty regarding the duration, scope and severity of the pandemic and the impacts on our business and the global economy from the effects of the ongoing pandemic and response measures.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises uncertainty of pandemic’s timeline and magnitude.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects uncertainty directly to business impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Adds qualitative risk (uncertainty) but lacks specificity or quantified impact."
+            },
+            {
+                "snippet": "In response to the COVID-19 pandemic and the ensuing economic uncertainty, including changing market conditions, the Company has and will continue to focus on three core priorities: preserving the financial health of the Company; protecting employees and communities; and delivering on customer commitments.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemic-driven economic uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes strategic mitigation actions (financial health, employee protection, customer service).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Risk acknowledgment is offset by explicit mitigation, yielding a neutral net score."
+            },
+            {
+                "snippet": "While 2020, brought unprecedented challenges to our end markets and operations, driven by the COVID-19 pandemic, economic uncertainty, and social unrest, Corning adapted rapidly and remained resilient.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States pandemic caused unprecedented operational challenges.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Claims company resilience and rapid adaptation (mitigating language).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Acknowledges serious impact but tempers with resilience narrative; small net risk score."
+            },
+            {
+                "snippet": "Net sales in the Life Sciences segment decreased by $17 million, primarily driven by lab closures due to the COVID-19 pandemic;",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies a specific financial impact ($17 million) linked to COVID-related lab closures.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Direct causal attribution to pandemic; recent period.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Moderate score for direct, quantified segment-level impact, though magnitude is modest."
+            },
+            {
+                "snippet": "Net sales for Environmental Technologies decreased $129 million, as production facilities of vehicle manufacturers were temporarily shut down during the first half of 2020 in key markets;",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Large quantified revenue hit ($129 million) tied to pandemic-related auto plant shutdowns.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Links operational shutdowns to supply-chain/market demand disruptions.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Higher score due to size of quantified loss and clear causal chain to pandemic-generated shutdowns."
+            }
+        ],
+        "calculated_score": 40,
+        "average_severity": 4.444444444444445
+    }
+]

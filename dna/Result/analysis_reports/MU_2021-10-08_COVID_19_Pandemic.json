@@ -1,0 +1,324 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Micron’s 2021-10-08 Form 10-K devotes extensive, detailed language to the COVID-19 pandemic.  The company frames the virus as a RECENT (≈18 months old) but still-evolving threat that has ALREADY caused concrete, measured disruptions—factory slow-downs in Malaysia, higher logistics costs, lower workforce density, and customer demand adjustments—while also remaining a forward-looking uncertainty (vaccine uptake, future outbreaks).  The risk disclosures are unusually granular: they enumerate impacts on supply chains, labour availability, construction projects, credit markets and even employee morale via a mandated vaccination policy.  Many of the statements reference historical impacts (“we reduced output levels”) as well as continuing or potential future impacts; therefore, both realised and prospective risk exist.  Given the Time Decay Principle, evidence from 2020-21 qualifies as ‘recent’, so high snippet scores (7-9) are permissible when language shows direct, material, or already-realised effects; moderate scores (4-6) are used for generic or conditional language; minimal deductions are applied for any noted mitigation (e.g., operations now normal).  Collectively, the filing signals a significant, multi-faceted exposure to the pandemic across demand, supply, labour, and finance, warranting an overall elevated risk assessment.",
+        "evidence_list": [
+            {
+                "snippet": "the effects of the COVID-19 pandemic;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists COVID-19 as a material risk driver in the summary section.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic but direct acknowledgement of pandemic risk earns a modest score."
+            },
+            {
+                "snippet": "The effects of the COVID-19 pandemic could adversely affect our business, results of operations, and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct linkage between pandemic and adverse business/financial outcomes.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Forward-looking ‘could’ wording makes it conditional, not quantified.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear statement of potential material harm; recent timeframe justifies mid-high score."
+            },
+            {
+                "snippet": "A decrease in short-term and/or long-term demand and/or pricing for our products and global economic volatility that could reduce demand and/or pricing for our products, resulting from the spread of COVID-19 and/or the actions taken by governments, businesses, and/or the general public in an effort to limit exposure to and the spread of COVID-19, such as travel restrictions, quarantines, and business shutdowns or slowdowns;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies multiple revenue-side impacts (demand, pricing).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects impacts directly to governmental and societal pandemic measures.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impacts are framed as possible rather than realised.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Enumerates concrete demand/pricing risks; unquantified but broad, hence 7."
+            },
+            {
+                "snippet": "reductions in production levels, R&D activities, product development, technology transitions, yield enhancement activities, and qualification activities with our customers, resulting from our efforts to mitigate the impact of COVID-19 through measures we have enacted at our locations around the world in an effort to protect our employees’ and contractors’ health and well-being, including working from home, limiting the number of meeting attendees, reducing the number of people in certain of our sites at any one time, quarantines of team members, contractors, or vendors who are at risk of contracting, or have contracted, COVID-19, and limiting employee travel;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists numerous core operational functions already reduced.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Describes company-wide mitigation steps showing risk is current and operational.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presence of internal mitigation slightly offsets severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Operational reductions are serious but tempered by mitigation; net 6."
+            },
+            {
+                "snippet": "increased costs resulting from our efforts to mitigate the impact of COVID-19 through physical-distancing measures, working from home, upgrades to our sites, COVID-19 testing and vaccination, enhanced cleaning measures, and the increased use of personal protective equipment at our sites;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly states increased operating costs due to pandemic controls.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers multiple cost drivers, implying breadth.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specific cost increases, though unquantified, warrant a solid 6."
+            },
+            {
+                "snippet": "increased costs, business disruptions, attrition, and/or reduced employee morale resulting from our mandate that all U.S. employees and, in addition, contractors that enter our U.S. buildings and certain other locations, be fully vaccinated against COVID-19, subject to disability and religious exemptions, by November 15, 2021, as a condition of working for us;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights labour-related risks (attrition, morale) tied to vaccine mandate.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies date-bound policy showing imminent effect.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Labour and cost risks from vaccine mandate are concrete; scored 6."
+            },
+            {
+                "snippet": "increased costs for, or unavailability of, transportation, raw materials, components, electricity and/or other energy sources, or other inputs necessary for the operation of our business;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies supply-side cost inflation and shortages; broad operational exposure.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Implied link to pandemic (from context) but not explicitly restated here.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Significant supply-chain cost risk, but pandemic link is contextual, so 5."
+            },
+            {
+                "snippet": "reductions in, or cessation of operations at any site or in any jurisdiction resulting from government restrictions on movement and/or business operations or our measures to prevent and/or mitigate the spread of COVID-19 at one or more of our sites, such as we have experienced at some of our facilities from time to time since the start of the COVID-19 pandemic;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions actual past shutdowns and potential future ones.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Covers enterprise-wide production risk across jurisdictions.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Realised and repeating shutdown risk is severe; high score of 8."
+            },
+            {
+                "snippet": "our inability to continue, or increased costs of, construction projects due to delays in obtaining materials, equipment, labor, engineering services, government permits, or any other essential aspect of projects, which could impact our ability to introduce new technologies, reduce costs, or meet customer demand;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights capital-project delays impacting future competitiveness.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Risk framed as potential (‘could’), not yet realised.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Important but conditional cap-ex risk gives a moderate 5."
+            },
+            {
+                "snippet": "disruptions to our supply chain in connection with the sourcing and transportation of materials, components, equipment and engineering support, and services from or in geographic areas that have been impacted by COVID-19, by efforts to contain the spread of COVID-19, or by follow-on effects on the worldwide supply chain;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties global supply-chain disruptions to pandemic hotspots.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Covers multiple supply layers (materials, transport, services).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Comprehensive supply-chain risk is significant; scored 7."
+            },
+            {
+                "snippet": "While several COVID-19 vaccines have been approved and are available for use in the United States and certain other countries, we are unable to predict how widely utilized the vaccines ultimately will be, whether they will be effective in preventing the symptoms and spread of COVID-19 (including its variant strains), and when or if normal economic activity and business operations will resume.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges uncertainty despite vaccine rollout—prolonged risk horizon.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Mentions potential mitigation (vaccines) which tempers risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Uncertainty statement with partial mitigation nets a lower score."
+            },
+            {
+                "snippet": "These effects, alone or taken together, could have a material adverse effect on our business, results of operations, or financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses strong materiality language covering combined pandemic impacts.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Generic summarising sentence without new specifics.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Materiality language raises score, but vague content keeps it moderate."
+            },
+            {
+                "snippet": "The continuation of the pandemic or expanded or recurring outbreaks could exacerbate the adverse impact of such measures.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights risk escalation with future outbreaks.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Speculative (‘could’), no specifics or quantification.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Forward-looking escalation risk but speculative; modest score."
+            },
+            {
+                "snippet": "Other events, including political or public health crises, such as an outbreak of contagious diseases like COVID-19, SARS-CoV, avian and swine influenza, measles, or Ebola, may also affect our production capabilities or that of our suppliers, including as a result of quarantines, closures of production facilities, lack of supplies, or delays caused by restrictions on travel or shipping.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Places COVID-19 within a broader class of supply disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Speculative and grouped with other diseases, reducing specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic reference among multiple diseases; low specificity lowers to 2."
+            },
+            {
+                "snippet": "For example, previously in response to increasing positive cases of COVID-19 in Johor State, Malaysia, we reduced our workforce on-site at our Muar facility, which reduced output levels from that facility, though it is now operating at normal levels.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides concrete historical example of pandemic causing output reduction.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Notes operations have since normalised (mitigating).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Actual impact scores high but recovery mitigates; net 4."
+            },
+            {
+                "snippet": "In September 2021, we mandated that all U.S. employees and, in addition, contractors that enter our U.S. buildings and certain other locations, be fully vaccinated against COVID-19, subject to disability and religious exemptions, by November 15, 2021 as a condition of working for us, which could result in increased attrition, loss of critical skills, and reduced employee morale, potentially resulting in business disruptions or increased expenses to address any disruptions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specific policy action with defined deadline indicating imminent risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Enumerates serious potential labour and cost consequences.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Imminent, specific labour risk tied to pandemic response yields 7."
+            },
+            {
+                "snippet": "The health crisis caused by COVID-19 has adversely affected economic conditions and caused a downturn in the worldwide economy.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States realised macroeconomic harm already occurring.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Broad, not company-specific detail.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Company recognises realised global economic harm; mid-high score."
+            },
+            {
+                "snippet": "Downturns in the worldwide economy, including the downturn and subsequent volatility driven by the COVID-19 pandemic, have adversely affected our business in the past.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links past business adverse effects directly to pandemic-driven downturn.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Uses historical evidence (‘have adversely affected’) boosting concreteness.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Historical impact on the company elevates severity to 7."
+            }
+        ],
+        "calculated_score": 95,
+        "average_severity": 5.277777777777778
+    }
+]

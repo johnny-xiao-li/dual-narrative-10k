@@ -1,0 +1,66 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Schwab’s 2023 Form 10-K treats the COVID-19 pandemic mainly as an operational stress test that has already occurred but could recur or persist.  References appear only in the Operational-Risk section and focus on staffing shortages, remote-work complications, and the temporary loss of third-party service capacity.  The company acknowledges that during the pandemic it actually lost some outsourced services and that this contributed to longer client-service response and processing times—evidence of a real, historic impact rather than a purely hypothetical threat.  At the same time, the language is qualitative: there is no specific dollar amount, no quantified loss of clients, and no description of permanent structural changes.  The statements are therefore moderately specific (naming precise operational channels) but not financially granular.  Because the filing date (February 2023) is within three years of the World Health Organization’s pandemic declaration, the Time-Decay principle allows relatively high scores; however, the absence of quantified or strategic impact keeps severity in the mid-range.  Overall, the pandemic is presented as an important but manageable, already-experienced risk whose future re-emergence would degrade service quality rather than threaten solvency, warranting moderate evidence scores.",
+        "evidence_list": [
+            {
+                "snippet": "Certain events could increase our client service and processing times due to staffing shortages, remote work or the temporary loss of services from outsourced service providers, such as occurred during the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit reference to the COVID-19 pandemic links the risk to the specified event.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies concrete operational channels of vulnerability (staffing shortages, remote work, outsourced services).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking statement (‘could increase’) signals ongoing potential exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantified financial impact or materiality disclosure provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Moderate severity because it ties the pandemic to specific operational risks but remains qualitative and unquantified."
+            },
+            {
+                "snippet": "We temporarily lost the services from some of our outsourced service providers during the COVID-19 pandemic which contributed to increased client service response and processing times.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct, explicit mention of COVID-19 pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes an actual historical impact—loss of outsourced services—showing realized risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States a concrete operational consequence (longer response and processing times).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Lacks any quantified financial measure or materiality statement.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Higher score than prior snippet because it documents a real disruption experienced, yet still lacks dollar quantification, keeping it at a mid-range 5."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 4.5
+    }
+]

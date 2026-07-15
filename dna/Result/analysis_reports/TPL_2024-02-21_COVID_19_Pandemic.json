@@ -1,0 +1,127 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "TPL’s Form 10-K acknowledges the COVID-19 pandemic primarily as an external, forward-looking threat rather than as a currently realised, quantified impact.  The filing, dated February 21 2024, sits only marginally (<4 years) after the WHO’s March 2020 declaration, so Time-Decay limits still permit a moderate severity score.  The company repeatedly flags pandemic-driven risks—lower global oil & gas demand, supply-chain interruptions, labour shortages and higher operating costs—but couches them in conditional language (\"could\", \"may\") without disclosing any actual financial hit already taken.  No mitigation steps are described beyond generic monitoring.  Consequently, the evidence reflects potential materiality and broad operational reach, yet remains un-quantified and speculative, warranting mid-level (not maximum) risk scores under the methodology.",
+        "evidence_list": [
+            {
+                "snippet": "Our business and financial results are therefore subject to disruption from natural or human causes beyond our control, including physical risks from severe storms, floods, droughts resulting in aquifer declines and other forms of severe weather, war, accidents, civil unrest, political events, fires, earthquakes, system failures, pipeline disruptions, environmental hazards such as oil and produced water spills, terrorist acts and epidemic or pandemic diseases, any of which could result in a material adverse effect on oil and natural gas production and, therefore, our results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists epidemic or pandemic diseases as a disruption source.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Warns of a 'material adverse effect' on production and results of operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Very broad, catch-all sentence reduces specificity to COVID-19.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Purely forward-looking/contingent ('could result'), no actual impact disclosed.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "The sentence recognises pandemic risk and potential materiality but stays generic and hypothetical, yielding a low-moderate score."
+            },
+            {
+                "snippet": "Our business could be adversely affected by the effects of a widespread outbreak of contagious disease, such as the outbreak of COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly cites COVID-19 as an example of the threat.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States possible adverse effect on the business.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional phrasing ('could') indicates potential rather than realised impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific reference to COVID-19 and business harm lifts the score, but the absence of quantified or realised impact keeps it moderate."
+            },
+            {
+                "snippet": "A significant outbreak of contagious diseases in the human population and resulting widespread health crisis could adversely affect the economies and financial markets of many countries, resulting in an economic downturn, reduced demand for oil and gas and interruption to supply chains related to oil and gas.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links outbreak to macro-level economic downturn.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies specific operational impacts: reduced oil & gas demand and supply-chain interruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking contingency ('could') and no quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Multiple concrete impact channels (demand, supply chain) merit a solid score, tempered by conditional wording."
+            },
+            {
+                "snippet": "The reduction of economic activity and reduced global demand for oil and gas related to such outbreaks and actions taken by governments to mitigate the spread of a virus or other infectious agent could lead to an increase in our operating costs and have a material impact on our business segments and earnings, cash flow and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-related demand drop to higher operating costs.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong language—'material impact' on segments, earnings, cash flow and financial condition.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Still expressed as potential ('could'), no data provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Enumerates material financial consequences, but hypothetical nature limits the score to upper-moderate."
+            },
+            {
+                "snippet": "Our business could be negatively affected by supply shortages and/or price increases driven by the increased costs of materials and logistics as a result of macroeconomic conditions, including the prolonged Ukraine/Russia conflict, general inflationary pressures, labor shortages, part or equipment availability, manufacturing capacity, tariffs, trade disputes and barriers, natural disasters or pandemics and the effects of climate change.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly includes pandemics as a driver of supply shortages and cost increases.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights concrete operational areas (materials, logistics, price increases).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemic is one of many factors; diluted specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Speculative ('could be'), no quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Mentions pandemic-linked supply-chain risk, but as part of a broad list and without detail, resulting in a modest score."
+            }
+        ],
+        "calculated_score": 16,
+        "average_severity": 3.2
+    }
+]

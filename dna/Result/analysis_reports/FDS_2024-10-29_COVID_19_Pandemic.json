@@ -1,0 +1,153 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "FDS acknowledges the COVID-19 pandemic as an ongoing, enterprise-wide threat, even though the initial outbreak occurred more than four years before this 2024 filing.  The company frames the pandemic primarily as a forward-looking, continuing risk rather than a past, quantified loss: language such as “could be materially and adversely affected” and “may interfere” signals potential rather than realized impact.  Nevertheless, the disclosure explicitly cites COVID-19 and details multiple pathways of harm—macroeconomic slow-downs, reduced client demand, employee and vendor disruption, and heightened remote-work-related vulnerabilities.  These statements are specific enough to identify operational chokepoints (e.g., travel restrictions, site closures, dependence on video-conferencing providers) but remain largely un-quantified and generic in timing.  Under the Time Decay Principle, a 4-plus-year-old event should receive moderate severity scores (4-6 range) when the filer still sees material exposure.  Therefore, evidence that links COVID-19 to material adverse effects and concrete operational friction is scored toward the upper mid-range, while more generic or indirect references (e.g., remote-work cybersecurity concerns) receive lower mid-range scores.  No sentence is scored higher than 6 because the pandemic is no longer a “recent” (0-3 year) event, and no sentence is scored below 0 because the filing date is after the event began.",
+        "evidence_list": [
+            {
+                "snippet": "Our business could be materially and adversely affected by the risk, or the public perception of risk, related to a pandemic or widespread health crisis, such as the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references COVID-19 pandemic as exemplar of risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses strong severity language: 'materially and adversely affected'.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects the pandemic directly to the company’s overall business impact.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Directly cites COVID-19 and warns of material adverse effects on the entire business; scored at the high end of the medium-term range."
+            },
+            {
+                "snippet": "A significant outbreak, epidemic or pandemic of contagious diseases in the human population could result in a widespread health crisis adversely affecting the broader economies, financial markets and overall demand for our products and services.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemic as trigger for macro-level economic downturn.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links downturn to reduced demand for company offerings.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking, conditional wording ('could') makes the risk somewhat generic.",
+                            "points": -0.5
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights demand-side risk but remains un-quantified and conditional, yielding a solid but moderate score."
+            },
+            {
+                "snippet": "In addition, any preventative or protective actions that governments implement or that we take in respect of a global health crisis, such as travel restrictions, quarantines or site closures, may interfere with the ability of our employees, vendors, and data suppliers to perform their respective responsibilities and obligations relative to the conduct of our business, including our ability to gather content.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific mitigation measures (travel bans, quarantines, site closures).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explains concrete operational impacts on employees, vendors, and data suppliers (i.e., supply-chain/workforce disruption).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Risk remains stated as 'may', indicating possibility not certainty.",
+                            "points": -0.5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Provides granular mechanisms of disruption, pushing the score toward the upper middle of the allowable range."
+            },
+            {
+                "snippet": "Such results could have a material adverse effect on our operations, business, financial condition, results of operations, or cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises severity across multiple financial metrics ('material adverse effect').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic follow-on sentence without event specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic wrap-up sentence reinforces severity but lacks direct pandemic linkage, so it receives a low score."
+            },
+            {
+                "snippet": "In some cases, these risks might be heightened when employees are working remotely.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies remote-work context, a key pandemic-driven operational change.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States only that risks 'might be heightened', offering no detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Acknowledges remote-work amplification of risks but is brief and speculative, resulting in a low-moderate score."
+            },
+            {
+                "snippet": "These risks may be heightened in connection with employees working from remote work environments, as our dependency on certain service providers, such as video conferencing and web conferencing services, has significantly increased.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links remote-work shift to increased dependency on critical vendors (video/web conferencing).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates escalation ('significantly increased'), showing operational exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Remains conditional ('may'), no explicit pandemic reference.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Gives specific operational vulnerability but lacks explicit COVID mention; moderate-low score assigned."
+            },
+            {
+                "snippet": "In addition, in the remote work environments, the daily activities and productivity of our workforce is now more closely tied to key vendors, such as video conferencing services, consistently delivering their services without material disruption.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights dependence on third-party service continuity for remote workforce productivity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses present-tense ('is now'), signalling an existing ongoing exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No direct reference to pandemic causation, lowering specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Describes current remote-work dependency but lacks explicit COVID framing; earns a modest score."
+            }
+        ],
+        "calculated_score": 21,
+        "average_severity": 3.0
+    }
+]

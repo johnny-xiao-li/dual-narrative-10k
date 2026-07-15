@@ -1,0 +1,52 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing reveals that BorgWarner’s discussion of the COVID-19 pandemic has largely shifted from an acute crisis narrative to a residual-impact and contingency posture. The company acknowledges concrete, recently experienced supply-chain disruptions—particularly semiconductor shortages—explicitly attributing them in part to pandemic-related shutdowns (realised, backward-looking impact). At the same time, COVID-19 now appears mainly as one item in a broader catalogue of potential natural-disaster-type threats (“pandemics and quarantines”) that could again disrupt operations (forward-looking but highly generic). Because the pandemic’s onset is now four years in the past (just beyond the 0-3-year “recent” window), the Time Decay Principle tempers the maximum severity. Still, the lingering chip-supply constraints show that some operational risk remains live. Overall, the evidence points to a moderate, supply-chain-centric risk profile—specific enough to matter but fading compared with 2020-2022 levels—warranting mid-range snippet scores (4-6 capped) rather than the high-severity scores seen for fresher events.",
+        "evidence_list": [
+            {
+                "snippet": "During 2021, and to a lesser extent in 2022, trailing impacts of the shutdowns and production declines related, in part, to COVID-19, created supply constraints of certain components, particularly semiconductor chips.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to operational disruptions (‘shutdowns and production declines... created supply constraints’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies a critical input affected (semiconductor chips), signalling concrete supply-chain vulnerability.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Refers to impacts as ‘trailing’ and confined mainly to 2021-2022, implying partial abatement.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct causal tie to COVID-19 and named supply-chain bottleneck drive the score up, but past-tense framing and lack of financial quantification temper it, yielding a moderate 4 consistent with Time Decay."
+            },
+            {
+                "snippet": "Any of the following could materially and adversely affect our business: the loss of or changes in supply contracts or sourcing strategies of our major customers or suppliers; start-up expenses associated with new vehicle programs or delays or cancellation of such programs; low levels of utilization of our manufacturing facilities, which can be dependent on a single product line or customer; inability to recover engineering and tooling costs; market and financial consequences of recalls that may be required on products we supplied; delays or difficulties in new product development; the possible introduction of similar or superior technologies by others; global excess capacity and vehicle platform proliferation; and the impact of fire, flood, or other natural disasters, including pandemics and quarantines.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes ‘pandemics and quarantines’ among events that could ‘materially and adversely affect’ the business, acknowledging potential severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic, hypothetical listing with no specific impact detail or timeframe.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Pandemics are named as a possible material threat, but the sentence is boiler-plate and unquantified; the modest aggravating value (+2) is offset by generic framing (-1), producing a low score of 1."
+            }
+        ],
+        "calculated_score": 5,
+        "average_severity": 2.5
+    }
+]

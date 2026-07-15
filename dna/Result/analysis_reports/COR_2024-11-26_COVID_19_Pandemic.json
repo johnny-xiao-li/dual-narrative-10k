@@ -1,0 +1,77 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COR’s 2024 filing still flags pandemic-related challenges, but the tone has clearly shifted from acute crisis management to an ongoing, background operational risk.  Nearly five years after WHO’s declaration (March 2020), management now frames COVID-19 and future pandemics mainly as potential disruptors to key partners’ distribution facilities and to the broader supply chain rather than as a current, quantifiable hit to COR’s own facilities.  The disclosures are forward-looking and largely generic (\"if operations are disrupted … whether by a pandemic or otherwise\").  They acknowledge that a pandemic could hinder the Walgreens Boots Alliance (WBA) relationship—material because WBA drives a large share of revenue—and could hamper COR through wider “public health issues.”  At the same time, the MD&A shows that pandemic-linked products (COVID-19 therapies and vaccines) actually boosted 2024 revenue, signaling that the company has partly benefited from the pandemic’s demand shifts.  Applying the Time Decay Principle (event ≈ 4 ½ years old), these statements warrant moderate, not high, severity scores: they remain relevant but are neither quantified nor unique, and mitigating language is prevalent.  Overall pandemic risk therefore sits in the mid-range (scores 3-5), reflecting residual but not immediate threat.",
+        "evidence_list": [
+            {
+                "snippet": "Additionally, if the operations of WBA or WBAD are seriously disrupted for any reason, whether by a pandemic, natural disaster, labor disruption, regulatory or governmental action, or otherwise, it could adversely affect our business and our sales and profitability.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites a pandemic as a potential cause of disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links disruption to direct adverse effects on business, sales and profitability.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights dependency on a critical third-party (WBA/WBAD), amplifying supply-chain exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Contains broad ‘catch-all’ wording (“whether by … or otherwise”) that dilutes specificity.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Moderate-high weight because it names pandemic explicitly and ties it to material partner risk, but score capped at 5 (mid-range) due to generic language and time decay."
+            },
+            {
+                "snippet": "We might be adversely affected by events outside of our control, including: widespread public health issues, such as epidemic or pandemic infectious diseases; natural disasters and other catastrophic events such as earthquakes, floods, or severe weather, including as a result of climate change; government policy changes; and political events such as terrorism, political tensions, military conflicts, civil unrest, and trade wars.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemic/epidemic infectious diseases as a category of uncontrollable risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Places pandemic within a broad list of severe external events, indicating potential operational impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generic, no quantification or company-specific linkage; uses conditional ‘might’.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic forward-looking disclosure of pandemic risk yields a low-moderate score; recognition is present but lacks detail or immediacy."
+            },
+            {
+                "snippet": "The U.S. Healthcare Solutions segment grew its revenue by $30.6 billion, or 13.0%, from the prior fiscal year due to overall market growth primarily driven by unit volume growth, including increased sales of COVID-19 therapies and vaccines.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "References COVID-19-related products as a significant driver of revenue, showing ongoing pandemic influence on demand.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Context is positive growth, not a stated risk; does not warn of future volatility.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Sentence shows pandemic impact but as a benefit, not a risk; after offsetting mitigation, risk contribution is negligible (score 0)."
+            }
+        ],
+        "calculated_score": 7,
+        "average_severity": 2.3333333333333335
+    }
+]

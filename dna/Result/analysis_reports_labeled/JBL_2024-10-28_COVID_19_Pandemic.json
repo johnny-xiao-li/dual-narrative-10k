@@ -1,0 +1,128 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Jabil’s 2024 Form 10-K continues to reference the COVID-19 pandemic only in broad, catch-all language, grouping it with other disruptive events such as natural disasters and geopolitical unrest.  The Company discloses that pandemics have already caused component shortages and shipping delays and could again materially harm operations, margins, and supply-chain reliability.  However, the wording is largely generic—no quantitative dollar figures, no discussion of remote-work transitions, labour shortages, or consumer-demand shifts unique to COVID-19.  The references are mostly forward-looking (‘could’, ‘may’) or historical in a non-specific sense (‘in the past there have been pandemics…’).  Because the filing date (28 Oct 2024) is roughly 4½ years after the WHO declared COVID-19 a pandemic, Time-Decay places the event in the medium-term window, capping scores in the mid-range.  Overall, I assess Jabil’s pandemic risk disclosure as moderate: clearly acknowledged, linked to supply-chain and logistics impacts, but unquantified and somewhat boiler-plate, suggesting an overall severity in the 4-6 range for the best evidence sentences.",
+        "evidence_list": [
+            {
+                "snippet": "Many factors outside of our control impact our customers and their ordering behavior, including recession in end markets, changing technology and industry standards, commercial acceptance for products and shifting market demand, product obsolescence, global pandemics, and loss of business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘global pandemics’ as a factor that alters customer ordering behaviour, signalling relevance to demand risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links the pandemic factor to concrete commercial consequences (order cancellations, shifting demand).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Language is generic, with no time frame or quantified impact.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty (‘outside of our control’) reinforces risk rather than mitigation.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Moderate (5/10): clearly calls out pandemics and ties them to demand volatility, but remains generic and unquantified."
+            },
+            {
+                "snippet": "In the past there have been industry wide conditions, pandemics, natural disasters and global events that have caused material and component shortages.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that pandemics have already caused supply-chain shortages—evidence of realised impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies the nature of the impact (material and component shortages).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Retrospective wording (‘in the past’) lessens immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Score 4/10 reflects a real, but historical, impact on components; medium-term decay tempers severity."
+            },
+            {
+                "snippet": "Problems suffered by any of these common carriers, including natural disaster, pandemic, labor problems, increased energy prices, or criminal activity, has and could result in shipping delays for products or materials, increased costs, or other supply chain disruptions, and could therefore have a negative impact on our ability to receive products from suppliers and deliver products to customers, resulting in a material adverse effect on our operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links ‘pandemic’ to shipping delays, cost increases and supply-chain disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong wording (‘material adverse effect on our operations’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presented as a contingent risk; no concrete figures or current impacts.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Score 4/10: solid causal chain to operational harm, but hypothetical and unquantified."
+            },
+            {
+                "snippet": "• health concerns, epidemics, and related government actions;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges epidemics (inclusive of COVID-19) and government responses as operational risks.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Extremely brief bullet point with no context or impact detail.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Still relevant due to international operations but highly generic.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Minimal (1/10): mere mention without detail or linkage produces a low severity score."
+            },
+            {
+                "snippet": "Our operations and those of our customers and suppliers have been and may again be subject to natural disasters, climate change-related events, pandemics, or other business disruptions, which could seriously harm our results of operation and increase our costs and expenses.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemics have already affected operations and could do so again.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights potential for serious harm to results and cost increases—materiality indicator.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Bundled with other events and no specific numbers provided.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Score 5/10: explicit statement of realised and future financial harm, but still generic and unquantified."
+            }
+        ],
+        "calculated_score": 19,
+        "average_severity": 3.8
+    }
+]

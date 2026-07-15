@@ -1,0 +1,256 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "JBHT’s 2022 Form 10-K portrays the COVID-19 pandemic as both an already-experienced shock and a continuing, material threat.  Two years after WHO’s March 2020 declaration, management still cites concrete, realised impacts – customer site shutdowns, network inefficiencies, labour shortages, temporary freight-volume declines, cost increases and higher bad-debt exposure – while also highlighting a broad spectrum of forward-looking vulnerabilities such as driver availability, third-party carrier service levels, equipment procurement delays and port restrictions.  The language is mostly specific, uses terms like “have and may continue,” “significantly impacted,” and enumerates multiple operational choke points, indicating that the risk is not merely theoretical.  Mitigating actions are mentioned only tangentially (e.g., productivity gains or revenue growth offsetting some costs), so the net tone remains cautionary.  Because the filing date (25 Feb 2022) is less than three years after the onset of the pandemic, the Time Decay Principle permits high severity scores.  Overall, COVID-19 constitutes a high-level, ongoing risk for JBHT, warranting elevated but differentiated micro-scores depending on each sentence’s specificity, evidence of actual impact, breadth of effect, and presence (or absence) of mitigating factors.",
+        "evidence_list": [
+            {
+                "snippet": "Our business is significantly impacted by the effects of national or international health pandemics on general economic conditions and the operations of our customers and third-party suppliers and service providers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states the business is 'significantly impacted' by pandemics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights dependence on customers and suppliers, extending the scope of potential disruption.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "A direct acknowledgement of significant pandemic impact across the value chain; moderately strong but generic."
+            },
+            {
+                "snippet": "Our operations can be heavily impacted by the effects of a widespread outbreak of contagious disease, principally the recent outbreak of the COVID-19 virus.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links potential heavy operational impact directly to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Frames the impact as both present (‘recent outbreak’) and potential (‘can be’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses emphatic wording ('heavily impacted'), increasing severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specific to COVID-19 and stresses heavy operational impact, but lacks financial quantification, meriting a high-moderate score."
+            },
+            {
+                "snippet": "The effects of the COVID-19 pandemic have and may continue to disrupt or restrict the freight shipping activities of some of our customers, on which our business is dependent.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms disruption already occurred ('have').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Foresees continuation of disruption ('may continue').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes critical dependence on affected customers.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Contains realised and ongoing risk tied to core revenue drivers; strong, event-specific evidence."
+            },
+            {
+                "snippet": "In addition, adverse economic conditions caused by COVID-19 may also require us to increase our reserve for bad debt losses.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to potential financial statement impact (higher bad-debt reserves).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty ('may require'), indicating possible future earnings erosion.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Directly attributes cause to COVID-19 adverse economic conditions.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specifies a concrete, recognisable accounting impact, but remains unquantified; solid mid-high severity."
+            },
+            {
+                "snippet": "Furthermore, the continuation or resumption of COVID-19 related social and economic disruptions may lead to other events which could negatively impact our operations including service limitations of our third-party purchased transportation providers, reduced availability of drivers and other key employees, disruptions in the procurement of revenue equipment, restrictions at U.S. ports of call, excess capacity or rate reductions within the intermodal or trucking industries, inability of suppliers to continue activities, or volatile financial credit markets.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple, specific operational choke points (service limitations, driver shortages, equipment delays, port restrictions).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Emphasises future risk through 'continuation or resumption', expanding time horizon.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States potential for negative operational impact explicitly.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers both operational and financial market vulnerabilities, broadening severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Highly detailed, wide-ranging list of vulnerabilities tied directly to COVID-19; near-maximum severity."
+            },
+            {
+                "snippet": "The extent to which the COVID-19 outbreak and any future resurgences will impact general economic and business conditions is highly uncertain and unpredictable; however, any of these factors could have a significant adverse effect on our financial condition and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing uncertainty and potential future resurgences.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Warns of 'significant adverse effect' on financial condition and results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links the uncertainty directly to the COVID-19 outbreak.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Highlights material financial threat under uncertainty; strong but less granular than prior sentence."
+            },
+            {
+                "snippet": "The increase in productivity was primarily a result of contracted indexed-based price escalators and less unassigned idle equipment, partially offset by expected lower productivity within start-up accounts and an increase in open assigned trucks due to the tighter supply of qualified drivers and COVID-related labor disruptions.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies COVID-related labour disruptions causing productivity declines.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links to broader driver supply tightness, compounding operational risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presence of positive offsets ('increase in productivity') mitigates severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Realised operational impact but partly offset by other factors; moderate severity."
+            },
+            {
+                "snippet": "FMS revenue increased 22% to $842 million in 2021 from $689 million in 2020, primarily due to the addition of multiple customer contracts implemented during the current year and 2020 including temporary suspension of operations at several customer sites as a result of the COVID-19 pandemic.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows actual suspension of customer operations due to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Demonstrates revenue impact despite growth, indicating mixed effect.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Overall revenue still rose, providing partial mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Evidence of customer shutdowns (realised risk) but tempered by concurrent revenue growth; mid-level score."
+            },
+            {
+                "snippet": "Benefits from increased load volume in 2020 were more than offset by higher rail purchased transportation costs, COVID-19 related network inefficiencies, higher personnel costs, which included a one-time COVID-19 related bonus paid to employee drivers and other key field personnel, and higher dray costs resulting from disruptions in rail capacity and a constricted labor and truck capacity environment.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that COVID-19 network inefficiencies directly eroded earnings.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates specific cost increases tied to the pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates the negative impacts outweighed volume gains.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Quantifies directionally (‘more than offset’) that pandemic costs exceeded benefits; solid severity."
+            },
+            {
+                "snippet": "Operating supplies and expenses were virtually flat in 2020 compared with 2019, driven primarily by higher operating supplies and building maintenance costs in response to COVID-19, increased toll costs, and higher equipment maintenance costs, offset by reduced travel and entertainment expenses.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies higher operating costs directly attributable to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes overall expense neutrality due to other offsets, reducing net impact.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Still reflects realised cost pressure tied to the pandemic.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Shows realised cost increases but largely offset elsewhere; low-moderate severity."
+            },
+            {
+                "snippet": "The current period operating loss was primarily due to increased costs to expand and improve, through service quality performance controls, the FMS network, lost revenue resulting from the temporary suspension of operations at several customer sites in response to COVID-19, higher bad debt expense, higher personnel costs, which included a one-time COVID-19 related bonus, higher COVID-19 related operating supplies expense an increase in noncash amortization expense attributable to the 2019 business acquisitions.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Attributes operating loss partly to COVID-19-induced customer suspensions (lost revenue).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Cites multiple COVID-related cost pressures (bad debt, supplies, bonuses).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Other non-pandemic factors also contribute (dilutive mitigation).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Multiple pandemic-driven costs and revenue hits, but mixed with other factors; moderate overall severity."
+            }
+        ],
+        "calculated_score": 60,
+        "average_severity": 5.454545454545454
+    }
+]

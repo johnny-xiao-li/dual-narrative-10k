@@ -1,0 +1,162 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Axon’s 2022 Form 10-K acknowledges the COVID-19 pandemic as a still-unfolding, multi-faceted threat that has already created operational friction and could materially impair future performance.  The company cites concrete, present-tense impacts (business disruptions, supply-chain strain, and financial volatility) and admits that the duration and severity of the crisis are impossible to forecast.  Although Axon outlines mitigation efforts—continuous monitoring, employee-safety measures and contingency planning—it also concedes that such plans may prove insufficient.  The disclosure is therefore a blend of backward-looking impacts (\"has adversely affected\") and forward-looking uncertainty.  Because the filing date (25 Feb 2022) is less than three years after the World Health Organization declared COVID-19 a pandemic (11 Mar 2020), the Time Decay Principle allows for relatively high risk scores.  Nevertheless, the language is largely qualitative and unquantified, tempering the maximum severity assigned to any single sentence.  Overall, the risk level is assessed as material and continuing, with individual snippet scores ranging from 1–7 to reflect the mix of aggravating and mitigating factors.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 global pandemic has adversely affected workforces, economies, and financial markets globally, and led to an economic downturn.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states the pandemic has already caused adverse effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links those effects to broad macroeconomic decline, implying revenue pressure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Event is recent (within 3 years) so Time Decay allows a higher weight.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct, present-tense description of pandemic-driven adversity yields a high (but not maximum) risk score."
+            },
+            {
+                "snippet": "As an essential provider of products and services for law enforcement and other first responders, we remain focused on protecting the health and well-being of our employees while assuring the continuity of our business operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions operational continuity efforts, signalling risk awareness but also mitigation.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights proactive health and safety focus, which mitigates risk.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Does not quantify impact, reducing severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Predominantly a mitigation statement; residual risk acknowledged but largely offset by described actions."
+            },
+            {
+                "snippet": "Although the severity of the pandemic has lessened with the rollout of vaccines and travel restrictions, remote working and schooling and social distancing requirements have been lifted or eased in varying degrees in varying locations throughout the United States and the world, continuing surges and variants have caused certain restrictions to be re-implemented in varying degrees and in varying locations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges some easing (mitigating).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Points to ongoing surges and re-implementation of restrictions, indicating persistent risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights geographic variability, adding complexity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Sentence shows mixed picture—partial mitigation but continuing unpredictable restrictions—yielding a moderate score."
+            },
+            {
+                "snippet": "The severity and duration of the pandemic, including future surges and variants, is impossible to predict.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises high uncertainty and uncontrollability, a classic aggravating factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers possible future variants, extending risk horizon.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Uncertainty language amplifies potential volatility but lacks direct impact quantification, so score is moderate."
+            },
+            {
+                "snippet": "As a result, the ongoing pandemic continues to present various risks that may affect our operations and financial results, including, but not limited to: 13 These events have had and could continue to have an impact on our operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to operational and financial risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes both past and future impacts (‘have had and could continue’), confirming materiality.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clearly states realised and prospective impacts on operations and finances, earning an above-average score."
+            },
+            {
+                "snippet": "If our backup and mitigation plans are not sufficient to minimize business disruption, our financial results could be adversely affected.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies potential adverse financial outcome if mitigation fails.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presence of backup plans shows partial mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Conditional statement outlines financial downside but also references contingency planning, resulting in a modest score."
+            },
+            {
+                "snippet": "We are continuously monitoring our operations and intend to take appropriate actions to mitigate the risks arising from the COVID-19 pandemic, but there can be no assurances that we will be successful in doing so.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing mitigation efforts (monitoring, actions).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Admits potential ineffectiveness (‘no assurances’), keeping risk alive.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mitigation language largely offsets risk recognition, producing a low net risk score."
+            },
+            {
+                "snippet": "Unexpected changes in business 17 conditions, materials pricing, labor issues, wars, trade policies, natural disasters, health epidemics such as the global COVID-19 pandemic, trade and shipping disruptions, port congestions and other factors beyond our or our suppliers’ control could also affect these suppliers’ ability to deliver components to us or to remain solvent and operational.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 to supply-chain disruption risk—a direct operational threat.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates multiple compounding factors, increasing complexity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Sentence connects the pandemic to critical supply-chain vulnerabilities, giving it a solid mid-range risk score."
+            }
+        ],
+        "calculated_score": 26,
+        "average_severity": 3.25
+    }
+]

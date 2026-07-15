@@ -1,0 +1,68 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Conagra’s 2023 filing acknowledges the COVID-19 pandemic as both a historical and continuing threat. The company states that its operations \"have in the past been\" adversely affected and \"may continue\" to be affected, explicitly naming COVID-19 alongside supply-chain challenges and labor shortages. It also warns that future pandemic waves could disrupt third-party manufacturing and transportation, impairing the firm’s ability to make or sell products. These references demonstrate that the pandemic has already had tangible, though un-quantified, impacts and remains a live operational risk. However, the language is largely embedded in sweeping, catch-all lists without any numeric disclosure of magnitude or duration, suggesting a standard, boiler-plate approach. Because the disclosure is slightly more than three years after the World Health Organization’s March 2020 declaration, the Time Decay Principle suggests a moderate-to-high severity band: the event is still recent enough to matter materially, but some immediacy has faded. Consequently, evidence scores cluster in the 6-7 range—meaningful but not extreme.",
+        "evidence_list": [
+            {
+                "snippet": "Our business and results of operations have in the past been and may continue to be adversely affected by changes in national or global economic conditions, including ... supply chain challenges, labor shortages, geopolitical conflicts (including the ongoing conflict between Russia and Ukraine), the negative impacts caused by pandemics and public health crises (including the COVID-19 pandemic), and the effects of governmental initiatives to manage economic conditions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that the company \"have in the past been\" adversely affected, confirming an already-realized impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses forward-looking language (\"may continue\") indicating the risk remains active.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly references pandemics and the COVID-19 pandemic by name.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects pandemic risk to supply-chain challenges and labor shortages, expanding operational exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Presented in a broad, catch-all list without quantification, which dilutes specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Score of 7 reflects a direct, already-experienced impact tied to COVID-19 and ongoing exposure, tempered by generic, non-quantified wording."
+            },
+            {
+                "snippet": "Continued or future damage or disruption to our supply chain, including third-party manufacturing or transportation and distribution capabilities, due to weather, including any potential effects of climate change, natural disaster, fire or explosion, terrorism, pandemics (such as the COVID-19 pandemic), strikes, government action, geopolitical turmoil (including the ongoing conflict between Russia and Ukraine), or other reasons beyond our control or the control of our suppliers and business partners, could impair our ability to manufacture or sell our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemics, explicitly citing COVID-19, as a causal factor for supply-chain disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights potential impairment of core operations—manufacturing and sales—demonstrating material exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional, forward-looking phrasing without evidence of past damages or dollar quantification.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Long list of other unrelated hazards slightly dilutes the focus on pandemic risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "The snippet earns a 6 because it ties COVID-19 to serious supply-chain threats but remains prospective and somewhat generic."
+            }
+        ],
+        "calculated_score": 13,
+        "average_severity": 6.5
+    }
+]

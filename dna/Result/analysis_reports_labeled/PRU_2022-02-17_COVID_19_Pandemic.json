@@ -1,0 +1,146 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "PRU’s 2022 10-K ties the ongoing COVID-19 pandemic to multiple core risk pillars—investment, insurance, market, liquidity and operational.  The language is largely contemporaneous (reflecting experience in 2020-2021 and explicitly projecting future effects) and identifies concrete negative mechanisms: defaults in the asset portfolio, excess mortality, higher disability claims, market volatility, liquidity strain, and operational fragility from prolonged remote work.  These are not remote hypotheticals; the filing affirms that COVID-19 has already produced elevated losses and stresses and states it \"may continue\" to do so.  The disclosures are company-specific (e.g., Group Insurance morbidity, liquidity draws, hedging constraints) rather than boiler-plate, yet they remain largely unquantified.  Given the filing date (February 2022—well within three years of the March 2020 World Health Organization declaration), the Time-Decay Principle permits high severity scores.  Overall, the pandemic is portrayed as an active, multi-year threat with limited mitigation discussion, justifying upper-tier snippet scores (7-9) for direct financial impacts and mid-tier scores (5-6) where wording is broader or partly mitigated.",
+        "evidence_list": [
+            {
+                "snippet": "During 2020, the COVID-19 pandemic and its impact on the global economy increased the risk of loss on our investments due to default or deterioration in credit quality or value and may do so again.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to realised increase in investment losses ('increased the risk of loss').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers systemic exposure across the global economy, signalling breadth of impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking clause ('may do so again') warns of continuing vulnerability.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct, recent evidence that COVID-19 already elevated investment risk, with a warning it could recur, merits a high score of 7."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has caused and may continue to cause a mortality calamity or elevated mortality, which may lead to elevated losses.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemic has already caused excess mortality—direct insurance impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Projects continued elevated mortality, extending risk horizon.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects mortality to ‘elevated losses’, signalling financial materiality.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Strong causal wording, ongoing threat, and clear financial consequence justify a score of 8."
+            },
+            {
+                "snippet": "Additionally, as a result of COVID-19, we may experience elevated disability claims in our Group Insurance business.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies specific business line (Group Insurance) exposure to pandemic morbidity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights potential quantitative pressure (‘elevated disability claims’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Future-looking ‘may experience’ tempers certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Business-specific morbidity risk is significant but phrased as potential; net mid-high severity score of 5."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has increased and may continue to increase market risk.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Affirms realised increase in market risk from pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Signals continuation of heightened risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic statement with no business-line detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Statement is broad and unquantified but confirms ongoing elevated market risk; moderate score of 4."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has increased and may continue to increase liquidity risk.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic directly to rising liquidity risk—a core survival metric.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses forward-looking ‘may continue’, indicating persistence.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No specific numbers or mitigants provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Confirms heightened liquidity threat but lacks detail; assigns moderate score of 4."
+            },
+            {
+                "snippet": "Remote work elevates the risk that weaknesses or failures in our business continuation plans could lead to disruption of our operations, liability to clients, exposure to disciplinary action or harm to our reputation.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes operational vulnerabilities arising from pandemic-driven remote work.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates multiple potential damages (operational, legal, reputational).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is conditional on ‘weaknesses or failures’, indicating some mitigation exists.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Operational risk tied to pandemic remote-work setup is clear but contingent; earns a score of 4."
+            }
+        ],
+        "calculated_score": 32,
+        "average_severity": 5.333333333333333
+    }
+]

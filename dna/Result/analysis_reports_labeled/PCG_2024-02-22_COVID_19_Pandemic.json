@@ -1,0 +1,98 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Across the almost-600-page filing, COVID-19 is mentioned only in passing and almost always in the same breath as ‘other pandemics’ or an array of natural-disaster scenarios.  The company no longer treats the pandemic as an acute emergency but as a residual, forward-looking operational risk that could trigger labour shortages or require customer-protection spending.  The disclosures are mostly qualitative, use conditional language (\"could experience\", \"may continue\"), and provide no new quantified impact metrics.  The only concrete reference is to two memorandum accounts (CPPMA and RUBA) that tracked pandemic-related customer-protection costs—signalling that any material cash outflows have already been isolated for future regulatory recovery.  Because the event is now four years old, the Time Decay Principle points to moderate scoring: the risk is neither fresh enough for high severity nor distant enough to be negligible.  Overall, pandemic risk for PG&E is assessed as low-to-moderate, largely mitigated by existing cost-recovery mechanisms and by the fact that pandemic-induced disruptions are now folded into the company’s standard business-continuity planning rather than driving unique, material exposures.",
+        "evidence_list": [
+            {
+                "snippet": "Additionally, the Utility could experience workforce disruptions from personnel in those positions as a result of labor activity, the COVID-19 pandemic or other pandemics, or governmental regulation of pandemic protections.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites the COVID-19 pandemic as a causal factor.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies a concrete operational impact – workforce disruptions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional language ('could'), indicating possibility rather than certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly links COVID-19 to potential labour disruptions, but impact is framed as hypothetical; hence a moderate score of 4."
+            },
+            {
+                "snippet": "Any such occurrences could materially affect PG&E Corporation’s and the Utility’s financial condition, results of operations, liquidity, and cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that the consequences (including pandemic-driven disruptions referenced in the preceding sentence) could be 'material'.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Still couched in conditional language without event specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Highlights material financial exposure but is generic and relies on context from the prior sentence; therefore a lower score of 2."
+            },
+            {
+                "snippet": "Severe weather events and other natural disasters, including wildfires and other fires, storms, tornadoes, floods, extreme heat events, drought, earthquakes, lightning, tsunamis, rising sea levels, pandemics, solar events, electromagnetic events, wind events or other weather-related conditions, climate change, or natural disasters, could result in severe business or operational disruptions, prolonged power outages, property damage, injuries and loss of life, significant decreases in revenues and earnings, and significant additional costs to PG&E Corporation and the Utility.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists 'pandemics' among hazards capable of causing severe operational and financial damage.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details a wide range of serious potential consequences (operational disruptions, revenue decline, extra costs).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Very broad, catch-all sentence that dilutes pandemic specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows sizeable possible impacts but treats pandemics generically among many hazards, yielding a middle-of-the-road score."
+            },
+            {
+                "snippet": "In addition, the CPPMA and RUBA accounts track costs incurred to implement the CPUC’s Emergency Authorization and Order Directing Utilities to Implement Emergency Customer Protections to Support California Customers During the COVID-19 pandemic.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "References concrete, already-incurred pandemic-related costs that required regulatory tracking.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Implies financial materiality by noting dedicated memorandum accounts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Costs are paired with a recovery mechanism, reducing net risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Demonstrates actual COVID-19 expenditures but also shows that recovery channels exist, balancing out at a moderate score."
+            }
+        ],
+        "calculated_score": 14,
+        "average_severity": 3.5
+    }
+]

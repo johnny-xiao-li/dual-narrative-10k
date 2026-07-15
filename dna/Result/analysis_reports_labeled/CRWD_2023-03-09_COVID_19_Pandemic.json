@@ -1,0 +1,216 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CrowdStrike’s March 2023 10-K treats COVID-19 primarily as a continuing, enterprise-wide risk that both has already affected customers and could further erode demand, lengthen sales cycles, slow collections, and strain operations.  The company frames the pandemic in several ways: (i) as a macro driver that has already hurt certain customers and the broader economy; (ii) as an ongoing operational hazard that necessitates precautionary measures which themselves introduce execution risk; and (iii) as a catalyst that could amplify other strategic and financial uncertainties.  Although no quantified dollar impact is disclosed, the filing acknowledges concrete past effects (e.g., delayed spending, impaired receivables) and itemises multiple forward-looking pathways for material harm—supply-chain friction, workforce disruption, churn, and revenue compression.  Because the filing date (09-Mar-2023) falls barely three years after the WHO pandemic declaration, the Time Decay Principle permits relatively high risk scores.  The disclosures are more specific than generic boiler-plate—naming actual customer impacts and detailing potential operational pinch-points—yet they remain largely qualitative and un-quantified, which tempers maximum severity.  Overall, the risk evidence is recent, multi-faceted and only partially mitigated, warranting mid-to-high micro-scores across the identified sentences.",
+        "evidence_list": [
+            {
+                "snippet": "For example, any deterioration in general economic conditions, including as a result of the geopolitical environment, the outbreak of diseases such as COVID-19 or inflation (as well as government policies such as raising interest rates in response to inflation), have in the past and may in the future cause our current and prospective customers to delay or cut their overall security and IT operations spending, and such delays or cuts may fall disproportionately on cloud-based security solutions like ours.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites COVID-19 as a causal factor already experienced and potentially recurring.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes concrete financial behaviour by customers (delay or cut spending).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights disproportionate impact on company’s cloud-based offerings.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "References both past and future impacts, signalling continuing exposure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Recent, specific, and directly tied to revenue pressure; no mitigating action listed, so score is high."
+            },
+            {
+                "snippet": "significant natural disasters and other catastrophic events, including the occurrence of a contagious disease or illness, such as COVID-19.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions COVID-19 as a potential catastrophic event.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Statement is generic with no direct impact quantified.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic cataloguing of COVID-19 among many threats; limited specificity keeps score low."
+            },
+            {
+                "snippet": "Public health crises, such as the COVID-19 pandemic could adversely affect our business, operating results and future revenue.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct link between COVID-19 and adverse effects on business metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking but unquantified and generic.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clear articulation of possible harm, but lack of detail or quantification moderates the score."
+            },
+            {
+                "snippet": "We are subject to public health crises, such as the COVID-19 pandemic, which has impacted and continues to impact worldwide economic activity and financial markets.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that COVID-19 has already impacted global markets (current impact).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Positions company as exposed to ongoing effects.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Notes ongoing macro impact—recent, factual, but still high-level, earning a solid score."
+            },
+            {
+                "snippet": "We have previously taken and may in the future take precautionary measures intended to mitigate the spread of the COVID-19 virus and minimize the risk to our employees, customers, partners, and the communities in which we operate to respond to developments relating to the pandemic, including developments relating to infection rates, disease variants, vaccination progress and efficacy, and evolving public health guidance.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes operational adjustments due to COVID-19 uncertainties.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights company mitigation actions (precautionary measures).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Acknowledges evolving nature of pandemic (variants, vaccination).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows awareness and mitigation, which lowers net severity despite acknowledging evolving risk."
+            },
+            {
+                "snippet": "These measures could, for example, negatively affect our customer success efforts, delay and lengthen our sales cycles, impact our sales and marketing efforts, slow our international expansion efforts, increase cybersecurity risks, and create operational or other challenges, any of which could harm our business and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple concrete operational downsides stemming from COVID-related measures.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicit link to potential harm of business and results.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impacts are forward-looking but unquantified.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Detailed articulation of potential operational impacts justifies high mid-range score."
+            },
+            {
+                "snippet": "In addition, public health crises may disrupt the operations of our customers and partners for an indefinite period of time.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Signals indefinite disruption risk to ecosystem (customers, partners).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Describes supply-side disruption but in broad terms, yielding a moderate score."
+            },
+            {
+                "snippet": "Some of our customers have been negatively impacted by the COVID-19 pandemic, which could result in delays in accounts receivable collection, or result in decreased technology spending which could negatively affect our revenues.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms actual negative impact on customers (historical evidence).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Identifies specific financial risks: slower collections, reduced spending, revenue hit.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Mix of realized and potential direct financial impacts delivers a high severity score."
+            },
+            {
+                "snippet": "More generally, the COVID-19 pandemic adversely affected economies and financial markets globally.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges broad adverse effect already realised.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "General macro statement with no company-specific detail keeps score low."
+            },
+            {
+                "snippet": "Uncertainty caused by public health crises could lead to prolonged economic downturns, which could result in a larger customer churn than we can anticipate and reduce demand for our products and services, in which case our revenues could be significantly impacted.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links prolonged downturn to customer churn and revenue impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty rather than current impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific pathway from pandemic uncertainty to revenue loss; lack of quantification moderates score."
+            },
+            {
+                "snippet": "The lasting impact of the public health crises, including the COVID-19 pandemic, may also exacerbate other risks discussed in this “Risk Factors” section and elsewhere in this Annual Report on Form 10-K.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States pandemic can amplify multiple existing risks.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "High-level amplification statement, no detail; minimal aggravation yields low score."
+            }
+        ],
+        "calculated_score": 48,
+        "average_severity": 4.363636363636363
+    }
+]

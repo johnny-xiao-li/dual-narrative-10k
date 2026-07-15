@@ -1,0 +1,90 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "GoDaddy’s 2024 Form 10-K shows that the COVID-19 pandemic continues to exert a meaningful—though no longer acute—influence on the company’s risk profile.  The discussion is largely operational: the pandemic triggered a wholesale shift to remote work that remains in place for most employees and is expected to persist, bringing ongoing uncertainties around cost, efficiency, employee culture and retention.  The filing also flags pandemics, explicitly naming COVID-19, as a potential disruptor of cloud-hosting uptime.  These disclosures are framed both as historical facts (the workforce already moved off-site) and as forward-looking risks (future cost increases, cultural erosion, potential service outages).  They are company-specific but not quantified in dollars, indicating a moderate severity.  Because the pandemic onset (March 2020) is just under four years prior to the filing date (Feb 2024), the Time-Decay Principle places the event at the borderline of “recent” and “medium-term,” warranting scores mostly in the 4-7 range rather than the maximum 9-10 reserved for very fresh, quantified shocks.  Overall, the risk is real and continuing, but it is operational rather than existential, and the language remains largely qualitative.",
+        "evidence_list": [
+            {
+                "snippet": "As a result of the COVID-19 pandemic, a substantial portion of our personnel, including our GoDaddy Guides, began working remotely.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct causal link to the event (‘As a result of the COVID-19 pandemic’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes a concrete operational impact: large-scale shift to remote work.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Event is ~4 years old—still recent enough for elevated concern, but subject to slight time-decay.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Clear, company-specific description of a pandemic-driven operational change earns a high-moderate score of 7."
+            },
+            {
+                "snippet": "We anticipate working arrangements for most of our employees will continue to differ from the arrangements before the COVID-19 pandemic and the majority of our employees will continue to work from home on a full- or part-time basis.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Signals ongoing, forward-looking impact tied explicitly to the pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights structural change in workforce model, implying sustained operational risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows that pandemic effects are persistent and future-oriented, but without quantification, yielding a moderate score of 5."
+            },
+            {
+                "snippet": "The full or partial return to in-office work and the potential transition to permanent remote working arrangements for some employees may result in increased costs, decreased efficiency, deterioration of company culture and/or other unforeseen challenges.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple concrete downside risks (cost, efficiency, culture) stemming from pandemic-driven remote-work dynamics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indirect pandemic reference (contextual rather than explicit) slightly dilutes linkage.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Forward-looking and unquantified, giving moderate weight.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Enumerates specific potential harms but ties to the pandemic indirectly; net score is a solid yet not high 4."
+            },
+            {
+                "snippet": "We may experience interruptions, delays and outages in service and availability of AWS services due to a variety of factors, including ... pandemics such as the COVID-19 pandemic, fraud or cybersecurity attacks, all of which could impact our service to our customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemics, explicitly naming COVID-19, as a threat to service continuity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is bundled with many other generic hazards, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic, catch-all wording with limited depth results in a low but non-zero score of 1."
+            }
+        ],
+        "calculated_score": 17,
+        "average_severity": 4.25
+    }
+]

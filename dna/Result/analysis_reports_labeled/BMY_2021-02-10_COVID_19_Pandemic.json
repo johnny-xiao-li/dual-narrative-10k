@@ -1,0 +1,270 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "BMY’s 2020 Form 10-K describes COVID-19 as an immediate, multidimensional threat touching nearly every part of its value chain: raw-material sourcing, plant operations, clinical development, commercial field engagement, information security, and even the valuation of its US$53 billion intangible-asset base.  The company reports present-tense impacts (e.g., raw-material scarcity, delayed trial enrolment) while also flagging forward-looking uncertainties that could become ‘material adverse effects.’  Language is generally specific, naming concrete pressure points—vaccine-related vendor prioritisation, cyber-attacks, integration delays, currency swings—rather than generic boiler-plate.  Mitigating remarks (e.g., “currently do not anticipate disruption”) appear but are outweighed by acknowledgements of existing harm and potential long-term structural change.  Because the filing date (10 Feb 2021) is less than one year after the WHO pandemic declaration (11 Mar 2020), the Time-Decay Principle allows high severity scores.  Overall, the disclosure signals a high but still evolving risk profile: several impacts are already observable, financial materiality is explicitly referenced, and management concedes that it cannot yet quantify full exposure.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic is affecting our business and could have a material adverse effect on us.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States current impact ('is affecting')",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights potential 'material adverse effect'",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Directly attributes impact to COVID-19 (recent event)",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Sentence links the recent pandemic to both present disruption and material future harm, warranting a high score of 8."
+            },
+            {
+                "snippet": "For instance, we are experiencing and may continue to experience scarcity of certain raw materials and components as a result of the influx of COVID-19 vaccine orders receiving priority treatment from vendors.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details a concrete, already-occurring supply-chain disruption",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Indicates ongoing risk ('may continue')",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicit causal link to pandemic",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Specific evidence of current raw-material shortages tied to COVID-19 justifies a severity score of 8."
+            },
+            {
+                "snippet": "Although we currently do not anticipate any disruption to the supply of our medicines to patients due to COVID-19, it is possible that we could experience manufacturing or supply issues due to COVID-19 in the future, which would increase the negative impact on our business and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges potential manufacturing/supply disruption",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links disruption to pandemic",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mitigating statement: 'currently do not anticipate'",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Risk is prospective and partially mitigated by management’s current view, yielding a moderate score of 3."
+            },
+            {
+                "snippet": "Although we have restarted clinical development activities, we continue to experience delays in the initiation and enrollment of patients in our clinical trials.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports ongoing operational delay (clinical trials)",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Present tense ('continue to experience')",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Implied link to pandemic context",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Current, measurable delays in core R&D raise operational risk, resulting in a score of 7."
+            },
+            {
+                "snippet": "A prolonged clinical trial delay could potentially have a significant negative effect on our business, particularly if new competitive products enter the market or clinical trial results for our competitors’ products affect the value proposition for our product.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies strategic downside ('significant negative effect')",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links delays to competitive risk amplifiers",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Future-looking but clearly material impact on competitive position earns a mid-high score of 5."
+            },
+            {
+                "snippet": "Any such delays or difficulties in clinical development could also potentially lead to a material impairment of our intangible assets, including the approximately $53 billion of intangible assets as of December 31, 2020.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies exposure (US$53 billion intangibles)",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses 'material impairment' language",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "The reference to a multi-billion-dollar asset base at risk elevates this to a 7."
+            },
+            {
+                "snippet": "It is also possible that there could be a longer-lasting shift in interactions between field personnel and health care professionals that we have not anticipated, which could have a negative impact on our business and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights potential structural change to sales model",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Admits lack of preparedness ('have not anticipated')",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Potential enduring change in commercial practices adds meaningful risk, scored at 5."
+            },
+            {
+                "snippet": "We are facing and could continue to face potential other negative consequences stemming from the COVID-19 pandemic, including but not limited to increased cyber threats to us and our partners such as phishing, social engineering and malware attacks, delays in planned integration milestones and ability to collect our receivables.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple operational and cyber risks already facing firm",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates ongoing exposure ('could continue')",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Direct pandemic linkage",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Diverse, continuing threats tied to COVID-19 justify a score of 7."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has increased the volatility of the financial markets, foreign currency exchanges and interest rates.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to macro-financial volatility",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Macro-level volatility may indirectly hit earnings; moderate significance scores 3."
+            },
+            {
+                "snippet": "If the U.S. dollar continues to strengthen, interest rates continue to decline, and/or stock markets continue to decline, we could see a further reduction in revenues or other income or additional charges to our equity investments, which could have a negative impact on our earnings and cash flows.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies financial statement impacts (revenues, equity charges)",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Contingent on future market conditions",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Concrete financial channels but dependent on market direction; score set at 4."
+            },
+            {
+                "snippet": "We cannot predict or reasonably estimate the impact of any potential long-term changes to the healthcare industry from COVID-19.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits uncertainty over long-term structural impacts",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Acknowledged uncertainty without quantification offers limited severity, score 2."
+            },
+            {
+                "snippet": "If we determine that it is no longer safe to engage in these in-person interactions, we will likely return to a remote model of engagement.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights potential operational pivot impacting sales force",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Possible reversion to remote engagement affects commercial effectiveness; modest score 3."
+            },
+            {
+                "snippet": "We could face additional risks from the impact of COVID-19 on our suppliers, vendors, outsourcing partners, alliance partners and other third parties that we rely on to research, develop, manufacture, commercialize, co-promote and sell our products, manage certain marketing, selling, human resource, finance, IT and other business unit and functional services.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Covers broad third-party dependencies across value chain",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicit COVID-19 linkage",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Wide-ranging supplier and partner exposure drives score to 6."
+            },
+            {
+                "snippet": "At this time, we cannot predict the full extent of the negative impact that the COVID-19 pandemic will have on our business, financial condition, results of operations and/or cash flows.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Concedes potentially broad, yet unquantified negative impact",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Explicit but generic uncertainty yields a moderate risk score of 3."
+            }
+        ],
+        "calculated_score": 71,
+        "average_severity": 5.071428571428571
+    }
+]

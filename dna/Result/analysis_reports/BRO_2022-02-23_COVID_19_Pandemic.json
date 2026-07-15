@@ -1,0 +1,179 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Brown & Brown’s 2022 Form 10-K ties the ongoing COVID-19 pandemic to a broad set of operational, financial and strategic vulnerabilities.  Nearly two years after the World Health Organization declared the pandemic, management still frames COVID-19 as a live, potentially escalating threat rather than a concluded historical shock.  The risk language is mostly forward-looking (e.g., “could,” “may,” “will depend on future developments”), yet it is anchored in real, contemporaneous disruptions—volatility in demand, credit-market turmoil, remote-work frictions, and delayed customer payments.  Although no hard dollar amounts are disclosed, the filing repeatedly uses strong materiality qualifiers (“materially and adversely affect”) and links the virus to core revenue drivers such as commission volume, liquidity access, and labour availability.  Given the filing date (February 2022) is well within three years of the event start (March 2020), the Time-Decay Principle allows elevated severity scores.  Overall, I assess the pandemic risk as high but un-quantified, warranting snippet scores mostly in the 6-8 range, with slight downward adjustments where mitigation or uncertainty is emphasised and upward adjustments where direct revenue or liquidity impacts are spelled out.",
+        "evidence_list": [
+            {
+                "snippet": "THE COVID-19 PANDEMIC ... MAY MATERIALLY AND ADVERSELY AFFECT THE COMPANY’S BUSINESS, LIQUIDITY, CUSTOMERS, INSURANCE CARRIERS AND THIRD PARTIES.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties pandemic to broad, company-wide impacts (‘business, liquidity, customers’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong materiality wording (‘materially and adversely affect’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Event is current (<3 yrs), satisfying high-recency under Time-Decay.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct statement of severe, multi-dimensional impact earns a high score of 8."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has created significant volatility, uncertainty and economic disruption, which could further adversely affect our business and may materially and adversely affect our financial condition, results of operations and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges existing (‘has created’) adverse conditions.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects to key financial metrics (results of operations, cash flows).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Strong ‘materially and adversely’ phrasing.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "References present disruptions and material impact, but lacks quantification—score 7."
+            },
+            {
+                "snippet": "The extent to which COVID-19 impacts our business will depend on future developments, which are highly uncertain and cannot be predicted with confidence, including ... business closures, travel restrictions, social distancing ... the effect on customer demand and buying patterns; and any impairment in value of our tangible or intangible assets which could be recorded as a result of weaker economic conditions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple concrete drivers (closures, restrictions, demand shifts, asset impairment).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights high uncertainty, signalling unbounded downside.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking conditional language slightly tempers immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Detailed but speculative enumeration of risk drivers yields a moderate score of 4."
+            },
+            {
+                "snippet": "In addition, if the pandemic continues to create disruptions or turmoil in the credit or financial markets, or impacts our credit ratings, it could adversely affect our ability to access capital on favorable terms and continue to meet our liquidity needs, all of which are highly uncertain and cannot be predicted.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to capital-market access and liquidity—critical for operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uncertainty qualifier reduces definitiveness.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Capital-access risk noted but framed as potential; uncertainty lowers score to 2."
+            },
+            {
+                "snippet": "our customers choosing to limit purchases of insurance and services ... and a reduction in our customers’ insurable exposure units, all of which would impact our ability to generate commission revenue and other revenue;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly ties pandemic behaviour to revenue decline (commission revenue).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies multiple customer-side stress mechanisms (purchase limits, exposure reduction).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear revenue-erosion mechanism leads to a strong—but not maximal—score of 6."
+            },
+            {
+                "snippet": "a delay in cash payments to us from customers or carrier partners due to COVID-19, which could negatively impact our financial condition;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies working-capital timing risk (payment delays).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicit negative impact on financial condition.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Payment-delay risk is concrete but narrower in scope—score 3."
+            },
+            {
+                "snippet": "alternative working arrangements, including employees working remotely, which could negatively impact our business should such arrangements remain for an extended period of time;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights internal operational risk from remote-work shift.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Potential, longer-term qualifier (‘could’, ‘should’), reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Internal productivity risk noted but conditional; limited severity—score 1."
+            },
+            {
+                "snippet": "failure of third parties upon which we rely to meet their obligations to us, or significant disruptions in their ability to meet those obligations in a timely manner, which may be caused by their own financial or operational difficulties.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Captures supply-chain/partner dependency risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indirect linkage—pandemic is implied rather than explicit here.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Third-party disruption risk is relevant but less directly tied—score 1."
+            },
+            {
+                "snippet": "Additionally, should any key employees become ill from the coronavirus and unable to work, the attention of the management team could be diverted.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies labour capacity risk tied to employee illness.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Effect described as managerial distraction (moderate impact).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Employee-illness risk exists but framed narrowly; yields a low score of 1."
+            }
+        ],
+        "calculated_score": 33,
+        "average_severity": 3.6666666666666665
+    }
+]

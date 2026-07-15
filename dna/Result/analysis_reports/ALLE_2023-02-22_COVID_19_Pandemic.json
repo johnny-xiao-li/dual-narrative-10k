@@ -1,0 +1,170 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "ALLE’s 2023 Form 10-K squarely acknowledges COVID-19 as a recent (0-3 year) event that has already produced concrete, material impacts on the company’s operations, suppliers and labour force, while also warning of continuing and uncertain future effects. Several sentences attribute specific problems—volatility, supply-chain bottlenecks, electronic‐component shortages, freight delays, and elevated labour turnover—directly to the pandemic, demonstrating that the risk is both realised and still prospective. These disclosures go beyond boiler-plate by itemising operational choke-points and geography-specific restrictions (e.g., China). Because the filing date is February 2023, the Time Decay Principle places the pandemic in the “recent” bucket, allowing high scores where evidence is direct and quantified. However, not all statements carry equal weight: some are forward-looking and generic, or contain mitigating language about easing restrictions, which tempers their scores. Overall, the risk level is high but heterogeneous across the extracted sentences, ranging from immediate, observed disruption (scores 8-9) to generic cautionary language (scores 1-4).",
+        "evidence_list": [
+            {
+                "snippet": "Additionally, as we have experienced in recent years, the COVID-19 pandemic created significant volatility, uncertainty and economic disruption, both for our business (and many of our customers and suppliers) and the U.S. and global economy more generally.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes volatility and economic disruption to COVID-19 (‘created significant ... disruption’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong, materiality-laden language (‘significant’, affects company, customers and suppliers).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Event is recent (within 3 years), elevating severity under Time Decay.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "High score because the sentence links COVID-19 to material, already-realised disruption across the value chain, with no mitigating language."
+            },
+            {
+                "snippet": "It also led, both directly and indirectly, to significant operating challenges, including disruptions to our and our suppliers’ operations, shortages of electronic and other parts and components, freight delays, increased labor shortages and logistical challenges.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple concrete operational impacts (supply interruptions, component shortages, freight delays, labour shortages).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Characterises impacts as ‘significant’, indicating material severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Causally ties these impacts to the pandemic via antecedent sentence (‘It’ = COVID-19).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Recency window (0-3 years).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Scores 9 because it gives a detailed, multi-faceted list of realised pandemic-related disruptions across supply chain and labour."
+            },
+            {
+                "snippet": "Although most governments have eased or eliminated their restrictions on travel and social interactions, and lifted non-essential business closures, several jurisdictions in which we have operations, such as China, have public health and government mandates that restrict business activities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies ongoing government mandates that directly restrict the company’s operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Provides geographic specificity (China), enhancing relevance.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Includes partial mitigation language (‘most governments have eased’).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Moderate score: shows continuing risk in specific regions but also notes easing elsewhere, partially mitigating severity."
+            },
+            {
+                "snippet": "These mandates and restrictions have, and could continue to have, an impact on our business and operations, and on the operations of some of our suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States both realised and future impacts on company and suppliers.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses conditional language (‘could continue’), making it partly forward-looking.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Scores 4 due to acknowledgement of tangible and prospective impacts, though without specifics or quantified magnitude."
+            },
+            {
+                "snippet": "Global health crises, such as the COVID-19 pandemic or any other actual or threatened epidemic, pandemic, or outbreak and spread of a communicable disease or virus in the countries where we operate or sell products and provide services could adversely affect our operations and financial performance.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly includes COVID-19 as an example of a risk factor affecting operations and financials.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic, conditional phrasing (‘could adversely affect’) without evidence of current impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Lower score because the statement is largely boiler-plate and forward-looking, though it still names COVID-19 explicitly."
+            },
+            {
+                "snippet": "Further, any national, state or local government mandates or other orders taken to minimize the spread of a global health crisis could restrict our ability to conduct business as usual, as well as the business activities of our key customers and suppliers, including the potential for labor shortages.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights multiple operational constraints (business closures, customer/supplier disruption, labour shortages).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking conditional (‘could restrict’); no quantification.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Earns 4 for detailing several possible avenues of disruption, but remains hypothetical."
+            },
+            {
+                "snippet": "In particular, the ultimate extent of the impact of any epidemic, pandemic or other global health crisis on our business, financial condition and results of operations will depend on future developments which are highly uncertain and cannot be predicted.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges uncertainty and inability to predict future pandemic effects, signalling risk awareness.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Heavily caveated language undercuts immediacy of risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Minimal score because the sentence mainly emphasises uncertainty, offering little concrete impact detail."
+            },
+            {
+                "snippet": "While we have historically experienced some level of ordinary course turnover of employees, the COVID-19 pandemic increased turnover and the ensuing negative macroeconomic environment exacerbated labor shortages and contributed to further increases in employee turnover.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links pandemic to elevated labour turnover and shortages.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes realised, not just potential, HR impacts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Labour shortages can materially affect operations.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Scores 6 because it identifies a concrete, already-observed workforce impact attributable to COVID-19, though without financial quantification."
+            }
+        ],
+        "calculated_score": 39,
+        "average_severity": 4.875
+    }
+]

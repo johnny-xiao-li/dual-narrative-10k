@@ -1,0 +1,80 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "American Water Works (AWK) acknowledges the COVID-19 pandemic as an ongoing, material risk in its 2023 Form 10-K, filed less than three years after the World Health Organization declared the outbreak a global pandemic.  The disclosure is framed almost entirely in forward-looking, contingency language that groups COVID-19 with other extreme events (weather, epidemics, supply-chain interruptions).  AWK highlights three principal channels of exposure: (1) potential shortfalls in authorized returns if pandemic-driven emergencies change customer usage or raise costs, (2) service interruptions across its water and wastewater network if a pandemic impairs workforce or facility operability, and (3) health-related contamination risks from viruses such as COVID-19 entering water supplies.  None of the passages provide quantified dollar impacts, but they do explicitly tie COVID-19 to financial, operational, and regulatory outcomes.  Because the event remains recent (within the 0-3-year window) but the statements are largely generic and conditional, the evidentiary weight is moderate.  Applying the Time Decay Principle, individual snippets warrant mid-range scores (3-4), reflecting clear but unquantified, precautionary risk language rather than concrete, realized losses.",
+        "evidence_list": [
+            {
+                "snippet": "This could occur if certain conditions exist, including, but not limited to, (i) water usage is less than the level anticipated in establishing rates, (ii) customers increase their conservation efforts, (iii) we experience unusual or emergent situations, events or conditions (including with respect to the COVID-19 pandemic), or (iv) our investments or expenses prove to be higher than the levels estimated in establishing rates.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites the COVID-19 pandemic as a trigger for failing to achieve allowed returns.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects pandemic to a clearly financial consequence (not achieving authorized rate-of-return).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Framed as a conditional, generic possibility rather than a quantified or observed impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct link between COVID-19 and potential earnings shortfall yields a solid risk indicator, tempered by its purely hypothetical framing."
+            },
+            {
+                "snippet": "These include, among other things, storms, freezing conditions, high wind conditions, hurricanes, tornadoes, earthquakes, landslides, drought, wildfires, coastal and intercoastal floods or high water conditions, including those in or near designated flood plains, pandemics (including COVID-19) and epidemics, severe electrical storms, sinkholes and solar flares.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names pandemics, specifically COVID-19, as one of the events that can cause service interruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies operational impact pathway (service interruptions across all businesses).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "COVID-19 is listed among many hazards, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Sentence links COVID-19 to operational disruption, but generic, multi-hazard listing keeps score moderate."
+            },
+            {
+                "snippet": "Examples of sources of contaminants include, but are not limited to, newly created chemical compounds (including, for example, manufactured nanomaterials); human and veterinary products; perfluorinated and polyfluorinated compounds; bacteria, microbes, viruses (including COVID-19), amoebae and other pathogens; and residual by-products of disinfection.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifically calls out COVID-19 as a potential water-borne contaminant source.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Points to a health and regulatory risk pathway (water contamination).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generic, illustrative list with no financial or operational quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Mentions COVID-19 in contamination context, but impact description is broad and illustrative, so score is modest."
+            }
+        ],
+        "calculated_score": 11,
+        "average_severity": 3.6666666666666665
+    }
+]

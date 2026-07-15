@@ -1,0 +1,90 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Ford’s 2024 Form 10-K continues to flag the COVID-19 pandemic as a material, though now maturing, threat.  The company no longer frames the pandemic as an acute crisis but as an embedded, ongoing risk that still influences supply-chain reliability, labour availability, production cadence and vehicle pricing.  Disclosures emphasise: (i) the possibility of fresh work-stoppages stemming from public-health outbreaks, (ii) the lasting legacy of the 2020 plant shutdowns as proof of potential severity, (iii) persistent supplier and logistics turbulence that has already inflated costs and constrained output, and (iv) uncertainty over whether demand/pricing will normalise to pre-pandemic patterns.  The language is forward-looking and largely qualitative—there are no current-year dollar figures—yet the company explicitly connects COVID-related factors to material financial and operational impacts.  Because the filing date (Feb-2024) is just under four years after the WHO declaration (Mar-2020), the Time-Decay Principle points to mid-range severity scores (approx. 4–6).  None of the cited passages offer strong mitigating actions, quantitative caps, or definitive resolution, so net scores remain moderately elevated.",
+        "evidence_list": [
+            {
+                "snippet": "A work stoppage or other limitation on production could occur at Ford’s facilities, at a facility in its supply chain, or at one of its logistics providers for any number of reasons, including as a result of labor issues, including shortages of available employees, disputes under existing collective bargaining agreements with labor unions or in connection with negotiation of new collective bargaining agreements, absenteeism, public health issues (e.g., COVID), stay-at-home orders, or in response to potential restructuring actions (e.g., plant closures);",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites COVID as a trigger for production stoppages.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links the trigger directly to severe operational impact (work stoppage/production limitation).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Expands scope to supply-chain and logistics facilities, indicating systemic exposure.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Directly names COVID as a continuing cause of potential work stoppages across Ford and its suppliers, signalling a significant but not quantified risk; scored mid-high (6) under medium-term time-decay."
+            },
+            {
+                "snippet": "A suspension or substantial curtailment of our manufacturing operations could have a significant adverse effect on our financial condition and results of operations, as was the case in 2020, when, consistent with actions taken by governmental authorities, we idled our plants in regions around the world.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "References an actual, historical COVID-driven shutdown of global plants.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States explicit materiality ('significant adverse effect' on financial condition and results).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Global scope underscores breadth of impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows proven, material impact from the 2020 COVID shutdown, illustrating severity; historical but still relevant, yielding a score of 6."
+            },
+            {
+                "snippet": "The limited availability of components, labor shortages, public health emergencies, and supplier operating issues has led to intermittent interruptions in our supply chain and an inconsistent production schedule at our facilities.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies public-health emergencies (implied COVID) as a current cause of supply-chain interruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects to concrete operational consequences (intermittent interruptions, inconsistent production).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Describes ongoing, realised disruptions tied partly to pandemic conditions; moderately severe, scoring 5."
+            },
+            {
+                "snippet": "Despite vehicle pricing remaining elevated over the last year due to strong demand, supply shortages, and inflationary costs, we have already observed moderation in the rate of new and used vehicle price increases as auto production recovers from the semiconductor shortage, but it is unclear whether prices will decline fully to pre-COVID-19 pandemic levels.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions lasting pandemic benchmark for pricing uncertainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Only a peripheral reference to pandemic-era price baselines with minimal risk amplification; low score of 1."
+            }
+        ],
+        "calculated_score": 18,
+        "average_severity": 4.5
+    }
+]

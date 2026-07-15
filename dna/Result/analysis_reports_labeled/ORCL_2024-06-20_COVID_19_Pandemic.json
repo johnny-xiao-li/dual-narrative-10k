@@ -1,0 +1,122 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Oracle’s 2024-06-20 filing treats COVID-19 as one element of broader “public-health crises” or “pandemics.”  The company does not quantify past damage but warns that such events can impair supply-chain continuity, raise production costs, disrupt data-centre and IT operations, and materially affect both cloud and hardware margins.  The language is forward-looking and conditional (“are affected” / “could be materially and adversely affected”), signalling that management views pandemic fallout as an ongoing but now familiar risk rather than an acute shock.  Because the pandemic’s onset is just over four years ago, the Time-Decay Principle places the evidence in the medium-term window; therefore, individual snippet scores must fall in the mid-range (≈4–6) when strongly linked, and lower when indirect or generic.  Overall, the filing provides moderate-severity, unquantified disclosures: COVID-19 remains a live consideration, chiefly through supply-chain fragility and potential operational shutdowns, but Oracle offers no new, immediate impact figures.  The aggregate picture is one of managed vigilance rather than crisis.",
+        "evidence_list": [
+            {
+                "snippet": "Our supply chain operations are affected by industry consolidation and component constraints or shortages, natural disasters, political unrest (such as the tensions between China and Taiwan), public health crises, changes to trade laws or regulations, port stoppages, shipping interruptions or other transportation disruptions or slowdowns, and other factors affecting the countries or regions where these single source component vendors are located or where the products are being shipped.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites ‘public health crises’ (umbrella term that includes COVID-19) as an existing factor that **affects** the supply chain.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links the risk to core operations—supply-chain interruptions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses present-tense wording (‘are affected’), indicating ongoing exposure rather than hypothetical only.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Pandemic is listed among many unrelated factors, diluting specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No financial quantification or specific COVID-19 reference.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Moderate (4/10): Clear, current link between pandemic-class events and supply-chain risk, but generic wording and no quantification temper severity."
+            },
+            {
+                "snippet": "If disruption caused by one or more of the risks described above occurs, our cloud and license business and hardware business and related operating results could be materially and adversely affected.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that listed risks (including public-health crises) could ‘materially and adversely’ hit financial results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects the impact to multiple business lines (cloud, license, hardware).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional ‘if’ / ‘could’ indicates potential rather than realized impact.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Does not mention COVID-19 or pandemic explicitly; relies on prior sentence for context.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Low-moderate (2/10): Highlights materiality but is indirect and hypothetical, so risk signal is weaker."
+            },
+            {
+                "snippet": "In the event of a severe impact to one facility, a major natural disaster, political, social or other disruption to infrastructure that supports our operations or other catastrophic event or the effects of climate change (such as increased storm severity, drought and pandemics) that results in the destruction or disruption of any of our critical business operations, supply chains or IT systems could severely affect our ability to conduct normal business operations and, as a result, our future operating results could be materially and adversely affected.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names ‘pandemics’ as a catastrophic event category.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes severe consequences: inability to conduct operations and material adverse effect on future results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Impact framed as conditional—‘could’—not confirmed.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Pandemic reference embedded in a long list of disparate risks.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Moderate (4/10): Strong language on severity, explicit pandemic mention, but still hypothetical and bundled with other threats."
+            },
+            {
+                "snippet": "Public health risks, social risks and supporting infrastructure stability risks, particularly in areas in which we have significant operations;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies ‘public health risks’ relevant to geographic concentration of operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights exposure due to Oracle’s operational footprint.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Very generic; lacks verb or impact statement and appears as part of a bullet list.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No direct pandemic/COVID-19 reference and no quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Minimal (1/10): Mentions public-health risk but is vague and unsupported by impact detail."
+            }
+        ],
+        "calculated_score": 11,
+        "average_severity": 2.75
+    }
+]

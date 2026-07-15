@@ -1,0 +1,140 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Expedia’s 2024 Form 10-K repeatedly ties the COVID-19 pandemic to both historical damage and ongoing risk vectors. Management states that the pandemic “severely restricted” economic activity, produced an “unprecedented negative impact” on global travel, and “materially impacted” the firm’s business, liquidity and those of its partners. Although demand has largely recovered by 2023, the filing still invokes the pandemic as the reference scenario for liquidity strain, working-capital pressure and industry demand shocks, signalling that a similar health event remains a material forward-looking threat. The language is largely specific and fact-based (e.g., liquidity squeeze, merchant hotel cash flows), not boiler-plate, yet most impacts are framed in the past tense or as illustrative stress cases. Because the event occurred four years ago, Time-Decay dictates that per-sentence scores fall in the moderate range (4-6) even when wording is severe; mitigating statements that “lingering impacts did not have a significant impact” further dampen some evidence. Overall, COVID-19 remains a meaningful but now moderated risk factor whose severity has attenuated since peak disruption, justifying mid-level severity scores for the extracted evidence.",
+        "evidence_list": [
+            {
+                "snippet": "Most recently, the COVID-19 pandemic and efforts to contain it severely restricted the level of economic activity around the world, had an unprecedented negative impact on the global travel industry, and materially impacted our business, financial performance and liquidity position, as well as those of many of the partners on which our business relies.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit, direct link to COVID-19 pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong severity language ('severely restricted', 'unprecedented negative impact').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States material impact on business, financial performance and liquidity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact described in retrospective terms, reflecting some time decay.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct, highly severe wording drives the score, moderated slightly because the impact is historical rather than current, yielding a mid-high 5 within the 4-6 band."
+            },
+            {
+                "snippet": "If our liquidity is materially diminished, as it was during the COVID-19 pandemic, we may not be able to timely pay debts, leases, or comply with material provisions of our contractual obligations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 to a concrete liquidity risk scenario.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking conditional risk ('may not be able to timely pay debts').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "References materiality of potential impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Event cited as past example, introducing time-decay reduction.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows how pandemic stress could recur, but language is conditional and historic reference tempers severity, landing at 3."
+            },
+            {
+                "snippet": "If, as was the case during the COVID-19 pandemic, our merchant hotel business declines, it would likely result in further pressure on our working capital cash balances, cash flow over time and liquidity.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties pandemic conditions to a decline in a core business line (merchant hotel).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies downstream effects on working capital, cash flow and liquidity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Scenario framed as conditional future risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Historical reference introduces time-decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Clear cause-and-effect chain and forward-looking risk yield a solid 4 after applying time-decay."
+            },
+            {
+                "snippet": "Starting in early 2020, the COVID-19 pandemic, and measures to contain the virus, including government travel restrictions and quarantine orders, had an unprecedented impact on the global travel industry and materially and negatively impacted our business, financial results and financial condition.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names specific containment measures (travel restrictions, quarantine orders).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Describes impact as 'unprecedented' and 'materially and negatively' affecting business and financial condition.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Direct linkage to COVID-19.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Historical framing (early 2020) requires time-decay deduction.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Severe but historical description scores 4 after deducting for elapsed time."
+            },
+            {
+                "snippet": "In 2023, the overall reopening of the Asia-Pacific region and general recovery outside of the United States was a factor in the gross bookings year-over-year growth rate for our B2B segment, but any other lingering impacts of the pandemic did not have a significant impact on our businesses, and we expect that to remain the case for future periods.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges continuing assessment of pandemic impacts.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "States that lingering impacts are not significant and expectation they will remain minimal (mitigation).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Forward-looking statement of limited risk further mitigates severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": -2
+                },
+                "reasoning_summary": "Sentence is primarily mitigating, asserting minimal ongoing impact; negative net points floor the score at 0, removing it from risk evidence consideration."
+            }
+        ],
+        "calculated_score": 14,
+        "average_severity": 2.8
+    }
+]

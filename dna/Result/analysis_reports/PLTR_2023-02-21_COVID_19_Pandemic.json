@@ -1,0 +1,164 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Palantir’s 2023-02-21 Form 10-K repeatedly frames COVID-19 as an ongoing, material and multi-dimensional threat.  Nearly three years after the WHO declaration, the company still treats the pandemic as an active driver of risk—explicitly pairing it with other macro-shocks (e.g., Russia-Ukraine, inflation).  The filing discloses that COVID-19 can suppress demand by shrinking IT budgets, lengthen sales cycles, trigger customer bankruptcies, raise costs through supply-chain inflation, and strain labour models via prolonged remote-work arrangements.  The narrative is largely forward-looking: most statements use modal verbs (“may,” “could”) and lack hard quantification, but they are specific enough to outline concrete channels (supply-chain disruption, remote-work productivity drag, heightened security risks).  No offsetting dollar figures or firm mitigation commitments are provided beyond generic monitoring and a shift to hybrid work.  Because the filing post-dates the pandemic by less than three years, the Time-Decay Principle allows high-to-moderate severity scores.  Overall, the risk is assessed as material, continuing and only partially mitigated, warranting mid–high micro-scores for the most detailed disclosures.",
+        "evidence_list": [
+            {
+                "snippet": "the ongoing COVID-19 pandemic, ongoing Russia-Ukraine conflict, and related challenging macroeconomic conditions may adversely affect our business and operations;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states the pandemic may harm business and operations.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Language is generic (‘may’, no specifics).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event is recent (within 3 yrs) so time-decay boosts relevance.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct acknowledgement of adverse impact gives solid weight, but lack of detail and quantification keeps score at a moderate-high 6."
+            },
+            {
+                "snippet": "Our results of operations depend on sales to enterprise customers, which make product purchasing decisions based in part or entirely on factors, or perceived factors, not directly related to the features of the platforms, including, among others, that customer’s projections of business growth, uncertainty about macroeconomic conditions (including as a result of the ongoing COVID-19 pandemic, the ongoing Russia-Ukraine conflict and related economic sanctions, rising inflation and interest rates, or monetary policy changes), capital budgets, anticipated cost savings from the implementation of our platforms, potential preference for such customer’s internally-developed software solutions, perceptions about our business and platforms, more favorable terms offered by potential competitors, and previous technology investments.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-driven macro uncertainty directly to customer purchasing behaviour and revenue.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies mechanism (sales cycle / demand).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemic embedded among several factors, diluting focus.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Recent-event timing supports severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows concrete demand-side risk but is mixed with other drivers, yielding a solid mid-range score of 5."
+            },
+            {
+                "snippet": "The ongoing global COVID-19 pandemic, ongoing Russia-Ukraine conflict, and related challenging macroeconomic conditions may adversely affect our business and operations, and the duration and extent to which these factors may impact our future business, financial condition, and results of operations remain uncertain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Dedicated risk-factor sentence linking pandemic to broad business harm.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights prolonged uncertainty of impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No specific channels or figures provided (generic).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Recency boosts weight.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Strong overarching statement of uncertainty and adverse impact, but generic nature caps score at 6."
+            },
+            {
+                "snippet": "The ongoing COVID-19 pandemic, the ongoing Russia-Ukraine conflict, and related challenging macroeconomic conditions have generally disrupted the operations of our customers and prospective customers, and may continue to disrupt their operations, including as a result of widespread supply chain disruptions, increases in the prices of many goods and services, uncertainty in the financial markets or other harm to their business and financial results.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to concrete disruptions in customer operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates specific impact channels: supply-chain, inflation, market volatility.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking warning of continued disruption.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantification.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Recency factor.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Detailed causal chain from pandemic to supply-chain and financial effects merits a high score of 7 despite lack of numbers."
+            },
+            {
+                "snippet": "In addition, as a result of the COVID-19 pandemic and the related work and travel restrictions, many of our field sales, operations and maintenance, and professional services activities were conducted remotely, and a majority of our workforce worked remotely.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes direct operational change (remote work) caused by pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Implies potential efficiency / coordination challenges.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Adaptation indicates partial mitigation.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Recent event timing.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Operational impact noted but mitigation (switch to remote) tempers severity, yielding a score of 4."
+            },
+            {
+                "snippet": "Moreover, to the extent the ongoing COVID-19 pandemic, the ongoing Russia-Ukraine conflict, and related challenging macroeconomic conditions adversely affect our business, financial condition, and results of operations, these events, alone or in combination, may also have the effect of heightening many of the other risks described in this “Risk Factors” section, including but not limited to, those related to our ability to increase sales to existing and new customers, continue to perform on existing contracts, develop and deploy new technologies, expand our marketing capabilities and sales organization, generate sufficient cash flow to service our indebtedness, volatility in the trading price of our Class A common stock and comply with the covenants in the agreements that govern our indebtedness.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States pandemic can amplify a broad array of other material risks.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists multiple critical areas (sales, contracts, liquidity, stock volatility).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "High-level statement without quantitative detail.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Timely (within 3 years).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highlights cascading risk-multiplication effect from COVID-19, supporting a moderate-high score of 5."
+            }
+        ],
+        "calculated_score": 33,
+        "average_severity": 5.5
+    }
+]

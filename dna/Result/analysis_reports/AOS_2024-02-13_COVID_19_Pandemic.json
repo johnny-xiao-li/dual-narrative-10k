@@ -1,0 +1,131 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "AOS’ 2024 filing contains multiple, still-salient references to the COVID-19 pandemic. Although the initial WHO declaration is now four years old, the company continues to cite concrete after-effects—realised sales shortfalls, supply-chain volatility, changing workplace patterns, and uncertain end-market demand—as well as forward-looking concerns. These disclosures are mostly narrative and unquantified, but several describe actual financial impacts in 2022-2023 (e.g., lost China sales, uneven North-American growth) which confirms the risk is not merely hypothetical. Given the Time Decay Principle, the pandemic is now a medium-term event; therefore individual snippet scores are capped in the mid-range. I assess the overall risk posture as moderate but persistent: the pandemic’s direct shocks are receding, yet second-order effects on consumer behaviour, commercial real-estate usage, cybersecurity exposure, and supply-chain resiliency remain material to AOS’ operations and strategy.",
+        "evidence_list": [
+            {
+                "snippet": "Extraordinary events, including natural disasters, resulting from but not limited to climate change, political disruptions, terrorist attacks, public health issues, such as the COVID-19 pandemic, and acts of war may disrupt our business and operations and impact our supply chain and access to necessary raw materials or could adversely affect the economy generally, resulting in a loss of sales and customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names the COVID-19 pandemic as a public-health crisis that can disrupt business operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights specific operational exposure: supply-chain interruption and raw-material access.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies potential revenue impact through ‘loss of sales and customers’.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Statement is framed as a forward-looking ‘may’, with no quantification.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly links COVID-19 to supply-chain and revenue risks but is generic and hypothetical, warranting a moderate 4."
+            },
+            {
+                "snippet": "Our 2022 sales in China were impacted by lower consumer demand driven by COVID-19 related disruptions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides a direct causal link between COVID-19 disruptions and reduced sales.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Describes an actual, historical impact rather than a projection.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Specifies geography (China), indicating material concentration risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Realised, event-specific sales impact within the last two years merits the upper bound of medium-term severity (6)."
+            },
+            {
+                "snippet": "As a result of the COVID-19 pandemic, businesses and commercial spaces have experienced and may experience in the future, fluctuation in demand and in occupancy that may reduce demand for our products, and commercial sectors, such as the restaurant and hospitality industries in which we have customers, may experience long-term shifts in consumer behavior which could negatively impact demand or capacity and may not return to pre-pandemic levels.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to enduring changes in commercial-space utilisation and consumer behaviour.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States potential for sustained demand reduction for AOS products.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights long-term (‘may not return to pre-pandemic levels’) structural risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking and unquantified language introduces uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Describes significant, possibly permanent demand shifts attributable to COVID-19; lack of quantification tempers score to 5."
+            },
+            {
+                "snippet": "In addition, as a result of the COVID-19 pandemic, remote work and remote access to our systems have increased, which may heighten these risks.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly connects pandemic to an increase in remote work.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies heightened cybersecurity and system-access vulnerabilities.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional ‘may’, suggesting potential rather than realised impact.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No financial quantification provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Introduces a new operational risk vector (cyber) linked to pandemic-induced remote work; uncertainty keeps score at 4."
+            },
+            {
+                "snippet": "In our North America segment, we saw resilient demand in the residential water heater industry in 2023 after three years of uneven growth, primarily related to the impacts of COVID-19-related supply chain constraints.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges multi-year uneven growth directly tied to COVID-related supply-chain issues.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Provides historical context (‘three years’) indicating sustained disruption.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Mentions recent resilience, signalling partial recovery.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Demonstrates tangible, prolonged supply-chain impact, partly mitigated by recent recovery, yielding a balanced score of 4."
+            }
+        ],
+        "calculated_score": 23,
+        "average_severity": 4.6
+    }
+]

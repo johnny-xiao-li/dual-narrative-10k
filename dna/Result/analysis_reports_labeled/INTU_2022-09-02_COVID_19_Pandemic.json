@@ -1,0 +1,280 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Intuit’s 2022-09-02 filing repeatedly flags the COVID-19 pandemic as an active, multi-faceted risk that is still unfolding less than three years after the WHO declaration (March 2020).  The company acknowledges both historical impacts (a temporary 2020 revenue hit) and a broad array of continuing exposures: cyber-security vulnerabilities triggered by remote work, productivity losses and execution risk from a hybrid workplace, third-party service disruptions, potential failure of recent acquisitions, supply-chain knock-on effects, regulatory restrictions on workplaces, and macro-economic volatility that could erode demand and share value.  The disclosures are mostly qualitative but they link the pandemic to material consequences such as revenue/earnings harm, significant remediation costs, and “significant harm” to operating results.  Mitigating language exists (e.g., effects were ‘temporary’ or ‘not yet significant’), yet overall tone is precautionary, emphasizing uncertainty and factors beyond management’s control.  Under the Time Decay Principle, an event that is approximately 2.5 years old is still “recent,” so high—but not maximal—snippet scores (roughly 4-7) are appropriate when the language is specific, forward-looking, and ties directly to financial or operational disruption; lower scores apply where statements are generic or include explicit mitigants.",
+        "evidence_list": [
+            {
+                "snippet": "These risks may be amplified by the effects of global developments, conditions or events like inflationary pressures, the Russia-Ukraine war and the COVID-19 pandemic, which have caused significant global economic instability and uncertainty.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly cites COVID-19 pandemic as amplifying existing corporate risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States pandemic has already “caused significant global economic instability and uncertainty.”",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Statement is generic to many companies and not quantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides a clear but broad link between the pandemic and heightened risk; absence of company-specific metrics tempers the score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has caused significant economic instability and uncertainty and the extent to which it will impact our business, results of operations and financial condition is uncertain and difficult to predict.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges significant macro-level impact already occurring.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Expressly connects the pandemic’s unpredictable future effect to key financial metrics.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Strong language links the pandemic to potentially material, yet unpredictable, impacts on core financial outcomes."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has caused economic instability and uncertainty globally and, in fiscal 2020, had a temporary negative impact on our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits a historical negative impact on the business.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Labels the impact as “temporary,” indicating mitigation.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "References global instability that can persist.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Includes concrete evidence of past harm but partially offset by the word “temporary.”"
+            },
+            {
+                "snippet": "The severity and duration of the pandemic’s impact on our business and financial performance will depend on many factors beyond our control, including the emergence and virulence of new variants of the COVID-19 virus, the related responses of governments and businesses, and the availability, effectiveness and adoption of vaccines and treatments.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights multiple uncontrollable external variables that could worsen outcomes.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Focuses on possible future impacts, recognising ongoing uncertainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Forward-looking uncertainty is flagged but without quantification or current damage."
+            },
+            {
+                "snippet": "There are new and more frequent attempts by malicious third parties seeking to take advantage of our employees while working remotely to fraudulently gain access to our systems, which could cause us to expend significant resources to remediate and could damage our reputation.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-driven remote work directly to heightened cyber-risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Potential for significant remediation costs and reputational damage.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific operational vulnerability tied to remote-work conditions elevates the risk level."
+            },
+            {
+                "snippet": "The complexity of resuming operations in our offices under a hybrid workplace model may adversely impact the productivity, health and well-being of our workforce and exacerbate security and execution risks that could cause us to lose the confidence of our customers and government agencies and harm our revenues and earnings.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details operational and workforce challenges from pandemic-induced hybrid model.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly cites potential harm to revenue and earnings plus stakeholder confidence.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Links hybrid-work transition to concrete financial and reputational downsides."
+            },
+            {
+                "snippet": "Potential disruption of services on which we rely to deliver our services to our customers, such as our third-party customer success partners and financial institutions, could prevent us or our service providers from delivering critical services to our customers or accepting and fulfilling customer orders, any of which could materially and adversely affect our business or reputation.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes supply-chain/third-party disruption risk heightened by the pandemic context.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong materiality language ('materially and adversely affect').",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Articulates a serious, pandemic-related service-delivery threat with material business impact."
+            },
+            {
+                "snippet": "Failure to realize some or all of the anticipated benefits of our mergers and acquisitions activities for reasons related to the pandemic may cause us to experience losses that result in significant harm to our operating results or financial condition.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links pandemic to potential failure of strategic M&A benefits.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States consequence could be ‘significant harm’ to operating results/financial condition.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows risk of pandemic undermining major strategic investments, with explicit severity."
+            },
+            {
+                "snippet": "There could be increased volatility in our stock price related to the pandemic, which could result in the loss of some or all of the value of an investment in Intuit.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Ties pandemic to market risk affecting shareholders.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Warns of worst-case outcome ('loss of some or all').",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highlights direct capital-market exposure with severe downside language."
+            },
+            {
+                "snippet": "Additionally, the business operations of our third-party partners have been and could continue to be disrupted by global events like the Russia-Ukraine War and the COVID-19 pandemic, including the effects on their third-party partners.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges multi-tier supply-chain disruption stemming from pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking ('could continue') but non-quantified and shared with other events.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Notes cascading partner disruptions but with generalized framing."
+            },
+            {
+                "snippet": "Due to the ongoing COVID-19, pandemic we continue to conduct business with modifications to employee work locations.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows current operational change directly attributable to pandemic.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Confirms sustained operational alteration, though without detailing financial magnitude."
+            },
+            {
+                "snippet": "We are transitioning to a hybrid model where our workforce will spend a portion of their time working in our offices and a portion of their time working from home.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes large-scale workforce structural shift linked to pandemic conditions.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Indicates change but lacks explicit statement of associated risk or impact."
+            },
+            {
+                "snippet": "While we have not experienced significant disruptions to our operations from the COVID-19 pandemic or the Russia-Ukraine war, we are unable to predict the full impact that these events will have on our operations and future financial performance, including demand for our offerings, impact to our customers and partners, actions that may be taken by governmental authorities, impact to the overall macroeconomic environment, and other factors identified in “Risk Factors” in Item 1A of Part I of this Annual Report.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit uncertainty about future financial impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States no significant disruption to date, mitigating current severity.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Uncertainty acknowledged but tempered by declaration of minimal impact so far."
+            },
+            {
+                "snippet": "We are and may continue to be subject to pandemic-related protocols and restrictions that impact our workforce and workplaces.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights ongoing regulatory/health constraints affecting operations.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specifies continuing external constraints but without magnitude or direct financial data."
+            },
+            {
+                "snippet": "Such restrictions have disrupted and may continue to disrupt our business operations and limit our ability to perform critical functions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States actual and potential future operational disruption due to pandemic restrictions.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong wording ('critical functions'), indicating severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Directly addresses operational impairment with severe language, elevating risk level."
+            }
+        ],
+        "calculated_score": 65,
+        "average_severity": 4.333333333333333
+    }
+]

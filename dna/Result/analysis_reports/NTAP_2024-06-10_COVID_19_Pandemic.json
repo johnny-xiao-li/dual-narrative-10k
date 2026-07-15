@@ -1,0 +1,81 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing acknowledges COVID-19 primarily as a historical but still-relevant disruptor. The company cites concrete, realized impacts—mobility stoppages and operational disruption—while also warning that future public-health events could re-impair its supply chain. Separately, it discusses ongoing hybrid-work risks that stem from the pandemic-era shift in working patterns. These statements are generally qualitative, lack new quantitative loss figures, and frame most threats as continuing possibilities rather than acute crises. Because the pandemic’s onset is now more than four years old (medium-term under the Time Decay Principle), evidence scores must be moderated: strong direct impacts can reach the mid-range (≈4-6), while more generic or indirect references warrant lower values. Overall, the disclosure signals a meaningful but no longer severe risk posture—important enough to monitor, yet partially mitigated by time and adaptation.",
+        "evidence_list": [
+            {
+                "snippet": "For example, the COVID-19 pandemic impeded the mobility of our personnel, inventories, equipment and products and disrupted our business operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names the COVID-19 pandemic, directly tying it to the company.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes concrete, realized operational impacts (‘impeded mobility’ and ‘disrupted … operations’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Event is now >4 years old; Time-Decay reduction applied.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct, specific, and impact-oriented language merits a mid-range score, discounted moderately for the four-year time gap."
+            },
+            {
+                "snippet": "Impacts on our supply chain from adverse public health developments;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies ‘adverse public health developments,’ implicitly encompassing future pandemics.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights a critical risk channel—supply-chain disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking and conditional, not tied to a quantified loss.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic wording and no direct COVID reference diminishes specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Addresses pandemic-type risk to the supply chain but in generic terms; earns a modest score."
+            },
+            {
+                "snippet": "While this has been generally well received by employees, it may also create other challenges that impact our ability to attract and retain qualified personnel, including, but not limited to, some employees may prefer an in person work environment, difficulty collaborating and communicating among employees, and ability to maintain consistent experience of our corporate culture and workforce morale.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Discusses challenges arising from hybrid/remote work—an enduring pandemic-driven shift.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Specifies multiple operational and HR risks (retention, collaboration, culture).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks explicit pandemic mention; indirect linkage lowers clarity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Captures labor-force risks rooted in the pandemic’s remote-work legacy, but indirect wording limits the severity score."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 3.0
+    }
+]

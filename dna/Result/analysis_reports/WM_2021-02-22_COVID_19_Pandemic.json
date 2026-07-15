@@ -1,0 +1,204 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "WM’s February 22 2021 Form 10-K describes COVID-19 as both an already-realised disruption and an ongoing, forward-looking threat.  Because the filing date is less than one year after the WHO pandemic declaration (March 11 2020), the Time-Decay principle allows high scores.  The language is concrete: management cites specific operational impacts (volume declines, $890 million revenue loss, incremental employee-related costs), explicit exposure channels (supply-chain disruption, cyber-risk from remote work, pricing pressure, margin erosion) and the prospect of material adverse effects on cash-flows, results of operations and growth strategy.  While a few mitigating actions are mentioned (e.g., wage guarantees, remote-work transition), they are framed as cost-incurring measures rather than risk-reducers, so they do little to offset severity.  Overall, the disclosures evidence a high, near-term risk profile that is already crystallising financially, justifying elevated snippet scores (7-10 for the strongest, 4-6 for unquantified but significant statements).",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 global pandemic has caused a significant disruption in social and commercial activity throughout North America, and the continuation of the COVID-19 pandemic, or other similar pandemic conditions, may have a material adverse impact on our business, financial condition, results of operations and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes current disruption to COVID-19 (‘has caused a significant disruption’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Projects a ‘material adverse impact’ on multiple financial dimensions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Event is recent (0-3 yrs), so no time-decay reduction.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Recent, explicit and company-wide materiality language yields a high score of 7."
+            },
+            {
+                "snippet": "The resulting business closures, increases in unemployment and loss of consumer financial stability and confidence has resulted in volume declines and reductions in customers’ waste service needs, which has negatively impacted our results of operations and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links macro COVID-19 effects to concrete operational impacts (‘volume declines’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States negative financial consequences already realised (‘has negatively impacted our results of operations and cash flows’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Recency (within 1 yr).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Shows direct, realised hit to operations and cash-flow; strong but unquantified, so 7."
+            },
+            {
+                "snippet": "We have incurred costs related to health, safety and financial security of our workforce during the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms actual cost outflows already incurred.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly tied to COVID-19.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Demonstrates realised cost impact but without magnitude; moderate severity."
+            },
+            {
+                "snippet": "This included transitioning back-office employees to work-from-home and providing financial certainty to employees by guaranteeing all full-time hourly employees compensation for a 40-hour work week regardless of service decreases and reduced work schedules that resulted from the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details operational shift (remote work) triggered by pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights added labour cost commitments that elevate expense risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Represents a management mitigation step, partially offsetting risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows concrete cost-bearing response; some mitigation lowers net score."
+            },
+            {
+                "snippet": "Additionally, the transition of most of our back-office employees to work-from-home increases various operational risks, including potential exposure to cyber incidents, loss of data, fraud, internal control challenges and other disruptions as a consequence of more employees accessing Company systems and information remotely in the course of their ordinary work.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies multiple new risk vectors (cyber, fraud, control failures) caused by pandemic response.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies operational process shift (remote work) as the driver.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Introduces specific, multi-dimensional operational risks; unquantified but significant."
+            },
+            {
+                "snippet": "To the extent our suppliers experience a deterioration in financial condition or operational capability as a result of the impacts of COVID-19, we may experience material supply chain disruptions and delays, which could also increase our operating costs.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags potential ‘material’ supply-chain disruption directly linked to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects disruption to higher operating costs, a direct financial impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking but immediate timeframe; recent event.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "High-severity prospective risk to supply chain and costs, merits 7."
+            },
+            {
+                "snippet": "While it is very difficult to measure, we believe that the COVID-19-related revenue loss was approximately $890 million.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides a large, quantified financial impact (‘$890 million’ revenue loss).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Attribution is direct and realised (‘COVID-19-related revenue loss’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Event is within 0-3 yrs, so no time decay.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 10
+                },
+                "reasoning_summary": "Direct, recent and quantified major revenue hit justifies maximum score of 10."
+            },
+            {
+                "snippet": "As stay-at-home orders and work from home trends continue, the costs to service our residential customers could continue to negatively impact our margins.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic behavioural changes to continued cost pressure and margin erosion.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking risk without quantification.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specifies margin pressure driver but lacks magnitude; moderate score."
+            },
+            {
+                "snippet": "Additionally, such factors have made it more challenging to implement our pricing strategy and are likely to negatively impact our ability to negotiate, renew or expand service contracts with acceptable margins.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Signals strategic and contractual headwinds linked to pandemic conditions (‘such factors’ refers to COVID-19 effects).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights margin deterioration risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Identifies revenue-quality risk; important but less acute, so 4."
+            },
+            {
+                "snippet": "Should these or similar pandemic-related conditions persist for a prolonged period, it may have a material adverse impact on our financial condition, results of operations and cash flows and hinder our ability to grow our business and execute our business strategy.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly warns of ‘material adverse impact’ on multiple financial metrics if pandemic persists.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects to long-term strategic growth inhibition.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Comprehensive statement of potential severity across strategy and finances; earns 5."
+            }
+        ],
+        "calculated_score": 56,
+        "average_severity": 5.6
+    }
+]

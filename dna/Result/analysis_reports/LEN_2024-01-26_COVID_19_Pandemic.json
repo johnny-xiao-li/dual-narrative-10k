@@ -1,0 +1,82 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "LEN’s 2024 filing discusses the COVID-19 pandemic primarily as a historical shock that temporarily disrupted operations (e.g., government-office shutdowns) but also frames contagious-disease outbreaks as an ongoing, forward-looking threat that could materially hurt demand, cash flow and supply-chain timing. The language is largely qualitative—no dollar amounts are disclosed—and emphasises uncertainty around ‘future public-health issues.’ Because the pandemic’s onset (March 2020) is roughly four years prior to the filing date, the Time-Decay Principle places the event in the medium-term window: evidence can still warrant moderate scores (4-6) when the statements point to material exposure, but not the highest scores reserved for more recent crises. Overall, the company conveys that while COVID-19 itself only briefly impaired home sales, similar outbreaks could have severe macro-economic and operational consequences, especially by dampening consumer confidence, delaying permits, or constraining supply. The risk therefore persists but at a moderated, scenario-based level rather than an actively unfolding crisis, justifying mid-level severity scores across the extracted snippets.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic caused the shutdown of large portions of our national economy.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes a nationwide economic shutdown to the COVID-19 event, linking the external shock to potential company-wide risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Implies broad operational and supply-chain disruption, an aggravating factor for a homebuilder relying on labor and materials.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Provides a clear, causal link between COVID-19 and significant macro disruption; medium-term timing caps the score at a solid but non-maximal 5."
+            },
+            {
+                "snippet": "With the exception of a period in March and April of 2020, the COVID-19 pandemic and its effects on the economy did not adversely affect our home sales.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges the pandemic’s potential impact on home sales, tying the event to core revenue streams.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Simultaneously states the impact was largely immaterial, a mitigating factor that lowers severity.",
+                            "points": -3
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "The sentence recognises COVID-related risk but immediately downplays actual harm, so mitigating language erodes the score to 0."
+            },
+            {
+                "snippet": "If a contagious disease causes significant negative impacts to economic conditions or consumer confidence, our results of operations, financial condition and cash flows could be materially adversely impacted.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Projects a future scenario in which contagion leads to ‘material’ adverse impacts on results, signalling high potential severity.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers multiple financial dimensions (operations, condition, cash flow), broadening the risk scope.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Strong forward-looking warning of material harm across several financial metrics; medium-term timing pegs score at the upper bound of 6."
+            },
+            {
+                "snippet": "In 2020 and 2021, shutdowns of government offices in response to the COVID-19 pandemic often delayed the time it took to obtain required approvals.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-driven government shutdowns to concrete operational delays (permits/approvals), a direct business impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Provides historical evidence of disruption, supporting continued vigilance.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows specific operational bottlenecks attributable to COVID-19; meaningful but historical, yielding a moderate score of 4."
+            }
+        ],
+        "calculated_score": 15,
+        "average_severity": 3.75
+    }
+]

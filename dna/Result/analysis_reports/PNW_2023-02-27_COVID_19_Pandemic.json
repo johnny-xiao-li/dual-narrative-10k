@@ -1,0 +1,73 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated February 27 2023, discusses COVID-19 expressly in the risk-factor section, framing the pandemic as an ongoing, still-evolving threat.  Because the first U.S. outbreak and WHO declaration occurred in March 2020, the event is well within the 0-3-year ‘recent’ window; therefore, elevated severity scores are permissible under the Time Decay Principle.  Management’s language is predominantly forward-looking (\"could\" and \"may\") rather than citing hard numbers, yet it goes beyond boiler-plate by enumerating concrete channels of exposure: diminished electricity demand, supply-chain interruptions, higher operating costs, labour constraints, capital-market volatility affecting financing, project delays, and increased credit losses.  These disclosures indicate a multifaceted risk profile that is material to both operations and cash-flow.  No meaningful mitigating controls are offered in the cited sentences, so little downward adjustment is warranted.  Overall, I assess the COVID-19 pandemic risk to PNW as high but unquantified; individual snippets earn scores ranging from 2 (headline-level statement) to 8 (detailed catalogue of potential adverse effects), consistent with a recent, specific yet largely qualitative risk narrative.",
+        "evidence_list": [
+            {
+                "snippet": "COVID-19 could negatively affect our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to potential negative business impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Extremely brief and generic; no mechanism, magnitude or timeframe given.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "A headline-level warning that acknowledges the pandemic but offers no specifics merits a low-severity score of 2."
+            },
+            {
+                "snippet": "COVID-19 is a continually developing situation around the globe that has led to economic disruption and volatility in the financial markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Characterises COVID-19 as ongoing ('continually developing') and ties it to broad macro-economic disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights volatility in financial markets, implying financing risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Still largely descriptive of external environment rather than company-specific impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "This sentence recognises continuing macro-level impacts and financial-market volatility, giving it mid-level relevance (score 4) despite the lack of company-specific quantification."
+            },
+            {
+                "snippet": "The spread of COVID-19 and efforts to contain the virus and mitigate its public health effects, could decrease demand for energy, lower economic growth, impact our employees and contractors, cause disruptions in our supply chain, increase certain costs, further increase volatility in the capital markets (and result in increases in the cost of capital or an inability to access the capital markets or draw on available credit facilities), delay the completion of capital or other construction projects and other operations and maintenance activities, delay payments or increase uncollectable accounts, impact our ability to hire or retain qualified employees, or cause other unpredictable events, each of which could adversely affect our business, results of operations, cash flows or financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple concrete operational and financial risk channels (energy-demand decline, supply-chain disruption, labour shortages, capital-market access, project delays, credit losses).",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Applies directly to the company using 'our' and ties to key metrics (business, results of operations, cash flows, financial condition).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional language ('could'), indicating potential rather than realised impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Rich detail on varied impact pathways and explicit linkage to company performance justifies a high severity score of 8, tempered slightly for forward-looking phrasing."
+            }
+        ],
+        "calculated_score": 14,
+        "average_severity": 4.666666666666667
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Charter’s 2023 filing contains only limited—but still relevant—references to pandemic-related pressures.  The clearest disclosure lies in the supply-chain section, where the company states that third-party vendors “have been disrupted” over the past three years by quarantines, factory shutdowns, port congestion and other health-related restrictions.  This language points to a direct and already-realized operational exposure: vendor delays could impede Charter’s ability to deploy network equipment and complete its rural build-outs.  The disclosure is recent (within three years of the March 2020 WHO declaration) and specific about the mechanisms of impact, so time-decay allows a fairly high severity score.  A second, more marginal sentence attributes a $191 million year-over-year swing in content costs to the NBA season’s COVID-19 delay.  While quantified, the effect is backward-looking and actually reduced costs, making it a weaker indicator of ongoing risk.  Overall, the pandemic is portrayed as a continuing but largely indirect threat—affecting Charter through suppliers and occasional content-timing quirks rather than through catastrophic revenue loss—so the aggregate risk is material but not extreme.",
+        "evidence_list": [
+            {
+                "snippet": "Our third-party service providers, suppliers and licensors have been disrupted by worker absenteeism, quarantines, restrictions on employees’ ability to work, office and factory closures, disruptions to ports and other shipping infrastructure, border closures, or other travel or health-related restrictions over the last three years.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States an actual, not hypothetical, disruption ('have been disrupted').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates multiple concrete disruption channels (absenteeism, quarantines, port closures, etc.).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Time reference ('over the last three years') shows ongoing relevance within recent-event window.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact is indirect (through third-party providers rather than Charter’s own workforce).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct acknowledgment of continuing supplier disruptions from pandemic-era restrictions merits a high score, tempered slightly because the effect is indirect."
+            },
+            {
+                "snippet": "Regulatory, connectivity and produced content decreased $191 million during the year ended December 31, 2022 compared to the corresponding period in 2021 primarily due to lower costs of video devices sold to customers and regulatory pass-through fees as well as lower sports rights costs as a result of more basketball games during 2021 as compared to 2022 as the prior period had additional games due to the delayed start of the 2020 - 2021 National Basketball Association (\"NBA\") season as a result of COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links cost fluctuations to a COVID-19 driven schedule change in major sports programming.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Provides a quantified dollar impact ($191 million).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes a cost decrease (benefit) rather than an adverse impact.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Effect is historical and specific to a past season, indicating diminishing forward risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Although quantified, the sentence reflects a backward-looking benefit from a one-off COVID scheduling shift, so its risk significance is minimal."
+            }
+        ],
+        "calculated_score": 7,
+        "average_severity": 3.5
+    }
+]

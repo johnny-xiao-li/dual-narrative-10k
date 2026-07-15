@@ -1,0 +1,196 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is discussed in the 2022 Form 10-K primarily as a continuing, enterprise-wide threat that can materially disrupt CF’s supply chain, labor force, input-cost environment and customer demand profile.  Although the filing date (24 Feb 2022) is almost two years after the WHO declaration (11 Mar 2020), the pandemic is still ongoing, so Time-Decay allows relatively high scores.  The company frames the risk in both realised (e.g., prior demand reductions for energy, prior food-chain disruptions) and prospective terms (e.g., potential workforce outages, supply-chain bottlenecks).  Language such as “material and adverse effect” signals high severity, and multiple corporate value drivers (prices, costs, margins, contract performance) are explicitly referenced, raising the overall risk level.  No significant mitigating controls are offered beyond an admission of uncertainty; instead the narrative stresses limited visibility and inability to predict the ultimate impact.  Therefore the evidence skews toward aggravating factors, justifying mid-to-high micro-scores (5-8) for the most detailed statements, with smaller scores for generic or indirect references, all within the 0-3-year time-band permitted range.",
+        "evidence_list": [
+            {
+                "snippet": "Our business and operations may be adversely affected by the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links pandemic to adverse impact on business/operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses tentative wording ('may')—uncertainty reduces severity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No detail on scale, timing or financial magnitude (generic statement).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct linkage to the pandemic but generic wording keeps the score moderate."
+            },
+            {
+                "snippet": "The coronavirus disease 2019 (COVID-19) pandemic could have a material and adverse effect on our business, financial condition, results of operations or cash flows.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit tie to pandemic and core financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Strong materiality language ('material and adverse effect').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking 'could' introduces uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Material-impact phrasing yields a high score despite forward-looking caveat."
+            },
+            {
+                "snippet": "If significant portions of our workforce are unable to work effectively, including because of illness, quarantines, government actions, facility closures or other restrictions, we may be unable to meet customer demand or perform fully under our contracts.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific operational channel (labor shortfall).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights downstream consequence (contract performance failures).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional 'If ... may' lowers certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Provides concrete mechanism (labor) but conditional wording tempers severity."
+            },
+            {
+                "snippet": "The COVID-19 pandemic could also affect our customers, suppliers and third party service providers, including transportation providers, and result in restrictions on or disruptions of transportation, port closures or increased border controls or closures, or other impacts on domestic and global supply chains or distribution channels, which could increase our costs and/or limit our ability to meet customer demand.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple supply-chain disruptions and cost impacts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers both cost increases and demand-fulfilment risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses 'could'—uncertainty discount.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Rich operational detail raises risk, but scenario remains prospective."
+            },
+            {
+                "snippet": "In addition, the COVID-19 pandemic could reduce, and has in the past reduced, the demand for energy, including crude oil, as well as natural gas and coal, which are nitrogen feedstocks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to historical and potential reductions in demand for key feedstocks.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies actual past occurrence ('has in the past reduced').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses 'could' for future impact—some uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Cites realised impact on feedstock demand, giving above-average severity."
+            },
+            {
+                "snippet": "The pandemic has also disrupted traditional food supply chains, which may have a material impact on livestock and food demand, including the demand for corn.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies specific market channel (food/livestock/corn) affecting fertilizer demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "References potential 'material impact'.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses 'may' indicating uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Indicates significant demand-side risk in agricultural markets."
+            },
+            {
+                "snippet": "Each of these consequences could have a material adverse effect on our business, financial condition, results of operations or cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Summarises potential for 'material adverse effect' across key metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Generic reference—no new mechanism or detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Strong materiality language, but purely summative, so moderate score."
+            },
+            {
+                "snippet": "Lower gasoline prices and fewer aggregate miles, driven by increased automobile fuel efficiency, the continued expansion of electric vehicle use or the impact of decreased travel resulting from the coronavirus disease 2019 (COVID-19) pandemic, may put pressure on ethanol prices that could result in reduced profitability and lower production for the ethanol industry.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows indirect pandemic pathway via reduced travel affecting ethanol and thus fertilizer demand.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional 'may' and 'could'—high uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Indirect, speculative linkage, so low severity."
+            },
+            {
+                "snippet": "We are unable to predict the ultimate impact the COVID-19 pandemic may have on our business, financial condition, results of operations or cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Expresses high uncertainty, effectively mitigating earlier risk language.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": -2
+                },
+                "reasoning_summary": "Explicit admission of unpredictability offsets risk, yielding a negative adjustment."
+            }
+        ],
+        "calculated_score": 25,
+        "average_severity": 2.7777777777777777
+    }
+]

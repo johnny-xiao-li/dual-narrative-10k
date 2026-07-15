@@ -1,0 +1,238 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Eversource’s February 2021 filing devotes an extensive, detailed section to COVID-19.  The company recognises both realised and prospective impacts across financing, operations, supply chain, labour and customer demand.  Several passages describe concrete effects already experienced—such as rapid deterioration of commercial-paper liquidity, moderate schedule slippage on offshore-wind permits, and observable drops in C&I energy demand—while others highlight still-uncertain exposures (e.g., potential future work restrictions, unquantified workforce impacts, unknown cost of receivables).  Language is mostly specific and anchored in the company’s own circumstances, not generic boiler-plate, and it ties the pandemic directly to material financial metrics (cash flow, results of operations, capital programmes).  Mitigating actions—remote work, supply-chain measures, capital-market access to date—are also disclosed, tempering but not eliminating risk.  Because the filing date is less than one year after the WHO declaration (Time Decay window 0-3 years), evidence can receive high severity scores where warranted.  Overall, the disclosure reflects a significant, current risk profile with a mix of realised hits and sizeable residual uncertainty, justifying mid-to-high snippet scores (4-7 range) under the scoring framework.",
+        "evidence_list": [
+            {
+                "snippet": "As evidenced by the global pandemic of the 2019 novel coronavirus (COVID-19), global pandemics result in widespread disruption to the overall economic market and outlook, which could cause various unfavorable impacts to our customers, vendors, employees, regulators, and operations and could adversely affect our financial position, results of operations and cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites ‘widespread disruption’ to the economic market – clear aggravating factor.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates multiple stakeholder groups and operational dimensions affected.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Links pandemic directly to adverse effects on financial position, results and cash flows.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Strong, overarching statement tying pandemic disruption to core financial outcomes across stakeholders merits a high (7) score."
+            },
+            {
+                "snippet": "At the onset of the pandemic in the United States, liquidity in the commercial paper credit market began to deteriorate rapidly.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes an observed, not merely potential, deterioration in a key funding market.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Touches directly on short-term borrowing needs, signalling financial vulnerability.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Sentence evidences a concrete, recent stress to liquidity; substantial but not quantified, so scored 6."
+            },
+            {
+                "snippet": "We continue to monitor the ability for us to access the global capital and credit markets; however, if we are unable to access these markets, then our financial condition may be adversely affected.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies an ongoing risk to capital-market access tied to pandemic conditions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Foresees direct adverse impact on financial condition if risk materialises.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking liquidity risk with explicit financial downside earns a mid-level score of 5."
+            },
+            {
+                "snippet": "We have instituted measures to ensure our supply chain remains open to us; however, there could be global shortages that will impact our maintenance, capital programs, and storm response that we currently cannot anticipate.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges potential global supply shortages affecting critical operations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights possible impact on maintenance, cap-ex and emergency response – operationally severe.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Notes uncertainty (‘cannot anticipate’), increasing risk breadth.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specific supply-chain disruption across key functions, with acknowledged uncertainty, rates a 6 despite some mitigation."
+            },
+            {
+                "snippet": "We implemented, and continue to update, mitigation plans that addressed permitting delays due to COVID-19 work restrictions between March and June 2020 that resulted in a moderate impact to our offshore wind projects siting and permit filing timelines.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms actual schedule impacts on strategic offshore-wind projects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects delays to COVID-19 work restrictions, tying causality.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions mitigation plans, partially offsetting risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Real but ‘moderate’ project delays plus mitigation produce a balanced risk score of 4."
+            },
+            {
+                "snippet": "However, we are unable to assess the potential impact that a reintroduction of work restrictions in response to a future resurgence in COVID-19 infections would have on our projects’ timelines.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Expresses uncertainty about future restrictions affecting project schedules.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies potential for further timeline disruption to capital projects.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights uncontrollable uncertainty over future project timing; no mitigation offered, yielding score 4."
+            },
+            {
+                "snippet": "We have implemented remote work arrangements for our workforce by enabling nearly half of our employees to work from home and taking extra precautions for our field-based employees.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates large-scale operational shift (50 % remote) signalling potential productivity/coordination risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes proactive precautions, a mitigating factor.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Remote-work transition acknowledged but accompanied by strong mitigation, so net risk impact low (1)."
+            },
+            {
+                "snippet": "Although to date our workforce continues to be able to safely and reliably deliver our critical services to customers, we are unable to predict the extent of the impact of COVID-19 on our employees.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States uncertainty over future workforce impact, an operational risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes current reliable operations (mitigation).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Uncertain labour-force outlook tempered by current stability yields modest score of 2."
+            },
+            {
+                "snippet": "As a result, we are currently unable to estimate the potential impact of COVID-19 to our financial position, results of operations and cash flows.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits inability to quantify financial impact, reflecting high uncertainty.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct acknowledgement of unquantifiable financial exposure justifies a solid risk score of 4."
+            },
+            {
+                "snippet": "Overall, our future financial position, results of operations, and cash flows could be negatively impacted by COVID-19 as it relates to the collectability of customer receivables and customer payment plans, elimination of late payment revenues, lower sales volumes primarily from PSNH's commercial and industrial customers, energy efficiency spending levels and incentives earned, and increased expenses for cleaning and supplies for personal protective equipment.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple specific financial stressors (receivables, revenue loss, costs).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicit tie to future financial position, operations and cash flows.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Multi-faceted, finance-focused risk disclosure earns a high score of 6."
+            },
+            {
+                "snippet": "Other potential negative financial impacts relate to market volatility on our equity and debt securities, access to, as well as cost of, capital resources, and the ability of various third-party vendors and suppliers to fulfill their obligations.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites capital-market volatility and cost increases as pandemic-linked threats.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Adds vendor/supplier performance risk broadening impact scope.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Broader capital-market and supplier risk discussion warrants a score of 5."
+            },
+            {
+                "snippet": "An extended economic slowdown has resulted in lower demand for electricity, natural gas and/or water by our commercial and industrial customers.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms actual reduction in demand across multiple products.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies impact on commercial & industrial segment, signalling revenue pressure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete decline in multi-utility demand is significant, yielding a 5 score."
+            }
+        ],
+        "calculated_score": 55,
+        "average_severity": 4.583333333333333
+    }
+]

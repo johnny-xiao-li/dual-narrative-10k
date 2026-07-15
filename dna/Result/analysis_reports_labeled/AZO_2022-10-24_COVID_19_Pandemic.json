@@ -1,0 +1,108 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The 2022-10-24 AutoZone filing acknowledges COVID-19 as both an historical and continuing risk that touches multiple operational fronts—supply-chain reliability, workforce availability/cost, cybersecurity exposure, and direct financial performance.  The risk language is mostly retrospective (describing impacts already felt in FY20-22) but remains forward-looking where the company notes that pandemic-driven disruptions ‘continue’ or could be ‘further exacerbated.’  One footnote quantifies more than $120 million of pandemic-related costs, elevating materiality.  Other passages tie COVID-19 to specific chokepoints (ports, rail, trucking) and to spikes in cyber-attacks stemming from remote-work practices.  No sentence claims the threat has fully abated; at best, AutoZone references temporary mitigations (e.g., reinstating share-repurchase activity).  Because the filing date is within three years of the WHO declaration (Time-Decay window for “recent” events), scores can be high where evidence is direct and quantified, and moderate where references are generic or diluted among other macro factors.  Overall, the filing shows a live but manageable risk profile: severe enough to record multi-million-dollar costs and to disrupt capital-allocation decisions, yet partially mitigated by resumed operations and declining pandemic expenses.",
+        "evidence_list": [
+            {
+                "snippet": "For example, in recent years, ports, rails and domestic long-hauls in the U.S. and elsewhere have been negatively impacted by capacity constraints, congestion and delays, periodic labor disputes, security issues, weather-related events, and natural disasters, which have been further exacerbated by the COVID-19 pandemic and other factors beyond our control.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to worsening supply-chain disruptions (direct causal wording: 'further exacerbated').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Describes the impact as already occurring ('in recent years' / 'have been negatively impacted'), signalling an existing risk, not merely prospective.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "High score because the sentence ties current supply-chain disruption directly to COVID-19 without mitigation or dilution."
+            },
+            {
+                "snippet": "For example, in connection with the COVID-19 pandemic, public reports indicated there was a spike in cybersecurity attacks as shelter-in-place orders and work-from-home measures led businesses to increase reliance on virtual environments and communications systems, which had been the subject of increasing third-party vulnerabilities and security risks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic conditions to a measurable increase (‘spike’) in cyber-attacks, showing a new risk vector.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies the mechanism (remote work, virtual environments) that heightens exposure, adding concreteness.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Moderate score: clear causal link and specific mechanism, but no quantified dollar impact."
+            },
+            {
+                "snippet": "(1) The 52 weeks ended August 28, 2021 and August 29, 2020 were negatively impacted by pandemic related expenses, including Emergency Time-Off of approximately $43.0 million (pre-tax) and $83.9 million (pre-tax), respectively.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that financial periods were ‘negatively impacted’ by pandemic expenses—direct effect.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Provides precise quantification of the costs ($43.0 m and $83.9 m), demonstrating materiality.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers two consecutive fiscal years, showing sustained impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Near-maximum score due to clear, quantified and material financial impact within the recent-event window."
+            },
+            {
+                "snippet": "During the third quarter of fiscal 2020, the Company temporarily suspended share repurchases under the share repurchase program in response to COVID-19 which was restarted beginning in the first quarter of fiscal 2021.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows that COVID-19 forced a concrete capital-allocation change (suspension of buybacks), evidencing financial prudence under uncertainty.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "The action was temporary and already reversed, signalling mitigation and reducing ongoing severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Lower score because the impact was short-lived and already mitigated, though it still evidences pandemic-driven disruption."
+            },
+            {
+                "snippet": "Continued distress in global credit markets, business failures, civil unrest, inflation, rising interest rates, foreign exchange rate fluctuations, significant geo-political conflicts, proposed or additional tariffs, continued volatility in energy prices, the impact of a public health crisis or pandemic (such as COVID-19), constraints on the global supply chain and other factors continue to affect the global economy.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemic as an ongoing macroeconomic risk factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "COVID-19 is only one of many listed risks, diluting specificity and severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Minimal score: generic, undifferentiated reference to COVID-19 among many broad risks."
+            }
+        ],
+        "calculated_score": 24,
+        "average_severity": 4.8
+    }
+]

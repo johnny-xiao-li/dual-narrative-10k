@@ -1,0 +1,86 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "RF’s 2024 filing addresses the COVID-19 pandemic only in broad, forward-looking language.  References to “pandemics” appear in general risk lists that group the hazard with weather events, cyber-attacks and other disasters, and do not quantify past or expected financial impacts.  The company highlights that a pandemic could disrupt operations, impair systems, and strain staffing, and it notes that continued remote-work arrangements can amplify operational risks.  It also flags potential workforce-health issues that could hamper its own and vendors’ ability to remain appropriately staffed.  These statements show management still views global health shocks as a relevant exogenous threat, but the discussion is highly generic and framed as a contingency rather than an observed loss.  Because the first wave of COVID-19 occurred almost four years before the 2024 filing, the Time Decay Principle tempers severity to a mid-range level: the risk is neither urgent nor dismissed, but acknowledged as an ongoing possibility whose magnitude is not yet measurable.  Overall, the disclosure supports a moderate aggregate severity assessment (≈4/10).",
+        "evidence_list": [
+            {
+                "snippet": "Weather-related events, pandemics and other natural or man-made disasters could cause a disruption in our operations or lead to other consequences that could adversely impact our financial results and condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics as a risk driver that could disrupt operations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects the risk to financial results and condition, signalling materiality.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Statement is generic and unquantified, reducing precision.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Clear linkage between pandemics and material adverse impact, but framed generically with no data; mid-level score of 4 is appropriate for a four-year-old risk acknowledgement."
+            },
+            {
+                "snippet": "For example, there could be electrical or telecommunications outages; pandemics; events arising from local or larger scale political or social matters, including terrorist acts and civil unrest; and, as described below, cyber-attacks or other similar incidents.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes pandemics in an illustrative list of events that could impair systems.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Presented only as one item in a broad list with no impact detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Mentions pandemics as a potential trigger for system failure, but with minimal context; yields a lower, still positive score."
+            },
+            {
+                "snippet": "We are exposed to many types of operational risks, including business resilience, process, third party, information technology, human resource, model and fraud risks, each of which may be amplified by continued remote work.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies remote-work amplification of multiple operational risks—a common pandemic outgrowth.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Does not explicitly tie to COVID-19 or quantify impacts.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Highlights remote-work as a risk amplifier, implicitly linked to pandemic shifts, but generically stated; moderate-low score."
+            },
+            {
+                "snippet": "Our operations rely on its ability, and the ability of key external parties, to maintain appropriately-staffed workforces, and on the competence, trustworthiness, health and safety of employees.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges dependence on healthy, adequately staffed workforce—a labor-shortage concern heightened by pandemics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Generic wording with no reference to specific pandemic impact or figures.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Touches on labor-force vulnerability relevant to pandemic risk but remains high-level, justifying a modest score."
+            }
+        ],
+        "calculated_score": 10,
+        "average_severity": 2.5
+    }
+]

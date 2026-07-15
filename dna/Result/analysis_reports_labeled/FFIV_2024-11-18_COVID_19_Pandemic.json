@@ -1,0 +1,84 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The company’s 2024 Form 10-K does not dwell on COVID-19 by name, but its Risk Factors still embed pandemic-type vulnerabilities—supply-chain fragility, labor shortages and macro-demand shocks—under broader ‘macroeconomic uncertainties.’  The single explicit reference to “outbreaks of pandemic diseases” appears in a sentence that also bundles supply-chain disruptions, labor shortages and softer demand as potential hits to profitability.  This framing is forward-looking and largely qualitative: it warns that the same systemic stresses seen during COVID-19 could recur, but provides no fresh quantitative evidence that the firm is currently suffering.  Because the filing date is November 2024—roughly 4 years after the initial March 2020 outbreak—the Time-Decay principle places the event in the medium-term window; therefore, individual snippet scores should land in the moderate range (≈4-6 when pandemic is explicit, ≈2-3 when only indirect supply-chain exposure is cited).  Overall, the disclosures confirm the company remains exposed, but the language is generic and anticipatory rather than describing acute, ongoing damage, leading to an overall moderate risk assessment.",
+        "evidence_list": [
+            {
+                "snippet": "Adverse macroeconomic conditions both in the U.S. and abroad, including, but not limited to, rising interest rates, inflationary pressures on goods and services, challenges in the financial and credit markets, labor shortages, supply chain disruptions, trade uncertainty, adverse changes in global taxation and tariffs, sanctions, outbreaks of pandemic diseases, political unrest and social strife, armed conflicts, or other impacts from the macroeconomic environment could adversely affect our business, financial condition, results of operations and cash flows through, among others, softer demand of our products and services as well as unfavorable increases to our operating costs, which could negatively impact our profitability.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references 'outbreaks of pandemic diseases,' directly tying the statement to pandemic risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Cites specific pandemic-related stress channels such as ‘labor shortages’ and ‘supply chain disruptions.’",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States clear potential impact on financial condition and profitability.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Purely forward-looking, qualitative and unquantified language.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "The sentence squarely links pandemic outbreaks and related disruptions to negative financial outcomes, but the risk remains generic and unquantified, producing a medium-level score of 5 in line with the Time-Decay guidance for a 4-year-old event."
+            },
+            {
+                "snippet": "Our business may be harmed if our contract manufacturers are not able to provide us with adequate supplies of our products or if a single source of hardware assembly is lost or impaired;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights dependency on contract manufacturers, underscoring a supply-chain vulnerability often exposed by pandemics.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges potential harm to the business if disruption occurs.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No explicit mention of pandemic or quantified impact; generic phrasing.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Supply-chain risk is relevant to pandemic scenarios but the sentence is generic and lacks direct pandemic language, yielding a muted score of 2."
+            },
+            {
+                "snippet": "Our business could suffer if there are any interruptions or delays in the supply of hardware components from our third-party sources;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies risk of supply interruptions—a key pandemic exposure point.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States adverse consequence ('could suffer') to the company.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Does not explicitly tie the interruption to COVID-19 or quantify magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "While the supply-chain disruption theme is pandemic-relevant, the absence of explicit pandemic context or quantification limits the severity score to 2."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 3.0
+    }
+]

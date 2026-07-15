@@ -1,0 +1,76 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CMI’s 2024 Form 10-K refers to the COVID-19 pandemic only in umbrella phrases such as “pandemic restrictions,” “public health crises (epidemics or pandemics)” and “future pandemics.”  The references are embedded in broader risk narratives about supply-chain delays, multinational operations and catastrophic‐event planning.  The discussion is almost entirely prospective and conditional—using qualifiers like “may” and “could”—and there is no quantified or event-specific financial impact attributed to COVID-19 itself.  Because the filing date (12 Feb 2024) is just under four years after the WHO declared COVID-19 a pandemic (11 Mar 2020), the Time Decay Principle still allows moderately high scores, yet the boiler-plate tone, lack of measurement and presence of mitigating language keep the overall severity in the mid-range.  In essence, the pandemic has shifted from an acute crisis to a continuing background variable that can aggravate existing operational risks such as supply-chain fragility, international shutdowns and remote-work cyber exposure.  Therefore, pandemic-related risk is assessed as material but not dominant, warranting moderate point allocations for each piece of evidence.",
+        "evidence_list": [
+            {
+                "snippet": "Delays may be caused by factors affecting our suppliers (including, but not limited to, raw material availability, capacity constraints, port congestion, labor disputes or unrest, shortages of labor, economic downturns, availability of credit, impaired financial condition, sanctions/tariffs, pandemic restrictions, energy inflation/availability, suppliers' allocations to other purchasers, weather emergencies, natural disasters, acts of government or acts of war or terrorism).",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites ‘pandemic restrictions’ as a cause of supply-chain delays, directly linking the pandemic to operational disruption.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects the disruption to adverse effects on ‘our operations at multiple manufacturing locations’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional language (‘may’) and lists many other causal factors, diluting event specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "The sentence ties pandemic restrictions to potential multi-plant disruptions but in a generic, conditional way, producing a moderate risk score of 5."
+            },
+            {
+                "snippet": "public health crises, including the spread of a contagious disease, such as future pandemics or epidemics, quarantines or shutdowns related to public health crises, and other catastrophic events;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemics and related shutdowns as part of the company’s catastrophic-event risk universe.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights operational impacts (quarantines or shutdowns) that mirror COVID-19 experience.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Framed as a hypothetical future event rather than a current quantified impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "This bullet recognises future pandemics could cause quarantines or shutdowns but remains largely hypothetical, yielding a score of 4."
+            },
+            {
+                "snippet": "As a worldwide business, our operations are also affected by geopolitical risks, currency fluctuations, political and economic uncertainty, public health crises (epidemics or pandemics) and regulatory matters, including adoption and enforcement of environmental and emission standards, in the countries we serve.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists pandemics among factors that already affect global operations, signalling ongoing relevance.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions pandemics only in passing within a long list of other risks, reducing specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Pandemics are acknowledged as a standing operational factor but without detail or quantification, resulting in a lower score of 3."
+            }
+        ],
+        "calculated_score": 12,
+        "average_severity": 4.0
+    }
+]

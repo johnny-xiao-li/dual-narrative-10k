@@ -1,0 +1,226 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "WEC’s 2021-02-25 Form 10-K presents COVID-19 as an active, materially adverse event whose effects were already being felt throughout 2020 and could intensify in subsequent years.  The disclosure moves well beyond boiler-plate: management specifies concrete channels of impact – supply-chain interruption, labour shortages, capital-market volatility, construction delays (e.g. Badger Hollow I), rising bad-debt and liquidity strain – and links them directly to lower energy demand from commercial and industrial customers.  Although no precise dollar amounts are provided, the narrative makes clear that the pandemic has both realised and prospective consequences for operations, liquidity and earnings.  Mitigating actions (remote-work protocols, hygiene measures, a $340 m term-loan back-stop, suspension of customer disconnections) are noted, but they do not neutralise the breadth of exposure.  Given that the filing date falls well within three years of the WHO declaration (Time-Decay window for high severity), recent factual impacts and the forward-looking warnings together warrant elevated snippet scores, typically in the 4-8 range, with the highest marks reserved for sentences enumerating multiple direct financial and operational threats.  Statements limited to mitigation or generic uncertainty receive lower scores to reflect partial offset or weaker signalling.",
+        "evidence_list": [
+            {
+                "snippet": "The ongoing COVID-19 pandemic could adversely affect our business functions, financial condition, liquidity, and results of operations.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to multiple core financial metrics (‘business functions, financial condition, liquidity, and results of operations’).",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct statement of multi-faceted adverse impact, but no detail or quantification, so mid-level severity."
+            },
+            {
+                "snippet": "There is still considerable uncertainty regarding the extent and duration of the COVID-19 pandemic itself, as well as the measures currently in place to try to contain the virus, such as travel bans and restrictions, quarantines, limitations on business operations, and the timing of widespread availability of the vaccines.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights uncertainty around duration/severity, sustaining risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists concrete governmental restrictions that could impair operations.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Details specific containment measures that prolong risk; lack of financial magnitude keeps score moderate."
+            },
+            {
+                "snippet": "The effects of the COVID-19 pandemic and related government responses have significantly disrupted economic activity in our service territories.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Asserts that disruption is already ‘significant’ and current, not merely potential.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Declares realised macro-economic damage within footprint, raising immediacy."
+            },
+            {
+                "snippet": "Such effects have included, and may continue to include, extended disruptions to supply chains and capital markets, reduced labor availability and productivity, and a prolonged reduction in economic activity.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions supply-chain disruption (key pandemic channel).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions capital-market disruption affecting financing.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions labour shortages/productivity loss.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Frames impacts as both current and continuing.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Enumerates several core operational and financial stress points, earning a higher score."
+            },
+            {
+                "snippet": "These effects could continue to have a variety of adverse impacts on us and our subsidiaries, including continued reductions in demand for energy, particularly from commercial and industrial customers; impairment of goodwill or long-lived assets; continued decreases in revenue due to the inability to collect late fees; increased bad debt expense; increases in past due accounts receivable balances, impairment of our and our subsidiaries' ability to develop, construct, and operate facilities; and impaired ability to successfully access funds from credit and capital markets.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies demand destruction among C&I customers.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies direct balance-sheet risks (goodwill impairment, bad-debt, AR ageing).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights project execution risk (develop, construct, operate facilities).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Flags capital-markets access risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Comprehensive list of financial, operational and strategic threats yields near-top severity."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has also caused significant disruption and volatility in the United States capital markets, and any additional or lingering effects on the capital markets may significantly impact us and our subsidiaries.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to capital-market volatility already realised (‘has caused’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Stresses future financing risk (‘may significantly impact’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Focuses on external financing risk – important but single-channel, so mid-range score."
+            },
+            {
+                "snippet": "To the extent that access to the capital markets is adversely affected by COVID-19, we may need to consider alternative sources of funding for our operations and for working capital, which may increase our cost of, as well as adversely impact our access to, capital.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes potential funding-cost escalation and liquidity squeeze.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges contingency planning (mitigation through alternative funding).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Identifies liquidity risk but pairs it with a mitigation path, moderating severity."
+            },
+            {
+                "snippet": "Although the shelter-in-place orders that were in effect for our service territories have expired, other orders limiting the capacity of various businesses have been adopted in some jurisdictions.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes ongoing regulatory restrictions impeding customer activity and load.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Demonstrates continuing operational constraints; limited breadth keeps score low-moderate."
+            },
+            {
+                "snippet": "Although no longer mandated by all of our regulators, our utility subsidiaries are continuing to temporarily suspend disconnections.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Signals revenue-collection risk (suspension of disconnections).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Voluntary extension indicates some mitigation / discretion.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Highlights cash-flow exposure but also shows company-driven action, so modest score."
+            },
+            {
+                "snippet": "We have taken precautions with regard to employee hygiene and facility cleanliness, imposed travel limitations on our employees, provided additional employee benefits, and implemented remote work policies where appropriate.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details mitigation steps, reducing net risk.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": -2
+                },
+                "reasoning_summary": "Purely mitigative sentence; included for completeness but subtracts from overall severity."
+            },
+            {
+                "snippet": "For example, the timing of Badger Hollow I was impacted by the COVID-19 pandemic.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Gives specific project delay – realised operational impact.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Concrete evidence of schedule slippage elevates materiality."
+            },
+            {
+                "snippet": "In March 2020, in order to enhance our liquidity position in response to the COVID-19 pandemic and the ensuing volatility in the commercial paper market, WEC Energy Group entered into a $340 million 364-day term loan, which was used to pay down commercial paper.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantified ($340 m) financing action directly linked to pandemic-driven volatility.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Represents mitigation (liquidity enhancement).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides quantified response to market stress – strong evidence, but mitigation tempers severity."
+            }
+        ],
+        "calculated_score": 40,
+        "average_severity": 3.3333333333333335
+    }
+]

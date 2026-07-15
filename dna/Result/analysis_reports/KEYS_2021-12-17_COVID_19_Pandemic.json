@@ -1,0 +1,373 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Keysight’s 2021-12-17 Form 10-K repeatedly links the ongoing COVID-19 pandemic to concrete and prospective threats across its operations, supply chain, labour force and demand profile.  The filing confirms that the virus has already forced global site closures, delayed employee returns, and caused component shortages that slow manufacturing and deliveries.  It also warns of continuing volatility tied to new variants (e.g., Delta), government health mandates, travel restrictions and remote-work complications that could further disrupt collaboration, heighten employee attrition and impair the company’s ability to forecast demand.  While some mitigating measures (remote work, safety protocols) are noted, the language mostly emphasises material or potentially material adverse impacts on revenue, margins, and overall financial condition.  Because the pandemic is well within the 0-3-year “recent event” window, the Time Decay Principle allows high severity scoring.  However, the absence of precise dollar quantification and the presence of some mitigation temper the maximum score of individual snippets.  Overall, the risk evidence is specific, current, and multi-faceted, justifying generally high—but not absolute—severity ratings.",
+        "evidence_list": [
+            {
+                "snippet": "Global health crises, such as the COVID-19 pandemic, have had an impact on our supply chain and could have a material impact on our global operations, our customers and vendors, which could adversely impact our business results and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties COVID-19 to supply-chain disruption already experienced.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States the impact could be ‘material’ across operations, customers and vendors.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links to adverse business results and financial condition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking ‘could’ softens certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct, recent, multi-stakeholder impact with ‘material’ language yields a high score of 7 despite lack of quantification."
+            },
+            {
+                "snippet": "To protect the health and safety of our employees, we temporarily closed our facilities globally and asked employees who can work from home to do so for the foreseeable future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes actual worldwide facility closures—demonstrated operational disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates a shift to remote work, signalling ongoing operational change.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Health-and-safety motive implies mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows realised disruption and structural shift, partially offset by mitigation, for a moderate score."
+            },
+            {
+                "snippet": "Employees who were not able to work effectively from home were brought back to work at our sites with strict safety protocols in place, which are in compliance with local regulations, recommendations from our medical director and guidance from the Centers for Disease Control and the World Health Organization.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges limitations of remote work—efficiency risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights strong safety protocols (mitigation).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Risk is noted but largely counter-balanced by detailed mitigation, so the score is low."
+            },
+            {
+                "snippet": "Fluctuation in infection rates have continued and the appearance of new and more easily transmitted variants of COVID-19, such as the Delta variant, have resulted in periodic changes in restrictions that vary from region to region and require vigilant attention and rapid response.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies ongoing, variant-driven volatility requiring constant management attention.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Region-specific restriction changes complicate operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks quantitative detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights dynamic, global regulatory risk; specificity on variants lifts severity to 3."
+            },
+            {
+                "snippet": "Plans to return all employees to Keysight facilities at pre-COVID-19 levels were temporarily delayed by the emergence of the Delta variant.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows direct schedule delays caused by a specific variant.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No mention of financial magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Concrete delay event but limited scope, producing a score of 2."
+            },
+            {
+                "snippet": "The uncertain duration and severity of the pandemic caused by COVID-19 and its variants, as well as continued periodic spikes in infection rates, local outbreaks of the virus and its variants or potential outbreaks on our sites or supplier, customer or vendor sites, in spite of safety measures or vaccinations, where available, could cause disruptions to our operations or those of our suppliers, customers or vendors.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags multiple disruption channels—own sites, suppliers, customers, vendors.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasises uncertainty in duration and severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Contingent ‘could’ language moderates certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Broad, multi-party disruption risk with emphasis on uncertainty warrants a score of 4."
+            },
+            {
+                "snippet": "Outbreaks causing renewed implementation or extension of existing government orders or new orders or mandates, such as government-imposed vaccine mandates, could also impact the availability of our employees or other workers or could lead to attrition of key employees, which could further impact our ability to manufacture, ship or deliver products and solutions to customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies labour availability and attrition risks tied to mandates.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects workforce issues to manufacturing and delivery capability.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional wording (‘could’).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Labour-supply and mandate-driven risks directly threaten fulfilment, scoring 4."
+            },
+            {
+                "snippet": "As new variants of the virus appear, especially variants that are more easily spread, cause more serious outcomes, or are resistant to existing vaccines, new health orders and safety protocols could further impact our on-site operations and our ability to collaborate globally with customers, suppliers, and internal colleagues.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights threat from vaccine-resistant variants.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes impact on collaboration and operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Speculative (‘could’) reduces certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Variant-driven operational risk with collaboration angle merits a mid-level score."
+            },
+            {
+                "snippet": "The pandemic has led to global supply chain challenges, which have adversely impacted our ability to procure certain components and could impact our ability manufacture products and cause delays in delivery of our solutions to our customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits existing adverse impacts on component procurement.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links shortages to manufacturing slow-downs and delivery delays.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Future ‘could’ adds uncertainty for additional impacts.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Demonstrated supply-chain harm plus future risk produces a solid score of 4."
+            },
+            {
+                "snippet": "Global shifts in customer demand and raw material supply due to COVID-19 could result in delayed or canceled orders and our customers’ reduced spending, reduced demand for products and solutions, and their inability to pay for products and solutions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Covers demand contraction, order cancellation and credit risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifically attributes causes to COVID-19 shifts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Use of ‘could’ indicates possibility not certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Demand-side and credit-side threats are clearly articulated, earning a 4."
+            },
+            {
+                "snippet": "Due to the uncertainties and volatile economic environment created by the continuing global pandemic, the markets we serve may experience increased volatility and may not experience the seasonality or cyclicality that we expect.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights macro-level market volatility attributable to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impairs forecasting and business planning (seasonality disruption).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional ‘may’ reduces certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Macro-volatility risk is noted but remains general, hence a modest score."
+            },
+            {
+                "snippet": "The current impact of COVID-19 on the supply chain globally could impact our markets and harm our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links present supply-chain strain to market harm.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Global scope amplifies breadth.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantitative detail; ‘could’ softens.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Short but clear statement of supply-chain risk gets a score of 2."
+            },
+            {
+                "snippet": "The continuing COVID-19 global pandemic could impact our ability to execute on these dependencies.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates execution risk on critical dependencies (e.g., product development).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Very generic, purely conditional.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Execution risk noted but high vagueness keeps score low."
+            },
+            {
+                "snippet": "It may be difficult to differentiate ourselves from our competitors due to limited travel and access to customers, which could make it difficult to properly assess customer needs, and interruptions in manufacturing and delivery of solutions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites travel restrictions hindering competitive positioning.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions manufacturing and delivery interruptions.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "‘May/could’ speculative language.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Competitive and operational impacts from travel limits score a modest 2."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has further exacerbated these risks as suppliers are impacted by periodic surges in infection rates, possible shutdown orders, new safety restrictions, including government and customer vaccine mandates, and disruptions to the global supply chain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States pandemic has actively worsened supplier risks.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists concrete drivers—surges, shutdowns, mandates, supply-chain disruption.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Evidence of compounding supplier risk from multiple pandemic factors warrants a 5."
+            },
+            {
+                "snippet": "Our global operations have been and continue to be affected by the ongoing global pandemic of COVID-19 and the resulting volatility and uncertainty it has caused in the U.S. and international markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Affirms ongoing, worldwide operational impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights market volatility and uncertainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Company-wide, continuing impact raises severity to 4."
+            },
+            {
+                "snippet": "negative impact of a country’s response to the global COVID-19 pandemic or an imposed reduction in economic activity and other economic and political measures taken to contain the spread of COVID-19;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges policy-driven economic impacts tied to pandemic responses.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Policy response risk is recognised but in list form and unquantified, scoring 2."
+            },
+            {
+                "snippet": "Making such estimations in the current economic climate affected by the global pandemic is particularly difficult as increased volatility may impact seasonal trends making it more difficult to anticipate demand fluctuations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites forecasting difficulty due to pandemic-induced volatility.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Emphasises planning uncertainty but with limited direct financial stakes, hence 1."
+            },
+            {
+                "snippet": "During the year ended October 31, 2021, governments in many countries, including the United States, continued to issue orders and recommendations to attempt to reduce the further spread of the disease.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows continuing governmental interventions that can disrupt operations.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Identifies enduring regulatory actions; impact is implicit, so score is low."
+            }
+        ],
+        "calculated_score": 55,
+        "average_severity": 2.8947368421052633
+    }
+]

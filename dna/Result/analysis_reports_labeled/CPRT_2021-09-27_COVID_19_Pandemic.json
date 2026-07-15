@@ -1,0 +1,208 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Copart’s 2021-09-27 Form 10-K presents COVID-19 as a recent, still-evolving threat with both realized and prospective impacts.  The filing states that the pandemic already caused “substantial declines” in vehicle assignments and lower processed volumes, explicitly connecting these effects to the March 2020 onset and subsequent shelter-in-place orders.  Management also warns of forward-looking risks—continued miles-driven reductions, government restrictions, supply-chain disruptions, staffing outbreaks, title-processing delays, and cost inefficiencies—that could depress revenues or raise operating expenses.  While the company notes certain mitigants (essential-business status, on-line auctions, higher average selling prices, and process adjustments that avoided material cost spikes), these are framed as conditional and potentially temporary.  Given the filing date (≈18 months after the WHO declaration) the Time-Decay Principle places the pandemic in the 0-3 year “recent” bucket, allowing elevated scores.  Nevertheless, the language is a mix of concrete historical data (actual volume drops) and probabilistic qualifiers (“may,” “could”), so per-sentence severity ranges from moderate to high.  Overall, COVID-19 represents a significant ongoing risk, with downside amplified by uncertain duration and global reach but partially offset by Copart’s resilient digital model and essential-service designation.",
+        "evidence_list": [
+            {
+                "snippet": "The worldwide COVID-19 pandemic may have an adverse impact on our near-term revenues principally as a result of lower auction inventories.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to potential revenue decline ('may have an adverse impact on our near-term revenues').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Identifies a specific operational mechanism—lower auction inventories—showing a concrete pathway of harm.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Use of modal verb 'may' introduces uncertainty, slightly tempering severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct connection to near-term revenue loss and supply constraints merits a mid-high score, moderated because impact is still framed as potential."
+            },
+            {
+                "snippet": "After the initial onset of the COVID-19 pandemic in March 2020, we saw substantial declines in vehicle assignments, which we attribute principally to reduced accident volume as miles driven dramatically declined in response to shelter-in-place orders across the globe.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports an actual, quantified-by-adjective ('substantial') negative impact, not merely potential.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explains causal chain (lockdowns → miles-driven drop → fewer assignments), demonstrating operational vulnerability.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies timing (March 2020) confirming recency under Time-Decay Principle.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Concrete historical losses plus clear causality drive a high severity score."
+            },
+            {
+                "snippet": "We cannot predict how the pandemic will continue to develop, whether and to what extent new shelter-in-place orders will be issued, or to what extent the pandemic may have longer term unanticipated impacts on our markets, including, for example, the risk of long-term reductions in miles driven.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights strategic uncertainty and acknowledges inability to forecast pandemic trajectory.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Flags specific long-term demand risk (sustained reduction in miles driven).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Absence of quantified data and speculative tone soften impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Forward-looking uncertainty is important but less severe than realized impacts, yielding a moderate score."
+            },
+            {
+                "snippet": "Although we have been deemed an “essential business” in the jurisdictions in which we operate and have largely been able to continue our yard operations, we have been required to make adjustments in our business processes that may reduce efficiency or increase operating expenses, particularly if the pandemic continues over a long period of time.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete operational cost risk (efficiency loss or higher expenses).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Classified as essential business—material mitigation.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Risk contingent on prolonged pandemic, indicating conditional severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Operational cost threat exists but is partly offset by essential-service status, giving a low-moderate score."
+            },
+            {
+                "snippet": "Certain of the jurisdictions in which we operate, such as the U.K., have had more restrictive governmental actions than others, and subsequent shelter-in-place orders have occasionally stalled or regressed our assignment volumes commensurate with the severity and duration of such orders.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details actual volume setbacks linked to renewed lockdowns—direct operational harm.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Geographic specificity (U.K.) underscores exposure to differentiated regulatory regimes.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Describes recurring risk tied to order severity/duration, emphasizing persistence.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Repeated, jurisdiction-driven volume shocks escalate the risk to moderate-high."
+            },
+            {
+                "snippet": "Additional, non-exclusive examples of pandemic-related factors that could adversely affect our future business or operating results include the potential adverse operational impacts from outbreaks of COVID-19 at any of our locations; additional outbreaks of COVID-19 in one or more of our geographic markets; a reduction in miles driven due to one or more factors relating to the COVID-19 pandemic; the relationship of supply and demand for newly manufactured vehicles, on the one hand, and used and salvage vehicles, on the other hand, due to reduced manufacturing capacity and broader supply chain disruptions during the COVID-19 pandemic and the effects of these supply and demand relationships on the average sale prices obtained at auction for the vehicles assigned to us for remarketing; further government actions in response to COVID-19 outbreaks that restrict business activity or travel; disruptions of governmental administrative operations due to COVID-19 outbreaks that adversely impact our core business activities, such as vehicle title processing; and deteriorating economic conditions generally.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple operational and market risks (on-site outbreaks, new waves, admin disruptions).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights supply-chain disruption and manufacturing capacity constraints affecting pricing.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions broader macroeconomic deterioration amplifying downside.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "All impacts framed as future possibilities without quantified magnitude.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Comprehensive list of serious but unquantified forward-looking threats warrants a solidly high score."
+            },
+            {
+                "snippet": "From a financial perspective, our operating results were adversely affected by lower processed vehicle volume, but these adverse effects were more than offset by corresponding increases in vehicle average sales prices.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms historical negative impact on volume (realized harm).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes mitigating factor—higher selling prices fully offset decline.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Historical loss is fully counterbalanced, so net risk indication is low."
+            },
+            {
+                "snippet": "The pandemic may have an adverse effect on our future revenues, with the magnitude and timing of these effects dependent upon the extent and duration of suspended economic activity across our markets.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct statement of potential revenue harm tied to pandemic duration.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights uncertainty regarding magnitude and timing, increasing planning risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Use of 'may' and lack of detail moderates severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Clear but generic revenue-risk statement produces a mid-level score."
+            },
+            {
+                "snippet": "We adjusted, but did not make material modifications to, our operating expenses to be able to continue providing employment for our employees, service to our sellers, and process incoming vehicles for sale in future quarters.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates proactive cost management and operational continuity—strong mitigation.",
+                            "points": -3
+                        },
+                        {
+                            "reason": "Acknowledges need for adjustments, implicitly confirming operational strain.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": -2
+                },
+                "reasoning_summary": "Sentence mainly evidences mitigation; therefore it yields a negative (risk-reducing) score."
+            }
+        ],
+        "calculated_score": 30,
+        "average_severity": 3.3333333333333335
+    }
+]

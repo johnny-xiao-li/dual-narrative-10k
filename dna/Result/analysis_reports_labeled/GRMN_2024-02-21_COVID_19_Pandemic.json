@@ -1,0 +1,90 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing recognizes the COVID-19 pandemic as both a historical and continuing source of enterprise-level disruption. Management explicitly states that the pandemic has already \"significantly affected\" the company through lower demand, operational and supply-chain interruptions, and government restrictions, and they warn these impacts could persist. The discussion is largely qualitative—no dollar figures or quantified volume effects are provided—yet it describes multiple functional areas that could be hit simultaneously (margin volatility, foreign-exchange swings, product development delays, talent constraints, and sole-source supplier exposure). Because the pandemic began in March 2020 and the 10-K is dated February 2024, the disclosure falls just into the “medium-term” (4-year) window of the Time Decay Principle; therefore, maximum snippet scores must be moderate (≈4-6) rather than very high. Overall, the language is specific to COVID-19, cites realized impacts, and remains forward-looking, so the aggregate risk is material but not acute enough—four years on—to warrant top-tier severity scores.",
+        "evidence_list": [
+            {
+                "snippet": "Public health emergencies, including epidemics or pandemics, could have significant impacts on our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemics as a threat that can materially impact operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Statement is generic and uses conditional language ('could'), reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Provides a broad, unquantified warning; useful but generic, so risk signal is low-to-moderate."
+            },
+            {
+                "snippet": "Widespread public health emergencies, including epidemics or pandemics, such as the COVID-19 pandemic, have significantly affected, and may in the future significantly affect, our business due to their impact on the economy and the demand for our products and services, disruptions to our operations, supply chain and sales and distribution channels, and government-imposed restrictions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to already-realized and future material effects ('have significantly affected, and may ... significantly affect').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Details multiple operational vectors of impact (demand, operations, supply chain, distribution, regulatory restrictions).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No numerical quantification or dollar amounts provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Directly ties COVID-19 to several concrete impact channels; absence of quantification tempers but does not negate severity."
+            },
+            {
+                "snippet": "Additional risks, including gross margin fluctuation, foreign currency fluctuations, product development challenges, impacts to our key personnel, and dependencies on third party suppliers, may be heightened as a result of a widespread public health emergency.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists specific secondary risk areas that a pandemic can exacerbate.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses conditional 'may be heightened', indicating potential rather than certain impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Sentence expands the breadth of possible pandemic pressures but remains hypothetical, so moderate relevance."
+            },
+            {
+                "snippet": "If we were unable to manage these risks effectively, our business, financial condition, and results of operations could be materially adversely affected.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of material adverse effect if pandemic-related risks are not managed.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highly conditional and lacks event-specific detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Highlights severity but is contingent and generic, yielding a modest score."
+            }
+        ],
+        "calculated_score": 12,
+        "average_severity": 3.0
+    }
+]

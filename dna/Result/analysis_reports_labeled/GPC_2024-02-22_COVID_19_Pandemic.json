@@ -1,0 +1,102 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "GPC’s 2024 Form 10-K still links a portion of its risk profile to the COVID-19 pandemic, but the language reflects a maturing, medium-term threat rather than an acute crisis. The filing acknowledges that pandemic-related pressures—most notably supply-chain disruptions, global labor shortages and expanded remote-work practices—have already been felt and could persist. The company concedes that it has “experienced” pandemic-driven disruptions and that they may “continue,” yet it also specifies that those impacts have not been material to date, signalling effective mitigation or reduced severity as time passes. References are largely qualitative and embedded among other macro-risks (geopolitical conflicts, weather, etc.), showing a shift from specific COVID-19 shock language toward a more integrated, multi-factor risk narrative. Applying the Time Decay Principle, the pandemic is now almost four years old; therefore, individual evidence scores should land in the moderate band (4-6) only when the statement shows a clear, on-going impact. Generic or strongly mitigated references warrant lower scores. Overall, the filing depicts COVID-related risk as real but moderated, with the dominant exposure centred on supply-chain resilience and cyber vulnerabilities linked to sustained remote-work models.",
+        "evidence_list": [
+            {
+                "snippet": "These include raw material shortages, inadequate manufacturing capacity, labor strikes, shortages and disputes anywhere within the supply and distribution chain delivering products to us, tariff and customs legislation and enforcement, transportation disruptions, tax and other legislative uncertainties, public health emergencies and/or weather conditions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘public health emergencies’ as a factor that can disrupt supply chains, capturing pandemic-type events.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement is generic and not tied to COVID-19 specifically, reducing relevance.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Adds a generic pandemic reference but provides no detail or current impact, so the risk signal is weak."
+            },
+            {
+                "snippet": "In recent years, partly as a result of the COVID-19 pandemic and other factors beyond our control, such as the conflict between Russia and Ukraine and the conflict in the Gaza strip, we have experienced and may continue to experience supply chain disruptions, particularly with regard to global labor shortages and inventory sourced from outside the U.S.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes disruptions to the COVID-19 pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States the company has ‘experienced’ supply-chain disruptions—evidence of realized impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Adds forward-looking language (‘may continue to experience’), extending the risk horizon.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Risk is also tied to non-pandemic factors, diluting the attribution.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Provides a clear, present-tense impact linked to COVID-19 and a continuing threat, justifying the upper end of the medium-term range."
+            },
+            {
+                "snippet": "These disruptions have not had a material impact on our business to date, but we cannot provide any assurance that these or new supply chain disruptions, including from recent unrest in the Middle East, will not materially or adversely impact our business, financial condition and results of operations in the future.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States impacts have ‘not had a material impact’ so far—explicit mitigation.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Warns of potential future material adverse impact—forward-looking risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Refers back to the previously discussed disruptions (which include COVID-related ones).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mitigating language outweighs the forward-looking warning, resulting in a low overall risk score."
+            },
+            {
+                "snippet": "In particular, the increase in work-from-home arrangements have led businesses to increase reliance on virtual environments and communications systems, which have been subjected to increasing third-party vulnerabilities and security risks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights the structural shift to remote work, a hallmark pandemic after-effect.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects remote work to heightened cybersecurity risks—specific operational exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not explicitly mention COVID-19, lessening direct attribution.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Captures a pandemic-driven operational change with tangible risk implications (cybersecurity), but lack of explicit COVID mention keeps the score modest."
+            }
+        ],
+        "calculated_score": 11,
+        "average_severity": 2.75
+    }
+]

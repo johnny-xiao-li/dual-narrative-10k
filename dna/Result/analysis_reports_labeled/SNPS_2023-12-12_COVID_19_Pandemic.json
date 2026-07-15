@@ -1,0 +1,76 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Synopsys’ 2023 Form 10-K contains only brief, largely boiler-plate references to the COVID-19 pandemic.  All mentions are in the general ‘Risk Factors’ section and are framed as potential or continuing uncertainties rather than detailing any quantified or presently-observed damage.  The company groups COVID-19 with other broad disruptive forces (natural disasters, wars, climate events) and offers no hard numbers on revenue, supply chain delays, head-count impacts, or costs.  Nonetheless, it does acknowledge that government-imposed restrictions during the pandemic curtailed global economic activity and introduces the idea that such measures could again affect its sales, infrastructure and overall operating results.  Because the filing date (December 2023) is less than four years after the World Health Organization declared COVID-19 a pandemic (March 2020), the Time-Decay Principle allows moderate scoring—but the generic tone and lack of concrete metrics keep the severity modest.  Overall, COVID-19 is portrayed as an ongoing but not transformational risk, warranting mid-single-digit scores for the most informative sentence and very low scores for the purely ‘laundry-list’ references.",
+        "evidence_list": [
+            {
+                "snippet": "Other factors beyond our control such as natural disasters, terrorism, civil unrest, war and infectious diseases and pandemics, such as the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites ‘infectious diseases and pandemics’ and names COVID-19, acknowledging the hazard exists.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Presented only as one item in a broad list of unrelated catastrophes, signalling a generic, boiler-plate approach.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "No discussion of likelihood, magnitude, or company-specific exposure.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "A mere checklist mention of COVID-19 with no Synopsys-specific details; minimal but non-zero risk evidence."
+            },
+            {
+                "snippet": "Due to the global nature of our business, our operating results may be negatively impacted by catastrophic events and the effects of climate change, pandemics, such as the recent COVID-19 pandemic, or other unexpected events throughout the world.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 (and pandemics generally) to potential negative impacts on ‘operating results’.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses conditional language (‘may be’) and bundles COVID-19 with several unrelated hazards, diluting specificity.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Provides a modestly clearer connection between COVID-19 and financial results, but impact is still hypothetical and generic."
+            },
+            {
+                "snippet": "In particular, our sales and infrastructure are vulnerable to regional or worldwide health conditions, including the effects of the outbreak of contagious diseases, such as the government-imposed restrictions that curtailed global economic activity and caused substantial volatility in global financial markets during the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifically references past COVID-19 government restrictions that curtailed economic activity and caused market volatility—concrete context.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Identifies two operational exposure points: ‘sales’ and ‘infrastructure’, indicating pathways of impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Still couched in vulnerability language (forward-looking), with no quantified dollar effect.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Most substantive sentence: cites actual pandemic-era restrictions and clarifies which business functions are at risk, but remains unquantified, yielding a moderate score of 5."
+            }
+        ],
+        "calculated_score": 8,
+        "average_severity": 2.6666666666666665
+    }
+]

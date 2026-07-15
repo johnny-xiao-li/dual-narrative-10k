@@ -1,0 +1,164 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated less than one year after the WHO declared COVID-19 a pandemic, contains extensive, company-specific language that links the outbreak directly to both realized and expected financial and operational harm. Tyler (TYL) discloses concrete impacts already seen in 2020—lower revenues across several business lines—and details clear forward-looking risks for 2021, including procurement delays, implementation slow-downs, cash-collection issues and possible goodwill impairments. The statements are largely specific (naming affected revenue streams, project types and operational bottlenecks) rather than boiler-plate, and only modestly tempered by mitigating factors such as recurring-revenue stability and the shift to remote delivery of services. Because the event is very recent, the Time Decay Principle allows high severity scores; however, mitigating language and the absence of precise dollar quantification (except for revenue mix percentages) limit some sentences to mid-range values. Overall, COVID-19 presents a material, near-term risk to TYL’s revenues, cash flows and project execution, justifying generally high snippet scores in the 4-7 range, with explicit mitigation sentences receiving neutral or zero scores.",
+        "evidence_list": [
+            {
+                "snippet": "We expect that the continued global spread of COVID-19 (novel coronavirus) will negatively impact our business and financial results in fiscal year 2021.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly states that COVID-19 will negatively impact business and financial results.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Specifies a near-term timeframe (fiscal year 2021), increasing immediacy.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Strong, time-bounded assertion of forthcoming negative impact yields a high score of 7."
+            },
+            {
+                "snippet": "We continue to see some impact on our business in the near term with delays in government procurement processes and uncertainty around public sector budgets, as well as delays in implementations caused by travel restrictions, closed offices, or clients shifting focus to more pressing issues.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes current, ongoing impacts already being felt (‘continue to see’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Lists multiple concrete operational disruptions (procurement, budgets, travel, client focus).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Enumerates specific, active disruptions, so the evidence is materially significant but not quantified—score 6."
+            },
+            {
+                "snippet": "We expect appraisal and software implementations projects to be delayed as clients put projects on hold or slow projects by extending go-live dates.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies specific project types (appraisal and software implementations) subject to delay.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights client-driven postponements affecting revenue timing.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific operational delay creates moderate risk; absence of dollar detail keeps score at 4."
+            },
+            {
+                "snippet": "We expect a negative impact on our software services and appraisal services revenues.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly forecasts revenue declines in named business lines.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Clear but unquantified revenue warning in two segments warrants a score of 4."
+            },
+            {
+                "snippet": "Also, we expect software licenses and subscriptions revenues to be negatively affected due to delays in procurement processes.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Expressly links procurement delays to revenue decline in licenses and subscriptions.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Another direct revenue impact statement; unquantified but material—score 4."
+            },
+            {
+                "snippet": "Some clients could request changes to payment terms, negatively impacting the timing of collections of accounts receivables in future periods.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights potential cash-flow risk via delayed collections.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Addresses liquidity timing risk; specific but conditional, hence a 3."
+            },
+            {
+                "snippet": "For the twelve months ended December 31, 2020, 73% of our total revenue and earnings are relatively predictable as a result of our subscription and maintenance revenue, which is recurring in nature; thus the effect of the COVID-19 pandemic will not be fully reflected in our results of operations and overall financial performance until future periods.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Signals deferred, future impact because of revenue mix (aggravating—lagging effect).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasizes stability from recurring revenue, a risk mitigator.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Future lag risk is offset by mitigating recurring revenue stability, netting to 0."
+            },
+            {
+                "snippet": "For the twelve months ended December 31, 2020, the impact of the COVID-19 pandemic resulted in lower revenues from software licenses, software services, appraisal services, and other revenues.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States actual, realized revenue declines across multiple lines.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Anchors impact to the most recent fiscal year, underscoring immediacy.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Provides concrete evidence of realized harm across segments; high relevance yields score 6."
+            },
+            {
+                "snippet": "Software services and appraisal services revenue declines are attributed to delays in implementations caused by travel restrictions and shelter-in-place orders in effect during the period.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explains causal chain from pandemic restrictions to revenue declines.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Causal specificity (travel restrictions → delayed implementations → lower revenue) earns a 4."
+            },
+            {
+                "snippet": "We have addressed those challenges through adapting the way we do business – encouraging web and video conferencing, conducting virtual sales demonstrations and delivering professional services remotely.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes concrete mitigation actions that lessen operational risk.",
+                            "points": -3
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Purely mitigating language offsets risk and therefore scores 0."
+            }
+        ],
+        "calculated_score": 38,
+        "average_severity": 3.8
+    }
+]

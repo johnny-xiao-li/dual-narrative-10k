@@ -1,0 +1,338 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Delta’s 2020 Form 10-K, filed only eleven months after the World Health Organization declared COVID-19 a pandemic, paints a picture of an immediate, deep and still-evolving threat.  The disclosure moves well beyond generic caution: it chronicles demand collapse, capacity cuts, liquidity strain, debt build-up, partner insolvencies, labour and cyber exposures, and the spectre of a lasting structural decline in business travel.  Most statements are framed in the present tense (“have had, and are continuing to have”) with quantified data (-64 % revenue, ‑50 % system capacity, $15.6 bn loss) and repeated use of “material adverse.”  Mitigation steps are acknowledged but explicitly deemed insufficient to offset cash burn.  Because the filing date (12 Feb 2021) falls squarely within three years of the onset of the pandemic, the Time Decay Principle permits high severity scores.  Overall, the risk is direct, already crystallised, and still expanding, warranting elevated snippet scores that cluster between 6 and 9, with minor downward adjustments where mitigation or uncertainty temper the immediate impact.",
+        "evidence_list": [
+            {
+                "snippet": "The rapid spread of the COVID-19 virus, the persistence of the resulting pandemic and measures implemented to combat it have had, and will continue to have, a material adverse effect on our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly attributes impact to COVID-19 (‘rapid spread … pandemic’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States both past and continuing impact (‘have had, and will continue to have’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong severity language (‘material adverse effect’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct causation, ongoing horizon and ‘material adverse’ wording justify a high score of 8."
+            },
+            {
+                "snippet": "Moreover, the longer the pandemic persists, the more material the ultimate effects are likely to be.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links severity directly to the duration of COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights escalating future impact (‘more material’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty about pandemic timeline.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows potential worsening but lacks quantification; mid-level severity scored at 5."
+            },
+            {
+                "snippet": "The rapid spread of COVID-19 and the persistence of the resulting pandemic, as well as the measures governments and private parties have implemented in order to stem the spread of this pandemic, have had, and are continuing to have a material adverse effect on the demand for worldwide air travel, and consequently upon our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct reference to pandemic and containment measures.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Shows causal chain to global demand destruction.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "‘Material adverse effect’ on business emphasises severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States impact is ongoing.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Comprehensive, causal and severe; near-maximum score of 9."
+            },
+            {
+                "snippet": "These effects related to the COVID-19 pandemic are negatively impacting air travel in general, which in turn are materially adversely affecting our revenues, results of operations and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to financial metrics (revenues, operations, condition).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses ‘materially adversely’ to denote gravity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Current-tense impact (‘are negatively impacting’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specific financial harm in present tense merits a 7."
+            },
+            {
+                "snippet": "Our operations have been, and could in the future be, negatively affected further if our employees are quarantined or sickened as a result of exposure to COVID-19, or if they are subject to additional governmental COVID-19 curfews or “shelter in place” health orders or similar restrictions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights workforce exposure and potential operational disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links risk to future governmental measures.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Direct COVID-19 causality.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Operational and labour risk tied to pandemic earns a solid 6."
+            },
+            {
+                "snippet": "In response to the crisis, we have taken steps to mitigate the effects on our business, which themselves may have negative consequences with respect to our business and operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges mitigation actions (risk-reducing).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Notes mitigation may cause additional negative effects (aggravating).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "References the COVID-19 ‘crisis’.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mitigation offsets risk, resulting in a low net score of 1."
+            },
+            {
+                "snippet": "Ultimately, cost-saving measures that we implemented in 2020, or may consider in the future, have not made up, and will not in the future make-up, for the loss in cash as a result of decreased ticket sales and cancellations and could also negatively affect our service to customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits measures cannot offset cash loss linked to pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Predicts continued financial shortfall.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Warns of knock-on service degradation.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows insufficiency of mitigations and future harm; scored at 6."
+            },
+            {
+                "snippet": "At this time, we are also not able to predict the extent to which the COVID-19 pandemic may result in permanent changes to our customers' behavior, with such changes including but not limited to a permanent reduction in business travel as a result of increased usage of \"virtual\" meetings and \"teleconferencing\" products and more broadly, a general reluctance to travel by consumers, each of which could have a material impact on our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential long-term structural demand shift.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights uncertainty (‘not able to predict’) but materiality.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Directly tied to pandemic.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Potential permanent demand erosion elevates risk to 7."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has significantly impacted the operations of our airline partners and could adversely affect the expansion of strategic relationships in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows contagion of risk to supply-chain/partner network.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Future strategic growth impediment.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Direct pandemic link.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Partner disruption and strategic risk justify a 6."
+            },
+            {
+                "snippet": "We are unable to predict how long conditions related to the pandemic will persist, when effective vaccines will be broadly available, when vaccination will be widespread globally, when travel advisories and restrictions will be lifted, what additional measures may be introduced by governments or private parties or what effect any such additional measures may have on air travel and our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises breadth of unknowns and timeline uncertainty.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies multiple external dependencies (vaccines, restrictions).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Directly tied to pandemic conditions.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "High uncertainty with multiple external variables merits a 7."
+            },
+            {
+                "snippet": "We have a significant amount of fixed obligations and incurred significant amounts of new debt in a short period in response to the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies leverage taken on because of pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights magnitude (‘significant’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Debt build-up is material but lacks numeric precision; score 5."
+            },
+            {
+                "snippet": "During the fiscal year ended December 31, 2020, we recorded significant impairment and related charges related to acceleration of our fleet simplification strategy and the write-down of investments in certain airline partners, stemming from the impact of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Records actual impairments booked in FY-2020 due to pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses ‘significant’ to denote scale.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Realised impairments tied to COVID-19 earn a 5."
+            },
+            {
+                "snippet": "The increase in work-from-home arrangements since the onset of the COVID-19 pandemic has the potential to enhance these cybersecurity risks.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces new cyber-risk vector linked to pandemic-driven remote work.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking (‘has the potential’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Secondary risk channel is noted but less severe; score 4."
+            },
+            {
+                "snippet": "The airline industry also faces competition from surface transportation and technological alternatives such as \"virtual\" meetings or \"teleconferencing,\" and the intensity of this competition has likely increased, at least in the near term, as a result of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Points to competitive pressure heightened by pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights alternative technologies reducing demand.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Competitive demand erosion gives a mid-level risk score of 5."
+            },
+            {
+                "snippet": "As a result, demand for travel declined at a rapid pace in the March 2020 quarter and has remained depressed, which has had an unprecedented and materially adverse impact on our results of operations and financial position.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites actual demand collapse and continued depression.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States ‘unprecedented and materially adverse impact’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Direct causal chain from pandemic context.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Describes realised, extreme financial harm; score 6."
+            },
+            {
+                "snippet": "During 2020, system capacity was reduced approximately 50% compared to 2019, with international capacity reduced by approximately 65% and domestic capacity reduced by approximately 45%.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides quantified operational reductions attributable to pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Demonstrates severity across geographies (international vs domestic).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Implicit direct pandemic link (given 2020 context).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Hard numbers on capacity cuts elevate score to 7."
+            }
+        ],
+        "calculated_score": 94,
+        "average_severity": 5.875
+    }
+]

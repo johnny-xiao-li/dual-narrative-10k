@@ -1,0 +1,168 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "PODD’s 2024 Form 10-K acknowledges COVID-19 as both a historical and continuing risk driver across several operational dimensions—supply-chain resilience, labor practices, cybersecurity, regulatory timelines and overall business demand.  Nearly four years have passed since the WHO declaration (March 2020), placing the disclosure at the cusp between the “recent” and “medium-term” Time-Decay buckets.  The language therefore mixes concrete, backward-looking impacts (e.g., FDA approval delays, forced remote-work shift) with forward-looking contingency statements (“may”, “could”).  No new quantified dollar impact is provided, but the company still flags material exposure (“significantly impact”, “materially disrupt”), showing the threat remains strategically relevant.  Given the absence of fresh, quantified losses but the presence of specific operational examples, the overall COVID-19 risk profile is assessed as moderate—serious enough to warrant attention (scores in the 3-6 range), yet somewhat attenuated by the passage of time and by the forward-looking, contingency-style phrasing that dominates several passages.",
+        "evidence_list": [
+            {
+                "snippet": "The continuing worldwide macroeconomic and geopolitical uncertainty as well as the impact of the COVID-19 or other global pandemics may adversely affect our business and prospects.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites COVID-19 pandemic as a source of risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States a potential negative effect on overall business and prospects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement is broad and grouped with other uncertainties, reducing specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Moderate risk acknowledgement; specific to COVID-19 but expressed in generic, forward-looking terms, leading to a balanced 4/10 score."
+            },
+            {
+                "snippet": "Another global pandemic like COVID-19 has the potential to significantly impact our supply chain if the manufacturing plants that produce our products or product components, the distribution centers where we manage our inventory, or the operations of our logistics and other service providers, including third parties that sterilize our products, are disrupted, temporarily closed or experience worker shortages for a sustained period of time.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic risk directly to critical supply-chain functions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong wording ('significantly impact') and lists multiple vulnerable nodes (plants, distribution, logistics, sterilization).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Framed as a potential future event (“has the potential”), not an existing loss.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Detailed supply-chain exposure increases severity, but the hypothetical framing and time decay temper the score to 4."
+            },
+            {
+                "snippet": "As a result of the COVID-19 pandemic, many employees have transitioned to a remote or hybrid work environment, which has increased risks associated with our information technology systems and networks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes an actual operational change already caused by the pandemic (remote/hybrid work).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects that change to elevated cybersecurity and IT-system risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No mitigating actions mentioned.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Past impact plus new, specific risk (cyber) yields a relatively high medium-term severity of 6."
+            },
+            {
+                "snippet": "Another global pandemic or new variants of COVID-19, and the requirements to take action to help limit the spread of illness, could impact our ability to carry out our business as usual.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemic variants as a threat to business continuity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights broad operational disruption ('ability to carry out our business as usual').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Purely conditional wording ('could'), no specifics.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic, forward-looking disruption statement so score is kept to a moderate 3."
+            },
+            {
+                "snippet": "For example, the COVID-19 pandemic diverted healthcare resources away from the conduct of clinical trials and interrupted the operations of the FDA, which delayed product approval timelines, including for Omnipod 5.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites a direct, historical impact (diversion of healthcare resources, FDA interruptions).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects impact to a core product (Omnipod 5) through delayed approvals.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Event is ~4 years old; time-decay slightly moderates severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete delay to flagship product raises seriousness, but modest time-decay adjustment yields a 5/10."
+            },
+            {
+                "snippet": "Political or financial instability, currency fluctuations, the outbreak of pandemics such as COVID-19, labor unrest, transport capacity and costs, port security, weather conditions, natural disasters, or other events that could slow or disrupt port activities and affect foreign trade are beyond our control and could materially disrupt our supply of product from China, increase our costs, and/or adversely affect our results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly mentions pandemics such as COVID-19 among factors that can disrupt supply chain from China.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes material disruption, cost increases, and adverse effect on results.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemic bundled with many other uncontrollable events, diluting focus.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Identifies concrete supply-chain and cost exposure but in a broad catch-all list; net effect is a moderate 4."
+            },
+            {
+                "snippet": "We face challenges in maintaining employee well-being, recognizing that the additional financial, family, and health burdens that many employees may be experiencing in the wake of the COVID-19 pandemic and related economic uncertainties may adversely impact job performance and employee retention.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 aftermath to employee well-being and retention risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links to potential adverse effects on performance and retention (labor risk).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Qualifies impact with 'may', no quantitative scope.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights human-capital risks emerging from pandemic, but soft wording and lack of metrics keep score at 3."
+            }
+        ],
+        "calculated_score": 29,
+        "average_severity": 4.142857142857143
+    }
+]

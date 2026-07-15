@@ -1,0 +1,70 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "EMR’s Form 10-K acknowledges pandemic-related threats only at a broad, precautionary level.  All references appear in the Risk Factors section and frame COVID-19 as one example of potential ‘epidemic or pandemic’ events that could disrupt raw-material supply chains and shutter global manufacturing sites.  The company does not cite any quantified cost figures, past losses, or detailed mitigation programs tied specifically to COVID-19; instead, it places pandemics alongside other contingencies such as natural disasters, wars or labor strife.  This language is therefore forward-looking and generic, signalling that management sees pandemic disruption as an ongoing but un-measured contingency rather than a currently material hit.  Because the filing date (November 2024) is roughly 4 ½ years after the World Health Organization declared COVID-19 a pandemic (March 2020), the Time Decay Principle limits severity to the mid-range: the event is no longer ‘recent’ but remains within the 4-10-year window where moderate risk scores (4-6) are appropriate.  Overall, the disclosure indicates a continuing, non-quantified operational risk that merits monitoring but does not rise to a high-severity warning.",
+        "evidence_list": [
+            {
+                "snippet": "However, the supply of materials or other items could be disrupted by natural disasters, a health epidemic or pandemic, or other events.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links a ‘health epidemic or pandemic’ to supply-chain disruption, an aggravating operational risk.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Addresses the Company’s critical raw-material inputs, underscoring potential breadth of impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional wording (‘could be disrupted’), indicating a hypothetical rather than an observed impact.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Does not mention COVID-19 by name and provides no quantification or timing detail, lowering specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "The sentence highlights a pandemic-driven supply-chain threat that is central to operations, meriting a moderate score of 5 after deducting for generic, forward-looking phrasing."
+            },
+            {
+                "snippet": "Our and our suppliers’ non-U.S. production facilities and operations could be disrupted by weather and natural disaster (including the potential effects of climate change), labor strife, war (including the Russia-Ukraine and other global conflicts), political unrest, terrorist activity or public health concerns such as an epidemic or pandemic, particularly in emerging countries that are not well-equip ped to handle such occurrences.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemic-related public-health concerns as a cause of global production shutdowns, an aggravating operational risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Extends the risk to both the company’s facilities and its suppliers, broadening potential impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights heightened vulnerability in emerging markets, adding geographic concentration risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic, catch-all wording groups pandemic with many other hazards, reducing event specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Forward-looking (‘could be disrupted’) with no evidence of current losses or quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "The sentence flags pandemic disruption risk for worldwide manufacturing but remains qualitative and hypothetical, leading to a moderate score of 4."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 4.5
+    }
+]

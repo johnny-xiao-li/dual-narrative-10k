@@ -1,0 +1,92 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is referenced in Ameren’s 2024 Form 10-K almost four years after the World Health Organization declared the pandemic.  The filing no longer highlights acute, company-wide disruption; instead it frames the disease in two ways: (1) as an ongoing, but fairly generic, operational threat grouped with other low-frequency / high-impact catastrophes (‘pandemic health events’) and (2) as a tail-end financial clean-up item (refunds of over-recovered pandemic costs and CARES-Act tax credits).  There is also an explicit acknowledgment that remote-work arrangements—originally adopted because of the pandemic—create enduring cyber-security exposure.  The language is largely qualitative and forward-looking, with only one modest, quantified impact (a USD 4 million revenue reduction).  Given the filing date (Feb 2024) the pandemic sits at the edge of the 4-year “medium-term” window, so the Time Decay Principle limits the severity of any single snippet to the mid-range.  Overall, COVID-19–related risk for AEE is assessed as moderate: it is still present in corporate risk registers, but impacts are now either small, historical clean-ups or broad contingency planning rather than material, immediate threats.",
+        "evidence_list": [
+            {
+                "snippet": "the occurrence of catastrophic events such as fires, explosions, acts of sabotage, which have increased in frequency and severity within the utility industry, acts of terrorism, civil unrest, pandemic health events, or other similar events;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists 'pandemic health events' as a potential catastrophic risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Positions the pandemic as an ongoing forward-looking risk (not past tense).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Very generic wording and no quantification or company-specific detail.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Falls within the 4-year medium-term window, allowing moderate weighting.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Scores 5/10 because it expressly flags pandemic events as a continuing operational threat, but the statement is broad and unquantified."
+            },
+            {
+                "snippet": "Remote working arrangements could increase our data security risks, including loss of data related to sensitive customer, employee, financial, and operating system information, through insider or outsider actions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies a concrete, enduring risk (cyber/data loss) tied to remote-work practices that arose from the pandemic era.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking wording ('could increase') indicates ongoing exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Does not explicitly mention COVID-19, so linkage is indirect.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No financial magnitude stated.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Scores 4/10: highlights a specific pandemic-triggered operational risk (remote-work cyber exposure) but lacks explicit COVID reference or quantification."
+            },
+            {
+                "snippet": "Other miscellaneous revenues decreased $4 million primarily related to the refund of over-recovered costs associated with the COVID-19 pandemic, beginning in April 2023.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes a financial impact to the COVID-19 pandemic.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Provides a concrete dollar amount ($4 million), enhancing materiality and specificity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact is retrospective (clean-up refund) rather than forward-looking risk.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Magnitude is modest relative to company size, tempering severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Scores 6/10: Contains a clear, quantified link to COVID-19, but the effect is small and historical, not an ongoing risk driver."
+            }
+        ],
+        "calculated_score": 15,
+        "average_severity": 5.0
+    }
+]

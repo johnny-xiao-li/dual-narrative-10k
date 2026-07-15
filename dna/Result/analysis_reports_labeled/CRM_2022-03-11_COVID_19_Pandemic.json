@@ -1,0 +1,178 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Salesforce’s 2022 filing portrays COVID-19 as a still-present, multi-faceted threat that has already produced material impacts and may continue to do so.  The company cites concrete, realized disruptions—e.g., hardware supply shortages and delayed outsourced support—as well as forward-looking exposures such as workforce re-configuration costs, potential service outages, and uncertain future cash-flow effects.  The disclosures are largely specific (naming supply-chain hardware, technical-support delays, real-estate impairments, etc.) and emphasize that the pandemic is “ongoing” and its duration unknown.  Because the filing date (11 Mar 2022) is only two years after the WHO pandemic declaration (11 Mar 2020), the Time-Decay Principle allows high severity scores.  Overall, the text evidences a high but still evolving operational and financial risk profile: past impacts have been “material,” critical functions remain vulnerable, and mitigation language is modest, so most snippets merit scores in the 6-9 range.",
+        "evidence_list": [
+            {
+                "snippet": "The effects of the COVID-19 pandemic and related public health measures on how we and our customers are operating our businesses.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly identifies COVID-19 as affecting day-to-day operations of both Salesforce and its customers (direct operational impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Statement is generic and lacks quantification or detail, reducing severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides a broad acknowledgement of operational disruption but without specifics or magnitude, yielding a moderate risk score of 4."
+            },
+            {
+                "snippet": "The ongoing COVID-19 pandemic has disrupted and continues to disrupt the supply chain of hardware needed to maintain these third-party systems or to run our business, which affects our and our suppliers’ operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that the pandemic \"has disrupted and continues to disrupt\"—a clear, ongoing and direct impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links the disruption to critical hardware for running core services (operational dependency).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes that both Salesforce and suppliers’ operations are affected, broadening the exposure.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, ongoing supply-chain disruption affecting core operations justifies a high severity score of 8."
+            },
+            {
+                "snippet": "Additionally, changes in our work environment and workforce in the wake of the COVID-19 pandemic could adversely affect our operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights workforce and workplace changes triggered by the pandemic (human-capital risk).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly states potential adverse operational effects.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Identifies a plausible operational downside from pandemic-driven workforce changes; specific but not quantified, yielding a score of 6."
+            },
+            {
+                "snippet": "Outsourced provision of technical support may be suddenly and adversely impacted by unforeseen events, for example, as occurred when certain business process outsourced service providers were delayed in effectively servicing our customers due to conditions related to the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites a past, concrete incident where COVID-19 caused delays—evidence of realized impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Warns of sudden adverse impacts on critical customer support functions (service continuity risk).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Example illustrates vulnerability despite outsourcing arrangements, widening exposure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Past incident plus forward-looking risk to critical support services elevates severity to 7."
+            },
+            {
+                "snippet": "The ongoing COVID-19 pandemic and related public health measures have materially affected how we and our customers are operating our businesses, and have in the past materially affected our operating results and cash flows; the duration and extent to which this will impact our future results of operations and cash flows remain uncertain.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Declares that COVID-19 has already ‘materially affected’ operations—strong language.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Confirms material impacts on operating results and cash flows (financial consequence).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Emphasizes ongoing uncertainty about future impact, prolonging risk horizon.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Past material financial impact plus future uncertainty yields a very high risk score of 9."
+            },
+            {
+                "snippet": "As we adopt and refine our Success from Anywhere initiatives, there may be additional investments and redirection efforts in the future which may include position eliminations, incremental costs to improve employees’ ability to work from home and impairments to assets associated with real estate leases in select locations we decide to exit.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Foresees incremental costs tied to remote-work adaptation (direct financial impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions potential position eliminations, indicating labor-force risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Cites possible real-estate impairments, expanding financial exposure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specifies multiple cost vectors (labor, IT, real estate) arising from pandemic-driven workplace change; moderately high risk at 6."
+            },
+            {
+                "snippet": "natural disasters, acts of war, terrorism, and actual or threatened public health emergencies, including the ongoing COVID-19 pandemic and related public health measures and resulting changes to laws and regulations, including changes oriented toward protecting local businesses or restricting the movement of people;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Places COVID-19 alongside other disruptive forces affecting international operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights regulatory changes and movement restrictions, pointing to operational complexity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Broad but less detailed reference to pandemic-related regulatory risk merits a modest score of 4."
+            },
+            {
+                "snippet": "Despite precautions taken at these facilities, such as disaster recovery and business continuity arrangements, the occurrence of a natural disaster or public health emergency (including the COVID-19 pandemic), an act of terrorism, a decision to close the facilities without adequate notice or other unanticipated problems at these facilities could result in lengthy interruptions in our services.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to potential lengthy service interruptions (service reliability risk).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges existing precautions, representing partial mitigation.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Frames the risk as severe (‘lengthy interruptions’), increasing severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Service-interruption scenario is serious but partly mitigated, producing a lower—yet still relevant—score of 3."
+            }
+        ],
+        "calculated_score": 47,
+        "average_severity": 5.875
+    }
+]

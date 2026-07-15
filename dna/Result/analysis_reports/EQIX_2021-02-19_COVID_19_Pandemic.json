@@ -1,0 +1,268 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "EQIX’s 2021 filing provides an extensive, near-term discussion of COVID-19-related threats across operations, customers, supply chain, construction projects and cyber-security.  The pandemic is contemporaneous with the filing date (within one year), so time-decay does not diminish severity scores.  Most statements are forward-looking (“could”, “may”) but many also acknowledge impacts already occurring (customer payment requests, construction delays, remote-work cyber-exposure).  The language links the pandemic directly to potential data-centre shutdowns, revenue loss, supply-chain disruptions and labour shortages—exactly the vectors requested in the prompt.  Although the company lists numerous mitigation steps (essential-business exemptions, business-continuity plans, social-distancing protocols), these do not eliminate risk and therefore only partially offset the severity.  Taken together, the disclosure reflects a high, multi-faceted risk profile occurring in real time; sentence scores therefore cluster in the 3-6 range for generic or partly-mitigated items and 5-7 for specific, material or already observed impacts.",
+        "evidence_list": [
+            {
+                "snippet": "The ongoing COVID-19 pandemic could have a negative effect on our business, results of operations and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to broad, material corporate impacts.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses conditional language ('could') rather than certainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct statement of enterprise-level risk; recent event; generic but material."
+            },
+            {
+                "snippet": "We have activated our business continuity and pandemic plans and while our business operations have continued without interruption and our IBX data centers have remained fully operational to date, we cannot guarantee our business operations or our IBX data centers will not be negatively impacted in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges future negative impact despite current continuity.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States current operations unchanged, a mitigating factor.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Future-oriented uncertainty balanced by mitigation; yields moderate score."
+            },
+            {
+                "snippet": "Any change in these classifications could cause operational disruptions or closures of the affected IBX data centers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specific risk of forced closures of critical facilities.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Contingent on change in classification (uncertainty).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "High-impact facility risk, though conditional, so mid-high score."
+            },
+            {
+                "snippet": "These proactive actions we have taken or may take in the future and any restrictions imposed by the government could result in business delays, operational disruption and customer dissatisfaction.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates concrete adverse outcomes (delays, disruption, dissatisfaction).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Framed around self-initiated precautions (partial mitigation).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Lists tangible impacts but linked to self-imposed actions; moderate severity."
+            },
+            {
+                "snippet": "Employee illnesses resulting from the pandemic could result in further inefficiencies or delays and a suspected or confirmed case in an IBX data center could require temporary closure of the affected IBX data center for cleaning or until local regulatory requirements are fulfilled.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes labour shortage and direct facility shutdown scenarios.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "High-impact, specific operational and labour risk; strong score."
+            },
+            {
+                "snippet": "Preventative measures instituted by governments and businesses to mitigate the spread of COVID-19, including travel restrictions, social distancing requirements, shelter in place orders and quarantines, have negatively impacted the global economy and may adversely impact us, our customers and vendors.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites government measures already harming economy and potentially company.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Connects macro policy actions to potential company harm; high relevance."
+            },
+            {
+                "snippet": "Some of our customers have been negatively impacted by the COVID-19 pandemic which could affect our revenues.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States actual customer impact and direct revenue threat.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Confirms existing downstream effect on revenue; high severity."
+            },
+            {
+                "snippet": "Certain customers have requested revised payment terms and more customers could potentially request such terms.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Evidence of liquidity pressure translating into delayed cash collection.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific financial consequence (working-capital strain); moderate-high score."
+            },
+            {
+                "snippet": "If these stimulus packages do not continue or if they are not sufficient to meet our customers' needs, we could experience more customer churn as a result.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links external fiscal policy to potential increase in churn.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Conditional but material customer-loss risk; solid mid score."
+            },
+            {
+                "snippet": "In general, a prolonged economic downturn could result in a larger customer churn than we currently anticipate and reduced demand for our services, in which case our revenues could be significantly impacted.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Predicts significant revenue hit under extended downturn scenario.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Major revenue-impact scenario tied to pandemic-driven downturn."
+            },
+            {
+                "snippet": "We do not expect the construction delays that we have experienced to have a material effect on the company at this time, but additional supply disruptions because of the ongoing COVID-19 pandemic could occur and cause construction delays that are significant in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights supply-chain risk causing future construction delays.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States current delays not material (mitigation).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Forward-looking supply-chain threat tempered by present immateriality."
+            },
+            {
+                "snippet": "Significant construction delays would interfere with our ability to meet commitments to customers who have contracted for space in new IBX data centers under construction and could have a material impact on our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies customer commitment breach leading to material business impact.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct, material consequence of pandemic-related delays; high score."
+            },
+            {
+                "snippet": "We are also reliant on third party construction labor to build and expand our IBX data centers, to which we may not have access due to the ongoing COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies labour-shortage risk tied to pandemic.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Clear labour dependency risk; moderate severity."
+            },
+            {
+                "snippet": "We rely on materials, products and manufacturing from regions of the world which are impacted by the pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit supply-chain geographic exposure to impacted regions.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "States direct exposure to disrupted regions; moderate score."
+            },
+            {
+                "snippet": "Because of the ongoing COVID-19 pandemic, many of our non-IBX employees are working from home and could potentially be exposed to new security risks or attempted breaches because of these new work environments.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links remote-work shift to elevated cyber-security threat.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific pandemic-driven cyber risk; notable but not quantified."
+            },
+            {
+                "snippet": "Delays may be further exacerbated by the ongoing COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates pandemic could worsen existing sales-cycle delays.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Short statement of pandemic amplifying operational lag; moderate."
+            },
+            {
+                "snippet": "• global pandemics such as the COVID-19 pandemic;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists pandemic among causes of service interruptions—generic mention.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic enumeration; minor incremental risk evidence."
+            },
+            {
+                "snippet": "Any uncertain global economic climate, including the one we are currently experiencing as a result of the ongoing COVID-19 pandemic, could harm our ability to attract and retain customers if customers slow spending, or delay decision-making on our offerings, or if customers begin to have difficulty paying us or seek bankruptcy protection and we experience increased churn in our customer base.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Comprehensive description of customer-spending, decision lag and credit-loss risk linked to pandemic economy.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Detailed articulation of pandemic-driven demand and credit risks; high score."
+            }
+        ],
+        "calculated_score": 71,
+        "average_severity": 3.9444444444444446
+    }
+]

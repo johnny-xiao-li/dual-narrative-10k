@@ -1,0 +1,89 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Dexcom’s 2024 filing still carries explicit, though largely forward-looking, warnings about the lingering repercussions of the COVID-19 pandemic.  The company links a broad range of operational vulnerabilities—global plant or supplier shutdowns, logistics bottlenecks, labour shortages, shifts in patient demand and insurance coverage—to any future resurgence of COVID-19–type public-health crises.  The language is mostly conditional (\"may\", \"could\") rather than describing current impairment and no dollar figures are supplied, so the risk is characterised as potential rather than already-realised.  Because the filing date is almost four years after the WHO declaration (placing the pandemic at the start of the medium-term 4-to-10-year window), the Time Decay Principle tempers the severity that otherwise strong phrasing such as “material adverse effect” might command.  Overall, the disclosures indicate a moderate, persisting exposure that management believes is still material enough to highlight, but the absence of quantified impacts or present-tense losses limits the final scores to the mid-range.",
+        "evidence_list": [
+            {
+                "snippet": "We are subject to risks associated with public health issues, including pandemics, which could have a material adverse effect on our business, financial condition and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemics to potentially ‘material adverse’ impacts on multiple facets of the company.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong adverse-impact wording (‘material adverse effect’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Statement is generic and conditional (‘could’), reducing immediacy.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Time Decay – pandemic now ~4 years old, so score is moderated.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic, forward-looking pandemic warning with strong wording but no specifics or quantification; medium-term timing moderates severity."
+            },
+            {
+                "snippet": "Public health issues and crises may adversely impact our operations, supply chain and logistics network if the locations where we operate, manufacture or distribute our products; where our raw materials or products are sourced, manufactured or distributed; or where our third-party distributors, suppliers and other service providers operate, are disrupted, temporarily closed or experience worker shortages for a sustained period of time.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple concrete impact channels: operations, supply chain, logistics, supplier networks.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies disruptive mechanisms (plant closures, worker shortages).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Framed as potential (‘may’), not current fact.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Time Decay adjustment for a 4-year-old event.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Granular description of how a pandemic could disrupt Dexcom’s global manufacturing and supply chain yields a solid mid-level risk score after applying time-decay."
+            },
+            {
+                "snippet": "In addition, public health issues and crises may adversely impact our customers and/or their businesses due to lockdowns, labor shortages, lost access to private health insurance plans or modified spending priorities, all of which could cause a decline in demand for our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies specific customer-side stressors (lockdowns, insurance loss, spending shifts) that directly translate to lower product demand.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects those stressors explicitly to revenue impact (‘decline in demand’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Conditional language and lack of quantification temper strength.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term time decay factor.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights potential demand shock pathways—valuable detail—but still hypothetical and time-diluted, resulting in a moderate score."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 3.0
+    }
+]

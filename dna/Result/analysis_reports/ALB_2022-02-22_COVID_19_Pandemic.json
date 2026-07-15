@@ -1,0 +1,115 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "ALB’s February 2022 Form 10-K addresses COVID-19 primarily as an ongoing, forward-looking enterprise-wide threat. The company concedes that, although it has not yet suffered a ‘material impact,’ the pandemic could still produce material adverse effects across multiple vectors—financial covenants, supply-chain continuity, customer demand, workforce safety and macro-economic stability. The language is specific enough to reference concrete mechanisms (government restrictions, supplier network disruptions, covenant default risk), yet remains largely conditional (‘could,’ ‘may,’ ‘depend on’), signalling a contingent rather than realised loss. Mitigating statements (ample inventory, cost-savings initiatives, equity raise) temper severity but do not fully offset the exposure because the firm openly admits it cannot predict the ultimate impact. Given the filing date (Feb-2022) is less than two years after the WHO pandemic declaration, Time-Decay allows high scores; nonetheless, the absence of quantified losses and the presence of mitigation measures warrant upper-moderate, not maximum, severity levels. Overall, COVID-19 stands out as an active, high-uncertainty risk with potential to become material if conditions worsen, justifying individual snippet scores in the 1-5 range and an aggregate risk perception in the 6-7 band.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic could have a material adverse effect on our results of operations, financial position, and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly ties pandemic to company’s core financial metrics (‘results of operations, financial position, and cash flows’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses ‘material adverse effect,’ signalling high severity if realised.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional wording (‘could’) indicates potential rather than current impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Explicitly warns of material enterprise-wide harm; potential nature reduces the score slightly from maximum."
+            },
+            {
+                "snippet": "These factors include, but are not limited to, the duration and severity of the pandemic, including from the discovery of new strain variants; government restrictions on businesses and individuals; the health and safety of our employees and communities in which we do business; the impact of the pandemic on our customers' businesses and the resulting demand for our products; the impact on our suppliers and supply chain network; the impact on U.S. and global economies and the timing and rate of economic recovery; and potential adverse effects on the financial markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple specific impact channels (demand destruction, supply-chain disruption, government restrictions, macro-economy).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly references suppliers and supply-chain network—central to event focus.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Absence of quantification keeps severity moderate.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Broad, detailed catalogue of risk pathways lifts severity but lack of numbers keeps it below top score."
+            },
+            {
+                "snippet": "However, if conditions caused by the COVID-19 pandemic worsen, the Company may not be able to maintain compliance with its financial covenants and could be required to seek additional amendments to the Credit Agreements.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic directly to potential breach of debt covenants—a serious financial risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights need to renegotiate credit agreements, implying liquidity stress.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Contingent wording (‘may’) indicates scenario-based risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Connects pandemic escalation to covenant default, a tangible high-impact threat, though still conditional."
+            },
+            {
+                "snippet": "We believe we have sufficient inventory to continue to produce at current levels, however, government mandated shutdowns could impact our ability to acquire additional materials and disrupt our customers’ purchases.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential supply-chain interruptions and customer demand disruption due to shutdowns.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States mitigation through existing inventory levels.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Use of ‘could’ signals uncertainty rather than active impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mentions concrete supply-chain risk but mitigation and conditional language greatly reduce severity."
+            },
+            {
+                "snippet": "We have not seen a material impact to our operations to date, however, the ultimate impact on our business will depend on the length and severity of the outbreak throughout the world.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges no material impact so far, which is mitigating.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Emphasises future uncertainty tied to outbreak duration and severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Statement balances absence of current harm with acknowledgement of future uncertainty, netting to neutral risk weight."
+            }
+        ],
+        "calculated_score": 14,
+        "average_severity": 2.8
+    }
+]

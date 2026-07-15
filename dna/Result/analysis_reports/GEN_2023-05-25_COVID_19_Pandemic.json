@@ -1,0 +1,107 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "GEN’s 2023 Form 10-K contains several discrete references to COVID-19 that together paint a picture of a still-salient—but no longer existential—risk.  The pandemic is treated as both (i) an historical, realized shock that forced an immediate operational pivot to large-scale remote work and (ii) an ongoing, forward-looking threat that could continue to erode employee cohesion, hinder talent acquisition, and weigh on overall operating results and cash flows.  The language is largely qualitative and company-specific: it ties the pandemic directly to changes already made (mandatory remote environment) and to concrete areas of concern (culture, creativity, hiring, retention, facility shutdowns, revenue impacts).  No dollar figures are provided, and supply-chain or demand-shift issues are not emphasized, which tempers severity.  Under the Time Decay Principle the event is recent (≈3 years old), so elevated—but not maximum—scores are appropriate.  Taken together, COVID-19 remains a moderate-to-high operational risk whose primary manifestation for GEN is workforce effectiveness and broader macro volatility rather than immediate, quantifiable financial loss.",
+        "evidence_list": [
+            {
+                "snippet": "As a result of the COVID-19 pandemic, we transitioned to a remote working environment for the substantial majority of our employees.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly attributes a significant operational change directly to the pandemic ('As a result of').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Describes a broad, company-wide impact on labor practices (remote working for the substantial majority of employees).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No quantification of cost or productivity impact provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct causal link to a large-scale, realized operational shift warrants a high-moderate score, reduced slightly for lack of quantification."
+            },
+            {
+                "snippet": "Over time such remote operations may decrease the cohesiveness of our employees and our ability to maintain our culture, both of which are integral to our success.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential degradation of employee cohesion and corporate culture—core human-capital risks.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses forward-looking modal verb ('may'), signalling uncertainty rather than an existing loss.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specifies an important but still prospective risk stemming from pandemic-induced remote work, giving it a mid-range score."
+            },
+            {
+                "snippet": "Additionally, a remote working environment may impede our ability to undertake new business projects, to foster a creative environment, to hire new employees and to retain existing employees.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple operational areas (innovation, hiring, retention) that could be negatively affected.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Risk framed as conditional ('may impede'), indicating uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Enumerates several material future-looking impacts, yielding a solid but not extreme score."
+            },
+            {
+                "snippet": "Volatile market conditions related to Russia’s invasion of Ukraine and retaliatory sanctions against the Russian Federation and Belarus, the COVID-19 pandemic and other macroeconomic events have, at times, and may in the future negatively impact our results of operations and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that the pandemic has already had negative effects on results and cash flows.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links pandemic to financial statement impacts (results of operations, cash flows).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Risk is bundled with other geopolitical factors, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows actual and potential financial harm but combines several events, leading to a balanced moderate score."
+            },
+            {
+                "snippet": "The occurrence of a natural disaster, an act of terrorism state-sponsored attacks, a pandemic, geopolitical tensions or armed conflicts, and similar events could result in a decision to close the facilities without adequate notice or other unanticipated problems, which in turn, could result in lengthy interruptions in the delivery of our products and services, which could negatively impact our sales and operating results.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes facility closure and service interruption as possible pandemic consequences—clear operational risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highly hypothetical, grouped with many other hazards, lowering immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Generic, scenario-based pandemic reference warrants a lower-moderate score."
+            }
+        ],
+        "calculated_score": 24,
+        "average_severity": 4.8
+    }
+]

@@ -1,0 +1,270 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "POOL’s 2021 10-K places the COVID-19 pandemic squarely in the category of an active, near-term enterprise risk.  The filing explicitly documents (a) realized, quantified financial damage in early 2020 (a $6.9 million impairment and sales declines), (b) operational disruptions such as temporary facility closures in Europe and sporadic U.S. shutdowns, and (c) forward-looking exposures ranging from renewed stay-at-home mandates to supply-chain strain and potential reversal of the pandemic-generated demand surge.  Although the company benefited from “home-centric” trends in the short run, management stresses that these gains may be unsustainable and that future impacts “may be worse than we anticipate.”  The language is therefore both backward-looking (realized impacts) and forward-looking (persistent uncertainty), and it spans multiple risk vectors—demand volatility, supply-chain interruptions, labor / facility availability, and financial impairment.  Because the filing date (Feb-2021) is within one year of the WHO declaration (Mar-2020), the Time Decay Principle allows high severity scores (up to 10).  Quantified impairments and specific operational effects warrant the highest micro-scores, while more generic or mitigated statements receive lower or even negative scores to reflect offsetting factors such as the “essential business” designation or temporary nature of some closures.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic and associated responses could adversely impact our business and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to potential adverse impact on business/results.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses conditional language ('could'), indicating generic forward-looking nature.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Direct acknowledgement of pandemic risk, but generic wording keeps the score moderate."
+            },
+            {
+                "snippet": "Our sales in March and April 2020 were adversely impacted by the COVID-19 pandemic, and in the first quarter of 2020, we recorded impairment charges of $6.9 million related to the pandemic.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States realized adverse sales impact tied to pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Provides quantified financial damage (impairment of $6.9 million).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Event is recent and clearly attributed to COVID-19.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Recent, quantified, material impact yields a very high severity score."
+            },
+            {
+                "snippet": "Impacts from the COVID-19 pandemic, coupled with heightened demand, could also adversely impact our supply chain, making it difficult to source and receive products needed to keep our customers adequately supplied.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential supply-chain disruption, a critical operational risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty (use of 'could').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Risk not yet realized.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific supply-chain vulnerability elevates risk, but absence of realized losses tempers the score."
+            },
+            {
+                "snippet": "In almost all of our markets, we are designated as an essential business under the relevant state and local regulations and have been allowed to remain open; however, if this changes, it could adversely impact our financial condition and operating results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges risk of forced closure and adverse impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Current mitigation—designation as essential business.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Potential closure risk is largely offset by present mitigation, resulting in a low net score."
+            },
+            {
+                "snippet": "In limited instances, we have had to close facilities in whole or in part as a result of government regulations, as well as positive or presumed positive results from COVID-19 testing.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports actual facility closures due to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Scope expressly described as 'limited', reducing severity.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Realized but minor operational disruption nets to a neutral overall risk contribution."
+            },
+            {
+                "snippet": "Beginning in the middle of March 2020, when stay-at-home orders related to the COVID-19 pandemic were initially issued, we experienced sales declines across most markets.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies actual sales declines tied to pandemic-driven orders.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Recency (within same fiscal year).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No dollar magnitude provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Documented, recent revenue hit boosts risk, but lack of quantification limits maximum score."
+            },
+            {
+                "snippet": "While the short-term impact of this trend has had a positive impact on our business, it is unclear what the long-term impact will be.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights uncertainty about future effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions current positive impact, which mitigates risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Forward-looking uncertainty is partly offset by present benefits, yielding a low score."
+            },
+            {
+                "snippet": "While these restrictions were lifted, new stay-at-home orders or other government mandates could have a material impact on our results.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of possible renewed mandates with 'material impact'.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong severity language ('material').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Explicit possibility of significant renewed disruption places the risk in the upper-mid range."
+            },
+            {
+                "snippet": "Given the uncertainties caused by the COVID-19 pandemic, we began taking steps in April to reduce both capital expenditures and operating costs.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows management reaction to pandemic uncertainty—a sign of risk recognition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Cost-cutting is a mitigating action.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Risk is acknowledged but fully offset by proactive mitigation, netting to neutral."
+            },
+            {
+                "snippet": "Our results in 2020 were positively impacted by home-centric trends resulting from the COVID-19 pandemic.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates beneficial impact rather than risk.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": -2
+                },
+                "reasoning_summary": "This sentence reflects upside, effectively reducing overall pandemic risk."
+            },
+            {
+                "snippet": "These trends may not continue, or may reverse, which could adversely impact our results of operations.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns that current pandemic-related demand may reverse and hurt results.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights vulnerability to a downturn in pandemic-driven demand, a solid mid-level risk."
+            },
+            {
+                "snippet": "The impact of the ongoing pandemic on our business and financial results will continue to vary by location and depend on numerous evolving factors that we are not able to accurately predict.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasizes broad uncertainty and uncontrollable variables.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highly generic with no specific impact quantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Unpredictability adds risk but vagueness keeps the score modest."
+            },
+            {
+                "snippet": "Our operations in Europe closed for a short period during the first half of 2020 in France, Spain and Italy, in order to comply with local authorities’ orders.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States actual geographic shutdowns tied to pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Duration qualified as 'short period', limiting severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Realized closures exist but were temporary, so risk contribution is small."
+            },
+            {
+                "snippet": "Accordingly, COVID-19 may have negative impacts on our business in the future, and any future adverse impacts on our business may be worse than we anticipate.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Foresees potentially greater-than-expected future harm.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional and unquantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Highlights downside risk escalation but remains general, yielding a moderate score."
+            }
+        ],
+        "calculated_score": 31,
+        "average_severity": 2.2142857142857144
+    }
+]

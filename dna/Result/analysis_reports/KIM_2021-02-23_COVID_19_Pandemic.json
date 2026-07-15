@@ -1,0 +1,427 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "KIM’s 10-K, filed less than a year after the WHO declaration, gives extensive, contemporaneous disclosures that COVID-19 is already producing material, measurable harm and remains an unresolved strategic threat.  Language progresses from generic risk framing (\"may adversely affect\") to concrete evidence: widespread tenant closures, late or defaulted rent, supply-chain interruptions, remote-work frictions, and heightened cyber-exposure.  The company also quantifies behavioural impacts (foot-traffic loss) and admits to granting rent deferrals and waivers, signalling cash-flow stress.  These are direct, already-realised effects on core revenue streams, not merely hypothetical.  Because the pandemic falls well within the 0-3-year “recent” window, Time-Decay allows high severity scores.  No significant mitigating language (such as full insurance recovery or complete digital substitution) is offered; instead, the filing stresses continuing uncertainty and the potential for further material damage.  Consequently, most sentences warrant upper-mid to high risk points (7-9), with slightly lower scores (4-6) where wording is more conditional or indirect.",
+        "evidence_list": [
+            {
+                "snippet": "Pandemics or other health crises may adversely affect our tenants’ financial condition and the profitability of our properties.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemics as a threat to tenant finances and property profitability (core revenue link).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses conditional ‘may’, signalling potential not certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic forward-looking statement; establishes linkage but without quantified or realised impact."
+            },
+            {
+                "snippet": "Our business and the businesses of our tenants could be materially and adversely affected by the risks, or the public perception of the risks, related to a pandemic or other health crisis, such as the recent outbreak of novel coronavirus (COVID-19).",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references COVID-19 and states impact could be ‘material and adverse’.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Still phrased as ‘could’, forward-looking.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Names COVID-19 and predicts material harm, but framed as possibility, so moderate score."
+            },
+            {
+                "snippet": "Such events could result in the complete or partial closure of one or more of our tenants’ manufacturing facilities or distribution centers, temporary or long-term disruption in our tenants’ supply chains from local and international suppliers, and /or delays in the delivery of our tenants’ inventory.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete operational impacts: closures, supply-chain disruption, inventory delays.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Use of ‘could’ keeps it prospective.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific mechanisms of disruption raise risk, tempered slightly by conditional wording."
+            },
+            {
+                "snippet": "The profitability of our properties depends, in part, on the willingness of customers to visit our tenants’ businesses.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links foot-traffic directly to profitability, implying vulnerability to pandemic avoidance behaviour.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights sensitivity to customer visits but without expressly mentioning COVID-19; low-moderate severity."
+            },
+            {
+                "snippet": "The risk, or public perception of the risk, of a pandemic or media coverage of infectious diseases could cause employees or customers to avoid our properties, which could adversely affect foot traffic to our tenants’ businesses and our tenants’ ability to adequately staff their businesses.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explains customer and labour avoidance leading to foot-traffic decline – core revenue driver.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Conditional language ‘could’.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specifies behavioural change impacts; still potential rather than realised."
+            },
+            {
+                "snippet": "Such events could adversely impact tenants’ sales and/or cause the temporary closure of our tenants’ businesses, which could severely disrupt their operations and have a material adverse effect on our business, financial condition and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects closures and sales decline to ‘material adverse effect’.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Conditional phrasing.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Materiality claim lifts score; still partly prospective."
+            },
+            {
+                "snippet": "The Company’s business, financial condition, results of operations or stock price has and may continue to be adversely impacted by the COVID-19 pandemic and such impact could be material.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States impacts have already occurred (‘has’) and may persist.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Labels impact as ‘material’.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, realised, material impact; high severity."
+            },
+            {
+                "snippet": "In March 2020, the outbreak of COVID-19 was recognized as a pandemic by the WHO.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides temporal anchoring of the event’s commencement.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Factual background; minimal risk content."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has resulted in a widespread health crisis that has had a significant adverse effect on businesses, economies and financial markets worldwide, and has caused significant volatility in U.S. and international debt and equity markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights macro-level adverse effects and market volatility.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Frames external environment risk; moderate severity."
+            },
+            {
+                "snippet": "There is significant uncertainty around the extent and duration of business disruptions related to COVID-19, as well as its long-term impact on the U.S. economy.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises uncertainty and potential long-term disruption.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Uncertainty itself elevates risk; moderate score."
+            },
+            {
+                "snippet": "Our business and the businesses of our tenants have been adversely affected by the COVID-19 pandemic and actions taken to contain or prevent its spread.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits actual adverse effects already experienced.",
+                            "points": 6
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Confirms realised negative impact; high-moderate severity."
+            },
+            {
+                "snippet": "A substantial number of tenants have temporarily or permanently closed their businesses, have shortened their operating hours or offered reduced services.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies tenant closures/limitations – direct revenue hit.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Uses ‘substantial’, implying broad scope.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Concrete evidence of operational disruption across tenant base."
+            },
+            {
+                "snippet": "As a result, the Company has also had a substantial number of tenants that have made late or partial rent payments, requested a deferral of rent payments, forgiveness of rent payments or defaulted on rent payments, and it is likely that more of our tenants will be similarly impacted in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details direct financial impacts: late/partial/defaulted rent.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Forecasts continued deterioration (‘likely that more…’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Past and expected future cash-flow damage; high severity."
+            },
+            {
+                "snippet": "Impacts of COVID-19 could also result in the complete or partial closure of one or more of our tenants’ manufacturing facilities or distribution centers, temporary or long-term disruption in our tenants’ supply chains from local and international suppliers, and/or delays in the delivery of our tenants’ inventory.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights supply-chain and operational shutdowns beyond retail sites.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Details indirect operational impacts; moderately severe."
+            },
+            {
+                "snippet": "Even after governmental restrictions are lifted, our tenants may continue to be impacted by economic conditions resulting from COVID-19 or public perception of the risk of COVID-19, which could adversely affect foot traffic to our tenants’ businesses and our tenants’ ability to adequately staff their businesses.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes persistence of risk beyond lockdowns – prolonged impact.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Emphasises lingering demand/labour issues; moderate severity."
+            },
+            {
+                "snippet": "Such events could severely disrupt their operations and have a material adverse effect on our business, financial condition and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States possibility of ‘material adverse effect’.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Strong wording but still conditional; mid-high risk."
+            },
+            {
+                "snippet": "A downturn in our tenants’ businesses that significantly weakens their financial condition could cause them to delay lease commencements or decline to extend or renew leases upon expiration and could lead to additional failures to make rental payments when due, store closures or bankruptcies, and we may be unable to collect past due balances under relevant leases.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Outlines cascading financial impacts (defaults, bankruptcies).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Expressed as contingent on downturn.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Serious but scenario-based; moderate score."
+            },
+            {
+                "snippet": "In addition, like many other companies, due to government mandates, we have instructed our employees to work from home, which, especially if this persists for a prolonged period of time, may have an adverse impact on our employees, operations and systems.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies remote-work shift and resulting operational risks.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Operational resilience risk; moderate."
+            },
+            {
+                "snippet": "Extended periods of remote work arrangements could strain our business continuity plans, introduce operational risk, including but not limited to cybersecurity risks, and impair our ability to manage our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific risk channels (business continuity, cyber).",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specifies secondary risks; moderate severity."
+            },
+            {
+                "snippet": "While most of our operations can be performed remotely, there is no guarantee that we will be as effective while working remotely because our team is dispersed, many employees may have additional personal needs to attend to and employees may become sick themselves and be unable to work.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits potential productivity drop and illness impact.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights workforce fragility; moderate risk."
+            },
+            {
+                "snippet": "Decreased effectiveness of our team could adversely affect our results due to our inability to meet in person with potential tenants, longer time periods to review and approve leases, longer time to respond to tenant and property issues, or other decreases in productivity that could seriously harm our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links remote-work inefficiencies to revenue-generating processes.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Operational delays could harm financials; moderate."
+            },
+            {
+                "snippet": "The COVID-19 pandemic, or a future pandemic, could also have material and adverse effects on our ability to successfully operate and on our financial condition, results of operations and cash flows due to, among other factors:",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit ‘material and adverse effects’ on multiple financial metrics.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Broad but strong materiality statement; mid-high score."
+            },
+            {
+                "snippet": "The extent to which the COVID-19 pandemic continues to impact our business, results of operations, financial condition and stock price will depend on numerous evolving factors that are highly uncertain and which we may not be able to predict, including the duration and scope of the pandemic, governmental, business and individual actions that have been and continue to be taken in response to the pandemic, the impact on economic activity from the pandemic and actions taken in response, the impact on our employees and other operational disruptions or difficulties we may face, the effect on our tenants and their businesses, the ability of tenants to pay their contracted rents and any additional closures of our tenants’ businesses.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple uncertainty drivers affecting core metrics.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Comprehensive uncertainty list signals ongoing high risk."
+            },
+            {
+                "snippet": "These effects, individually or in the aggregate, will adversely impact our tenant’s ability to pay their contracted rent.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Predicts direct negative cash-flow consequence (rent collection).",
+                            "points": 6
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear statement of revenue impairment; high-moderate severity."
+            },
+            {
+                "snippet": "Financial disruption or a prolonged economic downturn could materially and adversely affect the Company’s business. Worldwide financial markets have recently experienced periods of extraordinary disruption and volatility, which has been exacerbated by the COVID-19 pandemic, resulting in heightened credit risk, reduced valuation of investments and decreased economic activity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to macro-financial instability impacting funding and valuations.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights financing risk through market volatility; moderate."
+            },
+            {
+                "snippet": "Moreover, many companies have experienced reduced liquidity and uncertainty as to their ability to raise capital during such periods of market disruption and volatility.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Points to capital-raising difficulties linked to pandemic-driven volatility.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Capital market risk; moderate severity."
+            },
+            {
+                "snippet": "As a result of the COVID-19 pandemic, employees working remotely has amplified certain risks to our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that pandemic-induced remote work creates new risks.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Introduces secondary risk amplification; moderate."
+            },
+            {
+                "snippet": "The number of points of potential cyberattack, such as laptops and mobile devices have increased and any failure to effectively manage these risks, including to timely identify and appropriately respond to any cyberattacks or other disruption to our technology infrastructure, may adversely affect our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies heightened cybersecurity exposure due to remote devices.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Operational cyber risk linked to pandemic; moderate."
+            },
+            {
+                "snippet": "Cyber criminals are targeting their attacks on individual employees, utilizing interest in pandemic related information to increase business email compromise scams designed to trick victims into transferring sensitive data or funds, or steal credentials that compromise information systems which extend to multiple platforms throughout the Company.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes active threat vector exploiting pandemic themes; potential financial and data loss.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete description of cyber-attack methods leveraging COVID-19; mid-high risk."
+            }
+        ],
+        "calculated_score": 100,
+        "average_severity": 4.586206896551724
+    }
+]

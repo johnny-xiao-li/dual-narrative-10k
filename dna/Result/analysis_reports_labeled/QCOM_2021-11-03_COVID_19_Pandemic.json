@@ -1,0 +1,288 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Qualcomm’s 2021 filing acknowledges COVID-19 as both an historic and an ongoing enterprise-wide risk.  The company discloses that the pandemic already produced concrete adverse impacts in 2020-2021 – notably lower handset demand, reduced royalty revenue and a forced shift to large-scale remote work.  It also lays out multiple forward-looking threat vectors: prolonged demand volatility, supply-chain delays, potential insolvency of partners, labour shortages, cyber-security exposure, manufacturing shutdowns and even adverse tax legislation to fund stimulus programmes.  These statements are recent (within 0-3 years of the WHO declaration) and are mostly specific to Qualcomm’s cost structure, revenue streams and operational model rather than generic boiler-plate.  No material mitigating language (e.g., insured losses, full recovery, or quantified offsets) is offered beyond noting partial rebounds and remote-work adaptations.  Under the Time Decay Principle, evidence can be scored aggressively (7-10) because the pandemic is still unfolding and the impacts described are direct and material.  Sentences that merely note uncertainty or minor secondary effects receive lower weights, while those detailing realised revenue declines or critical-function risks receive higher scores.",
+        "evidence_list": [
+            {
+                "snippet": "The coronavirus (COVID-19) pandemic had an adverse effect on our business and results of operations, and may continue to impact us in the future.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit statement of realised negative impact ('had an adverse effect').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Flags ongoing, future exposure (‘may continue to impact’).",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, company-wide harm already realised plus clear warning of continuing risk warrants a high score of 8."
+            },
+            {
+                "snippet": "The rapid, global spread of COVID-19 and the fear it created resulted in significant economic uncertainty, significant declines in business and consumer confidence and global demand in the wireless industry (among others) and a global economic slowdown, which resulted in a global recession.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to macro-level recession and demand collapse in core industry.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong qualifiers (‘significant’, ‘global slowdown’).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Shows systemic scope and severity of demand shock; scored 7 for breadth of impact."
+            },
+            {
+                "snippet": "Specifically, throughout most of calendar 2020 and into early calendar 2021, the decline in demand for smartphones and other consumer devices sold by our customers or licensees resulted in decreased demand for our integrated circuit products ... and a decrease in the royalties we earned on the licensing of our intellectual property.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete operational impact on chipset demand.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links to lowered royalty revenue stream.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Gives precise time window, confirming recency.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Provides specific cause-and-effect on two revenue lines, justifying score 8."
+            },
+            {
+                "snippet": "The COVID-19 pandemic could impact our business, results of operations and financial condition in the future through delayed, reduced or cancelled customer orders; disruptions or delays in our supply chain; the inability of our customers or licensees to purchase or pay for our products or technologies; the insolvency of key suppliers, customers or licensees; delays in reporting or payments from our customers or licensees; or failures by other counterparties.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple operational and financial threat channels.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty across entire value chain.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Comprehensive list of prospective harms pulls score to 6 (high but unquantified)."
+            },
+            {
+                "snippet": "Additionally, federal, state or foreign governments may in the future increase corporate tax rates, increase employer payroll tax obligations and/or otherwise change tax laws to pay for stimulus and other actions that have been and may in the future be taken as a result of the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces regulatory/tax burden risk linked to pandemic spending.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Potential (not yet realised) nature tempers severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Adds a secondary fiscal risk; moderate score of 3 due to speculative timing."
+            },
+            {
+                "snippet": "The COVID-19 pandemic also caused us to modify our workforce practices, such as having the vast majority of our employees working from home.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows direct operational change already implemented.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Implies partial mitigation through remote work adoption.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Actual impact but mitigated by successful remote shift; net score 2."
+            },
+            {
+                "snippet": "We could be negatively affected in the future if, among others, a significant number of our employees, or employees who perform critical functions, become ill and/or are quarantined as the result of exposure to COVID-19, or if government policies restrict the ability of those employees to perform their critical functions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights labour continuity risk for critical functions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking conditional language.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Material human-capital exposure, but still contingent; scored 5."
+            },
+            {
+                "snippet": "Further, our efforts to reopen our offices safely may not be successful, could expose our employees, customers, licensees and partners to health risks and us to associated liability, and could result in disruptions among our employees.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies liability and workforce disruption risk tied to reopening.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specific operational risk without quantification; score 3."
+            },
+            {
+                "snippet": "The degree to which the COVID-19 pandemic impacts our future business, results of operations and financial condition will depend on future developments, which are uncertain...",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges high uncertainty in forecasting impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Adds uncertainty but few specifics; low score 2."
+            },
+            {
+                "snippet": "We are similarly unable to predict the extent to which the pandemic impacts our customers, licensees, suppliers and other partners and their financial conditions, but adverse effects on these parties could also adversely affect us.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links counter-party financial health to Qualcomm’s own risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasises unpredictability.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows knock-on effects; moderate score 4."
+            },
+            {
+                "snippet": "Finally, the COVID-19 pandemic may make it harder for management to estimate the future performance of our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies forecasting/strategic-planning difficulty.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Strategic risk but minimal detail; score 2."
+            },
+            {
+                "snippet": "To the extent the COVID-19 pandemic adversely affects our business, results of operations and financial condition, it may also have the effect of exacerbating the other risks discussed in this “Risk Factors” section.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States compounding effect on overall risk profile.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Notes cross-risk amplification; limited specifics, so score 2."
+            },
+            {
+                "snippet": "Health crises, including epidemics or pandemics, such as the COVID-19 pandemic, and government and business responses thereto, which impact our suppliers, including as a result of quarantines or closures;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit supply-chain disruption mechanism identified.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Pinpoints supplier disruption; concise but relevant – score 3."
+            },
+            {
+                "snippet": "Health crises, including epidemics or pandemics, such as the COVID-19 pandemic, and government and business responses thereto, could affect our manufacturing facilities, including by resulting in quarantines and/or closures, which would result in disruptions to and potential closures of our manufacturing operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details risk of plant shutdowns affecting production capacity.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct threat to core manufacturing warrants score 4."
+            },
+            {
+                "snippet": "The perception that the COVID-19 pandemic has made companies’ IT systems more vulnerable has increased the already significant volume of such attacks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to heightened cyber-attack volume.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Cybersecurity vector noted; moderate weight 3."
+            },
+            {
+                "snippet": "The increased availability of remote working arrangements, largely driven by the COVID-19 pandemic, has expanded the pool of companies that can compete for our employees and employment candidates.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights talent-retention risk due to pandemic-driven remote work norms.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Secondary HR risk; limited magnitude so score 2."
+            },
+            {
+                "snippet": "If we or our customers overestimate demand, or if demand is impacted by factors outside of our or our customers’ control such as the COVID-19 pandemic, ... we may experience increased excess or obsolete inventory, which would negatively impact our results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies inventory write-off risk tied to pandemic demand shocks.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Financial exposure via inventory risk; score 3."
+            }
+        ],
+        "calculated_score": 67,
+        "average_severity": 3.9411764705882355
+    }
+]

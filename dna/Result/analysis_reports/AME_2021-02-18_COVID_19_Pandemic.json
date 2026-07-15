@@ -1,0 +1,329 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "AME’s 2020 Form 10-K links the COVID-19 pandemic to both realized and prospective risks across virtually every dimension of the company’s operations.  The filing, dated February 18 2021, sits well inside the 0-3-year window after the World Health Organization’s March 11 2020 declaration, so Time-Decay allows elevated scores.  The disclosure set begins with broad, forward-looking language (“could have a material adverse effect”) but quickly moves into concrete evidence: 13-15 % organic sales declines, an 11 % order drop, $43.9 million of restructuring costs, and explicit references to manufacturing restrictions, remote-work cyber-exposure, demand destruction and uncertain supply chains.  These statements show a mix of (i) direct, already-incurred impacts (e.g., quantifiable revenue declines and severance/write-down charges) and (ii) ongoing exposure to further shocks (supply-chain fragility, workforce illness, geopolitical tension).  Some mitigating notes appear—plants remain open, supply chains “currently not materially affected,” orders beginning to stabilize—but they are outweighed by the breadth and depth of impacts already recorded.  Overall, the pandemic constitutes a high-severity, current risk for AME, justifying snippet scores that cluster in the upper mid-range (6-9) when quantified impacts are present, and moderate scores (2-5) where the language is more precautionary or partially offset by mitigants.",
+        "evidence_list": [
+            {
+                "snippet": "The coronavirus global pandemic could have a material adverse effect on our ability to operate, results of operations, financial condition, liquidity and ability to consummate future acquisitions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states a ‘material adverse effect’ across multiple financial dimensions.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Risk is phrased as potential (‘could’), not yet quantified or realized.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Broad but strong warning of multi-faceted material harm; lack of quantification tempers the score to 4."
+            },
+            {
+                "snippet": "The outbreak of COVID-19 has resulted in a widespread health crisis that is adversely affecting the economies and financial markets of many countries and the end markets for many of our products, which could result in an economic downturn that may negatively affect demand for our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes current, already occurring adverse effects on end markets.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights knock-on risk to product demand in an economic downturn.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows both present and prospective demand shock, justifying a mid-high score of 5."
+            },
+            {
+                "snippet": "Our global manufacturing facilities remain open with a focus on safety protocols, though a range of external factors related to the pandemic that are not within our control have restricted our ability to keep our manufacturing facilities fully operational.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits actual restriction on ability to keep plants fully operational.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Mitigating note that facilities remain open with safety protocols.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Operational disruption is acknowledged, but partial mitigation caps the score at 4."
+            },
+            {
+                "snippet": "Additionally, while our global supply chains are currently not materially affected, it is unknown whether and to what extent they may be affected if the COVID-19 pandemic persists for an extended period.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential future supply-chain disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States current impact is minimal (mitigating).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Purely precautionary with explicit mitigation, yielding a negligible net score."
+            },
+            {
+                "snippet": "Moreover, the COVID-19 pandemic may adversely affect the financial condition of our customers and suppliers in the future or their ability to purchase Company products, may delay customers’ purchasing decisions, result in a shift to lower-priced products or away from discretionary products, and may result in longer payment terms or inability to collect customer payments.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple routes of revenue and liquidity risk (customer insolvency, demand shift, collections).",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Risk framed as ‘may’ (prospective).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Detailed but forward-looking customer-credit and demand risk gives a solid 5."
+            },
+            {
+                "snippet": "In compliance with stay-at-home orders issued in connection with the COVID-19 pandemic, a significant subset of our employees have transitioned to working from home.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States an operational change already in effect (remote work).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Actual shift to remote work is noted but without explicit downside yet, hence a modest score."
+            },
+            {
+                "snippet": "As a result, more of our employees are working from locations where our cybersecurity program may be less effective and IT security may be less robust.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies increased cyber-security vulnerability due to remote work.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Introduces a concrete new risk vector (cyber) directly tied to the pandemic-driven work model."
+            },
+            {
+                "snippet": "This change may create increased vulnerability to cybersecurity incidents, including breaches of information systems security, which could result in a disruption of our operations, customer dissatisfaction, damage to our reputation and a loss of customers or revenues.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists severe possible consequences (operational disruption, reputation, revenue loss).",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific downstream impacts of cyber risk raise severity to 4."
+            },
+            {
+                "snippet": "If significant portions of our workforce are unable to work effectively, including because of illness, quarantines or absenteeism; government actions; facility closures; work slowdowns or stoppages; limited supplies or resources; or other circumstances related to COVID-19, our operations will be further impacted.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights multiple labor-supply disruptions tied to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Conditional (‘if’) wording indicates potential, not certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Potential but multifaceted workforce risk earns a 3."
+            },
+            {
+                "snippet": "The duration and intensity of the impact of the COVID-19 pandemic and the resulting disruption to our operations is uncertain but could have a material impact on our operations, cash flows, financial condition and ability to consummate future acquisitions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Asserts possibility of material impacts across cash flow and strategy.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Admits uncertainty, reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Material but uncertain statement gives a balanced score of 3."
+            },
+            {
+                "snippet": "During 2020, the COVID-19 pandemic resulted in a rapid decline in demand which impacted most of our end markets and geographies.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports an already-realized broad decline in demand.",
+                            "points": 7
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Actual enterprise-wide volume hit warrants a high score of 7."
+            },
+            {
+                "snippet": "The decrease in net sales for 2019 was due to a 13% organic sales decline driven by a weak economy as a result of the COVID-19 pandemic, an unfavorable 3% from the Reading divestiture, partially offset by a 4% increase from acquisitions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies 13% organic sales decline attributable to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies direct causal link to pandemic.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Notes partial offset from acquisitions (mitigation).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Quantified top-line damage, mildly tempered by offset, achieves a 7."
+            },
+            {
+                "snippet": "The decrease in international sales was primarily driven by lower sales in Europe as a result of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Attributes regional sales decline directly to pandemic.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Region-specific realized impact yields a moderate score."
+            },
+            {
+                "snippet": "The decrease in orders was due to an 11% organic order decline driven by a weak economy as a result of the COVID-19 pandemic, an unfavorable 3% from the Reading divestiture, partially offset by a favorable 1% from acquisitions, and a favorable 1% effect of foreign currency translation.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies 11% order drop linked to pandemic.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Order decline directly tied to pandemic’s economic effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Offsets from other factors reduce net severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Strong, quantified order impact offset slightly by other factors, scoring 6."
+            },
+            {
+                "snippet": "The net sales decrease was due to a 15% organic sales decline driven by a weak global economy as a result of the COVID-19 pandemic, partially offset by the acquisitions of Gatan and IntelliPower.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies 15% organic sales hit from pandemic.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Direct causal linkage to COVID-induced economic weakness.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions partial mitigating effect of acquisitions.",
+                            "points": -0.5
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "High magnitude, direct impact with slight mitigation still justifies a 7."
+            },
+            {
+                "snippet": "The net sales decrease was due to a 10% organic sales decline driven by a weak global economy as a result of the COVID-19 pandemic, a favorable 2% impact from the PDT acquisition as well as an unfavorable 8% impact from the Reading divestiture.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies 10% decline attributed to pandemic-related weakness.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Adds context of other non-pandemic drivers, diluting exclusivity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Quantified but partially diluted by other factors, giving a score of 3."
+            },
+            {
+                "snippet": "The 2020 realignment costs were composed of $35.5 million in severance costs for a reduction in workforce and $8.4 million of asset write-downs, primarily inventory, in response to the impact of a weak global economy as a result of the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides specific dollar figures of costs incurred due to pandemic.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Costs are realized (not prospective).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Quantified, already-booked financial cost lifts score to 7."
+            },
+            {
+                "snippet": "We continue to experience end market volatility, however, orders have begun to return and stabilize in many of our end markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing market volatility (risk persists).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes signs of recovery (mitigation).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Risk and mitigation balance to a neutral net score."
+            },
+            {
+                "snippet": "A scarcity of resources or other hardships caused by the COVID-19 pandemic may result in increased nationalism, protectionism and political tensions which may cause governments and/or other entities to take actions that may have significant negative impact on the Company, its suppliers, and its customers to conduct business in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights geopolitical and policy risk stemming from pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Speculative (‘may’) and indirect to current operations.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Forward-looking geopolitical risk is noted but remains speculative, giving a low-moderate score of 2."
+            }
+        ],
+        "calculated_score": 75,
+        "average_severity": 3.9473684210526314
+    }
+]

@@ -1,0 +1,250 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "AOS’s February 2022 10-K presents the COVID-19 pandemic as both an already-experienced and an ongoing, potentially escalating risk.  The company discloses concrete past impacts (e.g., quantified pandemic costs of $6.6 million, supply constraints, demand swings) alongside forward-looking scenarios that could further harm operations, supply chains, labour availability and customer demand.  Language ranges from generic (‘material adverse effect’) to highly specific (“limited container and trucking capacity, and port congestion and delays”).  Although many statements are contingent, several acknowledge present-tense disruptions and historical financial hits, evidencing that the threat is not merely hypothetical.  Because the filing date (2022-02-11) is less than three years after the March 2020 pandemic declaration, the Time Decay Principle allows high severity scores.  Sentences that quantify impacts or describe realised operational difficulties therefore receive scores in the 7-9 range, while broader, more speculative clauses are scored lower.  Mitigating references (e.g., ongoing supplier communications) are rare within the extracted sentences, so negative offsets are minimal.  Overall, the risk profile is elevated, current, multi-faceted and material to AOS’s performance.",
+        "evidence_list": [
+            {
+                "snippet": "The global coronavirus (COVID-19) pandemic, or other global public health pandemics, could have a material adverse effect on our business, results of operations and financial condition",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies COVID-19 explicitly as a threat to business, operations and financial condition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong wording ‘material adverse effect’.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Generic but high-impact wording earns a moderate score of 4."
+            },
+            {
+                "snippet": "Our business, results of operations and financial condition may be adversely affected if a global public health pandemic, including the current COVID-19 pandemic, interferes with the ability of our employees, suppliers, and customers to perform our and their respective responsibilities and obligations relative to the conduct of our business and operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to disruptions across employees, suppliers and customers (multi-stakeholder risk).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States potential adverse effect on core financial metrics.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights cross-functional vulnerabilities but remains conditional, leading to a score of 4."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has significantly impacted economic activity and markets around the world, and it could have a material negative impact on our business and operations in numerous ways, including but not limited to those outlined below:",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges already ‘significantly’ impacted global economy (past impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States potential for ‘material negative impact’ on company operations.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Combines observed macro impact with forward-looking company risk, justifying a score of 5."
+            },
+            {
+                "snippet": "Inability to meet our customers’ needs and achieve cost targets due to increased logistics costs, longer shipment times, and disruptions in our manufacturing and supply arrangements caused by the loss or disruption of essential manufacturing and supply elements, such as raw materials or other finished product components, transportation, workforce or other manufacturing and distribution capability.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple supply-chain choke points (raw materials, transportation, workforce).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links these issues directly to failing customer needs and cost targets.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specific operational language increases immediacy.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specific supply-chain failure scenarios drive a high operational risk score of 6."
+            },
+            {
+                "snippet": "Significant reductions in demand, particularly for our commercial products, or significant volatility in demand and a global economic recession that could reduce demand for our products, resulting from actions taken by governments, businesses, and/or the general public in an effort to limit exposure to and spreading of such infectious diseases, such as travel restrictions, quarantines, and business shutdowns or slowdowns.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies demand destruction and volatility as direct consequences.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights heightened exposure of commercial product line.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Connects to wider macroeconomic recession trigger.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Demand-side risks are clearly articulated but remain potential, meriting a 5."
+            },
+            {
+                "snippet": "In addition, there is risk that the commercial sector, such as the restaurant and hospitality industries in which we have customers, will experience long-term shifts in consumer behavior which could negatively impact demand or capacity and may not return to pre-pandemic levels.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags structural, long-term demand shift in key customer industries.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes possibility of non-reversion to pre-pandemic levels (persistent effect).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Potentially enduring demand erosion elevates the score to 5."
+            },
+            {
+                "snippet": "Manufacturing plant inefficiencies due to safety and preventative health measures that we have implemented in our plants to prevent the spread of COVID-19.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits present operational inefficiencies caused by pandemic safety protocols.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Implies increased costs/lower productivity without quantification.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Current inefficiencies are acknowledged but not quantified, yielding a 4."
+            },
+            {
+                "snippet": "Since March 2020 and continuing into 2021, we experienced impacts to our business and other markets worldwide.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses past-tense ‘experienced’ confirming realised impacts.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Indicates duration across multiple years (sustained effect).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Realised, multi-year impacts justify a score of 6."
+            },
+            {
+                "snippet": "We have seen supply constraints for certain components and raw materials used in our operations, as well as limited container and trucking capacity, and port congestion and delays.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports direct, current supply constraints and logistics bottlenecks.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Enumerates several distinct disruptions (components, trucking, ports).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Present-tense observation indicates ongoing issue.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Specific, ongoing operational disruptions earn a high score of 8."
+            },
+            {
+                "snippet": "Those costs included temporarily moving production from Mexico to the U.S., paying employees during temporary plant shutdowns, proactively deep cleaning facilities, paying benefits during employee furloughs, and other costs, which were approximately $6.6 million in 2020.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides concrete list of pandemic-driven actions and expenses.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Quantifies financial impact at $6.6 million.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Historical figure within recent timeframe (no decay adjustment needed).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Quantified, realised cost makes this one of the strongest pieces of evidence, scoring 9."
+            },
+            {
+                "snippet": "While supply chain issues moderated as we moved into 2022, we remain in close contact with our suppliers and logistics providers to troubleshoot, manage and resolve bottlenecks, as the environment remains unpredictable, particularly with the surge in the Omicron variant of COVID-19.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing unpredictability tied to Omicron surge.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions continuing bottlenecks despite some moderation.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Includes mitigating action (supplier engagement).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Current risk plus noted mitigation nets a moderate score of 4."
+            },
+            {
+                "snippet": "Our sales in China were significantly impacted by the COVID-19 pandemic in 2020.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that sales were ‘significantly impacted’—a realised effect.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Geographic specificity (China) adds precision.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct, realised sales impact, but without dollar figure, earns a 5."
+            }
+        ],
+        "calculated_score": 65,
+        "average_severity": 5.416666666666667
+    }
+]

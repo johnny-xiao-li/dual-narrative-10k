@@ -1,0 +1,310 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The 2021-02-12 Form 10-K shows Cognizant (CTSH) facing a recent-and-still-unfolding COVID-19 threat.  Management discloses that the pandemic has already produced concrete, material impacts – lower revenue across every segment, $65 million in incremental costs, pricing concessions, project delays, and delivery challenges tied to office closures and remote-work security risks.  The language is specific, forward-looking, and repeatedly uses terms such as “significant,” “continuing,” and “material adverse,” signalling that the company views the risk as both realised and persistent.  Although CTSH mentions mitigation measures (work-from-home enablement, client support), these actions are framed as costly and only partially effective.  Given that the filing date is less than one year after the WHO declaration (inside the 0-3-year window), the Time Decay Principle allows high severity scores.  Overall, the disclosures represent a high, multi-faceted risk profile driven by reduced demand, margin pressure, labour and delivery disruptions, increased costs, and strategic execution uncertainty.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic has had a significant and continuing adverse impact upon, and this or other pandemics may have a material adverse impact upon, our business, liquidity, results of operations and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to adverse impact already realised ('has had').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong qualifiers 'significant and continuing' and 'material adverse'.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple financial dimensions (business, liquidity, results, condition).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, emphatic statement of realised and ongoing material harm warrants a very high score."
+            },
+            {
+                "snippet": "The ongoing global COVID-19 pandemic has caused and continues to cause significant loss of life and interruption to the global economy and has resulted in the curtailment of activities by businesses and consumers in much of the world as governments and others seek to limit the spread of the disease, including through business and transportation shutdowns and restrictions on people’s movement and congregation.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes macro-level disruptions that underpin company-specific risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights ongoing nature ('continues to cause').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details specific mechanisms (shutdowns, restrictions).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Shows pervasive, continuing external disruptions feeding into corporate risk – high but slightly less direct than Snippet 1."
+            },
+            {
+                "snippet": "Among other things, many of our and our clients’ offices have been closed and employees have been working from home and many consumer-facing businesses have closed or are operating at a significantly reduced level to observe various social distancing requirements and government-mandated closures.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies company-specific operational disruptions (office closures, remote work).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Cites client-side closures that suppress demand.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions regulatory triggers (government-mandated).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Concrete operational and demand shocks drive a strong severity score."
+            },
+            {
+                "snippet": "The overall result has been a dramatic reduction in activity in the global economy, a reduction in demand for many products and services and significant adverse impacts to the financial markets, including the trading price of our common stock in the past and potentially in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to demand contraction and market effects.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "References impact on company’s share price (financial metric).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong wording 'dramatic reduction' and 'significant adverse'.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows tangible financial market impact, though less company-specific than earlier snippets."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has reduced, and other future pandemics could reduce, demand for our services, particularly in regions that have been hit hard by the pandemic and from clients in the retail, consumer goods, travel and hospitality, and communications and media industries, and is likely to continue to result in reduced demand for our services as clients across many industries face reduced demand for their products and services.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct statement of reduced demand for CTSH services.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies vulnerable sectors and geographies.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Projects continued future impact ('likely to continue').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Clear, sector-level demand hit with forward-looking concern earns a high score."
+            },
+            {
+                "snippet": "As clients face reduced demand for their products and services, reduce their business activity and face increased financial pressure on their businesses, we have faced and may continue to face downward pressure on our pricing and gross margins due to pricing concessions to clients and requests from clients to extend payment terms.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete financial mechanism—pricing concessions—hurting margins.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States continuation of risk ('may continue to face').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct margin erosion tied to pandemic stresses produces a strong but non-maximal score."
+            },
+            {
+                "snippet": "Due to the closures of many of our and our clients’ facilities, including as a result of various orders from national, state or local governments, we have faced and may continue to face, in the near term or in future pandemics, challenges in delivering services to our clients and satisfying contractually agreed upon service levels.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights delivery/service-level risk caused by facility closures.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Mentions potential contractual penalties implicitly.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Service-delivery failure risk is significant but not quantified, yielding a high-moderate score."
+            },
+            {
+                "snippet": "A significant worsening of the pandemic, particularly in India, or another security incident during the pandemic, could materially impair our ability to deliver services to clients to an extent that may have a material adverse impact to our business, liquidity, results of operations and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Foresees material impairment if conditions worsen—forward-looking severity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights dependence on India, where most staff are located.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Covers multiple financial areas.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Important conditional risk; slightly lower score because contingent on worsening."
+            },
+            {
+                "snippet": "We face increased costs from the pandemic, including as a result of mitigation efforts such as enabling increased work-from-home capabilities and additional health and safety measures.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states increased cost burden.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details cost drivers (WFH, health & safety).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Describes direct cost pressure; moderate severity without quantification."
+            },
+            {
+                "snippet": "Addressing the significant personal and business challenges presented by the pandemic, including various business continuity measures and the need to enable work-from-home arrangements for many of our associates, has demanded significant management time and attention and strained other corporate resources, and is expected to continue to do so.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes management distraction and resource strain.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States ongoing expectation.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Operational burden is real but indirect and unquantified—moderate score."
+            },
+            {
+                "snippet": "The significant personal and business challenges presented by a pandemic, including the COVID-19 pandemic, such as the potentially life-threatening health risks to employees and their families and friends, the closures of schools and the unavailability of various services our employees may rely upon, such as childcare, have been and may be a cause of employee morale concerns and may adversely impact employee productivity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights human-capital risk (morale, productivity).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "References health and safety risk to workforce.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Employee-centric risk matters but financial linkage is indirect; score remains moderate."
+            },
+            {
+                "snippet": "The ultimate extent to which the pandemic impacts our business, liquidity, results of operations and financial condition will depend on future developments, which are highly uncertain and cannot be predicted with confidence, including the delivery and effectiveness of vaccines, future mutations of the COVID-19 virus and any resulting impact on the effectiveness of vaccines, the duration and extent of the pandemic and waves of infection, travel restrictions and social distancing, the duration and extent of business closures and business disruptions and the effectiveness of actions taken to contain, treat and prevent the disease.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises high uncertainty and numerous uncontrollable variables.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers wide scope of possible future impacts.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Captures breadth and unpredictability, but lacks direct quantified impact—moderate score."
+            },
+            {
+                "snippet": "Additionally, as a result of the ongoing pandemic, we experienced reduced client demand, project deferrals, furloughs, and temporary rate concessions, which adversely affected revenues across all of our business segments in 2020.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple realised operational impacts (demand drop, deferrals, furloughs).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Confirms revenue hit across all segments.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Company-wide revenue impact is significant; absence of dollar figure keeps score below maximum."
+            },
+            {
+                "snippet": "For the year ended December 31, 2020, we incurred $65 million of costs in response to the COVID-19 pandemic, including certain costs incurred to enable our employees to work remotely.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides quantified financial impact ($65 million).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Relates cost directly to pandemic response.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Hard-number cost disclosure yields a high severity score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic may adversely impact our ability to realize the benefits of our strategy and various transformation initiatives, including the 2020 Fit for Growth Plan.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Threatens execution of strategic transformation.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking conditional risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Strategic execution risk is notable but not yet realised or quantified."
+            },
+            {
+                "snippet": "The COVID-19 pandemic may continue to negatively impact demand, particularly among our retail, consumer goods, travel and hospitality clients within our Products and Resources segment as well as communications and media clients in our Communications, Media and Technology segment.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forecasts continuing demand weakness tied to specific segments.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies particularly exposed industries.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Segment-specific forward-looking demand risk earns a moderate-high score."
+            }
+        ],
+        "calculated_score": 85,
+        "average_severity": 5.3125
+    }
+]

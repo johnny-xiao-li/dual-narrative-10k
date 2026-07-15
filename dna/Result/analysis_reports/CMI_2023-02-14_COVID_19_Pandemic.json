@@ -1,0 +1,124 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CMI’s 2023 Form 10-K repeatedly links the COVID-19 pandemic to concrete, present-day operational and financial pressures.  The company states that it is *currently experiencing* supply-chain disruptions and material cost inflation, with ‘pandemic restrictions’ called out alongside port congestion and labor shortages as active causal factors.  On the demand side, management discloses that Chinese truck and construction markets weakened in 2022 because of ‘COVID lockdowns,’ materially dragging on international revenue, and cautions that fresh outbreaks could yet curb any 2023 rebound.  These remarks show both realised impacts (lower 2022 sales, on-going supply bottlenecks) and forward-looking uncertainty (potential future outbreaks), satisfying the event-link requirement.  The language is specific—tying COVID to identifiable geographies (China), business lines (trucks) and financial metrics (international sales decline)—but it stops short of giving hard dollar amounts.  Given the filing date (Feb 2023) is less than three years after the WHO pandemic declaration, the Time Decay Principle allows high severity scores.  However, because the disclosures are largely qualitative and partly offset by expectations of recovery as restrictions ease, snippet-level scores mostly fall in the mid-to-high range (5–7), rather than the maximum.",
+        "evidence_list": [
+            {
+                "snippet": "We are experiencing supply chain disruptions and related challenges throughout the supply chain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges an ongoing, present-tense disruption (‘are experiencing’) rather than a hypothetical risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Broad reference to ‘supply chain disruptions’—one of the pandemic’s hallmark operational impacts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantitative magnitude or explicit COVID reference in this sentence alone (generic).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Current, company-wide disruption is admitted, but lack of COVID keyword or quantified impact tempers the score."
+            },
+            {
+                "snippet": "Delays may be caused by factors affecting our suppliers (including, but not limited to, raw material availability, capacity constraints, port congestion, labor disputes or unrest, shortages of labor, economic downturns, availability of credit, impaired financial condition, sanctions/tariffs, pandemic restrictions, energy inflation/availability, suppliers' allocations to other purchasers, weather emergencies, natural disasters, acts of government or acts of war or terrorism).",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘pandemic restrictions’ among a catalogue of disruptive forces—clear acknowledgment of COVID-related supply risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Presented as a prospective cause (‘may be caused’), so partially forward-looking rather than confirmed impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Long list of other risks dilutes the specificity of the pandemic linkage.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Sentence directly names pandemic restrictions as a supply-chain threat, but in a broad, unquantified risk list."
+            },
+            {
+                "snippet": "International demand ... improved by 8 percent compared to 2021, with lower sales in China (due to a sharp slowdown in construction and truck markets, exacerbated by COVID lockdowns) and Russia (resulting from the indefinite suspension of our Russian operations) more than offset by higher sales in most other geographic regions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID lockdowns to a ‘sharp slowdown’ and ‘lower sales in China,’ demonstrating an actual realised negative impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Magnitude implied (country-level sales decline) but not quantified in dollars or percentages for China alone.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Provides concrete evidence that pandemic measures directly reduced sales in a key market, justifying a high mid-range score."
+            },
+            {
+                "snippet": "We expect demand for trucks in China to improve from the low demand levels in 2022 as COVID-19 restrictions are eased.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links low 2022 demand to COVID-19 restrictions, acknowledging prior impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions anticipated easing—a mitigating outlook that implies recovery.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Acknowledges past pandemic drag but highlights expected recovery, leading to a small net risk score."
+            },
+            {
+                "snippet": "Significant outbreaks of infection among the population, could, however, hamper the level of demand improvement through the year.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies potential future downside (‘hamper demand’) tied to new infection waves—forward-looking risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional language (‘could’) signals uncertainty and lack of certainty; no financial quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Describes plausible future pandemic risk but in speculative terms, without numbers, so earns a modest score."
+            },
+            {
+                "snippet": "Our business is subject to the political, economic and other risks that are inherent in operating in numerous countries.  These risks include: • public health crises, including the spread of a contagious disease, such as future pandemics or epidemics, quarantines or shutdowns related to public health crises, and other catastrophic events;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Formally lists ‘public health crises… future pandemics or epidemics’ as a global operational risk factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic boiler-plate wording; not tied to COVID-19 specifically nor to quantified impacts.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Generic pandemic clause with no specificity gives negligible incremental risk insight, so score nets to zero."
+            }
+        ],
+        "calculated_score": 16,
+        "average_severity": 2.6666666666666665
+    }
+]

@@ -1,0 +1,84 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "JCI’s 2024 Form 10-K acknowledges the COVID-19 pandemic primarily as a continuing, forward-looking threat rather than an already-quantified impairment.  The filing appears nearly five years after the WHO declaration (March 2020), so the Time Decay Principle places any pandemic-related disclosure in the medium-term window (4-10 years), capping severity in the mid-single digits.  Within the risk factors, management situates COVID-19 inside broader lists of potential disruptions (pandemics, public-health crises, labor shortages, supply-chain shocks) and calls out one concrete channel—remote and hybrid work—as a vector for elevated cybersecurity exposure.  Language is largely generic (“may adversely affect,” “occurrence or reoccurrence”) and no numerical impact is provided, signalling residual uncertainty rather than present, quantified damage.  Nonetheless, by explicitly naming COVID-19 and tying a renewed outbreak to enterprise-wide effects on operations, liquidity and results, the company admits that pandemic risk remains material.  Given the elapsed time since the acute phase, the lack of dollar figures, and the existence of partial mitigants (e.g., business-continuity planning, insurance), overall evidence merits moderate—but not high—severity scores (≈3-6) under the Time Decay guidelines.",
+        "evidence_list": [
+            {
+                "snippet": "Further, the occurrence or reoccurrence of regional epidemics or a global pandemic, such as COVID-19, may adversely affect our operations, financial condition, and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites COVID-19 as an example of a global pandemic risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links the event to multiple core metrics (operations, financial condition, results).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Framed as a potential (‘may’) impact with no quantification, indicating generic wording.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Reference to possible ‘reoccurrence’ conveys ongoing relevance beyond 2020.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear, direct reference to COVID-19 and enterprise-wide consequences justifies a top-end medium-term score of 6, tempered slightly for generic, forward-looking phrasing."
+            },
+            {
+                "snippet": "In addition, certain of our employees work remotely at times, which increases our vulnerability to cybersecurity and other IT risks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights remote-work exposure, a well-known pandemic-driven structural change.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies a concrete risk channel (heightened cybersecurity/IT vulnerability).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Does not explicitly link remote work to COVID-19, reducing directness.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Remote-work cybersecurity risk is clearly stated but the absence of an explicit COVID tie keeps the score to a low-moderate 3."
+            },
+            {
+                "snippet": "If our operations, particularly at our monitoring facilities and/or manufacturing facilities, were to be disrupted as a result of significant equipment failures, natural disasters, pandemics, climate change, cybersecurity incidents, power outages, fires, explosions, abrupt political change, armed conflict, terrorism, sabotage, adverse weather conditions, public health crises, labor disputes, labor shortages or other reasons, we may be unable to effectively respond to alarm signals, fill customer orders, convert our backlog, collect revenue and otherwise meet obligations to or demand from our customers, which could adversely affect our financial performance.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes ‘pandemics’ among enumerated disruption triggers.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes a cascade of operational and financial effects (order fulfillment, revenue collection, performance).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemic reference is embedded in a long boiler-plate list, reducing specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Pandemics are listed as a potential cause of major operational breakdowns; placement in a broad catch-all paragraph yields a mid-level score of 4."
+            }
+        ],
+        "calculated_score": 13,
+        "average_severity": 4.333333333333333
+    }
+]

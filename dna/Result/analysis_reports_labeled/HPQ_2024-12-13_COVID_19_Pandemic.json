@@ -1,0 +1,94 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "HPQ’s 2024 Form 10-K still treats COVID-19 and future pandemics as a live, multi-faceted threat rather than merely an historical footnote.  The filing embeds pandemic language in several risk-factor sections—international operations, business-disruption events, and seasonality—indicating that management continues to view health crises as a systemic, enterprise-wide hazard.  The disclosures are forward-looking (frequent use of “may” and “could”) and largely qualitative, but they explicitly tie a pandemic to supply-chain breakdowns, cost inflation, demand erosion, impaired R&D, and logistical obstacles.  Because the pandemic’s onset (March 2020) is now about four years removed from the filing date, the Time Decay Principle calls for mid-range, not peak, scores.  The evidence is moderately specific—naming COVID-19, enumerating functional areas at risk, and warning of “significant losses”—yet lacks quantified impacts or new data.  Overall, the pandemic is portrayed as a continuing, medium-term risk with broad operational reach, warranting aggregate snippet scores in the 4-to-5 range for the most detailed sentences and lower scores for generic references.",
+        "evidence_list": [
+            {
+                "snippet": "instability in a country’s or region’s economic, regulatory or political conditions, including inflation, recession, interest rate fluctuations, changes or uncertainty in fiscal or monetary policy, actual or anticipated military or political conflicts, health emergencies or pandemics;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘pandemics’ as a risk driver for international operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Generic catch-all phrasing with no specific consequences or data.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Mentions pandemics only as one item in a long list of macro risks; generic nature keeps the score low but non-zero."
+            },
+            {
+                "snippet": "Global pandemics, such as COVID-19, or other public health crises may adversely affect, among other things, our supply chain and associated costs; demand for our products and services; our operations and sales, marketing and distribution efforts; our research and development capabilities; our engineering, design, and manufacturing processes; and other important business activities.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifically names COVID-19, directly tying it to potential impacts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates multiple critical corporate functions that could be harmed (supply chain, demand, R&D, etc.).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Use of contingent language (“may”) signals uncertainty rather than current damage.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Detailed linkage between COVID-19 and broad operational vulnerabilities merits a solid mid-range score under the 4-year time horizon."
+            },
+            {
+                "snippet": "These events could result in significant losses, adversely affect our competitive position, increase our costs, require substantial expenditures and recovery time, make it difficult or impossible to provide services or deliver products to our customers or to receive components from our suppliers, create delays and inefficiencies in our supply chain and result in the need to impose employee travel restrictions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes severe financial and operational consequences (‘significant losses’, ‘increase our costs’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights concrete operational disruptions (service delivery, component receipt, travel restrictions).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Employs conditional wording (‘could’), indicating potential rather than realized impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides strong qualitative severity but still hypothetical; earns a moderate score consistent with medium-term event."
+            },
+            {
+                "snippet": "Historical seasonal patterns may not continue in the future and such patterns have been and may be impacted by supply constraints, macroeconomic conditions, such as an economic slowdown or inflationary pressures, shifts in customer behavior and the impacts of pandemics or other public health crises.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemics to disruption of sales seasonality and customer demand.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generalized statement with multiple other factors diluting pandemic focus.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Only a brief, non-specific nod to pandemic effects on seasonality; minimal aggravating value results in a low score."
+            }
+        ],
+        "calculated_score": 12,
+        "average_severity": 3.0
+    }
+]

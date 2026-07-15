@@ -1,0 +1,128 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated February 13, 2024, discusses COVID-19 largely as a still-relevant, recently-experienced shock whose operational and financial ripple-effects persist. The text provides both backward-looking statements (\"disruptions have occurred\" and \"charges incurred\") and forward-looking cautionary language (\"may cause significant damage\"), indicating that the pandemic created real supply-chain bottlenecks and incremental costs while also remaining a scenario driver in the company’s risk register. Although no dollar amounts are quantified, the company acknowledges concrete impacts on production schedules, shipping timeliness, and cleaning–sanitization spend, which together signal a material but un-quantified exposure. Because the event happened less than four years ago, the Time Decay Principle allows relatively high scores for statements evidencing actual impacts, while more generic, hypothetical references warrant lower scores. Overall, COVID-19 is framed as an active operational risk rather than a remote possibility, but the absence of hard financial metrics slightly tempers maximum severity levels.",
+        "evidence_list": [
+            {
+                "snippet": "For example, disruptions have occurred due to the COVID-19 pandemic, supplier capacity constraints, labor shortages, port congestion, logistical problems and other issues.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites the COVID-19 pandemic as a direct cause of operational disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses past-tense ('have occurred') showing realized—not hypothetical—impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates breadth of disruption across multiple supply-chain factors, elevating risk magnitude.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "A recent, realized, multi-factor disruption directly tied to COVID-19 justifies a high (8/10) score under the Time Decay window."
+            },
+            {
+                "snippet": "Some of these disruptions have resulted in supply chain constraints affecting our business including our ability to timely produce and ship our products.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms that disruptions translated into tangible supply-chain constraints.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies operational consequences—delays in production and shipping.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indirect reference to COVID-19 (relies on prior sentence) slightly lowers specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Describes an ongoing condition ('have resulted'), implying persistence of risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Operational constraints currently impacting the firm earn a solid score, tempered by the indirect tie-back to COVID-19."
+            },
+            {
+                "snippet": "This inability to fully meet demand would be exacerbated if a single-location production facility is disrupted due to a climate-related disaster, pandemic, geopolitical political instability, or war, among other things.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes 'pandemic' as a potential trigger for production shortfalls.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links pandemic risk to the critical issue of demand fulfilment, indicating revenue exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Purely forward-looking, conditional ('would be') language reduces immediacy.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Because the sentence is hypothetical and bundled with other hazards, it receives a low-moderate score."
+            },
+            {
+                "snippet": "Conflicts, wars, natural disasters (the nature and severity of which may be impacted by climate change), public health crises ( e.g. , COVID-19), or terrorist acts may cause significant damage or disruption to our operations, employees, facilities, systems, suppliers, supply chain, distributors, resellers, or customers in the United States and internationally for extended periods of time and could also affect demand for our products.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists COVID-19 as an example of public-health crises with wide operational reach.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Enumerates multiple business functions that could be disrupted, highlighting breadth of potential impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generalized 'may cause' language and aggregation with other risks dilute specificity.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic, catch-all risk language results in a modest score despite mention of COVID-19."
+            },
+            {
+                "snippet": "The charges incurred related to the COVID-19 pandemic related primarily to facility cleaning costs and sanitization supplies to support the health and safety of our employees.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes incurred (realized) charges to the COVID-19 pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates financial impact through added cleaning and sanitization costs.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No dollar amount or materiality provided, limiting visibility into magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Actual pandemic-driven expenses raise the score, but lack of quantification caps it at a moderate level."
+            }
+        ],
+        "calculated_score": 22,
+        "average_severity": 4.4
+    }
+]

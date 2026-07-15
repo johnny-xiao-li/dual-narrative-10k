@@ -1,0 +1,124 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "KKR’s 2021-02-19 10-K squarely links the COVID-19 pandemic (declared 03-11-2020) to material, ongoing and forward-looking risks across the firm’s global operations, portfolio companies and fundraising engine.  The disclosure is recent (within 12 months of the filing) so time-decay is minimal, allowing high severity scores.  Language is explicit: COVID-19 ‘continues to impact’, ‘has caused and may further cause’ disruptions and adverse financial results, underscoring that the risk is both realised (2020 valuations fell, travel halted, employees remote) and prospective (could ‘further impact’ valuations, liquidity, fundraising, cyber-security).  Multiple specific vectors are identified—financial-market volatility, lower interest rates, labour furloughs, supply-and-demand shocks at portfolio companies, travel restrictions that impede capital raising, remote-work operational/cyber threats—demonstrating breadth and depth rather than boiler-plate.  Although no single dollar figure is quantified, the narrative ties the pandemic to core revenue drivers (management fees, carried interest, capital-markets activity) and hence signals high severity.  Mitigations (e.g., monitoring developments, supporting remote work) are mentioned but are clearly outweighed by enumerated uncertainties.  Given recency (0-1 year), specificity, and firm-wide reach, individual evidence snippets merit upper-mid to high scores (6-8) under the Time Decay Principle, producing a strongly negative overall risk profile.",
+        "evidence_list": [
+            {
+                "snippet": "COVID-19 continues to impact the United States and other countries throughout the world, and it has caused and may further cause disruptions to our business and adversely affect our financial results.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States pandemic is ongoing (‘continues to impact’) – direct, present threat.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly links event to ‘disruptions to our business’ and ‘adversely affect our financial results’.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "No quantitative magnitude provided (generic).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct acknowledgement of current and future business disruption and financial harm warrants a high score, tempered slightly for lack of quantification."
+            },
+            {
+                "snippet": "The outbreak of COVID-19 and the actions taken in response have had far reaching impact on the U.S. and global economies, contributing to significant volatility in the financial markets, resulting in increased volatility in equity prices (including our common stock) and lower interest rates, and causing furloughs and layoffs in the labor market.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple concrete macro effects (market volatility, equity price swings, lower rates, layoffs).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicitly ties impacts to KKR’s own stock price.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Scope described as ‘far reaching’ across U.S. and global economies.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Enumerates several severe, realised financial-market impacts that directly threaten KKR, justifying a very high score."
+            },
+            {
+                "snippet": "Limitation on travel and social distancing requirements implemented in response to COVID-19 challenge our ability to market new or successor funds or new insurance policies as anticipated prior to COVID-19, potentially resulting in reduced or delayed revenues.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic restrictions to core revenue driver (fundraising/insurance distribution).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Identifies concrete mechanism (travel & social-distancing limits).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forecasts financial impact (‘reduced or delayed revenues’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Specific causal chain from COVID-19 measures to revenue loss in key business lines merits a top-tier severity score."
+            },
+            {
+                "snippet": "An extended period of remote working by our employees could strain our technology resources and introduce operational risks, including heightened cybersecurity risk.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights operational and cyber-security risks arising from remote work.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking (‘could strain’) shows potential not yet quantified.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Narrower impact (internal operations) vs. firm-wide financials.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Identifies significant but more operationally focused risks; important yet narrower scope yields a moderate score."
+            },
+            {
+                "snippet": "COVID-19 significantly increases the challenges associated with business planning, strategy, execution, portfolio management, fundraising, and other aspects of our business operations, the operation of our portfolio companies' businesses, and the operation of entities to whom we or our funds have loaned money or otherwise do business through supply or customer relationships.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Broad spectrum of impacted activities (planning, portfolio mgmt, fundraising, supply/customer relationships).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicit reference to simultaneous supply and demand shock at portfolio companies.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes increased challenges but lacks numeric detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Captures extensive, systemic pressures across KKR and its counterparties, scoring high though partially constrained by absence of quantification."
+            }
+        ],
+        "calculated_score": 31,
+        "average_severity": 6.2
+    }
+]

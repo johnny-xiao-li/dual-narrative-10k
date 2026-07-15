@@ -1,0 +1,259 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing date of February 24 2021 places the disclosure squarely within the first year of the WHO-declared COVID-19 pandemic, so time-decay is minimal and recent-event scoring can be high.  The company repeatedly states that the pandemic is already producing “material adverse” effects on operations, revenues and customer behaviour; it also identifies multiple operational disruptions—office closures, travel bans, cancelled conferences, remote-work security exposures—and demand-side pressures such as client cost-cutting, delayed purchasing decisions and weakened retention rates.  While some mitigating actions (virtual conferences, remote work, management focus) are noted, they are framed as partial and uncertain offsets, and no hard dollar amounts are provided.  Overall, the risk language is direct, present-tense and multi-faceted, indicating a high but not absolute severity.  Given the immediacy of the pandemic (0-3 years) and the absence of precise quantitative loss figures, individual snippet scores cluster in the 3-7 range, with the most forceful “material adverse impact” statements anchoring the upper end.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic is having a material adverse impact on our operations and financial performance, as well as on the operations and financial performance of many of our customers, and the duration and extent to which the COVID-19 pandemic will continue to affect our operations, financial performance, results of operations, achievement of strategic objectives, and/or stock price remains uncertain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states ‘material adverse impact’ on company operations and finances.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Extends impact to customers, implying second-order revenue pressure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights uncertainty regarding duration and extent of damage.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct present-tense material harm with acknowledged uncertainty justifies a high (7) score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has resulted in a widespread health crisis that has adversely affected, and is expected to continue to adversely affect, our operations, financial performance and demand for our products and services.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms actual adverse effects on operations, finances and demand.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Signals ongoing future impact (‘expected to continue’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Current and continuing negative impact across key performance areas earns a 6."
+            },
+            {
+                "snippet": "Additionally, the COVID-19 pandemic has resulted in, and is expected to continue to result in, a substantial curtailment of business activities (including the decrease in demand for a broad variety of products and services both regionally and globally), weakened economic conditions, significant economic uncertainty and volatility in the financial markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes large-scale demand decline and curtailment of activity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links to broader economic uncertainty and market volatility.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly notes expectation of continued effect.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Broader macro-economic deterioration tied to the pandemic lifts severity to 6."
+            },
+            {
+                "snippet": "Cost-saving measures by our clients have adversely affected, and could continue to adversely affect, their ability or willingness to attend our conferences, purchase our products or engage our consultants.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows direct revenue-stream pressure across conferences, product sales and consulting.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions continuation of the adverse trend.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Multiple lines of business affected increases breadth of risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Multi-channel revenue disruption with forward-looking risk produces a mid-level 5."
+            },
+            {
+                "snippet": "Such measures also lengthened payment terms in some of our contracts and negatively impacted retention rates.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Longer payment terms create liquidity/credit risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Retention deterioration strikes at recurring revenue stability.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Operational cash-flow and retention hits are important but less sweeping, warranting 4."
+            },
+            {
+                "snippet": "Such measures could also reduce the duration of some of our subscription contracts and delay purchasing decisions of potential clients.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shorter contract durations undermine revenue visibility.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Delayed purchases defer cash inflows and growth.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Stated as a potential (‘could’), reducing immediacy.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Potential erosion of subscription quality gives a balanced risk score of 5."
+            },
+            {
+                "snippet": "We have temporarily closed Gartner offices (including our corporate headquarters) in the United States, United Kingdom, India, and several other impacted locations around the world and implemented significant travel restrictions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Physical office closures across multiple geographies show operational disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Travel restrictions constrain client engagement and internal efficiency.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Concrete operational shutdowns pose real but manageable risk, scored at 4."
+            },
+            {
+                "snippet": "Though many of our employees continue to work remotely, these changes impact the normal operation of our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Remote work transition explicitly impacts normal operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates present operational inefficiencies.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Operational drag from remote work is significant but not quantified, meriting 4."
+            },
+            {
+                "snippet": "We have cancelled or postponed all in-person conferences through at least August 2021, pivoting to virtual conferences.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cancellation/postponement of entire conference schedule signals material revenue loss.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Pivot to virtual format provides some mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Major revenue-generating events cancelled, partly offset by mitigation, nets to 4."
+            },
+            {
+                "snippet": "These virtual conferences are expected to result in significantly less revenue and gross contribution, but we believe aid in client retention and engagement.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit expectation of ‘significantly less revenue and gross contribution’.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Expectation, not certainty, tempers severity.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Retention benefit is a mitigating factor.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Quantified revenue shortfall offset by retention upside yields a moderate 3."
+            },
+            {
+                "snippet": "Moreover, COVID-19 has adversely impacted, and may continue to adversely impact, our subscription-based business model (which accounts for a significant portion of our revenue) by causing clients to decrease new and renewals of subscription-based services and to request to cancel or renegotiate current subscription-based services.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Targets core subscription model representing significant revenue share.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Notes both current and future adverse impacts.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Client cancellations and renegotiations underscore materiality.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Threat to primary revenue engine with concrete client actions earns a high 7."
+            },
+            {
+                "snippet": "As a result of the COVID-19 pandemic and shelter-in-place orders, most of our employees in affected areas are working remotely, which magnifies the importance of the integrity of our remote access security measures.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Remote work shift tied to pandemic illustrates operational change.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Introduces heightened cybersecurity risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Remote work-driven security exposure is present but not yet quantified, scored at 3."
+            },
+            {
+                "snippet": "The impact of COVID-19, and the volatile regional and global economic conditions stemming from the pandemic, may also precipitate or exacerbate other risks discussed in Item 1A.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Pandemic positioned as a multiplier of other corporate risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "References global economic volatility, broadening exposure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Indirect amplification of risk landscape is notable but generalized, warranting 3."
+            }
+        ],
+        "calculated_score": 61,
+        "average_severity": 4.6923076923076925
+    }
+]

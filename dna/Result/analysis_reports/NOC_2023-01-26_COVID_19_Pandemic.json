@@ -1,0 +1,199 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is treated by NOC as both a historically proven disruptor and a continuing, forward-looking risk.  The filing, dated January 26 2023, sits less than three years after the WHO pandemic declaration, so Time-Decay allows high scores.  The document repeatedly acknowledges that (a) the pandemic has already raised costs and disrupted labour and supply chains, (b) management still expects lingering macro-economic and operational effects, and (c) further waves or new variants could materially worsen performance.  Several passages cite concrete channels—inflation, workforce shortages, regulatory hurdles, programme delays—and state that these can have a “material adverse effect” on financial position, results of operations and cash flows.  While the company notes mitigation efforts and currently foresees no “significant additional direct impacts,” that statement is tempered by explicit uncertainty about future variants.  Overall, the language is specific, recent, and recognises both realised and potential impacts, yielding medium-to-high severity scores that are occasionally offset where the company highlights mitigation or diminishing direct effects.",
+        "evidence_list": [
+            {
+                "snippet": "We face various risks related to health epidemics, pandemics and similar outbreaks, which may have material adverse effects on our business, financial position, results of operations and/or cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemics to possible 'material adverse effects' on all key financial metrics.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Forward-looking statement of risk (no evidence of mitigation in this sentence).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic (no mechanism or quantification).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Clear acknowledgment of potentially material impact, but generic and unquantified, so mid-range severity."
+            },
+            {
+                "snippet": "We face a wide variety of risks related to health epidemics, pandemics and similar outbreaks, especially of infectious diseases, including COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 explicitly as an ongoing threat.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes broad risk exposure (‘wide variety’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No impact magnitude or specificity provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Sentence flags COVID-19 specifically but remains high-level; therefore lower score than detailed impacts."
+            },
+            {
+                "snippet": "Since first reported in late 2019, the COVID-19 pandemic has dramatically impacted the global health and economic environment, including millions of confirmed cases and deaths, business slowdowns or shutdowns, labor shortages, supply chain challenges, changes in government spending and requirements, regulatory challenges, inflationary pressures and market volatility.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemic 'has dramatically impacted'—confirms realised effect.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Lists multiple concrete impact channels (supply chain, labor shortages, shutdowns, inflation).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Global framing, not yet company-specific.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "High score: recent event, detailed mechanisms, and assertion of dramatic realised impacts, albeit at macro level."
+            },
+            {
+                "snippet": "As discussed in our prior and current Form 10-K and 10-Q filings, our operations have been and we expect will continue to be impacted by the COVID-19 pandemic and its related economic challenges.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links COVID-19 to the company’s own operations (‘have been and … will continue to be impacted’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Projects ongoing future impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No financial quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Company-specific, realised and forward-looking impacts drive a strong score, moderated for lack of numbers."
+            },
+            {
+                "snippet": "However, the company has worked hard to address and mitigate adverse impacts from COVID-19, and we do not currently anticipate significant additional direct impacts from the pandemic itself on our operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions mitigation efforts reducing future impact expectations.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Still acknowledges previous adverse impacts, implicitly confirming risk history.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": -1
+                },
+                "reasoning_summary": "Sentence is primarily mitigating; under Time-Decay, evidence still relevant but net effect is to lower severity."
+            },
+            {
+                "snippet": "If, for example, the COVID-19 pandemic worsens, due to spread, new or additional variants, or if a new health epidemic or outbreak were to occur, we likely would experience broad and varied impacts, including potentially to our workforce and supply chain, with inflationary pressures and increased costs (which may or may not be fully recoverable or insured), schedule or production delays, market volatility and other financial impacts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Conditional but detailed description of potential adverse impacts (workforce, supply chain, costs, delays).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Acknowledges potential unrecoverable costs and insurance limits.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Speculative (‘if…’) forward-looking, not yet realised.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Detailed scenario analysis of worsening pandemic yields solid mid-high score, tempered for conditional nature."
+            },
+            {
+                "snippet": "Given the tremendous uncertainties and variables, we cannot at this time predict the impact of the global COVID-19 pandemic, or any future health epidemics, pandemics or similar outbreaks, but any one could have a material adverse effect on our business, financial position, results of operations and/or cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits inability to predict impact, highlighting uncertainty.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States potential for ‘material adverse effect’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No specifics or quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Emphasises uncertainty and the possibility of material harm; generic framing keeps score moderate."
+            },
+            {
+                "snippet": "There are many reasons estimated contract costs can increase. They include: macroeconomic trends (including inflation, labor shortages and supply chain challenges); delays or limitations in customer funding; design or other development challenges; production challenges (including from technical or quality issues and other performance concerns); inability to realize learning curves or other cost savings; changes in laws or regulations; actions necessary for long-term customer satisfaction; global pandemics, such as COVID-19; and natural disasters or environmental matters.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘global pandemics, such as COVID-19’ as a driver of cost growth.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects pandemic to contract cost increases, hinting at profitability risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Enumerative context dilutes emphasis; no scale given.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Identifies pandemic as a cost escalator but in a broad list with no magnitude, thus moderate impact."
+            },
+            {
+                "snippet": "New laws or other requirements, or changes to existing ones (including, for example, related to ... COVID-19 ... ) or changes in how government agencies interpret existing ones, can significantly increase our costs and risks and reduce our profitability.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19-related regulation to cost increases and profitability risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking and indirect; regulatory risk rather than operational.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic, no quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Regulatory mention shows another risk vector but with limited detail, yielding a lower score."
+            }
+        ],
+        "calculated_score": 32,
+        "average_severity": 3.5555555555555554
+    }
+]

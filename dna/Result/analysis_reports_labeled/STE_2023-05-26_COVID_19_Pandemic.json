@@ -1,0 +1,256 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "STE’s 2023 Form 10-K continues to treat COVID-19 as a live, enterprise-wide threat that has already impaired the company’s operations and could do so again.  The filing moves beyond generic boiler-plate: it states that the pandemic caused mandatory and voluntary plant closures, suppressed procedural-volume-driven demand, inflated labour and freight costs, disrupted supply chains, and triggered remote-work cyber-exposure.  It also flags secondary knock-on effects—government budget constraints, customer liquidity issues, potential trade barriers, and staffing shortages—thereby linking COVID-19 to credit risk, revenue risk and cost inflation.  Although STE lists certain mitigations (essential-business exemptions, tele-work policies, modified practices), these are portrayed as tentative and possibly insufficient.  Because the disclosed impacts are both historical (actual closures, demand declines) and forward-looking (“could have a material adverse effect if further disruptions occur”), and the event occurred within the last three years, the Time Decay Principle allows high severity scores.  The overall risk profile is therefore assessed as high-to-very-high, with individual snippet scores in the 5-9 range depending on specificity, breadth of impact, and presence of mitigating language.",
+        "evidence_list": [
+            {
+                "snippet": "In addition, the impacts of the COVID-19 pandemic, Russia’s invasion of Ukraine and the ongoing inflationary environment may also exacerbate any of these risks, which could have a material effect on us.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to exacerbation of all listed corporate risks.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong materiality language ('material effect on us').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic, bundled with other macro events, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Broad statement that COVID-19 can magnify existing risks; materiality noted but impact not quantified, yielding a mid-high score of 5."
+            },
+            {
+                "snippet": "If government funding for healthcare becomes limited or restricted in countries in which we operate, including as a result of the impacts of the COVID-19 pandemic, our Customers may be unable to pay their obligations on a timely basis or to make payment in full and it may become necessary to increase reserves.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Ties COVID-19 to reduced government funding and customer liquidity.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights concrete financial consequence (bad-debt reserves).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specifies a clear credit-risk mechanism and financial repercussion driven by COVID-19, scoring a solid 7."
+            },
+            {
+                "snippet": "The COVID-19 pandemic disrupted our operations and could have a material adverse effect on our business and financial condition if further significant disruptions occur.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges past operational disruption from COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Warns of future 'material adverse effect'—strong risk wording.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lacks quantitative detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Past disruption plus forward-looking materiality drives a high but not maximum score of 6."
+            },
+            {
+                "snippet": "We have experienced temporary mandatory and voluntary facility closures in certain jurisdictions in which we operate.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes actual facility shutdowns—direct operational impact.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Implies geographic breadth ('certain jurisdictions').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Concrete evidence of closures gives this sentence a strong score of 7."
+            },
+            {
+                "snippet": "Furthermore, we have experienced less demand for certain of our products and services as a result of reduced volume of medical procedures, and other factors, which we believe was exacerbated by the impact of stay-at-home orders and government responses to COVID-19.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic restrictions to decreased product and service demand.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Shows causal pathway (stay-at-home orders ➜ fewer procedures ➜ lower demand).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Specific demand-side impact tied to COVID-19 warrants a score of 7."
+            },
+            {
+                "snippet": "Additionally, the COVID-19 outbreak has caused temporary disruptions and rising costs in our labor supply and supply chain and distribution network.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies multiple operational stressors (labor, supply chain, distribution).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Mentions cost inflation attributable to COVID-19.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Multi-dimensional operational and cost impacts elevate the score to 7."
+            },
+            {
+                "snippet": "The COVID-19 pandemic may put pressure on overall spending for our products and services, and may cause our Customers to modify spending priorities or delay or abandon purchasing decisions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights potential revenue decline via altered customer behaviour.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking risk (may)—uncertain but material.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Demand-risk narrative without quantification earns a mid-range score of 5."
+            },
+            {
+                "snippet": "Moreover, because a large number of our employees have been and will continue to work from home routinely, we may be subject to increased vulnerability to cyber and other information technology risks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-driven remote work to elevated cyber risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Speculative ('may be'), lowers immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Identifies a secondary COVID-related risk but with weaker language; score set at 2."
+            },
+            {
+                "snippet": "We have modified, and may further modify, our business practices in response to the risks and negative impacts associated with the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges active mitigation actions.",
+                            "points": -3
+                        },
+                        {
+                            "reason": "Implicitly confirms presence of pandemic-related risks requiring action.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": -2
+                },
+                "reasoning_summary": "Primarily a mitigation statement, producing a negative contribution of –2."
+            },
+            {
+                "snippet": "The impact of the COVID-19 pandemic continues to evolve and its ultimate duration, severity and disruption to our business, Customers and supply chain, and the related financial impact to us, cannot be accurately forecasted at this time.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises uncertainty in duration and severity; ongoing exposure.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Lack of forecastability underscores risk magnitude.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Highlights uncontrollable uncertainty, justifying a score of 6."
+            },
+            {
+                "snippet": "A pandemic or similar public health crises, such as COVID-19, could have a material adverse impact on ability to staff our operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly threatens operational continuity via staffing.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses 'material adverse impact' language.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Staffing vulnerability framed as materially adverse earns score of 5."
+            },
+            {
+                "snippet": "In addition, the COVID-19 pandemic may increase the risk of such vulnerability and attacks, including unauthorized access or attacks exploiting the fact that a large number of employees are working remotely.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to heightened cyber-attack likelihood.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Speculative ('may'), slightly reduces weight.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Secondary cyber-risk connection with tentative language results in score 2."
+            },
+            {
+                "snippet": "Changes in laws and regulations or policies governing the terms of foreign trade, and in particular, increased trade restrictions, including as a result of the COVID-19 pandemic, tariffs or taxes on imports from countries where we manufacture products could have a material adverse impact on our business and financial results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details regulatory/trade risk directly tied to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States possible 'material adverse impact'.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Describes pandemic-driven trade barriers with potential material financial harm; score 6."
+            }
+        ],
+        "calculated_score": 63,
+        "average_severity": 4.846153846153846
+    }
+]

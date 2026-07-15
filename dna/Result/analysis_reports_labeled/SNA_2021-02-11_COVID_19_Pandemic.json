@@ -1,0 +1,418 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Snap-on (SNA) filed this 10-K roughly eleven months after the World Health Organization declared COVID-19 a pandemic, so the statements describe very recent, live-time conditions.  The disclosure set enumerates both already-incurred impacts (2020 sales declines, temporary plant closures, higher credit-loss reserves, direct COVID-19 costs) and forward-looking exposures (future facility shutdowns, supply-chain interruptions, demand destruction, credit stress on customers, cyber-risk from remote work).  The language is detailed and concrete—quantifying operational disruptions and identifying multiple financial statement lines at risk—rather than boiler-plate.  The company also describes some mitigating actions (maintained capacity, supply-chain monitoring), but those acknowledgements are outweighed by the breadth of adverse effects and the explicit warning that the ultimate impact is still “uncertain and cannot be predicted.”  Given the Time Decay Principle (event < 3 years old), direct and recent impacts justifiably receive high severity scores (7–8), with slightly lower scores for generic or heavily mitigated statements.  Mitigating sentences receive subtraction or, where dominant, a zero score.  Overall, COVID-19 constitutes a material, high-severity risk for Snap-on at the February 2021 filing date.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic has adversely affected, and is expected to continue to pose risks to our business, results of operations, financial condition and cash flows, and other epidemics or outbreaks of infectious diseases may have a similar impact.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that COVID-19 has already had an adverse effect (realised impact).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicitly projects ongoing future risk ('expected to continue').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple key financial dimensions (business, operations, cash flow).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, realised damage plus clear forward-looking warning across critical financial areas warrants a high score of 8."
+            },
+            {
+                "snippet": "COVID-19 caused disruption and volatility in the global capital markets, and authored an economic slowdown during 2020.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to capital-market disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Attributes a documented 2020 economic slowdown directly to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Event is within the recent 0-3-year window.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Describes concrete macro-level disruptions in the recent period, but without firm quantification, earning a solid medium-high score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic and its associated economic uncertainty negatively impacted Snap-on’s sales volumes in 2020 in most geographies and across a variety of customers, including those in automotive repair with the impact most pronounced in the first and second quarters of 2020.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports actual negative impact on sales volumes.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Indicates breadth across geographies and customer segments.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies timing (Q1–Q2 2020) enhancing immediacy.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Company-specific, realised sales hit across regions signals high severity (score 7)."
+            },
+            {
+                "snippet": "These measures resulted in attenuating activity and, in some cases, required temporary closures of certain of our facilities, among other impacts in 2020.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes forced temporary facility closures (operational disruption).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions broader slowdown of activity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct operational shutdowns are material but not quantified, giving a moderate-high risk score."
+            },
+            {
+                "snippet": "Reduced consumer and investor confidence, instability in the credit and financial markets, volatile corporate profits, and reduced business and consumer spending, which may adversely affect our results of operations by reducing our sales, margins and/or net income as a result of a slowdown in customer orders or order cancellations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies several macro demand and financing stressors.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects these stressors to lower sales, margins and net income.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Risk is prospective ('may adversely affect').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Comprehensive description of potential financial damage gives a score of 6."
+            },
+            {
+                "snippet": "Disruptions could occur to our supply chain in connection with the sourcing of materials from geographic areas that continue to be impacted by an outbreak and by efforts to contain its spread.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags supply-chain interruption risk tied to pandemic-affected regions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Geographic concentration aspect increases exposure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific mention of supply-chain fragility gives a moderate risk score."
+            },
+            {
+                "snippet": "As a result of government orders and social distancing, some of our franchisees would be expected to make fewer in-person sales calls during any such outbreak reflecting the reluctance of some customers to receive franchisee visits.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights reduced sales activity by franchisees.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Directly links to social-distancing mandates.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Operational sales-channel constraint is material but limited to particular activity, scoring 4."
+            },
+            {
+                "snippet": "Further, shelter-in-place orders could cause vehicle owners to temporarily refrain from bringing cars to repair shops.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies demand shock mechanism (fewer vehicle repairs).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Linked to governmental shelter-in-place orders.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Concrete but single-channel demand risk yields a modest score."
+            },
+            {
+                "snippet": "To the extent that there is significantly reduced driving due to shelter-in-place and similar orders and the aftermath of such orders, there could be fewer repairs and there could be a decrease in demand for our products; in addition, some repair shops may not be able to stay in business if these conditions continue to exist for an extended period of time.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights knock-on effect of reduced driving on product demand.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Warns of customer (repair shop) insolvency risk.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Describes cascading demand and counter-party risk; moderately high severity."
+            },
+            {
+                "snippet": "The potential to weaken the financial position of some of our customers, including customers utilizing our financing programs.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Points to customer financial deterioration.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights exposure through in-house financing programs.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Credit-quality deterioration risk linked to pandemic earns a score of 4."
+            },
+            {
+                "snippet": "If circumstances surrounding our customers’ financial capabilities were to deteriorate, write-downs or write-offs could negatively affect our operating results and, if large, or ongoing for extended periods, could have a material adverse effect on our business, financial condition, results of operations and cash flow.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies potential for write-downs/write-offs affecting earnings.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong 'material adverse effect' language for prolonged stress.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clear articulation of financial-statement risk leads to a 5."
+            },
+            {
+                "snippet": "These risks may be heightened as greater numbers of associates work remotely in response to safety measures adopted to address the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that remote-work environment increases existing IT/security risks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Directly ties escalation to COVID-19 mitigation.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Risk escalation due to remote work is acknowledged but secondary, yielding a score of 3."
+            },
+            {
+                "snippet": "Any prolonged disruption in the operations of our existing manufacturing facilities, whether due to technical or labor difficulties, facility consolidation or closure actions, lack of raw material or component availability, destruction of or damage to any facility (as a result of natural disasters, weather events, use and storage of hazardous materials, acts of war, sabotage, or terrorism, civil unrest or other events), or other reasons, including outbreaks of infectious diseases, such as the current COVID-19 pandemic, could have a material adverse effect on our business, financial condition, results of operations and cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights potential manufacturing-facility shutdowns due to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses 'material adverse effect' phrasing across financial metrics.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Potentially severe operational disruption raises risk to 5."
+            },
+            {
+                "snippet": "At times, world financial markets have been unstable and subject to uncertainty, such as during the COVID-19 pandemic in 2020.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "References market instability during pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement is somewhat generic.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic reference to market volatility gives a modest risk score."
+            },
+            {
+                "snippet": "The challenges posed by the COVID-19 pandemic on the global economy increased significantly in the first quarter of 2020, impacting Snap-on’s sales volumes in most geographies and across a variety of customers, including those in automotive repair.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes concrete company-specific sales impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Notes breadth across geographies and customer types.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Realised broad sales decline sets a mid-high risk level."
+            },
+            {
+                "snippet": "In addition, the impact of economic uncertainty caused by COVID-19 led to an increase in the credit reserve requirements for the company’s financial services portfolio.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Quantifies effect through higher credit reserves (direct financial cost).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Causal link to COVID-19 uncertainty.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specific, measurable financial impact yields a strong score of 6."
+            },
+            {
+                "snippet": "During the second quarter of 2020, the COVID-19 pandemic and associated government measures to limit the spread of the virus heavily impacted Snap-on’s sales and earnings and, as anticipated, resulted in substantially lower performance in that period as compared to 2019.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States heavy impact on both sales and earnings.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Provides comparative reference (substantially lower than 2019).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Quantified degradation of performance supports a high severity score."
+            },
+            {
+                "snippet": "The company has invested in offsetting the virus impact, including absorbing temporary closures of certain facilities, wages for quarantined associates, event cancellation fees, as well as other related costs.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Incurs direct incremental costs due to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Demonstrates proactive mitigation spending (reduces future risk).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Shows cost impact but also mitigation; net risk contribution is low (score 1)."
+            },
+            {
+                "snippet": "The company’s supply chain and distribution channels have not been materially impacted by the pandemic, and the company has taken steps to ensure access to raw materials and components, but it cannot provide assurances with respect to the future due to the evolving nature of the pandemic.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States no material current impact (mitigating).",
+                            "points": -3
+                        },
+                        {
+                            "reason": "Acknowledges future uncertainty remains.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Predominantly a mitigation statement; net risk score is floored at zero."
+            },
+            {
+                "snippet": "Snap-on has generally maintained its headcount, manufacturing capacity and product development, in anticipation of the return to pre-COVID-19 demand levels.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates proactive retention of capacity (mitigates operational risk).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Purely mitigating—does not add substantive risk; score set to zero."
+            },
+            {
+                "snippet": "To the extent the COVID-19 pandemic, or a future outbreak, adversely affects our business, financial condition, results of operations and cash flows, it may also heighten many of the other risks described in this section.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of compounding effect on multiple existing risk factors.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Contingent language ('to the extent') makes it forward-looking.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights systemic amplification of other risks; moderate severity."
+            },
+            {
+                "snippet": "The ultimate impact of COVID-19, as well as future outbreaks of infectious diseases, on our business, results of operations, financial condition and cash flows is dependent on future developments, including the duration of the pandemic and the related length of its impact on the global economy, which are uncertain and cannot be predicted at this time.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges high uncertainty regarding future impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic uncertainty statement adds minimal incremental risk; score 1."
+            }
+        ],
+        "calculated_score": 90,
+        "average_severity": 4.090909090909091
+    }
+]

@@ -1,0 +1,85 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated February 23, 2022, addresses the COVID-19 pandemic both retrospectively and prospectively. The company explicitly states that the initial phase of the pandemic produced a rapid, material collapse in demand that eroded commodity prices and margins – evidence of a realised, quantified (though not numerically disclosed) impact. It then projects that future outbreaks, government counter-measures, and lasting shifts in consumer behaviour could continue to influence cash flows, financing needs, and overall demand. These statements are recent (within two years of the March 2020 WHO declaration) so the Time Decay Principle permits high scores. However, the disclosures remain qualitative – they speak of “significant decreases” but do not provide dollar figures – and they mention some internal mitigating actions (protecting employee safety). Consequently, while the risk is clearly elevated and ongoing, the absence of precise numbers or unique vulnerabilities keeps the evidence just below the maximum severity threshold.",
+        "evidence_list": [
+            {
+                "snippet": "The initial phase of the COVID-19 pandemic caused conditions of demand reduction and oversupply to develop rapidly and resulted in significant decreases in commodity prices and margins.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly references the COVID-19 pandemic and establishes causation.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes rapid demand reduction and oversupply—core operational impacts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes ‘significant decreases’ in commodity prices and margins, signalling material financial effect.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Impact is already realised, demonstrating concrete—not hypothetical—risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "High score because it links the event directly to realised, material deterioration in prices and margins; no mitigating language is offered."
+            },
+            {
+                "snippet": "ExxonMobil’s future business results, including cash flows and financing needs, will be affected by the scope and severity of current and future COVID outbreaks; actions taken by governments and others to address the pandemic and the effects of those actions on national and global economies and markets; changes in consumer behavior that affect demand for our products; and the effectiveness of the Corporation’s own responsive actions to protect the safety and well-being of our people.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that future business results will be affected by ongoing and future COVID outbreaks—direct forward-looking risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies government actions and macro-economic responses as aggravating factors.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights changes in consumer behaviour that could shift demand.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Ties risk to cash flows and financing needs—explicit financial exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Mentions internal ‘responsive actions’ to protect employees, a form of mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Moderately high score: multiple forward-looking risk channels are cited, but some mitigating language and lack of quantification temper severity."
+            },
+            {
+                "snippet": "Other factors that affect general economic conditions in the world or in a major region, such as changes in population growth rates, periods of civil unrest, government regulation or austerity programs, trade tariffs or broader breakdowns in global trade, security or public health issues and responses, or currency exchange rate fluctuations, can also impact the demand for energy and petrochemicals.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "References ‘security or public health issues and responses,’ implicitly encompassing pandemics.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Links these issues to demand impacts for the company’s core products.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Low score because the sentence is generic and only implicitly covers pandemic risk without specifics or quantification."
+            }
+        ],
+        "calculated_score": 16,
+        "average_severity": 5.333333333333333
+    }
+]

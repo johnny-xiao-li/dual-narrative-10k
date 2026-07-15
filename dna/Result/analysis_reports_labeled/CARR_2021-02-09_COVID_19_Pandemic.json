@@ -1,0 +1,180 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Carrier’s 2021 filing portrays COVID-19 as both a realised and continuing threat that permeates virtually every facet of the company’s risk profile—operations, supply chain, customer liquidity, labour availability, and macro-economic demand.  Statements repeatedly confirm that the pandemic has already impaired production and financial results (“have been adversely affected”) while warning that future waves, prolonged shutdowns, or delays in vaccination could further contract revenue, disrupt suppliers, and weaken customers’ ability to pay.  The language is concrete (plant shutdowns, order cancellations, supplier bankruptcy risk) and contemporaneous with the filing date (within one year of the WHO declaration), so Time Decay allows for high severity scores.  No meaningful quantitative mitigation is supplied beyond generic liquidity actions, and the forward-looking uncertainty around vaccines underscores residual exposure.  Overall, the evidence supports elevated risk scores (5-8 range) for individual snippets, reflecting a recent, direct and multi-dimensional impact that remains unresolved.",
+        "evidence_list": [
+            {
+                "snippet": "Our business, financial condition and results of operations have been and may continue to be adversely affected by COVID-19.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to adverse effects already realised.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Projects ongoing impact ('may continue').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers multiple core metrics (business, financial condition, results).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, unqualified admission of current and future harm warrants a high score under recent-event rules."
+            },
+            {
+                "snippet": "The global outbreak of COVID-19 has severely constrained economic activity and, as a result, has caused a significant contraction in the global economy.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies severe macro-economic contraction caused by COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes realised impact ('has caused').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highlights economy-wide contraction; important but less company-specific, so moderate score."
+            },
+            {
+                "snippet": "The pandemic continues to result in widespread and extended or partial shutdowns and other restrictions on the operations of non-essential businesses, including construction, hospitality venues, offices and travel.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details ongoing shutdowns and restrictions attributable to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Names specific sectors relevant to Carrier’s end-markets (construction, offices).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows continuing operational headwinds in customer sectors; solid but not company-quantified."
+            },
+            {
+                "snippet": "Nonetheless, further prolonged closures and restrictions throughout the world or the rollback of reopening measures due to a resurgence of COVID-19 cases and continued decreases in the general level of economic activity may again disrupt our operations and the operations of our suppliers, distributors and customers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of future disruptions to Carrier and its entire value chain.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple counterparties (suppliers, distributors, customers).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking risk spans operations and supply chain, earning a mid-high score."
+            },
+            {
+                "snippet": "As a result of the foregoing, the pandemic and its impact have also affected and could continue to affect the ability of our customers to pay for our products and services and to obtain financing for significant purchases and operations, which has resulted in, and could further result in, a decrease and/or cancellation of orders and/or payment delays or defaults.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to customer liquidity stress and order cancellations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Notes both realised effects and future risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct tie to revenue loss via customer defaults justifies a slightly higher score."
+            },
+            {
+                "snippet": "Such conditions may also adversely affect our supply base and increase the potential for one or more of our suppliers to experience financial distress or bankruptcy, which could impact our ability to fulfill orders on time or at the anticipated cost.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights supplier distress and bankruptcy risk linked to COVID-19 conditions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies operational consequence (delays, cost overruns).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Describes concrete supply-chain vulnerabilities; important but not quantified."
+            },
+            {
+                "snippet": "The pandemic has negatively affected the U.S. and global economies, disrupted global supply chains and financial markets, resulted in significant travel restrictions, mandated facility closures, and resulted in shelter-in-place orders.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple concrete disruptions already occurring (supply chains, facility closures).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses definitive past-tense impact ('has negatively affected').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Multi-dimensional, realised impacts drive a robust score."
+            },
+            {
+                "snippet": "In early 2020, we temporarily closed or reduced production at manufacturing facilities in North America, Asia and Europe for safety reasons and in response to lower demand for our products.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Company-specific action: plant closures across three continents.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Indicates demand drop and operational shutdown already realised.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct evidence of operational disruption within Carrier merits a high score."
+            },
+            {
+                "snippet": "The full extent of the impact of COVID-19 on our operational and financial performance will depend on future developments, including the duration and spread of the pandemic as well as any worsening or additional outbreaks of the pandemic, related containment and mitigation actions taken by the U.S. federal, state and local and international governments to prevent disease spread and the rollout of vaccines in the U.S. and internationally, including the effectiveness of such vaccines in preventing COVID-19 and the time it takes to vaccinate a sufficient percentage of the U.S. and global populations.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights significant future uncertainty tied to uncontrollable factors (vaccine rollout, government actions).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links that uncertainty to operational and financial performance.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Captures residual uncertainty rather than concrete impact, so modest but positive score."
+            }
+        ],
+        "calculated_score": 50,
+        "average_severity": 5.555555555555555
+    }
+]

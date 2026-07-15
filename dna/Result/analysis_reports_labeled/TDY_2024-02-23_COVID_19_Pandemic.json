@@ -1,0 +1,72 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "TDY’s 2024 filing treats COVID-19 primarily as an event that triggered earlier operational pain but still casts a medium-term shadow.  The company cites two concrete vectors: (1) a pandemic-related slowdown in Chinese economic growth that could dampen demand for its instrumentation and imaging products, and (2) supply-chain interruptions that already reduced its ability to manufacture and ship, with some constraints still lingering.  These references confirm that COVID-19 produced direct impacts (supply-chain delays) and indirect impacts (macro-economic softness) that remain relevant four years on, though the language shifts from acute crisis to managed, improving conditions.  The disclosure is therefore partly retrospective and partly forward-looking, contains no quantified dollar figures, and includes only limited mitigating language.  Under the Time Decay Principle (event ≈ 4 years old), the pandemic risks merit moderate—not maximal—severity scores.  No sentences describe remote-work transitions or labour shortages explicitly tied to COVID-19, so the evidence set is confined to the cited impacts.",
+        "evidence_list": [
+            {
+                "snippet": "Economic growth in China had slowed since the COVID pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to a macro-economic slowdown that can reduce demand in a key market.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Effect is indirect (country-level growth, not an explicit company metric).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides a clear, lingering demand-side risk tied to the pandemic, but it is indirect and unquantified, warranting a moderate score of 4."
+            },
+            {
+                "snippet": "Our business in the recent past was impacted by interruptions in the supply chain, due in part to the COVID pandemic, a resumption of strong worldwide demand for electronic products and components across a number of end markets, and interruption in supplier operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that the company’s operations were directly impacted by pandemic-related supply-chain interruptions.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses temporal phrasing ('recent past') indicating the impact is still relevant and proximate.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Qualifies cause as 'due in part', signalling COVID was not the sole driver.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "This sentence delivers the strongest link: a direct, realised operational impact from COVID-19 supply-chain disruption, balanced by acknowledgement that the pandemic was only one contributing factor.  Score = 5 (upper-moderate for a 4-year-old event)."
+            },
+            {
+                "snippet": "In the event of a major earthquake, tornado, hurricane or catastrophic event such as fire, power loss, telecommunications failure, vandalism, cyber-attack, war, terrorist attack or health epidemic (including COVID), we may be unable to continue our operations and may endure system interruptions, reputational harm, delays in our application development, lengthy interruptions in our production, breaches of data security and loss of critical data, all of which could harm our business, results of operations and financial condition and have a material adverse impact on us.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists a health epidemic (explicitly including COVID) as one of several catastrophic risks with severe operational consequences.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic, boilerplate language; pandemic is only one item in a long list, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "COVID-19 appears here only as a generic example within a broad disaster list, so the evidence is weak and heavily caveated, yielding a low score of 1."
+            }
+        ],
+        "calculated_score": 10,
+        "average_severity": 3.3333333333333335
+    }
+]

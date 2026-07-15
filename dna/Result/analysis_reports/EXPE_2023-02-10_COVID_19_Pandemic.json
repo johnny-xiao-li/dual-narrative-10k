@@ -1,0 +1,331 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is depicted as both an historical shock and a continuing, multifaceted threat to Expedia Group (EXPE).  The Risk-Factors section repeatedly states that the pandemic already produced materially adverse effects – collapsing bookings, soaring cancellations, refund-driven cash outflows and emergency debt raises – while warning that new variants, lingering containment measures and macro-knock-ons (labour shortages, lower consumer income, partner stress) could keep pressuring revenue, liquidity and strategic positioning for the ‘foreseeable future.’  The language is largely qualitative but very explicit, with numerous concrete operational examples (e.g., refund waves, hybrid-work disruption).  Because the 10-K is filed only three years after the WHO declaration (within the 0-3-year “recent” window), the Time-Decay Principle allows high severity scores (up to 10).  However, not every sentence is equally acute: past-tense statements without quantification, broad uncertainty statements, or items partially offset by mitigation warrant moderate scores, whereas sentences linking the pandemic to cash-flow depletion, liquidity strain or sizeable operational hits merit higher scores.  My scoring below reflects this gradient, adding negative points where mitigations are mentioned and capping each snippet at 10 in line with the time-decay rule.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic had, and may continue to have, a material adverse impact on the travel industry and our business, financial performance and liquidity position.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States past material adverse impact already realised.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicitly warns of continuing future impact (‘may continue’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple critical dimensions (industry, business, liquidity).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Directly links COVID-19 to material past and future harm across core metrics; high but unquantified impact."
+            },
+            {
+                "snippet": "Since early 2020, the COVID-19 pandemic and efforts to contain it have severely restricted the level of economic activity around the world and have had an unprecedented effect on the global travel industry.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes severe restriction of economic activity.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Characterises impact as ‘unprecedented’ for global travel.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Highlights magnitude and global scope of disruption; no company-specific numbers, hence slightly lower than max."
+            },
+            {
+                "snippet": "Containment measures have included, and in some cases continue to include, travel restrictions, bans and advisories, social distancing measures, curfews, quarantine restrictions after travel in certain locations, border closures “shelter-in-place” orders, required closures of non-essential businesses, vaccination mandates or requirements for businesses to confirm employees’ vaccination status, and other restrictions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists numerous specific operational constraints hindering travel supply/demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes that some measures are ongoing (‘continue to include’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Global breadth implied by variety of measures.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Gives detailed mechanisms of disruption; medium-high severity because effects are indirect but continuing."
+            },
+            {
+                "snippet": "The pandemic had, and may continue to have, a number of material adverse impacts on our business, financial performance and liquidity position.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Affirms material adverse impacts have already occurred.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Adds forward-looking risk (‘may continue’).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Similar breadth as first sentence but without industry context; still high severity."
+            },
+            {
+                "snippet": "For example, in 2020, we experienced significantly reduced levels of new bookings, significantly heightened levels of cancellations, and instigated traveler-centric modifications to our cancellation policies.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies sharp drop in new bookings.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies spike in cancellations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies operational changes to policies (costly adjustments).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Concrete operational hits illustrate magnitude; no dollar figures but multiple direct effects drive high score."
+            },
+            {
+                "snippet": "As a result, we experienced a significant increase in refunds, which led to materially negative cash flow that negatively impacted our cash balance and overall liquidity position.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Significant increase in refunds (cash outflow).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States ‘materially negative cash flow’.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicit hit to cash balance/liquidity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Links pandemic directly to liquidity depletion and cash-flow strain; near-maximum severity without exact figures."
+            },
+            {
+                "snippet": "The pandemic also had a significant adverse effect on many of the partners on which our business relies, including accommodation providers and airlines, as well as on the traveling public generally and our employees.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights adverse effect on key suppliers (systemic risk).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions impact on employees and customers, broadening exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses ‘significant adverse effect’ language.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows knock-on risks to supply chain and workforce; moderately severe."
+            },
+            {
+                "snippet": "In addition, the pandemic impeded global economic activity for an extended period and could continue to do so, leading to a continuation of the already significant decrease in per capita income and disposable income, increased and sustained unemployment or a decline in consumer confidence, all of which would significantly reduce discretionary spending on travel.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to macroeconomic drag and reduced incomes.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explains mechanism reducing discretionary travel spend.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes risk could ‘continue’.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Macro-level demand risk clearly articulated; medium score due to indirect nature."
+            },
+            {
+                "snippet": "In turn, that could have a negative impact on demand for our services and could lead our partners, or us, to reduce prices or offer incentives to attract travelers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Predicts demand erosion.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Warns of potential margin-eroding price incentives.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking (‘could’), less certain.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Potential but not yet realised margin pressure; moderate risk."
+            },
+            {
+                "snippet": "We also cannot predict the long-term effects of the COVID-19 pandemic on our partners and their business and operations or the ways that the pandemic may fundamentally alter the travel industry or consumer habits.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights high uncertainty about structural changes.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers both partner operations and consumer behaviour.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Emphasises uncertainty rather than confirmed harm; lower score."
+            },
+            {
+                "snippet": "In particular, we may need to adapt to a travel industry with fewer and different suppliers as well as structural changes to certain types of travel.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Foresees need for strategic adaptation to supplier base shifts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions structural changes to travel types (long-term strategic risk).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Long-term strategic risk, but speculative; modest severity."
+            },
+            {
+                "snippet": "Our mitigation efforts in response to the impacts of COVID-19 on our businesses have had, or may continue to have, negative impact.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges mitigation measures themselves create harm.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Phrase ‘may continue’ signals ongoing exposure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Secondary risk from response actions; moderate weight."
+            },
+            {
+                "snippet": "For example, in response to the spread of COVID-19 in early 2020, we incurred significant additional indebtedness and took other actions, including the ultimate adoption of a hybrid work policy, that could lead to disruptions in our business, reduced employee morale and productivity, increased attrition, and problems retaining existing and recruiting future employees, all of which could have a material adverse impact on our business, financial condition, results of operations and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies ‘significant additional indebtedness’ taken on.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights operational HR risks from hybrid work.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Concludes with potential ‘material adverse impact’.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Concrete financial and operational burdens raised by pandemic; high severity."
+            },
+            {
+                "snippet": "The ultimate extent of the impact of the pandemic, including as a result of possible subsequent outbreaks of COVID-19 or of new variants thereof and measures taken in response thereto, will depend on future developments, which remain highly uncertain and cannot currently be predicted.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises unpredictability and potential for further outbreaks.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights dependence on future developments outside company control.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Pure uncertainty statement; low-moderate risk weight."
+            },
+            {
+                "snippet": "It is therefore difficult to estimate with accuracy the impact to our future revenues, results of operations, cash flows, liquidity or financial condition, but such impacts have been, and may continue to be, significant and could continue to have a material adverse effect on our business, financial condition, results of operations, cash flows and liquidity position for the foreseeable future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges past significant impacts across all financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Warns impacts may ‘continue’ and be ‘material’ into foreseeable future.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Blends past evidence with forward severity; moderately high score."
+            },
+            {
+                "snippet": "Factors that could negatively affect the travel industry in general and our business in particular, potentially materially, include: ... labor shortages, whether due to the impact of the COVID-19 pandemic or otherwise, ...",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites pandemic-related labour shortages as a material risk factor.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specific but isolated mention within larger list; low-moderate weight."
+            },
+            {
+                "snippet": "Although our cash flows from operations and available capital, including the proceeds from financing transactions, have been sufficient to meet obligations and commitments to date, we cannot predict how the COVID-19 pandemic and resulting economic impacts could affect our liquidity in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties future liquidity uncertainty to pandemic impacts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Partly mitigated by statement of current sufficiency of capital.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Mentions uncertainty but also notes present adequacy; net low score."
+            }
+        ],
+        "calculated_score": 95,
+        "average_severity": 5.588235294117647
+    }
+]

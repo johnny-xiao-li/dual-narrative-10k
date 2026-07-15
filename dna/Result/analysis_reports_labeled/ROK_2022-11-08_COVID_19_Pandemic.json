@@ -1,0 +1,258 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Rockwell Automation’s 2022 Form 10-K demonstrates that the COVID-19 pandemic remains a material, front-of-mind risk less than three years after the World Health Organization declared the outbreak a global pandemic.  The company frames COVID-19 as both an historical shock (\"has had\") and a persisting, forward-looking threat (\"could continue to have\"), detailing concrete operational channels through which the virus affects it: worldwide supply-chain bottlenecks, limits on the movement of goods and people, labour availability, and knock-on reductions in customer liquidity and demand.  The language is specific—naming disruptions to freight lanes, component shortages and distribution delays—and it ties those disruptions directly to the firm’s revenues and ability to deliver products.  Although management notes some mitigation (monitoring the situation, relaxation of restrictions, and internal response measures), these statements do little to offset the breadth of continuing uncertainty the company emphasises.  Given the recency of the event (≈ 2.5 years) under the Time Decay Principle, the risk evidence warrants high—but not maximum—scores: the disclosures are current, describe ongoing adverse impacts, and reference global, enterprise-wide exposure, yet lack precise quantitative impact figures that would justify a 9–10 across the board.",
+        "evidence_list": [
+            {
+                "snippet": "Natural disasters (including but not limited to those as a result of climate change), pandemics (including the COVID-19 pandemic), acts or threats of war (including the Russia and Ukraine conflict) or terrorism, international conflicts, power outages, fires, explosions, equipment failures, sabotage, political instability, and the actions taken by governments could cause damage to or disrupt our business operations, our suppliers or our customers, and could create economic instability.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics, including COVID-19, as a source of operational disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links the event to potential damage to business operations, suppliers, customers and wider economic instability.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Generic bundling with many other hazards dilutes specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Directly names COVID-19 and ties it to operational and economic harm, but phrased generically among numerous other risks, yielding a mid-level severity score of 5."
+            },
+            {
+                "snippet": "The COVID-19 pandemic continues to cause disruption to the global economy, including in all of the regions in which we, our suppliers, distributors, business partners, and customers do business and in which our workforce is located.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that the pandemic 'continues to cause disruption'—ongoing, not hypothetical.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Emphasises global scope affecting every region of the company’s ecosystem (suppliers, distributors, customers, workforce).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No mitigating language offered.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Highly specific, current and enterprise-wide impact with no mitigation, warranting a high score of 8."
+            },
+            {
+                "snippet": "We continue to monitor the pandemic, and while periodic local increases and decreases in COVID-19 cases are likely, generally the restrictions due to and in response to the pandemic continue to relax in most locations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing monitoring and fluctuation in case levels—evidence of continuing risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes that restrictions are generally relaxing, signalling partial mitigation.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Still concedes that periodic spikes are likely.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Presence of mitigating language about easing restrictions offsets the risk acknowledgment, resulting in a low-moderate score of 2."
+            },
+            {
+                "snippet": "However, the COVID-19 pandemic and efforts to manage it, including those by governmental authorities, have had, and could continue to have, an adverse effect on the economy and our business in many ways.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits both realised ('have had') and future ('could continue to have') adverse effects.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects impacts to both macro-economic environment and the company’s own business.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions government responses as an additional uncertainty factor.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Clear statement of realised and ongoing business harm elevates severity, scoring 7."
+            },
+            {
+                "snippet": "This includes, but is not limited to, a continued limit on the movement of goods, services, and to some extent people, including our own workforce, resulting in worldwide disruptions in our supply chain and distribution.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies concrete operational channel—restrictions on movement causing supply-chain disruption.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Describes impact as worldwide, indicating broad scope.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights effect on company’s own workforce.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Detailed, global supply-chain impact directly tied to pandemic merits a high score of 8."
+            },
+            {
+                "snippet": "Adverse impacts to our customers’ business operations and financial condition could lead to a decrease in their liquidity and/or spending resulting in a decrease in demand for and our customers’ ability to pay for our hardware and software products, solutions, and services.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies downstream financial effects: reduced customer liquidity and spending.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links directly to demand and payment capacity for the company’s offerings.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional 'could', indicating potential rather than realised impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights customer-demand risk but framed as potential, not realised, so severity is moderate (4)."
+            },
+            {
+                "snippet": "The unprecedented and continuously evolving nature of the COVID-19 pandemic make the duration and severity of its impacts difficult to predict, which could limit our ability to respond to those impacts.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises uncertainty and unpredictability of pandemic impacts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Admits potential constraint on the company’s ability to respond.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Labels the situation 'unprecedented', reinforcing seriousness.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Strong language on uncertainty and response limitations yields a score of 6."
+            },
+            {
+                "snippet": "Additionally, the impacts described above and other impacts of the COVID-19 pandemic and responses to it could substantially increase the risk to us from the other risks described in this Item 1A. Risk Factors .",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States pandemic could 'substantially increase' exposure to all other identified risks.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights compounding effect, broadening potential damage.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows pandemic as a risk multiplier across the enterprise, warranting a score of 6."
+            },
+            {
+                "snippet": "The supply chain is stressed by increased demand, along with pandemic-related and other global events that have put additional pressures on manufacturing output and freight lanes.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links pandemic-related events to supply-chain stress.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies concrete pressure points: manufacturing output and freight lanes.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Explicit connection between pandemic and tangible supply-chain strains supports a mid-level score of 5."
+            },
+            {
+                "snippet": "We continue to monitor the impacts of the COVID-19 pandemic on all aspects of our business and geographies.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemic impacts are enterprise-wide and ongoing.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Presence of mitigation via monitoring reduces severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic monitoring statement with limited detail yields a low score of 2."
+            },
+            {
+                "snippet": "Uncertainty on the duration and severity of those impacts remains due to the evolving nature of the pandemic, government responses to it, and regulations across the geographies in which our business operates.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights continuing uncertainty about duration and severity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Adds regulatory and governmental response uncertainty across geographies.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Focus on multi-jurisdictional uncertainty produces a moderate score of 4."
+            },
+            {
+                "snippet": "We are continuously responding to the changing conditions created by the pandemic and evolving regulations and remain focused on our priorities including employee health and safety, our customer needs, and protecting critical investments to drive long-term differentiation.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms that pandemic conditions remain in flux and require ongoing response.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists active mitigation efforts (health & safety, protecting investments).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Primarily describes mitigation actions; residual risk signal is weak, so score is minimal (1)."
+            }
+        ],
+        "calculated_score": 58,
+        "average_severity": 4.833333333333333
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Autodesk’s March 2022 Form 10-K situates COVID-19 as a still-unfolding, multi-faceted threat that is already disrupting the company’s operations while remaining highly unpredictable. Two years after the WHO declaration, management describes tangible, current impacts—mandatory remote-work arrangements, cancelled events, supply-chain bottlenecks, inflationary cost pressures and global labour shortages—that are directly weighing on the pace of recovery. At the same time, the filing frames a forward-looking risk profile in which new variants, renewed lockdowns and waning policy support could materially impair growth and cash flow. The language is specific (referencing supply-chain disruption and labour shortages) and portrays both realised and prospective effects, with only limited mitigating references to ongoing monitoring and operational adjustments. Given the recency of the pandemic (within three years of the filing date), the Time Decay Principle permits high severity scores; however, some moderation is warranted where the company evidences adaptive measures. Overall, the document supports a high but not maximal risk assessment, reflecting an event that is actively constraining operations and could deepen if adverse scenarios materialise.",
+        "evidence_list": [
+            {
+                "snippet": "The effects of the COVID-19 pandemic and related public health measures have affected how we and our customers are operating our respective businesses, and the extent of the impact on our business and results of operations remains uncertain .",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states that COVID-19 has already affected company and customer operations ( realised impact ).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights continuing uncertainty about magnitude and duration of impact, implying ongoing risk exposure.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct acknowledgement of current operational disruption combined with open-ended uncertainty justifies a high severity score of 7 for a recent event."
+            },
+            {
+                "snippet": "We are continuing to conduct business during the COVID-19 pandemic with substantial modifications to employee travel and work locations, as well as virtualization, postponement, or cancellation of certain sales and marketing events, among other changes.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete operational disruptions (travel bans, remote work, cancelled events).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Indicates the company is adapting operations, which partially mitigates risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Operational disruptions are significant, but explicit mention of adaptive measures tempers the net score to 3."
+            },
+            {
+                "snippet": "In addition, supply chain disruption and resulting inflationary pressures, a global labor shortage, and the ebb and flow of COVID-19, including in specific geographies, are currently impacting the pace of our recovery and our outlook.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites supply-chain disruption and inflation—major aggravating factors.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights global labour shortage linked to the pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States these factors are 'currently impacting' recovery, showing immediate financial effect.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Multiple, present-tense operational and financial headwinds yield a high risk score of 7."
+            },
+            {
+                "snippet": "Growth may slow if virus outbreaks  (including from new variants) prove difficult to contain, infections and deaths mount rapidly before vaccines are widely available, and social distancing measures and/or lockdowns return and are more stringent than anticipated.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Projects potential slowdown in growth tied to future outbreaks and variants.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Escalates severity by referencing stricter lockdowns and public-health crises.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking scenario analysis indicates material risk but is conditional, giving a mid-high score of 5."
+            },
+            {
+                "snippet": "Together, these uncertainties and risks could have a material adverse impact on our financial condition, business and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses strong phrasing 'material adverse impact' to characterise aggregate COVID-19 risks.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic but forceful statement of potential materiality warrants a modest score of 2."
+            },
+            {
+                "snippet": "The extent to which COVID-19 will impact our financial condition or results of operations is still uncertain and will continue to depend on developments such as the impact on our customers, vendors, distributors, and resellers, such as the supply chain disruption and resulting inflationary pressures and global labor shortage that we have seen recently, as well as other factors, including the full duration and the extent of the pandemic, including as a result of outbreaks and variants;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Re-emphasises uncertainty around financial impact, maintaining elevated risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Links impact to concrete aggravators: supply-chain disruption, inflation, labour shortages.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Combines explicit uncertainty with specific worsening factors, supporting a score of 5."
+            }
+        ],
+        "calculated_score": 29,
+        "average_severity": 4.833333333333333
+    }
+]

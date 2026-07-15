@@ -1,0 +1,146 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Copart’s 2022-09-27 10-K explicitly links the COVID-19 pandemic to both realized and still-emerging risks.  The filing moves well beyond boiler-plate: management discloses concrete, historical impacts (e.g., lower processed-vehicle volumes, depressed assignment levels) and provides a balanced view of partially offsetting benefits (higher average selling prices).  The company also flags a suite of forward-looking uncertainties—future shelter-in-place orders, labour-process inefficiencies, supply-chain distortions, and demand shifts tied to miles-driven trends.  Because the pandemic event is less than three years old at the filing date, the Time Decay Principle permits high severity scores.  However, some passages are purely generic list items, warranting only minimal credit, whereas sentences that describe actual operational or financial effects deserve materially higher scores, tempered where the company notes mitigating offsets (e.g., price increases).  The resulting evidence portfolio thus ranges from very low (generic bullet-point mentions) to high (specific statements of adverse volume impacts), with final snippet scores spanning 2–7.",
+        "evidence_list": [
+            {
+                "snippet": "•    public health issues, including but not limited to the COVID-19 pandemic;",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists COVID-19 as a public-health risk applicable to the business.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Extremely generic, offered only as one item in a broad risk enumeration with no impact detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic boiler-plate acknowledgement of pandemic risk; earns minimal credit despite recency."
+            },
+            {
+                "snippet": "Beginning in March 2020, our business and operations began to experience the impact of the worldwide COVID-19 pandemic.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly states that the pandemic has already impacted the company.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Places the timing squarely inside the recent-event window (0-3 yrs).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantification of magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Recent, realized impact statement but without financial magnitude; earns a solid mid-high score."
+            },
+            {
+                "snippet": "From a financial perspective, our operating results were adversely affected by lower processed vehicle volume, but these adverse effects were more than offset by corresponding increases in vehicle average sales prices.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete financial headwind linked to COVID-19 (lower volumes).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Notes internal mitigation (price increases offsetting impact).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Describes current, not hypothetical, effects within recent timeframe.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows measurable operational harm balanced by internal offsets, producing a moderated risk score."
+            },
+            {
+                "snippet": "Although we initially saw substantial declines in vehicle assignments following the onset of the COVID-19 pandemic, which we attribute principally to reduced accident volume as miles driven dramatically declined in response to shelter-in-place orders across the globe, we have generally seen vehicle assignment volumes steadily recovering; however additional subsequent shelter-in-place orders have occasionally stalled or regressed the assignment volume commensurate with the severity and duration of such orders.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details specific operational metric (vehicle assignments) materially harmed by the pandemic.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explains causal chain (shelter-in-place → lower miles → fewer accidents).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Reports partial recovery, a mitigating element.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Still within recent 0-3-yr window.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Granular operational impact with some recovery noted; strong but not maximum severity."
+            },
+            {
+                "snippet": "The pandemic may have an adverse effect on our future revenues, with the magnitude and timing of these effects dependent upon the extent and duration of suspended economic activity across our markets.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit forward-looking warning of revenue deterioration tied to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies key driver (suspended economic activity) but provides no quantification.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Recent event timeframe relevance.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking, specific to revenues, yet unquantified; yields a moderate score."
+            },
+            {
+                "snippet": "We cannot predict how the pandemic will continue to develop, whether and to what extent new shelter-in-place orders will be issued, or to what extent the pandemic may have longer term unanticipated impacts on our markets, including, for example, the risk of long-term reductions in miles driven.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges material uncertainty and multiple potential adverse scenarios (new orders, long-term demand shifts).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uncertainty language dilutes precision and omits magnitude.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Recent event keeps relevance high.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights significant unknowns but remains speculative; produces a low-moderate risk score."
+            }
+        ],
+        "calculated_score": 24,
+        "average_severity": 4.0
+    }
+]

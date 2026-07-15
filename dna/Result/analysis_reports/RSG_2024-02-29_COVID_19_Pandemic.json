@@ -1,0 +1,56 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is referenced only once in RSG’s 2023 Form 10-K, but the disclosure still links the pandemic to tangible operational pressures—namely broad supply-chain disruptions, labor market tightness and economic volatility that hamper the company’s ability to service customers. The language is retrospective (\"in recent years\") yet framed as an ongoing headwind (“negatively impacts our ability to provide services”), so the risk remains live rather than fully historical. However, four years have elapsed since the World Health Organization declared the pandemic; under the Time Decay Principle this places the event in the medium-term (4-10 years) category, capping severity in the mid-range. The statements are qualitative and bundled with other macro shocks, lacking precise figures or unique vulnerabilities, which tempers the overall risk assessment. Accordingly, evidence scores land in the 4-5 range—significant enough to warrant monitoring, but not rising to high-impact territory absent fresh, quantified data.",
+        "evidence_list": [
+            {
+                "snippet": "In recent years, for example, the COVID-19 pandemic, inflation, the Ukraine-Russia conflict, United States -China relations, the Israel-Gaza conflict, monetary policy changes, and the resulting increases in interest rates negatively impacted the economy, disrupted supply chains and created significant volatility and disruption of financial markets.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names the COVID-19 pandemic as a driver of risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes concrete operational impacts (supply-chain disruption, market volatility).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses broad, non-quantified wording and bundles COVID-19 with multiple other events, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly links COVID-19 to supply-chain and market disruptions, but lack of quantification and mixed attribution keep the score at a medium 4."
+            },
+            {
+                "snippet": "In particular, disruption of the labor market and supply chains related to vehicles, especially trucks and the mechanical and electrical components in order to service them, negatively impacts our ability to provide services.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies specific operational vulnerabilities: labor shortages and parts supply constraints.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States an ongoing adverse effect on service delivery ('negatively impacts our ability').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not explicitly restate COVID-19 as the cause and provides no quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows concrete operational impact but weakens by not explicitly tying the issue back to COVID-19 and by lacking numbers, so it scores a moderate 3."
+            }
+        ],
+        "calculated_score": 7,
+        "average_severity": 3.5
+    }
+]

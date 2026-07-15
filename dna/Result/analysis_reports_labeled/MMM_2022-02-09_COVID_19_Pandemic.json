@@ -1,0 +1,294 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "3M’s 2022-02-09 filing portrays COVID-19 as an immediate, multi-faceted risk that is already affecting – and is expected to continue affecting – the company’s operations, supply chain, workforce practices and financial position.  The document moves well beyond boiler-plate language: it cites actual supply-chain bottlenecks, vendor shortfalls, demand volatility, remote-work cybersecurity threats, trade barriers and even a quantified drag on sales.  Many statements are present-tense or explicitly forward-looking (“will continue to impact”), underscoring that the threat is ongoing rather than fully historical.  While management describes some counter-measures (e.g., prioritising critical supplies and litigation against counterfeiters), these do not materially offset the breadth of exposures identified.  Because the filing date is less than two years after the WHO’s pandemic declaration, the Time Decay Principle allows high scores (up to 10).  Taken together, the evidence supports a generally elevated risk profile (individual snippets cluster in the 3-7 range) rather than the absolute maximum, owing to limited quantification and the presence of some balancing positives (e.g., increased demand for certain products).",
+        "evidence_list": [
+            {
+                "snippet": "The Company is subject to risks related to public health crises such as the global pandemic associated with the coronavirus (COVID-19).",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly identifies COVID-19 as a public-health crisis risk for the company.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Wording is generic with no detail or quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Clearly flags COVID-19 as a risk, but the language is generic; therefore a modest score of 3."
+            },
+            {
+                "snippet": "3M, as a global company, is impacted by public health crises such as the global pandemic associated with COVID-19.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that the company is already impacted, not just potentially.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights worldwide scope of the impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Moves from hypothetical to actual impact and emphasises global reach, warranting a 5."
+            },
+            {
+                "snippet": "The outbreak has significantly increased economic and demand uncertainty.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses the word 'significantly' to characterise increased uncertainty.",
+                            "points": 4
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Signals material demand uncertainty; absence of detail keeps the score at 4."
+            },
+            {
+                "snippet": "In addition, public and private sector policies and initiatives to reduce the transmission of COVID-19, such as the imposition of travel restrictions, the adoption of remote working, an d government-ordered vaccine mandates, have impacted and will continue to impact 3M’s operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists concrete disruptive measures (travel restrictions, remote work, vaccine mandates).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States both past and future operational impact ('have impacted and will continue').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers multiple operational domains, broadening severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Detailed, multi-domain, ongoing impact justifies a high score of 7."
+            },
+            {
+                "snippet": "COVID-19 has impacted 3M’s supply chains relative to global demand for products like respirators, surgical masks and commercial cleaning solutions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies direct supply-chain disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions critical PPE products under heightened demand.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete supply-chain issues tied to essential products yield a 5."
+            },
+            {
+                "snippet": "COVID-19 has also affected the ability of suppliers and vendors to provide products and services to 3M.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights supplier/vendor shortfalls.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No mitigation or quantification offered.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Direct supplier risk, but lack of numbers leads to a moderate score of 4."
+            },
+            {
+                "snippet": "Some of these COVID-related factors have increased demand for certain 3M products, while others have decreased demand from certain end markets or could make it more difficult for 3M to serve customers.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges decreased demand and service difficulty in some markets.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Simultaneously notes increased demand for other products (mitigating).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Mixed demand effects net to a modest risk score of 2."
+            },
+            {
+                "snippet": "In addition, trade barriers, export restrictions and other similar measures imposed by national governments also negatively impact the supplies of personal protection equipment including those made by 3M going into t he most needed areas.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Points to government actions that directly hamper PPE supply.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Impacts mission-critical products during a health crisis.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Government-imposed constraints on critical PPE raise supply-chain risk to 4."
+            },
+            {
+                "snippet": "Furthermore, COVID-19 has impacted and may further impact the broader economies of affected countries, including negatively impacting economic growth, the proper functioning of financial and capital markets, foreign currency exchange rates, and interest rates.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites wide-ranging macroeconomic consequences.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Includes forward-looking possibility of further impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Broader macro risk relevance, but not company-specific, merits 4."
+            },
+            {
+                "snippet": "For example, COVID-19 has led to disruption and volatility in the global capital markets, which increases the cost of capital and could adversely impact access to capital.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Gives a concrete example (capital-market volatility).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links directly to increased cost of and reduced access to capital.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific capital-market implications elevate the score to 5."
+            },
+            {
+                "snippet": "As part of the return to work process at the Company, the Company could face additional privacy and data security risks in various countries related to the collection of data regarding employees and contractors with respect to COVID-19 testing, temperature checks, contact tracing, and vaccination status.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces new privacy and data-security risk category.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is prospective ('could face').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Identifies a novel, yet still potential, risk—scoring a 3."
+            },
+            {
+                "snippet": "As the pandemic evolves, demand for personal protection products such as disposable respirators may decline from prior levels.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of future demand decline in a high-profile product line.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Potential revenue erosion for flagship products sets risk at 3."
+            },
+            {
+                "snippet": "Due to the speed and scope with which the COVID situation is developing and evolving and the uncertainty of its duration and the timing of recovery, 3M is not able at this time to predict the extent to which the COVID-19 pandemic may have a material effect on its consolidated results of operations or financial condition.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights high degree of uncertainty regarding material impact.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Admitted inability to forecast reinforces uncertainty, scoring 3."
+            },
+            {
+                "snippet": "The Company’s adoption of remote working, initially driven by the pandemic, may also introduce additional threats or disruptions to our information technology networks and infrastructure.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-triggered remote work to IT/cyber risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Risk is framed as potential ('may').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Introduces a significant but potential cybersecurity vector, yielding 4."
+            },
+            {
+                "snippet": "Overall, the impact of the COVID-19 pandemic on 3M’s consolidated results of operations was primarily driven by factors related to changes in demand for products and disruption in global supply chains.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Affirms that demand shifts and supply disruption already affected results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Summarises realised impact (historical), adding credibility.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Confirms actual impacts on operations—thus a solid 4."
+            },
+            {
+                "snippet": "In 2021, COVID-related respirator sales negatively impacted year-on-year organic sales growth by approximately 0.2% as they grew at a slower rate than the rest of the Company.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides a quantified negative sales impact (-0.2%).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Magnitude is small, slightly mitigating overall severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Quantification adds weight, but the small magnitude caps the score at 3."
+            }
+        ],
+        "calculated_score": 63,
+        "average_severity": 3.9375
+    }
+]

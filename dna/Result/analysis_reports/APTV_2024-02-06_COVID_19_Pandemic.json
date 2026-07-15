@@ -1,0 +1,158 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "APTV’s 2024 filing depicts COVID-19 as a fading but still material enterprise-wide hazard.  Disclosures span two categories.  First, they recount concrete, recent consequences: the company ‘suffered interruptions’ in production, faced travel restrictions and work stoppages, and, most critically, lost roughly $270 million of revenue in 2022 from Chinese lockdowns.  Second, they outline forward-looking vulnerabilities—future epidemics could disrupt labour availability, suppliers and demand, while government counter-measures could hamper operations.  The language is mostly qualitative, but one sentence provides a quantified loss.  Management also notes some mitigation (no prolonged shutdowns in 2023), indicating that direct operational exposure has eased.  Because the pandemic’s onset (2020) is now about four years behind the filing, the Time Decay Principle places these statements in the medium-term band; scores therefore sit in the 4-6 range for the strongest evidence and lower for generic or mitigated remarks.  Overall, the risk level is assessed as moderate: COVID-19 already caused measurable damage, supply-chain shock and demand shifts could re-emerge, but recent experience and adaptive measures suggest the threat, while real, is now partially contained.",
+        "evidence_list": [
+            {
+                "snippet": "We, along with most automotive component manufacturers that use semiconductors, have suffered interruptions in our production and were unable to fully meet the vehicle production demands of OEMs at times over the last several years because of events which are outside our control, including but not limited to, the COVID-19 pandemic, the global semiconductor shortage, fires in our suppliers’ facilities, unprecedented weather events and other extraordinary events.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to actual production interruptions (‘have suffered’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes inability to meet OEM demand – direct operational impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "COVID-19 listed among several causes, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Sentence reports real historic disruption tied in part to COVID-19, but other listed causes reduce the unique attribution, producing a moderate risk score of 4."
+            },
+            {
+                "snippet": "Public health crises and other global health pandemics, epidemics and disease outbreaks and the measures taken in response thereto could adversely impact our business, financial condition, results of operations and cash flows.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States potential for adverse impact across multiple financial dimensions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic phrasing (‘could’) with no event-specific detail or quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic forward-looking warning with no COVID-specific data yields a low severity score."
+            },
+            {
+                "snippet": "A significant public health crisis, such as the COVID-19 pandemic, could adversely impact our business as well as those of our suppliers and customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies COVID-19 explicitly as an exemplar of a risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers entire value chain (suppliers and customers).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Purely conditional language without evidence of magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Specific mention of COVID-19 broadens scope of possible impact but remains hypothetical; moderate-low score assigned."
+            },
+            {
+                "snippet": "For example, the COVID-19 pandemic caused extended work stoppages, travel restrictions at our facilities and those of our customers and suppliers, decreases and volatility in consumer demand and vehicle production schedules, disruptions to our supply chain and other adverse global economic impacts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple concrete operational disruptions directly linked to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Describes both internal and external effects (facilities, suppliers, demand).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Detailed catalogue of historical impacts elevates gravity; maximum medium-term score of 6 is assigned."
+            },
+            {
+                "snippet": "In 2023, our manufacturing facilities were not impacted by prolonged shutdowns directly resulting from any public health crises.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States absence of recent shutdowns – clear mitigation evidence.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": -2
+                },
+                "reasoning_summary": "Disclosure mitigates perceived risk, so points are deducted."
+            },
+            {
+                "snippet": "In 2022, certain of our operations in China were impacted by lockdowns imposed by governmental authorities to mitigate the spread of COVID-19, resulting in total indirect and direct adverse impacts to revenue of approximately $270 million during the year ended December 31, 2022.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes impact to COVID-19 lockdowns.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Provides quantified financial loss (‘approximately $270 million’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Event occurred within last two years but pandemic itself is four years old; apply time-decay cap.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Quantified, material and recent loss reaches the medium-term ceiling score of 6."
+            },
+            {
+                "snippet": "The extent to which the COVID-19 pandemic or similar significant health crises will impact our business in the future is uncertain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing uncertainty – sustains risk perception.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No specifics or magnitude provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Broad statement of uncertainty adds minimal aggravation; low score."
+            },
+            {
+                "snippet": "In addition, the global spread of COVID-19, which originated in late 2019 and was later declared a pandemic by the World Health Organization in March 2020, caused certain governmental authorities worldwide to initiate “lockdown” orders for all non-essential activities, which at times, included extended shutdowns of businesses in the impacted regions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explains mechanism of governmental lockdowns and extended shutdowns.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Historical narrative without company-specific figures.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Sentence frames macro-level cause of disruptions, supporting risk context; moderate score of 4 assigned."
+            }
+        ],
+        "calculated_score": 22,
+        "average_severity": 2.75
+    }
+]

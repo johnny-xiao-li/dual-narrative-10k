@@ -1,0 +1,240 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Nasdaq’s 2021 Form 10-K ties the still-unfolding COVID-19 pandemic to numerous operational, financial and strategic vulnerabilities.  The disclosure mixes descriptions of impacts already felt (elevated trading volumes, mandatory remote-work, delayed technology projects) with forward-looking warnings (possible revenue declines, cyber-risk expansion, credit defaults and asset impairments).  Most statements are recent (within 12 months of the WHO declaration) and refer directly to pandemic-specific disruptions such as virtual trading floors, employee illness, customer spending cuts and sales-pipeline delays.  Although a few mitigating actions are noted (e.g., added network capacity, SEC proposal for virtual trading), the overall tone emphasises heightened uncertainty and material downside potential.  Under the Time Decay Principle the event is well inside the 0-3-year window, so individual snippet scores can legitimately fall in the upper range.  Nevertheless, language that is purely conditional, generic or accompanied by concrete mitigants receives modest deductions.  Collectively, the evidence indicates a high but not yet crystallised risk profile—Nasdaq acknowledges serious exposures yet stops short of quantifying a definitive financial hit—placing most sentences in the 4-7 severity band, with none warranting the absolute maximum because impacts are largely prospective and un-quantified.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic could have an adverse effect on our business, financial condition, liquidity or results of operations.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to multiple core financial metrics (business, liquidity, results).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Uses conditional language ('could'), making impact generic/probabilistic.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly states the pandemic threatens key financial dimensions but in a generic, conditional form—solid risk evidence yet moderately scored."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has created significant volatility, uncertainty and economic disruption, which may adversely affect our business, financial condition, liquidity or results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that pandemic has already generated volatility and disruption.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects those conditions to adverse financial effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Still qualified by 'may', slightly tempering certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highlights realised market turmoil and links it to potential adverse outcomes, yielding a mid-high severity score."
+            },
+            {
+                "snippet": "As the COVID-19 pandemic and its resultant economic effects continue, existing customers in each of our segments may reduce or cancel spending for our products and services.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies revenue risk across *all* segments due to ongoing pandemic effects.",
+                            "points": 6
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Concrete description of likely revenue contraction across the enterprise justifies a high score."
+            },
+            {
+                "snippet": "Additionally, our sales pipeline with new client prospects may be further affected as new clients may delay or cancel purchase decisions while they evaluate the continuing impact of COVID-19.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details risk of delayed or lost new-business deals tied to pandemic uncertainty.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Phrase 'may' introduces some uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Identifies sales-pipeline vulnerability but with tentative wording, producing a moderate score."
+            },
+            {
+                "snippet": "In response to COVID-19, we have shifted to having a majority of our staff work from home and have added additional network capacity and monitoring.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows tangible operational change indicating pandemic impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions proactive mitigation (extra capacity/monitoring).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Describes realised impact but also strong mitigation, so risk severity is low."
+            },
+            {
+                "snippet": "However, such remote work may cause heightened cybersecurity and operational risks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags increased cyber and operational risk directly resulting from pandemic-driven remote work.",
+                            "points": 6
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Pinpoints a specific, material new risk (cybersecurity) without mitigation, hence high score."
+            },
+            {
+                "snippet": "We could face disruption to our business or operations if a significant number of our employees or any of our key employees becomes ill due to the virus.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit threat to operational continuity via employee illness.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Conditional 'could' softens certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Employee-illness scenario is direct but framed as potential, warranting a mid-level score."
+            },
+            {
+                "snippet": "We have filed a proposal with the SEC to amend Nasdaq PHLX’s business continuity plan to permit a virtual trading crowd, which would allow Nasdaq PHLX to operate its trading floor remotely in the event the physical trading floor becomes unavailable due to COVID-19.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reveals dependency on regulatory approval to maintain operations during COVID disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Action represents a planned mitigation, reducing net risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Shows vulnerability but also mitigation path; net severity modest."
+            },
+            {
+                "snippet": "If our pending rule change is not approved by the SEC, and Nasdaq PHLX is unable to operate its physical trading floor due to COVID-19 or other restrictions, our revenue, market share and reputation may be adversely affected.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic closures to loss of revenue, market share and reputation.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Contingent on SEC decision, signalling possible mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Potentially material downside, but conditional nature tempers score."
+            },
+            {
+                "snippet": "The extent to which the COVID-19 pandemic impacts our business, financial condition, liquidity or results of operations will depend on future developments, which are uncertain and cannot be predicted, including the scope and duration of the COVID-19 pandemic, the length of time government, commercial and travel limitations are in place, the continued effectiveness of our remote work arrangements, actions taken by governmental authorities, regulators and other third parties in response to the pandemic, as well as other direct and indirect impacts on us, our exchanges, our customers, our vendors and other stakeholders.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Comprehensively lists multiple uncertain variables that could influence severity of impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highly generic disclaimer language dilutes specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Captures breadth of uncertainty but remains high-level, earning a moderate score."
+            },
+            {
+                "snippet": "Due to COVID-19, most of our workforce may continue to work from home, creating a broader and more distributed network footprint and increased reliance on the home networks of employees.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates enduring operational change with security/operational implications.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Emphasises expanded attack surface—elevated risk factor.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Ongoing remote-work setup materially enlarges risk footprint, justifying higher score."
+            },
+            {
+                "snippet": "These parties may default on their obligations to us due to the effects of COVID-19 on their business, bankruptcy, lack of liquidity, operational failure or other reasons.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to heightened counterparty credit-default risk.",
+                            "points": 5
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clear statement of increased credit exposure merits a solid risk score."
+            },
+            {
+                "snippet": "Future disruptions to our business, prolonged economic weakness, due to COVID-19 or otherwise, or significant declines in operating results at any of our reporting units or businesses, may result in impairment charges to goodwill, intangible assets or other long-lived assets.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes potential balance-sheet impairments tied to COVID-related economic weakness.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Includes 'or otherwise' and 'may', slightly lowering precision.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Introduces tangible accounting risk but phrased conditionally, so assigned a moderate score."
+            }
+        ],
+        "calculated_score": 51,
+        "average_severity": 3.923076923076923
+    }
+]

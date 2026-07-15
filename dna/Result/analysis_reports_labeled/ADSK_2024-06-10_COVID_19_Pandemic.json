@@ -1,0 +1,86 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Autodesk’s 2024 Form 10-K treats the COVID-19 pandemic primarily as an ongoing, background macro-risk rather than a current acute crisis.  The filing does not quantify any recent financial hit, but it still frames COVID-19 as a potential disruptor of global operations, supply chains, labor availability, remote-work security, and foreign-exchange volatility.  All references are couched in forward-looking, conditional language (“could,” “may,” “continue to”), signalling residual but unmanaged exposure rather than imminent, measured damage.  Because the filing date (June 2024) is a little more than four years after the WHO pandemic declaration, the Time Decay Principle places the event in the 4-10-year “medium-term” window; therefore, individual snippet scores must land in the moderate range (≈ 4-6).  Overall, the company acknowledges persistent pandemic-related uncertainties across logistics, workforce practices, and FX markets, but offers no concrete mitigation plans or quantified impacts, leading to a risk level that is material yet not severe.",
+        "evidence_list": [
+            {
+                "snippet": "other factors beyond our control, including popular uprisings, terrorism, war (including the ongoing wars between the Ukraine and Russia and between Israel and Hamas, and any related political or economic responses and counter-responses or otherwise by various global actors or the general effect on the global economy), natural disasters, and diseases and pandemics, such as COVID-19.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists COVID-19 among uncontrollable global threats, linking it to potential business disruption.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Language is generic and purely conditional (‘such as’), reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Mentions COVID-19 directly as an ongoing macro-risk but in a broad, generic list; moderate severity."
+            },
+            {
+                "snippet": "catastrophic events, natural disasters, or public health events, such as pandemics and epidemics, including COVID-19;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemics and specifically COVID-19 as examples of ‘catastrophic events’ that could hurt operations.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "No detail on likelihood, timing, or financial magnitude—purely illustrative phrasing.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "COVID-19 singled out among catastrophe risks; absence of specifics tempers the score."
+            },
+            {
+                "snippet": "In addition, global events, including the sudden and unexpected effects of the COVID-19 pandemic as well as geopolitical and economic developments, may contribute to volatility in foreign exchange markets, which we may not be able to effectively manage, and our financial results could be adversely impacted.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to concrete financial channel (FX volatility) and potential inability to manage it.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Uses ‘may’ and ‘could’, signalling uncertainty and lack of quantified impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Provides a specific mechanism (FX volatility) for COVID-related harm, elevating—but not maximizing—the risk score."
+            },
+            {
+                "snippet": "These existing risks are compounded given the shift in recent years to work-from-home arrangements for a large population of employees and contractors,",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges large-scale remote-work shift (a pandemic after-effect) as a factor that ‘compounds’ security risks.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Does not expressly say COVID-19, so the pandemic link is implied rather than explicit.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights enduring operational change (remote work) traceable to pandemic; lack of explicit COVID reference moderates score."
+            }
+        ],
+        "calculated_score": 17,
+        "average_severity": 4.25
+    }
+]

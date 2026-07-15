@@ -1,0 +1,256 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "MCHP’s 2023-05-25 Form 10-K reveals that COVID-19 remains a material, multi-dimension risk affecting the company’s operations, supply chain, labour markets, logistics, customer demand and governmental contract performance.  The filing contains both backward-looking evidence (actual factory slow-downs, logistics bottlenecks, order cancellations, stop–work orders and labour shortages that occurred during fiscal 2022-2023) and forward-looking statements warning that renewed outbreaks or governmental mandates could again constrain production, shipping and demand.  The disclosures are largely qualitative but describe concrete operational disruptions across multiple geographies (U.S., Philippines, Thailand, Malaysia, Taiwan, China) and functional areas (manufacturing, logistics, government sub-contracts).  No specific dollar amounts are cited; however, the statements confirm real adverse impacts within the past three fiscal years, satisfying the high-relevance “recent-event” window (0-3 years).  Mitigating language is minimal—largely limited to generic statements that the company “has taken steps to mitigate” impacts—so most snippets tilt toward aggravating factors.  Applying the Time Decay Principle, scores can range up to the high end (7-10) for direct, recent impacts, and mid-range (4-6) for forward-looking or indirect references.  Older impacts from early 2020 are still within the three-year window but receive slightly lower weight as they are less immediate.  Overall, COVID-19 represents an ongoing, non-trivial operational and financial risk for MCHP as portrayed in the filing.",
+        "evidence_list": [
+            {
+                "snippet": "Uncertain global economic and public health conditions, such as the COVID-19 pandemic, have caused and may in the future cause our operating results to fluctuate significantly and make comparisons between periods less meaningful.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to volatility in operating results (aggravating).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers both past impact ('have caused') and future risk ('may in the future').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No mitigating actions noted.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Provides clear historical and prospective impact on financial performance; moderately severe but unquantified."
+            },
+            {
+                "snippet": "Any downturn in global or regional economic conditions, as a result of ... the COVID-19 pandemic ... may adversely impact their financial viability.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies COVID-19 as a trigger for customer/distributor financial distress.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Impact is potential, not yet quantified.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking risk to counterparties; moderate severity due to indirect nature."
+            },
+            {
+                "snippet": "Also, the reduced availability of necessary labor, ... or the impact of the COVID-19 pandemic, may adversely impact the industry supply chain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to labour shortages and supply-chain disruption.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Framed as ‘may’ (potential) rather than actual, lowering certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights plausible supply-chain risk but is conditional; moderate score."
+            },
+            {
+                "snippet": "Additionally, over the last several years, the impact of unpredictable COVID-19 related lockdowns and the adverse impact of the rapid transmission of COVID-19 when lock-downs in China were lifted has adversely impacted Chinese customers and the supply chain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes concrete, adverse effects on customers and supply chain due to lockdowns.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Specifies geographic focus (China) and timeframe (recent years).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct, recent operational impact in major market; high relevance."
+            },
+            {
+                "snippet": "For example, in the first three months of fiscal 2023 and in fiscal 2022, COVID-19 related restrictions adversely impacted our manufacturing operations in the U.S., Philippines and Thailand along with our subcontractors' manufacturing operations in Malaysia, Taiwan and China.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites specific timeframes (FY2023 & FY2022) and multiple geographies.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States direct adverse impact on both internal and subcontractor manufacturing.",
+                            "points": 6
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Strong evidence of recent, widespread operational disruption; near-maximum severity."
+            },
+            {
+                "snippet": "Similar challenges arose for our logistics service providers, which adversely impacted their ability to ship product to our customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows knock-on effect on logistics and customer deliveries.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Links back to pandemic-related restrictions implicitly (context).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Confirms supply-chain bottleneck; moderately high impact."
+            },
+            {
+                "snippet": "The pandemic could adversely impact our business in future periods if the impact of COVID-19 again becomes severe in one or more of our key markets such as China or in areas where our suppliers or manufacturing operations are located.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies potential future adverse impact tied to severity of outbreaks.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights exposure of suppliers and operations in multiple regions.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Forward-looking risk with clear geographic sensitivity; no mitigation noted."
+            },
+            {
+                "snippet": "In the future, local governments could require us to reduce production, cease operations at any of our facilities, or implement mandatory vaccine requirements, and we could experience constraints in fulfilling customer orders.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details concrete regulatory scenarios (shutdowns, vaccine mandates) affecting production.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Framed as contingency (could), reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific but hypothetical operational constraints; mid-range risk."
+            },
+            {
+                "snippet": "In April and May 2020, we received a greater number of order cancellations and requests by our customers to reschedule deliveries to future dates.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Historical evidence of demand shock caused by pandemic timeframe.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Impact already occurred; slightly time-decayed but still within 3-year window.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows real past revenue impact; moderately weighted due to age."
+            },
+            {
+                "snippet": "Some customers requested order cancellations within our firm order window and claimed applicability of force majeure clauses due to the impact of COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies contractual force majeure invocations directly linked to COVID-19.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Refers to past events (2020) – slight time decay.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Material contractual risk realised; still recent enough for moderate-high score."
+            },
+            {
+                "snippet": "For example, in fiscal 2022, as a result of the COVID-19 pandemic, we experienced suspensions and stop work orders for some of our subcontracts.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specific mention of subcontract stop-work orders attributable to COVID-19.",
+                            "points": 6
+                        },
+                        {
+                            "reason": "Dated FY2022 (recent).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Demonstrates tangible disruption of government-related projects; high relevance."
+            },
+            {
+                "snippet": "Competition for available labor has intensified for a variety of reasons, including the increase in work-from home arrangements brought about by COVID-19, and the wage inflation in our industry.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-driven remote work to labour market tightness.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights secondary effect (wage inflation).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Captures HR-related operational risk; moderate severity."
+            },
+            {
+                "snippet": "Trade disputes, geopolitical tensions, economic circumstances, political conditions, or public health issues, such as COVID-19, may limit our ability to obtain materials or equipment.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies pandemic as factor limiting access to raw materials.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Conditional language ('may') softens immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic supply-risk acknowledgement—lower immediacy and specificity."
+            },
+            {
+                "snippet": "Historically, since a significant portion of our revenue is from international sales and consumer markets, our business generates stronger revenues in the first half and comparatively weaker revenues in the second half of our fiscal year; however, broad fluctuations in our business, changes in semiconductor industry and global economic conditions (including the impact of strong demand in the industry, the COVID-19 pandemic or trade tensions) and our acquisition activity have had and can have a more significant impact on our results than seasonality.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States pandemic can override normal seasonality, affecting revenue patterns.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Embedded within broader set of factors, reducing attribution weight.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Acknowledges pandemic as one of several macro-volatility drivers; minor evidence."
+            }
+        ],
+        "calculated_score": 73,
+        "average_severity": 5.214285714285714
+    }
+]

@@ -1,0 +1,154 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated December 12, 2022, discusses COVID-19 less than three years after the WHO declared the pandemic, so any risk evidence should be treated as a recent event under the Time-Decay Principle and can merit scores toward the upper range.  Synopsys repeatedly links the pandemic to supply-chain delays, hardware logistics, customer spending slow-downs, and potential material hits to financial condition.  The language is mostly forward-looking and conditional (“could,” “may”) but is anchored by concrete examples of prior minor disruptions and limited supply-chain issues.  Thus, the company acknowledges both realised and prospective impacts.  Mitigating language—“minor disruptions,” “limited impact,” “navigate … with minimal disruptions”— tempers the severity, suggesting the firm has managed the crisis so far, but uncertainty about duration, vaccines, partner performance and continued supply of hardware keeps overall risk elevated.  Given this mix of modest realised impact and material future exposure, the individual sentence scores generally fall in the 4-7 range, consistent with recent-event guidance.",
+        "evidence_list": [
+            {
+                "snippet": "The ongoing COVID-19 pandemic has caused minor disruptions to our business operations to date, but could have a material adverse effect on our business, operations and financial condition in the future.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties risk to the COVID-19 pandemic (direct causal link).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States potential for a 'material adverse effect' on business, operations and financial condition (high severity).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges only 'minor disruptions to date', signalling limited realised impact (mitigating).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event is within 0-3 years, allowing high weighting under Time Decay.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct link to COVID-19 with explicit warning of material impact drives the score high; minor-to-date language slightly reduces it."
+            },
+            {
+                "snippet": "For example, we have previously experienced limited hardware supply chain and logistical challenges as well as a slowdown in customer commitments in our Software Integrity segment.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides concrete evidence of past supply-chain and logistical disruptions (realised impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions slowdown in customer commitments, signalling revenue pressure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses qualifier 'limited', reducing perceived severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows actual COVID-related disruptions but labels them 'limited', moderating the score."
+            },
+            {
+                "snippet": "Uncertainty caused by the recent challenging global economic conditions, including due to the effects of the recent rise in inflation and interest rates and the continuing COVID-19 pandemic, could lead some of our customers to postpone their decision-making, decrease their spending and/or delay their payments to us.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links continuing pandemic to customer payment delays and spending cuts (financial exposure).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists concrete customer behaviours (postponing decisions, delaying payments).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Expressed as a potential ('could'), not a certainty (mitigating).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Potential but specific revenue-side risks from COVID-driven uncertainty, balanced by conditional language."
+            },
+            {
+                "snippet": "Economic conditions could continue to deteriorate in the future, and, in particular, the semiconductor and electronics industries could fail to grow, including as a result of the effects of, among other things, rising inflation and interest rates, a sustained global semiconductor shortage, supply chain disruptions, the COVID-19 pandemic, and any disruption of international trade relationships such as tariffs, export licenses or other government trade restrictions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly enumerates COVID-19 and supply-chain disruptions as drivers of potential industry contraction.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights risk of industry failing to grow, implying strategic revenue threat.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses speculative wording ('could'), lessening immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Broad sector-wide risk tied to COVID-19, but wholly forward-looking and conditional, producing a moderate score."
+            },
+            {
+                "snippet": "Although we have been able to navigate workplace restrictions and limitations with minimal disruptions to our business operations to date, we cannot be certain that these measures will continue to be successful and we may need to further modify our business practices and real estate needs in response to the risks and negative impacts caused by the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Addresses operational adjustments (workplace restrictions, real estate changes), indicating organisational exposure.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Admits uncertainty about future success of mitigation actions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes 'minimal disruptions to date', reducing current severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows operational risk and possible future costs; present impact minimal, so score remains mid-range."
+            },
+            {
+                "snippet": "The extent to which the COVID-19 pandemic impacts our business operations in future periods will depend on multiple uncertain factors, including the duration and scope of the pandemic, its overall negative impact on the global economy and, in some cases, the regional and national economies of areas experiencing localized surges in COVID-19 cases, continued responses by governments and businesses to COVID-19 and its variants, acceptance and effectiveness of vaccines, the ability of our business partners and third-party providers to fulfill their responsibilities and commitments, the ability to secure adequate and timely supply of equipment and materials from suppliers for our hardware products, and the ability to develop and deliver our products.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Comprehensive list of contingent factors (vaccines, partner resilience, supply procurement) that amplify uncertainty.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicit recognition of supply-chain dependency and product-delivery risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Fully forward-looking; impact is speculative.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Recency of event allows higher weighting.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Enumerates multiple uncertain but serious pathways of pandemic impact; lack of realised damage tempers but does not negate risk."
+            }
+        ],
+        "calculated_score": 28,
+        "average_severity": 4.666666666666667
+    }
+]

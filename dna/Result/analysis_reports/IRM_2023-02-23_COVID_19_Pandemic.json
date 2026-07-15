@@ -1,0 +1,56 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "IRM’s February 2023 10-K acknowledges the COVID-19 pandemic primarily through two disclosures.  First, management states that the shift to sustained remote-work arrangements “following the COVID-19 pandemic” has already increased – and may continue to increase – the company’s cybersecurity risk profile.  This is framed as a present, operational impact that could worsen, indicating that pandemic-driven changes in the working model have materially altered IRM’s threat surface.  Second, within the catalogue of international-operations risks, IRM cites “global pandemics” alongside trade wars and political instability as events that could compound cross-border‐data and operational complexity.  This second reference is forward-looking and generic, signalling awareness but offering no detail.  Taken together, the pandemic is treated more as an amplifying factor (cybersecurity and global mobility) than as a direct financial shock; there is no quantified impact, supply-chain cost estimate or labour shortfall discussion.  Given the filing date (Feb-2023) is less than three years after the WHO declaration, the Time-Decay Principle allows elevated scores.  However, because disclosures lack quantification and mitigation detail, overall severity is moderate rather than extreme.",
+        "evidence_list": [
+            {
+                "snippet": "In addition, the continuation of remote work arrangements following the COVID-19 pandemic has increased and could further increase our cybersecurity risks.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links ongoing corporate condition (remote work) to the COVID-19 pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes a realised impact – cybersecurity risk has already ‘increased’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights potential for further deterioration (‘could further increase’), signalling forward-looking risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct, time-relevant linkage between COVID-19 and heightened cybersecurity exposure; specific but unquantified, so scored 7/10."
+            },
+            {
+                "snippet": "political uncertainties and changes in the global political climate or other global events, such as trade wars or global pandemics, which may create additional risk in relation to our global operations, which may become more pronounced as we consolidate operations across countries and need to move data across borders;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies ‘global pandemics’ as a risk driver.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects pandemics to additional operational risk in cross-border activities.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Language is hypothetical and generic; no impact detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Generic acknowledgment of pandemic risk without specifics; moderate aggravation yields 3/10."
+            }
+        ],
+        "calculated_score": 10,
+        "average_severity": 5.0
+    }
+]

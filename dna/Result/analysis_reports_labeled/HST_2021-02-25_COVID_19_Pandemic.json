@@ -1,0 +1,192 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated February 25 2021, portrays COVID-19 as the single most acute and immediate risk to HST.  Because the pandemic was declared less than a year before the balance-sheet date, the Time Decay Principle allows high severity scores.  The narrative repeatedly states that the pandemic has already produced material, quantifiable harm—sharp revenue declines, very low occupancy, liquidity stress and negative rating outlooks—while also highlighting prospective threats such as prolonged demand weakness, disrupted supply chains and staffing shortages.  Language is specific (e.g., “materially and adversely impacted,” “sharp decline in revenues,” “may be required to raise additional capital”) rather than boiler-plate, and it spans multiple risk dimensions: operational, financial, competitive and strategic.  Although some clauses use conditional verbs (“may”), the overarching tone is one of realised damage with continued uncertainty, not purely hypothetical exposure.  Consequently, most snippets warrant upper-mid to high scores (5-9), reflecting direct impact, recency and breadth, with modest deductions where wording is forward-looking or un-quantified.",
+        "evidence_list": [
+            {
+                "snippet": "The current COVID-19 pandemic has materially and adversely impacted our business, financial condition, results of operations, liquidity and cash flows.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to multiple core financial metrics (‘materially and adversely impacted’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States impact is current (not merely potential).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Event is recent (<1 year), allowing elevated score under Time Decay Principle.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct, present-tense declaration of material adverse impact across all major financial dimensions justifies a high score of 8."
+            },
+            {
+                "snippet": "As a result, the COVID-19 pandemic is negatively impacting almost every industry directly or indirectly and is having an outsized impact on the U.S. lodging industry.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States broad macro disruption plus sector-specific (‘outsized impact’) damage.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes ongoing, not hypothetical, effect (‘is negatively impacting’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows sector-wide severity but lacks numeric detail; risk score set at 5."
+            },
+            {
+                "snippet": "Many of our hotels are operating at very low occupancy.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights a concrete operational KPI already deteriorated (occupancy).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No quantification or direct financial figure provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Operational impact is specific but unquantified, yielding a moderate score of 4."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has resulted in a sharp decline in revenues at our hotels and significantly adversely affected the ability of our hotel managers to successfully operate our hotels and has had a significant adverse effect on our business, financial condition, results of operations, liquidity and cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple direct consequences: sharp revenue drop and operational strain.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers broad financial spectrum (business, liquidity, cash flow).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses emphatic language (‘significant adverse effect’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Multifaceted, realized damage across revenue and operations merits a score of 7."
+            },
+            {
+                "snippet": "Quarantines, temporary closures of businesses, states of emergencies and other restrictive measures taken by governments and organizations may negatively impact the ability of our hotel managers to continue to obtain goods and services necessary for the operation of our hotels, obtain necessary personal protective equipment, provide adequate hotel staffing, provide customary levels of hotel services or operate the hotel in a way that facilitates social distancing, all of which may adversely affect the operation of our hotels.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates specific operational chokepoints: supply chain, PPE, staffing.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects restrictions to adverse operational effect.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking ‘may’ language softens certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Identifies granular disruption channels but conditional tone tempers severity to 5."
+            },
+            {
+                "snippet": "The reduced economic activity also may negatively impact future lodging demand even after the restrictive measures related to the COVID-19 pandemic are lifted as, historically, trends in economic indicators such as gross domestic product, business investment, corporate profits and employment growth (all of which have been negatively impacted) all have been key indicators of the relative strength of future lodging demand.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags prolonged demand risk tied to macroeconomic indicators.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uncertain (‘may’) and future-oriented, not yet realized.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights potential long-tail demand drag but with uncertainty—score 3."
+            },
+            {
+                "snippet": "As a result of the COVID-19 pandemic, we may be required to raise additional capital to fund losses and improve our liquidity position.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to possible need for external capital—a financial stress signal.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Contingent wording (‘may be required’) reduces immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Signals liquidity risk but remains conditional; moderate score of 3."
+            },
+            {
+                "snippet": "The ongoing effects of the pandemic on our operations and future bookings have had, and will continue to have, a material negative impact on our financial results and cash flows, and such negative impact may continue well after restrictive measures imposed by federal, state, local and other governmental authorities to contain the outbreak have been lifted.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Asserts both realized and persistent material negative impact on financials.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Projects durability of harm beyond immediate restrictions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers financial results and cash flows explicitly.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "States current and continuing material financial harm—high severity warrants score 7."
+            },
+            {
+                "snippet": "There remains a great deal of uncertainty surrounding the timing for widespread availability of vaccines and, as a result, the duration of the COVID-19 pandemic remains difficult to predict.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights uncontrollable uncertainty over event duration.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No direct financial metric cited; purely uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Focus on uncertainty heightens risk but lack of financial tie keeps score at 3."
+            }
+        ],
+        "calculated_score": 45,
+        "average_severity": 5.0
+    }
+]

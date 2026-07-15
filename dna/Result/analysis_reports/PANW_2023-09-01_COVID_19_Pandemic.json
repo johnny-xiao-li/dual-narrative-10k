@@ -1,0 +1,93 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "PANW’s 2023-09-01 Form 10-K continues to frame the COVID-19 pandemic primarily as an ongoing, forward-looking operational hazard rather than a source of already-quantified financial damage. References to “epidemics and pandemics such as COVID-19” appear in multiple risk-factor sections—international sales, supply-chain/manufacturing, and general catastrophe planning—underscoring management’s view that future outbreaks or lingering after-effects could disrupt production, logistics, customer demand and on-the-ground sales execution. The language is still largely generic and bundled with other macro threats, showing no event-specific metrics or past hit to revenue or costs; however, the company does articulate clear transmission channels (e.g., factory shutdowns, shipment delays, international-trade uncertainty). Because the filing date is within three years of the World Health Organization’s pandemic declaration, the Time Decay Principle allows elevated severity scores, yet the absence of quantified impacts or uniquely tailored mitigation keeps the risk assessment in the moderate—not extreme—range. Overall, COVID-19 remains a live, non-trivial but un-quantified risk factor for PANW, meriting mid-level evidence scores of roughly 6/10 for each substantive disclosure.",
+        "evidence_list": [
+            {
+                "snippet": "political, economic, and social uncertainty around the world, health risks such as epidemics and pandemics like COVID-19, macroeconomic challenges in Europe, terrorist activities, Russia’s invasion of Ukraine, tensions between China and Taiwan, and continued hostilities in the Middle East;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names ‘pandemics like COVID-19’ as a health risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links the pandemic to broad international uncertainty that can affect operations and revenues.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Event is recent (within 0-3 yrs), so little time-decay reduction.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presented within a long bullet list of assorted risks, making the statement generic.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Scores mid-high because it directly cites COVID-19 as an ongoing global health risk but remains generic and unquantified."
+            },
+            {
+                "snippet": "Any production interruptions for any reason, such as a natural disaster, epidemic or pandemic, capacity shortages, or quality problems at one of our manufacturing partners would negatively affect sales of our product lines manufactured by that manufacturing partner and adversely affect our business and operating results.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies epidemics or pandemics as a causal factor for production interruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes concrete operational consequences—lost sales and adverse business results.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specific focus on supply-chain/manufacturing vulnerability increases severity.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Does not name COVID-19 explicitly and is framed as hypothetical.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Event timeframe still recent, limiting score decay.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Moderately severe: details direct supply-chain impact pathways, but lacks COVID-specific data or historical losses."
+            },
+            {
+                "snippet": "In addition, other natural disasters, such as fire or floods, a significant power outage, telecommunications failure, terrorism, an armed conflict, cyberattacks, epidemics and pandemics such as COVID-19, or other geo-political unrest could affect our supply chain, manufacturers, logistics providers, channel partners, end-customers, or the economy as a whole, and such disruption could impact our shipments and sales.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references ‘pandemics such as COVID-19’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details multiple operational touch-points (supply chain, logistics, shipments, sales) that could be disrupted.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Recency of event allows higher weighting (0-3 yr window).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Bundled with many other catastrophe examples, making it somewhat generic.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Earns a 6/10 for naming COVID-19 and mapping out specific disruption channels, tempered by generic ‘catch-all’ phrasing."
+            }
+        ],
+        "calculated_score": 18,
+        "average_severity": 6.0
+    }
+]

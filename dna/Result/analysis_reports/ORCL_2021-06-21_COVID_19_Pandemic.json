@@ -1,0 +1,229 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Oracle’s June 2021 10-K situates COVID-19 as a live, multi-faceted threat that is already eroding sales, straining logistics, forcing costly operational pivots and potentially amplifying other risk factors.  Because the filing date (21-Jun-2021) falls well inside the first three years of the WHO pandemic declaration (11-Mar-2020), the Time-Decay Principle allows high severity scores.  The narrative is not hypothetical: Oracle cites cancelled flagship events, concrete supply-chain delays and an acknowledged ‘loss of sales’ tied directly to pandemic conditions.  It also highlights ongoing uncertainties—customer demand volatility, continuing logistics bottlenecks, remote-work security exposures and productivity challenges—that could prolong or deepen the hit to future cash flows.  While some mitigating steps are mentioned (virtual events, supply-chain diversification, flexible work policies), they are either unproven or explicitly flagged as possibly ineffective.  Overall, the disclosure conveys a recent, direct, company-wide impact with material—but mostly unquantified—financial consequences, justifying high, though not maximum, per-sentence severity scores (generally 5–8 out of 10).",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic and efforts to control its spread have materially affected how we, our customers, partners and suppliers are operating our businesses.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic directly to material operational impact across Oracle’s entire ecosystem (‘materially affected’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers broad stakeholder scope (company, customers, partners, suppliers) indicating systemic exposure.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No quantification provided.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Recent, enterprise-wide, ‘material’ impact with no mitigation; high severity."
+            },
+            {
+                "snippet": "Our operations have been negatively affected by a range of external factors related to the COVID-19 pandemic that are not within our control.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States current negative impact on operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasises lack of control, heightening risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic wording, no magnitude given.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct but unquantified operational harm plus uncontrollability yields moderate-high risk."
+            },
+            {
+                "snippet": "These preventative measures led to sharp reductions in demand in certain industries in which our customers operate.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies consequential demand shock caused by COVID counter-measures.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses emphatic phrasing ‘sharp reductions’, signalling severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact is indirect via customers, lowering immediacy.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Severe but indirect revenue risk through customer demand contraction."
+            },
+            {
+                "snippet": "During fiscal 2021, we cancelled some customer events and transformed others, including Oracle OpenWorld, to virtual events.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Records completed cancellations—a realized operational disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Names a flagship event, adding specificity.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Switch to virtual format is a partial mitigation.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Realised disruption but partially offset by adaptive measures; lower net severity."
+            },
+            {
+                "snippet": "The conditions caused by the COVID-19 pandemic initially adversely affected our customers’ willingness to purchase our products, delayed prospective customers’ purchasing decisions and in certain cases, resulted in delayed payments by existing customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details multiple demand-side and cash-flow impacts (purchase deferral, payment delays).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes realised adverse effects (‘initially adversely affected’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Temporal qualifier ‘initially’ hints at partial recovery.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Demonstrated sales and cash-collection hit, but wording suggests some easing."
+            },
+            {
+                "snippet": "There have also been, and likely will continue to be, delays in our supply chain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Current and forward-looking supply-chain disruption identified.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Use of ‘likely will continue’ extends risk horizon.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Ongoing operational bottleneck with no mitigation; mid-high severity."
+            },
+            {
+                "snippet": "Third-party manufacturing and logistics delays attributable to the effects of COVID-19 caused a loss of sales during our fiscal 2021.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct causal link between COVID-related delays and lost sales.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies realised financial impact (‘loss of sales’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No dollar amount provided, limiting precision.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Clear evidence of COVID-driven revenue loss; high severity absent quantification."
+            },
+            {
+                "snippet": "As a result, our supply chain operations could be disrupted or negatively impacted by industry consolidation and component constraints or shortages, natural disasters, political unrest, public health crises such as the COVID-19 pandemic, changes to trade policies, port stoppages or other transportation disruptions or slowdowns, or other factors affecting the countries or regions where these single source component vendors are located or where the products are being shipped.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists COVID-19 among multiple potential disruptors—indicates possible future impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic catch-all language dilutes specificity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Highlights single-source supplier vulnerability, aggravating risk.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Forward-looking, broad supply-chain risk; less specific, hence moderate score."
+            },
+            {
+                "snippet": "In response to the COVID-19 pandemic and to ensure the safety of our employees, we have temporarily closed the majority of our offices.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms significant operational change (office closures).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Action is framed as safety mitigation, partially offsetting risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Realised disruption but explicitly a mitigation measure; low residual risk."
+            },
+            {
+                "snippet": "While we believe this may help us engage with a wider pool of talent and may help to retain employees who want or need more flexibility, it could negatively impact employee productivity and it may present risks for our real estate portfolio and strategy.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies potential productivity and real-estate risks stemming from pandemic-driven remote-work shift.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement balanced with anticipated benefits, reducing net severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Contains both upside and downside; modest net aggravation."
+            },
+            {
+                "snippet": "We often experience increased activity of this nature during times of instability, including during the current COVID-19 pandemic when most of our employees are working from home, and our operations may be more susceptible to malfeasance due to operational changes instituted to comply with safety, health and regulatory requirements, among others.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-driven remote work to heightened security/malfeasance risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges increased susceptibility (‘may be more susceptible’).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highlights elevated cyber/operational threat due to pandemic-induced remote work; moderate-high severity."
+            }
+        ],
+        "calculated_score": 47,
+        "average_severity": 4.2727272727272725
+    }
+]

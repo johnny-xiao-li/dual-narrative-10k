@@ -1,0 +1,197 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is framed by CPAY (FLEETCOR) as both a realized and continuing enterprise-wide hazard.  Management concedes that the pandemic already “negatively impacted” operating results, liquidity, consumer demand, labour availability and day-to-day practices (e.g., forced remote work and travel bans).  At the same time, the filing stresses that future variants or lingering macroeconomic knock-ons (inflation, fuel-price volatility, capital-market dislocation, supply-chain stress) could further harm revenue, credit access and workforce stability.  The language is largely qualitative—there is no dollar quantification—but it is detailed, covers multiple risk vectors (demand, supply chain, labour, finance) and notes that some effects have already occurred.  Given the February-2023 filing date, the pandemic still falls in the Time-Decay “recent (0-3 yrs)” window, permitting high severity scores where warranted.  However, several passages also highlight uncertainty, easing of restrictions and mitigation efforts, which temper scores.  Overall, the disclosures signal a material but not existential risk: strong evidence of past disruption with cautious, forward-looking warnings rather than precise financial impact statements.",
+        "evidence_list": [
+            {
+                "snippet": "The novel strain of the coronavirus (COVID-19) and its variants spread throughout the globe and negatively impacted the macroeconomic environment, significantly increasing economic uncertainty.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States an actual, already-experienced negative impact (‘negatively impacted’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links impact to broad macroeconomic conditions, signalling wide exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Strong adverse wording (‘significantly increasing economic uncertainty’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct acknowledgement of realised harm and heightened uncertainty pushes this recent-event sentence to a high-medium score of 6."
+            },
+            {
+                "snippet": "The extent to which the ongoing effects of the novel strain of the coronavirus (COVID-19), the continuing spread of its variants and measures taken in response thereto impact our business, results of operations and financial condition will depend on future developments, which are highly uncertain and are difficult to predict.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly flags potential impact on core metrics (business, results, financial condition).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasises high uncertainty, reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Forward-looking risk statement without quantified impact; uncertainty language moderates score to 2."
+            },
+            {
+                "snippet": "These measures negatively impacted consumer and business spending and could continue to do so.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes realised reduction in spending, directly affecting revenue.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights possibility of continued impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows both historical and prospective demand shock; significant but unquantified, yielding a 5."
+            },
+            {
+                "snippet": "In addition, these measures adversely impacted and may further impact our ability, or the cost and expense incurred by us, to attract, retain, and develop our workforce, or otherwise impact our operations and the operations or workforces of our customers, suppliers and business partners.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies labour-force and operational disruptions already experienced.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Extends risk to supply-chain and partner ecosystems.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Broader operational and labour threats earn moderate severity score of 4."
+            },
+            {
+                "snippet": "Whiles these measures have largely eased, they may return in the future with variants, which would adversely affect our business, results of operations and financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges possibility of renewed restrictions causing adverse effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes current easing, a mitigating factor.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Potential risk but tempered by easing language; net low score of 1."
+            },
+            {
+                "snippet": "The spread of the coronavirus previously caused us to modify our business practices (including employee travel, employee work locations, and cancellation of physical participation in meetings, events and conferences), and subject to variations in infection levels in various jurisdictions, we may take renewed or further actions as may be required by government authorities or that we determine are in the best interests of our employees, customers and business partners.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites concrete operational changes already implemented.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates possible future recurrence of such actions.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Realised operational disruption with potential recurrence justifies a score of 4."
+            },
+            {
+                "snippet": "In addition, any ongoing impact of COVID-19 on macroeconomic conditions may impact the proper functioning of financial and capital markets, foreign currency exchange rates, inflation and increasing commodity prices, including fuel prices, interest rates and the ongoing impact of the pandemic on the global supply chain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple macro-level channels (markets, FX, inflation, supply chain).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Speculative (may impact) and unquantified.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Broad but hypothetical macro effects receive moderate score of 3."
+            },
+            {
+                "snippet": "Even after the COVID-19 global pandemic subsided, we may continue to experience adverse impacts to our business as a result of any economic recession or depression that has occurred or may occur in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights lingering, long-term adverse consequences.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Acknowledges residual economic drag; limited specificity keeps score at 2."
+            },
+            {
+                "snippet": "The continued disruption of global financial markets as a result of the COVID-19 global pandemic could have a negative impact on our ability to access capital in the future.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies financing risk—access to capital—in future.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specific capital-market threat merits score of 3."
+            },
+            {
+                "snippet": "Similarly, prolonged adverse weather events, travel bans due to medical quarantine (such as the recent responses to the COVID-19 pandemic) or in response to natural catastrophes, especially those that impact regions in which we process a large number and amount of payment transactions, could adversely affect our transaction volumes.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 travel bans to potential transaction-volume decline.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Brief, conditional reference; limited severity yields score of 1."
+            },
+            {
+                "snippet": "The novel strain of coronavirus (including variants thereof, \"COVID-19\") negatively impacted our results of operations and liquidity and various aspects of the world economy and our customers, suppliers and vendors.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States direct negative impact on results of operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Also cites effect on liquidity, broadening financial exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impacts extend to customers, suppliers and vendors, indicating systemic effect.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Clear acknowledgement of realised multi-stakeholder harm supports high score of 6."
+            }
+        ],
+        "calculated_score": 37,
+        "average_severity": 3.3636363636363638
+    }
+]

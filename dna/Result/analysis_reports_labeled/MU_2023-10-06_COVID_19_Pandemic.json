@@ -1,0 +1,102 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Micron’s 2023 Form 10-K still flags public-health disruptions as a live strategic threat, but the discussion has clearly moved from the emergency footing of 2020-2021 to a more generic, forward-looking posture.  Most references appear in the Risk Factors section and speak in conditional language (“may,” “could”) that bundles ‘public health crises’ with other macro shocks such as inflation or geopolitics.  Nevertheless, the company acknowledges that such crises have already harmed its business and could again trigger supply-chain interruptions, quarantines, factory closures, labour and travel constraints, and demand shocks— classic pandemic-era pain points.  Because the filing date (6 Oct 2023) is roughly 3 years and 7 months after the WHO declaration, the Time-Decay Principle pushes evidentiary scores into the medium tier: the pandemic is neither brand-new nor forgotten, and Micron supplies no fresh, quantified impact figures.  Overall, the residual pandemic risk is assessed as moderate: material enough to merit board-level disclosure but expressed largely in broad, un-quantified terms, warranting snippet scores in the 4-6 range.",
+        "evidence_list": [
+            {
+                "snippet": "Downturns in regional or worldwide economies, due to inflation, geopolitics, major central bank policy actions including interest rate increases, public health crises, or other factors, have harmed our business in the past and current and future downturns could also adversely affect our business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states that public health crises have already harmed the business (historical impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Adds forward-looking warning that future public-health related downturns could also adversely affect the company.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is bundled with many other macro factors, reducing specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Historical harm plus forward-looking warning earns positive weight, but generic wording and bundling keep the score to a moderate 4."
+            },
+            {
+                "snippet": "Other events, including political or public health crises, such as an outbreak of contagious diseases, may also affect our production capabilities or that of our suppliers, including as a result of quarantines, closures of production facilities, lack of supplies, or delays caused by restrictions on travel or shipping.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links public health crises directly to multiple concrete operational disruptions (quarantines, closures, supply shortages, travel restrictions).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers impacts on both Micron and its suppliers, widening the exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Expressed as a conditional (“may”), indicating potential rather than current impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific supply-chain and manufacturing risks raise the severity, but conditional phrasing tempers it, resulting in a moderate-high score of 5."
+            },
+            {
+                "snippet": "Trade disputes, geopolitical tensions, economic circumstances, political conditions, or public health issues may limit our ability to obtain such materials.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies public health issues as a factor that can directly constrain material supply.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Potential impact on procurement touches core operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Very broad list of risk drivers dilutes the pandemic-specific signal.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Acknowledges supply-chain vulnerability but in a highly aggregated list, so the pandemic-specific weight is limited, giving a low-moderate score of 2."
+            },
+            {
+                "snippet": "Additionally, changes to immigration policies in the countries in which we operate, as well as restrictions on travel due to public health crises or other causes, may limit our ability to hire and/or retain talent in, or transfer talent to, specific locations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects public health crises to labour and talent mobility constraints.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights an operational HR impact beyond supply chain.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses generalized language and is framed as potential, not existing, impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specifies pandemic-era travel limits on staffing, but generic wording and conditional mood moderate the severity, yielding a score of 3."
+            }
+        ],
+        "calculated_score": 14,
+        "average_severity": 3.5
+    }
+]

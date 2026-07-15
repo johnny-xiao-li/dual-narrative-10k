@@ -1,0 +1,154 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "FSLR’s 2023 Form 10-K contains a compact but multi-faceted discussion of COVID-19-related risk.  The company explicitly states that, apart from $15.7 million of pandemic-related manufacturing charges in 2020-2021, the crisis has not yet produced a material hit to its overall performance, which is an important mitigating disclosure.  Nevertheless, management still treats COVID-19 and future public-health threats as a live, forward-looking risk that could be “material” across operations, supply chain, logistics costs and workforce continuity.  Language throughout Item 1A frames the danger as conditional—“could,” “may,” “uncertain”—indicating the impact is potential rather than current, but several statements show ongoing pressure, e.g., elevated ocean-freight rates versus pre-COVID levels.  The filing also details specific operational scenarios (forced shutdowns, supplier failure) that would directly disrupt module production.  Applying the Time-Decay Principle, COVID-19 falls inside the 0-3-year window, so scores can be high if evidence is direct and quantified.  Only one quantified figure is provided ($15.7 million of charges), and much of the language is precautionary, so most snippets merit moderate (≈2-4) scores, with the quantified cost receiving a higher severity value.  Overall, COVID-19 is presented as a manageable but still meaningful risk whose future trajectory remains uncertain.",
+        "evidence_list": [
+            {
+                "snippet": "The severity and duration of public health threats (including pandemics such as COVID-19 or similarly infectious diseases) could materially impact our business, financial condition, and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to potential ‘material’ impacts on business, finance and operations.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Impact framed as contingent (‘could’), signalling uncertainty rather than existing loss.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Clear statement of potentially material impact, but purely forward-looking and conditional."
+            },
+            {
+                "snippet": "The COVID-19 pandemic continues to impact various countries throughout the world, including those in which we do business or have operations, though the scope and severity of COVID-19 continues to evolve.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing, not just historical, global impact affecting the firm’s operating regions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights evolving severity, adding an element of uncertainty and persistence.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Describes continuing worldwide effect touching the company’s footprint, giving the risk immediacy."
+            },
+            {
+                "snippet": "With the exception of certain manufacturing charges incurred in 2020 and 2021, the COVID-19 pandemic and its effects on the economy did not materially impact our business, financial condition, and/or results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits pandemic drove some prior charges (evidence of impact).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "States overall impact was *not* material, strongly mitigating severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Company downplays materiality, offsetting the small positive risk signal; net severity negligible."
+            },
+            {
+                "snippet": "However, the extent to which public health threats (including pandemics such as COVID-19 or similarly infectious diseases) could impact us in the future is highly uncertain and cannot be predicted, and will depend largely on subsequent developments, including but not limited to (i) the severity and duration of any public health threat, (ii) measures taken to contain the spread of any public health threat, such as restrictions on travel and gatherings of people and temporary closures of or limitations on businesses and other commercial activities, (iii) the timing and nature of policies implemented by governmental authorities, and (iv) any future variants of any public health threat, which may surge over time.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple external variables that can magnify future risk (lockdowns, variants, policy).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Lists concrete uncertainty drivers, but still hypothetical; yields a modest risk score."
+            },
+            {
+                "snippet": "• we may at any time be ordered by governmental authorities, or we may determine, based on our understanding of the recommendations or orders of governmental authorities, that we have to curtail or cease business operations or activities, including manufacturing and R&D activities; and",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies potential forced shutdown of core operations—a severe operational disruption.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Contingent language (‘may’) moderates certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Direct operational risk described, but conditional phrasing keeps score moderate."
+            },
+            {
+                "snippet": "• the failure of our suppliers or vendors to supply materials or equipment, or the failure of our vendors to install, repair, or replace our specialized equipment, due to any public health threat and related containment measures, may idle, slowdown, shutdown, or otherwise cause us to adjust our manufacturing capacity, and the availability and cost of logistics services associated with the procurement of raw materials or equipment used in our manufacturing process and the shipping, handling, storage, and distribution of our modules may require us to adjust our module manufacturing plans or module delivery commitments, which may result in additional unplanned charges.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights significant supply-chain and logistics disruptions that could force capacity adjustments and extra costs.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Risk framed with ‘may’, indicating possibility rather than certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Describes severe but potential supplier and logistics risks; conditional language tempers score."
+            },
+            {
+                "snippet": "Although the cost of ocean freight throughout many parts of the world has recently decreased, such costs remain at elevated levels relative to pre-COVID-19 pandemic rates.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites ongoing elevated logistics costs directly tied to the pandemic baseline.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows continuing cost headwind linked to COVID-era conditions—current, quantifiable trend."
+            },
+            {
+                "snippet": "• manufacturing charges of $15.7 million in the prior period associated with the COVID-19 pandemic;",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes concrete, quantified ($15.7 m) cost to the pandemic.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Provides exact monetary figure, strengthening materiality.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Refers to prior period (historical, not ongoing).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Quantified financial impact from COVID-19 earns high points despite being historical."
+            }
+        ],
+        "calculated_score": 24,
+        "average_severity": 3.0
+    }
+]

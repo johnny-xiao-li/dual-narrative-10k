@@ -1,0 +1,72 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Goldman Sachs’ 2024 Form 10-K continues to acknowledge the COVID-19 pandemic as a material but now medium-term risk.  The filing confirms that the firm endured a concrete liquidity shock in March 2020, when corporate clients drew down revolving credit lines, and it uses that episode as a live stress reference for future liquidity planning.  Beyond that specific example, the document treats pandemics in general as a standing source of market, operational and macro-economic disruption that can impair asset values, curtail client activity and tighten funding conditions.  The language is largely qualitative and forward-looking—no numerical impacts or scenario ranges are disclosed—yet it makes clear that pandemic-driven liquidity and earnings pressure “have been and may in the future be” significant.  Because the COVID-19 outbreak began four years before the filing date, the Time-Decay Principle places the risk in the 4-10-year “medium-term” bucket, warranting moderate (not maximal) severity scores.  Overall, the company flags both a historical, realized impact on liquidity and an ongoing exposure to renewed waves or future pandemics, but mitigation steps such as enlarged liquidity buffers and stress testing are only implied, not detailed.  Consequently, evidence snippets earn scores between 2 and 6, reflecting moderate current relevance without quantified losses.",
+        "evidence_list": [
+            {
+                "snippet": "Our liquidity may be impaired by an inability to access secured and/or unsecured debt markets, an inability to raise or retain deposits, an inability to access funds from our subsidiaries or otherwise allocate liquidity optimally, an inability to sell assets or redeem our investments, lack of timely settlement of transactions, unusual deposit outflows, or other unforeseen outflows of cash or collateral, such as in March 2020, when corporate clients drew on revolving credit facilities in response to the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites a realised, date-stamped liquidity stress directly attributed to COVID-19 (clients drew credit lines).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Connects that past event to potential future liquidity impairment ('may be impaired').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantitative magnitude of the draw-downs is provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific historical impact plus forward-looking risk raises the score to 5/10, tempered by lack of quantification."
+            },
+            {
+                "snippet": "Our businesses, financial condition, liquidity and results of operations have been and may in the future be adversely affected by unforeseen or catastrophic events, including pandemics, terrorist attacks, wars, extreme weather events or other natural disasters.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemics have already affected and could further affect multiple performance dimensions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists pandemics among several broad catastrophes, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic but explicit pandemic disclosure yields a modest 2/10 severity."
+            },
+            {
+                "snippet": "Unfavorable or uncertain economic and market conditions can be caused by: low levels of or declines in economic growth, business activity or investor, business or consumer confidence; concerns over a potential recession; changes in consumer spending or borrowing patterns; pandemics; limitations on the availability or increases in the cost of credit and capital; illiquid markets; increases in inflation, interest rates, exchange rate or basic commodity price volatility or default rates; high levels of inflation or stagflation; concerns about sovereign defaults; uncertainty concerning fiscal or monetary policy, government shutdowns, debt ceilings or funding; the extent of and uncertainty about potential increases in tax rates and other regulatory changes; limitations on international trade and travel; laws and regulations that limit trading in, or the issuance of, securities of issuers outside their domestic markets; outbreaks or worsening of domestic or international tensions or hostilities, terrorism, nuclear proliferation, cybersecurity threats or attacks and other forms of disruption to or curtailment of global communication, energy transmission or transportation networks or other geopolitical instability or uncertainty; corporate, political or other scandals that reduce investor confidence in capital markets; extreme weather events or other natural disasters; or a combination of these or other factors.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists 'pandemics' as a driver of adverse macro-economic conditions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Very broad, catch-all sentence with many other factors; pandemic reference not elaborated.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Highly generic enumeration of risks with brief pandemic mention merits a minimal 1/10."
+            }
+        ],
+        "calculated_score": 8,
+        "average_severity": 2.6666666666666665
+    }
+]

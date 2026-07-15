@@ -1,0 +1,208 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Starbucks’ 2022 Form 10-K presents COVID-19 as a high-severity, multi-dimensional risk that is both realized and continuing. The filing details tangible historical impacts (store closures, same-store-sales declines, China mobility restrictions) alongside forward-looking uncertainties (variants, long-term consumer behavior shifts, capital-markets volatility). The narrative also extends beyond pure demand destruction to cover supply-chain breakdowns, labor shortages, brand pressures from health protocols, and the possibility of further asset impairments. Because the filing date (November 2022) is less than three years after the WHO declared the pandemic (March 2020), the Time-Decay principle allows elevated scores: COVID-19’s effects are still unfolding and explicitly expected to persist. Disclosures are mostly specific—often describing actual closures, mobility limits, supply-chain disruptions, and labor scarcity—though they stop short of precise quantified dollar amounts. Overall, the document portrays COVID-19 as an acute, enterprise-wide risk whose severity remains significant despite partial operational recovery, justifying generally high but sub-maximum snippet scores.",
+        "evidence_list": [
+            {
+                "snippet": "Our financial condition and results of operations have been and are expected to continue to be adversely affected by the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to both past and future adverse effects on financial condition and operations.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong, unqualified language ('have been' and 'are expected to continue').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Company-wide scope indicates materiality.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct, company-wide statement of continuing harm earns a high score of 7."
+            },
+            {
+                "snippet": "At the peak of the COVID-19 outbreak, many of our company-operated and licensed stores were closed.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct causal link between pandemic and store closures.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes realized operational shutdowns ('many' stores).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Implies significant revenue interruption though not quantified.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Realized, large-scale closures reflect severe operational impact—score 6."
+            },
+            {
+                "snippet": "For stores that remained open, same-store sales declined due to modified operating hours and reduced customer traffic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites pandemic-driven sales decline in operating stores.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies causal mechanisms (hours reduction, lower traffic).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks numeric quantification, slightly moderating weight.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Actual sales erosion is meaningful but unquantified, yielding a moderate 4."
+            },
+            {
+                "snippet": "While nearly all of our company-operated and licensed stores have reopened, we expect that certain parts of our operations will continue to be impacted by the continuing effects of COVID-19, including resurgences and variants of the virus.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forecasts ongoing operational impact tied to pandemic variants.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty increases risk horizon.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Partial mitigation noted (stores reopened).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Continued impact but with mitigating reopening language drops score to 3."
+            },
+            {
+                "snippet": "Our China market experienced unprecedented COVID-19 pandemic-related restrictions in multiple cities that severely impacted customer mobility.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct description of pandemic restrictions in a key market (China).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong severity wording ('unprecedented', 'severely impacted').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "China is Starbucks’ fastest-growing market, amplifying risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Severe, realized disruption in a critical geography justifies a 6."
+            },
+            {
+                "snippet": "Due to the COVID-19 pandemic, our financial results have been and could continue in the future to be adversely affected by the disruption to the operations of our business partners, including licensee relationships, third-party manufacturers, distributors and retailers, through the effects of business and facilities closures, reductions in operating hours, social, economic, political or labor instability in affected areas, transportation delays, travel restrictions and changes in operating procedures, including for additional cleaning and safety protocols.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly ties pandemic to supply-chain and partner disruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers broad spectrum of disruptive factors (closures, transport, labor).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States both realized and prospective adverse financial effects.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Breadth of supply-chain disruption and continuing risk earn a 6."
+            },
+            {
+                "snippet": "Prolonged volatility or significant disruption of global financial markets due in part to the COVID-19 pandemic could have a negative impact on our ability to access capital markets and other funding sources, on acceptable terms or at all and impede our ability to comply with debt covenants.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to capital-markets and covenant compliance risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Identifies potential liquidity constraints—serious financial consequence.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Capital-access risk is material but still contingent, giving a 5."
+            },
+            {
+                "snippet": "Furthermore, we have experienced, and could continue to experience, a shortage of labor for store positions, including due to market trends and conditions such as continued concerns around COVID-19, the availability of new telecommuting employment options and other factors, which could decrease the pool of available qualified talent for key functions.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic concerns to actual and potential labor shortages.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights ongoing operational challenge affecting staffing.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Labor scarcity tied to COVID-19 is an ongoing operational risk—score 5."
+            },
+            {
+                "snippet": "Social distancing, telecommuting and reductions in travel may become the new normal.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Suggests long-term structural changes in consumer and work behavior arising from the pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indirectly signals sustained demand risk for in-store traffic.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights permanent behavioral shifts but without direct financial quantification—score 3."
+            },
+            {
+                "snippet": "In addition, the COVID-19 pandemic has required and may continue to require us to make controversial decisions about precautionary measures, such as vaccinations, showing proof of vaccinations and face coverings, that could impact our results, including by impacting our brand, our employee retention and satisfaction and the willingness of customers to buy our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links pandemic safety measures to brand, HR and sales risks.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasizes potential ongoing reputational and workforce impacts.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Wide-ranging brand and HR exposure related to health protocols merits a 5."
+            }
+        ],
+        "calculated_score": 50,
+        "average_severity": 5.0
+    }
+]

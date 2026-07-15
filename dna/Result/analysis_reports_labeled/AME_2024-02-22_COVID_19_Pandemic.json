@@ -1,0 +1,58 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "AME’s 2023 Form 10-K contains only brief, largely generic references to the COVID-19 pandemic.  The company acknowledges that pandemics or other public-health crises could disrupt its facilities, supply chains and distribution networks, but it does not cite any current quantitative impact, cost figure or backlog effect.  The risk is therefore framed as prospective rather than a continuing, known hit to 2023 performance.  A secondary, indirect disclosure links the firm’s shift to hybrid work to heightened cyber-security exposure, a change many companies experienced after COVID-19 forced remote operations.  Given that the outbreak began four years before the filing date, the Time-Decay Principle places the event in the medium-term band (4-10 years), warranting moderate—not maximum—scores.  Overall, the language signals a live but un-quantified exposure that management treats as part of its broader list of potential disruptions, resulting in mid-range risk severity.",
+        "evidence_list": [
+            {
+                "snippet": "In addition, our facilities, supply chains, distribution systems, and products may be impacted by natural or man-made disruptions, including armed conflict, damaging weather or other acts of nature, pandemics or other public health crises.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names pandemics/public-health crises as a disruptive risk factor.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies multiple operational areas affected (facilities, supply chains, distribution, products).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional language ('may be impacted'), indicating potential rather than current impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Directly links pandemics to core operational disruptions but remains forward-looking and unquantified; medium-term event yields a moderate 5/10."
+            },
+            {
+                "snippet": "Further, we also face information security risks due to our reliance on internet technology and use of hybrid work arrangements, which could strain our technology resources or create additional opportunity for cyber-attackers to exploit vulnerabilities.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies hybrid/remote work arrangements (a common COVID-19 consequence) as a source of risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Risk framed with speculative language ('could strain', 'could create'), indicating uncertainty and lack of quantification.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Does not explicitly reference the pandemic, making the link indirect.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mentions hybrid work risk but without naming COVID-19; indirect linkage and speculative tone reduce the score to 1/10."
+            }
+        ],
+        "calculated_score": 6,
+        "average_severity": 3.0
+    }
+]

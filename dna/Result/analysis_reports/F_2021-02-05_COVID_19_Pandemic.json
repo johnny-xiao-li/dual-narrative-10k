@@ -1,0 +1,232 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Ford’s 2021-02-05 Form 10-K depicts COVID-19 as an immediate, multi-faceted threat that is already depressing revenue, cash-flow and credit performance while simultaneously jeopardising future operating continuity.  Because the filing date is less than one year after the WHO pandemic declaration, Time-Decay is minimal and statements describing 2020 shutdowns, demand collapse, credit stress, labour absenteeism and semiconductor shortages all retain full severity.  The document combines backward-looking evidence (factory idling, auction disruptions, cash-flow deterioration) with forward-looking warnings (possible re-suspensions, vaccine uncertainty, rising defaults).  The language is specific, repeatedly tying quantified operational mechanics—plant closures, lost sales channels, supply-chain choke-points—to earnings, liquidity and funding costs, rather than offering vague boiler-plate.  Mitigating references (plant restarts, improved auctions) are brief and do not neutralise the pervasive risk tone.  Taken together, the disclosures support high—but not maximum—risk scores (≈6-8/10) for individual sentences, reflecting material realised damage plus continued volatility under the Time Decay Principle for very recent events.",
+        "evidence_list": [
+            {
+                "snippet": "Operational Risks Ford and Ford Credit’s financial condition and results of operations have been and may continue to be adversely affected by public health issues, including epidemics or pandemics such as COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits actual adverse effects already realised (‘have been’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Signals ongoing exposure (‘may continue’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Explicitly links to COVID-19 pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic wording—no detail or quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Directly states past and continuing COVID-19 harm, but without specifics; recent timing keeps score elevated."
+            },
+            {
+                "snippet": "The impact of COVID-19, including changes in consumer behavior, pandemic fears and market downturns, and restrictions on business and individual activities, has created significant volatility in the global economy and led to reduced economic activity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes concrete macro outcomes that drive company risk (volatility, reduced activity).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists multiple causal channels (behavior, fears, restrictions).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Refers to realised impacts (‘has created’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Shows immediate, multi-channel economic damage, heightening risk despite lack of firm-level figures."
+            },
+            {
+                "snippet": "Consistent with the actions taken by governmental authorities, in late March 2020, we idled our manufacturing operations in regions around the world other than China, where manufacturing operations were suspended in January and February before beginning to resume operations in March.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details a full global production shutdown attributable to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies timing and geographic breadth.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Partial mitigation via subsequent resumption noted.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete historical shutdown shows severe operational hit, tempered slightly by mention of later restart."
+            },
+            {
+                "snippet": "The economic slowdown attributable to COVID-19 led to a global decrease in vehicle sales in markets around the world.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to falling product demand (vehicle sales).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Indicates worldwide scope.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No figures given.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Global demand contraction directly threatens revenue; absence of quantification keeps score moderate-high."
+            },
+            {
+                "snippet": "Ford Credit expects the economic uncertainty and higher unemployment to result in higher defaults in its consumer portfolio, and prolonged unemployment is expected to have a negative impact on both new and used vehicle demand.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forecasts higher credit losses, a direct financial metric.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights demand weakness reinforcing core revenue risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking estimate rather than realised impact.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No numeric sizing.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Anticipated spike in defaults compounds demand decline; prospective nature keeps score mid-range."
+            },
+            {
+                "snippet": "The global economic slowdown and stay-at-home orders enacted across the United States disrupted auction activity in many locations, which adversely impacted and caused delays in realizing the resale value for off-lease and repossessed vehicles.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies specific operational chokepoint (auctions) linked to COVID policy.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States realised adverse financial consequence (delayed resale value).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers multiple geographies (‘many locations’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Demonstrates tangible cash-flow friction in vehicle remarketing, a core risk for Ford Credit."
+            },
+            {
+                "snippet": "Our automotive operations generally do not realize revenue while our manufacturing operations are suspended, but we continue to incur operating and non-operating expenses, resulting in a deterioration of our cash flow.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explains mechanics of revenue loss during shutdowns.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Links to deteriorating cash flow, a key quantitative metric.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Direct causal tie to COVID-related suspensions.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Clear articulation of profit-and-cash squeeze during pandemic elevates severity."
+            },
+            {
+                "snippet": "A shortage of semiconductors or other key components can cause a significant disruption to our production schedule and have a substantial adverse effect on our financial condition or results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights supply-chain fragility exacerbated by pandemic-driven chip allocation.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Warns of ‘substantial adverse effect’ on finances.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is forward-looking but tied to ongoing shortage.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Semiconductor shortage presents concrete, high-impact production risk linked to COVID demand shifts."
+            },
+            {
+                "snippet": "Despite the successful restart of our manufacturing operations in 2020, we continue to experience higher than normal levels of absenteeism at our manufacturing facilities and intermittent COVID-19-related disruptions in our supply chain.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates present, ongoing labour/supply interruptions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Shows risk persists post-restart, reducing mitigation value.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies operational areas affected (absenteeism, supply chain).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Ongoing disruptions underline durability of COVID-19 risk even after initial recovery."
+            },
+            {
+                "snippet": "The full impact of COVID-19 on our financial condition and results of operations will depend on future developments, such as the ultimate duration and scope of the outbreak (including any potential future waves and the success of vaccination programs), its impact on our customers, dealers, and suppliers, how quickly normal economic conditions, operations, and the demand for our products can resume, and any permanent behavioral changes that the pandemic may cause.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises significant uncertainty and multiple contingencies.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists broad stakeholder effects (customers, dealers, suppliers).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generic; no direct impact yet.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Captures uncertainty but lacks specificity or realised impact, hence lower score."
+            }
+        ],
+        "calculated_score": 54,
+        "average_severity": 5.4
+    }
+]

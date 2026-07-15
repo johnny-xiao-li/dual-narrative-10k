@@ -1,0 +1,309 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "XYL’s 2021-02-26 Form 10-K frames COVID-19 as an ongoing, multi-faceted threat that is already eroding revenue and operations while remaining highly unpredictable going forward.  The filing is entirely post-event (within 12 months of the WHO declaration on 2020-03-11) so Time-Decay permits elevated severity scores.  Disclosures move well beyond boiler-plate: management cites concrete, realised impacts (facility slow-downs, global volume reductions, elevated logistics costs, supply-chain bottlenecks, remote-work dependency, customer project delays, restructuring actions, financial-market volatility) and explicitly labels them “material adverse.”  Although no single, quantified dollar figure is provided, the company ties the pandemic to multiple core value drivers—sales, production, supply chain continuity, labour deployment, liquidity and capital access—making the risk systemic and enterprise-wide.  Forward-looking language (“may continue,” “could worsen,” “uncertain how materially…throughout 2021 and beyond”) confirms that management expects persistence rather than rapid dissipation, consistent with minimal time decay.  Some mitigating steps (supplier redundancy, remote-work infrastructure, special pay programmes, restructuring) are acknowledged but portrayed as partial buffers rather than definitive solutions.  Taken together, the evidence supports high but not maximum snippet scores (7-9) reflecting severe, current impacts tempered by the absence of precise quantitative loss figures and the presence of limited mitigations.",
+        "evidence_list": [
+            {
+                "snippet": "The downturn in the global economy due to the impacts of COVID-19 has, and continues to have, a material adverse effect on our business and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States direct linkage between COVID-19 and company performance ('material adverse effect').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Indicates the impact is current and ongoing ('has, and continues to have').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers broad financial dimensions ('business and results of operations').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Highly explicit, present-tense statement of material harm merits a near-maximum score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has adversely impacted, and continues to pose risks to, our business, results of operations and financial condition, the nature and extent of which are highly uncertain and unpredictable.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies multiple enterprise-level metrics under threat.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasises ongoing exposure ('continues to pose risks').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights uncertainty, expanding potential downside.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Strong but slightly less concrete than prior sentence; still indicates broad, continuing risk."
+            },
+            {
+                "snippet": "The global spread of the COVID-19 pandemic has, and continues to, curtail the movement of people, goods and services worldwide, including in many of the regions where we sell our products and services and conduct operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details operational mechanism (curtailed movement) affecting supply & demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies geographic breadth ('many of the regions').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses present-tense continuity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Shows direct operational disruption across markets; high but not top severity."
+            },
+            {
+                "snippet": "Government-mandated precautions to mitigate the spread of COVID-19, including travel restrictions, quarantines, stay at home or similar measures in many of the areas in which we operate, resulted in temporary production impacts at several of our facilities in 2020, curtailed, and continues to curtail, the business and operations of some of our customers and suppliers, and also impacted, and continues to impact, our ability to access our customers’ sites.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates specific restrictions causing production and customer-access problems.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Confirms direct hit to company facilities ('production impacts at several of our facilities').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Extends impact to customers and suppliers, signalling systemic risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Evidence is historical and continuing, boosting immediacy.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Multi-tier operational impacts justify a high score."
+            },
+            {
+                "snippet": "If the COVID-19 pandemic continues or worsens, including mutations of the virus, we may experience a continued decline in sales and customer orders in certain of our businesses.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights future downside scenario on revenue streams.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links directly to sales demand risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional language introduces uncertainty (mitigating).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Forward-looking, conditional; moderate severity after accounting for uncertainty."
+            },
+            {
+                "snippet": "The COVID-19 pandemic also has, and continues to, impact our supply chain with unpredictable disruptions, capacity constraints or delays in shipment of materials necessary to the manufacture of our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies critical supply-chain disruptions affecting manufacturing.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Characterises disruptions as 'unpredictable', increasing risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Current and ongoing ('has, and continues to').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct description of continuing supply-chain instability warrants high score."
+            },
+            {
+                "snippet": "While we have taken reasonable measures to mitigate these impacts, as the pandemic continues, or if it worsens, our manufacturing facilities and supply chain may continue to be significantly impacted.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits potential for 'significant' ongoing impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions mitigation efforts (reduces severity).",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Conditional forward-looking element.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Mitigation language offsets some risk, yielding a low-moderate score."
+            },
+            {
+                "snippet": "A further disruption of global financial markets or resulting economic downturn from the COVID-19 pandemic or other global health crises may reduce our ability to incur debt or access capital, or increase our cost of capital.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to capital-market and liquidity risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies concrete financial consequences: reduced access, higher costs.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses conditional 'may', introducing uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Meaningful financial-market exposure, tempered by conditional phrasing."
+            },
+            {
+                "snippet": "The effects of the COVID-19 pandemic, including remote working arrangements for employees, has not to date but could in the future impact our financial reporting systems and internal control over financial reporting.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Raises risk to critical control environment.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights remote-work operational change.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Emphasises 'not to date', signalling mitigation / low realised impact.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mostly potential risk with current mitigation; low score."
+            },
+            {
+                "snippet": "With the COVID-19 pandemic impacting our business since March 2020, a significant portion of our workforce transitioned to remote working, which we expect to be the case for the foreseeable future, and they are reliant on our information technology infrastructure and communication networks to perform their jobs, as well as access to reliable and safe communication networks in their communities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes large-scale labour model shift (remote work) and dependency on IT.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Indicates ongoing duration ('foreseeable future').",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Not financial, but significant operational/labour exposure gives moderate score."
+            },
+            {
+                "snippet": "We expect to continue experiencing unpredictable interruptions with our external suppliers into 2021 that could lead to increased logistic costs.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forecasts ongoing supply disruptions and higher costs.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Qualifies time frame ('into 2021'), reinforcing immediacy.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Forward-looking cost and supply-chain risk earns mid-level score."
+            },
+            {
+                "snippet": "Future demand for our products and services is uncertain as the COVID-19 pandemic has also had an adverse impact on many of the customers we serve.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to demand uncertainty via customer distress.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses definitive 'has...had an adverse impact'.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Explicit customer-driven demand risk; moderate severity."
+            },
+            {
+                "snippet": "Operationally, a number of our production facilities across the globe experienced reduced production levels due to such measures to varying degrees during the year, however our current overall operating capacity approximates normal levels globally.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms actual production reductions at multiple facilities.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Adds mitigating note that capacity is near normal now.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Past impact acknowledged, but recovery language lowers net risk score."
+            },
+            {
+                "snippet": "In 2020, in response to the business and economic conditions resulting from the COVID-19 pandemic, as well as in recent fiscal years, we have initiated restructuring and realignment plans in an effort to optimize our cost structure, improve our operational efficiency and effectiveness, strengthen our competitive positioning and better serve our customers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows company undertaking significant restructuring directly due to pandemic conditions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Restructuring is a strategic mitigation, offsetting risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Indicates consequential actions but also embedded mitigation; low-moderate score."
+            },
+            {
+                "snippet": "In 2020, we implemented a support pay program for employees impacted by COVID-19, and an essential services premium pay program for the benefit of employees whose roles are classified as an “essential service” and, as such, are required to work either onsite at a Xylem facility or in the field supporting customers during periods of mandated stay at home or similar measures.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges labour impact and cost pressure via special pay programmes.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Represents mitigation/support, reducing net risk.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Purely a mitigation measure; no incremental risk, so net score zero."
+            }
+        ],
+        "calculated_score": 68,
+        "average_severity": 4.533333333333333
+    }
+]

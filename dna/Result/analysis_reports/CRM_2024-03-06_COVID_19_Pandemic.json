@@ -1,0 +1,60 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Salesforce’s 2024 Form 10-K still flags COVID-19 as a live, though now medium-term, enterprise-level threat. The references are forward-looking: management warns that pandemic effects could be delayed in their largely subscription-based revenue model and could continue to disrupt workforce arrangements as the firm balances remote-work and return-to-office policies. No quantified dollar amounts or specific supply-chain losses are disclosed; instead, the company highlights uncertainty around revenue recognition timing and possible productivity or retention drag. Given that the World Health Organization declared the pandemic in March 2020—just four years before this filing—the Time Decay Principle places the event in the 4-to-10-year window, capping scores in the moderate range. The language is specific to COVID-19 (not merely generic ‘public-health emergency’ phrasing) and ties directly to financial reporting and human-capital risks, but it remains conditional (“may,” “could”) and unquantified. Overall, the evidence supports a moderate residual risk: material enough to monitor, yet already attenuating compared with the peak-pandemic years.",
+        "evidence_list": [
+            {
+                "snippet": "Additionally, due to our largely subscription-based business model, the long-term impact of the COVID-19 pandemic and recent economic uncertainty may not be fully reflected in our results of operations until future periods.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites the ‘long-term impact of the COVID-19 pandemic’ as a continuing risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects the pandemic to potential future financial statement effects (‘may not be fully reflected in our results’), signalling uncertainty in reported performance.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Reference to a subscription-based model implies some smoothing of revenue, a partial mitigating factor.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly links COVID-19 to delayed financial impacts while acknowledging some revenue-model buffering, yielding a moderate score of 4 within the 4-to-10-year Time-Decay band."
+            },
+            {
+                "snippet": "Additionally, changes in our work environment and workforce in the wake of the COVID-19 pandemic, including our return to office and remote work policies, may not meet the needs and expectations of our workforce or may create operational and workplace culture challenges, which could negatively impact our ability to increase employee productivity or attract and retain our employees and could adversely affect our operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies COVID-19 as the catalyst for enduring workplace and workforce changes.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Details concrete potential impacts—productivity loss, retention challenges, operational harm—beyond generic statements.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Use of conditional language (‘may’, ‘could’) reflects uncertainty, tempering severity.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Mentions existing mitigation efforts (return-to-office and remote-work policies).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides a specific, ongoing human-capital risk traceable to the pandemic, balanced by uncertainty and stated policies; scores a moderate 4, consistent with time-decay constraints."
+            }
+        ],
+        "calculated_score": 8,
+        "average_severity": 4.0
+    }
+]

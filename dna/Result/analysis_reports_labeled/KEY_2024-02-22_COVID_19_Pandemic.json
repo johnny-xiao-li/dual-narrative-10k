@@ -1,0 +1,50 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "KeyCorp’s 2024 filing references the COVID-19 pandemic only in a limited, retrospective way.  Management frames the pandemic as the trigger of the “most recent recession” and as the catalyst for extraordinary Federal Reserve policy measures in 2020, but emphasises that collateral values have largely recovered and that the pandemic’s adverse effects were not “significant” or “lasting.”  No forward-looking warnings are provided about continuing supply-chain disruption, labour shortages, or remote-work challenges; instead, COVID-19 is treated as a historical event whose macro-policy after-effects (e.g., rate-hike cycle) are now the more material risk vector.  Given that the pandemic’s onset is now roughly four years old, the Time Decay Principle calls for a mid-range severity ceiling (scores 4-6).  Because the disclosures are largely backward-looking and contain explicit mitigating language, each individual snippet scores in the lower half of that mid-range, yielding an overall moderate-to-low pandemic-related risk profile for KeyCorp.",
+        "evidence_list": [
+            {
+                "snippet": "The most recent recession, resulting from the impact of the COVID-19 pandemic, did not have significant lasting impact on collateral value.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links the pandemic to a macro-economic recession that could affect the company’s credit portfolio (aggravating).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States that the impact was not significant or lasting, directly mitigating the risk.",
+                            "points": -3
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Although the sentence ties COVID-19 to a recessionary event, it immediately downplays any ongoing effect, resulting in a very low residual risk score."
+            },
+            {
+                "snippet": "For example, in March 2020, the Federal Reserve initiated a round of emergency interest rate cuts designed to mitigate some of the economic effects resulting from the pandemic and subsequently began raising interest rates in March 2022 in an effort to combat inflation.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes a significant, pandemic-driven policy action that continues to shape the interest-rate environment faced by the company.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Information is largely historical and macro-level, with no direct quantified effect on KeyCorp.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "The disclosure acknowledges a material policy response born of the pandemic, but the lack of company-specific impact and its historical framing keep the score low."
+            }
+        ],
+        "calculated_score": 3,
+        "average_severity": 1.5
+    }
+]

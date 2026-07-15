@@ -1,0 +1,106 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "FTV’s 2024 Form 10-K continues to treat the COVID-19 pandemic primarily as an ongoing but now-stabilising external risk rather than an acute, currently-material headwind.  Every reference appears in the generic „laundry-list” portions of risk factors: the company speaks in conditional terms (e.g., supply chains “could” be disrupted, facilities are “subject to” loss, international operations face risks from “epidemics, such as the coronavirus outbreak”).  No quantified impact, historical losses, or specific operational adjustments (remote-work policies, labour absenteeism, etc.) are provided.  This positions the pandemic as a potential, forward-looking hazard folded into broader categories such as supply-chain, geopolitical, or catastrophic-loss risk.  Because the event began almost four years before the 2024-02-27 filing date, the Time Decay Principle places COVID-19 in the medium-term window (4-10 years), capping scores in the mid-range.  The language is largely boiler-plate, yet the filing still explicitly cites “pandemic health issues,” “public health crisis,” and “epidemics, such as the coronavirus outbreak” as factors that can reduce demand, interrupt production, and strain supply chains.  Accordingly, individual sentences earn moderate scores (4-5) where they explicitly connect the coronavirus to concrete operational vectors (travel, demand, supply chains) and lower scores (1-3) where the mention is purely generic.  No mitigating actions (e.g., permanently diversified sourcing, pandemic-proof processes) are disclosed in the cited sentences, so downward adjustments are minimal; the primary dampener is time decay and the speculative wording.",
+        "evidence_list": [
+            {
+                "snippet": "The supply chains for our businesses could also be disrupted by supplier capacity constraints, operational or quality issues, bankruptcy or exiting of the business for other reasons, decreased availability of key raw materials or commodities, and external events such as natural disasters, severe weather events that are occurring more frequently or with more intense effects as a result of global climate change, pandemic health issues, war, terrorist actions, governmental actions, and legislative or regulatory changes, among others.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links 'pandemic health issues' to supply-chain disruption, a core operational risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses conditional language ('could be disrupted'), signalling potential rather than realised impact.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Falls within medium-term window (≈4 years) – moderate downward adjustment per Time Decay Principle.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mentions pandemic explicitly in the context of supply-chain risk, but is forward-looking and generic, and time decay dampens severity, yielding a score of 1."
+            },
+            {
+                "snippet": "Our facilities, supply chains, distribution systems, and information technology systems are subject to catastrophic loss due to fire, flood, earthquake, hurricane, public health crisis, war, terrorism, or other natural or man-made disasters, including those caused by climate change and other climate-related causes.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites 'public health crisis' (inclusive of pandemics) as a trigger for catastrophic loss across multiple operational layers.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly conditional phrasing ('are subject to'), no indication of current impact.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term time decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Generic reference to pandemic-type crises without specificity or current impact, combined with time decay, keeps the score very low."
+            },
+            {
+                "snippet": "• epidemics, such as the coronavirus outbreak, that adversely impact travel, production, or demand;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly names 'coronavirus outbreak', clearly tying to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Lists concrete business vectors affected (travel, production, demand).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Bullet is still hypothetical (no quantified or realised impact).",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term time decay (≈4 years).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Most explicit pandemic reference with specified channels of impact, but unquantified and forward-looking, so after time-decay adjustment it earns a moderate score of 4."
+            },
+            {
+                "snippet": "Our business is also subject to general risks and uncertainties that affect many other companies, such as market conditions, economic conditions, geopolitical events, changes in laws, regulations, or accounting rules, fluctuations in interest rates, terrorism, wars or conflicts, major health concerns, natural disasters, or other disruptions of expected business conditions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions 'major health concerns', implicitly including pandemics.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Extremely generic, lumped with many other unrelated risks; speculative.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Medium-term time decay further lowers relevance.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": -1
+                },
+                "reasoning_summary": "A catch-all disclaimer with only an implied pandemic reference; minimal aggravation and full time-decay result in a negligible (negative to zero) risk contribution."
+            }
+        ],
+        "calculated_score": 4,
+        "average_severity": 1.0
+    }
+]

@@ -1,0 +1,128 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Verizon’s 2024 Form 10-K still portrays the COVID-19 pandemic as a meaningful—though now primarily prospective—risk driver.  Management reminds investors that the pandemic caused tangible harm in 2020 (lower revenue, higher costs and lower EPS) and that similar public-health shocks could once again disrupt the company’s three critical dependency chains: customers (demand/collections), labour (employee availability and safety) and suppliers (equipment and service delivery).  The language is partly backward-looking (citing 2020 impact) but mostly forward-looking and conditional (“could materially adversely affect”).  While no fresh dollar figures are offered, the narrative links a single global event to multiple enterprise-wide vulnerabilities, signalling a non-trivial exposure.  Because the original outbreak is now nearly four years old, the Time Decay Principle tempers maximum severity; nevertheless, COVID-19 remains within the medium-term window (4-10 years) and the filing expressly ties past losses to the same underlying hazard, justifying mid-range snippet scores (roughly 2-6) rather than extreme values.  Overall, the risk is assessed as moderate-to-high and still relevant, but not at crisis-level intensity.",
+        "evidence_list": [
+            {
+                "snippet": "Public health crises could materially adversely affect our business, financial condition and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses strong phrase 'materially adversely affect' signalling significant potential impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Generic statement without event-specific detail or quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Basic, forward-looking warning of material harm; relevant but generic, so moderate-low score of 3."
+            },
+            {
+                "snippet": "We are subject to risks related to public health crises, such as the COVID-19 pandemic, which had an adverse effect on our operating results in 2020.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references COVID-19 pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges a realised adverse impact on operating results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Provides historical anchor year (2020) but no quantification.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Event now medium-term (≈4 years) so modest time-decay adjustment.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct link to COVID-19 with confirmed historical damage yields a solid mid-range score of 6 after time-decay adjustment."
+            },
+            {
+                "snippet": "As a result, our business, financial condition and results of operations could be materially adversely affected by a public health crisis that significantly impacts the way customers use and are able to pay for our products and services, the way our employees are able to provide services to our customers, and the ways that our partners and suppliers are able to provide products and services to us.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Foresees material adverse effects across financial and operational metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details three exposure channels (customers, employees, suppliers).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional wording and absence of event-specific data.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Enumerates multiple operational vulnerabilities but remains hypothetical, justifying a score of 4."
+            },
+            {
+                "snippet": "For example, public and private sector policies and initiatives to reduce the transmission of COVID-19 and initiatives Verizon took in response to the health crisis to promote the health and safety of our employees and provide critical infrastructure and connectivity to our customers, along with the related global slowdown in economic activity, resulted in decreased revenues, increased costs and lower earnings per share during 2020.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly attributes impacts to COVID-19 related measures.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists three concrete financial effects (decreased revenues, increased costs, lower EPS).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States that impacts actually occurred (realised, not merely potential).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Medium-term time-decay adjustment (event occurred in 2020).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Strong, realised multi-metric impact yields a near-top medium-term score of 6."
+            },
+            {
+                "snippet": "In addition, such a crisis could significantly increase the probability or consequences of the risks our business faces in ordinary circumstances, such as risks associated with our supplier and vendor relationships, risks of an economic slowdown, regulatory risks, and the costs and availability of financing.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights amplifying effect of a health crisis on multiple existing risk categories.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Provides examples of specific amplified risks (supplier, economic, regulatory, financing).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Hypothetical language and no direct COVID-specific reference.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Describes secondary knock-on risks but in generic terms, so lower severity score of 2."
+            }
+        ],
+        "calculated_score": 21,
+        "average_severity": 4.2
+    }
+]

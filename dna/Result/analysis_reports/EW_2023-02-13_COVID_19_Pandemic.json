@@ -1,0 +1,180 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "EW’s 2023 filing discusses COVID-19 as an active, near-term threat that has already produced measurable operating and financial harm and could worsen.  The risk language is a blend of backward-looking evidence (2021-22 variant surges that reduced procedure volumes and sales) and forward-looking qualifiers (future outbreaks, continuing hospital staffing shortages, supply-chain uncertainty).  The company details concrete channels of exposure—hospital capacity constraints, staff shortages, supply-chain breakdowns, clinical-trial delays, and demand volatility—while offering only limited mitigation (e.g., inventory management and alternative logistics).  Because the disclosure is within three years of the pandemic onset, the Time Decay Principle allows high scores.  However, most statements remain qualitative and largely un-quantified, so individual snippet scores peak in the mid-single digits rather than the maximum.  Overall, COVID-19 represents a significant, ongoing operational and financial risk for EW with moderate mitigation, justifying elevated—though not maximum—severity scores across the extracted evidence.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic has adversely impacted and is likely to further adversely impact nearly all aspects of our business and markets, including our workforce and operations and the operations of our customers, suppliers, and business partners.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that the pandemic has already produced adverse impacts (realised impact).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Projects additional future adverse impacts ('likely to further adversely impact').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Scope is described as 'nearly all aspects' of business, signalling breadth and severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct acknowledgement of past and future widespread harm earns a high score close to the upper bound for a recent event."
+            },
+            {
+                "snippet": "The inability to meet our customers’ needs or other obligations due to disruptions to our operations or the operations of our third-party partners, suppliers, contractors, logistics partners, or customers including disruptions to production, development, manufacturing, administrative, and supply operations and arrangements;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links pandemic to supply-chain and operational disruptions across multiple functions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights dependence on third parties, magnifying exposure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific supply-chain vulnerability is material but not quantified, yielding a solid mid-range score."
+            },
+            {
+                "snippet": "Significant volatility or reductions in demand for our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Addresses potential swings or drops in customer demand, a core revenue risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses the modifier 'significant', indicating materiality.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Demand volatility is a clear aggravator, but brevity and lack of detail keep the score modest."
+            },
+            {
+                "snippet": "Depending on the severity of the financial and operational impacts, our business, financial condition, and results of operations may be materially adversely impacted.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of potentially 'material' adverse impact on core financial metrics.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presents the risk as conditional ('may'), slightly reducing immediacy.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Materiality language elevates risk, but conditional phrasing and lack of specifics temper the score."
+            },
+            {
+                "snippet": "During the first quarter of 2022, the Omicron variant had a pronounced impact on hospital capacity, resources, and procedure volumes in January 2022, especially in the United States.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes a recent, realised negative impact tied to a specific variant surge.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details operational metrics affected (capacity, resources, procedure volumes).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Time-stamped to 2022, reinforcing recency.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete, time-specific operational harm justifies an above-average score."
+            },
+            {
+                "snippet": "Our 2022 sales were also impacted by slower than expected improvement in United States hospital staffing shortages and foreign currency headwinds.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic-driven hospital staffing shortages to actual 2022 sales impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions additional macro headwind (FX) which, while separate, supports overall strain.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Real-world sales effect is cited, but absence of numbers holds score to mid-range."
+            },
+            {
+                "snippet": "In the second half of 2022, we faced COVID-19 headwinds in Japan, which created significant strain on hospital capacity.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Reports current-year geographic impact, demonstrating ongoing global exposure.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Characterises strain on hospital capacity as 'significant'.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Ongoing, location-specific capacity constraints merit a strong score."
+            },
+            {
+                "snippet": "Staffing shortages at hospitals which can add to the barriers along the patient treatment pathway;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights hospital labour shortages, a direct constraint on procedure volumes.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Identifies a concrete operational bottleneck but without magnitude or timing, so score is modest."
+            },
+            {
+                "snippet": "Impacts and delays to clinical trials, our pipeline milestones, or regulatory clearances and approvals;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags potential delays to R&D pipeline and regulatory milestones—strategic risks.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Threats to innovation pipeline are material but not yet quantified, yielding a middle score."
+            },
+            {
+                "snippet": "Across the organization, we are proactively managing inventory, assessing alternative logistics options, and closely monitoring the supply of components to address potential supply constraints.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes concrete mitigation actions (inventory, logistics, monitoring).",
+                            "points": -3
+                        }
+                    ],
+                    "final_snippet_score": -3
+                },
+                "reasoning_summary": "Mitigating steps reduce overall severity, so the snippet carries a negative score, offsetting other aggravating factors."
+            }
+        ],
+        "calculated_score": 34,
+        "average_severity": 3.4
+    }
+]

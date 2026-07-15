@@ -1,0 +1,112 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "EFX’s 2023-02-23 Form 10-K squarely acknowledges that COVID-19 has already hurt the firm and can still do so. The filing cites concrete, realized impacts (e.g., “significant revenue declines in several of our markets”) and points to continuing vulnerabilities such as weakened consumer lending, lingering labour shortages, and the possibility that similar pandemics could recur. Although the language is largely qualitative and lacks precise dollar figures, it explicitly ties the pandemic to adverse demand shocks and operational strain, confirming that the risk is both historical and forward-looking. Because the pandemic’s onset (March 2020) is less than three years before the filing date, the Time Decay Principle allows relatively high severity scores. Overall, the disclosures reveal a material but un-quantified risk that remains live; mitigation language is sparse and mainly limited to noting some recovery in unemployment-related revenue, so the net risk assessment stays elevated.",
+        "evidence_list": [
+            {
+                "snippet": "Our business has been and may continue to be negatively impacted by health epidemics, pandemics and similar outbreaks, including the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges a direct, already-experienced negative impact (‘has been ... negatively impacted’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Flags an ongoing, forward-looking threat (‘may continue to be’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No quantification or detail, generic phrasing.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Scores mid-high because it confirms both past damage and future exposure, but loses a point for being generic and unquantified."
+            },
+            {
+                "snippet": "For example, the COVID-19 pandemic and the mitigation efforts by governments to attempt to control its spread adversely impacted the global economy, leading to reduced consumer spending and lending activities.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit causal link between COVID-19 and macroeconomic deterioration that affects EFX’s demand drivers.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies the mechanism (consumer spending and lending) relevant to company revenues.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Historical reference without forward-looking quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Provides a clear but historical description of the pandemic’s channel of impact; moderate severity."
+            },
+            {
+                "snippet": "We experienced significant revenue declines in several of our markets as a result of COVID-19 and we may experience similar revenue declines as a result of future health epidemics, pandemics and similar outbreaks.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States an actual, material financial impact (‘significant revenue declines’).",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Extends the risk into the future (‘may experience similar revenue declines’).",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Highest-impact sentence: directly ties COVID-19 to material revenue loss and warns of recurrence, justifying a high score of 8."
+            },
+            {
+                "snippet": "Additionally, the worker shortage that emerged following the outbreak of COVID-19 has presented increased challenges to our ability to develop, retain and attract qualified personnel.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies a concrete operational risk (labour shortage) stemming from COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "No quantification and limited to HR area.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Highlights pandemic-induced labour risk but without numbers; moderate severity."
+            },
+            {
+                "snippet": "Employer Services revenue increased 7% in 2022, compared to 2021 due to growth in employee services, partially offset by a decrease in unemployment claims management revenue as the number of unemployment claims returned to pre-COVID-19 levels in 2022 after having been significantly higher in 2021 due to the economic impact of COVID-19 on the U.S. economy.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows historical volatility attributable to COVID-19 (‘significantly higher in 2021 due to the economic impact’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates partial normalization (‘returned to pre-COVID-19 levels’), a mitigating factor.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Documents past impact but also notes recovery, so net risk evidence is low."
+            }
+        ],
+        "calculated_score": 20,
+        "average_severity": 4.0
+    }
+]

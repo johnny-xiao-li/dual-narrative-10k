@@ -1,0 +1,149 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "MKTX acknowledges COVID-19 as both a realized and an ongoing threat.  The filing, dated February 2023, is squarely within the 0-3-year window after the March 2020 declaration of the pandemic, so Time-Decay allows high severity scores.  The company identifies multiple transmission channels: market-wide volatility that suppresses trading volumes, direct operational disruptions (remote-work shift, health of employees), and broad macro-economic turmoil that could depress client demand.  Language such as “materially adversely impacted,” “significant volatility,” and “significant changes in our daily operations” shows that impacts have already been felt, not just anticipated.  At the same time, MKTX notes that pandemic effects were “less” in 2022 and that it cannot yet quantify future damage—phrasing that partially tempers severity.  Netting these factors, the evidence points to a continuing, but now better-understood, risk that remains in the upper-mid range (roughly 6–7/10 overall) under the Time Decay Principle because the event is recent but the firm has begun adapting (e.g., hybrid work, proven continuity planning).",
+        "evidence_list": [
+            {
+                "snippet": "Our business and our results of operations and financial condition may be materially adversely impacted by the outbreak of, and global response to, the Pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses strong, quantified wording of severity (‘materially adversely impacted’).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicit, direct link to COVID-19 (‘the Pandemic’) as the causal factor.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking ‘may be’ indicates uncertainty rather than certain loss.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct statement of potential material harm tied to COVID-19; high aggravation with minor uncertainty deduction."
+            },
+            {
+                "snippet": "The global spread of the novel coronavirus disease 2019 (COVID-19) has created significant volatility in the markets we serve and has increased uncertainty and economic disruption.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes realised impact (‘has created’) not just potential.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights concrete market level effects—‘significant volatility’ and ‘economic disruption’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies the company’s own markets (‘markets we serve’) linking to business model.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Recent, observable negative effects on the firm’s core markets give this sentence a high score."
+            },
+            {
+                "snippet": "As a result of the Pandemic, the global economy has been experiencing a period of significant turmoil and we have experienced significant changes in our daily operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States macro-level ‘significant turmoil’, an aggravating factor.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Admits direct operational impact on the company’s day-to-day business.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses present-perfect wording (‘have experienced’) confirming realised impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Connects pandemic to both global turmoil and internal operational disruption, warranting a high score."
+            },
+            {
+                "snippet": "Due to the uncertainty of the duration, scope and severity of the Pandemic, including the effects of new variants, the uncertainty as to what additional governmental measures may yet be taken in response to the Pandemic and the unpredictable effect on our business, our employees and our clients, we are not able to reasonably estimate the extent of any potential future impact of the Pandemic on our financial condition or results of operations, but the impact could be material.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights multiple evolving risk drivers (variants, government measures).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States that impact ‘could be material’.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lack of quantification and ‘not able to reasonably estimate’ introduces uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Acknowledges potentially material impact but heavy uncertainty tempers severity."
+            },
+            {
+                "snippet": "Even after the Pandemic has subsided, our business may continue to be impacted as a result of the Pandemic’s global economic impact.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows persistence of risk beyond the active pandemic phase.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional ‘may continue’ reflects uncertainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Indicates lingering risk but with speculative language, giving it a low score."
+            },
+            {
+                "snippet": "Further, our operating and financial results may be affected in a manner that is not presently known to us or in a manner that we currently do not consider to present significant risks to our operations given the continuously evolving nature of the Pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits possibility of unknown adverse effects.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Simultaneously downplays current significance (‘do not consider to present significant risks’).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Speculative risk offset by explicit down-playing, resulting in a neutral score."
+            },
+            {
+                "snippet": "Throughout 2022, the Pandemic had less of an impact on how we managed our business than in the prior two years.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges diminishing impact, acting as a mitigating signal.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Still recognises some continuing influence (‘had less of an impact’).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Primarily a mitigating statement; any aggravation is outweighed, leading to a net zero risk score."
+            }
+        ],
+        "calculated_score": 24,
+        "average_severity": 3.4285714285714284
+    }
+]

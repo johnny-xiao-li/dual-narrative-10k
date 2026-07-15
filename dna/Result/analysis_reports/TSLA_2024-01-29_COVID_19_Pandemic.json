@@ -1,0 +1,60 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Tesla’s 2024 filing references COVID-19 in two distinct contexts: (i) as an ongoing external factor that can disrupt its global supply chain and (ii) as a macro-event that has already harmed, and could continue to harm, its operations and demand.  The language is largely precautionary and unquantified—phrases such as “could also affect,” “may in the future” and “adversely affected” dominate—indicating a forward-looking, possibility-based disclosure rather than a detailed accounting of realized financial damage.  Nonetheless, Tesla concedes that it has in fact experienced adverse effects, which elevates the risk above a purely hypothetical level.  Because the pandemic began almost four years before the filing date, the Time Decay Principle caps severity in the mid-range (4-6).  Overall, the risk is assessed as moderate: the company acknowledges real and potential impacts on supply-chain continuity and overall business performance, but provides no quantitative sizing, detailed contingency plans, or specific mitigation metrics.",
+        "evidence_list": [
+            {
+                "snippet": "Unexpected changes in business conditions, materials pricing, including inflation of raw material costs, labor issues, wars, trade policies, natural disasters, health epidemics such as the global COVID-19 pandemic, trade and shipping disruptions, port congestions, cyberattacks and other factors beyond our or our suppliers’ control could also affect these suppliers’ ability to deliver components to us or to remain solvent and operational.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies COVID-19 explicitly as a disruptive health epidemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Connects the epidemic to a concrete operational exposure—supplier delivery and solvency.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional language ('could also affect'), signalling uncertainty and reducing immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Provides a clear but generic linkage between COVID-19 and supply-chain risk; moderate severity with no quantification."
+            },
+            {
+                "snippet": "In addition, the global COVID-19 pandemic has impacted economic markets, manufacturing operations, supply chains, employment and consumer behavior in nearly every geographic region and industry across the world, and we have been, and may in the future be, adversely affected as a result.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that the pandemic has already had widespread impacts on key operational areas.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly acknowledges that Tesla itself 'has been' adversely affected.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Adds a forward-looking element ('may in the future be'), extending the risk horizon.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantitative detail or specificity on the magnitude of impact.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Acknowledges realized and potential future harm from COVID-19 but remains unquantified; fits mid-range severity for a nearly four-year-old event."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 4.5
+    }
+]

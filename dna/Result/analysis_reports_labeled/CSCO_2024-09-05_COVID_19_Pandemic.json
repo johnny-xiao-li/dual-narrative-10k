@@ -1,0 +1,70 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Cisco’s 2024-09-05 filing continues to flag pandemic-related disruptions primarily as a potential, forward-looking supply-chain and macro-operations risk rather than as a quantified, current impact.  The references are folded into broad risk factor lists, emphasising that public-health emergencies (including pandemics) could interrupt global component supplies, raise costs and impair worldwide operations.  Because COVID-19 began more than four years ago, Time-Decay dictates a moderate severity ceiling (4-6).  The language is cautionary—\"could materially harm\"—and highlights supply-chain vulnerability, but provides no numerical damage or recent COVID-specific data.  Overall, the disclosure evidences an enduring, but un-quantified and generic, pandemic risk whose immediacy has tapered since 2020, meriting mid-range scoring for the most explicit sentence and low-to-moderate scoring where the pandemic is listed among many contingencies.",
+        "evidence_list": [
+            {
+                "snippet": "A reduction or interruption in supply, including disruptions on our global supply chain, caused in part by public health emergencies, geopolitical tensions (including as a result of China-Taiwan relations) or a significant natural disaster (including as a result of climate change); ... could materially harm our business, operating results, and financial condition and could materially damage customer relationships.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links global supply-chain disruption to public-health emergencies (pandemics).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States consequence as ‘could materially harm’ business and financial condition — strong impact wording.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Frames risk as broad and forward-looking without COVID-specific or quantified data.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No numerical magnitude or timing; generic language reduces precision.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Global scope of supply chain amplifies potential severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Moderate (4/10) because it directly connects public-health emergencies to material supply-chain harm but remains generic and unquantified; consistent with mid-term Time-Decay limits."
+            },
+            {
+                "snippet": "Our future results could be negatively impacted by a variety of political, economic or other factors ... including ... health or similar issues, including pandemics or epidemics; difficulties in staffing and managing international operations; and adverse tax consequences, including imposition of withholding or other taxes on our global operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemics/epidemics as a factor that can negatively impact future results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Phrase is tied to potential harm to operating results and financial condition (implied earlier in sentence).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Pandemics mentioned only as one item in a long, catch-all list—dilutes specificity.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "No quantification or event-specific details provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Low (1/10) because pandemic risk is noted only generically among many factors, with no detail or quantification, though still acknowledging possible negative impact."
+            }
+        ],
+        "calculated_score": 5,
+        "average_severity": 2.5
+    }
+]

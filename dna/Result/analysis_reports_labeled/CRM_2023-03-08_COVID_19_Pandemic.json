@@ -1,0 +1,150 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is treated in the 2023-03-08 CRM filing as an active, still-evolving threat that already produced tangible operational, financial and supply-chain damage and could continue to do so.  The company lays out several direct impacts that have actually occurred (e.g., hardware shortages, delayed outsourced support, material hits to cash-flow) and couples them with forward-looking warnings about persistent macro-economic weakness, shifting labour models and potential renewed office closures.  These statements are largely specific (identifying supply-chain hardware, outsourced call-centre delays, productivity risks, demand shifts) and they concede materiality to both operations and financial results.  Because the filing date is within three years of the WHO pandemic declaration (March 2020), the Time Decay Principle permits high severity scores.  No strong mitigating language (such as quantified recovery, insurance coverage or definite control measures) is offered; most caveats emphasise uncertainty rather than resolution.  Accordingly, evidence sentences earn elevated scores, with the highest reserved for passages acknowledging already-realised ‘material’ financial impacts and continuing supply-chain disruptions.  Overall, COVID-19 remains a high-salience, recently manifested risk with broad operational reach for CRM.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic disrupted and continues to disrupt the supply chain of hardware needed to maintain these third-party systems or to run our business, which affects our and our suppliers’ operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies a specific operational channel—hardware supply chain—that is directly disrupted.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses present-tense 'continues to disrupt', showing ongoing rather than historical impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States that both company and supplier operations are affected, widening the scope of risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No mitigation mentioned.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Ongoing, concrete supply-chain disruption affecting core operations warrants a very high score of 9."
+            },
+            {
+                "snippet": "Additionally, changes in our work environment and workforce in the wake of the COVID-19 pandemic could adversely affect our operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to altered work environment/workforce—a clear operational risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States potential adverse effect on operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking and unquantified, reducing severity relative to realised impacts.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Sentence is forward-looking and generic, so risk is moderate; score set at 3."
+            },
+            {
+                "snippet": "Outsourced provision of technical support may be suddenly and adversely impacted by unforeseen events, for example, as occurred when certain business process outsourced service providers were delayed in effectively servicing our customers due to conditions related to the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Gives a concrete past example of pandemic-driven delay in customer service.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights vulnerability of outsourced support, an important operational area.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional 'may be' for future risk, slightly lowering certainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Contains a real incident plus ongoing risk to customer service, meriting a solid score of 6."
+            },
+            {
+                "snippet": "The effects of the COVID-19 pandemic and related public health measures have materially affected how we and our customers are operating our businesses, and have in the past materially affected our operating results and cash flows; the duration and extent to which this will impact our future results remain uncertain.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states ‘materially affected’ operations—strong language.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Admits material impact on operating results and cash flows (financial dimension).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Acknowledges ongoing uncertainty into the future.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Material past financial impact plus future uncertainty justifies near-maximum score of 9."
+            },
+            {
+                "snippet": "Our operations were negatively affected by a range of external factors related to the COVID-19 pandemic that are not within our control, and COVID-19 remains a public health emergency in certain parts of the world, which could impact the operations of our business infrastructure and service providers in such parts of the world and delay our security measures, business processes, product development and foreign investments.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes past negative effects and continuing public-health emergency—ongoing risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Lists multiple critical functions that could be delayed (security measures, product development, etc.).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Attributes risk to factors outside company control, increasing exposure.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Broader operational reach and lack of control elevate the severity to 8."
+            },
+            {
+                "snippet": "The global macroeconomic effects of the COVID-19 pandemic and related impacts on our customers’ business operations and their demand for our products and services may persist for an indefinite period, even after the COVID-19 pandemic has subsided.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to macroeconomic headwinds affecting customer demand.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights indefinite persistence of impact, extending the risk horizon.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Use of ‘may’ indicates uncertainty, moderating severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Potential long-lasting demand weakness yields a substantial but not extreme score of 6."
+            }
+        ],
+        "calculated_score": 41,
+        "average_severity": 6.833333333333333
+    }
+]

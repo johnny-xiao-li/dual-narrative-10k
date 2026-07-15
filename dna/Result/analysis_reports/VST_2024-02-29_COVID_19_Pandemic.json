@@ -1,0 +1,98 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is referenced in the 2024 VST 10-K strictly as an ongoing, external threat rather than a past crisis that has already been absorbed.  The filing, four years after the WHO declaration (medium-term window), frames the pandemic primarily as a potential disruptor: it could slow the macro-economy, erode power demand, damage liquidity, impair workforce health, hamper supply chains, and force new regulatory rules (e.g., disconnection moratoria, remote-work vulnerabilities).  Management does not quantify losses already incurred, nor do they provide pandemic-specific financial figures; instead, they embed the topic inside broad risk bullet lists and a narrative paragraph enumerating hypothetical impacts.  The language is moderately strong—“materially adversely affect,” “significantly disrupt”—and the risk is portrayed as largely uncontrollable.  No substantial mitigating actions (e.g., pandemic response plans, diversified sourcing) are disclosed.  Consequently, the overall severity remains material but not acute: forward-looking, un-quantified, but still relevant because virus variants, lingering workforce issues, and regulatory after-shocks can still hit operations.  Under the Time Decay Principle (event age ≈ 4 years), medium scores (4-6) are warranted for sentences that articulate concrete channels of impact, while generic list mentions merit very low scores.  The evidence below reflects every explicit pandemic reference in the document and is scored accordingly.",
+        "evidence_list": [
+            {
+                "snippet": "Events outside of our control, including an epidemic or outbreak of an infectious disease may materially adversely affect our business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly cites epidemics/outbreaks as a risk driver.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong severity wording ('materially adversely affect').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Purely forward-looking and generic, no specifics or quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Sentence squarely links infectious-disease events to material harm but is brief and unquantified, yielding a mid-range 4."
+            },
+            {
+                "snippet": "We face risks related to epidemics, outbreaks or other public health events that are outside of our control, and could significantly disrupt our operations and adversely affect our financial condition.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights epidemics/public-health events as risk category.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies dual impact: operational disruption and financial harm.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Stresses uncontrollability ('outside of our control'), amplifying exposure.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Still hypothetical with no data or timing detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Provides clearer impact channels and emphasizes lack of control, pushing the score to 5 in the medium-term window."
+            },
+            {
+                "snippet": "The global or national outbreak of an illness or other communicable disease, or any other public health crisis may cause disruptions to our business and operational plans, as a result of a number of factors, including (a) a protracted slowdown of broad sectors of the economy, (b) changes in demand or supply for commodities, (c) significant changes in legislation or regulatory policy to address the pandemic (including prohibitions on certain marketing channels, moratoriums or conditions on disconnections or limits or restrictions on late fees), (d) reduced demand for electricity (particularly from commercial and industrial customers), (e) increased late or uncollectible customer payments, (f) negative impacts on the health of our workforce, (g) a deterioration of our ability to ensure business continuity (including increased vulnerability to cyber and other information technology risks as a result of a significant portion of our workforce continuing to work from home), and (h) the inability of the Company's contractors, suppliers, and other business partners to fulfill their contractual obligations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly connects communicable-disease outbreaks to business/operational disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lists multiple, specific impact channels (demand drop, regulatory changes, workforce health, remote-work cyber risk, supply-chain failure).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Forward-looking without quantified magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Highly detailed enumeration of pandemic transmission paths strengthens severity, but lack of quantified data keeps the medium-term score at 5."
+            },
+            {
+                "snippet": "pandemics and epidemics (including the impacts thereto, or recovery therefrom), natural disasters, wars, sabotage, terrorist acts, embargoes and other catastrophic events;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges pandemics/epidemics as volatility drivers in commodity markets.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Presented in a broad catch-all list, no depth or specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic list mention offers minimal incremental insight; Time Decay caps the value at a low score of 1."
+            }
+        ],
+        "calculated_score": 15,
+        "average_severity": 3.75
+    }
+]

@@ -1,0 +1,206 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Philip Morris International’s 2023 Form 10-K places the COVID-19 pandemic squarely among its most significant contemporary risk drivers.  Nearly three years after the WHO declared the pandemic, the filing (dated 10 Feb 2023) still frames COVID-19 as an ongoing, material threat rather than a fully historical event.  The company links the pandemic to concrete and prospective impacts: (i) actual operational disruptions (factory, store and office closures; travel and distribution restrictions); (ii) supply-chain fragility, especially shortages of key electronic-device components sourced from single or limited suppliers; (iii) potential demand shifts away from mid- and premium-price brands; and (iv) doubts about the adequacy of existing business-continuity plans.  These statements are mostly forward-looking but anchored in real experience accrued since 2020, and several use strong qualifiers such as “materially adversely impacted.”  Because the filing date falls inside the 0-3-year “recent event” window, Time-Decay allows high severity scores.  However, some snippets carry partial mitigation (e.g., the company notes it has so far secured adequate component supply), which tempers individual scores.  Overall, the extracted evidence paints a picture of a live, multi-faceted risk with direct operational and financial implications that remain unresolved, warranting high—but not maximum—severity ratings across the cited sentences.",
+        "evidence_list": [
+            {
+                "snippet": "Our business, results of operations, cash flows and financial position may be materially adversely impacted by an epidemic, endemic or pandemic, such as COVID-19.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 explicitly as a risk factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers four core areas of impact (business, operations, cash flows, financial position) indicating breadth of exposure.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong language 'materially adversely impacted'.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Directly links COVID-19 to potentially material, enterprise-wide harm; clear, recent, but still largely prospective."
+            },
+            {
+                "snippet": "The outbreak of the global COVID-19 pandemic in 2020 has created significant societal and economic disruption, and resulted in the closures of stores, factories and offices, and restrictions on manufacturing, distribution and travel, all of which have and may continue to adversely impact our business, results of operations, cash flows and financial position.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes concrete, already-experienced impacts (closures, restrictions).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Specifies multiple disruption channels: manufacturing, distribution, travel.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States impacts 'have and may continue'—ties past reality to future risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Covers broad financial dimensions.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Provides specific historical evidence of disruption plus ongoing risk, warranting a very high severity score."
+            },
+            {
+                "snippet": "Our business continuity plans and other safeguards may not be effective to mitigate the ongoing or potential impact of COVID-19 or other epidemics, endemics, or pandemics.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights possible ineffectiveness of mitigation controls (aggravating).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasises 'ongoing' COVID-19 impact—current threat.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Mentions broader epidemic context, showing systemic vulnerability.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking uncertainty (no quantified loss).",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Shows preparedness gap for present pandemic risk, elevating severity despite lack of exact figures."
+            },
+            {
+                "snippet": "While we have been successful in maintaining adequate supply of such components and materials during the ongoing COVID-19 pandemic so far, the COVID-19 pandemic, or another epidemic, endemic or pandemic, may disrupt that supply, whether through regulatory enforced actions taken to contain its spread, or through other supply chain disruptions caused by such epidemic, endemic or pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links pandemic to potential future supply-chain disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details causal mechanisms (regulatory actions, broader disruptions).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Partial mitigation acknowledged ('successful so far').",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Covers critical components for RRP devices—strategic relevance.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Supply-chain threat is specific and strategic; mitigation note lowers but does not neutralize risk."
+            },
+            {
+                "snippet": "The significant adverse effect of an epidemic, endemic or pandemic on the economic or political conditions in markets in which we operate could result in changes to the preferences of our adult consumers and lower demand for our products, particularly for our mid-price or premium-price brands.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemics to demand destruction via consumer preference shifts.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Targets higher-margin product tiers—profitability implication.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional language ('could'), indicating potential not certainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Highlights revenue-side risk, but phrased hypothetically, yielding a moderate-high score."
+            },
+            {
+                "snippet": "The impact of this lower predictability on our projected results for a specific period may be significant, particularly during the COVID-19 pandemic as a result of unpredictability due to shortage of key components in our supply chain, or due to geopolitical or macroeconomic events that negatively impact RRP availability or adoption, which in turn may have a material adverse effect on our results of operation.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies shortage of key components—supply-chain pressure.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Ties unpredictability directly to COVID-19 timeframe.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States potential 'material adverse effect' on results.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking ('may be significant') lowers certainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Combines operational and financial risk with pandemic driver; clear severity despite conditional phrasing."
+            },
+            {
+                "snippet": "As with other agricultural commodities, the price of tobacco leaf and cloves can be influenced by imbalances in supply and demand and the impacts of natural disasters and pandemics such as COVID-19.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to cost volatility in key raw materials.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact expressed as price influence, not yet quantified.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic wording; pandemics listed among multiple factors.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Acknowledges pandemic as one driver of commodity-price risk, but generic and less immediate—moderate score."
+            },
+            {
+                "snippet": "Natural disasters, extreme weather events, pandemics, economic, political, regulatory, acts of war or threats of war, or other developments could disrupt or increase the expenses related to our supply chain, manufacturing capabilities, distribution capabilities, or the energy and other utility services required to operate our factories, warehouses, and other premises.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists pandemics among factors disrupting critical operations and costs.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights multiple operational areas (supply chain, manufacturing, energy).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Broad catch-all phrasing dilutes specificity.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Captures operational exposure but treats pandemic as one of many generic hazards, limiting severity."
+            }
+        ],
+        "calculated_score": 53,
+        "average_severity": 6.625
+    }
+]

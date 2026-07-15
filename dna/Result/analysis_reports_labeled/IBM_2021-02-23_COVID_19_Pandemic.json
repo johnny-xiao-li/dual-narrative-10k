@@ -1,0 +1,230 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "IBM’s 2021 Form 10-K repeatedly ties the ongoing COVID-19 pandemic (declared March 11 2020) to material business risks across demand, operations, supply chain, service delivery, liquidity, currency exposure, accounting estimates and cybersecurity. The disclosures are largely forward-looking (“could,” “may”) yet they also acknowledge realized disruption (“has created significant volatility, uncertainty and economic disruption”), signalling that the threat is already manifesting. While no dollar amounts are provided, the language pinpoints multiple core value drivers—revenue, profit, transaction execution and remote-work security—indicating a broad, enterprise-level exposure. Because the filing date (23 Feb 2021) is well within three years of the pandemic’s onset, the Time Decay Principle permits elevated scores, though absence of quantification and the presence of conditional wording temper the severity. Overall, the risk evidence is recent, multi-faceted and significant but remains mostly qualitative, justifying mid-to-high individual sentence scores in the 3-6 range rather than the absolute maximum.",
+        "evidence_list": [
+            {
+                "snippet": "If overall demand for IBM’s products and solutions decreases, whether due to general economic conditions, including those associated with the COVID-19 pandemic, or a shift in client buying patterns, the company’s revenue and profit could be impacted.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links demand risk to the COVID-19 pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies potential impact on key financial metrics (revenue and profit).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional wording (‘could’) and lack of quantification reduce certainty.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Direct tie to COVID-19 and core financial metrics, but qualitatively stated, yields a moderate score of 3."
+            },
+            {
+                "snippet": "Further, general economic conditions, including sudden shifts in regional or global economic activity such as those associated with the COVID-19 pandemic may impact the company’s financial results in any particular period.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Names COVID-19 driven economic shifts as a trigger.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects to ‘financial results’ impact, an enterprise-level concern.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Speculative language (‘may’) and no scale or magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Broad but direct risk linkage without quantification produces a score of 3."
+            },
+            {
+                "snippet": "In addition, any widespread outbreak of an illness, pandemic or other local or global health issue, natural disasters, climate change impacts, or uncertain political climates, international hostilities, or any terrorist activities, could adversely affect customer demand, the company’s operations and supply chain, and its ability to source and deliver products and services to its customers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights pandemic as one of several triggers that can hit demand, operations and supply chain.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies multiple operational vectors (demand, supply chain, sourcing).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "COVID-19 blended with other hazards dilutes specificity; no quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Covers critical operational impacts but is generic and grouped with other risks, yielding 3."
+            },
+            {
+                "snippet": "For example, on March 11, 2020, the World Health Organization (WHO) declared the novel coronavirus (COVID-19) a global pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides date-certain recognition of the pandemic event.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Historical statement; does not itself assert financial or operational impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Purely factual background with no risk articulation results in a neutral score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has created significant volatility, uncertainty and economic disruption.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Affirms that COVID-19 has already caused volatility and disruption (realized impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong, non-speculative wording (‘has created significant’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks quantification or direct dollar effect.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Acknowledges actual, systemic disruption but without numbers; scored at 4."
+            },
+            {
+                "snippet": "Additionally, clients’ short-term priorities, as well as quarantines, limitations on travel and other factors associated with the COVID-19 pandemic may result in delays in some services projects.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites specific pandemic-related factors (quarantines, travel limits).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Identifies concrete operational consequence (delays in service projects).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Potential, unquantified impact (‘may result’).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Operational delay risk tied to pandemic specifics but still conditional; score is 3."
+            },
+            {
+                "snippet": "There are numerous and evolving risks to cybersecurity and privacy, including ... as well as the risks associated with an increase in the number of customers, contractors, business partners, vendors, employees and other third parties working remotely as a result of the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links remote-work cybersecurity exposure to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Addresses a critical, high-impact risk category (cybersecurity).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No quantification, phrased as inclusion within broader list.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "High-impact domain (security) with COVID-specific driver, offset by qualitative framing; score 4."
+            },
+            {
+                "snippet": "The company derives a significant percentage of its revenues and costs from its affiliates operating in local currency environments, and those results are affected by changes in the relative values of non-U.S. currencies and the U.S. dollar, as well as sudden shifts in regional or global economic activity such as those associated with the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic-related economic shocks to currency impacts on revenues and costs.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Touches on financial exposure (revenues, costs).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Framed as possibility without magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Currency-related financial risk tied to COVID-19 but qualitative; score 3."
+            },
+            {
+                "snippet": "The company’s financial performance is exposed to a wide variety of industry sector dynamics worldwide, including sudden shifts in regional or global economic activity such as those associated with the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references pandemic-linked economic shifts as a driver of exposure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Applies to overall financial performance (broad scope).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No detail on scale or likelihood.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Company-wide financial exposure noted but not quantified; moderate score of 3."
+            },
+            {
+                "snippet": "The application of accounting principles generally accepted in the U.S. (GAAP) requires the company to make estimates and assumptions about certain items and future events that directly affect its reported financial condition, including considering financial implications of the macroeconomic impacts of the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly states pandemic affects key accounting estimates.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Potentially influences reported financial condition.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indirect, methodological impact; no explicit loss or magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows COVID-19 permeates financial reporting assumptions, but impact is indirect; score is 3."
+            }
+        ],
+        "calculated_score": 29,
+        "average_severity": 2.9
+    }
+]

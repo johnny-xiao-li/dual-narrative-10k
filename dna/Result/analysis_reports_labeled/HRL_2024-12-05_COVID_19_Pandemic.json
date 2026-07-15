@@ -1,0 +1,84 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "HRL’s 2024 filing treats COVID-19 primarily as an ongoing, forward-looking threat rather than describing specific historical damage.  The company explicitly links a potential or recurring pandemic to broad operational and financial exposures—global economy deterioration, demand shocks, supply-chain breakdowns and workforce shortages—which mirror the classic COVID-19 risk profile.  However, the language is mostly conditional (“may”, “could”), suggesting recognition of persistent vulnerability rather than reporting of realised losses.  The disclosure also outlines mitigation via contingency planning, but immediately tempers this with a caveat that such plans may prove ineffective, leaving residual uncertainty.  Under the Time Decay Principle, COVID-19 falls in the medium-term window (~4.5 years since March 2020), so individual snippet scores should sit in the moderate range (≈4-6) when aggravating elements dominate and be pulled lower where strong mitigating language appears.  Overall, the evidence indicates a material yet unquantified and somewhat speculative risk, landing at a moderate severity level for each core statement.",
+        "evidence_list": [
+            {
+                "snippet": "If a highly pathogenic human disease outbreak developed, such as COVID-19, it may negatively impact the global economy, demand for Company products, the supply chain, the Company’s co-manufacturers, and/or the Company’s workforce availability including leadership, and the Company’s financial results could suffer.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references COVID-19, tying the risk directly to the pandemic event.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Enumerates multiple critical impact channels (economy, demand, supply chain, workforce).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights financial materiality ('financial results could suffer').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Uses conditional language ('may'), signalling uncertainty and lowering immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Directly links COVID-19 to numerous operational and financial harms but speaks in conditional terms, yielding a solid yet moderate score of 5 within the medium-term time-decay band."
+            },
+            {
+                "snippet": "The Company has developed contingency plans to address infectious disease scenarios and the potential impact on its operations and will continue to update these plans, as necessary.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges ongoing infectious-disease risk, maintaining relevance to COVID-19 context.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "States existence of contingency plans, a clear mitigating measure.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Commits to continuous updates, further mitigating potential severity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "While relevant to the pandemic theme, the sentence is dominated by mitigation language, fully offsetting aggravating factors and resulting in a neutral risk score."
+            },
+            {
+                "snippet": "There can be no assurance given, however, that these plans will be effective in eliminating the negative effects of any such diseases on the Company’s operating results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Expresses strong uncertainty ('no assurance') about mitigation effectiveness.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Re-emphasises potential negative effects on operating results—financial materiality.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Keeps the infectious-disease/COVID-19 risk salient despite mitigation efforts.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "By undercutting the effectiveness of contingency plans and stressing possible financial harm, the sentence restores a moderate level of residual risk, warranting a score of 5."
+            }
+        ],
+        "calculated_score": 10,
+        "average_severity": 3.3333333333333335
+    }
+]

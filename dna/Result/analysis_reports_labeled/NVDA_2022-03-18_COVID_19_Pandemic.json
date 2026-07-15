@@ -1,0 +1,348 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "NVIDIA’s 2022 Form 10-K contains an extensive, largely forward-looking discussion of COVID-19-related risks.  Because the filing date (18-Mar-2022) is well within three years of the World Health Organization’s March-2020 declaration, the Time Decay Principle permits high severity scores.  The document repeatedly states that the pandemic is still \"continuing,\" that it already affects operations, supply chains, workforce practices and demand visibility, and that the ultimate financial impact remains uncertain but could be “materially adverse.”  The risk narrative mixes clearly aggravating factors—limited foundry capacity, logistical bottlenecks, incremental reopening costs, and possible long-term demand shifts—with a few mitigating observations such as temporarily elevated product demand and management’s adaptive measures (remote work, modified practices).  Because the language is mostly specific (e.g., references to capacity shortages, incremental expenses, and inability to forecast demand) and expressly links the pandemic to potential material harm, the overall risk posture is high.  Statements that the demand surge may be unsustainable and that supply-chain disruptions could impair liquidity elevate the severity to the upper-medium / lower-high band (6-8 range).  Mitigating disclosures—actions already taken and positive short-term demand—temper, but do not neutralise, the risk.  Accordingly, the individual snippet scores cluster between 1 and 8, with the strongest evidence (direct, quantified or “material” wording tied to supply-chain or financial impairment) receiving the highest values.",
+        "evidence_list": [
+            {
+                "snippet": "Consumer and enterprise behavior during the COVID-19 pandemic, such as increased demand for our Gaming, Data Center, and workstation products, has made it more difficult for us to estimate future demand.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 directly to difficulty forecasting demand (uncertainty is an aggravating factor).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes increased demand, a short-term positive that partially offsets risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Forecasting uncertainty raises risk, but the sentence also highlights a beneficial demand surge, yielding a low net severity score of 1."
+            },
+            {
+                "snippet": "The COVID-19 pandemic continues to impact our business and could materially adversely affect our financial condition and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States the impact is ongoing ('continues to impact').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong, ‘materially adversely affect’ language pointing to significant financial harm.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Event is recent (0-3 yrs), allowing higher weighting under Time Decay.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct, present-tense impact plus ‘material’ wording for a recent event drives a high risk score of 7."
+            },
+            {
+                "snippet": "COVID-19 has impacted, and continues to impact, our workforce and operations and those of our customers, partners, vendors and suppliers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites ongoing impact on internal workforce and operations.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Extends impact to external stakeholders (customers, suppliers), broadening the risk surface.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Present-tense 'continues to impact' signals current exposure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Broader operational scope of impact yields a solid medium-high score of 5."
+            },
+            {
+                "snippet": "As the COVID-19 pandemic continues to evolve, the increased duration and impact of economic and demand uncertainty, and the limited availability of our supply chain and logistical services, may have a material net negative impact on our business and financial results.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights limited supply-chain and logistics availability (critical operational risk).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Predicts a 'material net negative impact'—strong adverse language.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasises continuing evolution and uncertainty.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Recency still within 0-3 yr window.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Direct reference to supply-chain shortages plus ‘material’ impact justifies a high score of 8."
+            },
+            {
+                "snippet": "While COVID-19 has driven an increase in sales for certain of our products, the demand may not be sustainable if conditions change.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns that current demand boost may be unsustainable—future revenue risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges present sales benefit as mitigating.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Unsustainable demand is a risk, but the sentence is partly mitigating, so the score is kept low at 1."
+            },
+            {
+                "snippet": "COVID-19 containment around the world has put restrictions on, among other areas, manufacturing facilities, commerce, and support operations could limit our capacity to meet customer demand.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies concrete operational bottlenecks (manufacturing, commerce, support).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States the restrictions could limit capacity to meet demand.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Describes current (‘has put’) restrictions, indicating ongoing exposure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Specific capacity limitations raise supply-chain risk, yielding a score of 6."
+            },
+            {
+                "snippet": "COVID-19’s effect on the global economy and our business is difficult to assess or predict.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights unpredictability and measurement difficulty (adds uncertainty).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks concrete impact detail, moderating severity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Uncertainty is noted but without quantified impact; score set at 3."
+            },
+            {
+                "snippet": "It has resulted in, and may continue to result in, disruption of global financial markets, which could negatively affect our stock price and liquidity.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to ongoing financial-market disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies downstream effects on stock price and liquidity—financial risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking ('may continue') expands duration of risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Potential hit to liquidity and equity valuation places this at a mid-level risk score of 5."
+            },
+            {
+                "snippet": "We have modified our business and workforce practices in response to COVID-19, and we may take further actions as required by government regulations or in the best interests of our employees, customers, partners and suppliers.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates operational changes required due to pandemic.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Describes proactive mitigation measures, which reduce net risk.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Operational changes are noted, but simultaneous mitigation balances the risk, resulting in a neutral score."
+            },
+            {
+                "snippet": "There is no certainty that our actions will be sufficient to mitigate the risks posed by the disease, and our ability to perform critical functions could be harmed.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits mitigation may be inadequate (elevates residual risk).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights potential harm to ‘critical functions,’ implying severe operational impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Expresses uncertainty explicitly.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Acknowledged insufficiency of mitigations and threat to critical functions drive a score of 6."
+            },
+            {
+                "snippet": "When we begin to reopen our offices, we expect to incur incremental expenses as we resume onsite services and related in-office costs.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forecasts higher costs tied to pandemic recovery phase.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Incremental reopening costs present a modest financial burden, reflected in a score of 2."
+            },
+            {
+                "snippet": "The extent of the impact of the COVID-19 pandemic on our operational and financial performance and our ability to timely execute our business strategies may continue to be difficult to measure and predict.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Signals ongoing difficulty measuring operational and financial effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Adds uncertainty around strategic execution timelines.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Strategic-execution uncertainty elevates risk moderately to a score of 4."
+            },
+            {
+                "snippet": "An extended period of global supply chain and economic disruption as a result of the COVID-19 pandemic could have a material negative impact on our business, results of operations, and access to sources of liquidity and financial condition, though the full extent and duration of these impacts is uncertain.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies supply-chain and economic disruption as prolonged scenario.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses ‘material negative impact’ language across multiple financial dimensions.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Notes uncertainty of extent/duration, adding risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Long-duration supply-chain disruption with ‘material’ wording warrants a high score of 7."
+            },
+            {
+                "snippet": "Additionally, consumer and enterprise behavior during the COVID-19 pandemic has made it more difficult for us to estimate future demand and may have changed pre-pandemic behaviors, and these challenges may be more pronounced or volatile in the future on both a global and regional basis.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Difficulty estimating future demand increases planning risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Anticipates future volatility in behaviours globally and regionally.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Demand-forecasting and behavioural volatility risks merit a mid-range score of 4."
+            },
+            {
+                "snippet": "Most of our employees continue to work remotely and we have paused most business travel.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates ongoing alteration of workforce practices, potentially affecting productivity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Remote-work status signals operational adjustment but without quantified impact; score set at 1."
+            },
+            {
+                "snippet": "During fiscal year 2022, our Gaming, Data Center and Professional Visualization market platforms have benefited from stronger demand as people continue to work, learn, and play from home.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes positive demand effects, which mitigate rather than aggravate risk.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Indicates linkage to pandemic-driven behaviour, offering context but not risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Because the sentence emphasises beneficial effects, no net pandemic risk score is assigned."
+            },
+            {
+                "snippet": "As the COVID-19 pandemic continues, the timing and overall demand from customers, the availability of supply chain, logistical services and component supply, and the impact of rising inflation may have a material net negative impact on our business and financial results.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links continuing pandemic to demand timing uncertainty and supply-chain availability.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forecasts ‘material net negative impact’ on business and financial results.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Mentions multiple macro pressures (inflation) compounding pandemic risk.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Compound effects (demand, supply chain, inflation) under continuing pandemic conditions drive a score of 6."
+            }
+        ],
+        "calculated_score": 66,
+        "average_severity": 3.8823529411764706
+    }
+]

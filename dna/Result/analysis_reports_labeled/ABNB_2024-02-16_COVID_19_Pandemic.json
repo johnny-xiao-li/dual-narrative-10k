@@ -1,0 +1,68 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Airbnb’s 2024 Form 10-K positions the COVID-19 pandemic as an ongoing, medium-term risk that still meaningfully threatens demand, operations and the regulatory environment but no longer dominates the short-term outlook as it did in 2020-2022.  All references are forward-looking: management warns that future public-health crises—explicitly citing COVID-19—could suddenly depress travel demand, reduce listings, create cash-flow pressure and trigger new, restrictive laws.  The language is largely qualitative and speaks to potential material adverse effects (“would be materially adversely affected”) rather than disclosing fresh quantified impacts, reflecting that the acute phase has passed but uncertainty remains.  Because the filing date (Feb 2024) is just under four years from the WHO pandemic declaration, the Time Decay Principle places these disclosures in the 4-10-year ‘medium-term’ window, capping individual snippet scores around 4-6.  The sentences below collectively show (1) demand risk, (2) industry-wide travel disruption risk specifically naming COVID-19, and (3) continuing regulatory uncertainty stemming from pandemic-driven rules.  No meaningful mitigating factors (e.g., vaccinations, diversified geographies) are offered in these sentences.  Therefore each excerpt earns a moderate severity score, reflecting persistent but no longer acute exposure.",
+        "evidence_list": [
+            {
+                "snippet": "A softening of demand, whether caused by events outside of our control, challenging macroeconomic and political conditions, changes in Host and guest preferences, public health crises such as pandemics, and any of the other factors described above, in this Annual Report on Form 10-K, or otherwise, may result in decreased revenue and our business, results of operations, and financial condition would be materially adversely affected.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemics to a direct decline in demand and revenue.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong \"materially adversely affected\" language indicating severity.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Identifies pandemics as a specific cause of revenue decline with explicit materiality language, warranting a medium-term risk score of 5."
+            },
+            {
+                "snippet": "Events beyond our control, such as ... travel-related health concerns including pandemics and epidemics such as Ebola, Zika, Middle East Respiratory Syndrome, and COVID-19, ... can disrupt travel globally or otherwise result in declines in travel demand.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites COVID-19 and global travel disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes direct impact on travel demand, Airbnb’s core business driver.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Names COVID-19 directly and ties it to global demand shocks, justifying a moderate severity score of 5."
+            },
+            {
+                "snippet": "We are a global platform with Hosts in more than 220 countries and regions ... subject to unexpected, restrictive, differing, and conflicting laws and regulations, including those ... (including those implemented in response to the COVID-19 pandemic).",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights regulatory risks that specifically arose from the pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Forward-looking emphasis on unpredictability of these rules adds moderate concern.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows ongoing regulatory uncertainty linked to COVID-19 measures; less immediate than demand impacts, so scored at 4."
+            }
+        ],
+        "calculated_score": 14,
+        "average_severity": 4.666666666666667
+    }
+]

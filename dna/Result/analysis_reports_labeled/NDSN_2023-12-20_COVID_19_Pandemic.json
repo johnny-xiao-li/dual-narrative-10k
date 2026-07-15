@@ -1,0 +1,98 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Nordson’s 2023 Form 10-K still acknowledges the COVID-19 pandemic as a live source of risk even though the initial outbreak is nearly four years old.  Management concedes that the pandemic has already produced adverse macro-economic effects (volatility in financial markets) and continues to be grouped with other disruptive geopolitical events.  At the company level, the filing frames pandemic exposure primarily as an operational threat: possible shutdowns of facilities, supply-chain interruptions, distribution bottlenecks and demand shocks.  The language is largely qualitative and forward-looking (frequent use of “may”), and it lacks any quantified, company-specific loss data, suggesting the impact has been manageable to date.  Nevertheless, because the pandemic remains within the recent 0-to-4-year window and is tied to critical functions such as supply continuity and production, the overall risk is best characterised as moderate-high under the Time Decay principle.",
+        "evidence_list": [
+            {
+                "snippet": "The COVID-19 pandemic and related preventative and mitigation measures implemented by governments around the world and the conflicts in Europe and the Middle East have to date negatively impacted the global economy and created significant volatility and disruption of financial markets.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Direct reference to the COVID-19 pandemic as a causal factor.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States that impacts have already occurred ('have to date negatively impacted'), indicating realised rather than hypothetical risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses strong severity language ('significant volatility and disruption').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact framed at macro-economic level, not company-specific or quantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Scores 6/10 because it establishes a direct, realised link between the pandemic and adverse conditions, but stops short of quantifying a company-specific hit."
+            },
+            {
+                "snippet": "In addition, our facilities, supply chains, distribution systems and products may be impacted by natural or man-made disruptions, including armed conflict, demand surges, damaging weather or other acts of nature (including weather or other acts of nature caused by climate change), pandemics or other public health crises.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics as a cause that could affect multiple operational areas (facilities, supply chain, distribution, products).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates breadth of impact across several critical functions, increasing potential severity.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Forward-looking qualifier ('may be impacted') shows risk is hypothetical, not yet realised.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Presented in a broad catch-all list alongside other hazards, signalling generic disclosure.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Scores 3/10: identifies concrete operational vulnerabilities tied to pandemics but remains generic and conditional."
+            },
+            {
+                "snippet": "A shutdown of, or inability to utilize, one or more of our facilities, our supply chain, or our distribution system could significantly disrupt our operations, delay production and shipments, impact our relationships and reputation with customers, suppliers, employees and others, result in lost or decreased sales, or result in legal exposure and large remediation or other expenses, which could adversely affect our business, financial condition, results of operations and cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Details severe potential consequences (lost sales, legal exposure, operational disruption) of a shutdown scenario that can stem from a pandemic event referenced in the prior sentence.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Absence of an explicit pandemic reference in this standalone sentence lowers directness.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Scores 1/10 because, while it lays out serious effects, it only implicitly ties them to the pandemic context."
+            },
+            {
+                "snippet": "These risks and uncertainties include, but are not limited to, U.S. and international economic conditions; financial and market conditions; currency exchange rates and devaluations; possible acquisitions including the Company’s ability to complete and successfully integrate acquisitions, including the integration of the ARAG Group and CyberOptics; the Company’s ability to successfully divest or dispose of businesses that are deemed not to fit with its strategic plan; the effects of changes in U.S. trade policy and trade agreements; the effects of changes in tax law; and the possible effects of events beyond our control, such as political unrest, including the conflicts in Europe and the Middle East, acts of terror, natural disasters and pandemics.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions pandemics within a broader forward-looking cautionary list.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic safe-harbor sentence that merely names pandemics among many external risks; minimal evidentiary weight, hence 1/10."
+            }
+        ],
+        "calculated_score": 11,
+        "average_severity": 2.75
+    }
+]

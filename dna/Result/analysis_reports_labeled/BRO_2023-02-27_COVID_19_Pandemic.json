@@ -1,0 +1,244 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Brown & Brown’s 2023 Form 10-K frames COVID-19 as an ongoing, enterprise-wide threat whose ramifications extend beyond the initial health crisis into credit markets, customer solvency, liquidity, workforce practices, and even the firm’s culture.  The disclosure is forward-looking but anchored in past experience—management states the pandemic has already caused “significant volatility, uncertainty and economic disruption,” yet stresses that future developments remain unpredictable.  Language such as “may materially and adversely affect” and “could magnify many of our risk factors” signals a potentially severe impact across revenue, cash-flows, and capital access.  No dollar amounts are provided, so the risk is not quantified, but it is described as broad, systemic, and capable of lingering even after the pandemic subsides.  Given the filing date (February 2023) falls within three years of the declared pandemic, the Time Decay Principle allows high severity scores; however, the lack of concrete financial figures and the conditional wording temper the ratings slightly.  Overall, the company acknowledges a high-level, multifaceted risk that is both current and prospective, warranting elevated—though not maximum—scores for the strongest statements and moderate scores for ancillary or heavily qualified remarks.",
+        "evidence_list": [
+            {
+                "snippet": "THE COVID-19 PANDEMIC, AS WELL AS FUTURE PANDEMICS, EPIDEMICS OR OUTBREAKS OF INFECTIOUS DISEASE, AND THE RESULTING GOVERNMENTAL AND SOCIETAL RESPONSES MAY MATERIALLY AND ADVERSELY AFFECT THE COMPANY’S BUSINESS, LIQUIDITY, CUSTOMERS, INSURANCE CARRIERS AND THIRD PARTIES.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly references COVID-19 and future pandemics, establishing direct linkage to the risk event.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong severity wording: 'may materially and adversely affect'.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates multiple critical domains (business, liquidity, customers, carriers, third parties), indicating breadth of impact.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking and unquantified, which slightly reduces immediacy.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct headline tying COVID-19 to broad, material harm across the enterprise merits a high score despite lack of quantification."
+            },
+            {
+                "snippet": "The COVID-19 pandemic created significant volatility, uncertainty and economic disruption, which could further adversely affect our business and may materially and adversely affect our financial condition, results of operations and cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges actual past impact ('created significant volatility, uncertainty and economic disruption').",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Projects continued material adverse effects on financial condition and cash flows.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No specific monetary amount disclosed.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Combines evidence of realized disruption with warnings of further material harm, earning a strong score."
+            },
+            {
+                "snippet": "The extent to which COVID-19 impacts our business will depend on future developments, which are highly uncertain and cannot be predicted with confidence.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits ongoing exposure and dependency on future pandemic developments.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Heavy emphasis on uncertainty and inability to predict, lowering specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Flags uncertainty but offers no concrete severity or scope, so the score is low."
+            },
+            {
+                "snippet": "In addition, if COVID-19 creates disruptions or turmoil in the credit or financial markets in the future, or impacts our credit ratings, it could adversely affect our ability to access capital on favorable terms and continue to meet our liquidity needs, all of which are highly uncertain and cannot be predicted.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies specific channel of risk—capital access and liquidity.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States potential adverse effect on financing terms.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional language and uncertainty disclaimer.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights a concrete financial risk pathway (capital markets), yielding a moderate score."
+            },
+            {
+                "snippet": "We cannot predict the impact that COVID-19, or future pandemics, epidemics or outbreaks of infectious disease, will have in the future on our customers, insurance carriers, suppliers and other third-party contractors, and each of their financial conditions; however, any material effect on these parties could adversely impact us.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic effects on counterparties directly to the company’s own risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates potential adverse impact to the company.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Emphasizes unpredictability and lack of foresight.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Shows second-order risk via counterparties but is heavily qualified, so the score is moderate."
+            },
+            {
+                "snippet": "Even after a pandemic, epidemic or outbreak of infectious disease has subsided, we may experience materially adverse impacts to our business as a result of the global economic impact of these events.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Warns of lingering, post-event adverse impacts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses 'materially adverse' to denote severity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional ('may') and unquantified.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Signals persistent downside risk but lacks precision, yielding a mid-level score."
+            },
+            {
+                "snippet": "Further, these events may affect our operating and financial results in a manner that is not presently known to us or that we currently do not consider as presenting significant risks to our operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges possibility of unknown future impacts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Downplays current significance and offers no specifics.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "States uncertainty without detailing severity, so only a minimal score is assigned."
+            },
+            {
+                "snippet": "These and other disruptions related to pandemics, epidemics or outbreaks of infectious disease could materially and adversely affect our business, financial condition, results of operations and cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicit statement of material adverse effect across key financial metrics.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Broad scope (business, financial condition, results, cash flows).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks quantification or timing details.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Strong generic warning across financial dimensions warrants an above-average score."
+            },
+            {
+                "snippet": "Further, the potential effects pandemics, epidemics or outbreaks of infectious disease also could impact and, in some cases, magnify many of our risk factors described in this Annual Report on Form 10-K.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes amplification of existing risk factors, implying systemic amplification.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional phrasing without specifics.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Highlights compounding risk but remains abstract; score is low."
+            },
+            {
+                "snippet": "Additionally, any potential effects of pandemics, epidemics or outbreaks of infectious disease may lag behind the developments related to such events.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces timing risk—delayed financial impacts.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic, conditional statement with no severity detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Identifies lag risk but is vague and unquantified, leading to a minimal score."
+            },
+            {
+                "snippet": "Remote and hybrid work arrangements as a result of the COVID-19 pandemic may also negatively impact our ability to maintain our culture.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links pandemic to operational change (remote/hybrid work).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Specifies negative impact on corporate culture, a strategic asset.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional and non-financial, reducing overall gravity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Captures a softer, people-centric risk related to COVID-19; important but less severe financially."
+            }
+        ],
+        "calculated_score": 34,
+        "average_severity": 3.090909090909091
+    }
+]

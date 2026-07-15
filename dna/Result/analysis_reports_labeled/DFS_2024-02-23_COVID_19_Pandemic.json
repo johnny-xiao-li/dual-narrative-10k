@@ -1,0 +1,58 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "DFS’s 2024 Form 10-K acknowledges the global-pandemic threat only in a handful of risk-factor sentences.  Nearly four years have passed since the WHO declared COVID-19 a pandemic, so under the Time Decay Principle the hazard now sits in a medium-term window (4-10 years) where moderate rather than extreme scores are appropriate.  The disclosures are forward-looking, framed with conditional verbs such as “may” and “could,” and they remain generic—no quantified earnings impact, no specific mention of lingering supply-chain or remote-work costs.  Nonetheless, management explicitly flags pandemics alongside other catastrophic events as capable of disrupting core infrastructure and revenues, and draws a clear operational line to the Diners Club travel-dependent network, warning of an “indefinite decline” in transaction volume should new outbreaks or travel restrictions arise.  Because these statements identify a concrete business line that remains structurally exposed to future waves of infection but stop short of detailing dollar magnitudes or current losses, they warrant mid-level risk scores: material enough to monitor, yet lacking the immediacy or specificity that would push severity into the upper deciles.",
+        "evidence_list": [
+            {
+                "snippet": "Geopolitical events, natural disasters, extreme weather-related events or other catastrophic events, including terrorist attacks and pandemics, may have a negative effect on our business and infrastructure, including our information technology systems.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists pandemics as a catastrophic event that can negatively affect the company.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes broad operational exposure (business and IT infrastructure).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses conditional, generic language ('may'), indicating uncertainty and lack of specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Pandemics are identified as a potential company-wide operational threat, but the language is generic and unquantified, yielding a moderate risk score of 4 within the medium-term window."
+            },
+            {
+                "snippet": "Our Diners Club network, concentrated primarily on serving the global travel industry, could be adversely affected by a number of factors including international conditions, travel restrictions, pandemics or negative perceptions about the safety of travel that may result in an indefinite decline in consumer or business travel activity.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemics directly to a specific business line (Diners Club) and potential adverse effects.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Highlights possibility of an 'indefinite decline' in travel activity, signalling persistent revenue risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking and conditional ('could be'), no quantified impact provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "The sentence links pandemics to a core, travel-dependent revenue stream and flags potentially prolonged impact, but absence of numeric detail tempers the severity to a 5."
+            }
+        ],
+        "calculated_score": 9,
+        "average_severity": 4.5
+    }
+]

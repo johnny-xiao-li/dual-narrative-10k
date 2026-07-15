@@ -1,0 +1,77 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing acknowledges the COVID-19 pandemic primarily as an operational-continuity risk that can impair client service levels through labor shortages, remote-work complications, and interruptions at third-party vendors.  All references are backward- and forward-looking, noting both concrete impacts already felt during 2020-2021 (e.g., temporary loss of outsourced services and longer response times) and the possibility that similar public-health events could recur.  The language is qualitative – no dollar amounts are provided – but it clearly links the pandemic to measurable service degradation, placing the risk above a purely generic disclosure.  Because almost four years have elapsed since the World Health Organization’s March 2020 declaration, the Time Decay Principle classifies COVID-19 as a medium-term event; therefore individual snippet scores are capped in the 4-to-6 range.  Overall, the company presents a moderate yet tangible risk profile: the pandemic caused real operational friction, and management warns that analogous disruptions could re-emerge, especially through strained vendor relationships and workforce availability.",
+        "evidence_list": [
+            {
+                "snippet": "Certain events could increase our client service and processing times due to staffing shortages, remote work or the temporary loss of services from outsourced service providers, such as occurred during the COVID-19 pandemic.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites COVID-19 pandemic as precedent for negative operational impacts (staffing shortages, remote work, vendor loss).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes concrete effect on performance metric (longer client service and processing times).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking wording (‘could increase’) signals continuing exposure.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct pandemic reference plus specified operational harms warrant the upper end of medium-term severity (6/10)."
+            },
+            {
+                "snippet": "We temporarily lost the services from some of our outsourced service providers during the COVID-19 pandemic which contributed to increased client service response and processing times.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Discloses an actual historical loss of vendor services tied to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links the disruption to measurable client-facing impact (slower response and processing).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses past-tense; impact already realized, lowering future uncertainty.",
+                            "points": 0
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Past realized impact is material but unquantified, yielding a solid moderate score of 5."
+            },
+            {
+                "snippet": "An interruption in or the cessation of service by any external service provider as a result of systems failures, capacity constraints, financial difficulties, natural disasters, extreme weather, power outage, public health crises, political developments, war, international disputes, or for any other reason, and our inability to make alternative arrangements in a timely manner could disrupt our operations, impact our ability to offer certain products and services, and result in financial losses to us.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes ‘public health crises’—an umbrella term encompassing pandemics—as a potential cause of disruptive vendor outages.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States potential financial and operational consequences (disruption, loss).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Generic, non-specific wording; no direct mention of COVID-19 or quantified impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Generic reference to public-health crises provides only weak, forward-looking linkage, so the snippet scores a low-moderate 2."
+            }
+        ],
+        "calculated_score": 13,
+        "average_severity": 4.333333333333333
+    }
+]

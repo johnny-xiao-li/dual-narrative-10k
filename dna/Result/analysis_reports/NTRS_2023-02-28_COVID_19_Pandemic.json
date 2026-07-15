@@ -1,0 +1,94 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Northern Trust’s 2023 filing references COVID-19 almost exclusively in the Operational-Risk narrative.  The company acknowledges that the pandemic has already reshaped its operating model—most notably by forcing a sustained shift to hybrid/remote work—and that this has tangibly ‘heightened’ execution and cyber-security risk.  Management also states that the pandemic accelerated clients’ move toward digital channels, potentially obliging Northern Trust to spend more on technology.  Outside of these concrete effects, the document treats pandemics generically, noting only that they *may* harm business and operations.  There is no quantified revenue, cost or capital impact, nor any discussion of supply-chain disruption.  Because the statements point to existing operational changes (remote work, elevated risk) within three years of the event, they warrant a moderate severity score, but the lack of financial metrics and the largely generic, forward-looking wording temper the overall risk rating.",
+        "evidence_list": [
+            {
+                "snippet": "Also, like many large enterprises, in response to the COVID-19 pandemic in recent years, a significant portion of our workforce has shifted to a hybrid work environment that includes a combination of in-office and remote work.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly links operational change to the COVID-19 pandemic (‘in response to the COVID-19 pandemic’).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Describes a concrete, already-implemented change (shift to hybrid work).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates the change is continuing (‘in recent years’), signalling sustained impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Scores high because it ties an existing, specific operational change to the recent pandemic, showing real impact without mitigation."
+            },
+            {
+                "snippet": "Further, remote working and other modified business practices initiated in response to the COVID-19 pandemic, combined with the increasing sophistication and frequency of potential cyber incidents, have heightened our operational and execution risk.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly attributes heightened risk to COVID-19-driven changes.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "States a clear aggravating effect: ‘heightened operational and execution risk’.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No quantitative detail or financial magnitude is provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Provides a strong link between the pandemic and increased risk, but lack of quantification slightly tempers severity."
+            },
+            {
+                "snippet": "In some cases, the COVID-19 pandemic has accelerated the transition from traditional to digital financial services and heightened customer expectations in this area, and this transition may require us to invest greater resources in technological advancements.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects COVID-19 to a structural shift in client demand and service delivery.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights possible need for increased investment (resource burden).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Impact is framed as potential (‘may require’), not yet realised.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows forward-looking cost pressure tied to the pandemic but remains conditional, keeping score moderate."
+            },
+            {
+                "snippet": "Pandemics, natural disasters, global climate change, acts of terrorism, geopolitical tensions, and global conflicts may have a negative impact on our business and operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes pandemics as an acknowledged risk factor.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Very generic, bundled with multiple unrelated risks, using ‘may’ (speculative).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic boiler-plate acknowledgement; minimal detail or immediacy yields a low score."
+            }
+        ],
+        "calculated_score": 16,
+        "average_severity": 4.0
+    }
+]

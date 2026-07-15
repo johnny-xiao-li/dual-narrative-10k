@@ -1,0 +1,94 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "CAG’s July 2024 Form 10-K retains several references to pandemic-driven risks, reflecting both realized impacts from COVID-19 since 2020 and the prospect of future disruption.  The narrative is largely generic—‘pandemics, epidemics, and disease’ are grouped with other macro headwinds—but it still links outbreaks to supply-chain breakdowns, labor shortages, commodity volatility, and impaired manufacturing or sales.  One sentence explicitly states that pandemics have *already* harmed results, signalling that COVID-19 effects were felt across the 2020-23 period.  Most other passages are forward-looking, outlining how another wave could hamper third-party partners or the company’s ability to make and move product.  Because the filing date is four-plus years after the pandemic’s declared onset, the Time-Decay Principle tempers severity from ‘acute’ to ‘moderate’; no quantified dollar figures or detailed contingency plans are given.  Overall, I assess pandemic risk disclosure as medium in intensity—material enough to merit attention but expressed in broad, catch-all language without fresh metrics—supporting snippet scores in the 1-5 range.",
+        "evidence_list": [
+            {
+                "snippet": "Our business and results of operations have in the past been and may continue to be adversely affected by changes in national or global economic conditions, including inflation, rising interest rates, decreased availability of capital, volatility in financial markets, declining consumer spending rates, recessions, decreased energy availability and increased energy costs (including fuel surcharges), supply chain challenges, labor shortages, the effects of governmental initiatives to manage economic conditions, geopolitical conflicts (including as discussed in the next risk factor), and the negative impacts caused by pandemics, epidemics, and disease, in humans and animals, such as the avian flu.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifically cites ‘negative impacts caused by pandemics,’ linking outbreaks to adverse effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Uses past-tense clause ‘have in the past been adversely affected,’ indicating realised COVID-19 impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Very broad, laundry-list wording reduces specificity to COVID-19.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Moderate risk evidence: shows historical harm and continuing threat from pandemics, but phrased generically."
+            },
+            {
+                "snippet": "Disruptions to our supply chain, including disruptions to our third-party manufacturing or transportation and distribution capabilities, due to labor shortages, increased labor costs, weather, including any potential effects of climate change, natural disaster, fire or explosion, terrorism, strikes, government action, geopolitical turmoil, pandemics, or other reasons beyond our control or the control of our suppliers and business partners, could impair our ability to manufacture or sell our products.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects ‘pandemics’ directly to potential supply-chain disruption.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Details concrete operational consequence: inability to manufacture or sell products.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Risk is hypothetical and bundled with many other hazards, diluting pandemic focus.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Identifies clear operational risk channel but remains speculative and highly generalized."
+            },
+            {
+                "snippet": "It is possible that events beyond our control, such as operational failures, financial failure, labor issues, cybersecurity events, pandemics, epidemics, and disease, in humans and animals, or other issues could impact our unaffiliated third parties.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions pandemics as a driver that could harm third-party partners, implicating CAG’s supply chain.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highlights indirect exposure via unaffiliated third parties, expanding risk scope.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Purely conditional statement with broad catch-all wording.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Evidence of potential pandemic impact on partners, but highly generic and contingent."
+            },
+            {
+                "snippet": "risks related to the availability and prices of commodities and other supply chain resources, including raw materials, packaging, energy, and transportation, weather conditions, health pandemics or outbreaks of disease, actual or threatened hostilities or war, or other geopolitical uncertainty;",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly lists ‘health pandemics or outbreaks of disease’ as a driver of commodity and supply-chain risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No discussion of magnitude, timing, or COVID-specific details.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Acknowledges pandemics in supply-chain/commodity context but offers no depth or quantification."
+            }
+        ],
+        "calculated_score": 8,
+        "average_severity": 2.0
+    }
+]

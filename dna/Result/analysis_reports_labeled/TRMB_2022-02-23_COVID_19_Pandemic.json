@@ -1,0 +1,440 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Trimble’s 2022 Form 10-K draws a clear, current-period connection between the COVID-19 pandemic and the company’s risk profile.  The filing confirms that COVID-19 is not merely a hypothetical threat: it has already disrupted Trimble’s supply chain, lengthened component lead-times, inflated freight and input costs, distorted revenue comparatives, and complicated labour management.  Management expects these pressures to persist in the near-term and explicitly warns of future revenue, gross-margin, backlog, covenant-compliance and demand impacts.  The language is largely qualitative—there are no exact dollar amounts—but it is specific about operational mechanisms (component shortages, freight inflation, transportation bottlenecks, labour shortages and remote-work challenges).  Because the filing date (23 Feb 2022) is less than three years after the WHO pandemic declaration, the Time Decay Principle allows high severity scores (up to 10).  Evidence spans realised impacts (“have been impacted,” “we are experiencing”) and forward-looking uncertainties (“may continue,” “will continue”), with limited mitigating factors beyond price increases and inventory commitments.  Overall, the risk is recent, direct and multi-faceted, meriting consistently high—but not always maximum—scores across the extracted sentences.",
+        "evidence_list": [
+            {
+                "snippet": "Our financial condition and results of operations have been and may continue to be impacted by the COVID-19 pandemic",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly names COVID-19 as the cause of impact.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States impacts are both realised ('have been') and ongoing ('may continue').",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers broad financial statement areas but gives no quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct admission of past and future financial impact yields a high score despite lack of numerical detail."
+            },
+            {
+                "snippet": "The global spread of COVID-19 continues to create volatility, uncertainty, and economic disruption.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies continuing macro-economic disruption tied to the pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong descriptors ('volatility, uncertainty, disruption').",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic, not company-specific.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Macro-level risk is recent and persistent but generic, so mid-range severity."
+            },
+            {
+                "snippet": "The pandemic caused a slowdown in worldwide economic activity and is currently causing disruptions to global supply chains.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 to supply-chain disruptions—core operational risk.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "States both historic and current effects.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No Trimble-specific metrics.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Directly addresses supply-chain impact but without company-specific detail, giving a solid but not extreme score."
+            },
+            {
+                "snippet": "The COVID-19 pandemic continues to have widespread, rapidly evolving, and unpredictable impacts on global society, economies, financial markets, and business practices.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Emphasises ongoing, evolving, unpredictable nature of impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Covers multiple external arenas that indirectly affect Trimble.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Still high-level and not company-specific.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Broad external-environment statement warrants moderate risk weight."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has impacted and may continue to impact our business operations, including our employees, customers, partners, and communities, and there is substantial uncertainty in the nature and degree of its continued effects over time.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifically references multiple stakeholder groups affected.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Combines realised and future uncertainty language.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights substantial uncertainty without data.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Company-specific, multi-stakeholder impact with ongoing uncertainty drives a high score."
+            },
+            {
+                "snippet": "We have experienced disruption in our supply chain as a result of the effects of COVID-19 related events and their impact on our suppliers and on international trade in general, leading to shortfalls in available components we need to make products as well as increased costs to obtain components, to make products, and to transport components and products.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms actual supply-chain disruption directly attributed to COVID-19.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Details concrete consequences: component shortfalls and cost increases across procurement, production and logistics.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Operational impact clearly tied to revenue/cost structure.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No numeric magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Highly specific, realised operational hardships yield near-maximum severity."
+            },
+            {
+                "snippet": "We are experiencing extended delivery times for certain components of our hardware products and increased freight costs.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Uses present tense ('are experiencing') signifying ongoing impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies two measurable operational pain points: lead-time extension and cost inflation.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Implication of margin pressure though unquantified.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Current, concrete operational impacts push the score into the high range."
+            },
+            {
+                "snippet": "As a result, we are making binding commitments with longer lead times and procuring components at higher prices, which may impact our flexibility to adapt to changing market conditions and product demand.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes management response that locks in higher costs—operational risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights reduced strategic flexibility (future risk).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Represents partial mitigation (securing supply).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Shows both a risk and a mitigating action, resulting in a moderate score."
+            },
+            {
+                "snippet": "Therefore, we will continue to experience delays in shipping our products and increased costs, which may reduce our revenue and gross margin and continue to increase our backlog.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forecasts ongoing operational delays and cost increases.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Directly links to key financial metrics: revenue, gross margin, backlog.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Forward-looking without numeric size.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Spells out probable financial degradation, producing a strong but not maximum score."
+            },
+            {
+                "snippet": "COVID-19 and variant impacts, especially related to global supply chain disruptions and parts and labor shortages, and increased worldwide demand for certain components, continued to impact our business and operations.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Confirms ongoing influence of COVID-19 variants.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies supply-chain, parts and labour shortages.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses non-quantified wording.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Continued, multi-faceted impacts raise risk to mid-high level."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has also heavily impacted the environment for attracting and managing employees, and our failure to successfully manage these changes and navigate transitions such as return to office could harm our ability to attract and retain the best talent.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces labour market / human capital dimension.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links to strategic talent retention risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Conditional wording ('could harm').",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights HR vulnerability, but conditional language moderates severity."
+            },
+            {
+                "snippet": "Restrictions or disruptions to transportation, including reduced availability of ground or air transport;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies specific logistical bottleneck related to pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Part of a list without direct company impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Single list item provides limited standalone weight."
+            },
+            {
+                "snippet": "Continued disruption of the supply chain for our products;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Directly references ongoing supply-chain disruption to Trimble products.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "No elaboration or context.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Acknowledges disruption but in isolation lacks detail, so low-moderate score."
+            },
+            {
+                "snippet": "The effect on our customers and customer demand for and ability to pay for our products and services;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Addresses demand-side financial risk stemming from pandemic.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Speculative; lacks evidence of realised impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Potential but unproven demand risk yields modest score."
+            },
+            {
+                "snippet": "Future disruptions could occur as a result of any number of events, including, but not limited to, the continuing impacts of the COVID-19 pandemic,",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forecasts additional disruptions tied to ongoing pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Very conditional and broad.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Highly generic forward-looking statement carries minimal incremental risk weight."
+            },
+            {
+                "snippet": "differing regional responses and restrictions related to global pandemics, like the COVID-19 pandemic;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags geographic variability risk—operational complexity.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Generic list item with no direct impact stated.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Adds context, but limited standalone severity."
+            },
+            {
+                "snippet": "Our 2021 results of operations reflect significant revenue improvement as the overall impact of COVID-19 was less pronounced.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Indicates diminishing pandemic impact—a mitigating factor.",
+                            "points": -2
+                        },
+                        {
+                            "reason": "Still acknowledges prior influence on revenues.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": -1
+                },
+                "reasoning_summary": "Represents improvement, so net negative score (mitigation)."
+            },
+            {
+                "snippet": "As a result of COVID-19, the year-to-year comparison of 2020 to 2021 reflects significant distortions in growth rates as our business rebounded in 2021.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Shows COVID-19 distorted financial comparability—moderate residual effect.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "References rebound (mitigation).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Acknowledges lingering comparative noise but also recovery, so low net risk score."
+            },
+            {
+                "snippet": "Our results of operations could be adversely affected to the extent that future pandemics, similar to COVID-19 or any other epidemic, harm any significant market where we do business.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Forward-looking pandemic scenario risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No current impact; hypothetical.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Purely contingent statement keeps score low."
+            },
+            {
+                "snippet": "Contagious disease epidemics or global pandemics could also significantly impact our international supply chain and result in component and product shortages and general disruptions to the economy.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights potential for significant supply-chain and economic disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Conditional language and not COVID-specific.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 2
+                },
+                "reasoning_summary": "Potential severity balanced by hypothetical framing."
+            },
+            {
+                "snippet": "Such outbreaks could also result in mass quarantines, business closures, and significantly impact our suppliers, customers, and commercial partners in affected areas, which may materially and adversely affect our business, financial condition, and results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes severe operational and financial consequences.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Still hypothetical ('could').",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Severe but hypothetical effects place the score in the mid-range."
+            }
+        ],
+        "calculated_score": 74,
+        "average_severity": 3.5238095238095237
+    }
+]

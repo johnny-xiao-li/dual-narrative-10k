@@ -1,0 +1,268 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "COVID-19 is a live, less-than-one-year-old shock at the time of Google’s February 2021 10-K filing, so the Time Decay principle allows high severity scores.  The filing documents both realised and forward-looking impacts: a March 2020 fall in advertising revenue, ongoing volatility in ad-spend, supply-chain shortages, remote-work productivity constraints, rising compliance and FX risks, and threats to data-centre continuity.  Language such as “have impacted,” “continues,” and “highly unpredictable and significant” indicates that the pandemic is not merely hypothetical but already affecting core revenue streams (>80 % advertising) and essential operations.  Although management mentions limited mitigants (hedging, gradual ad recovery, return-to-office planning), these are tentative and do not materially offset the breadth of exposure.  Consequently, most individual snippets warrant upper-mid (5-9) scores, reflecting substantial but not yet quantified damage; lower scores are reserved for generic or hedged references.  Overall, the company’s disclosures convey a high-level, multifaceted, ongoing risk environment tied directly to the COVID-19 pandemic.",
+        "evidence_list": [
+            {
+                "snippet": "The continuing impacts of COVID-19 are highly unpredictable and could be significant, and may have an adverse effect on our business, operations and our future financial performance.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly links COVID-19 to potentially 'significant' adverse effects.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers multiple core areas (business, operations, financial performance).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights continuing and unpredictable nature, increasing uncertainty.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 9
+                },
+                "reasoning_summary": "Direct, sweeping statement of ongoing and severe pandemic risk with no mitigating language yields a very high score."
+            },
+            {
+                "snippet": "Adverse macroeconomic conditions, including COVID-19 and its effects on the global economy (as discussed in greater detail in our COVID-19 risk factor under ‘General Risks’ below), have impacted the demand for advertising and resulted in fluctuations in the amounts our advertisers spend on advertising, and could have an adverse impact on such demand and spend, which could harm our financial condition and operating results.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that COVID-19 HAS already impacted ad demand (realised impact).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Advertising is company’s primary revenue source (>80 % cited elsewhere).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Projects further harm to financial condition and operating results.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Realised hit to core revenue plus forward-looking threat supports a strong but not maximum score."
+            },
+            {
+                "snippet": "In addition, COVID-19 and its effects on the global economy has impacted and may continue to adversely impact our revenue growth rate (as discussed in greater detail in our COVID-19 risk factor under ‘General Risks’ below).",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges current negative impact on revenue growth.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Warns of continued adverse impact going forward.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Concrete but unquantified impact on growth rate yields a mid-high score."
+            },
+            {
+                "snippet": "We have experienced and/or may experience supply shortages and price increases driven by raw material, component or part availability, manufacturing capacity, labor shortages, industry allocations, tariffs, trade disputes 12 and barriers, natural disasters or pandemics (including COVID-19), the effects of climate change ...",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits past and potential future supply shortages tied to pandemics including COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Supply-chain disruption can impair product availability and data-centre build-outs.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk diluted by a long list of other causes (less specificity).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Supply-chain risk is real but partially diluted by broad catch-all wording, producing a moderate score."
+            },
+            {
+                "snippet": "The occurrence of a natural disaster or pandemic (including COVID-19), closure of a facility, or other unanticipated problems at, or impacting, our data centers could result in lengthy interruptions in our service.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links COVID-19 to potential prolonged service interruptions at data centres.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Operational continuity is critical to Google’s platforms.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Clear operational threat justifies a moderately high score."
+            },
+            {
+                "snippet": "Our systems are vulnerable to damage, interference, or interruption from modifications or upgrades, terrorist attacks, natural disasters or pandemics (including COVID-19)...",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions COVID-19 as a driver of IT system vulnerability.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highly generic list of threats dilutes focus.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic phrasing and no evidence of impact keep the score low despite relevance."
+            },
+            {
+                "snippet": "our response process, particularly during times of a natural disaster or pandemic (including COVID-19), may not be adequate, may fail to accurately assess the severity of an incident, may not respond quickly enough, or may fail to sufficiently remediate an incident.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifically flags diminished incident-response capability during COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong negative possibilities ('may not be adequate').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights elevated cybersecurity/operational risk during pandemic, mid-level severity."
+            },
+            {
+                "snippet": "we may be unable to adequately detect and prevent such abuses or promote high-quality content, particularly during times of a natural disaster or pandemic (including COVID-19).",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Notes quality-control weaknesses exacerbated by COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement is conditional and somewhat generic.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Relevant but weakly stated; results in a low score."
+            },
+            {
+                "snippet": "COVID-19 has also resulted in quarantines, shelter in place orders, and work from home directives, all of which have increased demands for internet access and may create access challenges.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes concrete pandemic-driven operational strain (internet capacity).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Potential access challenges could impair user experience and revenue.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "No mitigation provided.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Direct causal chain from pandemic measures to access risk earns high-mid score."
+            },
+            {
+                "snippet": "Although we hedge a portion of our international currency exposure, significant fluctuations in exchange rates between the U.S. dollar and foreign currencies may adversely affect our revenues and earnings, particularly in light of market volatilities due to COVID-19.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Connects pandemic to FX volatility impacting revenues/earnings.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicit mention of partial hedging (mitigation).",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Mitigation via hedging largely offsets the aggravated risk, leading to a low net score."
+            },
+            {
+                "snippet": "Complying with these evolving laws could result in substantial costs and harm the quality of our products and services, negatively affecting our business, and may be particularly challenging during certain times, such as a natural disaster or pandemic (including COVID-19).",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Identifies regulatory compliance difficulties heightened by COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk phrased as conditional and ancillary.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Adds colour but low specificity and conditional tone keep score minimal."
+            },
+            {
+                "snippet": "Additional and/or extended, governmental lockdowns, restrictions or new regulations could significantly impact the ability of our employees and vendors to work productively.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights productivity risk from pandemic-related lockdowns.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Does not explicitly reference COVID-19 though clearly connected; slight dilution.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Implicit pandemic reference and operational severity balanced by lack of explicit mention."
+            },
+            {
+                "snippet": "As we prepare to return our workforce in more locations back to the office in 2021, we may experience increased costs as we prepare our facilities for a safe return to work environment and experiment with hybrid work models, in addition to potential effects on our ability to compete effectively and maintain our corporate culture.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specifies cost increases tied to post-COVID workplace adjustments.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Touches on strategic risks (culture, competitiveness).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Concrete forthcoming cost burden related to pandemic earns a solid mid score."
+            },
+            {
+                "snippet": "We began to observe the impact of COVID-19 and the related reductions in global economic activity on our financial results in March 2020 when, despite an increase in users' search activity, our advertising revenues declined compared to the prior year due to a shift of user search activity to less commercial topics and reduced spending by our advertisers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Provides specific timing (March 2020) and realised revenue decline.",
+                            "points": 5
+                        },
+                        {
+                            "reason": "Links decline directly to pandemic-driven user and advertiser behaviour.",
+                            "points": 3
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "One of the strongest pieces of evidence: concrete, dated, realised revenue hit, so near-top score."
+            }
+        ],
+        "calculated_score": 57,
+        "average_severity": 4.071428571428571
+    }
+]

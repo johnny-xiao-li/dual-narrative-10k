@@ -1,0 +1,77 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "Celanese’s 2024 filing references the COVID-19 pandemic primarily as an ongoing, broad-based operational hazard rather than a currently crippling threat. The company situates pandemic risk within long enumerations of potential disruptions—supply chain interruptions, labor issues, price volatility, IT security vulnerabilities—all couched in largely forward-looking language. Only one sentence attributes concrete, already-incurred impacts (supply disruptions and higher input costs in 2021-2022), and it does so without explicitly naming COVID-19. Given that the pandemic’s onset was March 2020—just under four years before the filing—the Time Decay Principle places this evidence at the cusp between “recent” and “medium-term.” Accordingly, direct but unquantified historical impacts merit a mid-level score, while generic, prospective mentions are scored lower. No sentence offers quantified financial damage, and several are diluted by long lists of other hazards, tempering overall severity. The aggregate risk signal is therefore moderate: the pandemic remains material enough to warrant disclosure, yet its incremental threat is now comparable to other macro uncertainties rather than an acute, stand-alone crisis.",
+        "evidence_list": [
+            {
+                "snippet": "Disruptions or interruptions of operations could occur for many reasons, including fire, natural disasters, severe weather, unplanned maintenance or other manufacturing problems, public health crises (including, but not limited to, the COVID-19 pandemic), disease, geopolitical events, strikes or other labor unrest, transportation interruption, government regulation, political unrest or terrorism, accidents, interruptions in sources of raw materials, cybersecurity incidents, the occurrence of acts of war, or other unforeseen events or delays in construction or operation of facilities.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly identifies COVID-19 pandemic as a potential cause of operational disruption.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links pandemic to material risk of facility shutdowns and supply shortfalls.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Risk is framed generically within a long catch-all list, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific mention of COVID-19 as a possible disruptor earns positive weight, but generic wording and absence of quantified impact cap the score at a moderate 4."
+            },
+            {
+                "snippet": "Prices can increase significantly as a result of uncertainties associated with inflationary pressures, transportation or logistics disruptions, weather, natural disasters, epidemics, pandemics, the effects of climate change or political instability, plant or production disruptions, war or conflicts, strikes or other labor unrest, breakdown or degradation of transportation infrastructure used in the delivery of raw materials and energy commodities, terrorist activities, civil unrest, or changes in laws or regulations in any of the countries in which we have significant suppliers.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that pandemics can materially raise input costs, directly tied to supply chain risk.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemic reference is generic (no mention of COVID-19) and embedded among many unrelated factors.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "No historical data or quantification provided.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Provides only a generic nod to pandemic-driven cost inflation; weak specificity and no data keep the score low."
+            },
+            {
+                "snippet": "Like many companies, we experienced significant supply disruptions and increased costs of inputs during 2021 and into 2022.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes a realized, historical impact—‘significant supply disruptions and increased costs’.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Timeframe (2021-2022) overlaps pandemic period, implying COVID-19 linkage even if not named.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Lacks explicit attribution to COVID-19 and offers no quantification.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Direct, recent operational impact warrants a higher score, but absence of explicit COVID naming and of numbers moderates it to 5."
+            }
+        ],
+        "calculated_score": 10,
+        "average_severity": 3.3333333333333335
+    }
+]

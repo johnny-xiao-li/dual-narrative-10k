@@ -1,0 +1,312 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "EPAM’s 2022 Form 10-K frames COVID-19 as a still-unfolding, multi-dimensional threat that has already dented performance and could materially worsen near-term results.  The filing, dated only two years after the WHO declaration (well within the 0-to-3-year “recent” window), blends backward-looking evidence of actual disruptions—contract delays, revenue loss and labour constraints—with forward-looking uncertainty involving new variants, customer insolvency, supply-chain inflation and cyber-vulnerabilities tied to remote work.  Although management highlights meaningful mitigants (high remote-work readiness and an “adaptive global delivery model”), these statements are counter-weighted by repeated use of “materially adversely affect,” “losses of revenues,” and “heightening of other risks.”  The language is largely qualitative and unquantified, yet highly specific to operational levers (personnel access, travel restrictions, bad-debt risk, added costs).  Applying the Time Decay Principle, the pandemic remains recent, allowing high scores (7–8) where evidence shows direct or material impact, mid-range scores (4–6) for specific but less severe or more speculative risks, and low/zero scores for predominantly mitigating language.  The overall risk posture is therefore assessed as elevated but partially moderated by demonstrated operational resilience.",
+        "evidence_list": [
+            {
+                "snippet": "Our results of operations have been adversely affected and could in the future be materially adversely affected by the COVID-19 pandemic.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States past actual adverse impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Projects future ‘material’ adverse impact.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Directly links impact to COVID-19.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Explicitly acknowledges both realised and potentially material future harm from COVID-19; strong, recent and direct, hence high score of 7."
+            },
+            {
+                "snippet": "The COVID-19 pandemic has contributed to significant volatility in the price of our common stock, created uncertainty in customer demand for, and ability to supply, our services and caused widespread economic disruption.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple concrete impacts (stock volatility, demand uncertainty, supply challenges).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Uses strong qualifier ‘significant’.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Event is recent and ongoing.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Multiple direct impacts described with strong language; recent timeframe justifies a score of 7."
+            },
+            {
+                "snippet": "Restrictions on access to our customers and their facilities, and broad disruptions in our customers’ markets, has disrupted, and could continue to disrupt the demand for our products, services, and solutions and result in, among other things, termination of customer contracts, delays or interruptions in the performance of contracts, losses of revenues, reduced profitability, and an increase in bad debt expense.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites actual disruption already occurring.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Enumerates severe financial consequences (loss of revenue, profitability, bad debt).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Highlights possibility of continued disruption.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Detailed causal chain shows high specificity.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 8
+                },
+                "reasoning_summary": "Specific, ongoing and financially severe impacts push the score near the top of the recent-event range."
+            },
+            {
+                "snippet": "Customers have and may continue to slow or halt decision making, delay planned work, or suspend, terminate, fail to renew, or reduce existing contracts or services.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Describes realised client behaviour (‘have’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Signals continuing risk (‘may continue’).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Direct revenue jeopardy through contract actions.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Shows both past and prospective revenue-threatening behaviours; mid-level severity warrants a score of 5."
+            },
+            {
+                "snippet": "Travel and immigration restrictions may delay or prevent our personnel from accessing worksites, and remote working arrangements increase information security, cyber security and connectivity vulnerabilities.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Operational constraints from travel/immigration limits.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Introduces heightened cyber/security vulnerabilities.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking ‘may’ indicates potential but not certain impact.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Operational and cyber-risk dimensions raise concern but are framed as potential, yielding a moderate score."
+            },
+            {
+                "snippet": "Identifying, recruiting, hiring and retaining professionals with diverse skill sets across our broad geography of operations is critical to maintaining existing engagements and obtaining new business and has become more challenging in the economic and labor climate caused by the COVID-19 pandemic.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights labour-market tightening attributable to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links talent challenge to ability to win/retain business.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Labour shortages directly linked to revenue generation produce a mid-level risk score."
+            },
+            {
+                "snippet": "Economic conditions resulting from the pandemic, including supply chain disruptions, persistent inflation for both goods and services, and worker shortages could negatively affect our operations and the operations of our customers and their customers and could adversely impact our revenues and our results of operations.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Cites multiple macroeconomic pressures (supply chain, inflation, labour).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Explicitly connects to revenue and results.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Forward-looking ‘could’ tempers certainty.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Broad macro pressures tied to financial outcomes justify a score of 6."
+            },
+            {
+                "snippet": "Our adaptive global delivery model enables us to deliver our services and solutions to our customers from remote locations, so we continue to effectively provide our customers with the products, services, and solutions they seek.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States a structural mitigation (remote delivery capability).",
+                            "points": -3
+                        },
+                        {
+                            "reason": "Implies continuity of service despite pandemic.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Purely mitigating language offsets risk; score floors at 0."
+            },
+            {
+                "snippet": "Since the beginning of the COVID-19 pandemic, the vast majority of our employees have been able to productively and securely work from a remote location, so we do not expect that COVID-19 will have a material adverse effect on our ability to operate our business or productively deliver services to our customers, nor on our financial reporting systems, internal control over financial reporting, or disclosure controls and procedures.",
+                "item_label": "item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Claims no material adverse effect expected.",
+                            "points": -3
+                        },
+                        {
+                            "reason": "Cites successful remote productivity as mitigation.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Strong mitigation language eliminates net risk contribution, leading to a zero score."
+            },
+            {
+                "snippet": "Extended or expanded restrictions on travel and immigration from other countries may continue to impact our operations.",
+                "item_label": "item_1a, item_7",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights ongoing travel/immigration constraint.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Potential operational impact noted.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Specific but single-dimension risk yields a modest score."
+            },
+            {
+                "snippet": "Moreover, there may be additional costs that we will have to incur in connection with further changes in response to the COVID-19 pandemic or a return to prior operating conditions.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Flags potential for incremental costs.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Costs linked directly to pandemic response/transition.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Adds cost-inflation angle; moderate severity results in score of 3."
+            },
+            {
+                "snippet": "To the extent the COVID-19 pandemic adversely affects our business and financial results, it may also have the effect of heightening many of the other risks described in this section of this Annual Report on Form 10-K for the year ended December 31, 2021, including, but not limited to, those relating to our operations in emerging markets, our ability to execute on our growth strategy through strategic acquisitions, our dependency on third parties for network infrastructure, attracting, hiring, and retaining personnel, the effects on movements in foreign currency exchange rates, and the effects that changes to fiscal, political, regulatory and other federal policies may have on EPAM, each of which could materially adversely affect our business, financial condition, results of operations and/or stock price.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that pandemic can amplify multiple other risk categories.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses ‘materially adversely affect’ regarding wide business dimensions.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Compounding nature of risk warrants a mid-level score of 5."
+            },
+            {
+                "snippet": "The extent to which the coronavirus pandemic will continue to impact our business, operations and financial results will depend on numerous factors that frequently change or are unknown, and that we may not be able to accurately predict.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Highlights high degree of uncertainty/unknowns.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Acknowledges inability to predict outcomes.",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Emphasises uncertainty rather than specific harm; scores at 3."
+            },
+            {
+                "snippet": "In addition, new coronavirus variants and eased COVID-19-related restrictions on businesses and consumers could affect our ability to deliver services to our customers because of an outbreak of illness among our employees, our customers’ employees, or at a facility.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Introduces variant-driven service-delivery risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Links outbreak to workforce availability.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Variant-specific operational threat drives a score of 5."
+            },
+            {
+                "snippet": "Those factors include: the duration and scope of the pandemic; governmental, business and individuals’ responses or planned responses to the pandemic, including availability, administration rates, and acceptance of vaccines and therapeutics, and the availability of diagnostic supplies; the impact of the pandemic on economic activity, supply chains, and inflation; any interventions or government measures intended to mitigate economic and supply disruptions; the effect on our customers and customer demand for our products, services, and solutions; our ability to sell and provide our products, services, and solutions, including as a result of travel restrictions and personnel availability; the ability of our customers to pay timely, if at all, for our services and solutions with or without discounts requested by our customers; bankruptcy or other insolvency procedures among our customers or suppliers; and closures of our and our customers’ offices and facilities.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Comprehensive enumeration of multiple risk vectors (supply chains, liquidity, demand, workforce).",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Covers both company and customer vulnerabilities.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Wide-ranging list of specific risk drivers merits a score of 6."
+            }
+        ],
+        "calculated_score": 68,
+        "average_severity": 4.533333333333333
+    }
+]

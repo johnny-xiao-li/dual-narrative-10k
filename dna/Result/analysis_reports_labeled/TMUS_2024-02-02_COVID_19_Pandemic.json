@@ -1,0 +1,66 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "T-Mobile’s 2024 Form 10-K still attributes meaningful operational and supply-chain uncertainty to global public-health events.  Although almost four years have passed since COVID-19 was declared a pandemic, the filing date (Feb-2024) keeps the disclosure within the recent-event window (≈3 yrs 11 mos).  The company frames pandemic exposure mostly as a forward-looking contingency: it could impede suppliers’ contractual performance, create labor disruptions, or trigger network outages when layered onto other disasters.  Language is largely qualitative and bundled with broader risk buckets, indicating the company has not observed material current impacts but recognises a continuing vulnerability.  Because the references remain specific to COVID-19 (by name) and tie directly to possible supply-chain failures and service interruptions, the event still carries a moderate-to-high severity under the Time-Decay Principle.  However, absence of quantified losses, together with generic, catch-all phrasing, moderates the ultimate scores.  Overall, COVID-19 is treated as an ongoing but not existential threat, warranting mid-range risk scores (≈2–6) rather than extremes.",
+        "evidence_list": [
+            {
+                "snippet": "Our suppliers are also subject to their own risks, including, but not limited to, economic, financial and credit conditions, labor force disruptions, geopolitical tensions, disruptions in global supply chain and the risks of natural catastrophic events (such as earthquakes, floods, hurricanes, storms, heatwaves and fires), energy shortages, power outages, equipment failures, terrorist attacks or other hostile acts, and public health crises, such as the COVID-19 pandemic (the “Pandemic”), which may result in performance below the levels required by their contracts.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly cites COVID-19 pandemic by name, confirming relevance.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Connects the pandemic to a concrete operational consequence: supplier under-performance below contractual standards (supply-chain disruption).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Positions the risk as ongoing and future-oriented ('may result'), indicating persistence beyond initial outbreak.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No quantified impact; phrasing is conditional and embedded in a long generic list, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Specific reference to COVID-19 linked to potential supplier failures yields a moderate risk (4/10) once deducting for its largely hypothetical, unquantified framing."
+            },
+            {
+                "snippet": "System, network, or infrastructure failures resulting from a number of causes may prevent us from providing reliable service, including those resulting from severe weather, storms, earthquakes, floods, hurricanes, wildfires and natural disasters, which may occur more frequently or with greater intensity as a result of global climate change, public health crises, terrorist attacks, political instability and volatility and acts of war;",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links ‘public health crises’ to potential system/network failures affecting service reliability.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Places pandemic risk alongside other high-impact events, implying materiality.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Does not mention COVID-19 specifically; risk is broad and illustrative.",
+                            "points": -1
+                        },
+                        {
+                            "reason": "Purely hypothetical with no data or mitigation detail.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic inclusion of public-health crises in a list of potential network-failure triggers merits only a low score (1/10) due to lack of COVID-19 specificity or quantified impact."
+            }
+        ],
+        "calculated_score": 5,
+        "average_severity": 2.5
+    }
+]

@@ -1,0 +1,149 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "LW’s July 25 2023 Form 10-K repeatedly links the COVID-19 pandemic to concrete operational and financial pressures—supply-chain interruptions, labor shortages, higher freight costs, ERP delays—and warns these effects may persist.  The company cites both past, realized impacts (“have experienced”, “have led”, “caused an increase”) and forward-looking uncertainty (“may continue”, “could negatively affect”).  No direct dollar quantifications are given, but the language is event-specific and ties to core cost drivers (commodities, transportation, labor).  Because the filing date is a little more than three years after the WHO declaration (just beyond the 0-3-year “recent” band), the Time Decay Principle indicates mid-range severity scores (≈4-6) for solid evidence, with slightly higher scores (up to 7) reserved for the clearest statements of actual impact.  Generic, merely potential references score lower.  Overall, COVID-19 remains a material, though moderating, risk factor for LW.",
+        "evidence_list": [
+            {
+                "snippet": "We have experienced, and may continue to experience, disruptions in our supply chain, including as a result of temporary workforce disruptions, labor shortages, increased transportation and warehousing costs, and other factors related to the effects of the COVID-19 pandemic and the ongoing war in Ukraine.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Admits actual past impact ('have experienced') on supply chain.",
+                            "points": 4
+                        },
+                        {
+                            "reason": "Explicitly attributes impact to COVID-19 pandemic.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Highlights continuing exposure ('may continue').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 7
+                },
+                "reasoning_summary": "Direct, realized supply-chain disruptions linked to COVID-19 with ongoing risk justify a high-moderate score of 7."
+            },
+            {
+                "snippet": "A sustained labor shortage or increased turnover rates within our workforce, caused by COVID-19 or as a result of general macroeconomic factors, have led and could in the future lead to production or shipping delays, increased costs, such as increased overtime to meet demand and increased 13 wage rates to attract and retain employees, and could negatively affect our ability to efficiently operate our production and distribution facilities and overall business.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "States that COVID-19–driven labor shortages 'have led' to negative effects (realized impact).",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Details specific operational consequences (delays, overtime, higher wages).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Projects future risk ('could in the future').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 6
+                },
+                "reasoning_summary": "Provides concrete operational impacts from COVID-19 labor shortages; strong but unquantified, so a solid 6."
+            },
+            {
+                "snippet": "For example, reduced availability of trucking capacity due to shortages of drivers, primarily as a result of the COVID-19 pandemic, caused an increase in the cost of transportation for us and our suppliers in fiscal 2022.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Links a specific cost increase (transportation) directly to COVID-19.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Gives a time reference (fiscal 2022) showing recent, realized impact.",
+                            "points": 2
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Specific past cost escalation tied to COVID-19; moderate severity earns a 5."
+            },
+            {
+                "snippet": "Pandemics or other contagious outbreaks and government actions taken in response thereto, may adversely impact, and in the case of the COVID-19 pandemic, have adversely impacted and may continue to adversely impact, our business, financial condition, and results of operations.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges that COVID-19 has already adversely impacted the company.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Signals continuing threat ('may continue').",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Covers broad areas (business, financial condition, results).",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Generic but clear acknowledgment of past and future adverse impacts—moderate weight produces a 4."
+            },
+            {
+                "snippet": "The pandemic has resulted in significant disruption of global financial markets, labor shortages, supply chain interruptions, increased commodity costs, inflation, and economic uncertainty, which has adversely impacted our business and may continue to do so.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Lists multiple broad pandemic-related disruptions.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "States adverse impact on company already realized.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Notes ongoing risk ('may continue').",
+                            "points": 1
+                        }
+                    ],
+                    "final_snippet_score": 5
+                },
+                "reasoning_summary": "Enumerates several impact channels with past effect; breadth but no quantification warrants a 5."
+            },
+            {
+                "snippet": "Due to the uncertainty caused by COVID-19, we paused ERP work in fiscal 2021, after completing the first phase of implementation.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Specific operational project delay directly attributed to COVID-19.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Indicates completed phase but interruption—shows adaptability (mitigant).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Narrow, project-level disruption with some mitigation; lower materiality keeps score at 3."
+            },
+            {
+                "snippet": "These commodities are subject to price volatility and fluctuations in availability caused by many factors, including: changes in global supply and demand, weather conditions (including any potential effects of climate change), fire, natural disasters (such as a hurricane, tornado, earthquake, wildfire or flooding), disease or pests, agricultural uncertainty, water stress, health epidemics or pandemics or other contagious outbreaks, such as the COVID-19 pandemic, governmental incentives and controls (including import/export restrictions, such as new or increased tariffs, sanctions, quotas or trade barriers including the financial and economic sanctions imposed by the U.S. and certain foreign governments in response to the war in Ukraine), limited or sole sources of supply, inflation, political uncertainties, acts of terrorism, governmental instability, war, or currency exchange rates.",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions COVID-19 as a potential driver of commodity price/availability risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Highly generic, embedded among many other factors (mitigates severity).",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Generic, pre-emptive listing of COVID-19 among many possible factors provides negligible incremental insight; scores 0."
+            }
+        ],
+        "calculated_score": 30,
+        "average_severity": 4.285714285714286
+    }
+]

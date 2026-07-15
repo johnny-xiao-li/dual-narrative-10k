@@ -1,0 +1,134 @@
+[
+    {
+        "event_info": {
+            "event_name": "COVID_19_Pandemic",
+            "event_timeframe": "2020-03-11 and subsequent years",
+            "event_description": "Analyze for disclosures on global pandemic risks. Look for corporate language discussing widespread impacts like supply chain disruptions, labor shortages, remote work transitions, and fundamental shifts in consumer demand."
+        },
+        "holistic_analysis": "The filing, dated February 2023, squarely falls within three years of the WHO’s March 2020 declaration of the COVID-19 pandemic, so Time-Decay allows relatively high scores.  Xcel Energy frames pandemic exposure chiefly as an ongoing, enterprise-wide risk that could materially affect cash flow, liquidity, supply-chain reliability and labour availability.  The language is forward-looking but acknowledges continuing impacts (e.g., on supply chains and markets), indicating the risk is not merely hypothetical.  However, the disclosures remain largely qualitative: there are no quantified dollar amounts, no explicit discussion of remote-work adaptations, and only broad references to potential shutdowns and workforce shortages.  Mitigations or concrete response plans are absent, and the company repeatedly states it “cannot predict” the ultimate impact, which tempers severity.  Overall, the pandemic is presented as a real, continuing threat with multiple operational vectors, but the absence of specific financial metrics or incidents keeps the evidence from the highest severity tier.  Consequently, individual snippet scores cluster in the mid-single digits, reflecting recent timing and identifiable operational links, moderated by generic wording and uncertainty disclaimers.",
+        "evidence_list": [
+            {
+                "snippet": "We face risks related to health epidemics and other outbreaks, which may have a material effect on our financial condition, results of operations and cash flows.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Explicitly identifies health epidemics (pandemic) as a risk category for the company.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Uses strong materiality language (‘may have a material effect’).",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Statement is generic – no detail on COVID-19 specifics or magnitude.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Directly flags epidemics as a potentially material risk but remains generic, yielding a moderate score of 4."
+            },
+            {
+                "snippet": "Health epidemics continue to impact countries, communities, supply chains and markets.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges continued, present-tense impact, not just potential future risk.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Specifies broad operational areas (supply chains, markets) affected.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Still lacks company-specific data or quantified impact.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 4
+                },
+                "reasoning_summary": "Highlights ongoing pandemic effects on key operational arenas; absence of company metrics tempers score to 4."
+            },
+            {
+                "snippet": "Uncertainty continues to exist regarding epidemics; the duration and magnitude of business restrictions including shutdowns (domestically and globally); the potential impact on the workforce including shortages of employees and third-party contractors due to quarantine policies, vaccination requirements or government restrictions; impacts on the transportation of goods, and the generalized impact on the economy.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Enumerates multiple concrete disruption channels: shutdowns, labour shortages, transportation delays.",
+                            "points": 3
+                        },
+                        {
+                            "reason": "Emphasises continuing uncertainty, indicating forward-looking risk.",
+                            "points": 1
+                        },
+                        {
+                            "reason": "No mitigation strategy or quantified impact presented.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 3
+                },
+                "reasoning_summary": "Detailed list of potential operational disruptions raises relevance, but generic uncertainty language and no numbers keep score modest at 3."
+            },
+            {
+                "snippet": "We cannot ultimately predict whether an epidemic will have a material impact on our future liquidity, financial condition or results of operations.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Acknowledges possibility of material impact on key financial metrics.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Strong disclaimer of predictability reduces perceived severity.",
+                            "points": -2
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Balance of material-impact acknowledgement and disclaiming uncertainty nets to a neutral score of 0."
+            },
+            {
+                "snippet": "Nor can we predict the impact on the health of our employees, our supply chain or our ability to recover higher costs associated with managing an outbreak.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Mentions specific areas of concern (employee health, supply chain, cost recovery).",
+                            "points": 1
+                        },
+                        {
+                            "reason": "Explicitly states inability to predict, mitigating the risk signal.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 0
+                },
+                "reasoning_summary": "Lists affected domains but is heavily caveated; overall effect is neutral, yielding 0."
+            },
+            {
+                "snippet": "We also face the risks of possible loss of business due to significant events such as severe storms, temperature extremes, wildfires (particularly in Colorado), widespread pandemic, generator or transmission facility outage, pipeline rupture, railroad disruption, operator error, sudden and significant increase or decrease in wind generation or a workforce disruption.",
+                "item_label": "item_1a",
+                "score_calculation": {
+                    "components": [
+                        {
+                            "reason": "Includes ‘widespread pandemic’ among events that could cause business loss.",
+                            "points": 2
+                        },
+                        {
+                            "reason": "Pandemic is listed generically in a long catalogue of risks, diluting specificity.",
+                            "points": -1
+                        }
+                    ],
+                    "final_snippet_score": 1
+                },
+                "reasoning_summary": "Generic mention in a laundry list provides weak but present linkage, meriting a low score of 1."
+            }
+        ],
+        "calculated_score": 12,
+        "average_severity": 2.0
+    }
+]
